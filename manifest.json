@@ -1,0 +1,17 @@
+{
+  "name": "Khẩu ngữ Trung cấp - Doubao",
+  "short_name": "Khẩu ngữ",
+  "description": "Tra cứu kịch bản và copy nhanh cho Doubao Voice",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#dc2626",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23dc2626'/><text x='50%' y='68%' font-size='56' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'>说</text></svg>",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
