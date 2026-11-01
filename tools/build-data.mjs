@@ -8,6 +8,7 @@ import { writeFileSync, readdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { pinyin } from "pinyin-pro";
+import { TRANSLATIONS } from "./translations.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const root = join(here, "..");
@@ -78,23 +79,76 @@ function fixPolyphone(chars, i, guess) {
 const py = (s) => {
   const items = pinyin(s, { type: "all", toneType: "symbol" });
   const chars = items.map((it) => it.origin);
-  const out = [];
-  let open = ""; // dấu mở ngoặc/ngoặc kép dính vào âm tiết kế tiếp
+
+  // Phát hiện các âm mang thanh 3 trước một âm thanh 3 khác trong cùng vế câu (trước dấu câu)
+  const zhTokens = [];
+  items.forEach((it, idx) => {
+    if (it.isZh && it.origin !== "儿") {
+      zhTokens.push({ it, idx });
+    }
+  });
+
+  const sandhiIndices = new Set();
+  for (let k = 0; k < zhTokens.length - 1; k++) {
+    const cur = zhTokens[k];
+    const next = zhTokens[k + 1];
+    let hasPunct = false;
+    for (let p = cur.idx + 1; p < next.idx; p++) {
+      if (!items[p].isZh || PUNCT[items[p].origin]) {
+        hasPunct = true;
+        break;
+      }
+    }
+    if (!hasPunct && cur.it.num === 3 && next.it.num === 3) {
+      sandhiIndices.add(cur.idx);
+    }
+  }
+
+  const plainOut = [];
+  const htmlOut = [];
+  let open = "";
+
   items.forEach((it, i) => {
     const prev = items[i - 1];
     if (
       it.origin === "儿" && prev && prev.isZh &&
       !ER_PREV.test(prev.origin) && !ER_WORDS.test(chars.slice(i).join(""))
     ) {
-      out[out.length - 1] += "r";
+      plainOut[plainOut.length - 1] += "r";
+      const lastHtml = htmlOut[htmlOut.length - 1];
+      if (lastHtml && lastHtml.endsWith("</span>")) {
+        htmlOut[htmlOut.length - 1] = lastHtml.replace(/<\/span>$/, "r</span>");
+      } else if (htmlOut.length) {
+        htmlOut[htmlOut.length - 1] += "r";
+      }
       return;
     }
-    if (it.isZh) { out.push(open + fixPolyphone(chars, i, it.pinyin)); open = ""; }
-    else if (it.origin === "“" || it.origin === "（") open += PUNCT[it.origin];
-    else if (PUNCT[it.origin]) out.length ? (out[out.length - 1] += PUNCT[it.origin]) : out.push(PUNCT[it.origin]);
-    else if (it.origin.trim()) out.push(it.origin);
+
+    if (it.isZh) {
+      const fixed = fixPolyphone(chars, i, it.pinyin);
+      plainOut.push(open + fixed);
+      if (sandhiIndices.has(i)) {
+        htmlOut.push(`${open}<span class="t3" title="Biến điệu thanh 3: tự đọc thành thanh 2">${fixed}</span>`);
+      } else {
+        htmlOut.push(open + fixed);
+      }
+      open = "";
+    } else if (it.origin === "“" || it.origin === "（") {
+      open += PUNCT[it.origin] || it.origin;
+    } else if (PUNCT[it.origin]) {
+      const p = PUNCT[it.origin];
+      if (plainOut.length) plainOut[plainOut.length - 1] += p; else plainOut.push(p);
+      if (htmlOut.length) htmlOut[htmlOut.length - 1] += p; else htmlOut.push(p);
+    } else if (it.origin.trim()) {
+      plainOut.push(it.origin);
+      htmlOut.push(it.origin);
+    }
   });
-  return out.join(" ");
+
+  return {
+    plain: plainOut.join(" "),
+    html: htmlOut.join(" ")
+  };
 };
 
 // ---------- Prompt chung ----------
@@ -158,7 +212,9 @@ for (let i = 0; i < lines.length; i++) {
       lesson.patterns.push(pattern);
     } else if (pattern && l.startsWith("Ví dụ:")) {
       pattern.example = l.replace(/^Ví dụ:\s*/, "").trim();
-      pattern.examplePinyin = py(pattern.example);
+      const exPy = py(pattern.example);
+      pattern.examplePinyin = exPy.plain;
+      pattern.examplePinyinHtml = exPy.html;
     } else if (pattern && l.startsWith("Dịch bám nghĩa:")) {
       pattern.exampleVi = l.replace(/^Dịch bám nghĩa:\s*/, "").trim();
     } else if (pattern) {
@@ -183,14 +239,26 @@ for (let i = 0; i < lines.length; i++) {
     if (!topic) continue;
     if ((m = l.match(/^\[(\d{2})\]\s+([AB])\s+｜(.+)$/))) {
       const zh = m[3].trim();
-      topic.lines.push({ n: m[1], role: m[2], zh, pinyin: py(zh) });
+      const lineIdx = topic.lines.length;
+      const pyRes = py(zh);
+      const vi = TRANSLATIONS[topic.id]?.[lineIdx] || "";
+      topic.lines.push({
+        n: m[1],
+        role: m[2],
+        zh,
+        pinyin: pyRes.plain,
+        pinyinHtml: pyRes.html,
+        vi
+      });
     } else if (l.startsWith("Mạch ý:")) {
       topic.outline = l.replace(/^Mạch ý:\s*/, "").trim();
     } else if (l.startsWith("ĐOẠN LỜI THOẠI")) {
       // bỏ qua tiêu đề
     } else if (!topic.question) {
       topic.question = l;
-      topic.questionPinyin = py(l);
+      const qPy = py(l);
+      topic.questionPinyin = qPy.plain;
+      topic.questionPinyinHtml = qPy.html;
     }
   }
 }

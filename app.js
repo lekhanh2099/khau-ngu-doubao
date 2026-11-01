@@ -21,6 +21,7 @@
   const state = {
     selectedLesson: localStorage.getItem("kn_selected_lesson") || "all",
     showPinyin: localStorage.getItem("kn_show_pinyin") !== "false", // Mặc định bật
+    showVi: localStorage.getItem("kn_show_vi") !== "false", // Mặc định bật
     searchKeyword: "",
     expandedScripts: new Set()
   };
@@ -158,7 +159,7 @@
               </div>
 
               <div class="topic-question">${esc(t.question)}</div>
-              ${t.questionPinyin ? `<div class="topic-pinyin">${esc(t.questionPinyin)}</div>` : ""}
+              ${t.questionPinyinHtml ? `<div class="topic-pinyin">${t.questionPinyinHtml}</div>` : (t.questionPinyin ? `<div class="topic-pinyin">${esc(t.questionPinyin)}</div>` : "")}
 
               ${t.outline ? `<div class="topic-outline"><strong>Mạch ý:</strong> ${esc(t.outline)}</div>` : ""}
 
@@ -183,8 +184,8 @@
               <!-- Phần hiển thị kịch bản 18 câu khi nhấn mở -->
               <div class="script-drawer" id="script-${t.id}" ${isExpanded ? "" : "hidden"}>
                 <div class="script-intro">
-                  <span>Toàn bộ 18 câu thoại A–B</span>
-                  <span>Nhấn vào câu để copy câu đó</span>
+                  <span>Kịch bản 18 câu</span>
+                  <span class="sandhi-legend">💡 <span class="t3">Màu cam</span> = biến điệu thanh 3</span>
                 </div>
 
                 <div class="dialogue-list">
@@ -192,10 +193,11 @@
                     .map(
                       (line) => `
                     <div class="dialogue-line" data-action="copy-single-line" data-line-text="${esc(line.zh)}" title="Bấm để copy câu này">
-                      <span class="role-badge role-${line.role}">${line.n} · ${line.role === "A" ? "🤖 A" : "🗣️ B"}</span>
+                      <span class="role-badge role-${line.role}">${line.role === "A" ? "🤖 A" : "🗣️ B"}</span>
                       <div class="line-content">
                         <div class="line-zh">${esc(line.zh)}</div>
-                        ${line.pinyin ? `<div class="line-pinyin">${esc(line.pinyin)}</div>` : ""}
+                        ${line.pinyinHtml ? `<div class="line-pinyin">${line.pinyinHtml}</div>` : (line.pinyin ? `<div class="line-pinyin">${esc(line.pinyin)}</div>` : "")}
+                        ${line.vi ? `<div class="line-vi">${esc(line.vi)}</div>` : ""}
                       </div>
                     </div>
                   `
@@ -328,6 +330,19 @@
       state.showPinyin = e.target.checked;
       localStorage.setItem("kn_show_pinyin", state.showPinyin);
       document.body.classList.toggle("hide-pinyin", !state.showPinyin);
+    });
+  }
+
+  // Bật / tắt hiển thị bản dịch tiếng Việt
+  const viToggle = $("#viToggle");
+  if (viToggle) {
+    viToggle.checked = state.showVi;
+    document.body.classList.toggle("hide-vi", !state.showVi);
+
+    viToggle.addEventListener("change", (e) => {
+      state.showVi = e.target.checked;
+      localStorage.setItem("kn_show_vi", state.showVi);
+      document.body.classList.toggle("hide-vi", !state.showVi);
     });
   }
 
