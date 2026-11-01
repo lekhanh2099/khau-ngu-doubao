@@ -4,7 +4,7 @@
 // Cách chạy (macOS – cần `textutil` có sẵn của hệ điều hành):
 //   cd tools && npm install && node build-data.mjs [đường-dẫn-file.docx]
 import { execFileSync } from "node:child_process";
-import { writeFileSync, readdirSync } from "node:fs";
+import { writeFileSync, readFileSync, readdirSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { pinyin } from "pinyin-pro";
@@ -268,6 +268,14 @@ for (let i = 0; i < lines.length; i++) {
 }
 
 // ---------- Tạo phiên bản V1 (Bản gốc) & V2 (Bản tối ưu) ----------
+let audioManifest = {};
+const manifestPath = join(here, "audio-manifest.json");
+if (existsSync(manifestPath)) {
+  try {
+    audioManifest = JSON.parse(readFileSync(manifestPath, "utf8"));
+  } catch {}
+}
+
 let totalModifiedLines = 0;
 for (const ls of lessons) {
   for (const t of ls.topics) {
@@ -317,6 +325,13 @@ for (const ls of lessons) {
 
     // Mặc định lines trỏ đến v2_lines
     t.lines = t.v2_lines;
+
+    // Nạp thông tin audio nếu đã có manifest
+    if (audioManifest[t.id]) {
+      t.audio = audioManifest[t.id].file;
+      t.audioDuration = audioManifest[t.id].duration;
+      t.audioTimings = audioManifest[t.id].timings;
+    }
   }
 }
 

@@ -2,6 +2,7 @@
  * Khẩu ngữ Trung cấp - Giao diện tra cứu & Quick Copy cho Doubao
  * Tối ưu hóa 100% cho điện thoại di động
  * Hỗ trợ Dual-Version: V1 (Bản gốc Word) & V2 (Bản tối ưu lồng ghép mẫu câu)
+ * Hỗ trợ Audio A & B luyện nghe thụ động & Đồng bộ câu đọc (Karaoke Highlight)
  */
 (() => {
   "use strict";
@@ -26,8 +27,147 @@
     showVi: localStorage.getItem("kn_show_vi") !== "false", // Mặc định bật
     searchKeyword: "",
     expandedScripts: new Set(),
-    compareFilter: "diffOnly" // 'diffOnly' | 'all'
+    compareFilter: "diffOnly", // 'diffOnly' | 'all'
+    audioSpeed: parseFloat(localStorage.getItem("kn_audio_speed") || "1.0"),
+    audioLoop: localStorage.getItem("kn_audio_loop") === "true"
   };
+
+  // ================================================= Audio Player Engine =================================================
+  let currentAudio = null;
+  let currentPlayingTopicId = null;
+  let currentHighlightedLineN = null;
+
+  function formatTime(seconds) {
+    const s = Math.floor(seconds || 0);
+    const m = Math.floor(s / 60);
+    const rem = s % 60;
+    return `${m}:${rem < 10 ? "0" : ""}${rem}`;
+  }
+
+  function stopAudio() {
+    if (currentAudio) {
+      try { currentAudio.pause(); } catch {}
+      currentAudio = null;
+    }
+    if (currentPlayingTopicId) {
+      const btn = $(`[data-action="toggle-audio"][data-topic-id="${currentPlayingTopicId}"]`);
+      if (btn) {
+        btn.classList.remove("playing");
+        const icon = $(".audio-btn-icon", btn);
+        const text = $(".audio-btn-text", btn);
+        if (icon) icon.textContent = "▶";
+        if (text) text.textContent = "Nghe A & B (Hội thoại)";
+      }
+      $$(".dialogue-line.speaking-active").forEach((el) => el.classList.remove("speaking-active"));
+      currentPlayingTopicId = null;
+      currentHighlightedLineN = null;
+    }
+  }
+
+  function playTopicAudio(topicId, startTime = 0) {
+    const topic = allTopics.find((t) => t.id === topicId);
+    if (!topic || !topic.audio) {
+      showToast("Không tìm thấy audio cho bài này!", "⚠️");
+      return;
+    }
+
+    // Nếu đang phát chính topic này và người dùng nhấn Play/Pause chung
+    if (currentPlayingTopicId === topicId && currentAudio && startTime === 0) {
+      if (!currentAudio.paused) {
+        currentAudio.pause();
+        const btn = $(`[data-action="toggle-audio"][data-topic-id="${topicId}"]`);
+        if (btn) {
+          btn.classList.remove("playing");
+          const icon = $(".audio-btn-icon", btn);
+          const text = $(".audio-btn-text", btn);
+          if (icon) icon.textContent = "▶";
+          if (text) text.textContent = "Tiếp tục nghe";
+        }
+        return;
+      } else {
+        currentAudio.play().catch(() => {});
+        const btn = $(`[data-action="toggle-audio"][data-topic-id="${topicId}"]`);
+        if (btn) {
+          btn.classList.add("playing");
+          const icon = $(".audio-btn-icon", btn);
+          const text = $(".audio-btn-text", btn);
+          if (icon) icon.textContent = "⏸";
+          if (text) text.textContent = "Đang phát A & B";
+        }
+        return;
+      }
+    }
+
+    // Dừng audio cũ nếu đang phát topic khác
+    stopAudio();
+
+    const audio = new Audio(topic.audio);
+    currentAudio = audio;
+    currentPlayingTopicId = topicId;
+    audio.playbackRate = state.audioSpeed || 1.0;
+
+    const btn = $(`[data-action="toggle-audio"][data-topic-id="${topicId}"]`);
+    if (btn) {
+      btn.classList.add("playing");
+      const icon = $(".audio-btn-icon", btn);
+      const text = $(".audio-btn-text", btn);
+      if (icon) icon.textContent = "⏸";
+      if (text) text.textContent = "Đang phát A & B";
+    }
+
+    const curTimeEl = $(`#curTime-${topicId}`);
+    const progFill = $(`#progFill-${topicId}`);
+
+    audio.ontimeupdate = () => {
+      const cur = audio.currentTime;
+      const dur = audio.duration || topic.audioDuration || 1;
+      if (curTimeEl) curTimeEl.textContent = formatTime(cur);
+      if (progFill) progFill.style.width = `${Math.min(100, (cur / dur) * 100)}%`;
+
+      // Đồng bộ câu đang đọc (Karaoke Highlight)
+      if (topic.audioTimings) {
+        const activeTiming = topic.audioTimings.find((t) => cur >= t.start && cur < t.end);
+        const activeLineN = activeTiming ? activeTiming.n : null;
+
+        if (activeLineN !== currentHighlightedLineN) {
+          currentHighlightedLineN = activeLineN;
+          $$(`.dialogue-line.speaking-active`).forEach((el) => el.classList.remove("speaking-active"));
+
+          if (activeLineN) {
+            const lineEl = $(`#line-${topicId}-${activeLineN}`);
+            if (lineEl) {
+              lineEl.classList.add("speaking-active");
+              // Cuộn nhẹ nhàng để câu đang đọc luôn nằm trong tầm nhìn
+              lineEl.scrollIntoView({ behavior: "smooth", block: "nearest" });
+            }
+          }
+        }
+      }
+    };
+
+    audio.onended = () => {
+      if (state.audioLoop) {
+        // Tự động lặp lại cho việc luyện nghe thụ động
+        audio.currentTime = 0;
+        audio.play().catch(() => {});
+      } else {
+        stopAudio();
+      }
+    };
+
+    audio.onerror = () => {
+      showToast("Không thể tải file âm thanh!", "⚠️");
+      stopAudio();
+    };
+
+    if (startTime > 0) {
+      audio.currentTime = startTime;
+    }
+
+    audio.play().catch((err) => {
+      console.warn("Autoplay bị chặn hoặc có lỗi:", err);
+    });
+  }
 
   // ================================================= Toast & Clipboard =================================================
   let toastTimer = null;
@@ -140,6 +280,7 @@
   function setVersion(newVer) {
     if (newVer !== "v1" && newVer !== "v2") return;
     if (state.version === newVer) return;
+    stopAudio(); // Dừng audio nếu đang phát khi đổi phiên bản
     state.version = newVer;
     localStorage.setItem("kn_version", newVer);
     updateVersionButtons();
@@ -180,6 +321,7 @@
           const currentLines = getTopicLines(t, state.version);
           const diffCount = t.diffs ? t.diffs.length : 0;
           const isV2 = state.version === "v2";
+          const isCurrentPlaying = currentPlayingTopicId === t.id && currentAudio && !currentAudio.paused;
 
           return `
             <article class="topic-card" id="card-${t.id}">
@@ -223,7 +365,7 @@
                 </button>
 
                 <div class="topic-secondary-actions">
-                  <button type="button" class="btn-secondary btn-compare" data-action="open-compare" data-topic-id="${t.id}" title="Xem bảng đối chiếu câu gốc và câu nâng cấp">
+                  <button type="button" class="btn-secondary btn-compare" data-action="open-compare" data-topic-id="${t.id}" title="Xem bản đối chiếu V1 gốc vs V2 nâng cấp">
                     <span>🔍 Đối chiếu (${diffCount})</span>
                   </button>
 
@@ -238,38 +380,82 @@
                 </div>
               </div>
 
-              <!-- Phần hiển thị kịch bản 18 câu khi nhấn mở -->
+              <!-- Phần hiển thị kịch bản khi nhấn mở -->
               <div class="script-drawer" id="script-${t.id}" ${isExpanded ? "" : "hidden"}>
+
+                <!-- Audio Player Luyện nghe thụ động A & B (Dành cho bản V2 mới nhất) -->
+                ${isV2 && t.audio ? `
+                  <div class="passive-audio-player" id="player-${t.id}">
+                    <div class="player-main-row">
+                      <button type="button" class="btn-audio-toggle ${isCurrentPlaying ? "playing" : ""}" data-action="toggle-audio" data-topic-id="${t.id}" title="Phát / Dừng đoạn hội thoại">
+                        <span class="audio-btn-icon">${isCurrentPlaying ? "⏸" : "▶"}</span>
+                        <span class="audio-btn-text">${isCurrentPlaying ? "Đang phát A &amp; B" : "Nghe A &amp; B (Hội thoại)"}</span>
+                      </button>
+
+                      <div class="audio-time-wrap">
+                        <span class="audio-cur-time" id="curTime-${t.id}">0:00</span>
+                        <span class="audio-sep">/</span>
+                        <span class="audio-total-time">${formatTime(t.audioDuration || 90)}</span>
+                      </div>
+                    </div>
+
+                    <!-- Thanh tiến trình cuộn audio -->
+                    <div class="audio-progress-container" data-action="seek-audio" data-topic-id="${t.id}" title="Chạm để tua audio">
+                      <div class="audio-progress-track">
+                        <div class="audio-progress-fill" id="progFill-${t.id}" style="width: 0%"></div>
+                      </div>
+                    </div>
+
+                    <div class="player-sub-row">
+                      <div class="audio-speed-group">
+                        <span class="speed-title">Tốc độ:</span>
+                        <button type="button" class="speed-chip ${state.audioSpeed === 0.8 ? "active" : ""}" data-action="change-speed" data-speed="0.8" data-topic-id="${t.id}">0.8x</button>
+                        <button type="button" class="speed-chip ${state.audioSpeed === 1.0 ? "active" : ""}" data-action="change-speed" data-speed="1.0" data-topic-id="${t.id}">1.0x</button>
+                        <button type="button" class="speed-chip ${state.audioSpeed === 1.2 ? "active" : ""}" data-action="change-speed" data-speed="1.2" data-topic-id="${t.id}">1.2x</button>
+                      </div>
+
+                      <label class="audio-loop-label" title="Tự động lặp lại khi hết bài để luyện nghe thụ động">
+                        <input type="checkbox" class="audio-loop-cb" data-topic-id="${t.id}" ${state.audioLoop ? "checked" : ""} />
+                        <span class="loop-txt">🔁 Lặp lại</span>
+                      </label>
+                    </div>
+                  </div>
+                ` : (state.version === "v1" ? `
+                  <div class="audio-v1-notice">
+                    <span>💡 <em>Audio A &amp; B được thu âm cho bản V2 (Tối ưu).</em></span>
+                    <button type="button" class="btn-link-switch-v2" data-action="switch-to-v2">Chuyển sang V2 để nghe</button>
+                  </div>
+                ` : "")}
+
                 <div class="script-intro">
                   <div class="script-version-info">
-                    <span>Kịch bản 18 câu · <strong>${isV2 ? "✨ Bản V2 Tối ưu" : "📌 Bản V1 Gốc"}</strong></span>
+                    <span>Kịch bản 18 câu · <strong>${isV2 ? "✨ V2 Tối ưu" : "📌 V1 Gốc"}</strong></span>
                     ${diffCount > 0 ? `
                       <button type="button" class="btn-compare-mini" data-action="open-compare" data-topic-id="${t.id}">
-                        🔍 Đối chiếu ${diffCount} câu đã đổi
+                        🔍 Chế độ đối chiếu (${diffCount} câu đổi)
                       </button>
                     ` : ""}
                   </div>
                   <span class="sandhi-legend">💡 <span class="t3">Màu cam</span> = biến điệu thanh 3</span>
                 </div>
 
+                <!-- Danh sách câu thoại sạch sẽ, tối ưu để học và nghe -->
                 <div class="dialogue-list">
                   ${currentLines
                     .map(
                       (line) => `
-                    <div class="dialogue-line ${isV2 && line.modified ? "dialogue-line-upgraded" : ""}" data-action="copy-single-line" data-line-text="${esc(line.zh)}" title="Bấm để copy câu này">
+                    <div class="dialogue-line" id="line-${t.id}-${line.n}" data-topic-id="${t.id}" data-line-n="${line.n}" data-action="line-click" data-line-text="${esc(line.zh)}" title="Bấm để nghe hoặc copy">
                       <span class="role-badge role-${line.role}">${line.role === "A" ? "🤖 A" : "🗣️ B"}</span>
                       <div class="line-content">
-                        ${isV2 && line.modified ? `<div class="line-upgrade-badge"><span class="badge-icon">✨</span> Tối ưu giáo trình</div>` : ""}
                         <div class="line-zh">${esc(line.zh)}</div>
                         ${line.pinyinHtml ? `<div class="line-pinyin">${line.pinyinHtml}</div>` : (line.pinyin ? `<div class="line-pinyin">${esc(line.pinyin)}</div>` : "")}
                         ${line.vi ? `<div class="line-vi">${esc(line.vi)}</div>` : ""}
-                        ${isV2 && line.modified && line.reason ? `
-                          <div class="line-reason-hint">
-                            <span class="hint-icon">💡</span>
-                            <span class="hint-text">${esc(line.reason)}</span>
-                          </div>
-                        ` : ""}
                       </div>
+                      ${isV2 && t.audio ? `
+                        <button type="button" class="btn-line-speak" data-action="play-single-line" data-topic-id="${t.id}" data-line-n="${line.n}" title="Nghe câu [${line.n}]">
+                          <span>🔊</span>
+                        </button>
+                      ` : ""}
                     </div>
                   `
                     )
@@ -389,7 +575,7 @@
     openModal(`Bài ${lesson.no} · 词语例释 Mẫu câu (${lesson.patterns.length} mẫu)`, cards);
   }
 
-  // ================================================= Modal: Đối chiếu V1 ↔ V2 =================================================
+  // ================================================= Modal: Chế độ Đối chiếu V1 ↔ V2 =================================================
 
   const compareModalBackdrop = $("#compareModalBackdrop");
   const compareModalTitle = $("#compareModalTitle");
@@ -420,7 +606,7 @@
           <div class="compare-title-zh">${esc(topic.question)}</div>
         </div>
         <div class="compare-stats-bar">
-          <span class="stat-pill">📊 Tối ưu: <strong>${diffs.length} / 18 câu</strong></span>
+          <span class="stat-pill">📊 Nâng cấp: <strong>${diffs.length} / 18 câu</strong></span>
           <span class="stat-desc">Đã lồng ghép chuẩn mẫu câu của <em>Bài ${topic.lessonNo}</em></span>
         </div>
 
@@ -452,7 +638,7 @@
 
               <div class="diff-grid">
                 <div class="diff-col col-v1">
-                  <div class="diff-col-tag">📌 V1: Bản gốc</div>
+                  <div class="diff-col-tag">📌 V1: Bản gốc Word</div>
                   <div class="diff-zh">${esc(d.v1.zh)}</div>
                   <div class="diff-py">${d.v1.pinyinHtml || esc(d.v1.pinyin)}</div>
                   <div class="diff-vi">${esc(d.v1.vi)}</div>
@@ -468,7 +654,7 @@
 
               <div class="diff-reason-box">
                 <span class="reason-icon">💡</span>
-                <div class="reason-text"><strong>Đánh giá &amp; Lý do:</strong> ${esc(d.reason)}</div>
+                <div class="reason-text"><strong>Đánh giá &amp; Lý do sửa:</strong> ${esc(d.reason)}</div>
               </div>
             </div>
           `;
@@ -529,7 +715,7 @@
     `;
 
     if (compareModalBackdrop && compareModalTitle && compareModalBody) {
-      compareModalTitle.textContent = `Đối chiếu V1 ↔ V2 · Đề ${topic.no}`;
+      compareModalTitle.textContent = `Chế độ đối chiếu · Đề ${topic.no}`;
       compareModalBody.innerHTML = bodyHtml;
       compareModalBackdrop.hidden = false;
       document.body.style.overflow = "hidden";
@@ -640,6 +826,11 @@
       return;
     }
 
+    if (action === "switch-to-v2") {
+      setVersion("v2");
+      return;
+    }
+
     if (action === "toggle-script") {
       const scriptDrawer = $(`#script-${topicId}`);
       if (scriptDrawer) {
@@ -656,8 +847,68 @@
       return;
     }
 
-    if (action === "copy-single-line") {
+    // Phát / Dừng Audio toàn bài
+    if (action === "toggle-audio") {
+      playTopicAudio(topicId, 0);
+      return;
+    }
+
+    // Tua tiến trình audio khi bấm vào thanh track
+    if (action === "seek-audio") {
+      if (currentAudio && currentPlayingTopicId === topicId) {
+        const rect = target.getBoundingClientRect();
+        const clickX = e.clientX - rect.left;
+        const percent = Math.max(0, Math.min(1, clickX / rect.width));
+        currentAudio.currentTime = percent * (currentAudio.duration || 1);
+      }
+      return;
+    }
+
+    // Thay đổi tốc độ audio
+    if (action === "change-speed") {
+      const speed = parseFloat(target.dataset.speed || "1.0");
+      state.audioSpeed = speed;
+      localStorage.setItem("kn_audio_speed", speed);
+      if (currentAudio) {
+        currentAudio.playbackRate = speed;
+      }
+      // Update UI active chip
+      const parent = target.closest(".audio-speed-group");
+      if (parent) {
+        $$(".speed-chip", parent).forEach((c) => c.classList.toggle("active", parseFloat(c.dataset.speed) === speed));
+      }
+      return;
+    }
+
+    // Bấm vào nút loa 🔊 ở từng câu
+    if (action === "play-single-line") {
+      e.stopPropagation();
+      const lineN = target.dataset.lineN;
+      const topic = allTopics.find((t) => t.id === topicId);
+      if (topic && topic.audioTimings) {
+        const timing = topic.audioTimings.find((t) => t.n === lineN);
+        const startTime = timing ? timing.start : 0;
+        playTopicAudio(topicId, startTime);
+      }
+      return;
+    }
+
+    // Bấm vào dòng thoại để copy hoặc nhảy audio
+    if (action === "line-click") {
       const lineText = target.dataset.lineText;
+      const lineN = target.dataset.lineN;
+      const topic = allTopics.find((t) => t.id === topicId);
+
+      // Nếu đang mở audio V2, nhảy audio tới câu đó
+      if (state.version === "v2" && topic && topic.audioTimings) {
+        const timing = topic.audioTimings.find((t) => t.n === lineN);
+        if (timing) {
+          playTopicAudio(topicId, timing.start);
+          return;
+        }
+      }
+
+      // Mặc định copy câu thoại
       if (lineText) {
         copyText(lineText, "Đã copy câu thoại!");
       }
@@ -672,6 +923,16 @@
     if (action === "open-patterns") {
       showPatternsModal(lessonId);
       return;
+    }
+  });
+
+  // Bắt sự kiện checkbox lặp lại audio
+  $("#topicListContainer")?.addEventListener("change", (e) => {
+    if (e.target.classList.contains("audio-loop-cb")) {
+      state.audioLoop = e.target.checked;
+      localStorage.setItem("kn_audio_loop", state.audioLoop);
+      $$(".audio-loop-cb").forEach((cb) => (cb.checked = state.audioLoop));
+      showToast(state.audioLoop ? "Đã bật lặp lại tự động!" : "Đã tắt lặp lại");
     }
   });
 
