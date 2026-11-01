@@ -163,6 +163,26 @@
 
               ${t.outline ? `<div class="topic-outline"><strong>Mạch ý:</strong> ${esc(t.outline)}</div>` : ""}
 
+              ${t.takeaways ? `
+                <details class="takeaways-box">
+                  <summary class="takeaways-summary">
+                    <span>💡 <strong>Ý chính để nói</strong> (Takeaways &amp; Câu chốt)</span>
+                    <span class="chevron">▼</span>
+                  </summary>
+                  <div class="takeaways-content">
+                    <ul class="takeaways-list">
+                      ${t.takeaways.points.map((p) => `<li>${esc(p)}</li>`).join("")}
+                    </ul>
+                    ${t.takeaways.goldenQuotes ? `
+                      <div class="golden-quote">
+                        <span class="quote-tag">✨ Câu chốt ăn điểm</span>
+                        <p class="quote-zh">${esc(t.takeaways.goldenQuotes)}</p>
+                      </div>
+                    ` : ""}
+                  </div>
+                </details>
+              ` : ""}
+
               <div class="topic-actions">
                 <button type="button" class="btn-primary-copy" data-action="copy-doubao" data-topic-id="${t.id}">
                   <span>⚡</span>

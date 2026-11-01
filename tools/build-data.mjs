@@ -9,6 +9,7 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { pinyin } from "pinyin-pro";
 import { TRANSLATIONS } from "./translations.mjs";
+import { SPEAKING_TAKEAWAYS } from "./speaking-takeaways.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const root = join(here, "..");
@@ -225,12 +226,14 @@ for (let i = 0; i < lines.length; i++) {
 
   if (section === "dialogue") {
     if ((m = l.match(/^CÂU\s+(\d+)\s+\|\s+(.+)$/))) {
+      const topicId = `${lesson.id}-c${m[1]}`;
       topic = {
-        id: `${lesson.id}-c${m[1]}`,
+        id: topicId,
         no: Number(m[1]),
         titleVi: m[2].trim(),
         question: "",
         outline: "",
+        takeaways: SPEAKING_TAKEAWAYS[topicId] || null,
         lines: [],
       };
       lesson.topics.push(topic);

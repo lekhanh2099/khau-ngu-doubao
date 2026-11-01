@@ -408,6 +408,71 @@ body {
   color: var(--text);
 }
 
+/* Takeaways Box (Ý chính để nói) */
+.takeaways-box {
+  background-color: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  font-size: 13px;
+}
+.takeaways-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  cursor: pointer;
+  user-select: none;
+  font-weight: 600;
+  color: var(--text);
+  list-style: none;
+}
+.takeaways-summary::-webkit-details-marker {
+  display: none;
+}
+.takeaways-box[open] .chevron {
+  transform: rotate(180deg);
+}
+.chevron {
+  font-size: 10px;
+  color: var(--text-muted);
+  transition: transform 0.2s;
+}
+.takeaways-content {
+  padding: 8px 12px 12px 12px;
+  border-top: 1px dashed var(--border);
+}
+.takeaways-list {
+  padding-left: 18px;
+  margin: 4px 0 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: var(--text);
+  line-height: 1.45;
+}
+.golden-quote {
+  margin-top: 8px;
+  padding: 8px 10px;
+  background-color: var(--surface);
+  border-left: 3px solid #f59e0b;
+  border-radius: 6px;
+}
+.quote-tag {
+  font-size: 11px;
+  font-weight: 700;
+  color: #d97706;
+  display: block;
+  margin-bottom: 2px;
+}
+.quote-zh {
+  font-family: var(--font-zh);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.45;
+}
+
 /* Action buttons */
 .topic-actions {
   display: flex;
