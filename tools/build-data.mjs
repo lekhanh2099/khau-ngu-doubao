@@ -10,6 +10,7 @@ import { fileURLToPath } from "node:url";
 import { pinyin } from "pinyin-pro";
 import { TRANSLATIONS } from "./translations.mjs";
 import { SPEAKING_TAKEAWAYS } from "./speaking-takeaways.mjs";
+import { V2_ENHANCEMENTS } from "./v2-enhancements.mjs";
 
 const here = dirname(fileURLToPath(import.meta.url));
 const root = join(here, "..");
@@ -266,6 +267,59 @@ for (let i = 0; i < lines.length; i++) {
   }
 }
 
+// ---------- Tạo phiên bản V1 (Bản gốc) & V2 (Bản tối ưu) ----------
+let totalModifiedLines = 0;
+for (const ls of lessons) {
+  for (const t of ls.topics) {
+    t.v1_lines = [...t.lines];
+    t.v2_lines = [];
+    t.diffs = [];
+
+    const enhMap = V2_ENHANCEMENTS[t.id] || {};
+
+    t.v1_lines.forEach((v1) => {
+      const enh = enhMap[v1.n];
+      if (enh) {
+        totalModifiedLines++;
+        const enhPy = py(enh.zh);
+        const v2Line = {
+          n: v1.n,
+          role: v1.role,
+          zh: enh.zh,
+          pinyin: enhPy.plain,
+          pinyinHtml: enhPy.html,
+          vi: enh.vi,
+          modified: true,
+          reason: enh.reason
+        };
+        t.v2_lines.push(v2Line);
+        t.diffs.push({
+          n: v1.n,
+          role: v1.role,
+          reason: enh.reason,
+          v1: {
+            zh: v1.zh,
+            pinyin: v1.pinyin,
+            pinyinHtml: v1.pinyinHtml,
+            vi: v1.vi
+          },
+          v2: {
+            zh: enh.zh,
+            pinyin: enhPy.plain,
+            pinyinHtml: enhPy.html,
+            vi: enh.vi
+          }
+        });
+      } else {
+        t.v2_lines.push({ ...v1, modified: false });
+      }
+    });
+
+    // Mặc định lines trỏ đến v2_lines
+    t.lines = t.v2_lines;
+  }
+}
+
 // ---------- Kiểm tra ----------
 const totals = lessons.reduce(
   (a, ls) => ({
@@ -276,6 +330,8 @@ const totals = lessons.reduce(
   }),
   { vocab: 0, patterns: 0, topics: 0, lines: 0 }
 );
+totals.modifiedLines = totalModifiedLines;
+
 for (const ls of lessons)
   for (const t of ls.topics)
     if (t.lines.length !== 18) console.warn(`⚠️  ${t.id} có ${t.lines.length} câu (mong đợi 18)`);
@@ -285,4 +341,4 @@ writeFileSync(
   join(root, "data.js"),
   `// File tự sinh bởi tools/build-data.mjs – đừng sửa tay.\nwindow.APP_DATA = ${JSON.stringify(data, null, 1)};\n`
 );
-console.log("✅ Đã ghi data.js", totals);
+console.log(`✅ Đã ghi data.js: ${totals.topics} đề, ${totals.lines} câu (V2 tối ưu ${totalModifiedLines} câu)`, totals);

@@ -37,16 +37,23 @@
         <input type="search" id="searchInput" placeholder="Tìm đề, câu hỏi, từ khóa..." autocomplete="off" />
         <button id="btnClearSearch" class="btn-clear" hidden>×</button>
       </div>
-      <label class="toggle-pill" id="pinyinToggleLabel" title="Bật/tắt phiên âm pinyin">
-        <input type="checkbox" id="pinyinToggle" checked />
-        <span class="toggle-track"></span>
-        <span class="toggle-text">Pinyin</span>
-      </label>
-      <label class="toggle-pill" id="viToggleLabel" title="Bật/tắt bản dịch tiếng Việt">
-        <input type="checkbox" id="viToggle" checked />
-        <span class="toggle-track"></span>
-        <span class="toggle-text">Dịch</span>
-      </label>
+
+      <div class="header-toggles">
+        <div class="version-toggle" id="versionToggle" role="group" aria-label="Chọn phiên bản nội dung">
+          <button type="button" class="v-btn" data-v="v1" title="Bản gốc nguyên bản từ file Word">📌 V1 Gốc</button>
+          <button type="button" class="v-btn active" data-v="v2" title="Bản tối ưu lồng ghép mẫu câu giáo trình">✨ V2 Tối ưu</button>
+        </div>
+        <label class="toggle-pill" id="pinyinToggleLabel" title="Bật/tắt phiên âm pinyin">
+          <input type="checkbox" id="pinyinToggle" checked />
+          <span class="toggle-track"></span>
+          <span class="toggle-text">Pinyin</span>
+        </label>
+        <label class="toggle-pill" id="viToggleLabel" title="Bật/tắt bản dịch tiếng Việt">
+          <input type="checkbox" id="viToggle" checked />
+          <span class="toggle-track"></span>
+          <span class="toggle-text">Dịch</span>
+        </label>
+      </div>
     </div>
 
     <!-- Danh mục bài học (ngang, lướt ngón tay tiện lợi) -->
@@ -66,6 +73,22 @@
         <button class="modal-close" id="btnModalClose">✕</button>
       </div>
       <div class="modal-body" id="modalBody">
+        <!-- Render bằng JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal đối chiếu V1 (Gốc) ↔ V2 (Tối ưu) -->
+  <div class="modal-backdrop" id="compareModalBackdrop" hidden>
+    <div class="modal-sheet modal-sheet-compare" id="compareModalSheet" role="dialog" aria-modal="true">
+      <div class="modal-header">
+        <div class="compare-header-info">
+          <span class="compare-badge">Bản đối chiếu</span>
+          <h3 id="compareModalTitle">Đối chiếu V1 ↔ V2</h3>
+        </div>
+        <button class="modal-close" id="btnCompareModalClose">✕</button>
+      </div>
+      <div class="modal-body" id="compareModalBody">
         <!-- Render bằng JS -->
       </div>
     </div>

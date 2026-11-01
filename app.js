@@ -1,6 +1,7 @@
 /**
  * Khẩu ngữ Trung cấp - Giao diện tra cứu & Quick Copy cho Doubao
  * Tối ưu hóa 100% cho điện thoại di động
+ * Hỗ trợ Dual-Version: V1 (Bản gốc Word) & V2 (Bản tối ưu lồng ghép mẫu câu)
  */
 (() => {
   "use strict";
@@ -20,10 +21,12 @@
   // Trạng thái ứng dụng (lưu localStorage)
   const state = {
     selectedLesson: localStorage.getItem("kn_selected_lesson") || "all",
+    version: localStorage.getItem("kn_version") || "v2", // Mặc định V2 Tối ưu
     showPinyin: localStorage.getItem("kn_show_pinyin") !== "false", // Mặc định bật
     showVi: localStorage.getItem("kn_show_vi") !== "false", // Mặc định bật
     searchKeyword: "",
-    expandedScripts: new Set()
+    expandedScripts: new Set(),
+    compareFilter: "diffOnly" // 'diffOnly' | 'all'
   };
 
   // ================================================= Toast & Clipboard =================================================
@@ -69,15 +72,23 @@
     }
   }
 
+  // Lấy danh sách câu theo phiên bản (v1 hoặc v2)
+  function getTopicLines(topic, ver = state.version) {
+    if (ver === "v1" && topic.v1_lines) return topic.v1_lines;
+    if (ver === "v2" && topic.v2_lines) return topic.v2_lines;
+    return topic.lines || [];
+  }
+
   // Định dạng nội dung kịch bản để gửi Doubao
-  function getDialogueScript(topic) {
-    const header = `【第${topic.lessonNo}课 · 题${topic.no}】${topic.question}`;
-    const lines = topic.lines.map((l) => `[${l.n}] ${l.role} ｜${l.zh}`).join("\n");
+  function getDialogueScript(topic, ver = state.version) {
+    const vTag = ver === "v1" ? "V1-Bản gốc" : "V2-Tối ưu";
+    const header = `【第${topic.lessonNo}课 · 题${topic.no} · ${vTag}】${topic.question}`;
+    const lines = getTopicLines(topic, ver).map((l) => `[${l.n}] ${l.role} ｜${l.zh}`).join("\n");
     return `${header}\n${lines}`;
   }
 
-  function getDoubaoFullPayload(topic) {
-    return `${D.generalPrompt}\n\n————————\n${getDialogueScript(topic)}`;
+  function getDoubaoFullPayload(topic, ver = state.version) {
+    return `${D.generalPrompt}\n\n————————\n${getDialogueScript(topic, ver)}`;
   }
 
   // Chuẩn bị danh sách phẳng các topic
@@ -119,6 +130,23 @@
       .join("");
   }
 
+  // Cập nhật trạng thái nút Version trên Header
+  function updateVersionButtons() {
+    $$(".v-btn").forEach((btn) => {
+      btn.classList.toggle("active", btn.dataset.v === state.version);
+    });
+  }
+
+  function setVersion(newVer) {
+    if (newVer !== "v1" && newVer !== "v2") return;
+    if (state.version === newVer) return;
+    state.version = newVer;
+    localStorage.setItem("kn_version", newVer);
+    updateVersionButtons();
+    renderTopicList();
+    showToast(`Đã chuyển sang ${newVer === "v1" ? "📌 Bản gốc (V1)" : "✨ Bản tối ưu (V2)"}`);
+  }
+
   // 2. Render danh sách bài & đề thi
   function renderTopicList() {
     const container = $("#topicListContainer");
@@ -149,12 +177,17 @@
       const topicsHtml = matchedTopics
         .map((t) => {
           const isExpanded = state.expandedScripts.has(t.id);
-          const fullTopic = { ...t, lessonNo: lesson.no, lessonTitle: lesson.title };
+          const currentLines = getTopicLines(t, state.version);
+          const diffCount = t.diffs ? t.diffs.length : 0;
+          const isV2 = state.version === "v2";
 
           return `
             <article class="topic-card" id="card-${t.id}">
               <div class="topic-meta">
-                <span class="topic-badge">Bài ${lesson.no} · Câu ${t.no}</span>
+                <div class="topic-meta-badges">
+                  <span class="topic-badge">Bài ${lesson.no} · Câu ${t.no}</span>
+                  <span class="version-indicator ${state.version}">${isV2 ? "✨ V2 Tối ưu" : "📌 V1 Gốc"}</span>
+                </div>
                 <span class="topic-title-vi">${esc(t.titleVi)}</span>
               </div>
 
@@ -186,17 +219,21 @@
               <div class="topic-actions">
                 <button type="button" class="btn-primary-copy" data-action="copy-doubao" data-topic-id="${t.id}">
                   <span>⚡</span>
-                  <span>Copy cho Doubao (Prompt + Script)</span>
+                  <span>Copy cho Doubao (${isV2 ? "V2 Tối ưu" : "V1 Gốc"})</span>
                 </button>
 
                 <div class="topic-secondary-actions">
+                  <button type="button" class="btn-secondary btn-compare" data-action="open-compare" data-topic-id="${t.id}" title="Xem bảng đối chiếu câu gốc và câu nâng cấp">
+                    <span>🔍 Đối chiếu (${diffCount})</span>
+                  </button>
+
                   <button type="button" class="btn-secondary" data-action="copy-script-only" data-topic-id="${t.id}">
                     <span>📋</span>
                     <span>Chỉ Script</span>
                   </button>
 
                   <button type="button" class="btn-secondary" data-action="toggle-script" data-topic-id="${t.id}">
-                    <span>${isExpanded ? "▲ Thu gọn" : "▼ Xem Script (18 câu)"}</span>
+                    <span>${isExpanded ? "▲ Thu gọn" : "▼ Xem Script"}</span>
                   </button>
                 </div>
               </div>
@@ -204,20 +241,34 @@
               <!-- Phần hiển thị kịch bản 18 câu khi nhấn mở -->
               <div class="script-drawer" id="script-${t.id}" ${isExpanded ? "" : "hidden"}>
                 <div class="script-intro">
-                  <span>Kịch bản 18 câu</span>
+                  <div class="script-version-info">
+                    <span>Kịch bản 18 câu · <strong>${isV2 ? "✨ Bản V2 Tối ưu" : "📌 Bản V1 Gốc"}</strong></span>
+                    ${diffCount > 0 ? `
+                      <button type="button" class="btn-compare-mini" data-action="open-compare" data-topic-id="${t.id}">
+                        🔍 Đối chiếu ${diffCount} câu đã đổi
+                      </button>
+                    ` : ""}
+                  </div>
                   <span class="sandhi-legend">💡 <span class="t3">Màu cam</span> = biến điệu thanh 3</span>
                 </div>
 
                 <div class="dialogue-list">
-                  ${t.lines
+                  ${currentLines
                     .map(
                       (line) => `
-                    <div class="dialogue-line" data-action="copy-single-line" data-line-text="${esc(line.zh)}" title="Bấm để copy câu này">
+                    <div class="dialogue-line ${isV2 && line.modified ? "dialogue-line-upgraded" : ""}" data-action="copy-single-line" data-line-text="${esc(line.zh)}" title="Bấm để copy câu này">
                       <span class="role-badge role-${line.role}">${line.role === "A" ? "🤖 A" : "🗣️ B"}</span>
                       <div class="line-content">
+                        ${isV2 && line.modified ? `<div class="line-upgrade-badge"><span class="badge-icon">✨</span> Tối ưu giáo trình</div>` : ""}
                         <div class="line-zh">${esc(line.zh)}</div>
                         ${line.pinyinHtml ? `<div class="line-pinyin">${line.pinyinHtml}</div>` : (line.pinyin ? `<div class="line-pinyin">${esc(line.pinyin)}</div>` : "")}
                         ${line.vi ? `<div class="line-vi">${esc(line.vi)}</div>` : ""}
+                        ${isV2 && line.modified && line.reason ? `
+                          <div class="line-reason-hint">
+                            <span class="hint-icon">💡</span>
+                            <span class="hint-text">${esc(line.reason)}</span>
+                          </div>
+                        ` : ""}
                       </div>
                     </div>
                   `
@@ -227,7 +278,7 @@
 
                 <div class="script-bottom-bar">
                   <button type="button" class="btn-secondary" data-action="copy-doubao" data-topic-id="${t.id}" style="width:100%">
-                    <span>⚡ Copy toàn bộ đề này cho Doubao</span>
+                    <span>⚡ Copy toàn bộ đề này cho Doubao (${isV2 ? "V2 Tối ưu" : "V1 Gốc"})</span>
                   </button>
                 </div>
               </div>
@@ -338,7 +389,161 @@
     openModal(`Bài ${lesson.no} · 词语例释 Mẫu câu (${lesson.patterns.length} mẫu)`, cards);
   }
 
+  // ================================================= Modal: Đối chiếu V1 ↔ V2 =================================================
+
+  const compareModalBackdrop = $("#compareModalBackdrop");
+  const compareModalTitle = $("#compareModalTitle");
+  const compareModalBody = $("#compareModalBody");
+
+  function closeCompareModal() {
+    if (compareModalBackdrop) {
+      compareModalBackdrop.hidden = true;
+      document.body.style.overflow = "";
+    }
+  }
+
+  function showCompareModal(topicId, filterMode = state.compareFilter) {
+    const topic = allTopics.find((t) => t.id === topicId);
+    if (!topic) return;
+
+    state.compareFilter = filterMode;
+    const diffs = topic.diffs || [];
+    const v1Lines = topic.v1_lines || [];
+    const v2Lines = topic.v2_lines || [];
+
+    const isAllMode = filterMode === "all";
+
+    let bodyHtml = `
+      <div class="compare-intro">
+        <div class="compare-topic-name">
+          <span class="badge-lesson">Bài ${topic.lessonNo} · Câu ${topic.no}</span>
+          <div class="compare-title-zh">${esc(topic.question)}</div>
+        </div>
+        <div class="compare-stats-bar">
+          <span class="stat-pill">📊 Tối ưu: <strong>${diffs.length} / 18 câu</strong></span>
+          <span class="stat-desc">Đã lồng ghép chuẩn mẫu câu của <em>Bài ${topic.lessonNo}</em></span>
+        </div>
+
+        <div class="compare-filter-tabs">
+          <button type="button" class="tab-btn ${!isAllMode ? "active" : ""}" data-action="set-compare-filter" data-topic-id="${topic.id}" data-filter="diffOnly">
+            ✨ Chỉ câu thay đổi (${diffs.length})
+          </button>
+          <button type="button" class="tab-btn ${isAllMode ? "active" : ""}" data-action="set-compare-filter" data-topic-id="${topic.id}" data-filter="all">
+            📄 Toàn bộ 18 câu
+          </button>
+        </div>
+      </div>
+    `;
+
+    if (!isAllMode && diffs.length === 0) {
+      bodyHtml += `<div class="compare-empty">Đề này giữ nguyên 100% bản gốc (không có câu nào bị thay đổi).</div>`;
+    } else {
+      bodyHtml += `<div class="compare-diff-list">`;
+
+      if (!isAllMode) {
+        // Chỉ hiện các câu có thay đổi
+        diffs.forEach((d) => {
+          bodyHtml += `
+            <div class="diff-card">
+              <div class="diff-card-header">
+                <span class="diff-line-num">Câu [${d.n}]</span>
+                <span class="role-badge role-${d.role}">${d.role === "A" ? "🤖 A" : "🗣️ B"}</span>
+              </div>
+
+              <div class="diff-grid">
+                <div class="diff-col col-v1">
+                  <div class="diff-col-tag">📌 V1: Bản gốc</div>
+                  <div class="diff-zh">${esc(d.v1.zh)}</div>
+                  <div class="diff-py">${d.v1.pinyinHtml || esc(d.v1.pinyin)}</div>
+                  <div class="diff-vi">${esc(d.v1.vi)}</div>
+                </div>
+
+                <div class="diff-col col-v2">
+                  <div class="diff-col-tag">✨ V2: Bản tối ưu</div>
+                  <div class="diff-zh">${esc(d.v2.zh)}</div>
+                  <div class="diff-py">${d.v2.pinyinHtml || esc(d.v2.pinyin)}</div>
+                  <div class="diff-vi">${esc(d.v2.vi)}</div>
+                </div>
+              </div>
+
+              <div class="diff-reason-box">
+                <span class="reason-icon">💡</span>
+                <div class="reason-text"><strong>Đánh giá &amp; Lý do:</strong> ${esc(d.reason)}</div>
+              </div>
+            </div>
+          `;
+        });
+      } else {
+        // Hiện toàn bộ 18 câu
+        v1Lines.forEach((v1, idx) => {
+          const v2 = v2Lines[idx] || v1;
+          const isModified = v2.modified;
+
+          bodyHtml += `
+            <div class="diff-card ${isModified ? "diff-card-modified" : "diff-card-unchanged"}">
+              <div class="diff-card-header">
+                <span class="diff-line-num">Câu [${v1.n}]</span>
+                <span class="role-badge role-${v1.role}">${v1.role === "A" ? "🤖 A" : "🗣️ B"}</span>
+                ${isModified ? `<span class="badge-modified-tag">✨ Đã tối ưu</span>` : `<span class="badge-unchanged-tag">✓ Trùng khớp</span>`}
+              </div>
+
+              <div class="diff-grid">
+                <div class="diff-col col-v1">
+                  <div class="diff-col-tag">📌 V1: Gốc</div>
+                  <div class="diff-zh">${esc(v1.zh)}</div>
+                  <div class="diff-py">${v1.pinyinHtml || esc(v1.pinyin)}</div>
+                  <div class="diff-vi">${esc(v1.vi)}</div>
+                </div>
+
+                <div class="diff-col col-v2">
+                  <div class="diff-col-tag">✨ V2: Tối ưu</div>
+                  <div class="diff-zh">${esc(v2.zh)}</div>
+                  <div class="diff-py">${v2.pinyinHtml || esc(v2.pinyin)}</div>
+                  <div class="diff-vi">${esc(v2.vi)}</div>
+                </div>
+              </div>
+
+              ${isModified && v2.reason ? `
+                <div class="diff-reason-box">
+                  <span class="reason-icon">💡</span>
+                  <div class="reason-text"><strong>Đánh giá:</strong> ${esc(v2.reason)}</div>
+                </div>
+              ` : ""}
+            </div>
+          `;
+        });
+      }
+
+      bodyHtml += `</div>`;
+    }
+
+    bodyHtml += `
+      <div class="compare-actions-bar">
+        <button type="button" class="btn-secondary" data-action="copy-diff-v1" data-topic-id="${topic.id}">
+          📋 Copy Script V1 (Gốc)
+        </button>
+        <button type="button" class="btn-primary-copy" data-action="copy-diff-v2" data-topic-id="${topic.id}">
+          ✨ Copy Script V2 (Tối ưu)
+        </button>
+      </div>
+    `;
+
+    if (compareModalBackdrop && compareModalTitle && compareModalBody) {
+      compareModalTitle.textContent = `Đối chiếu V1 ↔ V2 · Đề ${topic.no}`;
+      compareModalBody.innerHTML = bodyHtml;
+      compareModalBackdrop.hidden = false;
+      document.body.style.overflow = "hidden";
+    }
+  }
+
   // ================================================= Đăng Ký Sự Kiện =================================================
+
+  // Nút chuyển Version trên header
+  $("#versionToggle")?.addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-v]");
+    if (!btn) return;
+    setVersion(btn.dataset.v);
+  });
 
   // Bật / tắt hiển thị Pinyin
   const pinyinToggle = $("#pinyinToggle");
@@ -415,7 +620,8 @@
     if (action === "copy-doubao") {
       const topic = allTopics.find((t) => t.id === topicId);
       if (topic) {
-        copyText(getDoubaoFullPayload(topic), `Đã copy Đề ${topic.no} (Prompt + Script)!`);
+        const vLabel = state.version === "v1" ? "V1 Gốc" : "V2 Tối ưu";
+        copyText(getDoubaoFullPayload(topic), `Đã copy Đề ${topic.no} (${vLabel})!`);
       }
       return;
     }
@@ -423,8 +629,14 @@
     if (action === "copy-script-only") {
       const topic = allTopics.find((t) => t.id === topicId);
       if (topic) {
-        copyText(getDialogueScript(topic), `Đã copy Hội thoại Đề ${topic.no}!`);
+        const vLabel = state.version === "v1" ? "V1 Gốc" : "V2 Tối ưu";
+        copyText(getDialogueScript(topic), `Đã copy Hội thoại Đề ${topic.no} (${vLabel})!`);
       }
+      return;
+    }
+
+    if (action === "open-compare") {
+      showCompareModal(topicId);
       return;
     }
 
@@ -435,7 +647,7 @@
         scriptDrawer.hidden = isNowHidden;
         if (isNowHidden) {
           state.expandedScripts.delete(topicId);
-          target.innerHTML = `<span>▼ Xem Script (18 câu)</span>`;
+          target.innerHTML = `<span>▼ Xem Script</span>`;
         } else {
           state.expandedScripts.add(topicId);
           target.innerHTML = `<span>▲ Thu gọn</span>`;
@@ -463,19 +675,58 @@
     }
   });
 
-  // Đóng Modal
+  // Event Delegation trong Compare Modal
+  $("#compareModalBackdrop")?.addEventListener("click", (e) => {
+    const target = e.target.closest("[data-action]");
+    if (!target) return;
+
+    const action = target.dataset.action;
+    const topicId = target.dataset.topicId;
+
+    if (action === "set-compare-filter") {
+      const filter = target.dataset.filter;
+      showCompareModal(topicId, filter);
+      return;
+    }
+
+    if (action === "copy-diff-v1") {
+      const topic = allTopics.find((t) => t.id === topicId);
+      if (topic) {
+        copyText(getDialogueScript(topic, "v1"), `Đã copy Script V1 (Gốc) Đề ${topic.no}!`);
+      }
+      return;
+    }
+
+    if (action === "copy-diff-v2") {
+      const topic = allTopics.find((t) => t.id === topicId);
+      if (topic) {
+        copyText(getDialogueScript(topic, "v2"), `Đã copy Script V2 (Tối ưu) Đề ${topic.no}!`);
+      }
+      return;
+    }
+  });
+
+  // Đóng Modal Từ vựng / Mẫu câu
   $("#btnModalClose")?.addEventListener("click", closeModal);
   modalBackdrop?.addEventListener("click", (e) => {
     if (e.target === modalBackdrop) closeModal();
   });
 
+  // Đóng Compare Modal
+  $("#btnCompareModalClose")?.addEventListener("click", closeCompareModal);
+  compareModalBackdrop?.addEventListener("click", (e) => {
+    if (e.target === compareModalBackdrop) closeCompareModal();
+  });
+
   document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && !modalBackdrop.hidden) {
-      closeModal();
+    if (e.key === "Escape") {
+      if (!modalBackdrop?.hidden) closeModal();
+      if (!compareModalBackdrop?.hidden) closeCompareModal();
     }
   });
 
   // Khởi động
+  updateVersionButtons();
   renderLessonChips();
   renderTopicList();
 
