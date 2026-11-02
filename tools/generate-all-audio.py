@@ -1,12 +1,13 @@
 import asyncio, json, os, re
 import edge_tts
 
-VOICE_A = "zh-CN-YunxiNeural"     # Giọng nam tự nhiên, rõ ràng
-VOICE_B = "zh-CN-XiaoxiaoNeural"  # Giọng nữ Bắc Kinh bản xứ, biểu cảm
+VOICE_A = "zh-CN-YunxiNeural"     # Giọng nam Vân Hi tự nhiên, sinh động
+VOICE_B = "zh-CN-XiaoyiNeural"    # Giọng nữ Hiểu Di hoạt bát, giàu cảm xúc khẩu ngữ đời sống
+RATE = "+6%"                      # Tốc độ đàm thoại đời thực tự nhiên, không rề rà như máy đọc
 
 async def generate_sentence(text, voice, idx):
     tmp_path = f"/tmp/edge_line_{idx}.mp3"
-    comm = edge_tts.Communicate(text, voice)
+    comm = edge_tts.Communicate(text, voice, rate=RATE)
     await comm.save(tmp_path)
     with open(tmp_path, "rb") as f:
         data = f.read()

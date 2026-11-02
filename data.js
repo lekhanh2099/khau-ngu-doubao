@@ -230,12 +230,12 @@ window.APP_DATA = {
       {
        "n": "02",
        "role": "B",
-       "zh": "是啊，这段时间经常加班，早上起床别提多困难了。",
-       "pinyin": "shì a, zhè duàn shí jiān jīng cháng jiā bān, zǎo shàng qǐ chuáng bié tí duō kùn nán le.",
-       "pinyinHtml": "shì a, zhè duàn shí jiān jīng cháng jiā bān, zǎo shàng qǐ chuáng bié tí duō kùn nán le.",
-       "vi": "Đúng vậy, dạo này thường xuyên tăng ca, sáng dậy đừng nhắc tới khó khăn thế nào nữa (cực kỳ khó dậy).",
+       "zh": "嗨，可不是嘛！这段时间天天加班，早上起床别提多困难了。",
+       "pinyin": "hāi, kě bú shì ma! zhè duàn shí jiān tiān tiān jiā bān, zǎo shàng qǐ chuáng bié tí duō kùn nán le.",
+       "pinyinHtml": "hāi, kě bú shì ma! zhè duàn shí jiān tiān tiān jiā bān, zǎo shàng qǐ chuáng bié tí duō kùn nán le.",
+       "vi": "Haizz, chứ còn gì nữa! Dạo này ngày nào cũng tăng ca, buổi sáng thức dậy đừng nhắc tới khó khăn thế nào nữa (cực kỳ khó dậy).",
        "modified": true,
-       "reason": "Áp dụng mẫu câu Bài 2 【别提多……了】 (khẩu ngữ biểu đạt mức độ cực kỳ cao, tự nhiên và giàu cảm xúc hơn câu gốc '特别困难')."
+       "reason": "Bỏ cách mở đầu đơn điệu '是啊', dùng khẩu ngữ tự nhiên 【嗨，可不是嘛！】 và lồng ghép mẫu câu Bài 2 【别提多……了】."
       },
       {
        "n": "03",
@@ -321,11 +321,12 @@ window.APP_DATA = {
       {
        "n": "12",
        "role": "B",
-       "zh": "没错。要是三天打鱼，两天晒网，再好的计划也没有用。",
-       "pinyin": "méi cuò. yào shi sān tiān dǎ yú, liǎng tiān shài wǎng, zài hǎo de jì huà yě méi yǒu yòng.",
-       "pinyinHtml": "méi cuò. yào shi sān tiān dǎ yú, liǎng tiān shài wǎng, zài hǎo de jì huà yě méi yǒu yòng.",
-       "vi": "Đúng thế thật. Nếu mà bữa đực bữa cái, làm ngày nghỉ ngày, thì kế hoạch có hay đến mấy cũng vô ích.",
-       "modified": false
+       "zh": "谁说不是呢！要是三天打鱼、两天晒网，再好的计划也白搭。",
+       "pinyin": "shuí shuō bú shì ne! yào shi sān tiān dǎ yú, liǎng tiān shài wǎng, zài hǎo de jì huà yě bái dā.",
+       "pinyinHtml": "shuí shuō bú shì ne! yào shi sān tiān dǎ yú, liǎng tiān shài wǎng, zài hǎo de jì huà yě bái dā.",
+       "vi": "Ai bảo không phải chứ! Nếu mà ba ngày đánh cá, hai ngày phơi lưới (bữa đực bữa cái), thì kế hoạch có hay đến mấy cũng công cốc.",
+       "modified": true,
+       "reason": "Thay câu cụt '没错' bằng quán dụng ngữ đồng tình 【谁说不是呢！】, thay '没有用' bằng từ khẩu ngữ đắt giá 【白搭】."
       },
       {
        "n": "13",
@@ -359,11 +360,12 @@ window.APP_DATA = {
       {
        "n": "16",
        "role": "B",
-       "zh": "对。忙的时候也要歇一歇，千万别为了赶工作一直熬夜。",
-       "pinyin": "duì. máng de shí hòu yě yào xiē yi xiē, qiān wàn bié wèi le gǎn gōng zuò yì zhí áo yè.",
-       "pinyinHtml": "duì. máng de shí hòu yě yào xiē yi xiē, qiān wàn bié wèi le gǎn gōng zuò yì zhí áo yè.",
-       "vi": "Chuẩn luôn. Lúc bận rộn cũng phải nghỉ tay một chút, tuyệt đối đừng vì chạy việc mà cứ thức thâu đêm suốt sáng.",
-       "modified": false
+       "zh": "你说得太对了！再忙也得喘口气，千万别为了赶进度一直硬熬着。",
+       "pinyin": "nǐ shuō de tài duì le! zài máng yě děi chuǎn kǒu qì, qiān wàn bié wèi le gǎn jìn dù yì zhí yìng áo zhe.",
+       "pinyinHtml": "nǐ shuō de tài duì le! zài máng yě děi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">chuǎn</span> kǒu qì, qiān wàn bié wèi le gǎn jìn dù yì zhí yìng áo zhe.",
+       "vi": "Cậu nói chuẩn quá luôn! Bận mấy cũng phải thở chút xíu, tuyệt đối đừng vì chạy tiến độ mà cứ cố gồng thức khuya miết.",
+       "modified": true,
+       "reason": "Thay đáp từ cụt '对' bằng lời tán thành ấm áp 【你说得太对了！】, kết hợp mẫu Bài 2 【千万别……】 và khẩu ngữ 【喘口气 / 硬熬着】."
       },
       {
        "n": "17",
@@ -545,12 +547,12 @@ window.APP_DATA = {
       {
        "n": "02",
        "role": "B",
-       "zh": "是啊，这段时间经常加班，早上起床别提多困难了。",
-       "pinyin": "shì a, zhè duàn shí jiān jīng cháng jiā bān, zǎo shàng qǐ chuáng bié tí duō kùn nán le.",
-       "pinyinHtml": "shì a, zhè duàn shí jiān jīng cháng jiā bān, zǎo shàng qǐ chuáng bié tí duō kùn nán le.",
-       "vi": "Đúng vậy, dạo này thường xuyên tăng ca, sáng dậy đừng nhắc tới khó khăn thế nào nữa (cực kỳ khó dậy).",
+       "zh": "嗨，可不是嘛！这段时间天天加班，早上起床别提多困难了。",
+       "pinyin": "hāi, kě bú shì ma! zhè duàn shí jiān tiān tiān jiā bān, zǎo shàng qǐ chuáng bié tí duō kùn nán le.",
+       "pinyinHtml": "hāi, kě bú shì ma! zhè duàn shí jiān tiān tiān jiā bān, zǎo shàng qǐ chuáng bié tí duō kùn nán le.",
+       "vi": "Haizz, chứ còn gì nữa! Dạo này ngày nào cũng tăng ca, buổi sáng thức dậy đừng nhắc tới khó khăn thế nào nữa (cực kỳ khó dậy).",
        "modified": true,
-       "reason": "Áp dụng mẫu câu Bài 2 【别提多……了】 (khẩu ngữ biểu đạt mức độ cực kỳ cao, tự nhiên và giàu cảm xúc hơn câu gốc '特别困难')."
+       "reason": "Bỏ cách mở đầu đơn điệu '是啊', dùng khẩu ngữ tự nhiên 【嗨，可不是嘛！】 và lồng ghép mẫu câu Bài 2 【别提多……了】."
       },
       {
        "n": "03",
@@ -636,11 +638,12 @@ window.APP_DATA = {
       {
        "n": "12",
        "role": "B",
-       "zh": "没错。要是三天打鱼，两天晒网，再好的计划也没有用。",
-       "pinyin": "méi cuò. yào shi sān tiān dǎ yú, liǎng tiān shài wǎng, zài hǎo de jì huà yě méi yǒu yòng.",
-       "pinyinHtml": "méi cuò. yào shi sān tiān dǎ yú, liǎng tiān shài wǎng, zài hǎo de jì huà yě méi yǒu yòng.",
-       "vi": "Đúng thế thật. Nếu mà bữa đực bữa cái, làm ngày nghỉ ngày, thì kế hoạch có hay đến mấy cũng vô ích.",
-       "modified": false
+       "zh": "谁说不是呢！要是三天打鱼、两天晒网，再好的计划也白搭。",
+       "pinyin": "shuí shuō bú shì ne! yào shi sān tiān dǎ yú, liǎng tiān shài wǎng, zài hǎo de jì huà yě bái dā.",
+       "pinyinHtml": "shuí shuō bú shì ne! yào shi sān tiān dǎ yú, liǎng tiān shài wǎng, zài hǎo de jì huà yě bái dā.",
+       "vi": "Ai bảo không phải chứ! Nếu mà ba ngày đánh cá, hai ngày phơi lưới (bữa đực bữa cái), thì kế hoạch có hay đến mấy cũng công cốc.",
+       "modified": true,
+       "reason": "Thay câu cụt '没错' bằng quán dụng ngữ đồng tình 【谁说不是呢！】, thay '没有用' bằng từ khẩu ngữ đắt giá 【白搭】."
       },
       {
        "n": "13",
@@ -674,11 +677,12 @@ window.APP_DATA = {
       {
        "n": "16",
        "role": "B",
-       "zh": "对。忙的时候也要歇一歇，千万别为了赶工作一直熬夜。",
-       "pinyin": "duì. máng de shí hòu yě yào xiē yi xiē, qiān wàn bié wèi le gǎn gōng zuò yì zhí áo yè.",
-       "pinyinHtml": "duì. máng de shí hòu yě yào xiē yi xiē, qiān wàn bié wèi le gǎn gōng zuò yì zhí áo yè.",
-       "vi": "Chuẩn luôn. Lúc bận rộn cũng phải nghỉ tay một chút, tuyệt đối đừng vì chạy việc mà cứ thức thâu đêm suốt sáng.",
-       "modified": false
+       "zh": "你说得太对了！再忙也得喘口气，千万别为了赶进度一直硬熬着。",
+       "pinyin": "nǐ shuō de tài duì le! zài máng yě děi chuǎn kǒu qì, qiān wàn bié wèi le gǎn jìn dù yì zhí yìng áo zhe.",
+       "pinyinHtml": "nǐ shuō de tài duì le! zài máng yě děi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">chuǎn</span> kǒu qì, qiān wàn bié wèi le gǎn jìn dù yì zhí yìng áo zhe.",
+       "vi": "Cậu nói chuẩn quá luôn! Bận mấy cũng phải thở chút xíu, tuyệt đối đừng vì chạy tiến độ mà cứ cố gồng thức khuya miết.",
+       "modified": true,
+       "reason": "Thay đáp từ cụt '对' bằng lời tán thành ấm áp 【你说得太对了！】, kết hợp mẫu Bài 2 【千万别……】 và khẩu ngữ 【喘口气 / 硬熬着】."
       },
       {
        "n": "17",
@@ -703,7 +707,7 @@ window.APP_DATA = {
       {
        "n": "02",
        "role": "B",
-       "reason": "Áp dụng mẫu câu Bài 2 【别提多……了】 (khẩu ngữ biểu đạt mức độ cực kỳ cao, tự nhiên và giàu cảm xúc hơn câu gốc '特别困难').",
+       "reason": "Bỏ cách mở đầu đơn điệu '是啊', dùng khẩu ngữ tự nhiên 【嗨，可不是嘛！】 và lồng ghép mẫu câu Bài 2 【别提多……了】.",
        "v1": {
         "zh": "是啊，这段时间我经常熬夜，早上起床特别困难。",
         "pinyin": "shì a, zhè duàn shí jiān wǒ jīng cháng áo yè, zǎo shàng qǐ chuáng tè bié kùn nán.",
@@ -711,10 +715,27 @@ window.APP_DATA = {
         "vi": "Ừ đúng rồi, dạo này tớ hay thức khuya, buổi sáng thức dậy khó khăn vô cùng."
        },
        "v2": {
-        "zh": "是啊，这段时间经常加班，早上起床别提多困难了。",
-        "pinyin": "shì a, zhè duàn shí jiān jīng cháng jiā bān, zǎo shàng qǐ chuáng bié tí duō kùn nán le.",
-        "pinyinHtml": "shì a, zhè duàn shí jiān jīng cháng jiā bān, zǎo shàng qǐ chuáng bié tí duō kùn nán le.",
-        "vi": "Đúng vậy, dạo này thường xuyên tăng ca, sáng dậy đừng nhắc tới khó khăn thế nào nữa (cực kỳ khó dậy)."
+        "zh": "嗨，可不是嘛！这段时间天天加班，早上起床别提多困难了。",
+        "pinyin": "hāi, kě bú shì ma! zhè duàn shí jiān tiān tiān jiā bān, zǎo shàng qǐ chuáng bié tí duō kùn nán le.",
+        "pinyinHtml": "hāi, kě bú shì ma! zhè duàn shí jiān tiān tiān jiā bān, zǎo shàng qǐ chuáng bié tí duō kùn nán le.",
+        "vi": "Haizz, chứ còn gì nữa! Dạo này ngày nào cũng tăng ca, buổi sáng thức dậy đừng nhắc tới khó khăn thế nào nữa (cực kỳ khó dậy)."
+       }
+      },
+      {
+       "n": "12",
+       "role": "B",
+       "reason": "Thay câu cụt '没错' bằng quán dụng ngữ đồng tình 【谁说不是呢！】, thay '没有用' bằng từ khẩu ngữ đắt giá 【白搭】.",
+       "v1": {
+        "zh": "没错。要是三天打鱼，两天晒网，再好的计划也没有用。",
+        "pinyin": "méi cuò. yào shi sān tiān dǎ yú, liǎng tiān shài wǎng, zài hǎo de jì huà yě méi yǒu yòng.",
+        "pinyinHtml": "méi cuò. yào shi sān tiān dǎ yú, liǎng tiān shài wǎng, zài hǎo de jì huà yě méi yǒu yòng.",
+        "vi": "Đúng thế thật. Nếu mà bữa đực bữa cái, làm ngày nghỉ ngày, thì kế hoạch có hay đến mấy cũng vô ích."
+       },
+       "v2": {
+        "zh": "谁说不是呢！要是三天打鱼、两天晒网，再好的计划也白搭。",
+        "pinyin": "shuí shuō bú shì ne! yào shi sān tiān dǎ yú, liǎng tiān shài wǎng, zài hǎo de jì huà yě bái dā.",
+        "pinyinHtml": "shuí shuō bú shì ne! yào shi sān tiān dǎ yú, liǎng tiān shài wǎng, zài hǎo de jì huà yě bái dā.",
+        "vi": "Ai bảo không phải chứ! Nếu mà ba ngày đánh cá, hai ngày phơi lưới (bữa đực bữa cái), thì kế hoạch có hay đến mấy cũng công cốc."
        }
       },
       {
@@ -750,118 +771,135 @@ window.APP_DATA = {
         "pinyinHtml": "nà dǎo bú zhì yú. guān jiàn shì zhǎo dào shì hé zì jǐ de jié zòu, màn màn yǎng chéng xí guàn.",
         "vi": "Thế thì không đến mức vậy đâu. Mấu chốt là tìm được nhịp điệu phù hợp với mình, dần dần hình thành thói quen."
        }
+      },
+      {
+       "n": "16",
+       "role": "B",
+       "reason": "Thay đáp từ cụt '对' bằng lời tán thành ấm áp 【你说得太对了！】, kết hợp mẫu Bài 2 【千万别……】 và khẩu ngữ 【喘口气 / 硬熬着】.",
+       "v1": {
+        "zh": "对。忙的时候也要歇一歇，千万别为了赶工作一直熬夜。",
+        "pinyin": "duì. máng de shí hòu yě yào xiē yi xiē, qiān wàn bié wèi le gǎn gōng zuò yì zhí áo yè.",
+        "pinyinHtml": "duì. máng de shí hòu yě yào xiē yi xiē, qiān wàn bié wèi le gǎn gōng zuò yì zhí áo yè.",
+        "vi": "Chuẩn luôn. Lúc bận rộn cũng phải nghỉ tay một chút, tuyệt đối đừng vì chạy việc mà cứ thức thâu đêm suốt sáng."
+       },
+       "v2": {
+        "zh": "你说得太对了！再忙也得喘口气，千万别为了赶进度一直硬熬着。",
+        "pinyin": "nǐ shuō de tài duì le! zài máng yě děi chuǎn kǒu qì, qiān wàn bié wèi le gǎn jìn dù yì zhí yìng áo zhe.",
+        "pinyinHtml": "nǐ shuō de tài duì le! zài máng yě děi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">chuǎn</span> kǒu qì, qiān wàn bié wèi le gǎn jìn dù yì zhí yìng áo zhe.",
+        "vi": "Cậu nói chuẩn quá luôn! Bận mấy cũng phải thở chút xíu, tuyệt đối đừng vì chạy tiến độ mà cứ cố gồng thức khuya miết."
+       }
       }
      ],
      "audio": "audio/b2-c1.mp3",
-     "audioDuration": 93.72,
+     "audioDuration": 91.56,
      "audioTimings": [
       {
        "n": "01",
        "role": "A",
        "start": 0,
-       "end": 4.85
+       "end": 4.58
       },
       {
        "n": "02",
        "role": "B",
-       "start": 4.85,
-       "end": 10.18
+       "start": 4.58,
+       "end": 10.9
       },
       {
        "n": "03",
        "role": "A",
-       "start": 10.18,
-       "end": 14.81
+       "start": 10.9,
+       "end": 15.26
       },
       {
        "n": "04",
        "role": "B",
-       "start": 14.81,
-       "end": 19.87
+       "start": 15.26,
+       "end": 20.33
       },
       {
        "n": "05",
        "role": "A",
-       "start": 19.87,
-       "end": 25.32
+       "start": 20.33,
+       "end": 25.49
       },
       {
        "n": "06",
        "role": "B",
-       "start": 25.32,
-       "end": 31.13
+       "start": 25.49,
+       "end": 30.98
       },
       {
        "n": "07",
        "role": "A",
-       "start": 31.13,
-       "end": 34.68
+       "start": 30.98,
+       "end": 34.34
       },
       {
        "n": "08",
        "role": "B",
-       "start": 34.68,
-       "end": 40.73
+       "start": 34.34,
+       "end": 39.94
       },
       {
        "n": "09",
        "role": "A",
-       "start": 40.73,
-       "end": 45.62
+       "start": 39.94,
+       "end": 44.54
       },
       {
        "n": "10",
        "role": "B",
-       "start": 45.62,
-       "end": 51.96
+       "start": 44.54,
+       "end": 50.95
       },
       {
        "n": "11",
        "role": "A",
-       "start": 51.96,
-       "end": 56.09
+       "start": 50.95,
+       "end": 54.84
       },
       {
        "n": "12",
        "role": "B",
-       "start": 56.09,
-       "end": 62.09
+       "start": 54.84,
+       "end": 60.84
       },
       {
        "n": "13",
        "role": "A",
-       "start": 62.09,
-       "end": 66.48
+       "start": 60.84,
+       "end": 64.99
       },
       {
        "n": "14",
        "role": "B",
-       "start": 66.48,
-       "end": 72.48
+       "start": 64.99,
+       "end": 70.58
       },
       {
        "n": "15",
        "role": "A",
-       "start": 72.48,
-       "end": 78.07
+       "start": 70.58,
+       "end": 75.86
       },
       {
        "n": "16",
        "role": "B",
-       "start": 78.07,
-       "end": 83.88
+       "start": 75.86,
+       "end": 82.15
       },
       {
        "n": "17",
        "role": "A",
-       "start": 83.88,
-       "end": 87.72
+       "start": 82.15,
+       "end": 85.78
       },
       {
        "n": "18",
        "role": "B",
-       "start": 87.72,
-       "end": 93.72
+       "start": 85.78,
+       "end": 91.56
       }
      ]
     },
@@ -949,12 +987,12 @@ window.APP_DATA = {
       {
        "n": "08",
        "role": "B",
-       "zh": "也对。现在有的广告吹得别提多玄乎了，好像什么毛病都能治。",
-       "pinyin": "yě duì. xiàn zài yǒu de guǎng gào chuī de bié tí duō xuán hū le, hǎo xiàng shén me máo bìng dōu néng zhì.",
-       "pinyinHtml": "yě duì. xiàn zài yǒu de guǎng gào chuī de bié tí duō xuán hū le, hǎo xiàng shén me máo bìng dōu néng zhì.",
-       "vi": "Cũng đúng. Hiện nay có mấy quảng cáo thổi phồng đừng nhắc tới thần thánh cỡ nào, như thể bệnh gì cũng chữa được.",
+       "zh": "这倒也是！现在的广告吹得别提多玄乎了，好像什么毛病都能包治百病似的。",
+       "pinyin": "zhè dǎo yě shì! xiàn zài de guǎng gào chuī de bié tí duō xuán hū le, hǎo xiàng shén me máo bìng dōu néng bāo zhì bǎi bìng shì de.",
+       "pinyinHtml": "zhè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǎo</span> yě shì! xiàn zài de guǎng gào chuī de bié tí duō xuán hū le, hǎo xiàng shén me máo bìng dōu néng bāo zhì bǎi bìng shì de.",
+       "vi": "Cái đó thì đúng thật! Quảng cáo bây giờ thổi phồng đừng nhắc tới thần thánh cỡ nào, cứ như thể chữa được bách bệnh vậy.",
        "modified": true,
-       "reason": "Áp dụng mẫu Bài 2 【别提多……了】 (miêu tả sự phóng đại của quảng cáo một cách sinh động)."
+       "reason": "Thay '也对' bằng cụm tự nhiên 【这倒也是！】, kết hợp mẫu Bài 2 【别提多……了】."
       },
       {
        "n": "09",
@@ -1013,11 +1051,12 @@ window.APP_DATA = {
       {
        "n": "15",
        "role": "A",
-       "zh": "对。与其只想着吃补药，不如先改善饮食、睡眠和运动习惯。",
-       "pinyin": "duì. yǔ qí zhǐ xiǎng zhe chī bǔ yào, bù rú xiān gǎi shàn yǐn shí, shuì mián hé yùn dòng xí guàn.",
-       "pinyinHtml": "duì. yǔ qí zhǐ xiǎng zhe chī bǔ yào, bù rú xiān gǎi shàn yǐn shí, shuì mián hé yùn dòng xí guàn.",
-       "vi": "Đúng thế. Thay vì chỉ chăm chăm nghĩ đến uống thuốc bổ, chi bằng trước hết hãy cải thiện thói quen ăn uống, ngủ nghỉ và vận động.",
-       "modified": false
+       "zh": "那倒是！与其光想着靠补药，真不如先把吃饭、睡觉和运动规律理顺了。",
+       "pinyin": "nà dǎo shì! yǔ qí guāng xiǎng zhe kào bǔ yào, zhēn bù rú xiān bǎ chī fàn, shuì jiào hé yùn dòng guī lǜ lǐ shùn le.",
+       "pinyinHtml": "nà dǎo shì! yǔ qí guāng xiǎng zhe kào bǔ yào, zhēn bù rú xiān bǎ chī fàn, shuì jiào hé yùn dòng guī lǜ lǐ shùn le.",
+       "vi": "Đúng là như vậy! So với việc chỉ chăm chăm dựa vào thuốc bổ, thật sự chẳng thà sắp xếp nề nếp ăn uống, ngủ nghỉ và vận động cho đâu vào đấy trước đã.",
+       "modified": true,
+       "reason": "Thay chữ '对' bằng quán dụng ngữ đồng ý 【那倒是！】."
       },
       {
        "n": "16",
@@ -1031,11 +1070,12 @@ window.APP_DATA = {
       {
        "n": "17",
        "role": "A",
-       "zh": "没错。关键是了解自己的需要，而不是盲目相信广告。",
-       "pinyin": "méi cuò. guān jiàn shì liǎo jiě zì jǐ de xū yào, ér bú shì máng mù xiāng xìn guǎng gào.",
-       "pinyinHtml": "méi cuò. guān jiàn shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">liǎo</span> jiě zì jǐ de xū yào, ér bú shì máng mù xiāng xìn guǎng gào.",
-       "vi": "Không sai. Mấu chốt là phải hiểu rõ nhu cầu của bản thân, chứ không phải mù quáng tin vào quảng cáo.",
-       "modified": false
+       "zh": "可不是嘛！关键是搞清楚自己的身体到底缺啥，绝不能盲目跟着广告瞎买。",
+       "pinyin": "kě bú shì ma! guān jiàn shì gǎo qīng chǔ zì jǐ de shēn tǐ dào dǐ quē shá, jué bù néng máng mù gēn zhe guǎng gào xiā mǎi.",
+       "pinyinHtml": "kě bú shì ma! guān jiàn shì gǎo qīng chǔ zì jǐ de shēn tǐ dào dǐ quē shá, jué bù néng máng mù gēn zhe guǎng gào xiā mǎi.",
+       "vi": "Chứ còn gì nữa! Mấu chốt là phải hiểu rõ cơ thể mình rốt cuộc thiếu cái gì, tuyệt đối không được nhắm mắt mua bừa theo quảng cáo.",
+       "modified": true,
+       "reason": "Thay chữ '没错' bằng khẩu ngữ tán đồng kinh điển 【可不是嘛！】 và từ khẩu ngữ đời sống 【缺啥 / 瞎买】."
       },
       {
        "n": "18",
@@ -1265,12 +1305,12 @@ window.APP_DATA = {
       {
        "n": "08",
        "role": "B",
-       "zh": "也对。现在有的广告吹得别提多玄乎了，好像什么毛病都能治。",
-       "pinyin": "yě duì. xiàn zài yǒu de guǎng gào chuī de bié tí duō xuán hū le, hǎo xiàng shén me máo bìng dōu néng zhì.",
-       "pinyinHtml": "yě duì. xiàn zài yǒu de guǎng gào chuī de bié tí duō xuán hū le, hǎo xiàng shén me máo bìng dōu néng zhì.",
-       "vi": "Cũng đúng. Hiện nay có mấy quảng cáo thổi phồng đừng nhắc tới thần thánh cỡ nào, như thể bệnh gì cũng chữa được.",
+       "zh": "这倒也是！现在的广告吹得别提多玄乎了，好像什么毛病都能包治百病似的。",
+       "pinyin": "zhè dǎo yě shì! xiàn zài de guǎng gào chuī de bié tí duō xuán hū le, hǎo xiàng shén me máo bìng dōu néng bāo zhì bǎi bìng shì de.",
+       "pinyinHtml": "zhè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǎo</span> yě shì! xiàn zài de guǎng gào chuī de bié tí duō xuán hū le, hǎo xiàng shén me máo bìng dōu néng bāo zhì bǎi bìng shì de.",
+       "vi": "Cái đó thì đúng thật! Quảng cáo bây giờ thổi phồng đừng nhắc tới thần thánh cỡ nào, cứ như thể chữa được bách bệnh vậy.",
        "modified": true,
-       "reason": "Áp dụng mẫu Bài 2 【别提多……了】 (miêu tả sự phóng đại của quảng cáo một cách sinh động)."
+       "reason": "Thay '也对' bằng cụm tự nhiên 【这倒也是！】, kết hợp mẫu Bài 2 【别提多……了】."
       },
       {
        "n": "09",
@@ -1329,11 +1369,12 @@ window.APP_DATA = {
       {
        "n": "15",
        "role": "A",
-       "zh": "对。与其只想着吃补药，不如先改善饮食、睡眠和运动习惯。",
-       "pinyin": "duì. yǔ qí zhǐ xiǎng zhe chī bǔ yào, bù rú xiān gǎi shàn yǐn shí, shuì mián hé yùn dòng xí guàn.",
-       "pinyinHtml": "duì. yǔ qí zhǐ xiǎng zhe chī bǔ yào, bù rú xiān gǎi shàn yǐn shí, shuì mián hé yùn dòng xí guàn.",
-       "vi": "Đúng thế. Thay vì chỉ chăm chăm nghĩ đến uống thuốc bổ, chi bằng trước hết hãy cải thiện thói quen ăn uống, ngủ nghỉ và vận động.",
-       "modified": false
+       "zh": "那倒是！与其光想着靠补药，真不如先把吃饭、睡觉和运动规律理顺了。",
+       "pinyin": "nà dǎo shì! yǔ qí guāng xiǎng zhe kào bǔ yào, zhēn bù rú xiān bǎ chī fàn, shuì jiào hé yùn dòng guī lǜ lǐ shùn le.",
+       "pinyinHtml": "nà dǎo shì! yǔ qí guāng xiǎng zhe kào bǔ yào, zhēn bù rú xiān bǎ chī fàn, shuì jiào hé yùn dòng guī lǜ lǐ shùn le.",
+       "vi": "Đúng là như vậy! So với việc chỉ chăm chăm dựa vào thuốc bổ, thật sự chẳng thà sắp xếp nề nếp ăn uống, ngủ nghỉ và vận động cho đâu vào đấy trước đã.",
+       "modified": true,
+       "reason": "Thay chữ '对' bằng quán dụng ngữ đồng ý 【那倒是！】."
       },
       {
        "n": "16",
@@ -1347,11 +1388,12 @@ window.APP_DATA = {
       {
        "n": "17",
        "role": "A",
-       "zh": "没错。关键是了解自己的需要，而不是盲目相信广告。",
-       "pinyin": "méi cuò. guān jiàn shì liǎo jiě zì jǐ de xū yào, ér bú shì máng mù xiāng xìn guǎng gào.",
-       "pinyinHtml": "méi cuò. guān jiàn shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">liǎo</span> jiě zì jǐ de xū yào, ér bú shì máng mù xiāng xìn guǎng gào.",
-       "vi": "Không sai. Mấu chốt là phải hiểu rõ nhu cầu của bản thân, chứ không phải mù quáng tin vào quảng cáo.",
-       "modified": false
+       "zh": "可不是嘛！关键是搞清楚自己的身体到底缺啥，绝不能盲目跟着广告瞎买。",
+       "pinyin": "kě bú shì ma! guān jiàn shì gǎo qīng chǔ zì jǐ de shēn tǐ dào dǐ quē shá, jué bù néng máng mù gēn zhe guǎng gào xiā mǎi.",
+       "pinyinHtml": "kě bú shì ma! guān jiàn shì gǎo qīng chǔ zì jǐ de shēn tǐ dào dǐ quē shá, jué bù néng máng mù gēn zhe guǎng gào xiā mǎi.",
+       "vi": "Chứ còn gì nữa! Mấu chốt là phải hiểu rõ cơ thể mình rốt cuộc thiếu cái gì, tuyệt đối không được nhắm mắt mua bừa theo quảng cáo.",
+       "modified": true,
+       "reason": "Thay chữ '没错' bằng khẩu ngữ tán đồng kinh điển 【可不是嘛！】 và từ khẩu ngữ đời sống 【缺啥 / 瞎买】."
       },
       {
        "n": "18",
@@ -1402,7 +1444,7 @@ window.APP_DATA = {
       {
        "n": "08",
        "role": "B",
-       "reason": "Áp dụng mẫu Bài 2 【别提多……了】 (miêu tả sự phóng đại của quảng cáo một cách sinh động).",
+       "reason": "Thay '也对' bằng cụm tự nhiên 【这倒也是！】, kết hợp mẫu Bài 2 【别提多……了】.",
        "v1": {
         "zh": "也对。有的广告说得特别好，好像什么毛病都能治。",
         "pinyin": "yě duì. yǒu de guǎng gào shuō de tè bié hǎo, hǎo xiàng shén me máo bìng dōu néng zhì.",
@@ -1410,10 +1452,44 @@ window.APP_DATA = {
         "vi": "Cũng đúng ha. Có mấy mẩu quảng cáo nói nghe hay lắm, cứ như bệnh tật gì cũng chữa khỏi được ấy."
        },
        "v2": {
-        "zh": "也对。现在有的广告吹得别提多玄乎了，好像什么毛病都能治。",
-        "pinyin": "yě duì. xiàn zài yǒu de guǎng gào chuī de bié tí duō xuán hū le, hǎo xiàng shén me máo bìng dōu néng zhì.",
-        "pinyinHtml": "yě duì. xiàn zài yǒu de guǎng gào chuī de bié tí duō xuán hū le, hǎo xiàng shén me máo bìng dōu néng zhì.",
-        "vi": "Cũng đúng. Hiện nay có mấy quảng cáo thổi phồng đừng nhắc tới thần thánh cỡ nào, như thể bệnh gì cũng chữa được."
+        "zh": "这倒也是！现在的广告吹得别提多玄乎了，好像什么毛病都能包治百病似的。",
+        "pinyin": "zhè dǎo yě shì! xiàn zài de guǎng gào chuī de bié tí duō xuán hū le, hǎo xiàng shén me máo bìng dōu néng bāo zhì bǎi bìng shì de.",
+        "pinyinHtml": "zhè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǎo</span> yě shì! xiàn zài de guǎng gào chuī de bié tí duō xuán hū le, hǎo xiàng shén me máo bìng dōu néng bāo zhì bǎi bìng shì de.",
+        "vi": "Cái đó thì đúng thật! Quảng cáo bây giờ thổi phồng đừng nhắc tới thần thánh cỡ nào, cứ như thể chữa được bách bệnh vậy."
+       }
+      },
+      {
+       "n": "15",
+       "role": "A",
+       "reason": "Thay chữ '对' bằng quán dụng ngữ đồng ý 【那倒是！】.",
+       "v1": {
+        "zh": "对。与其只想着吃补药，不如先改善饮食、睡眠和运动习惯。",
+        "pinyin": "duì. yǔ qí zhǐ xiǎng zhe chī bǔ yào, bù rú xiān gǎi shàn yǐn shí, shuì mián hé yùn dòng xí guàn.",
+        "pinyinHtml": "duì. yǔ qí zhǐ xiǎng zhe chī bǔ yào, bù rú xiān gǎi shàn yǐn shí, shuì mián hé yùn dòng xí guàn.",
+        "vi": "Đúng thế. Thay vì chỉ chăm chăm nghĩ đến uống thuốc bổ, chi bằng trước hết hãy cải thiện thói quen ăn uống, ngủ nghỉ và vận động."
+       },
+       "v2": {
+        "zh": "那倒是！与其光想着靠补药，真不如先把吃饭、睡觉和运动规律理顺了。",
+        "pinyin": "nà dǎo shì! yǔ qí guāng xiǎng zhe kào bǔ yào, zhēn bù rú xiān bǎ chī fàn, shuì jiào hé yùn dòng guī lǜ lǐ shùn le.",
+        "pinyinHtml": "nà dǎo shì! yǔ qí guāng xiǎng zhe kào bǔ yào, zhēn bù rú xiān bǎ chī fàn, shuì jiào hé yùn dòng guī lǜ lǐ shùn le.",
+        "vi": "Đúng là như vậy! So với việc chỉ chăm chăm dựa vào thuốc bổ, thật sự chẳng thà sắp xếp nề nếp ăn uống, ngủ nghỉ và vận động cho đâu vào đấy trước đã."
+       }
+      },
+      {
+       "n": "17",
+       "role": "A",
+       "reason": "Thay chữ '没错' bằng khẩu ngữ tán đồng kinh điển 【可不是嘛！】 và từ khẩu ngữ đời sống 【缺啥 / 瞎买】.",
+       "v1": {
+        "zh": "没错。关键是了解自己的需要，而不是盲目相信广告。",
+        "pinyin": "méi cuò. guān jiàn shì liǎo jiě zì jǐ de xū yào, ér bú shì máng mù xiāng xìn guǎng gào.",
+        "pinyinHtml": "méi cuò. guān jiàn shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">liǎo</span> jiě zì jǐ de xū yào, ér bú shì máng mù xiāng xìn guǎng gào.",
+        "vi": "Không sai. Mấu chốt là phải hiểu rõ nhu cầu của bản thân, chứ không phải mù quáng tin vào quảng cáo."
+       },
+       "v2": {
+        "zh": "可不是嘛！关键是搞清楚自己的身体到底缺啥，绝不能盲目跟着广告瞎买。",
+        "pinyin": "kě bú shì ma! guān jiàn shì gǎo qīng chǔ zì jǐ de shēn tǐ dào dǐ quē shá, jué bù néng máng mù gēn zhe guǎng gào xiā mǎi.",
+        "pinyinHtml": "kě bú shì ma! guān jiàn shì gǎo qīng chǔ zì jǐ de shēn tǐ dào dǐ quē shá, jué bù néng máng mù gēn zhe guǎng gào xiā mǎi.",
+        "vi": "Chứ còn gì nữa! Mấu chốt là phải hiểu rõ cơ thể mình rốt cuộc thiếu cái gì, tuyệt đối không được nhắm mắt mua bừa theo quảng cáo."
        }
       },
       {
@@ -1435,115 +1511,115 @@ window.APP_DATA = {
       }
      ],
      "audio": "audio/b2-c2.mp3",
-     "audioDuration": 100.2,
+     "audioDuration": 99.65,
      "audioTimings": [
       {
        "n": "01",
        "role": "A",
        "start": 0,
-       "end": 5.93
+       "end": 5.59
       },
       {
        "n": "02",
        "role": "B",
-       "start": 5.93,
-       "end": 9.94
+       "start": 5.59,
+       "end": 9.34
       },
       {
        "n": "03",
        "role": "A",
-       "start": 9.94,
-       "end": 15.77
+       "start": 9.34,
+       "end": 14.83
       },
       {
        "n": "04",
        "role": "B",
-       "start": 15.77,
-       "end": 20.3
+       "start": 14.83,
+       "end": 19.34
       },
       {
        "n": "05",
        "role": "A",
-       "start": 20.3,
-       "end": 25.85
+       "start": 19.34,
+       "end": 24.58
       },
       {
        "n": "06",
        "role": "B",
-       "start": 25.85,
-       "end": 30.34
+       "start": 24.58,
+       "end": 29.02
       },
       {
        "n": "07",
        "role": "A",
-       "start": 30.34,
-       "end": 38.38
+       "start": 29.02,
+       "end": 36.6
       },
       {
        "n": "08",
        "role": "B",
-       "start": 38.38,
-       "end": 45
+       "start": 36.6,
+       "end": 43.8
       },
       {
        "n": "09",
        "role": "A",
-       "start": 45,
-       "end": 51.58
+       "start": 43.8,
+       "end": 49.99
       },
       {
        "n": "10",
        "role": "B",
-       "start": 51.58,
-       "end": 54.26
+       "start": 49.99,
+       "end": 52.68
       },
       {
        "n": "11",
        "role": "A",
-       "start": 54.26,
-       "end": 60.24
+       "start": 52.68,
+       "end": 58.32
       },
       {
        "n": "12",
        "role": "B",
-       "start": 60.24,
-       "end": 63.94
+       "start": 58.32,
+       "end": 62.09
       },
       {
        "n": "13",
        "role": "A",
-       "start": 63.94,
-       "end": 70.08
+       "start": 62.09,
+       "end": 67.87
       },
       {
        "n": "14",
        "role": "B",
-       "start": 70.08,
-       "end": 74.93
+       "start": 67.87,
+       "end": 72.58
       },
       {
        "n": "15",
        "role": "A",
-       "start": 74.93,
-       "end": 81.98
+       "start": 72.58,
+       "end": 79.94
       },
       {
        "n": "16",
        "role": "B",
-       "start": 81.98,
-       "end": 87.72
+       "start": 79.94,
+       "end": 85.78
       },
       {
        "n": "17",
        "role": "A",
-       "start": 87.72,
-       "end": 93.38
+       "start": 85.78,
+       "end": 93.1
       },
       {
        "n": "18",
        "role": "B",
-       "start": 93.38,
-       "end": 100.2
+       "start": 93.1,
+       "end": 99.65
       }
      ]
     }
@@ -1838,11 +1914,12 @@ window.APP_DATA = {
       {
        "n": "06",
        "role": "B",
-       "zh": "是啊，我挺喜欢辣火锅。不过吃饭也得照顾别人的口味。",
-       "pinyin": "shì a, wǒ tǐng xǐ huan là huǒ guō. bú guò chī fàn yě děi zhào gù bié rén de kǒu wèi.",
-       "pinyinHtml": "shì a, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> xǐ huan là huǒ guō. bú guò chī fàn yě děi zhào gù bié rén de kǒu wèi.",
-       "vi": "Ừ đúng rồi, tớ khá thích lẩu cay. Nhưng đi ăn chung thì cũng phải để ý đến khẩu vị của người khác nữa chứ.",
-       "modified": false
+       "zh": "那倒是，麻辣火锅确实是我的心头好！不过大家一块儿吃饭，肯定得照顾每个人的口味。",
+       "pinyin": "nà dǎo shì, má là huǒ guō què shí shì wǒ de xīn tóu hǎo! bú guò dà jiā yí kuàir chī fàn, kěn dìng de zhào gù měi gè rén de kǒu wèi.",
+       "pinyinHtml": "nà dǎo shì, má là huǒ guō què shí shì wǒ de xīn tóu hǎo! bú guò dà jiā yí kuàir chī fàn, kěn dìng de zhào gù měi gè rén de kǒu wèi.",
+       "vi": "Cái đó thì đúng rồi, lẩu cay tê đúng là món ruột của mình! Nhưng mà mọi người cùng đi ăn thì nhất định phải để tâm đến khẩu vị của từng người.",
+       "modified": true,
+       "reason": "Thay '是啊' bằng 【那倒是，...确实是我的心头好】 (thể hiện món ăn yêu thích cực kỳ tự nhiên)."
       },
       {
        "n": "07",
@@ -1929,11 +2006,12 @@ window.APP_DATA = {
       {
        "n": "16",
        "role": "B",
-       "zh": "好主意！咱们再点一碗汤，别点得太多，吃不完就浪费了。",
-       "pinyin": "hǎo zhǔ yì! zán men zài diǎn yì wǎn tāng, bié diǎn de tài duō, chī bù wán jiù làng fèi le.",
-       "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> zhǔ yì! zán men zài diǎn yì wǎn tāng, bié diǎn de tài duō, chī bù wán jiù làng fèi le.",
-       "vi": "Ý hay đấy! Tụi mình gọi thêm bát canh nữa là vừa, đừng gọi nhiều quá kẻo ăn không hết lại lãng phí.",
-       "modified": false
+       "zh": "太棒了！咱们再加一道清淡的鲜汤，少点一些，省得吃不完白白浪费。",
+       "pinyin": "tài bàng le! zán men zài jiā yí dào qīng dàn de xiān tāng, shǎo diǎn yì xiē, shěng de chī bù wán bái bái làng fèi.",
+       "pinyinHtml": "tài bàng le! zán men zài jiā yí dào qīng dàn de xiān tāng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǎo</span> diǎn yì xiē, shěng de chī bù wán bái bái làng fèi.",
+       "vi": "Tuyệt vời luôn! Tụi mình gọi thêm một tô canh thanh mát, gọi ít một chút, đỡ bị ăn không hết rồi bỏ phí uổng công.",
+       "modified": true,
+       "reason": "Thay '好主意' bằng cảm thán 【太棒了！】 và mẫu liên kết 【省得】."
       },
       {
        "n": "17",
@@ -2154,11 +2232,12 @@ window.APP_DATA = {
       {
        "n": "06",
        "role": "B",
-       "zh": "是啊，我挺喜欢辣火锅。不过吃饭也得照顾别人的口味。",
-       "pinyin": "shì a, wǒ tǐng xǐ huan là huǒ guō. bú guò chī fàn yě děi zhào gù bié rén de kǒu wèi.",
-       "pinyinHtml": "shì a, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> xǐ huan là huǒ guō. bú guò chī fàn yě děi zhào gù bié rén de kǒu wèi.",
-       "vi": "Ừ đúng rồi, tớ khá thích lẩu cay. Nhưng đi ăn chung thì cũng phải để ý đến khẩu vị của người khác nữa chứ.",
-       "modified": false
+       "zh": "那倒是，麻辣火锅确实是我的心头好！不过大家一块儿吃饭，肯定得照顾每个人的口味。",
+       "pinyin": "nà dǎo shì, má là huǒ guō què shí shì wǒ de xīn tóu hǎo! bú guò dà jiā yí kuàir chī fàn, kěn dìng de zhào gù měi gè rén de kǒu wèi.",
+       "pinyinHtml": "nà dǎo shì, má là huǒ guō què shí shì wǒ de xīn tóu hǎo! bú guò dà jiā yí kuàir chī fàn, kěn dìng de zhào gù měi gè rén de kǒu wèi.",
+       "vi": "Cái đó thì đúng rồi, lẩu cay tê đúng là món ruột của mình! Nhưng mà mọi người cùng đi ăn thì nhất định phải để tâm đến khẩu vị của từng người.",
+       "modified": true,
+       "reason": "Thay '是啊' bằng 【那倒是，...确实是我的心头好】 (thể hiện món ăn yêu thích cực kỳ tự nhiên)."
       },
       {
        "n": "07",
@@ -2245,11 +2324,12 @@ window.APP_DATA = {
       {
        "n": "16",
        "role": "B",
-       "zh": "好主意！咱们再点一碗汤，别点得太多，吃不完就浪费了。",
-       "pinyin": "hǎo zhǔ yì! zán men zài diǎn yì wǎn tāng, bié diǎn de tài duō, chī bù wán jiù làng fèi le.",
-       "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> zhǔ yì! zán men zài diǎn yì wǎn tāng, bié diǎn de tài duō, chī bù wán jiù làng fèi le.",
-       "vi": "Ý hay đấy! Tụi mình gọi thêm bát canh nữa là vừa, đừng gọi nhiều quá kẻo ăn không hết lại lãng phí.",
-       "modified": false
+       "zh": "太棒了！咱们再加一道清淡的鲜汤，少点一些，省得吃不完白白浪费。",
+       "pinyin": "tài bàng le! zán men zài jiā yí dào qīng dàn de xiān tāng, shǎo diǎn yì xiē, shěng de chī bù wán bái bái làng fèi.",
+       "pinyinHtml": "tài bàng le! zán men zài jiā yí dào qīng dàn de xiān tāng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǎo</span> diǎn yì xiē, shěng de chī bù wán bái bái làng fèi.",
+       "vi": "Tuyệt vời luôn! Tụi mình gọi thêm một tô canh thanh mát, gọi ít một chút, đỡ bị ăn không hết rồi bỏ phí uổng công.",
+       "modified": true,
+       "reason": "Thay '好主意' bằng cảm thán 【太棒了！】 và mẫu liên kết 【省得】."
       },
       {
        "n": "17",
@@ -2307,6 +2387,23 @@ window.APP_DATA = {
        }
       },
       {
+       "n": "06",
+       "role": "B",
+       "reason": "Thay '是啊' bằng 【那倒是，...确实是我的心头好】 (thể hiện món ăn yêu thích cực kỳ tự nhiên).",
+       "v1": {
+        "zh": "是啊，我挺喜欢辣火锅。不过吃饭也得照顾别人的口味。",
+        "pinyin": "shì a, wǒ tǐng xǐ huan là huǒ guō. bú guò chī fàn yě děi zhào gù bié rén de kǒu wèi.",
+        "pinyinHtml": "shì a, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> xǐ huan là huǒ guō. bú guò chī fàn yě děi zhào gù bié rén de kǒu wèi.",
+        "vi": "Ừ đúng rồi, tớ khá thích lẩu cay. Nhưng đi ăn chung thì cũng phải để ý đến khẩu vị của người khác nữa chứ."
+       },
+       "v2": {
+        "zh": "那倒是，麻辣火锅确实是我的心头好！不过大家一块儿吃饭，肯定得照顾每个人的口味。",
+        "pinyin": "nà dǎo shì, má là huǒ guō què shí shì wǒ de xīn tóu hǎo! bú guò dà jiā yí kuàir chī fàn, kěn dìng de zhào gù měi gè rén de kǒu wèi.",
+        "pinyinHtml": "nà dǎo shì, má là huǒ guō què shí shì wǒ de xīn tóu hǎo! bú guò dà jiā yí kuàir chī fàn, kěn dìng de zhào gù měi gè rén de kǒu wèi.",
+        "vi": "Cái đó thì đúng rồi, lẩu cay tê đúng là món ruột của mình! Nhưng mà mọi người cùng đi ăn thì nhất định phải để tâm đến khẩu vị của từng người."
+       }
+      },
+      {
        "n": "15",
        "role": "A",
        "reason": "Lồng ghép đồng thời 2 cấu trúc ăn điểm Bài 3: 【好说】 (dễ giải quyết) và 【要么……要么……】 (lựa chọn phương án dung hòa).",
@@ -2321,6 +2418,23 @@ window.APP_DATA = {
         "pinyin": "hǎo shuō! zán men yào me diǎn yí dào wēi là de, yào me ràng chú shī shǎo fàng là, liǎng quán qí měi, zěn me yàng?",
         "pinyinHtml": "hǎo shuō! zán men yào me diǎn yí dào wēi là de, yào me ràng chú shī shǎo fàng là, liǎng quán qí měi, zěn me yàng?",
         "vi": "Dễ nói thôi (chuyện nhỏ)! Chúng mình hoặc là gọi một món cay nhẹ, hoặc là bảo đầu bếp bớt cay, vẹn cả đôi đường, thấy sao?"
+       }
+      },
+      {
+       "n": "16",
+       "role": "B",
+       "reason": "Thay '好主意' bằng cảm thán 【太棒了！】 và mẫu liên kết 【省得】.",
+       "v1": {
+        "zh": "好主意！咱们再点一碗汤，别点得太多，吃不完就浪费了。",
+        "pinyin": "hǎo zhǔ yì! zán men zài diǎn yì wǎn tāng, bié diǎn de tài duō, chī bù wán jiù làng fèi le.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> zhǔ yì! zán men zài diǎn yì wǎn tāng, bié diǎn de tài duō, chī bù wán jiù làng fèi le.",
+        "vi": "Ý hay đấy! Tụi mình gọi thêm bát canh nữa là vừa, đừng gọi nhiều quá kẻo ăn không hết lại lãng phí."
+       },
+       "v2": {
+        "zh": "太棒了！咱们再加一道清淡的鲜汤，少点一些，省得吃不完白白浪费。",
+        "pinyin": "tài bàng le! zán men zài jiā yí dào qīng dàn de xiān tāng, shǎo diǎn yì xiē, shěng de chī bù wán bái bái làng fèi.",
+        "pinyinHtml": "tài bàng le! zán men zài jiā yí dào qīng dàn de xiān tāng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǎo</span> diǎn yì xiē, shěng de chī bù wán bái bái làng fèi.",
+        "vi": "Tuyệt vời luôn! Tụi mình gọi thêm một tô canh thanh mát, gọi ít một chút, đỡ bị ăn không hết rồi bỏ phí uổng công."
        }
       },
       {
@@ -2342,115 +2456,115 @@ window.APP_DATA = {
       }
      ],
      "audio": "audio/b3-c1.mp3",
-     "audioDuration": 106.06,
+     "audioDuration": 104.57,
      "audioTimings": [
       {
        "n": "01",
        "role": "A",
        "start": 0,
-       "end": 4.68
+       "end": 4.42
       },
       {
        "n": "02",
        "role": "B",
-       "start": 4.68,
-       "end": 9.91
+       "start": 4.42,
+       "end": 9.22
       },
       {
        "n": "03",
        "role": "A",
-       "start": 9.91,
-       "end": 16.34
+       "start": 9.22,
+       "end": 15.29
       },
       {
        "n": "04",
        "role": "B",
-       "start": 16.34,
-       "end": 22.54
+       "start": 15.29,
+       "end": 21.34
       },
       {
        "n": "05",
        "role": "A",
-       "start": 22.54,
-       "end": 29.71
+       "start": 21.34,
+       "end": 28.13
       },
       {
        "n": "06",
        "role": "B",
-       "start": 29.71,
-       "end": 35.33
+       "start": 28.13,
+       "end": 36.17
       },
       {
        "n": "07",
        "role": "A",
-       "start": 35.33,
-       "end": 43.22
+       "start": 36.17,
+       "end": 43.61
       },
       {
        "n": "08",
        "role": "B",
-       "start": 43.22,
-       "end": 50.16
+       "start": 43.61,
+       "end": 50.06
       },
       {
        "n": "09",
        "role": "A",
-       "start": 50.16,
-       "end": 55.73
+       "start": 50.06,
+       "end": 55.32
       },
       {
        "n": "10",
        "role": "B",
-       "start": 55.73,
-       "end": 59.83
+       "start": 55.32,
+       "end": 59.23
       },
       {
        "n": "11",
        "role": "A",
-       "start": 59.83,
-       "end": 65.69
+       "start": 59.23,
+       "end": 64.75
       },
       {
        "n": "12",
        "role": "B",
-       "start": 65.69,
-       "end": 69.7
+       "start": 64.75,
+       "end": 68.64
       },
       {
        "n": "13",
        "role": "A",
-       "start": 69.7,
-       "end": 76.22
+       "start": 68.64,
+       "end": 74.81
       },
       {
        "n": "14",
        "role": "B",
-       "start": 76.22,
-       "end": 82.27
+       "start": 74.81,
+       "end": 80.78
       },
       {
        "n": "15",
        "role": "A",
-       "start": 82.27,
-       "end": 89.64
+       "start": 80.78,
+       "end": 87.74
       },
       {
        "n": "16",
        "role": "B",
-       "start": 89.64,
-       "end": 95.52
+       "start": 87.74,
+       "end": 94.3
       },
       {
        "n": "17",
        "role": "A",
-       "start": 95.52,
-       "end": 101.35
+       "start": 94.3,
+       "end": 99.79
       },
       {
        "n": "18",
        "role": "B",
-       "start": 101.35,
-       "end": 106.06
+       "start": 99.79,
+       "end": 104.57
       }
      ]
     },
@@ -2518,11 +2632,12 @@ window.APP_DATA = {
       {
        "n": "06",
        "role": "B",
-       "zh": "不一定。很多人一天吃三顿，不过早饭也可能吃河粉、面包或者面条。",
-       "pinyin": "bù yí dìng. hěn duō rén yì tiān chī sān dùn, bú guò zǎo fàn yě kě néng chī hé fěn, miàn bāo huò zhě miàn tiáo.",
-       "pinyinHtml": "bù yí dìng. hěn duō rén yì tiān chī sān dùn, bú guò zǎo fàn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> kě néng chī hé fěn, miàn bāo huò zhě miàn tiáo.",
-       "vi": "Không hẳn đâu. Nhiều người ngày ăn ba bữa, nhưng bữa sáng cũng có thể ăn phở, bánh mì hoặc bún miến mì sợi.",
-       "modified": false
+       "zh": "确实是这样！全家人围坐在一块儿，每人捧着一碗饭，热热闹闹地一起夹菜吃，特别温馨。",
+       "pinyin": "què shí shì zhè yàng! quán jiā rén wéi zuò zài yí kuàir, měi rén pěng zhe yì wǎn fàn, rè rè nào nào de yì qǐ jiá cài chī, tè bié wēn xīn.",
+       "pinyinHtml": "què shí shì zhè yàng! quán jiā rén wéi zuò zài yí kuàir, měi rén pěng zhe yì wǎn fàn, rè rè nào nào de yì qǐ jiá cài chī, tè bié wēn xīn.",
+       "vi": "Chuẩn xác là như vậy luôn! Cả nhà quây quần ngồi lại, mỗi người bưng một chén cơm, rôm rả gắp thức ăn chung, vô cùng ấm cúng.",
+       "modified": true,
+       "reason": "Thay đáp từ '没错' bằng 【确实是这样！】 và miêu tả sinh động không khí bữa cơm gia đình Việt."
       },
       {
        "n": "07",
@@ -2591,11 +2706,12 @@ window.APP_DATA = {
       {
        "n": "14",
        "role": "B",
-       "zh": "有可能。我觉得有时间的话，还是应该尽量跟家人一起吃晚饭。",
-       "pinyin": "yǒu kě néng. wǒ jué de yǒu shí jiān de huà, hái shì yīng gāi jǐn liàng gēn jiā rén yì qǐ chī wǎn fàn.",
-       "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> kě néng. wǒ jué de yǒu shí jiān de huà, hái shì yīng gāi jǐn liàng gēn jiā rén yì qǐ chī wǎn fàn.",
-       "vi": "Cũng có thể đấy. Tớ thấy nếu có thời gian thì vẫn nên cố gắng ăn bữa tối cùng với người nhà.",
-       "modified": false
+       "zh": "差异还真不小呢！北方口味偏咸鲜适中，中部人特别能吃辣，而南部呢，口味往往偏甜一些。",
+       "pinyin": "chā yì hái zhēn bù xiǎo ne! běi fāng kǒu wèi piān xián xiān shì zhōng, zhōng bù rén tè bié néng chī là, ér nán bù ne, kǒu wèi wǎng wǎng piān tián yì xiē.",
+       "pinyinHtml": "chā yì hái zhēn bù xiǎo ne! běi fāng kǒu wèi piān xián xiān shì zhōng, zhōng bù rén tè bié néng chī là, ér nán bù ne, kǒu wèi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎng</span> wǎng piān tián yì xiē.",
+       "vi": "Khác biệt thật sự không hề nhỏ đâu nha! Khẩu vị miền Bắc thiên về mặn mà vừa vặn, người miền Trung thì ăn cay siêu giỏi, còn miền Nam thì vị hay ngọt hơn một chút.",
+       "modified": true,
+       "reason": "Thay câu cụt lủn '挺大的' bằng lối diễn đạt lưu loát 【差异还真不小呢！】."
       },
       {
        "n": "15",
@@ -2833,11 +2949,12 @@ window.APP_DATA = {
       {
        "n": "06",
        "role": "B",
-       "zh": "不一定。很多人一天吃三顿，不过早饭也可能吃河粉、面包或者面条。",
-       "pinyin": "bù yí dìng. hěn duō rén yì tiān chī sān dùn, bú guò zǎo fàn yě kě néng chī hé fěn, miàn bāo huò zhě miàn tiáo.",
-       "pinyinHtml": "bù yí dìng. hěn duō rén yì tiān chī sān dùn, bú guò zǎo fàn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> kě néng chī hé fěn, miàn bāo huò zhě miàn tiáo.",
-       "vi": "Không hẳn đâu. Nhiều người ngày ăn ba bữa, nhưng bữa sáng cũng có thể ăn phở, bánh mì hoặc bún miến mì sợi.",
-       "modified": false
+       "zh": "确实是这样！全家人围坐在一块儿，每人捧着一碗饭，热热闹闹地一起夹菜吃，特别温馨。",
+       "pinyin": "què shí shì zhè yàng! quán jiā rén wéi zuò zài yí kuàir, měi rén pěng zhe yì wǎn fàn, rè rè nào nào de yì qǐ jiá cài chī, tè bié wēn xīn.",
+       "pinyinHtml": "què shí shì zhè yàng! quán jiā rén wéi zuò zài yí kuàir, měi rén pěng zhe yì wǎn fàn, rè rè nào nào de yì qǐ jiá cài chī, tè bié wēn xīn.",
+       "vi": "Chuẩn xác là như vậy luôn! Cả nhà quây quần ngồi lại, mỗi người bưng một chén cơm, rôm rả gắp thức ăn chung, vô cùng ấm cúng.",
+       "modified": true,
+       "reason": "Thay đáp từ '没错' bằng 【确实是这样！】 và miêu tả sinh động không khí bữa cơm gia đình Việt."
       },
       {
        "n": "07",
@@ -2906,11 +3023,12 @@ window.APP_DATA = {
       {
        "n": "14",
        "role": "B",
-       "zh": "有可能。我觉得有时间的话，还是应该尽量跟家人一起吃晚饭。",
-       "pinyin": "yǒu kě néng. wǒ jué de yǒu shí jiān de huà, hái shì yīng gāi jǐn liàng gēn jiā rén yì qǐ chī wǎn fàn.",
-       "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> kě néng. wǒ jué de yǒu shí jiān de huà, hái shì yīng gāi jǐn liàng gēn jiā rén yì qǐ chī wǎn fàn.",
-       "vi": "Cũng có thể đấy. Tớ thấy nếu có thời gian thì vẫn nên cố gắng ăn bữa tối cùng với người nhà.",
-       "modified": false
+       "zh": "差异还真不小呢！北方口味偏咸鲜适中，中部人特别能吃辣，而南部呢，口味往往偏甜一些。",
+       "pinyin": "chā yì hái zhēn bù xiǎo ne! běi fāng kǒu wèi piān xián xiān shì zhōng, zhōng bù rén tè bié néng chī là, ér nán bù ne, kǒu wèi wǎng wǎng piān tián yì xiē.",
+       "pinyinHtml": "chā yì hái zhēn bù xiǎo ne! běi fāng kǒu wèi piān xián xiān shì zhōng, zhōng bù rén tè bié néng chī là, ér nán bù ne, kǒu wèi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎng</span> wǎng piān tián yì xiē.",
+       "vi": "Khác biệt thật sự không hề nhỏ đâu nha! Khẩu vị miền Bắc thiên về mặn mà vừa vặn, người miền Trung thì ăn cay siêu giỏi, còn miền Nam thì vị hay ngọt hơn một chút.",
+       "modified": true,
+       "reason": "Thay câu cụt lủn '挺大的' bằng lối diễn đạt lưu loát 【差异还真不小呢！】."
       },
       {
        "n": "15",
@@ -2953,6 +3071,23 @@ window.APP_DATA = {
      ],
      "diffs": [
       {
+       "n": "06",
+       "role": "B",
+       "reason": "Thay đáp từ '没错' bằng 【确实是这样！】 và miêu tả sinh động không khí bữa cơm gia đình Việt.",
+       "v1": {
+        "zh": "不一定。很多人一天吃三顿，不过早饭也可能吃河粉、面包或者面条。",
+        "pinyin": "bù yí dìng. hěn duō rén yì tiān chī sān dùn, bú guò zǎo fàn yě kě néng chī hé fěn, miàn bāo huò zhě miàn tiáo.",
+        "pinyinHtml": "bù yí dìng. hěn duō rén yì tiān chī sān dùn, bú guò zǎo fàn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> kě néng chī hé fěn, miàn bāo huò zhě miàn tiáo.",
+        "vi": "Không hẳn đâu. Nhiều người ngày ăn ba bữa, nhưng bữa sáng cũng có thể ăn phở, bánh mì hoặc bún miến mì sợi."
+       },
+       "v2": {
+        "zh": "确实是这样！全家人围坐在一块儿，每人捧着一碗饭，热热闹闹地一起夹菜吃，特别温馨。",
+        "pinyin": "què shí shì zhè yàng! quán jiā rén wéi zuò zài yí kuàir, měi rén pěng zhe yì wǎn fàn, rè rè nào nào de yì qǐ jiá cài chī, tè bié wēn xīn.",
+        "pinyinHtml": "què shí shì zhè yàng! quán jiā rén wéi zuò zài yí kuàir, měi rén pěng zhe yì wǎn fàn, rè rè nào nào de yì qǐ jiá cài chī, tè bié wēn xīn.",
+        "vi": "Chuẩn xác là như vậy luôn! Cả nhà quây quần ngồi lại, mỗi người bưng một chén cơm, rôm rả gắp thức ăn chung, vô cùng ấm cúng."
+       }
+      },
+      {
        "n": "08",
        "role": "B",
        "reason": "Lồng ghép mẫu Bài 3 【吃得惯】 vào ngữ cảnh giới thiệu ẩm thực bản địa cho người nước ngoài.",
@@ -2967,6 +3102,23 @@ window.APP_DATA = {
         "pinyin": "yuè nán cài zhěng tǐ piān qīng dàn, wài guó péng yǒu yì bān dōu chī de guàn, yīn wèi tiáo liào fēng fù, kě yǐ zì jǐ jiā níng méng huò là jiāo.",
         "pinyinHtml": "yuè nán cài <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhěng</span> tǐ piān qīng dàn, wài guó péng yǒu yì bān dōu chī de guàn, yīn wèi tiáo liào fēng fù, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ zì jǐ jiā níng méng huò là jiāo.",
         "vi": "Món Việt nhìn chung thiên về thanh đạm, bạn bè nước ngoài thường đều ăn quen được, vì gia vị phong phú, có thể tự vắt thêm chanh hoặc bỏ ớt."
+       }
+      },
+      {
+       "n": "14",
+       "role": "B",
+       "reason": "Thay câu cụt lủn '挺大的' bằng lối diễn đạt lưu loát 【差异还真不小呢！】.",
+       "v1": {
+        "zh": "有可能。我觉得有时间的话，还是应该尽量跟家人一起吃晚饭。",
+        "pinyin": "yǒu kě néng. wǒ jué de yǒu shí jiān de huà, hái shì yīng gāi jǐn liàng gēn jiā rén yì qǐ chī wǎn fàn.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> kě néng. wǒ jué de yǒu shí jiān de huà, hái shì yīng gāi jǐn liàng gēn jiā rén yì qǐ chī wǎn fàn.",
+        "vi": "Cũng có thể đấy. Tớ thấy nếu có thời gian thì vẫn nên cố gắng ăn bữa tối cùng với người nhà."
+       },
+       "v2": {
+        "zh": "差异还真不小呢！北方口味偏咸鲜适中，中部人特别能吃辣，而南部呢，口味往往偏甜一些。",
+        "pinyin": "chā yì hái zhēn bù xiǎo ne! běi fāng kǒu wèi piān xián xiān shì zhōng, zhōng bù rén tè bié néng chī là, ér nán bù ne, kǒu wèi wǎng wǎng piān tián yì xiē.",
+        "pinyinHtml": "chā yì hái zhēn bù xiǎo ne! běi fāng kǒu wèi piān xián xiān shì zhōng, zhōng bù rén tè bié néng chī là, ér nán bù ne, kǒu wèi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎng</span> wǎng piān tián yì xiē.",
+        "vi": "Khác biệt thật sự không hề nhỏ đâu nha! Khẩu vị miền Bắc thiên về mặn mà vừa vặn, người miền Trung thì ăn cay siêu giỏi, còn miền Nam thì vị hay ngọt hơn một chút."
        }
       },
       {
@@ -3005,115 +3157,115 @@ window.APP_DATA = {
       }
      ],
      "audio": "audio/b3-c2.mp3",
-     "audioDuration": 108.17,
+     "audioDuration": 106.34,
      "audioTimings": [
       {
        "n": "01",
        "role": "A",
        "start": 0,
-       "end": 5.28
+       "end": 4.99
       },
       {
        "n": "02",
        "role": "B",
-       "start": 5.28,
-       "end": 8.47
+       "start": 4.99,
+       "end": 8.09
       },
       {
        "n": "03",
        "role": "A",
-       "start": 8.47,
-       "end": 14.57
+       "start": 8.09,
+       "end": 13.82
       },
       {
        "n": "04",
        "role": "B",
-       "start": 14.57,
-       "end": 22.46
+       "start": 13.82,
+       "end": 21.43
       },
       {
        "n": "05",
        "role": "A",
-       "start": 22.46,
-       "end": 25.34
+       "start": 21.43,
+       "end": 24.14
       },
       {
        "n": "06",
        "role": "B",
-       "start": 25.34,
-       "end": 32.83
+       "start": 24.14,
+       "end": 32.21
       },
       {
        "n": "07",
        "role": "A",
-       "start": 32.83,
-       "end": 40.18
+       "start": 32.21,
+       "end": 39.12
       },
       {
        "n": "08",
        "role": "B",
-       "start": 40.18,
-       "end": 48.5
+       "start": 39.12,
+       "end": 46.85
       },
       {
        "n": "09",
        "role": "A",
-       "start": 48.5,
-       "end": 54.74
+       "start": 46.85,
+       "end": 52.73
       },
       {
        "n": "10",
        "role": "B",
-       "start": 54.74,
-       "end": 62.16
+       "start": 52.73,
+       "end": 59.66
       },
       {
        "n": "11",
        "role": "A",
-       "start": 62.16,
-       "end": 68.33
+       "start": 59.66,
+       "end": 65.5
       },
       {
        "n": "12",
        "role": "B",
-       "start": 68.33,
-       "end": 75.19
+       "start": 65.5,
+       "end": 71.9
       },
       {
        "n": "13",
        "role": "A",
-       "start": 75.19,
-       "end": 79.92
+       "start": 71.9,
+       "end": 76.37
       },
       {
        "n": "14",
        "role": "B",
-       "start": 79.92,
-       "end": 86.33
+       "start": 76.37,
+       "end": 85.15
       },
       {
        "n": "15",
        "role": "A",
-       "start": 86.33,
-       "end": 90.58
+       "start": 85.15,
+       "end": 89.18
       },
       {
        "n": "16",
        "role": "B",
-       "start": 90.58,
-       "end": 97.73
+       "start": 89.18,
+       "end": 96.05
       },
       {
        "n": "17",
        "role": "A",
-       "start": 97.73,
-       "end": 103.13
+       "start": 96.05,
+       "end": 101.14
       },
       {
        "n": "18",
        "role": "B",
-       "start": 103.13,
-       "end": 108.17
+       "start": 101.14,
+       "end": 106.34
       }
      ]
     }
@@ -3483,11 +3635,12 @@ window.APP_DATA = {
       {
        "n": "17",
        "role": "A",
-       "zh": "对。总之，不必只买高档的东西，礼物合适、心意真诚就好。",
-       "pinyin": "duì. zǒng zhī, bú bì zhǐ mǎi gāo dàng de dōng xi, lǐ wù hé shì, xīn yì zhēn chéng jiù hǎo.",
-       "pinyinHtml": "duì. zǒng zhī, bú bì zhǐ mǎi gāo dàng de dōng xi, lǐ wù hé shì, xīn yì zhēn chéng jiù hǎo.",
-       "vi": "Chuẩn rồi. Tóm lại là không nhất thiết cứ phải mua đồ cao cấp, quà tặng phù hợp và tấm lòng chân thành là được.",
-       "modified": false
+       "zh": "确实，心意到了比啥都强！没必要非买昂贵的奢侈品，实用得体、心意真诚就是最好的礼物。",
+       "pinyin": "què shí, xīn yì dào le bǐ shá dōu qiáng! méi bì yào fēi mǎi áng guì de shē chǐ pǐn, shí yòng dé tǐ, xīn yì zhēn chéng jiù shì zuì hǎo de lǐ wù.",
+       "pinyinHtml": "què shí, xīn yì dào le bǐ shá dōu qiáng! méi bì yào fēi mǎi áng guì de shē <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">chǐ</span> pǐn, shí yòng dé tǐ, xīn yì zhēn chéng jiù shì zuì hǎo de lǐ wù.",
+       "vi": "Chuẩn luôn, tấm lòng gửi gắm đến nơi là quý hơn bất cứ thứ gì! Không cần thiết cứ phải mua đồ hiệu xa xỉ đắt tiền, thiết thực tươm tất và chân thành chính là món quà tuyệt nhất.",
+       "modified": true,
+       "reason": "Thay chữ '对' bằng quán dụng ngữ khẩu ngữ ấm áp 【确实，心意到了比啥都强！】."
       },
       {
        "n": "18",
@@ -3798,11 +3951,12 @@ window.APP_DATA = {
       {
        "n": "17",
        "role": "A",
-       "zh": "对。总之，不必只买高档的东西，礼物合适、心意真诚就好。",
-       "pinyin": "duì. zǒng zhī, bú bì zhǐ mǎi gāo dàng de dōng xi, lǐ wù hé shì, xīn yì zhēn chéng jiù hǎo.",
-       "pinyinHtml": "duì. zǒng zhī, bú bì zhǐ mǎi gāo dàng de dōng xi, lǐ wù hé shì, xīn yì zhēn chéng jiù hǎo.",
-       "vi": "Chuẩn rồi. Tóm lại là không nhất thiết cứ phải mua đồ cao cấp, quà tặng phù hợp và tấm lòng chân thành là được.",
-       "modified": false
+       "zh": "确实，心意到了比啥都强！没必要非买昂贵的奢侈品，实用得体、心意真诚就是最好的礼物。",
+       "pinyin": "què shí, xīn yì dào le bǐ shá dōu qiáng! méi bì yào fēi mǎi áng guì de shē chǐ pǐn, shí yòng dé tǐ, xīn yì zhēn chéng jiù shì zuì hǎo de lǐ wù.",
+       "pinyinHtml": "què shí, xīn yì dào le bǐ shá dōu qiáng! méi bì yào fēi mǎi áng guì de shē <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">chǐ</span> pǐn, shí yòng dé tǐ, xīn yì zhēn chéng jiù shì zuì hǎo de lǐ wù.",
+       "vi": "Chuẩn luôn, tấm lòng gửi gắm đến nơi là quý hơn bất cứ thứ gì! Không cần thiết cứ phải mua đồ hiệu xa xỉ đắt tiền, thiết thực tươm tất và chân thành chính là món quà tuyệt nhất.",
+       "modified": true,
+       "reason": "Thay chữ '对' bằng quán dụng ngữ khẩu ngữ ấm áp 【确实，心意到了比啥都强！】."
       },
       {
        "n": "18",
@@ -3865,118 +4019,135 @@ window.APP_DATA = {
         "pinyinHtml": "chú fēi guān xì tè bié tiě cái huì bāo dà hóng bāo, pǔ tōng tóng shì de huà, liǎng sān bǎi kuài qián jiù shuō de guò qù le.",
         "vi": "Trừ phi quan hệ đặc biệt thân thiết mới đi phong bì lớn, còn đồng nghiệp bình thường thì hai ba trăm tệ là coi được rồi."
        }
+      },
+      {
+       "n": "17",
+       "role": "A",
+       "reason": "Thay chữ '对' bằng quán dụng ngữ khẩu ngữ ấm áp 【确实，心意到了比啥都强！】.",
+       "v1": {
+        "zh": "对。总之，不必只买高档的东西，礼物合适、心意真诚就好。",
+        "pinyin": "duì. zǒng zhī, bú bì zhǐ mǎi gāo dàng de dōng xi, lǐ wù hé shì, xīn yì zhēn chéng jiù hǎo.",
+        "pinyinHtml": "duì. zǒng zhī, bú bì zhǐ mǎi gāo dàng de dōng xi, lǐ wù hé shì, xīn yì zhēn chéng jiù hǎo.",
+        "vi": "Chuẩn rồi. Tóm lại là không nhất thiết cứ phải mua đồ cao cấp, quà tặng phù hợp và tấm lòng chân thành là được."
+       },
+       "v2": {
+        "zh": "确实，心意到了比啥都强！没必要非买昂贵的奢侈品，实用得体、心意真诚就是最好的礼物。",
+        "pinyin": "què shí, xīn yì dào le bǐ shá dōu qiáng! méi bì yào fēi mǎi áng guì de shē chǐ pǐn, shí yòng dé tǐ, xīn yì zhēn chéng jiù shì zuì hǎo de lǐ wù.",
+        "pinyinHtml": "què shí, xīn yì dào le bǐ shá dōu qiáng! méi bì yào fēi mǎi áng guì de shē <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">chǐ</span> pǐn, shí yòng dé tǐ, xīn yì zhēn chéng jiù shì zuì hǎo de lǐ wù.",
+        "vi": "Chuẩn luôn, tấm lòng gửi gắm đến nơi là quý hơn bất cứ thứ gì! Không cần thiết cứ phải mua đồ hiệu xa xỉ đắt tiền, thiết thực tươm tất và chân thành chính là món quà tuyệt nhất."
+       }
       }
      ],
      "audio": "audio/b5-c1.mp3",
-     "audioDuration": 101.21,
+     "audioDuration": 98.57,
      "audioTimings": [
       {
        "n": "01",
        "role": "A",
        "start": 0,
-       "end": 5.42
+       "end": 5.14
       },
       {
        "n": "02",
        "role": "B",
-       "start": 5.42,
-       "end": 9.48
+       "start": 5.14,
+       "end": 9.07
       },
       {
        "n": "03",
        "role": "A",
-       "start": 9.48,
-       "end": 16.01
+       "start": 9.07,
+       "end": 15.24
       },
       {
        "n": "04",
        "role": "B",
-       "start": 16.01,
-       "end": 19.42
+       "start": 15.24,
+       "end": 18.79
       },
       {
        "n": "05",
        "role": "A",
-       "start": 19.42,
-       "end": 25.15
+       "start": 18.79,
+       "end": 24.19
       },
       {
        "n": "06",
        "role": "B",
-       "start": 25.15,
-       "end": 32.02
+       "start": 24.19,
+       "end": 30.65
       },
       {
        "n": "07",
        "role": "A",
-       "start": 32.02,
-       "end": 36.86
+       "start": 30.65,
+       "end": 35.23
       },
       {
        "n": "08",
        "role": "B",
-       "start": 36.86,
-       "end": 42.5
+       "start": 35.23,
+       "end": 40.8
       },
       {
        "n": "09",
        "role": "A",
-       "start": 42.5,
-       "end": 48.36
+       "start": 40.8,
+       "end": 46.32
       },
       {
        "n": "10",
        "role": "B",
-       "start": 48.36,
-       "end": 55.61
+       "start": 46.32,
+       "end": 53.06
       },
       {
        "n": "11",
        "role": "A",
-       "start": 55.61,
-       "end": 61.54
+       "start": 53.06,
+       "end": 58.66
       },
       {
        "n": "12",
        "role": "B",
-       "start": 61.54,
-       "end": 66.19
+       "start": 58.66,
+       "end": 63.12
       },
       {
        "n": "13",
        "role": "A",
-       "start": 66.19,
-       "end": 71.45
+       "start": 63.12,
+       "end": 68.06
       },
       {
        "n": "14",
        "role": "B",
-       "start": 71.45,
-       "end": 76.3
+       "start": 68.06,
+       "end": 72.72
       },
       {
        "n": "15",
        "role": "A",
-       "start": 76.3,
-       "end": 82.44
+       "start": 72.72,
+       "end": 78.5
       },
       {
        "n": "16",
        "role": "B",
-       "start": 82.44,
-       "end": 88.03
+       "start": 78.5,
+       "end": 83.81
       },
       {
        "n": "17",
        "role": "A",
-       "start": 88.03,
-       "end": 95.04
+       "start": 83.81,
+       "end": 92.71
       },
       {
        "n": "18",
        "role": "B",
-       "start": 95.04,
-       "end": 101.21
+       "start": 92.71,
+       "end": 98.57
       }
      ]
     },
@@ -4026,11 +4197,12 @@ window.APP_DATA = {
       {
        "n": "04",
        "role": "B",
-       "zh": "网上购物呢？是不是也有特别便宜的时候？",
-       "pinyin": "wǎng shàng gòu wù ne? shì bu shì yě yǒu tè bié pián yi de shí hòu?",
-       "pinyinHtml": "wǎng shàng gòu wù ne? shì bu shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> yǒu tè bié pián yi de shí hòu?",
-       "vi": "Thế còn mua sắm trên mạng thì sao? Có đợt nào cực kỳ rẻ không?",
-       "modified": false
+       "zh": "那可不嘛！换季清仓大多是断码或者过季款，好看的款式早被人挑光了。",
+       "pinyin": "nà kě bù ma! huàn jì qīng cāng dà duō shì duàn mǎ huò zhě guò jì kuǎn, hǎo kàn de kuǎn shì zǎo bèi rén tiāo guāng le.",
+       "pinyinHtml": "nà kě bù ma! huàn jì qīng cāng dà duō shì duàn mǎ huò zhě guò jì kuǎn, hǎo kàn de kuǎn shì zǎo bèi rén tiāo guāng le.",
+       "vi": "Chứ còn gì nữa! Xả hàng chuyển mùa phần lớn là hàng lẻ size hoặc mẫu cũ, mấy kiểu đẹp mắt người ta đã lựa sạch từ sớm rồi.",
+       "modified": true,
+       "reason": "Thay câu cụt '是有这种情况' bằng quán dụng ngữ cực kỳ chuẩn miệng 【那可不嘛！】."
       },
       {
        "n": "05",
@@ -4100,11 +4272,12 @@ window.APP_DATA = {
       {
        "n": "12",
        "role": "B",
-       "zh": "我上次买了一件过季外套，价格很低，质量也不错。",
-       "pinyin": "wǒ shàng cì mǎi le yí jiàn guò jì wài tào, jià gé hěn dī, zhì liàng yě bú cuò.",
-       "pinyinHtml": "wǒ shàng cì mǎi le yí jiàn guò jì wài tào, jià gé hěn dī, zhì liàng yě bú cuò.",
-       "vi": "Đợt trước tớ mua được chiếc áo khoác hàng hết mùa, giá rẻ bèo mà chất lượng cũng khá ổn.",
-       "modified": false
+       "zh": "可不是嘛！遇到商场反季清仓甩卖，价格真能砍下来一大截呢。",
+       "pinyin": "kě bú shì ma! yù dào shāng chǎng fǎn jì qīng cāng shuǎi mài, jià gé zhēn néng kǎn xià lái yí dà jié ne.",
+       "pinyinHtml": "kě bú shì ma! yù dào shāng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">chǎng</span> fǎn jì qīng cāng shuǎi mài, jià gé zhēn néng kǎn xià lái yí dà jié ne.",
+       "vi": "Chuẩn luôn chứ đâu! Gặp dịp trung tâm thương mại xả kho trái mùa, giá cả thực sự có thể ép xuống được một khoản lớn luôn đó.",
+       "modified": true,
+       "reason": "Thay chữ '没错' bằng cảm thán 【可不是嘛！】 và từ khẩu ngữ mua bán 【砍下来一大截】."
       },
       {
        "n": "13",
@@ -4146,11 +4319,12 @@ window.APP_DATA = {
       {
        "n": "17",
        "role": "A",
-       "zh": "没错。我准备先列购物清单，再等适合的活动。",
-       "pinyin": "méi cuò. wǒ zhǔn bèi xiān liè gòu wù qīng dān, zài děng shì hé de huó dòng.",
-       "pinyinHtml": "méi cuò. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zhǔn bèi xiān liè gòu wù qīng dān, zài děng shì hé de huó dòng.",
-       "vi": "Chuẩn luôn. Tớ định lên danh sách đồ cần mua trước, rồi mới canh đợt khuyến mãi phù hợp.",
-       "modified": false
+       "zh": "那倒是，冲动是魔鬼嘛！我打算先列个刚需清单，耐着性子等大促。",
+       "pinyin": "nà dǎo shì, chōng dòng shì mó guǐ ma! wǒ dǎ suàn xiān liè gè gāng xū qīng dān, nài zhe xìng zǐ děng dà cù.",
+       "pinyinHtml": "nà dǎo shì, chōng dòng shì mó guǐ ma! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎ suàn xiān liè gè gāng xū qīng dān, nài zhe xìng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǐ</span> děng dà cù.",
+       "vi": "Đúng thế thật, mua sắm bốc đồng là tai họa mà! Mình định lên sẵn danh sách đồ cần mua gấp, kiên nhẫn đợi đợt khuyến mãi lớn.",
+       "modified": true,
+       "reason": "Thay chữ '没错' bằng tục ngữ khẩu ngữ nổi tiếng 【那倒是，冲动是魔鬼嘛！】."
       },
       {
        "n": "18",
@@ -4341,11 +4515,12 @@ window.APP_DATA = {
       {
        "n": "04",
        "role": "B",
-       "zh": "网上购物呢？是不是也有特别便宜的时候？",
-       "pinyin": "wǎng shàng gòu wù ne? shì bu shì yě yǒu tè bié pián yi de shí hòu?",
-       "pinyinHtml": "wǎng shàng gòu wù ne? shì bu shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> yǒu tè bié pián yi de shí hòu?",
-       "vi": "Thế còn mua sắm trên mạng thì sao? Có đợt nào cực kỳ rẻ không?",
-       "modified": false
+       "zh": "那可不嘛！换季清仓大多是断码或者过季款，好看的款式早被人挑光了。",
+       "pinyin": "nà kě bù ma! huàn jì qīng cāng dà duō shì duàn mǎ huò zhě guò jì kuǎn, hǎo kàn de kuǎn shì zǎo bèi rén tiāo guāng le.",
+       "pinyinHtml": "nà kě bù ma! huàn jì qīng cāng dà duō shì duàn mǎ huò zhě guò jì kuǎn, hǎo kàn de kuǎn shì zǎo bèi rén tiāo guāng le.",
+       "vi": "Chứ còn gì nữa! Xả hàng chuyển mùa phần lớn là hàng lẻ size hoặc mẫu cũ, mấy kiểu đẹp mắt người ta đã lựa sạch từ sớm rồi.",
+       "modified": true,
+       "reason": "Thay câu cụt '是有这种情况' bằng quán dụng ngữ cực kỳ chuẩn miệng 【那可不嘛！】."
       },
       {
        "n": "05",
@@ -4415,11 +4590,12 @@ window.APP_DATA = {
       {
        "n": "12",
        "role": "B",
-       "zh": "我上次买了一件过季外套，价格很低，质量也不错。",
-       "pinyin": "wǒ shàng cì mǎi le yí jiàn guò jì wài tào, jià gé hěn dī, zhì liàng yě bú cuò.",
-       "pinyinHtml": "wǒ shàng cì mǎi le yí jiàn guò jì wài tào, jià gé hěn dī, zhì liàng yě bú cuò.",
-       "vi": "Đợt trước tớ mua được chiếc áo khoác hàng hết mùa, giá rẻ bèo mà chất lượng cũng khá ổn.",
-       "modified": false
+       "zh": "可不是嘛！遇到商场反季清仓甩卖，价格真能砍下来一大截呢。",
+       "pinyin": "kě bú shì ma! yù dào shāng chǎng fǎn jì qīng cāng shuǎi mài, jià gé zhēn néng kǎn xià lái yí dà jié ne.",
+       "pinyinHtml": "kě bú shì ma! yù dào shāng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">chǎng</span> fǎn jì qīng cāng shuǎi mài, jià gé zhēn néng kǎn xià lái yí dà jié ne.",
+       "vi": "Chuẩn luôn chứ đâu! Gặp dịp trung tâm thương mại xả kho trái mùa, giá cả thực sự có thể ép xuống được một khoản lớn luôn đó.",
+       "modified": true,
+       "reason": "Thay chữ '没错' bằng cảm thán 【可不是嘛！】 và từ khẩu ngữ mua bán 【砍下来一大截】."
       },
       {
        "n": "13",
@@ -4461,11 +4637,12 @@ window.APP_DATA = {
       {
        "n": "17",
        "role": "A",
-       "zh": "没错。我准备先列购物清单，再等适合的活动。",
-       "pinyin": "méi cuò. wǒ zhǔn bèi xiān liè gòu wù qīng dān, zài děng shì hé de huó dòng.",
-       "pinyinHtml": "méi cuò. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zhǔn bèi xiān liè gòu wù qīng dān, zài děng shì hé de huó dòng.",
-       "vi": "Chuẩn luôn. Tớ định lên danh sách đồ cần mua trước, rồi mới canh đợt khuyến mãi phù hợp.",
-       "modified": false
+       "zh": "那倒是，冲动是魔鬼嘛！我打算先列个刚需清单，耐着性子等大促。",
+       "pinyin": "nà dǎo shì, chōng dòng shì mó guǐ ma! wǒ dǎ suàn xiān liè gè gāng xū qīng dān, nài zhe xìng zǐ děng dà cù.",
+       "pinyinHtml": "nà dǎo shì, chōng dòng shì mó guǐ ma! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎ suàn xiān liè gè gāng xū qīng dān, nài zhe xìng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǐ</span> děng dà cù.",
+       "vi": "Đúng thế thật, mua sắm bốc đồng là tai họa mà! Mình định lên sẵn danh sách đồ cần mua gấp, kiên nhẫn đợi đợt khuyến mãi lớn.",
+       "modified": true,
+       "reason": "Thay chữ '没错' bằng tục ngữ khẩu ngữ nổi tiếng 【那倒是，冲动是魔鬼嘛！】."
       },
       {
        "n": "18",
@@ -4478,6 +4655,23 @@ window.APP_DATA = {
       }
      ],
      "diffs": [
+      {
+       "n": "04",
+       "role": "B",
+       "reason": "Thay câu cụt '是有这种情况' bằng quán dụng ngữ cực kỳ chuẩn miệng 【那可不嘛！】.",
+       "v1": {
+        "zh": "网上购物呢？是不是也有特别便宜的时候？",
+        "pinyin": "wǎng shàng gòu wù ne? shì bu shì yě yǒu tè bié pián yi de shí hòu?",
+        "pinyinHtml": "wǎng shàng gòu wù ne? shì bu shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> yǒu tè bié pián yi de shí hòu?",
+        "vi": "Thế còn mua sắm trên mạng thì sao? Có đợt nào cực kỳ rẻ không?"
+       },
+       "v2": {
+        "zh": "那可不嘛！换季清仓大多是断码或者过季款，好看的款式早被人挑光了。",
+        "pinyin": "nà kě bù ma! huàn jì qīng cāng dà duō shì duàn mǎ huò zhě guò jì kuǎn, hǎo kàn de kuǎn shì zǎo bèi rén tiāo guāng le.",
+        "pinyinHtml": "nà kě bù ma! huàn jì qīng cāng dà duō shì duàn mǎ huò zhě guò jì kuǎn, hǎo kàn de kuǎn shì zǎo bèi rén tiāo guāng le.",
+        "vi": "Chứ còn gì nữa! Xả hàng chuyển mùa phần lớn là hàng lẻ size hoặc mẫu cũ, mấy kiểu đẹp mắt người ta đã lựa sạch từ sớm rồi."
+       }
+      },
       {
        "n": "06",
        "role": "B",
@@ -4513,6 +4707,23 @@ window.APP_DATA = {
        }
       },
       {
+       "n": "12",
+       "role": "B",
+       "reason": "Thay chữ '没错' bằng cảm thán 【可不是嘛！】 và từ khẩu ngữ mua bán 【砍下来一大截】.",
+       "v1": {
+        "zh": "我上次买了一件过季外套，价格很低，质量也不错。",
+        "pinyin": "wǒ shàng cì mǎi le yí jiàn guò jì wài tào, jià gé hěn dī, zhì liàng yě bú cuò.",
+        "pinyinHtml": "wǒ shàng cì mǎi le yí jiàn guò jì wài tào, jià gé hěn dī, zhì liàng yě bú cuò.",
+        "vi": "Đợt trước tớ mua được chiếc áo khoác hàng hết mùa, giá rẻ bèo mà chất lượng cũng khá ổn."
+       },
+       "v2": {
+        "zh": "可不是嘛！遇到商场反季清仓甩卖，价格真能砍下来一大截呢。",
+        "pinyin": "kě bú shì ma! yù dào shāng chǎng fǎn jì qīng cāng shuǎi mài, jià gé zhēn néng kǎn xià lái yí dà jié ne.",
+        "pinyinHtml": "kě bú shì ma! yù dào shāng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">chǎng</span> fǎn jì qīng cāng shuǎi mài, jià gé zhēn néng kǎn xià lái yí dà jié ne.",
+        "vi": "Chuẩn luôn chứ đâu! Gặp dịp trung tâm thương mại xả kho trái mùa, giá cả thực sự có thể ép xuống được một khoản lớn luôn đó."
+       }
+      },
+      {
        "n": "14",
        "role": "B",
        "reason": "Áp dụng bổ ngữ kết quả Bài 5 【看中 (zhòng)】 (chấm được, vừa mắt).",
@@ -4528,118 +4739,135 @@ window.APP_DATA = {
         "pinyinHtml": "dāng rán shì zhì liàng. yào shi méi kàn zhòng hé shì de kuǎn shì hé zhì liàng, jià gé zài dī yě jiān jué bù mǎi.",
         "vi": "Đương nhiên là chất lượng rồi. Nếu chưa ưng (chấm trúng) kiểu dáng và chất lượng phù hợp, giá có rẻ nữa cũng kiên quyết không mua."
        }
+      },
+      {
+       "n": "17",
+       "role": "A",
+       "reason": "Thay chữ '没错' bằng tục ngữ khẩu ngữ nổi tiếng 【那倒是，冲动是魔鬼嘛！】.",
+       "v1": {
+        "zh": "没错。我准备先列购物清单，再等适合的活动。",
+        "pinyin": "méi cuò. wǒ zhǔn bèi xiān liè gòu wù qīng dān, zài děng shì hé de huó dòng.",
+        "pinyinHtml": "méi cuò. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zhǔn bèi xiān liè gòu wù qīng dān, zài děng shì hé de huó dòng.",
+        "vi": "Chuẩn luôn. Tớ định lên danh sách đồ cần mua trước, rồi mới canh đợt khuyến mãi phù hợp."
+       },
+       "v2": {
+        "zh": "那倒是，冲动是魔鬼嘛！我打算先列个刚需清单，耐着性子等大促。",
+        "pinyin": "nà dǎo shì, chōng dòng shì mó guǐ ma! wǒ dǎ suàn xiān liè gè gāng xū qīng dān, nài zhe xìng zǐ děng dà cù.",
+        "pinyinHtml": "nà dǎo shì, chōng dòng shì mó guǐ ma! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎ suàn xiān liè gè gāng xū qīng dān, nài zhe xìng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǐ</span> děng dà cù.",
+        "vi": "Đúng thế thật, mua sắm bốc đồng là tai họa mà! Mình định lên sẵn danh sách đồ cần mua gấp, kiên nhẫn đợi đợt khuyến mãi lớn."
+       }
       }
      ],
      "audio": "audio/b5-c2.mp3",
-     "audioDuration": 102.72,
+     "audioDuration": 104.28,
      "audioTimings": [
       {
        "n": "01",
        "role": "A",
        "start": 0,
-       "end": 4.49
+       "end": 4.25
       },
       {
        "n": "02",
        "role": "B",
-       "start": 4.49,
-       "end": 10.54
+       "start": 4.25,
+       "end": 9.94
       },
       {
        "n": "03",
        "role": "A",
-       "start": 10.54,
-       "end": 16.63
+       "start": 9.94,
+       "end": 15.67
       },
       {
        "n": "04",
        "role": "B",
-       "start": 16.63,
-       "end": 21.1
+       "start": 15.67,
+       "end": 22.99
       },
       {
        "n": "05",
        "role": "A",
-       "start": 21.1,
-       "end": 28.03
+       "start": 22.99,
+       "end": 29.54
       },
       {
        "n": "06",
        "role": "B",
-       "start": 28.03,
-       "end": 34.54
+       "start": 29.54,
+       "end": 35.93
       },
       {
        "n": "07",
        "role": "A",
-       "start": 34.54,
-       "end": 40.56
+       "start": 35.93,
+       "end": 41.62
       },
       {
        "n": "08",
        "role": "B",
-       "start": 40.56,
-       "end": 47.64
+       "start": 41.62,
+       "end": 48.5
       },
       {
        "n": "09",
        "role": "A",
-       "start": 47.64,
-       "end": 53.81
+       "start": 48.5,
+       "end": 54.34
       },
       {
        "n": "10",
        "role": "B",
-       "start": 53.81,
-       "end": 57.26
+       "start": 54.34,
+       "end": 57.62
       },
       {
        "n": "11",
        "role": "A",
-       "start": 57.26,
-       "end": 63.19
+       "start": 57.62,
+       "end": 63.22
       },
       {
        "n": "12",
        "role": "B",
-       "start": 63.19,
-       "end": 68.16
+       "start": 63.22,
+       "end": 69.36
       },
       {
        "n": "13",
        "role": "A",
-       "start": 68.16,
-       "end": 74.38
+       "start": 69.36,
+       "end": 75.24
       },
       {
        "n": "14",
        "role": "B",
-       "start": 74.38,
-       "end": 81.48
+       "start": 75.24,
+       "end": 81.74
       },
       {
        "n": "15",
        "role": "A",
-       "start": 81.48,
-       "end": 86.74
+       "start": 81.74,
+       "end": 86.71
       },
       {
        "n": "16",
        "role": "B",
-       "start": 86.74,
-       "end": 91.85
+       "start": 86.71,
+       "end": 91.8
       },
       {
        "n": "17",
        "role": "A",
-       "start": 91.85,
-       "end": 97.25
+       "start": 91.8,
+       "end": 98.81
       },
       {
        "n": "18",
        "role": "B",
-       "start": 97.25,
-       "end": 102.72
+       "start": 98.81,
+       "end": 104.28
       }
      ]
     },
@@ -4699,11 +4927,12 @@ window.APP_DATA = {
       {
        "n": "05",
        "role": "A",
-       "zh": "是啊，我不反对买名牌，只是不会因为商标就多花很多钱。",
-       "pinyin": "shì a, wǒ bù fǎn duì mǎi míng pái, zhǐ shì bú huì yīn wèi shāng biāo jiù duō huā hěn duō qián.",
-       "pinyinHtml": "shì a, wǒ bù fǎn duì mǎi míng pái, zhǐ shì bú huì yīn wèi shāng biāo jiù duō huā hěn duō qián.",
-       "vi": "Ừ đúng rồi, tớ không phản đối việc mua đồ hiệu, chỉ là không muốn vì mỗi cái logo nhãn mác mà phải bỏ thêm một đống tiền.",
-       "modified": false
+       "zh": "就是说啊！我倒不是全盘否定名牌，只是觉得没必要单为一个商标掏大笔冤枉钱。",
+       "pinyin": "jiù shì shuō a! wǒ dǎo bú shì quán pán fǒu dìng míng pái, zhǐ shì jué de méi bì yào dān wèi yí gè shāng biāo tāo dà bǐ yuān wǎng qián.",
+       "pinyinHtml": "jiù shì shuō a! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎo bú shì quán pán fǒu dìng míng pái, zhǐ shì jué de méi bì yào dān wèi yí gè shāng biāo tāo dà bǐ yuān wǎng qián.",
+       "vi": "Đấy, ý mình chính là thế! Mình không hề bài xích hoàn toàn đồ hiệu, chỉ là thấy chẳng cần thiết chỉ vì một cái logo nhãn mác mà phải móc hầu bao trả khoản tiền oan uổng.",
+       "modified": true,
+       "reason": "Thay '是啊' bằng quán dụng ngữ đồng tình sâu sắc 【就是说啊！】 và cụm khẩu ngữ 【掏冤枉钱】."
       },
       {
        "n": "06",
@@ -4791,11 +5020,12 @@ window.APP_DATA = {
       {
        "n": "15",
        "role": "A",
-       "zh": "对，方便是方便，不过买衣服我还是喜欢先试穿。",
-       "pinyin": "duì, fāng biàn shì fāng biàn, bú guò mǎi yī fu wǒ hái shì xǐ huan xiān shì chuān.",
-       "pinyinHtml": "duì, fāng biàn shì fāng biàn, bú guò mǎi yī fu wǒ hái shì xǐ huan xiān shì chuān.",
-       "vi": "Đúng vậy, tiện thì tiện thật, nhưng mua quần áo tớ vẫn khoái được mặc thử trước đã.",
-       "modified": false
+       "zh": "那倒是！网购虽然省事，但衣服版型合不合适，还是得亲自上身试穿才踏实。",
+       "pinyin": "nà dǎo shì! wǎng gòu suī rán shěng shì, dàn yī fu bǎn xíng hé bu hé shì, hái shì děi qīn zì shàng shēn shì chuān cái tà shí.",
+       "pinyinHtml": "nà dǎo shì! wǎng gòu suī rán shěng shì, dàn yī fu bǎn xíng hé bu hé shì, hái shì děi qīn zì shàng shēn shì chuān cái tà shí.",
+       "vi": "Đúng là vậy! Mua online tuy tiện thật, nhưng form dáng quần áo có vừa vặn không, vẫn phải đích thân mặc thử lên người mới an tâm.",
+       "modified": true,
+       "reason": "Thay '对' bằng liên từ khẩu ngữ chuẩn xác 【那倒是！】."
       },
       {
        "n": "16",
@@ -4809,11 +5039,12 @@ window.APP_DATA = {
       {
        "n": "17",
        "role": "A",
-       "zh": "没错。只要质量不错、价格说得过去，我就愿意买。",
-       "pinyin": "méi cuò. zhǐ yào zhì liàng bú cuò, jià gé shuō de guò qù, wǒ jiù yuàn yì mǎi.",
-       "pinyinHtml": "méi cuò. zhǐ yào zhì liàng bú cuò, jià gé shuō de guò qù, wǒ jiù yuàn yì mǎi.",
-       "vi": "Chuẩn luôn. Chỉ cần chất lượng ổn áp, mức giá chấp nhận được là tớ sẵn sàng mua liền.",
-       "modified": false
+       "zh": "可不是嘛！只要做工扎实、版型板正，价格又说得过去，中档品牌绝对是首选。",
+       "pinyin": "kě bú shì ma! zhǐ yào zuò gōng zhā shí, bǎn xíng bǎn zhèng, jià gé yòu shuō de guò qù, zhōng dàng pǐn pái jué duì shì shǒu xuǎn.",
+       "pinyinHtml": "kě bú shì ma! zhǐ yào zuò gōng zhā shí, bǎn xíng bǎn zhèng, jià gé yòu shuō de guò qù, zhōng dàng pǐn pái jué duì shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> xuǎn.",
+       "vi": "Chứ còn gì nữa! Miễn là đường may chắc chắn, form dáng ngay ngắn chuẩn chỉnh, giá lại phải chăng hợp túi tiền, thì hàng tầm trung chắc chắn là lựa chọn số một.",
+       "modified": true,
+       "reason": "Thay chữ '没错' bằng 【可不是嘛！】 và tính từ miêu tả quần áo đắt giá 【版型板正】."
       },
       {
        "n": "18",
@@ -5014,11 +5245,12 @@ window.APP_DATA = {
       {
        "n": "05",
        "role": "A",
-       "zh": "是啊，我不反对买名牌，只是不会因为商标就多花很多钱。",
-       "pinyin": "shì a, wǒ bù fǎn duì mǎi míng pái, zhǐ shì bú huì yīn wèi shāng biāo jiù duō huā hěn duō qián.",
-       "pinyinHtml": "shì a, wǒ bù fǎn duì mǎi míng pái, zhǐ shì bú huì yīn wèi shāng biāo jiù duō huā hěn duō qián.",
-       "vi": "Ừ đúng rồi, tớ không phản đối việc mua đồ hiệu, chỉ là không muốn vì mỗi cái logo nhãn mác mà phải bỏ thêm một đống tiền.",
-       "modified": false
+       "zh": "就是说啊！我倒不是全盘否定名牌，只是觉得没必要单为一个商标掏大笔冤枉钱。",
+       "pinyin": "jiù shì shuō a! wǒ dǎo bú shì quán pán fǒu dìng míng pái, zhǐ shì jué de méi bì yào dān wèi yí gè shāng biāo tāo dà bǐ yuān wǎng qián.",
+       "pinyinHtml": "jiù shì shuō a! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎo bú shì quán pán fǒu dìng míng pái, zhǐ shì jué de méi bì yào dān wèi yí gè shāng biāo tāo dà bǐ yuān wǎng qián.",
+       "vi": "Đấy, ý mình chính là thế! Mình không hề bài xích hoàn toàn đồ hiệu, chỉ là thấy chẳng cần thiết chỉ vì một cái logo nhãn mác mà phải móc hầu bao trả khoản tiền oan uổng.",
+       "modified": true,
+       "reason": "Thay '是啊' bằng quán dụng ngữ đồng tình sâu sắc 【就是说啊！】 và cụm khẩu ngữ 【掏冤枉钱】."
       },
       {
        "n": "06",
@@ -5106,11 +5338,12 @@ window.APP_DATA = {
       {
        "n": "15",
        "role": "A",
-       "zh": "对，方便是方便，不过买衣服我还是喜欢先试穿。",
-       "pinyin": "duì, fāng biàn shì fāng biàn, bú guò mǎi yī fu wǒ hái shì xǐ huan xiān shì chuān.",
-       "pinyinHtml": "duì, fāng biàn shì fāng biàn, bú guò mǎi yī fu wǒ hái shì xǐ huan xiān shì chuān.",
-       "vi": "Đúng vậy, tiện thì tiện thật, nhưng mua quần áo tớ vẫn khoái được mặc thử trước đã.",
-       "modified": false
+       "zh": "那倒是！网购虽然省事，但衣服版型合不合适，还是得亲自上身试穿才踏实。",
+       "pinyin": "nà dǎo shì! wǎng gòu suī rán shěng shì, dàn yī fu bǎn xíng hé bu hé shì, hái shì děi qīn zì shàng shēn shì chuān cái tà shí.",
+       "pinyinHtml": "nà dǎo shì! wǎng gòu suī rán shěng shì, dàn yī fu bǎn xíng hé bu hé shì, hái shì děi qīn zì shàng shēn shì chuān cái tà shí.",
+       "vi": "Đúng là vậy! Mua online tuy tiện thật, nhưng form dáng quần áo có vừa vặn không, vẫn phải đích thân mặc thử lên người mới an tâm.",
+       "modified": true,
+       "reason": "Thay '对' bằng liên từ khẩu ngữ chuẩn xác 【那倒是！】."
       },
       {
        "n": "16",
@@ -5124,11 +5357,12 @@ window.APP_DATA = {
       {
        "n": "17",
        "role": "A",
-       "zh": "没错。只要质量不错、价格说得过去，我就愿意买。",
-       "pinyin": "méi cuò. zhǐ yào zhì liàng bú cuò, jià gé shuō de guò qù, wǒ jiù yuàn yì mǎi.",
-       "pinyinHtml": "méi cuò. zhǐ yào zhì liàng bú cuò, jià gé shuō de guò qù, wǒ jiù yuàn yì mǎi.",
-       "vi": "Chuẩn luôn. Chỉ cần chất lượng ổn áp, mức giá chấp nhận được là tớ sẵn sàng mua liền.",
-       "modified": false
+       "zh": "可不是嘛！只要做工扎实、版型板正，价格又说得过去，中档品牌绝对是首选。",
+       "pinyin": "kě bú shì ma! zhǐ yào zuò gōng zhā shí, bǎn xíng bǎn zhèng, jià gé yòu shuō de guò qù, zhōng dàng pǐn pái jué duì shì shǒu xuǎn.",
+       "pinyinHtml": "kě bú shì ma! zhǐ yào zuò gōng zhā shí, bǎn xíng bǎn zhèng, jià gé yòu shuō de guò qù, zhōng dàng pǐn pái jué duì shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> xuǎn.",
+       "vi": "Chứ còn gì nữa! Miễn là đường may chắc chắn, form dáng ngay ngắn chuẩn chỉnh, giá lại phải chăng hợp túi tiền, thì hàng tầm trung chắc chắn là lựa chọn số một.",
+       "modified": true,
+       "reason": "Thay chữ '没错' bằng 【可不是嘛！】 và tính từ miêu tả quần áo đắt giá 【版型板正】."
       },
       {
        "n": "18",
@@ -5156,6 +5390,23 @@ window.APP_DATA = {
         "pinyin": "qí shí rì cháng yī fu méi yǒu shén me kě pān bǐ de, míng páir gù rán tǐ miàn, dàn yì jià shí zài tài gāo le.",
         "pinyinHtml": "qí shí rì cháng yī fu méi yǒu shén me kě pān bǐ de, míng páir gù rán tǐ miàn, dàn yì jià shí zài tài gāo le.",
         "vi": "Thực ra quần áo thường ngày chẳng có gì đáng để so bì hơn thua cả, đồ hiệu thì sang thật, nhưng giá bị đội lên quá cao rồi."
+       }
+      },
+      {
+       "n": "05",
+       "role": "A",
+       "reason": "Thay '是啊' bằng quán dụng ngữ đồng tình sâu sắc 【就是说啊！】 và cụm khẩu ngữ 【掏冤枉钱】.",
+       "v1": {
+        "zh": "是啊，我不反对买名牌，只是不会因为商标就多花很多钱。",
+        "pinyin": "shì a, wǒ bù fǎn duì mǎi míng pái, zhǐ shì bú huì yīn wèi shāng biāo jiù duō huā hěn duō qián.",
+        "pinyinHtml": "shì a, wǒ bù fǎn duì mǎi míng pái, zhǐ shì bú huì yīn wèi shāng biāo jiù duō huā hěn duō qián.",
+        "vi": "Ừ đúng rồi, tớ không phản đối việc mua đồ hiệu, chỉ là không muốn vì mỗi cái logo nhãn mác mà phải bỏ thêm một đống tiền."
+       },
+       "v2": {
+        "zh": "就是说啊！我倒不是全盘否定名牌，只是觉得没必要单为一个商标掏大笔冤枉钱。",
+        "pinyin": "jiù shì shuō a! wǒ dǎo bú shì quán pán fǒu dìng míng pái, zhǐ shì jué de méi bì yào dān wèi yí gè shāng biāo tāo dà bǐ yuān wǎng qián.",
+        "pinyinHtml": "jiù shì shuō a! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎo bú shì quán pán fǒu dìng míng pái, zhǐ shì jué de méi bì yào dān wèi yí gè shāng biāo tāo dà bǐ yuān wǎng qián.",
+        "vi": "Đấy, ý mình chính là thế! Mình không hề bài xích hoàn toàn đồ hiệu, chỉ là thấy chẳng cần thiết chỉ vì một cái logo nhãn mác mà phải móc hầu bao trả khoản tiền oan uổng."
        }
       },
       {
@@ -5191,118 +5442,152 @@ window.APP_DATA = {
         "pinyinHtml": "chú fēi chū xí hěn zhèng shì de shāng wù chǎng hé xū yào chēng chǎng miàn, fǒu zé rì cháng chuān dài wǒ jiān jué bù mǎi áng guì de míng páir.",
         "vi": "Trừ phi tham dự dịp thương mại rất trang trọng cần giữ thể diện, còn ngày thường mặc đồ mình kiên quyết không mua đồ hiệu đắt đỏ."
        }
+      },
+      {
+       "n": "15",
+       "role": "A",
+       "reason": "Thay '对' bằng liên từ khẩu ngữ chuẩn xác 【那倒是！】.",
+       "v1": {
+        "zh": "对，方便是方便，不过买衣服我还是喜欢先试穿。",
+        "pinyin": "duì, fāng biàn shì fāng biàn, bú guò mǎi yī fu wǒ hái shì xǐ huan xiān shì chuān.",
+        "pinyinHtml": "duì, fāng biàn shì fāng biàn, bú guò mǎi yī fu wǒ hái shì xǐ huan xiān shì chuān.",
+        "vi": "Đúng vậy, tiện thì tiện thật, nhưng mua quần áo tớ vẫn khoái được mặc thử trước đã."
+       },
+       "v2": {
+        "zh": "那倒是！网购虽然省事，但衣服版型合不合适，还是得亲自上身试穿才踏实。",
+        "pinyin": "nà dǎo shì! wǎng gòu suī rán shěng shì, dàn yī fu bǎn xíng hé bu hé shì, hái shì děi qīn zì shàng shēn shì chuān cái tà shí.",
+        "pinyinHtml": "nà dǎo shì! wǎng gòu suī rán shěng shì, dàn yī fu bǎn xíng hé bu hé shì, hái shì děi qīn zì shàng shēn shì chuān cái tà shí.",
+        "vi": "Đúng là vậy! Mua online tuy tiện thật, nhưng form dáng quần áo có vừa vặn không, vẫn phải đích thân mặc thử lên người mới an tâm."
+       }
+      },
+      {
+       "n": "17",
+       "role": "A",
+       "reason": "Thay chữ '没错' bằng 【可不是嘛！】 và tính từ miêu tả quần áo đắt giá 【版型板正】.",
+       "v1": {
+        "zh": "没错。只要质量不错、价格说得过去，我就愿意买。",
+        "pinyin": "méi cuò. zhǐ yào zhì liàng bú cuò, jià gé shuō de guò qù, wǒ jiù yuàn yì mǎi.",
+        "pinyinHtml": "méi cuò. zhǐ yào zhì liàng bú cuò, jià gé shuō de guò qù, wǒ jiù yuàn yì mǎi.",
+        "vi": "Chuẩn luôn. Chỉ cần chất lượng ổn áp, mức giá chấp nhận được là tớ sẵn sàng mua liền."
+       },
+       "v2": {
+        "zh": "可不是嘛！只要做工扎实、版型板正，价格又说得过去，中档品牌绝对是首选。",
+        "pinyin": "kě bú shì ma! zhǐ yào zuò gōng zhā shí, bǎn xíng bǎn zhèng, jià gé yòu shuō de guò qù, zhōng dàng pǐn pái jué duì shì shǒu xuǎn.",
+        "pinyinHtml": "kě bú shì ma! zhǐ yào zuò gōng zhā shí, bǎn xíng bǎn zhèng, jià gé yòu shuō de guò qù, zhōng dàng pǐn pái jué duì shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> xuǎn.",
+        "vi": "Chứ còn gì nữa! Miễn là đường may chắc chắn, form dáng ngay ngắn chuẩn chỉnh, giá lại phải chăng hợp túi tiền, thì hàng tầm trung chắc chắn là lựa chọn số một."
+       }
       }
      ],
      "audio": "audio/b5-c3.mp3",
-     "audioDuration": 102.07,
+     "audioDuration": 104.81,
      "audioTimings": [
       {
        "n": "01",
        "role": "A",
        "start": 0,
-       "end": 4.78
+       "end": 4.51
       },
       {
        "n": "02",
        "role": "B",
-       "start": 4.78,
-       "end": 11.16
+       "start": 4.51,
+       "end": 10.73
       },
       {
        "n": "03",
        "role": "A",
-       "start": 11.16,
-       "end": 17.04
+       "start": 10.73,
+       "end": 16.27
       },
       {
        "n": "04",
        "role": "B",
-       "start": 17.04,
-       "end": 23.64
+       "start": 16.27,
+       "end": 22.8
       },
       {
        "n": "05",
        "role": "A",
-       "start": 23.64,
-       "end": 29.4
+       "start": 22.8,
+       "end": 30.55
       },
       {
        "n": "06",
        "role": "B",
-       "start": 29.4,
-       "end": 32.9
+       "start": 30.55,
+       "end": 34.03
       },
       {
        "n": "07",
        "role": "A",
-       "start": 32.9,
-       "end": 39.02
+       "start": 34.03,
+       "end": 39.82
       },
       {
        "n": "08",
        "role": "B",
-       "start": 39.02,
-       "end": 46.7
+       "start": 39.82,
+       "end": 46.85
       },
       {
        "n": "09",
        "role": "A",
-       "start": 46.7,
-       "end": 52.06
+       "start": 46.85,
+       "end": 51.91
       },
       {
        "n": "10",
        "role": "B",
-       "start": 52.06,
-       "end": 56.93
+       "start": 51.91,
+       "end": 56.59
       },
       {
        "n": "11",
        "role": "A",
-       "start": 56.93,
-       "end": 63.84
+       "start": 56.59,
+       "end": 63.12
       },
       {
        "n": "12",
        "role": "B",
-       "start": 63.84,
-       "end": 69.36
+       "start": 63.12,
+       "end": 68.21
       },
       {
        "n": "13",
        "role": "A",
-       "start": 69.36,
-       "end": 74.59
+       "start": 68.21,
+       "end": 73.13
       },
       {
        "n": "14",
        "role": "B",
-       "start": 74.59,
-       "end": 79.9
+       "start": 73.13,
+       "end": 78.36
       },
       {
        "n": "15",
        "role": "A",
-       "start": 79.9,
-       "end": 84.65
+       "start": 78.36,
+       "end": 85.73
       },
       {
        "n": "16",
        "role": "B",
-       "start": 84.65,
-       "end": 90.67
+       "start": 85.73,
+       "end": 91.63
       },
       {
        "n": "17",
        "role": "A",
-       "start": 90.67,
-       "end": 96.6
+       "start": 91.63,
+       "end": 99.55
       },
       {
        "n": "18",
        "role": "B",
-       "start": 96.6,
-       "end": 102.07
+       "start": 99.55,
+       "end": 104.81
       }
      ]
     }
@@ -5656,11 +5941,12 @@ window.APP_DATA = {
       {
        "n": "16",
        "role": "B",
-       "zh": "对。依我看，假期不一定要去很远的地方，关键是放松。",
-       "pinyin": "duì. yī wǒ kàn, jià qī bù yí dìng yào qù hěn yuǎn de dì fāng, guān jiàn shì fàng sōng.",
-       "pinyinHtml": "duì. yī wǒ kàn, jià qī bù yí dìng yào qù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> yuǎn de dì fāng, guān jiàn shì fàng sōng.",
-       "vi": "Chuẩn luôn. Theo tớ thấy thì nghỉ lễ không nhất thiết cứ phải đi chỗ thật xa xôi, mấu chốt là được thư giãn đầu óc.",
-       "modified": false
+       "zh": "谁说不是呢！依我看哪，度假真不在于非跑多远，核心是把身心彻底放松下来。",
+       "pinyin": "shuí shuō bú shì ne! yī wǒ kàn nǎ, dù jià zhēn bú zài yú fēi pǎo duō yuǎn, hé xīn shì bǎ shēn xīn chè dǐ fàng sōng xià lái.",
+       "pinyinHtml": "shuí shuō bú shì ne! yī wǒ kàn nǎ, dù jià zhēn bú zài yú fēi pǎo duō yuǎn, hé xīn shì bǎ shēn xīn chè dǐ fàng sōng xià lái.",
+       "vi": "Ai bảo không phải chứ! Theo như mình thấy á, nghỉ mát thật sự đâu cần cứ phải đi thật xa, cốt lõi là để cả thân lẫn tâm được thả lỏng hoàn toàn.",
+       "modified": true,
+       "reason": "Thay chữ '对' bằng quán dụng ngữ đồng tình 【谁说不是呢！】."
       },
       {
        "n": "17",
@@ -5972,11 +6258,12 @@ window.APP_DATA = {
       {
        "n": "16",
        "role": "B",
-       "zh": "对。依我看，假期不一定要去很远的地方，关键是放松。",
-       "pinyin": "duì. yī wǒ kàn, jià qī bù yí dìng yào qù hěn yuǎn de dì fāng, guān jiàn shì fàng sōng.",
-       "pinyinHtml": "duì. yī wǒ kàn, jià qī bù yí dìng yào qù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> yuǎn de dì fāng, guān jiàn shì fàng sōng.",
-       "vi": "Chuẩn luôn. Theo tớ thấy thì nghỉ lễ không nhất thiết cứ phải đi chỗ thật xa xôi, mấu chốt là được thư giãn đầu óc.",
-       "modified": false
+       "zh": "谁说不是呢！依我看哪，度假真不在于非跑多远，核心是把身心彻底放松下来。",
+       "pinyin": "shuí shuō bú shì ne! yī wǒ kàn nǎ, dù jià zhēn bú zài yú fēi pǎo duō yuǎn, hé xīn shì bǎ shēn xīn chè dǐ fàng sōng xià lái.",
+       "pinyinHtml": "shuí shuō bú shì ne! yī wǒ kàn nǎ, dù jià zhēn bú zài yú fēi pǎo duō yuǎn, hé xīn shì bǎ shēn xīn chè dǐ fàng sōng xià lái.",
+       "vi": "Ai bảo không phải chứ! Theo như mình thấy á, nghỉ mát thật sự đâu cần cứ phải đi thật xa, cốt lõi là để cả thân lẫn tâm được thả lỏng hoàn toàn.",
+       "modified": true,
+       "reason": "Thay chữ '对' bằng quán dụng ngữ đồng tình 【谁说不是呢！】."
       },
       {
        "n": "17",
@@ -6065,118 +6352,135 @@ window.APP_DATA = {
         "pinyinHtml": "xiān zài jiā shuì gè zhěng jué, jiē zhe yuē jǐ gè lǎo péng yǒu hē kā fēi, bié tí duō qiè yì le. nǐ ne?",
         "vi": "Trước tiên ngủ một giấc đẫy ở nhà, tiếp đó hẹn mấy người bạn cũ đi uống cà phê, đừng nhắc tới khoan khoái thế nào nữa. Còn bạn?"
        }
+      },
+      {
+       "n": "16",
+       "role": "B",
+       "reason": "Thay chữ '对' bằng quán dụng ngữ đồng tình 【谁说不是呢！】.",
+       "v1": {
+        "zh": "对。依我看，假期不一定要去很远的地方，关键是放松。",
+        "pinyin": "duì. yī wǒ kàn, jià qī bù yí dìng yào qù hěn yuǎn de dì fāng, guān jiàn shì fàng sōng.",
+        "pinyinHtml": "duì. yī wǒ kàn, jià qī bù yí dìng yào qù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> yuǎn de dì fāng, guān jiàn shì fàng sōng.",
+        "vi": "Chuẩn luôn. Theo tớ thấy thì nghỉ lễ không nhất thiết cứ phải đi chỗ thật xa xôi, mấu chốt là được thư giãn đầu óc."
+       },
+       "v2": {
+        "zh": "谁说不是呢！依我看哪，度假真不在于非跑多远，核心是把身心彻底放松下来。",
+        "pinyin": "shuí shuō bú shì ne! yī wǒ kàn nǎ, dù jià zhēn bú zài yú fēi pǎo duō yuǎn, hé xīn shì bǎ shēn xīn chè dǐ fàng sōng xià lái.",
+        "pinyinHtml": "shuí shuō bú shì ne! yī wǒ kàn nǎ, dù jià zhēn bú zài yú fēi pǎo duō yuǎn, hé xīn shì bǎ shēn xīn chè dǐ fàng sōng xià lái.",
+        "vi": "Ai bảo không phải chứ! Theo như mình thấy á, nghỉ mát thật sự đâu cần cứ phải đi thật xa, cốt lõi là để cả thân lẫn tâm được thả lỏng hoàn toàn."
+       }
       }
      ],
      "audio": "audio/b7-c1.mp3",
-     "audioDuration": 93.72,
+     "audioDuration": 90.98,
      "audioTimings": [
       {
        "n": "01",
        "role": "A",
        "start": 0,
-       "end": 4.66
+       "end": 4.39
       },
       {
        "n": "02",
        "role": "B",
-       "start": 4.66,
-       "end": 10.58
+       "start": 4.39,
+       "end": 10.08
       },
       {
        "n": "03",
        "role": "A",
-       "start": 10.58,
-       "end": 16.01
+       "start": 10.08,
+       "end": 15.19
       },
       {
        "n": "04",
        "role": "B",
-       "start": 16.01,
-       "end": 23.26
+       "start": 15.19,
+       "end": 22.25
       },
       {
        "n": "05",
        "role": "A",
-       "start": 23.26,
-       "end": 25.94
+       "start": 22.25,
+       "end": 24.79
       },
       {
        "n": "06",
        "role": "B",
-       "start": 25.94,
-       "end": 31.13
+       "start": 24.79,
+       "end": 29.81
       },
       {
        "n": "07",
        "role": "A",
-       "start": 31.13,
-       "end": 34.18
+       "start": 29.81,
+       "end": 32.69
       },
       {
        "n": "08",
        "role": "B",
-       "start": 34.18,
-       "end": 41.38
+       "start": 32.69,
+       "end": 39.38
       },
       {
        "n": "09",
        "role": "A",
-       "start": 41.38,
-       "end": 47.04
+       "start": 39.38,
+       "end": 44.74
       },
       {
        "n": "10",
        "role": "B",
-       "start": 47.04,
-       "end": 53.98
+       "start": 44.74,
+       "end": 51.1
       },
       {
        "n": "11",
        "role": "A",
-       "start": 53.98,
-       "end": 57.96
+       "start": 51.1,
+       "end": 54.84
       },
       {
        "n": "12",
        "role": "B",
-       "start": 57.96,
-       "end": 62.93
+       "start": 54.84,
+       "end": 59.66
       },
       {
        "n": "13",
        "role": "A",
-       "start": 62.93,
-       "end": 68.66
+       "start": 59.66,
+       "end": 65.09
       },
       {
        "n": "14",
        "role": "B",
-       "start": 68.66,
-       "end": 75.41
+       "start": 65.09,
+       "end": 71.5
       },
       {
        "n": "15",
        "role": "A",
-       "start": 75.41,
-       "end": 80.06
+       "start": 71.5,
+       "end": 75.89
       },
       {
        "n": "16",
        "role": "B",
-       "start": 80.06,
-       "end": 85.94
+       "start": 75.89,
+       "end": 83.54
       },
       {
        "n": "17",
        "role": "A",
-       "start": 85.94,
-       "end": 89.57
+       "start": 83.54,
+       "end": 86.98
       },
       {
        "n": "18",
        "role": "B",
-       "start": 89.57,
-       "end": 93.72
+       "start": 86.98,
+       "end": 90.98
       }
      ]
     },
@@ -6355,11 +6659,12 @@ window.APP_DATA = {
       {
        "n": "18",
        "role": "B",
-       "zh": "对，虽然大家的兴趣不同，但目的差不多，都是让生活更轻松。",
-       "pinyin": "duì, suī rán dà jiā de xìng qù bù tóng, dàn mù dì chà bù duō, dōu shì ràng shēng huó gèng qīng sōng.",
-       "pinyinHtml": "duì, suī rán dà jiā de xìng qù bù tóng, dàn mù dì chà bù duō, dōu shì ràng shēng huó gèng qīng sōng.",
-       "vi": "Đúng vậy, tuy sở thích của mỗi người mỗi khác, nhưng mục đích chung thì đều như nhau, đó là làm cho cuộc sống trở nên nhẹ nhõm, vui vẻ hơn.",
-       "modified": false
+       "zh": "可不是嘛！大伙儿虽然玩法各异，但归根结底都是为了给紧绷的生活解解压。",
+       "pinyin": "kě bú shì ma! dà huǒr suī rán wán fǎ gè yì, dàn guī gēn jié dǐ dōu shì wèi le gěi jǐn bēng de shēng huó jiě jiě yā.",
+       "pinyinHtml": "kě bú shì ma! dà huǒr suī rán wán fǎ gè yì, dàn guī gēn jié dǐ dōu shì wèi le <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gěi</span> jǐn bēng de shēng huó <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jiě</span> jiě yā.",
+       "vi": "Chứ còn gì nữa! Mọi người dù cách chơi có khác nhau, nhưng quy cho cùng đều là để xả bớt áp lực cho cuộc sống căng thẳng.",
+       "modified": true,
+       "reason": "Thay chữ '对' bằng quán dụng ngữ 【可不是嘛！】 và cụm từ đắt giá 【给生活解解压】."
       }
      ],
      "questionPinyin": "jiè shào yí xià nǐ men guó jiā rén men yè yú shēng huó de qíng kuàng. qǐng xuǎn zé yòng xià liè xíng shì zhōng de yì zhǒng lái jiè shào.",
@@ -6670,11 +6975,12 @@ window.APP_DATA = {
       {
        "n": "18",
        "role": "B",
-       "zh": "对，虽然大家的兴趣不同，但目的差不多，都是让生活更轻松。",
-       "pinyin": "duì, suī rán dà jiā de xìng qù bù tóng, dàn mù dì chà bù duō, dōu shì ràng shēng huó gèng qīng sōng.",
-       "pinyinHtml": "duì, suī rán dà jiā de xìng qù bù tóng, dàn mù dì chà bù duō, dōu shì ràng shēng huó gèng qīng sōng.",
-       "vi": "Đúng vậy, tuy sở thích của mỗi người mỗi khác, nhưng mục đích chung thì đều như nhau, đó là làm cho cuộc sống trở nên nhẹ nhõm, vui vẻ hơn.",
-       "modified": false
+       "zh": "可不是嘛！大伙儿虽然玩法各异，但归根结底都是为了给紧绷的生活解解压。",
+       "pinyin": "kě bú shì ma! dà huǒr suī rán wán fǎ gè yì, dàn guī gēn jié dǐ dōu shì wèi le gěi jǐn bēng de shēng huó jiě jiě yā.",
+       "pinyinHtml": "kě bú shì ma! dà huǒr suī rán wán fǎ gè yì, dàn guī gēn jié dǐ dōu shì wèi le <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gěi</span> jǐn bēng de shēng huó <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jiě</span> jiě yā.",
+       "vi": "Chứ còn gì nữa! Mọi người dù cách chơi có khác nhau, nhưng quy cho cùng đều là để xả bớt áp lực cho cuộc sống căng thẳng.",
+       "modified": true,
+       "reason": "Thay chữ '对' bằng quán dụng ngữ 【可不是嘛！】 và cụm từ đắt giá 【给生活解解压】."
       }
      ],
      "diffs": [
@@ -6728,118 +7034,135 @@ window.APP_DATA = {
         "pinyinHtml": "dà jiā zhǎo gè kāi kuò de dì fāng hē chá jù jù, shěng de zhěng tiān biē zài kōng tiáo fáng lǐ, bié tí duō zì zài le.",
         "vi": "Mọi người tìm một nơi thoáng đãng uống trà tụ họp, đỡ bị cả ngày giam mình trong phòng máy lạnh, đừng nhắc tới thoải mái thế nào nữa."
        }
+      },
+      {
+       "n": "18",
+       "role": "B",
+       "reason": "Thay chữ '对' bằng quán dụng ngữ 【可不是嘛！】 và cụm từ đắt giá 【给生活解解压】.",
+       "v1": {
+        "zh": "对，虽然大家的兴趣不同，但目的差不多，都是让生活更轻松。",
+        "pinyin": "duì, suī rán dà jiā de xìng qù bù tóng, dàn mù dì chà bù duō, dōu shì ràng shēng huó gèng qīng sōng.",
+        "pinyinHtml": "duì, suī rán dà jiā de xìng qù bù tóng, dàn mù dì chà bù duō, dōu shì ràng shēng huó gèng qīng sōng.",
+        "vi": "Đúng vậy, tuy sở thích của mỗi người mỗi khác, nhưng mục đích chung thì đều như nhau, đó là làm cho cuộc sống trở nên nhẹ nhõm, vui vẻ hơn."
+       },
+       "v2": {
+        "zh": "可不是嘛！大伙儿虽然玩法各异，但归根结底都是为了给紧绷的生活解解压。",
+        "pinyin": "kě bú shì ma! dà huǒr suī rán wán fǎ gè yì, dàn guī gēn jié dǐ dōu shì wèi le gěi jǐn bēng de shēng huó jiě jiě yā.",
+        "pinyinHtml": "kě bú shì ma! dà huǒr suī rán wán fǎ gè yì, dàn guī gēn jié dǐ dōu shì wèi le <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gěi</span> jǐn bēng de shēng huó <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jiě</span> jiě yā.",
+        "vi": "Chứ còn gì nữa! Mọi người dù cách chơi có khác nhau, nhưng quy cho cùng đều là để xả bớt áp lực cho cuộc sống căng thẳng."
+       }
       }
      ],
      "audio": "audio/b7-c2.mp3",
-     "audioDuration": 101.64,
+     "audioDuration": 97.82,
      "audioTimings": [
       {
        "n": "01",
        "role": "A",
        "start": 0,
-       "end": 5.81
+       "end": 5.5
       },
       {
        "n": "02",
        "role": "B",
-       "start": 5.81,
-       "end": 12.67
+       "start": 5.5,
+       "end": 12.26
       },
       {
        "n": "03",
        "role": "A",
-       "start": 12.67,
-       "end": 17.52
+       "start": 12.26,
+       "end": 16.85
       },
       {
        "n": "04",
        "role": "B",
-       "start": 17.52,
-       "end": 24.65
+       "start": 16.85,
+       "end": 23.59
       },
       {
        "n": "05",
        "role": "A",
-       "start": 24.65,
-       "end": 28.56
+       "start": 23.59,
+       "end": 27.29
       },
       {
        "n": "06",
        "role": "B",
-       "start": 28.56,
-       "end": 35.64
+       "start": 27.29,
+       "end": 34.13
       },
       {
        "n": "07",
        "role": "A",
-       "start": 35.64,
-       "end": 40.39
+       "start": 34.13,
+       "end": 38.62
       },
       {
        "n": "08",
        "role": "B",
-       "start": 40.39,
-       "end": 46.01
+       "start": 38.62,
+       "end": 44.02
       },
       {
        "n": "09",
        "role": "A",
-       "start": 46.01,
-       "end": 49.97
+       "start": 44.02,
+       "end": 47.76
       },
       {
        "n": "10",
        "role": "B",
-       "start": 49.97,
-       "end": 57.5
+       "start": 47.76,
+       "end": 54.82
       },
       {
        "n": "11",
        "role": "A",
-       "start": 57.5,
-       "end": 61.37
+       "start": 54.82,
+       "end": 58.46
       },
       {
        "n": "12",
        "role": "B",
-       "start": 61.37,
-       "end": 67.42
+       "start": 58.46,
+       "end": 64.22
       },
       {
        "n": "13",
        "role": "A",
-       "start": 67.42,
-       "end": 72.46
+       "start": 64.22,
+       "end": 69
       },
       {
        "n": "14",
        "role": "B",
-       "start": 72.46,
-       "end": 79.22
+       "start": 69,
+       "end": 75.29
       },
       {
        "n": "15",
        "role": "A",
-       "start": 79.22,
-       "end": 82.54
+       "start": 75.29,
+       "end": 78.41
       },
       {
        "n": "16",
        "role": "B",
-       "start": 82.54,
-       "end": 88.97
+       "start": 78.41,
+       "end": 84.55
       },
       {
        "n": "17",
        "role": "A",
-       "start": 88.97,
-       "end": 95.76
+       "start": 84.55,
+       "end": 90.96
       },
       {
        "n": "18",
        "role": "B",
-       "start": 95.76,
-       "end": 101.64
+       "start": 90.96,
+       "end": 97.82
       }
      ]
     }
@@ -7124,20 +7447,22 @@ window.APP_DATA = {
       {
        "n": "09",
        "role": "A",
-       "zh": "是啊，计划赶不上变化。我上星期就突然接到一个任务，差点儿耽误复习。",
-       "pinyin": "shì a, jì huà gǎn bú shàng biàn huà. wǒ shàng xīng qī jiù tū rán jiē dào yí gè rèn wu, chà diǎnr dān wù fù xí.",
-       "pinyinHtml": "shì a, jì huà gǎn bú shàng biàn huà. wǒ shàng xīng qī jiù tū rán jiē dào yí gè rèn wu, chà diǎnr dān wù fù xí.",
-       "vi": "Đúng thế thật, kế hoạch sao đuổi kịp biến đổi. Tuần trước tớ tự dưng nhận một nhiệm vụ bất ngờ, suýt chút nữa làm trễ nải việc ôn thi.",
-       "modified": false
+       "zh": "可太是了！真是计划赶不上变化。我上周突然被塞了一个紧急任务，差点儿把考试复习全搅黄了。",
+       "pinyin": "kě tài shì le! zhēn shì jì huà gǎn bú shàng biàn huà. wǒ shàng zhōu tū rán bèi sāi le yí gè jǐn jí rèn wu, chà diǎnr bǎ kǎo shì fù xí quán jiǎo huáng le.",
+       "pinyinHtml": "kě tài shì le! zhēn shì jì huà gǎn bú shàng biàn huà. wǒ shàng zhōu tū rán bèi sāi le yí gè jǐn jí rèn wu, chà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">diǎnr</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎ</span> kǎo shì fù xí quán jiǎo huáng le.",
+       "vi": "Chuẩn không cần chỉnh luôn! Đúng là kế hoạch không đuổi kịp biến hóa. Tuần trước mình tự dưng bị nhét thêm một nhiệm vụ gấp, suýt nữa làm hỏng bét cả việc ôn thi.",
+       "modified": true,
+       "reason": "Thay '是啊' bằng câu cửa miệng thế hệ mới 【可太是了！】 và thành ngữ khẩu ngữ 【搅黄了】."
       },
       {
        "n": "10",
        "role": "B",
-       "zh": "那你后来怎么办？有没有把原来的计划改一改？",
-       "pinyin": "nà nǐ hòu lái zěn me bàn? yǒu méi yǒu bǎ yuán lái de jì huà gǎi yi gǎi?",
-       "pinyinHtml": "nà nǐ hòu lái zěn me bàn? yǒu méi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> bǎ yuán lái de jì huà gǎi yi gǎi?",
-       "vi": "Thế rồi sau đó cậu xử lý ra sao? Có sửa đổi lại kế hoạch ban đầu không?",
-       "modified": false
+       "zh": "就是说啊！越是忙得不可开交，越得学会果断推掉那些无关紧要的无效社交。",
+       "pinyin": "jiù shì shuō a! yuè shì máng de bù kě kāi jiāo, yuè de xué huì guǒ duàn tuī diào nà xiē wú guān jǐn yào de wú xiào shè jiāo.",
+       "pinyinHtml": "jiù shì shuō a! yuè shì máng de bù kě kāi jiāo, yuè de xué huì guǒ duàn tuī diào nà xiē wú guān jǐn yào de wú xiào shè jiāo.",
+       "vi": "Đấy, chính là như thế! Càng bận rộn đến mức tối tăm mặt mũi, càng phải học cách dứt khoát từ chối những cuộc xã giao vô bổ không quan trọng.",
+       "modified": true,
+       "reason": "Thay '没错' bằng 【就是说啊！】 và thành ngữ 【忙得不可开交】."
       },
       {
        "n": "11",
@@ -7440,20 +7765,22 @@ window.APP_DATA = {
       {
        "n": "09",
        "role": "A",
-       "zh": "是啊，计划赶不上变化。我上星期就突然接到一个任务，差点儿耽误复习。",
-       "pinyin": "shì a, jì huà gǎn bú shàng biàn huà. wǒ shàng xīng qī jiù tū rán jiē dào yí gè rèn wu, chà diǎnr dān wù fù xí.",
-       "pinyinHtml": "shì a, jì huà gǎn bú shàng biàn huà. wǒ shàng xīng qī jiù tū rán jiē dào yí gè rèn wu, chà diǎnr dān wù fù xí.",
-       "vi": "Đúng thế thật, kế hoạch sao đuổi kịp biến đổi. Tuần trước tớ tự dưng nhận một nhiệm vụ bất ngờ, suýt chút nữa làm trễ nải việc ôn thi.",
-       "modified": false
+       "zh": "可太是了！真是计划赶不上变化。我上周突然被塞了一个紧急任务，差点儿把考试复习全搅黄了。",
+       "pinyin": "kě tài shì le! zhēn shì jì huà gǎn bú shàng biàn huà. wǒ shàng zhōu tū rán bèi sāi le yí gè jǐn jí rèn wu, chà diǎnr bǎ kǎo shì fù xí quán jiǎo huáng le.",
+       "pinyinHtml": "kě tài shì le! zhēn shì jì huà gǎn bú shàng biàn huà. wǒ shàng zhōu tū rán bèi sāi le yí gè jǐn jí rèn wu, chà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">diǎnr</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎ</span> kǎo shì fù xí quán jiǎo huáng le.",
+       "vi": "Chuẩn không cần chỉnh luôn! Đúng là kế hoạch không đuổi kịp biến hóa. Tuần trước mình tự dưng bị nhét thêm một nhiệm vụ gấp, suýt nữa làm hỏng bét cả việc ôn thi.",
+       "modified": true,
+       "reason": "Thay '是啊' bằng câu cửa miệng thế hệ mới 【可太是了！】 và thành ngữ khẩu ngữ 【搅黄了】."
       },
       {
        "n": "10",
        "role": "B",
-       "zh": "那你后来怎么办？有没有把原来的计划改一改？",
-       "pinyin": "nà nǐ hòu lái zěn me bàn? yǒu méi yǒu bǎ yuán lái de jì huà gǎi yi gǎi?",
-       "pinyinHtml": "nà nǐ hòu lái zěn me bàn? yǒu méi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> bǎ yuán lái de jì huà gǎi yi gǎi?",
-       "vi": "Thế rồi sau đó cậu xử lý ra sao? Có sửa đổi lại kế hoạch ban đầu không?",
-       "modified": false
+       "zh": "就是说啊！越是忙得不可开交，越得学会果断推掉那些无关紧要的无效社交。",
+       "pinyin": "jiù shì shuō a! yuè shì máng de bù kě kāi jiāo, yuè de xué huì guǒ duàn tuī diào nà xiē wú guān jǐn yào de wú xiào shè jiāo.",
+       "pinyinHtml": "jiù shì shuō a! yuè shì máng de bù kě kāi jiāo, yuè de xué huì guǒ duàn tuī diào nà xiē wú guān jǐn yào de wú xiào shè jiāo.",
+       "vi": "Đấy, chính là như thế! Càng bận rộn đến mức tối tăm mặt mũi, càng phải học cách dứt khoát từ chối những cuộc xã giao vô bổ không quan trọng.",
+       "modified": true,
+       "reason": "Thay '没错' bằng 【就是说啊！】 và thành ngữ 【忙得不可开交】."
       },
       {
        "n": "11",
@@ -7566,6 +7893,40 @@ window.APP_DATA = {
        }
       },
       {
+       "n": "09",
+       "role": "A",
+       "reason": "Thay '是啊' bằng câu cửa miệng thế hệ mới 【可太是了！】 và thành ngữ khẩu ngữ 【搅黄了】.",
+       "v1": {
+        "zh": "是啊，计划赶不上变化。我上星期就突然接到一个任务，差点儿耽误复习。",
+        "pinyin": "shì a, jì huà gǎn bú shàng biàn huà. wǒ shàng xīng qī jiù tū rán jiē dào yí gè rèn wu, chà diǎnr dān wù fù xí.",
+        "pinyinHtml": "shì a, jì huà gǎn bú shàng biàn huà. wǒ shàng xīng qī jiù tū rán jiē dào yí gè rèn wu, chà diǎnr dān wù fù xí.",
+        "vi": "Đúng thế thật, kế hoạch sao đuổi kịp biến đổi. Tuần trước tớ tự dưng nhận một nhiệm vụ bất ngờ, suýt chút nữa làm trễ nải việc ôn thi."
+       },
+       "v2": {
+        "zh": "可太是了！真是计划赶不上变化。我上周突然被塞了一个紧急任务，差点儿把考试复习全搅黄了。",
+        "pinyin": "kě tài shì le! zhēn shì jì huà gǎn bú shàng biàn huà. wǒ shàng zhōu tū rán bèi sāi le yí gè jǐn jí rèn wu, chà diǎnr bǎ kǎo shì fù xí quán jiǎo huáng le.",
+        "pinyinHtml": "kě tài shì le! zhēn shì jì huà gǎn bú shàng biàn huà. wǒ shàng zhōu tū rán bèi sāi le yí gè jǐn jí rèn wu, chà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">diǎnr</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎ</span> kǎo shì fù xí quán jiǎo huáng le.",
+        "vi": "Chuẩn không cần chỉnh luôn! Đúng là kế hoạch không đuổi kịp biến hóa. Tuần trước mình tự dưng bị nhét thêm một nhiệm vụ gấp, suýt nữa làm hỏng bét cả việc ôn thi."
+       }
+      },
+      {
+       "n": "10",
+       "role": "B",
+       "reason": "Thay '没错' bằng 【就是说啊！】 và thành ngữ 【忙得不可开交】.",
+       "v1": {
+        "zh": "那你后来怎么办？有没有把原来的计划改一改？",
+        "pinyin": "nà nǐ hòu lái zěn me bàn? yǒu méi yǒu bǎ yuán lái de jì huà gǎi yi gǎi?",
+        "pinyinHtml": "nà nǐ hòu lái zěn me bàn? yǒu méi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> bǎ yuán lái de jì huà gǎi yi gǎi?",
+        "vi": "Thế rồi sau đó cậu xử lý ra sao? Có sửa đổi lại kế hoạch ban đầu không?"
+       },
+       "v2": {
+        "zh": "就是说啊！越是忙得不可开交，越得学会果断推掉那些无关紧要的无效社交。",
+        "pinyin": "jiù shì shuō a! yuè shì máng de bù kě kāi jiāo, yuè de xué huì guǒ duàn tuī diào nà xiē wú guān jǐn yào de wú xiào shè jiāo.",
+        "pinyinHtml": "jiù shì shuō a! yuè shì máng de bù kě kāi jiāo, yuè de xué huì guǒ duàn tuī diào nà xiē wú guān jǐn yào de wú xiào shè jiāo.",
+        "vi": "Đấy, chính là như thế! Càng bận rộn đến mức tối tăm mặt mũi, càng phải học cách dứt khoát từ chối những cuộc xã giao vô bổ không quan trọng."
+       }
+      },
+      {
        "n": "14",
        "role": "B",
        "reason": "Áp dụng quán dụng ngữ giao tiếp công sở Bài 8 【打个招呼】.",
@@ -7601,115 +7962,115 @@ window.APP_DATA = {
       }
      ],
      "audio": "audio/b8-c1.mp3",
-     "audioDuration": 106.75,
+     "audioDuration": 105.74,
      "audioTimings": [
       {
        "n": "01",
        "role": "A",
        "start": 0,
-       "end": 3.96
+       "end": 3.74
       },
       {
        "n": "02",
        "role": "B",
-       "start": 3.96,
-       "end": 10.97
+       "start": 3.74,
+       "end": 10.42
       },
       {
        "n": "03",
        "role": "A",
-       "start": 10.97,
-       "end": 15.96
+       "start": 10.42,
+       "end": 15.12
       },
       {
        "n": "04",
        "role": "B",
-       "start": 15.96,
-       "end": 22.99
+       "start": 15.12,
+       "end": 21.62
       },
       {
        "n": "05",
        "role": "A",
-       "start": 22.99,
-       "end": 27.91
+       "start": 21.62,
+       "end": 26.26
       },
       {
        "n": "06",
        "role": "B",
-       "start": 27.91,
-       "end": 34.73
+       "start": 26.26,
+       "end": 32.76
       },
       {
        "n": "07",
        "role": "A",
-       "start": 34.73,
-       "end": 40.54
+       "start": 32.76,
+       "end": 38.23
       },
       {
        "n": "08",
        "role": "B",
-       "start": 40.54,
-       "end": 47.42
+       "start": 38.23,
+       "end": 44.78
       },
       {
        "n": "09",
        "role": "A",
-       "start": 47.42,
-       "end": 54.36
+       "start": 44.78,
+       "end": 53.4
       },
       {
        "n": "10",
        "role": "B",
-       "start": 54.36,
-       "end": 58.82
+       "start": 53.4,
+       "end": 60.48
       },
       {
        "n": "11",
        "role": "A",
-       "start": 58.82,
-       "end": 64.85
+       "start": 60.48,
+       "end": 66.17
       },
       {
        "n": "12",
        "role": "B",
-       "start": 64.85,
-       "end": 71.04
+       "start": 66.17,
+       "end": 72.1
       },
       {
        "n": "13",
        "role": "A",
-       "start": 71.04,
-       "end": 76.78
+       "start": 72.1,
+       "end": 77.52
       },
       {
        "n": "14",
        "role": "B",
-       "start": 76.78,
-       "end": 83.47
+       "start": 77.52,
+       "end": 83.81
       },
       {
        "n": "15",
        "role": "A",
-       "start": 83.47,
+       "start": 83.81,
        "end": 89.62
       },
       {
        "n": "16",
        "role": "B",
        "start": 89.62,
-       "end": 95.66
+       "end": 95.33
       },
       {
        "n": "17",
        "role": "A",
-       "start": 95.66,
-       "end": 100.49
+       "start": 95.33,
+       "end": 99.89
       },
       {
        "n": "18",
        "role": "B",
-       "start": 100.49,
-       "end": 106.75
+       "start": 99.89,
+       "end": 105.74
       }
      ]
     },
@@ -7851,12 +8212,12 @@ window.APP_DATA = {
       {
        "n": "14",
        "role": "B",
-       "zh": "对，做备用方案就是防着万一下雨；室外去不成，准能临时改成室内逛展。",
-       "pinyin": "duì, zuò bèi yòng fāng àn jiù shì fáng zhe wàn yī xià yǔ; shì wài qù bù chéng, zhǔn néng lín shí gǎi chéng shì nèi guàng zhǎn.",
-       "pinyinHtml": "duì, zuò bèi yòng fāng àn jiù shì fáng zhe wàn yī xià yǔ; shì wài qù bù chéng, zhǔn néng lín shí gǎi chéng shì nèi guàng zhǎn.",
-       "vi": "Đúng thế, lập phương án dự phòng chính là để phòng ngộ nhỡ trời mưa; ngoài trời không đi được thì chắc chắn chuyển sang ngắm triển lãm trong nhà.",
+       "zh": "可不是嘛！做两手准备就是防着万一下雨；万一室外泡汤了，准能立马切换成室内逛展。",
+       "pinyin": "kě bú shì ma! zuò liǎng shǒu zhǔn bèi jiù shì fáng zhe wàn yī xià yǔ; wàn yī shì wài pào tāng le, zhǔn néng lì mǎ qiè huàn chéng shì nèi guàng zhǎn.",
+       "pinyinHtml": "kě bú shì ma! zuò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">liǎng</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> zhǔn bèi jiù shì fáng zhe wàn yī xià yǔ; wàn yī shì wài pào tāng le, zhǔn néng lì mǎ qiè huàn chéng shì nèi guàng zhǎn.",
+       "vi": "Chứ sao nữa! Lên kế hoạch hai phương án chính là phòng ngộ nhỡ trời mưa; nhỡ hoạt động ngoài trời bị đổ bể, thì chắc chắn chuyển hướng ngay sang đi bảo tàng trong nhà.",
        "modified": true,
-       "reason": "Lồng ghép mẫu Bài 8 【万一……】 và phó từ 【准】."
+       "reason": "Thay chữ '对' bằng 【可不是嘛！】 và cụm khẩu ngữ dí dỏm 【泡汤了】."
       },
       {
        "n": "15",
@@ -8167,12 +8528,12 @@ window.APP_DATA = {
       {
        "n": "14",
        "role": "B",
-       "zh": "对，做备用方案就是防着万一下雨；室外去不成，准能临时改成室内逛展。",
-       "pinyin": "duì, zuò bèi yòng fāng àn jiù shì fáng zhe wàn yī xià yǔ; shì wài qù bù chéng, zhǔn néng lín shí gǎi chéng shì nèi guàng zhǎn.",
-       "pinyinHtml": "duì, zuò bèi yòng fāng àn jiù shì fáng zhe wàn yī xià yǔ; shì wài qù bù chéng, zhǔn néng lín shí gǎi chéng shì nèi guàng zhǎn.",
-       "vi": "Đúng thế, lập phương án dự phòng chính là để phòng ngộ nhỡ trời mưa; ngoài trời không đi được thì chắc chắn chuyển sang ngắm triển lãm trong nhà.",
+       "zh": "可不是嘛！做两手准备就是防着万一下雨；万一室外泡汤了，准能立马切换成室内逛展。",
+       "pinyin": "kě bú shì ma! zuò liǎng shǒu zhǔn bèi jiù shì fáng zhe wàn yī xià yǔ; wàn yī shì wài pào tāng le, zhǔn néng lì mǎ qiè huàn chéng shì nèi guàng zhǎn.",
+       "pinyinHtml": "kě bú shì ma! zuò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">liǎng</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> zhǔn bèi jiù shì fáng zhe wàn yī xià yǔ; wàn yī shì wài pào tāng le, zhǔn néng lì mǎ qiè huàn chéng shì nèi guàng zhǎn.",
+       "vi": "Chứ sao nữa! Lên kế hoạch hai phương án chính là phòng ngộ nhỡ trời mưa; nhỡ hoạt động ngoài trời bị đổ bể, thì chắc chắn chuyển hướng ngay sang đi bảo tàng trong nhà.",
        "modified": true,
-       "reason": "Lồng ghép mẫu Bài 8 【万一……】 và phó từ 【准】."
+       "reason": "Thay chữ '对' bằng 【可不是嘛！】 và cụm khẩu ngữ dí dỏm 【泡汤了】."
       },
       {
        "n": "15",
@@ -8250,7 +8611,7 @@ window.APP_DATA = {
       {
        "n": "14",
        "role": "B",
-       "reason": "Lồng ghép mẫu Bài 8 【万一……】 và phó từ 【准】.",
+       "reason": "Thay chữ '对' bằng 【可不是嘛！】 và cụm khẩu ngữ dí dỏm 【泡汤了】.",
        "v1": {
         "zh": "对，所以我们还准备了室内活动。天气不好就临时调整，不一定照原计划走。",
         "pinyin": "duì, suǒ yǐ wǒ men hái zhǔn bèi le shì nèi huó dòng. tiān qì bù hǎo jiù lín shí diào zhěng, bù yí dìng zhào yuán jì huà zǒu.",
@@ -8258,10 +8619,10 @@ window.APP_DATA = {
         "vi": "Đúng rồi, nên tụi tớ còn chuẩn bị sẵn phương án hoạt động trong nhà nữa. Thời tiết xấu thì linh hoạt đổi kế hoạch, không nhất thiết cứ phải bám cứng lịch cũ."
        },
        "v2": {
-        "zh": "对，做备用方案就是防着万一下雨；室外去不成，准能临时改成室内逛展。",
-        "pinyin": "duì, zuò bèi yòng fāng àn jiù shì fáng zhe wàn yī xià yǔ; shì wài qù bù chéng, zhǔn néng lín shí gǎi chéng shì nèi guàng zhǎn.",
-        "pinyinHtml": "duì, zuò bèi yòng fāng àn jiù shì fáng zhe wàn yī xià yǔ; shì wài qù bù chéng, zhǔn néng lín shí gǎi chéng shì nèi guàng zhǎn.",
-        "vi": "Đúng thế, lập phương án dự phòng chính là để phòng ngộ nhỡ trời mưa; ngoài trời không đi được thì chắc chắn chuyển sang ngắm triển lãm trong nhà."
+        "zh": "可不是嘛！做两手准备就是防着万一下雨；万一室外泡汤了，准能立马切换成室内逛展。",
+        "pinyin": "kě bú shì ma! zuò liǎng shǒu zhǔn bèi jiù shì fáng zhe wàn yī xià yǔ; wàn yī shì wài pào tāng le, zhǔn néng lì mǎ qiè huàn chéng shì nèi guàng zhǎn.",
+        "pinyinHtml": "kě bú shì ma! zuò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">liǎng</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> zhǔn bèi jiù shì fáng zhe wàn yī xià yǔ; wàn yī shì wài pào tāng le, zhǔn néng lì mǎ qiè huàn chéng shì nèi guàng zhǎn.",
+        "vi": "Chứ sao nữa! Lên kế hoạch hai phương án chính là phòng ngộ nhỡ trời mưa; nhỡ hoạt động ngoài trời bị đổ bể, thì chắc chắn chuyển hướng ngay sang đi bảo tàng trong nhà."
        }
       },
       {
@@ -8283,115 +8644,115 @@ window.APP_DATA = {
       }
      ],
      "audio": "audio/b8-c2.mp3",
-     "audioDuration": 109.18,
+     "audioDuration": 104.3,
      "audioTimings": [
       {
        "n": "01",
        "role": "A",
        "start": 0,
-       "end": 4.54
+       "end": 4.3
       },
       {
        "n": "02",
        "role": "B",
-       "start": 4.54,
-       "end": 9.55
+       "start": 4.3,
+       "end": 9.19
       },
       {
        "n": "03",
        "role": "A",
-       "start": 9.55,
-       "end": 15.62
+       "start": 9.19,
+       "end": 14.93
       },
       {
        "n": "04",
        "role": "B",
-       "start": 15.62,
-       "end": 22.66
+       "start": 14.93,
+       "end": 21.7
       },
       {
        "n": "05",
        "role": "A",
-       "start": 22.66,
-       "end": 28.08
+       "start": 21.7,
+       "end": 26.81
       },
       {
        "n": "06",
        "role": "B",
-       "start": 28.08,
-       "end": 35.5
+       "start": 26.81,
+       "end": 33.72
       },
       {
        "n": "07",
        "role": "A",
-       "start": 35.5,
-       "end": 40.56
+       "start": 33.72,
+       "end": 38.5
       },
       {
        "n": "08",
        "role": "B",
-       "start": 40.56,
-       "end": 47.69
+       "start": 38.5,
+       "end": 45.1
       },
       {
        "n": "09",
        "role": "A",
-       "start": 47.69,
-       "end": 53.71
+       "start": 45.1,
+       "end": 50.78
       },
       {
        "n": "10",
        "role": "B",
-       "start": 53.71,
-       "end": 61.13
+       "start": 50.78,
+       "end": 57.62
       },
       {
        "n": "11",
        "role": "A",
-       "start": 61.13,
-       "end": 65.47
+       "start": 57.62,
+       "end": 61.73
       },
       {
        "n": "12",
        "role": "B",
-       "start": 65.47,
-       "end": 71.93
+       "start": 61.73,
+       "end": 67.8
       },
       {
        "n": "13",
        "role": "A",
-       "start": 71.93,
-       "end": 77.14
+       "start": 67.8,
+       "end": 72.7
       },
       {
        "n": "14",
        "role": "B",
-       "start": 77.14,
-       "end": 84.74
+       "start": 72.7,
+       "end": 81
       },
       {
        "n": "15",
        "role": "A",
-       "start": 84.74,
-       "end": 89.66
+       "start": 81,
+       "end": 85.66
       },
       {
        "n": "16",
        "role": "B",
-       "start": 89.66,
-       "end": 96.82
+       "start": 85.66,
+       "end": 92.45
       },
       {
        "n": "17",
        "role": "A",
-       "start": 96.82,
-       "end": 103.37
+       "start": 92.45,
+       "end": 98.64
       },
       {
        "n": "18",
        "role": "B",
-       "start": 103.37,
-       "end": 109.18
+       "start": 98.64,
+       "end": 104.3
       }
      ]
     }
@@ -8714,12 +9075,12 @@ window.APP_DATA = {
       {
        "n": "10",
        "role": "B",
-       "zh": "是啊，节省固然好，但即使要存钱，也不能处处跟自己过不去嘛。",
-       "pinyin": "shì a, jié shěng gù rán hǎo, dàn jí shǐ yào cún qián, yě bù néng chù chù gēn zì jǐ guò bú qù ma.",
-       "pinyinHtml": "shì a, jié shěng gù rán hǎo, dàn jí shǐ yào cún qián, yě bù néng chù chù gēn zì jǐ guò bú qù ma.",
-       "vi": "Đúng vậy, tiết kiệm thì tốt thật, nhưng dù cho có muốn tích lũy tiền, cũng không thể chỗ nào cũng tự làm khổ mình được.",
+       "zh": "谁说不是呢！节省固然值得提倡，但即使要存钱，也犯不上处处跟自己过不去嘛。",
+       "pinyin": "shuí shuō bú shì ne! jié shěng gù rán zhí de tí chàng, dàn jí shǐ yào cún qián, yě fàn bú shàng chù chù gēn zì jǐ guò bú qù ma.",
+       "pinyinHtml": "shuí shuō bú shì ne! jié shěng gù rán zhí de tí chàng, dàn jí shǐ yào cún qián, yě fàn bú shàng chù chù gēn zì jǐ guò bú qù ma.",
+       "vi": "Ai bảo không phải chứ! Tiết kiệm thì đúng là đáng hoan nghênh, nhưng dù có phải tích lũy tiền, cũng đâu đáng để chỗ nào cũng tự làm khổ mình đâu nè.",
        "modified": true,
-       "reason": "Lồng ghép cấu trúc nhượng bộ Bài 9 【即使……也……】 và quán dụng ngữ kinh điển 【跟自己过不去】."
+       "reason": "Thay '是啊' bằng 【谁说不是呢！】 và lồng ghép cấu trúc nhượng bộ Bài 9 【即使……也……】 cùng quán dụng ngữ 【跟自己过不去】."
       },
       {
        "n": "11",
@@ -8770,11 +9131,12 @@ window.APP_DATA = {
       {
        "n": "16",
        "role": "B",
-       "zh": "对，我现在也想学着精打细算。你有没有什么好方法？",
-       "pinyin": "duì, wǒ xiàn zài yě xiǎng xué zhe jīng dǎ xì suàn. nǐ yǒu méi yǒu shén me hǎo fāng fǎ?",
-       "pinyinHtml": "duì, wǒ xiàn zài <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> xiǎng xué zhe jīng dǎ xì suàn. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> yǒu méi yǒu shén me hǎo fāng fǎ?",
-       "vi": "Đúng vậy, giờ tớ cũng muốn học cách chi tiêu tính toán vén khéo hơn. Cậu có mẹo gì hay ho không?",
-       "modified": false
+       "zh": "可不是嘛！我现在也琢磨着得学会精打细算过日子。你平时都有啥独家秘诀呀？",
+       "pinyin": "kě bú shì ma! wǒ xiàn zài yě zhuó mó zhe de xué huì jīng dǎ xì suàn guò rì zi. nǐ píng shí dōu yǒu shá dú jiā mì jué ya?",
+       "pinyinHtml": "kě bú shì ma! wǒ xiàn zài yě zhuó mó zhe de xué huì jīng dǎ xì suàn guò rì zi. nǐ píng shí dōu yǒu shá dú jiā mì jué ya?",
+       "vi": "Chứ còn gì nữa! Dạo này mình cũng đang tính toán phải học cách tính toán chi li vun vén cuộc sống. Bạn thường ngày có bí quyết gia truyền nào thế?",
+       "modified": true,
+       "reason": "Thay '对' bằng câu cảm thán thân mật 【可不是嘛！】 và từ khẩu ngữ 【琢磨着 / 独家秘诀】."
       },
       {
        "n": "17",
@@ -9030,12 +9392,12 @@ window.APP_DATA = {
       {
        "n": "10",
        "role": "B",
-       "zh": "是啊，节省固然好，但即使要存钱，也不能处处跟自己过不去嘛。",
-       "pinyin": "shì a, jié shěng gù rán hǎo, dàn jí shǐ yào cún qián, yě bù néng chù chù gēn zì jǐ guò bú qù ma.",
-       "pinyinHtml": "shì a, jié shěng gù rán hǎo, dàn jí shǐ yào cún qián, yě bù néng chù chù gēn zì jǐ guò bú qù ma.",
-       "vi": "Đúng vậy, tiết kiệm thì tốt thật, nhưng dù cho có muốn tích lũy tiền, cũng không thể chỗ nào cũng tự làm khổ mình được.",
+       "zh": "谁说不是呢！节省固然值得提倡，但即使要存钱，也犯不上处处跟自己过不去嘛。",
+       "pinyin": "shuí shuō bú shì ne! jié shěng gù rán zhí de tí chàng, dàn jí shǐ yào cún qián, yě fàn bú shàng chù chù gēn zì jǐ guò bú qù ma.",
+       "pinyinHtml": "shuí shuō bú shì ne! jié shěng gù rán zhí de tí chàng, dàn jí shǐ yào cún qián, yě fàn bú shàng chù chù gēn zì jǐ guò bú qù ma.",
+       "vi": "Ai bảo không phải chứ! Tiết kiệm thì đúng là đáng hoan nghênh, nhưng dù có phải tích lũy tiền, cũng đâu đáng để chỗ nào cũng tự làm khổ mình đâu nè.",
        "modified": true,
-       "reason": "Lồng ghép cấu trúc nhượng bộ Bài 9 【即使……也……】 và quán dụng ngữ kinh điển 【跟自己过不去】."
+       "reason": "Thay '是啊' bằng 【谁说不是呢！】 và lồng ghép cấu trúc nhượng bộ Bài 9 【即使……也……】 cùng quán dụng ngữ 【跟自己过不去】."
       },
       {
        "n": "11",
@@ -9086,11 +9448,12 @@ window.APP_DATA = {
       {
        "n": "16",
        "role": "B",
-       "zh": "对，我现在也想学着精打细算。你有没有什么好方法？",
-       "pinyin": "duì, wǒ xiàn zài yě xiǎng xué zhe jīng dǎ xì suàn. nǐ yǒu méi yǒu shén me hǎo fāng fǎ?",
-       "pinyinHtml": "duì, wǒ xiàn zài <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> xiǎng xué zhe jīng dǎ xì suàn. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> yǒu méi yǒu shén me hǎo fāng fǎ?",
-       "vi": "Đúng vậy, giờ tớ cũng muốn học cách chi tiêu tính toán vén khéo hơn. Cậu có mẹo gì hay ho không?",
-       "modified": false
+       "zh": "可不是嘛！我现在也琢磨着得学会精打细算过日子。你平时都有啥独家秘诀呀？",
+       "pinyin": "kě bú shì ma! wǒ xiàn zài yě zhuó mó zhe de xué huì jīng dǎ xì suàn guò rì zi. nǐ píng shí dōu yǒu shá dú jiā mì jué ya?",
+       "pinyinHtml": "kě bú shì ma! wǒ xiàn zài yě zhuó mó zhe de xué huì jīng dǎ xì suàn guò rì zi. nǐ píng shí dōu yǒu shá dú jiā mì jué ya?",
+       "vi": "Chứ còn gì nữa! Dạo này mình cũng đang tính toán phải học cách tính toán chi li vun vén cuộc sống. Bạn thường ngày có bí quyết gia truyền nào thế?",
+       "modified": true,
+       "reason": "Thay '对' bằng câu cảm thán thân mật 【可不是嘛！】 và từ khẩu ngữ 【琢磨着 / 独家秘诀】."
       },
       {
        "n": "17",
@@ -9133,7 +9496,7 @@ window.APP_DATA = {
       {
        "n": "10",
        "role": "B",
-       "reason": "Lồng ghép cấu trúc nhượng bộ Bài 9 【即使……也……】 và quán dụng ngữ kinh điển 【跟自己过不去】.",
+       "reason": "Thay '是啊' bằng 【谁说不是呢！】 và lồng ghép cấu trúc nhượng bộ Bài 9 【即使……也……】 cùng quán dụng ngữ 【跟自己过不去】.",
        "v1": {
         "zh": "可是如果一直舍不得花钱，生活会不会变得很没意思？",
         "pinyin": "kě shì rú guǒ yì zhí shě bu de huā qián, shēng huó huì bu huì biàn de hěn méi yì si?",
@@ -9141,10 +9504,10 @@ window.APP_DATA = {
         "vi": "Nhưng mà nếu lúc nào cũng dè sẻn không dám tiêu tiền, thì cuộc sống liệu có trở nên buồn tẻ vô vị lắm không?"
        },
        "v2": {
-        "zh": "是啊，节省固然好，但即使要存钱，也不能处处跟自己过不去嘛。",
-        "pinyin": "shì a, jié shěng gù rán hǎo, dàn jí shǐ yào cún qián, yě bù néng chù chù gēn zì jǐ guò bú qù ma.",
-        "pinyinHtml": "shì a, jié shěng gù rán hǎo, dàn jí shǐ yào cún qián, yě bù néng chù chù gēn zì jǐ guò bú qù ma.",
-        "vi": "Đúng vậy, tiết kiệm thì tốt thật, nhưng dù cho có muốn tích lũy tiền, cũng không thể chỗ nào cũng tự làm khổ mình được."
+        "zh": "谁说不是呢！节省固然值得提倡，但即使要存钱，也犯不上处处跟自己过不去嘛。",
+        "pinyin": "shuí shuō bú shì ne! jié shěng gù rán zhí de tí chàng, dàn jí shǐ yào cún qián, yě fàn bú shàng chù chù gēn zì jǐ guò bú qù ma.",
+        "pinyinHtml": "shuí shuō bú shì ne! jié shěng gù rán zhí de tí chàng, dàn jí shǐ yào cún qián, yě fàn bú shàng chù chù gēn zì jǐ guò bú qù ma.",
+        "vi": "Ai bảo không phải chứ! Tiết kiệm thì đúng là đáng hoan nghênh, nhưng dù có phải tích lũy tiền, cũng đâu đáng để chỗ nào cũng tự làm khổ mình đâu nè."
        }
       },
       {
@@ -9162,6 +9525,23 @@ window.APP_DATA = {
         "pinyin": "cǐ wài, měi gè yuè àn shí cún xià yì bǐ bèi yòng jīn, yì nián xià lái jiù shì yì bǐ bù xiǎo de shù mù.",
         "pinyinHtml": "cǐ wài, měi gè yuè àn shí cún xià yì bǐ bèi yòng jīn, yì nián xià lái jiù shì yì bǐ bù xiǎo de shù mù.",
         "vi": "Ngoài ra, mỗi tháng đúng hạn để dành một khoản tiền dự phòng, cả một năm trôi qua sẽ là một con số không hề nhỏ."
+       }
+      },
+      {
+       "n": "16",
+       "role": "B",
+       "reason": "Thay '对' bằng câu cảm thán thân mật 【可不是嘛！】 và từ khẩu ngữ 【琢磨着 / 独家秘诀】.",
+       "v1": {
+        "zh": "对，我现在也想学着精打细算。你有没有什么好方法？",
+        "pinyin": "duì, wǒ xiàn zài yě xiǎng xué zhe jīng dǎ xì suàn. nǐ yǒu méi yǒu shén me hǎo fāng fǎ?",
+        "pinyinHtml": "duì, wǒ xiàn zài <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> xiǎng xué zhe jīng dǎ xì suàn. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> yǒu méi yǒu shén me hǎo fāng fǎ?",
+        "vi": "Đúng vậy, giờ tớ cũng muốn học cách chi tiêu tính toán vén khéo hơn. Cậu có mẹo gì hay ho không?"
+       },
+       "v2": {
+        "zh": "可不是嘛！我现在也琢磨着得学会精打细算过日子。你平时都有啥独家秘诀呀？",
+        "pinyin": "kě bú shì ma! wǒ xiàn zài yě zhuó mó zhe de xué huì jīng dǎ xì suàn guò rì zi. nǐ píng shí dōu yǒu shá dú jiā mì jué ya?",
+        "pinyinHtml": "kě bú shì ma! wǒ xiàn zài yě zhuó mó zhe de xué huì jīng dǎ xì suàn guò rì zi. nǐ píng shí dōu yǒu shá dú jiā mì jué ya?",
+        "vi": "Chứ còn gì nữa! Dạo này mình cũng đang tính toán phải học cách tính toán chi li vun vén cuộc sống. Bạn thường ngày có bí quyết gia truyền nào thế?"
        }
       },
       {
@@ -9183,115 +9563,115 @@ window.APP_DATA = {
       }
      ],
      "audio": "audio/b9-c1.mp3",
-     "audioDuration": 105.98,
+     "audioDuration": 104.28,
      "audioTimings": [
       {
        "n": "01",
        "role": "A",
        "start": 0,
-       "end": 5.62
+       "end": 5.3
       },
       {
        "n": "02",
        "role": "B",
-       "start": 5.62,
-       "end": 12.55
+       "start": 5.3,
+       "end": 11.81
       },
       {
        "n": "03",
        "role": "A",
-       "start": 12.55,
-       "end": 17.62
+       "start": 11.81,
+       "end": 16.58
       },
       {
        "n": "04",
        "role": "B",
-       "start": 17.62,
-       "end": 22.58
+       "start": 16.58,
+       "end": 21.24
       },
       {
        "n": "05",
        "role": "A",
-       "start": 22.58,
-       "end": 29.76
+       "start": 21.24,
+       "end": 28.01
       },
       {
        "n": "06",
        "role": "B",
-       "start": 29.76,
-       "end": 36.38
+       "start": 28.01,
+       "end": 34.2
       },
       {
        "n": "07",
        "role": "A",
-       "start": 36.38,
-       "end": 39.58
+       "start": 34.2,
+       "end": 37.2
       },
       {
        "n": "08",
        "role": "B",
-       "start": 39.58,
-       "end": 45.55
+       "start": 37.2,
+       "end": 42.98
       },
       {
        "n": "09",
        "role": "A",
-       "start": 45.55,
-       "end": 50.78
+       "start": 42.98,
+       "end": 47.9
       },
       {
        "n": "10",
        "role": "B",
-       "start": 50.78,
-       "end": 56.93
+       "start": 47.9,
+       "end": 55.56
       },
       {
        "n": "11",
        "role": "A",
-       "start": 56.93,
-       "end": 63.55
+       "start": 55.56,
+       "end": 61.8
       },
       {
        "n": "12",
        "role": "B",
-       "start": 63.55,
-       "end": 70.01
+       "start": 61.8,
+       "end": 67.97
       },
       {
        "n": "13",
        "role": "A",
-       "start": 70.01,
-       "end": 76.18
+       "start": 67.97,
+       "end": 73.8
       },
       {
        "n": "14",
        "role": "B",
-       "start": 76.18,
-       "end": 82.63
+       "start": 73.8,
+       "end": 79.9
       },
       {
        "n": "15",
        "role": "A",
-       "start": 82.63,
-       "end": 87.36
+       "start": 79.9,
+       "end": 84.36
       },
       {
        "n": "16",
        "role": "B",
-       "start": 87.36,
-       "end": 92.98
+       "start": 84.36,
+       "end": 91.78
       },
       {
        "n": "17",
        "role": "A",
-       "start": 92.98,
-       "end": 99.12
+       "start": 91.78,
+       "end": 97.56
       },
       {
        "n": "18",
        "role": "B",
-       "start": 99.12,
-       "end": 105.98
+       "start": 97.56,
+       "end": 104.28
       }
      ]
     },
@@ -9360,11 +9740,12 @@ window.APP_DATA = {
       {
        "n": "06",
        "role": "B",
-       "zh": "不会。我一般先留出房租、吃饭和交通费，再存下一部分钱。",
-       "pinyin": "bú huì. wǒ yì bān xiān liú chū fáng zū, chī fàn hé jiāo tōng fèi, zài cún xià yí bù fen qián.",
-       "pinyinHtml": "bú huì. wǒ yì bān xiān liú chū fáng zū, chī fàn hé jiāo tōng fèi, zài cún xià yí bù fen qián.",
-       "vi": "Không đâu. Tớ thường trích sẵn tiền thuê nhà, tiền ăn uống và chi phí đi lại ra trước, rồi đem gửi tiết kiệm một phần.",
-       "modified": false
+       "zh": "那哪儿能啊！每个月工资一到账，我铁定先扣除房租和饭钱，雷打不动存下一笔，剩下的才做零花。",
+       "pinyin": "nà nǎr néng a! měi gè yuè gōng zī yí dào zhàng, wǒ tiě dìng xiān kòu chú fáng zū hé fàn qián, léi dǎ bú dòng cún xià yì bǐ, shèng xià de cái zuò líng huā.",
+       "pinyinHtml": "nà nǎr néng a! měi gè yuè gōng zī yí dào zhàng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> tiě dìng xiān kòu chú fáng zū hé fàn qián, léi dǎ bú dòng cún xià yì bǐ, shèng xià de cái zuò líng huā.",
+       "vi": "Ui trời, đâu có tùy tiện thế được! Mỗi tháng lương vừa về tài khoản là mình nhất định trích sẵn tiền nhà với tiền ăn, kiên định gửi tiết kiệm một khoản, phần dôi dư mới dám tiêu vặt.",
+       "modified": true,
+       "reason": "Thay đáp từ cụt '不会' bằng câu phản bác tự nhiên cực đỉnh 【那哪儿能啊！】 và quán dụng ngữ 【铁定 / 雷打不动】."
       },
       {
        "n": "07",
@@ -9453,11 +9834,12 @@ window.APP_DATA = {
       {
        "n": "16",
        "role": "B",
-       "zh": "对。月底我会找出没必要的花费，再调整下个月的计划。",
-       "pinyin": "duì. yuè dǐ wǒ huì zhǎo chū mò bì yào de huā fèi, zài tiáo zhěng xià gè yuè de jì huà.",
-       "pinyinHtml": "duì. yuè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǐ</span> wǒ huì zhǎo chū mò bì yào de huā fèi, zài tiáo zhěng xià gè yuè de jì huà.",
-       "vi": "Đúng thế. Cuối tháng tớ sẽ lọc ra những khoản chi tiêu không cần thiết, rồi điều chỉnh lại kế hoạch cho tháng kế tiếp.",
-       "modified": false
+       "zh": "确实是这样！每个月一到月底，我就把那些乱花钱的账目揪出来复盘，及时修正下个月的预算。",
+       "pinyin": "què shí shì zhè yàng! měi gè yuè yī dào yuè dǐ, wǒ jiù bǎ nà xiē luàn huā qián de zhàng mù jiū chū lái fù pán, jí shí xiū zhèng xià gè yuè de yù suàn.",
+       "pinyinHtml": "què shí shì zhè yàng! měi gè yuè yī dào yuè dǐ, wǒ jiù bǎ nà xiē luàn huā qián de zhàng mù jiū chū lái fù pán, jí shí xiū zhèng xià gè yuè de yù suàn.",
+       "vi": "Đúng thật sự là vậy luôn! Cứ hễ cuối tháng là mình lại lôi mấy khoản tiêu linh tinh ra mổ xẻ đánh giá, kịp thời điều chỉnh lại hạn mức ngân sách tháng sau.",
+       "modified": true,
+       "reason": "Thay '对' bằng câu khẩu ngữ sống động 【确实是这样！】 và từ hành động 【揪出来复盘】."
       },
       {
        "n": "17",
@@ -9676,11 +10058,12 @@ window.APP_DATA = {
       {
        "n": "06",
        "role": "B",
-       "zh": "不会。我一般先留出房租、吃饭和交通费，再存下一部分钱。",
-       "pinyin": "bú huì. wǒ yì bān xiān liú chū fáng zū, chī fàn hé jiāo tōng fèi, zài cún xià yí bù fen qián.",
-       "pinyinHtml": "bú huì. wǒ yì bān xiān liú chū fáng zū, chī fàn hé jiāo tōng fèi, zài cún xià yí bù fen qián.",
-       "vi": "Không đâu. Tớ thường trích sẵn tiền thuê nhà, tiền ăn uống và chi phí đi lại ra trước, rồi đem gửi tiết kiệm một phần.",
-       "modified": false
+       "zh": "那哪儿能啊！每个月工资一到账，我铁定先扣除房租和饭钱，雷打不动存下一笔，剩下的才做零花。",
+       "pinyin": "nà nǎr néng a! měi gè yuè gōng zī yí dào zhàng, wǒ tiě dìng xiān kòu chú fáng zū hé fàn qián, léi dǎ bú dòng cún xià yì bǐ, shèng xià de cái zuò líng huā.",
+       "pinyinHtml": "nà nǎr néng a! měi gè yuè gōng zī yí dào zhàng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> tiě dìng xiān kòu chú fáng zū hé fàn qián, léi dǎ bú dòng cún xià yì bǐ, shèng xià de cái zuò líng huā.",
+       "vi": "Ui trời, đâu có tùy tiện thế được! Mỗi tháng lương vừa về tài khoản là mình nhất định trích sẵn tiền nhà với tiền ăn, kiên định gửi tiết kiệm một khoản, phần dôi dư mới dám tiêu vặt.",
+       "modified": true,
+       "reason": "Thay đáp từ cụt '不会' bằng câu phản bác tự nhiên cực đỉnh 【那哪儿能啊！】 và quán dụng ngữ 【铁定 / 雷打不动】."
       },
       {
        "n": "07",
@@ -9769,11 +10152,12 @@ window.APP_DATA = {
       {
        "n": "16",
        "role": "B",
-       "zh": "对。月底我会找出没必要的花费，再调整下个月的计划。",
-       "pinyin": "duì. yuè dǐ wǒ huì zhǎo chū mò bì yào de huā fèi, zài tiáo zhěng xià gè yuè de jì huà.",
-       "pinyinHtml": "duì. yuè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǐ</span> wǒ huì zhǎo chū mò bì yào de huā fèi, zài tiáo zhěng xià gè yuè de jì huà.",
-       "vi": "Đúng thế. Cuối tháng tớ sẽ lọc ra những khoản chi tiêu không cần thiết, rồi điều chỉnh lại kế hoạch cho tháng kế tiếp.",
-       "modified": false
+       "zh": "确实是这样！每个月一到月底，我就把那些乱花钱的账目揪出来复盘，及时修正下个月的预算。",
+       "pinyin": "què shí shì zhè yàng! měi gè yuè yī dào yuè dǐ, wǒ jiù bǎ nà xiē luàn huā qián de zhàng mù jiū chū lái fù pán, jí shí xiū zhèng xià gè yuè de yù suàn.",
+       "pinyinHtml": "què shí shì zhè yàng! měi gè yuè yī dào yuè dǐ, wǒ jiù bǎ nà xiē luàn huā qián de zhàng mù jiū chū lái fù pán, jí shí xiū zhèng xià gè yuè de yù suàn.",
+       "vi": "Đúng thật sự là vậy luôn! Cứ hễ cuối tháng là mình lại lôi mấy khoản tiêu linh tinh ra mổ xẻ đánh giá, kịp thời điều chỉnh lại hạn mức ngân sách tháng sau.",
+       "modified": true,
+       "reason": "Thay '对' bằng câu khẩu ngữ sống động 【确实是这样！】 và từ hành động 【揪出来复盘】."
       },
       {
        "n": "17",
@@ -9810,6 +10194,23 @@ window.APP_DATA = {
         "pinyin": "gàn má fēi děng yuè dǐ méi qián le cái hòu huǐ? jiān chí jì zhàng, yí gè yuè xià lái huā xiāo yí mù liǎo rán.",
         "pinyinHtml": "gàn má fēi děng yuè dǐ méi qián le cái hòu huǐ? jiān chí jì zhàng, yí gè yuè xià lái huā xiāo yí mù liǎo rán.",
         "vi": "Việc gì cứ phải đợi đến cuối tháng hết nhẵn tiền rồi mới hối hận? Kiên trì ghi chép, hết một tháng chi tiêu rõ mười mươi."
+       }
+      },
+      {
+       "n": "06",
+       "role": "B",
+       "reason": "Thay đáp từ cụt '不会' bằng câu phản bác tự nhiên cực đỉnh 【那哪儿能啊！】 và quán dụng ngữ 【铁定 / 雷打不动】.",
+       "v1": {
+        "zh": "不会。我一般先留出房租、吃饭和交通费，再存下一部分钱。",
+        "pinyin": "bú huì. wǒ yì bān xiān liú chū fáng zū, chī fàn hé jiāo tōng fèi, zài cún xià yí bù fen qián.",
+        "pinyinHtml": "bú huì. wǒ yì bān xiān liú chū fáng zū, chī fàn hé jiāo tōng fèi, zài cún xià yí bù fen qián.",
+        "vi": "Không đâu. Tớ thường trích sẵn tiền thuê nhà, tiền ăn uống và chi phí đi lại ra trước, rồi đem gửi tiết kiệm một phần."
+       },
+       "v2": {
+        "zh": "那哪儿能啊！每个月工资一到账，我铁定先扣除房租和饭钱，雷打不动存下一笔，剩下的才做零花。",
+        "pinyin": "nà nǎr néng a! měi gè yuè gōng zī yí dào zhàng, wǒ tiě dìng xiān kòu chú fáng zū hé fàn qián, léi dǎ bú dòng cún xià yì bǐ, shèng xià de cái zuò líng huā.",
+        "pinyinHtml": "nà nǎr néng a! měi gè yuè gōng zī yí dào zhàng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> tiě dìng xiān kòu chú fáng zū hé fàn qián, léi dǎ bú dòng cún xià yì bǐ, shèng xià de cái zuò líng huā.",
+        "vi": "Ui trời, đâu có tùy tiện thế được! Mỗi tháng lương vừa về tài khoản là mình nhất định trích sẵn tiền nhà với tiền ăn, kiên định gửi tiết kiệm một khoản, phần dôi dư mới dám tiêu vặt."
        }
       },
       {
@@ -9862,118 +10263,135 @@ window.APP_DATA = {
         "pinyinHtml": "wǒ huì tǎn chéng shuō míng, lǐ xìng lǐ cái yòu bú shì gēn zì jǐ guò bú qù, zhēn péng yǒu dōu néng hù xiāng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> jiě.",
         "vi": "Mình sẽ nói thật rõ ràng, quản lý tài chính lý trí đâu phải là tự làm khó mình, bạn bè thật sự đều sẽ thông cảm cho nhau."
        }
+      },
+      {
+       "n": "16",
+       "role": "B",
+       "reason": "Thay '对' bằng câu khẩu ngữ sống động 【确实是这样！】 và từ hành động 【揪出来复盘】.",
+       "v1": {
+        "zh": "对。月底我会找出没必要的花费，再调整下个月的计划。",
+        "pinyin": "duì. yuè dǐ wǒ huì zhǎo chū mò bì yào de huā fèi, zài tiáo zhěng xià gè yuè de jì huà.",
+        "pinyinHtml": "duì. yuè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǐ</span> wǒ huì zhǎo chū mò bì yào de huā fèi, zài tiáo zhěng xià gè yuè de jì huà.",
+        "vi": "Đúng thế. Cuối tháng tớ sẽ lọc ra những khoản chi tiêu không cần thiết, rồi điều chỉnh lại kế hoạch cho tháng kế tiếp."
+       },
+       "v2": {
+        "zh": "确实是这样！每个月一到月底，我就把那些乱花钱的账目揪出来复盘，及时修正下个月的预算。",
+        "pinyin": "què shí shì zhè yàng! měi gè yuè yī dào yuè dǐ, wǒ jiù bǎ nà xiē luàn huā qián de zhàng mù jiū chū lái fù pán, jí shí xiū zhèng xià gè yuè de yù suàn.",
+        "pinyinHtml": "què shí shì zhè yàng! měi gè yuè yī dào yuè dǐ, wǒ jiù bǎ nà xiē luàn huā qián de zhàng mù jiū chū lái fù pán, jí shí xiū zhèng xià gè yuè de yù suàn.",
+        "vi": "Đúng thật sự là vậy luôn! Cứ hễ cuối tháng là mình lại lôi mấy khoản tiêu linh tinh ra mổ xẻ đánh giá, kịp thời điều chỉnh lại hạn mức ngân sách tháng sau."
+       }
       }
      ],
      "audio": "audio/b9-c2.mp3",
-     "audioDuration": 101.52,
+     "audioDuration": 101.83,
      "audioTimings": [
       {
        "n": "01",
        "role": "A",
        "start": 0,
-       "end": 6.17
+       "end": 5.83
       },
       {
        "n": "02",
        "role": "B",
-       "start": 6.17,
-       "end": 11.78
+       "start": 5.83,
+       "end": 11.14
       },
       {
        "n": "03",
        "role": "A",
-       "start": 11.78,
-       "end": 17.11
+       "start": 11.14,
+       "end": 16.18
       },
       {
        "n": "04",
        "role": "B",
-       "start": 17.11,
-       "end": 24.05
+       "start": 16.18,
+       "end": 22.82
       },
       {
        "n": "05",
        "role": "A",
-       "start": 24.05,
-       "end": 28.1
+       "start": 22.82,
+       "end": 26.64
       },
       {
        "n": "06",
        "role": "B",
-       "start": 28.1,
-       "end": 34.54
+       "start": 26.64,
+       "end": 35.69
       },
       {
        "n": "07",
        "role": "A",
-       "start": 34.54,
-       "end": 37.87
+       "start": 35.69,
+       "end": 38.86
       },
       {
        "n": "08",
        "role": "B",
-       "start": 37.87,
-       "end": 44.33
+       "start": 38.86,
+       "end": 44.95
       },
       {
        "n": "09",
        "role": "A",
-       "start": 44.33,
-       "end": 50.42
+       "start": 44.95,
+       "end": 50.71
       },
       {
        "n": "10",
        "role": "B",
-       "start": 50.42,
-       "end": 57.17
+       "start": 50.71,
+       "end": 57.24
       },
       {
        "n": "11",
        "role": "A",
-       "start": 57.17,
-       "end": 62.81
+       "start": 57.24,
+       "end": 62.57
       },
       {
        "n": "12",
        "role": "B",
-       "start": 62.81,
-       "end": 69.41
+       "start": 62.57,
+       "end": 69.05
       },
       {
        "n": "13",
        "role": "A",
-       "start": 69.41,
-       "end": 73.27
+       "start": 69.05,
+       "end": 72.7
       },
       {
        "n": "14",
        "role": "B",
-       "start": 73.27,
-       "end": 79.9
+       "start": 72.7,
+       "end": 78.94
       },
       {
        "n": "15",
        "role": "A",
-       "start": 79.9,
-       "end": 83.23
+       "start": 78.94,
+       "end": 82.08
       },
       {
        "n": "16",
        "role": "B",
-       "start": 83.23,
-       "end": 89.04
+       "start": 82.08,
+       "end": 90.36
       },
       {
        "n": "17",
        "role": "A",
-       "start": 89.04,
-       "end": 95.02
+       "start": 90.36,
+       "end": 96
       },
       {
        "n": "18",
        "role": "B",
-       "start": 95.02,
-       "end": 101.52
+       "start": 96,
+       "end": 101.83
       }
      ]
     }
@@ -9985,6 +10403,6 @@ window.APP_DATA = {
   "patterns": 38,
   "topics": 13,
   "lines": 234,
-  "modifiedLines": 46
+  "modifiedLines": 68
  }
 };

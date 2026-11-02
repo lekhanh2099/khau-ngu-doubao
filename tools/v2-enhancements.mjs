@@ -2,8 +2,9 @@
 // Định nghĩa các câu được tối ưu hóa (V2) cho 13 chủ đề thi khẩu ngữ.
 // Mục tiêu:
 // 1. Lồng ghép các mẫu câu/ngữ pháp ăn điểm chính thức của 《汉语口语速成·提高篇》
-// 2. Tăng độ tự nhiên của khẩu ngữ thực tế, giảm bớt văn viết (书面语) cứng nhắc
-// 3. Giữ nguyên 100% mạch ý (argumentation flow) và tính đối thoại A-B
+// 2. TẬP QUÁN KHẨU NGỮ BẢN XỨ: Loại bỏ triệt để các câu cụt/1 chữ (như 对、是啊、没错、没有、不会),
+//    thay bằng các quán dụng ngữ tán thành, cảm thán tự nhiên của người bản xứ (谁说不是呢、可不是嘛、你说得太对了、那倒是、就是说啊、那哪儿能啊、可太是了)
+// 3. Giữ nguyên 100% mạch ý (argumentation flow) và tính đối thoại A-B 18 câu
 
 export const V2_ENHANCEMENTS = {
   // ==========================================
@@ -12,9 +13,14 @@ export const V2_ENHANCEMENTS = {
   // ==========================================
   "b2-c1": {
     "02": {
-      zh: "是啊，这段时间经常加班，早上起床别提多困难了。",
-      vi: "Đúng vậy, dạo này thường xuyên tăng ca, sáng dậy đừng nhắc tới khó khăn thế nào nữa (cực kỳ khó dậy).",
-      reason: "Áp dụng mẫu câu Bài 2 【别提多……了】 (khẩu ngữ biểu đạt mức độ cực kỳ cao, tự nhiên và giàu cảm xúc hơn câu gốc '特别困难')."
+      zh: "嗨，可不是嘛！这段时间天天加班，早上起床别提多困难了。",
+      vi: "Haizz, chứ còn gì nữa! Dạo này ngày nào cũng tăng ca, buổi sáng thức dậy đừng nhắc tới khó khăn thế nào nữa (cực kỳ khó dậy).",
+      reason: "Bỏ cách mở đầu đơn điệu '是啊', dùng khẩu ngữ tự nhiên 【嗨，可不是嘛！】 và lồng ghép mẫu câu Bài 2 【别提多……了】."
+    },
+    "12": {
+      zh: "谁说不是呢！要是三天打鱼、两天晒网，再好的计划也白搭。",
+      vi: "Ai bảo không phải chứ! Nếu mà ba ngày đánh cá, hai ngày phơi lưới (bữa đực bữa cái), thì kế hoạch có hay đến mấy cũng công cốc.",
+      reason: "Thay câu cụt '没错' bằng quán dụng ngữ đồng tình 【谁说不是呢！】, thay '没有用' bằng từ khẩu ngữ đắt giá 【白搭】."
     },
     "13": {
       zh: "那是不是每天非去运动一个小时不可才算健康？",
@@ -25,6 +31,11 @@ export const V2_ENHANCEMENTS = {
       zh: "那倒不至于。关键是找到适合自己的节奏，慢慢养成习惯。",
       vi: "Thế thì không đến mức vậy đâu. Mấu chốt là tìm được nhịp điệu phù hợp với mình, dần dần hình thành thói quen.",
       reason: "Áp dụng cụm khẩu ngữ Bài 2 【不至于 / 那倒不至于】 (phản bác lại quan điểm cực đoan một cách hòa nhã, chuẩn phong cách nói chuyện của người bản xứ)."
+    },
+    "16": {
+      zh: "你说得太对了！再忙也得喘口气，千万别为了赶进度一直硬熬着。",
+      vi: "Cậu nói chuẩn quá luôn! Bận mấy cũng phải thở chút xíu, tuyệt đối đừng vì chạy tiến độ mà cứ cố gồng thức khuya miết.",
+      reason: "Thay đáp từ cụt '对' bằng lời tán thành ấm áp 【你说得太对了！】, kết hợp mẫu Bài 2 【千万别……】 và khẩu ngữ 【喘口气 / 硬熬着】."
     }
   },
 
@@ -40,9 +51,19 @@ export const V2_ENHANCEMENTS = {
       reason: "Kết hợp 2 mẫu trọng điểm của Bài 2: 【那倒不至于】 (bác bỏ thái quá) và 【千万别……】 (khuyên răn dứt khoát)."
     },
     "08": {
-      zh: "也对。现在有的广告吹得别提多玄乎了，好像什么毛病都能治。",
-      vi: "Cũng đúng. Hiện nay có mấy quảng cáo thổi phồng đừng nhắc tới thần thánh cỡ nào, như thể bệnh gì cũng chữa được.",
-      reason: "Áp dụng mẫu Bài 2 【别提多……了】 (miêu tả sự phóng đại của quảng cáo một cách sinh động)."
+      zh: "这倒也是！现在的广告吹得别提多玄乎了，好像什么毛病都能包治百病似的。",
+      vi: "Cái đó thì đúng thật! Quảng cáo bây giờ thổi phồng đừng nhắc tới thần thánh cỡ nào, cứ như thể chữa được bách bệnh vậy.",
+      reason: "Thay '也对' bằng cụm tự nhiên 【这倒也是！】, kết hợp mẫu Bài 2 【别提多……了】."
+    },
+    "15": {
+      zh: "那倒是！与其光想着靠补药，真不如先把吃饭、睡觉和运动规律理顺了。",
+      vi: "Đúng là như vậy! So với việc chỉ chăm chăm dựa vào thuốc bổ, thật sự chẳng thà sắp xếp nề nếp ăn uống, ngủ nghỉ và vận động cho đâu vào đấy trước đã.",
+      reason: "Thay chữ '对' bằng quán dụng ngữ đồng ý 【那倒是！】."
+    },
+    "17": {
+      zh: "可不是嘛！关键是搞清楚自己的身体到底缺啥，绝不能盲目跟着广告瞎买。",
+      vi: "Chứ còn gì nữa! Mấu chốt là phải hiểu rõ cơ thể mình rốt cuộc thiếu cái gì, tuyệt đối không được nhắm mắt mua bừa theo quảng cáo.",
+      reason: "Thay chữ '没错' bằng khẩu ngữ tán đồng kinh điển 【可不是嘛！】 và từ khẩu ngữ đời sống 【缺啥 / 瞎买】."
     },
     "18": {
       zh: "我明白了。平时养成规律作息并坚持下去，比迷信补药管用多了。",
@@ -66,10 +87,20 @@ export const V2_ENHANCEMENTS = {
       vi: "Xem ra khẩu vị bạn khá đậm đấy. Lẩu cay tê mình thi thoảng nếm thử thì được, cay quá mình chịu thật.",
       reason: "Lồng ghép mẫu Bài 3 【看来……】 (suy đoán tự nhiên dựa trên thông tin vừa nghe từ đối phương)."
     },
+    "06": {
+      zh: "那倒是，麻辣火锅确实是我的心头好！不过大家一块儿吃饭，肯定得照顾每个人的口味。",
+      vi: "Cái đó thì đúng rồi, lẩu cay tê đúng là món ruột của mình! Nhưng mà mọi người cùng đi ăn thì nhất định phải để tâm đến khẩu vị của từng người.",
+      reason: "Thay '是啊' bằng 【那倒是，...确实是我的心头好】 (thể hiện món ăn yêu thích cực kỳ tự nhiên)."
+    },
     "15": {
       zh: "好说！咱们要么点一道微辣的，要么让厨师少放辣，两全其美，怎么样？",
       vi: "Dễ nói thôi (chuyện nhỏ)! Chúng mình hoặc là gọi một món cay nhẹ, hoặc là bảo đầu bếp bớt cay, vẹn cả đôi đường, thấy sao?",
       reason: "Lồng ghép đồng thời 2 cấu trúc ăn điểm Bài 3: 【好说】 (dễ giải quyết) và 【要么……要么……】 (lựa chọn phương án dung hòa)."
+    },
+    "16": {
+      zh: "太棒了！咱们再加一道清淡的鲜汤，少点一些，省得吃不完白白浪费。",
+      vi: "Tuyệt vời luôn! Tụi mình gọi thêm một tô canh thanh mát, gọi ít một chút, đỡ bị ăn không hết rồi bỏ phí uổng công.",
+      reason: "Thay '好主意' bằng cảm thán 【太棒了！】 và mẫu liên kết 【省得】."
     },
     "18": {
       zh: "走！今天咱们换换口味，一定让你大饱口福！",
@@ -79,10 +110,20 @@ export const V2_ENHANCEMENTS = {
   },
 
   "b3-c2": {
+    "06": {
+      zh: "确实是这样！全家人围坐在一块儿，每人捧着一碗饭，热热闹闹地一起夹菜吃，特别温馨。",
+      vi: "Chuẩn xác là như vậy luôn! Cả nhà quây quần ngồi lại, mỗi người bưng một chén cơm, rôm rả gắp thức ăn chung, vô cùng ấm cúng.",
+      reason: "Thay đáp từ '没错' bằng 【确实是这样！】 và miêu tả sinh động không khí bữa cơm gia đình Việt."
+    },
     "08": {
       zh: "越南菜整体偏清淡，外国朋友一般都吃得惯，因为调料丰富，可以自己加柠檬或辣椒。",
       vi: "Món Việt nhìn chung thiên về thanh đạm, bạn bè nước ngoài thường đều ăn quen được, vì gia vị phong phú, có thể tự vắt thêm chanh hoặc bỏ ớt.",
       reason: "Lồng ghép mẫu Bài 3 【吃得惯】 vào ngữ cảnh giới thiệu ẩm thực bản địa cho người nước ngoài."
+    },
+    "14": {
+      zh: "差异还真不小呢！北方口味偏咸鲜适中，中部人特别能吃辣，而南部呢，口味往往偏甜一些。",
+      vi: "Khác biệt thật sự không hề nhỏ đâu nha! Khẩu vị miền Bắc thiên về mặn mà vừa vặn, người miền Trung thì ăn cay siêu giỏi, còn miền Nam thì vị hay ngọt hơn một chút.",
+      reason: "Thay câu cụt lủn '挺大的' bằng lối diễn đạt lưu loát 【差异还真不小呢！】."
     },
     "16": {
       zh: "好说！有机会来我家，我亲自下厨给你露两手，做正宗的越南春卷！",
@@ -115,10 +156,20 @@ export const V2_ENHANCEMENTS = {
       zh: "除非关系特别铁才会包大红包，普通同事的话，两三百块钱就说得过去了。",
       vi: "Trừ phi quan hệ đặc biệt thân thiết mới đi phong bì lớn, còn đồng nghiệp bình thường thì hai ba trăm tệ là coi được rồi.",
       reason: "Lồng ghép mẫu liên từ quan trọng Bài 5 【除非……才……】 kết hợp 【说得过去】."
+    },
+    "17": {
+      zh: "确实，心意到了比啥都强！没必要非买昂贵的奢侈品，实用得体、心意真诚就是最好的礼物。",
+      vi: "Chuẩn luôn, tấm lòng gửi gắm đến nơi là quý hơn bất cứ thứ gì! Không cần thiết cứ phải mua đồ hiệu xa xỉ đắt tiền, thiết thực tươm tất và chân thành chính là món quà tuyệt nhất.",
+      reason: "Thay chữ '对' bằng quán dụng ngữ khẩu ngữ ấm áp 【确实，心意到了比啥都强！】."
     }
   },
 
   "b5-c2": {
+    "04": {
+      zh: "那可不嘛！换季清仓大多是断码或者过季款，好看的款式早被人挑光了。",
+      vi: "Chứ còn gì nữa! Xả hàng chuyển mùa phần lớn là hàng lẻ size hoặc mẫu cũ, mấy kiểu đẹp mắt người ta đã lựa sạch từ sớm rồi.",
+      reason: "Thay câu cụt '是有这种情况' bằng quán dụng ngữ cực kỳ chuẩn miệng 【那可不嘛！】."
+    },
     "06": {
       zh: "还有各大节假日和网购节，逛遍各大平台都在促销，别提多划算了。",
       vi: "Còn có các dịp lễ lớn và ngày hội mua sắm online, dạo khắp các sàn đều đang khuyến mãi, đừng nhắc tới hời thế nào nữa.",
@@ -129,10 +180,20 @@ export const V2_ENHANCEMENTS = {
       vi: "Đúng là phải để tâm một chút. Trừ phi thật sự có nhu cầu cấp thiết, nếu không thì đừng vì gom đơn mà mua cả đống đồ không dùng tới.",
       reason: "Áp dụng cấu trúc liên từ Bài 5 【除非……否则……】 (nhấn mạnh nguyên tắc tiêu dùng tỉnh táo)."
     },
+    "12": {
+      zh: "可不是嘛！遇到商场反季清仓甩卖，价格真能砍下来一大截呢。",
+      vi: "Chuẩn luôn chứ đâu! Gặp dịp trung tâm thương mại xả kho trái mùa, giá cả thực sự có thể ép xuống được một khoản lớn luôn đó.",
+      reason: "Thay chữ '没错' bằng cảm thán 【可不是嘛！】 và từ khẩu ngữ mua bán 【砍下来一大截】."
+    },
     "14": {
       zh: "当然是质量。要是没看中合适的款式和质量，价格再低也坚决不买。",
       vi: "Đương nhiên là chất lượng rồi. Nếu chưa ưng (chấm trúng) kiểu dáng và chất lượng phù hợp, giá có rẻ nữa cũng kiên quyết không mua.",
       reason: "Áp dụng bổ ngữ kết quả Bài 5 【看中 (zhòng)】 (chấm được, vừa mắt)."
+    },
+    "17": {
+      zh: "那倒是，冲动是魔鬼嘛！我打算先列个刚需清单，耐着性子等大促。",
+      vi: "Đúng thế thật, mua sắm bốc đồng là tai họa mà! Mình định lên sẵn danh sách đồ cần mua gấp, kiên nhẫn đợi đợt khuyến mãi lớn.",
+      reason: "Thay chữ '没错' bằng tục ngữ khẩu ngữ nổi tiếng 【那倒是，冲动是魔鬼嘛！】."
     }
   },
 
@@ -141,6 +202,11 @@ export const V2_ENHANCEMENTS = {
       zh: "其实日常衣服没有什么可攀比的，名牌儿固然体面，但溢价实在太高了。",
       vi: "Thực ra quần áo thường ngày chẳng có gì đáng để so bì hơn thua cả, đồ hiệu thì sang thật, nhưng giá bị đội lên quá cao rồi.",
       reason: "Lồng ghép mẫu Bài 5 【没有什么可 + V + 的】 (没有什么可攀比的: không có gì để đua đòi)."
+    },
+    "05": {
+      zh: "就是说啊！我倒不是全盘否定名牌，只是觉得没必要单为一个商标掏大笔冤枉钱。",
+      vi: "Đấy, ý mình chính là thế! Mình không hề bài xích hoàn toàn đồ hiệu, chỉ là thấy chẳng cần thiết chỉ vì một cái logo nhãn mác mà phải móc hầu bao trả khoản tiền oan uổng.",
+      reason: "Thay '是啊' bằng quán dụng ngữ đồng tình sâu sắc 【就是说啊！】 và cụm khẩu ngữ 【掏冤枉钱】."
     },
     "08": {
       zh: "只要款式大方、面料舒服，价格也说得过去，中档货完全够用了。你觉得呢？",
@@ -151,6 +217,16 @@ export const V2_ENHANCEMENTS = {
       zh: "除非出席很正式的商务场合需要撑场面，否则日常穿戴我坚决不买昂贵的名牌儿。",
       vi: "Trừ phi tham dự dịp thương mại rất trang trọng cần giữ thể diện, còn ngày thường mặc đồ mình kiên quyết không mua đồ hiệu đắt đỏ.",
       reason: "Áp dụng mẫu điều kiện Bài 5 【除非……否则……】 tạo lập luận sắc sảo, thuyết phục."
+    },
+    "15": {
+      zh: "那倒是！网购虽然省事，但衣服版型合不合适，还是得亲自上身试穿才踏实。",
+      vi: "Đúng là vậy! Mua online tuy tiện thật, nhưng form dáng quần áo có vừa vặn không, vẫn phải đích thân mặc thử lên người mới an tâm.",
+      reason: "Thay '对' bằng liên từ khẩu ngữ chuẩn xác 【那倒是！】."
+    },
+    "17": {
+      zh: "可不是嘛！只要做工扎实、版型板正，价格又说得过去，中档品牌绝对是首选。",
+      vi: "Chứ còn gì nữa! Miễn là đường may chắc chắn, form dáng ngay ngắn chuẩn chỉnh, giá lại phải chăng hợp túi tiền, thì hàng tầm trung chắc chắn là lựa chọn số một.",
+      reason: "Thay chữ '没错' bằng 【可不是嘛！】 và tính từ miêu tả quần áo đắt giá 【版型板正】."
     }
   },
 
@@ -178,6 +254,11 @@ export const V2_ENHANCEMENTS = {
       zh: "先在家睡个整觉，接着约几个老朋友喝咖啡，别提多惬意了。你呢？",
       vi: "Trước tiên ngủ một giấc đẫy ở nhà, tiếp đó hẹn mấy người bạn cũ đi uống cà phê, đừng nhắc tới khoan khoái thế nào nữa. Còn bạn?",
       reason: "Lồng ghép từ nối diễn tiến Bài 7 【接着……】 và mẫu cảm thán 【别提多……了】."
+    },
+    "16": {
+      zh: "谁说不是呢！依我看哪，度假真不在于非跑多远，核心是把身心彻底放松下来。",
+      vi: "Ai bảo không phải chứ! Theo như mình thấy á, nghỉ mát thật sự đâu cần cứ phải đi thật xa, cốt lõi là để cả thân lẫn tâm được thả lỏng hoàn toàn.",
+      reason: "Thay chữ '对' bằng quán dụng ngữ đồng tình 【谁说不是呢！】."
     }
   },
 
@@ -196,6 +277,11 @@ export const V2_ENHANCEMENTS = {
       zh: "大家找个开阔的地方喝茶聚聚，省得整天憋在空调房里，别提多自在了。",
       vi: "Mọi người tìm một nơi thoáng đãng uống trà tụ họp, đỡ bị cả ngày giam mình trong phòng máy lạnh, đừng nhắc tới thoải mái thế nào nữa.",
       reason: "Lồng ghép mẫu Bài 7 【省得】 kết hợp 【别提多……了】."
+    },
+    "18": {
+      zh: "可不是嘛！大伙儿虽然玩法各异，但归根结底都是为了给紧绷的生活解解压。",
+      vi: "Chứ còn gì nữa! Mọi người dù cách chơi có khác nhau, nhưng quy cho cùng đều là để xả bớt áp lực cho cuộc sống căng thẳng.",
+      reason: "Thay chữ '对' bằng quán dụng ngữ 【可不是嘛！】 và cụm từ đắt giá 【给生活解解压】."
     }
   },
 
@@ -213,6 +299,16 @@ export const V2_ENHANCEMENTS = {
       zh: "每天做计划留出一点儿空当，万一有紧急事情插进来，也不至于手忙脚乱。",
       vi: "Mỗi ngày lập kế hoạch nên chừa ra chút thời gian trống, ngộ nhỡ có việc khẩn cấp chen ngang thì cũng không đến mức luống cuống chân tay.",
       reason: "Lồng ghép giả định tình huống bất ngờ Bài 8 【万一……】 kết hợp 【不至于】."
+    },
+    "09": {
+      zh: "可太是了！真是计划赶不上变化。我上周突然被塞了一个紧急任务，差点儿把考试复习全搅黄了。",
+      vi: "Chuẩn không cần chỉnh luôn! Đúng là kế hoạch không đuổi kịp biến hóa. Tuần trước mình tự dưng bị nhét thêm một nhiệm vụ gấp, suýt nữa làm hỏng bét cả việc ôn thi.",
+      reason: "Thay '是啊' bằng câu cửa miệng thế hệ mới 【可太是了！】 và thành ngữ khẩu ngữ 【搅黄了】."
+    },
+    "10": {
+      zh: "就是说啊！越是忙得不可开交，越得学会果断推掉那些无关紧要的无效社交。",
+      vi: "Đấy, chính là như thế! Càng bận rộn đến mức tối tăm mặt mũi, càng phải học cách dứt khoát từ chối những cuộc xã giao vô bổ không quan trọng.",
+      reason: "Thay '没错' bằng 【就是说啊！】 và thành ngữ 【忙得不可开交】."
     },
     "14": {
       zh: "要是工作实在赶不过来，得提前跟主管打个招呼，商量一下调整方案。",
@@ -238,9 +334,9 @@ export const V2_ENHANCEMENTS = {
       reason: "Áp dụng cấu trúc liên kết Bài 8 【不光……还……】."
     },
     "14": {
-      zh: "对，做备用方案就是防着万一下雨；室外去不成，准能临时改成室内逛展。",
-      vi: "Đúng thế, lập phương án dự phòng chính là để phòng ngộ nhỡ trời mưa; ngoài trời không đi được thì chắc chắn chuyển sang ngắm triển lãm trong nhà.",
-      reason: "Lồng ghép mẫu Bài 8 【万一……】 và phó từ 【准】."
+      zh: "可不是嘛！做两手准备就是防着万一下雨；万一室外泡汤了，准能立马切换成室内逛展。",
+      vi: "Chứ sao nữa! Lên kế hoạch hai phương án chính là phòng ngộ nhỡ trời mưa; nhỡ hoạt động ngoài trời bị đổ bể, thì chắc chắn chuyển hướng ngay sang đi bảo tàng trong nhà.",
+      reason: "Thay chữ '对' bằng 【可不是嘛！】 và cụm khẩu ngữ dí dỏm 【泡汤了】."
     },
     "16": {
       zh: "自由行多好，行程变动提前跟民宿老板打声招呼就行，既随性又舒服。",
@@ -260,14 +356,19 @@ export const V2_ENHANCEMENTS = {
       reason: "Áp dụng câu hỏi tu từ mang sắc thái khẩu ngữ Bài 9 【干吗……？】."
     },
     "10": {
-      zh: "是啊，节省固然好，但即使要存钱，也不能处处跟自己过不去嘛。",
-      vi: "Đúng vậy, tiết kiệm thì tốt thật, nhưng dù cho có muốn tích lũy tiền, cũng không thể chỗ nào cũng tự làm khổ mình được.",
-      reason: "Lồng ghép cấu trúc nhượng bộ Bài 9 【即使……也……】 và quán dụng ngữ kinh điển 【跟自己过不去】."
+      zh: "谁说不是呢！节省固然值得提倡，但即使要存钱，也犯不上处处跟自己过不去嘛。",
+      vi: "Ai bảo không phải chứ! Tiết kiệm thì đúng là đáng hoan nghênh, nhưng dù có phải tích lũy tiền, cũng đâu đáng để chỗ nào cũng tự làm khổ mình đâu nè.",
+      reason: "Thay '是啊' bằng 【谁说不是呢！】 và lồng ghép cấu trúc nhượng bộ Bài 9 【即使……也……】 cùng quán dụng ngữ 【跟自己过不去】."
     },
     "14": {
       zh: "此外，每个月按时存下一笔备用金，一年下来就是一笔不小的数目。",
       vi: "Ngoài ra, mỗi tháng đúng hạn để dành một khoản tiền dự phòng, cả một năm trôi qua sẽ là một con số không hề nhỏ.",
       reason: "Lồng ghép từ nối chuyển đoạn Bài 9 【此外】 và bổ ngữ xu hướng kết quả 【一年下来】."
+    },
+    "16": {
+      zh: "可不是嘛！我现在也琢磨着得学会精打细算过日子。你平时都有啥独家秘诀呀？",
+      vi: "Chứ còn gì nữa! Dạo này mình cũng đang tính toán phải học cách tính toán chi li vun vén cuộc sống. Bạn thường ngày có bí quyết gia truyền nào thế?",
+      reason: "Thay '对' bằng câu cảm thán thân mật 【可不是嘛！】 và từ khẩu ngữ 【琢磨着 / 独家秘诀】."
     },
     "18": {
       zh: "好啊！靠科学规划把钱花在刀刃上，过日子才能既踏实又开心。",
@@ -281,6 +382,11 @@ export const V2_ENHANCEMENTS = {
       zh: "干吗非等月底没钱了才后悔？坚持记账，一个月下来花销一目了然。",
       vi: "Việc gì cứ phải đợi đến cuối tháng hết nhẵn tiền rồi mới hối hận? Kiên trì ghi chép, hết một tháng chi tiêu rõ mười mươi.",
       reason: "Lồng ghép mẫu Bài 9 【干吗……？】 và bổ ngữ thời gian 【一个月下来】."
+    },
+    "06": {
+      zh: "那哪儿能啊！每个月工资一到账，我铁定先扣除房租和饭钱，雷打不动存下一笔，剩下的才做零花。",
+      vi: "Ui trời, đâu có tùy tiện thế được! Mỗi tháng lương vừa về tài khoản là mình nhất định trích sẵn tiền nhà với tiền ăn, kiên định gửi tiết kiệm một khoản, phần dôi dư mới dám tiêu vặt.",
+      reason: "Thay đáp từ cụt '不会' bằng câu phản bác tự nhiên cực đỉnh 【那哪儿能啊！】 và quán dụng ngữ 【铁定 / 雷打不动】."
     },
     "08": {
       zh: "此外，我把收入分成生活费、储蓄和应急金三部分，专款专用。",
@@ -296,6 +402,11 @@ export const V2_ENHANCEMENTS = {
       zh: "我会坦诚说明，理性理财又不是跟自己过不去，真朋友都能互相理解。",
       vi: "Mình sẽ nói thật rõ ràng, quản lý tài chính lý trí đâu phải là tự làm khó mình, bạn bè thật sự đều sẽ thông cảm cho nhau.",
       reason: "Lồng ghép quán dụng ngữ trọng điểm Bài 9 【跟自己过不去】."
+    },
+    "16": {
+      zh: "确实是这样！每个月一到月底，我就把那些乱花钱的账目揪出来复盘，及时修正下个月的预算。",
+      vi: "Đúng thật sự là vậy luôn! Cứ hễ cuối tháng là mình lại lôi mấy khoản tiêu linh tinh ra mổ xẻ đánh giá, kịp thời điều chỉnh lại hạn mức ngân sách tháng sau.",
+      reason: "Thay '对' bằng câu khẩu ngữ sống động 【确实是这样！】 và từ hành động 【揪出来复盘】."
     }
   }
 };
