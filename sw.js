@@ -1,4 +1,4 @@
-const CACHE_NAME = "khau-ngu-v7";
+const CACHE_NAME = "khau-ngu-v8";
 const ASSETS = [
   "./",
   "./index.html",
@@ -23,6 +23,11 @@ self.addEventListener("activate", (e) => {
 });
 
 self.addEventListener("fetch", (e) => {
+  // Audio dùng Range request khi stream/tua: để trình duyệt tự tải trực tiếp,
+  // không đi qua Service Worker (tránh giật/khựng trên iOS Safari).
+  const url = new URL(e.request.url);
+  if (url.pathname.includes("/audio/") || e.request.headers.has("range")) return;
+
   e.respondWith(
     caches.match(e.request).then((res) => res || fetch(e.request))
   );

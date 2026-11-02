@@ -98,10 +98,28 @@
       }
     }
 
+    // Cùng bài đang mở sẵn audio -> chỉ tua tới câu cần nghe, không tải lại file
+    if (currentPlayingTopicId === topicId && currentAudio && startTime > 0) {
+      currentAudio.currentTime = startTime;
+      currentAudio.play().catch(() => {});
+      const btn = $(`[data-action="toggle-audio"][data-topic-id="${topicId}"]`);
+      if (btn) {
+        btn.classList.add("playing");
+        const icon = $(".audio-btn-icon", btn);
+        const text = $(".audio-btn-text", btn);
+        if (icon) icon.textContent = "⏸";
+        if (text) text.textContent = "Đang phát A & B";
+      }
+      return;
+    }
+
     // Dừng audio cũ nếu đang phát topic khác
     stopAudio();
 
     const audio = new Audio(topic.audio);
+    audio.preload = "auto";
+    audio.preservesPitch = true; // giữ cao độ giọng khi đổi tốc độ 0.8x / 1.2x
+    audio.webkitPreservesPitch = true;
     currentAudio = audio;
     currentPlayingTopicId = topicId;
     audio.playbackRate = state.audioSpeed || 1.0;
