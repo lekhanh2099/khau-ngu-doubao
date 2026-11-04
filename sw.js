@@ -1,4 +1,4 @@
-const CACHE_NAME = "khau-ngu-v8";
+const CACHE_NAME = "khau-ngu-v9";
 const ASSETS = [
   "./",
   "./index.html",

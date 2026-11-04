@@ -1,0 +1,578 @@
+KHẨU NGỮ TIẾNG TRUNG
+Luyện A–B theo giáo trình
+汉语口语教程  |  第3、4、10、12、17课
+Bộ ôn tập độc lập • 5 bài • 13 tình huống • 1 prompt Voice
+| Đã đối chiếu  Chỉ sử dụng bài tập hội thoại theo tình huống ở mục 四、练习（五）. Không lấy phần đọc hiểu （一） làm đề nói. Các hội thoại là bản mới để luyện, không phải trích văn bản gốc; đề nói dành cho nhóm được chuyển thành hai vai A/B.   |
+Danh mục
+| Bài   | Chủ đề   | Số tình huống   |
+| 3   | 你能吃辣的吗   | 4   |
+| 4   | 你的理想职业是什么   | 3   |
+| 10   | 讨价还价   | 2   |
+| 12   | 你喜欢什么   | 2   |
+| 17   | 生活中什么最重要   | 2   |
+Cách sử dụng
+1. Mở một thread riêng cho từng bài. Dán prompt chung ở dưới, sau đó dán phần hội thoại của bài đang luyện.
+2. Bật Voice và nói, ví dụ: “第三课，情景一，开始”。 AI nói vai A trước; bạn nói vai B.
+3. Nói hết lượt đầu thì đổi vai. Chỉ học flow và cách nối câu, chưa sửa lỗi/chấm điểm.
+4. Đọc trước bảng từ vựng và “Mạch ý”; không cố học thuộc toàn bộ câu chữ.
+PROMPT CHUNG  |  DÁN VÀO AI TRƯỚC KHI LUYỆN
+| Thiết kế  Cơ chế đọc theo thứ tự kịch bản, không cho AI tự tạo lượt thoại. Phần hội thoại phải được dán vào cùng thread trước khi bắt đầu.   |
+你是我的中文口语搭档。我们只练习我提供的《汉语口语教程》A-B对话，不进行自由聊天、讲解或评分。训练方法：1. 我说“第X课，情景Y，开始”，你只找到该情景“开始对话”和“结束对话”之间的台词。2. 第一遍你扮演A，我扮演B；你只念A的第一句，停下等我说B的下一句。之后严格按原文A-B交替。3. 不要读出“A”“B”字母，也不要读标题、中文题目、越南语、拼音或任何说明。不能替我念B的句子。4. 我说过自己的台词后，不管是否逐字相同，只按顺序念你下一句A。不要接着我的话自由发挥，不要总结、插话或提问额外的问题。5. 第一遍到最后一句后，只说“换角色，你先说”。第二遍我扮演A，你扮演B，等我说A第一句后，你再念B第一句，依次进行。6. 第二遍结束后停止，等待我说“下一题”或指定新的情景。没有指令时不要自动跳题。7. 我说“再说一遍”，请重复你刚才的原句；说“暂停”就暂停；说“继续”就从原来的位置继续。8. 现在只训练对话流程。不要纠错、打分、评价发音、解释词语，也不要给参考答案。全程使用普通话。收到材料后，等待我指定课和情景，不要先介绍课程内容。
+BÀI 3  |  第三课  你能吃辣的吗
+| Nguồn  《汉语口语教程》, mục 四、练习（五）根据下面的情景做对话练习; PDF trang 32 (trang sách 20).   |
+1  |  Đề luyện hội thoại trong sách
+1.  你在一家四川饭馆请朋友吃饭，给他/她报菜名及介绍四川菜的特点。
+2.  一个中国人和一个外国人正在一家茶馆里喝茶，他们一边喝一边谈论着和茶有关系的话题。请你和你的同学扮演这两个角色。
+3.  周末，你请朋友来家里吃饭。饭桌上，你给他们介绍你做的菜。
+4.  有的人认为吃快餐既省时间又方便，也有的人认为吃快餐不但没营养也不好吃，你的看法呢？
+2  |  Từ vựng 生词
+Giữ các từ trong bảng 生词; các mục con và tên riêng liên quan được ghi thêm trong cùng bảng. Pinyin và nghĩa Việt được chuẩn hóa để dễ ôn.
+| 生词 / Từ vựng   | 拼音 / Pinyin   | Nghĩa tiếng Việt   |
+| 辣   | là   | cay   |
+| 受不了   | shòu bu liǎo   | không chịu nổi   |
+| 尝   | cháng   | nếm, ăn thử   |
+| 四川菜 / 川菜   | Sìchuān cài / Chuāncài   | món Tứ Xuyên   |
+| 麻   | má   | tê cay (vị hoa tiêu)   |
+| 鲁菜   | Lǔcài   | món Sơn Đông   |
+| 粤菜   | Yuècài   | món Quảng Đông   |
+| 特色菜   | tèsècài   | món đặc sắc   |
+| 发展   | fāzhǎn   | phát triển   |
+| 花茶   | huāchá   | trà ướp hoa   |
+| 绿茶   | lǜchá   | trà xanh   |
+| 龙井茶   | Lóngjǐng chá   | trà Long Tỉnh   |
+| 茉莉花茶   | mòlì huāchá   | trà hoa nhài   |
+| 红茶   | hóngchá   | hồng trà (trà đen theo tiếng Việt)   |
+| 乌龙茶   | wūlóngchá   | trà ô long   |
+| 奶茶   | nǎichá   | trà sữa   |
+| 出差   | chūchāi   | đi công tác   |
+| 特产   | tèchǎn   | đặc sản địa phương   |
+| 少数民族   | shǎoshù mínzú   | dân tộc thiểu số   |
+| 机会   | jīhuì   | cơ hội   |
+| 快餐   | kuàicān   | đồ ăn nhanh / bữa ăn nhanh   |
+| 汉堡包   | hànbǎobāo   | bánh hamburger   |
+| 热狗   | règǒu   | bánh hot dog   |
+| 节奏   | jiézòu   | nhịp độ   |
+| 节省   | jiéshěng   | tiết kiệm   |
+| 西式   | xīshì   | kiểu phương Tây   |
+| 口味儿   | kǒuwèir   | khẩu vị   |
+| 营养   | yíngyǎng   | dinh dưỡng   |
+| 鱼香肉丝   | yúxiāng ròusī   | thịt heo thái sợi kiểu ngư hương   |
+| 宫爆鸡丁（教材写法）   | gōngbào jīdīng   | gà thái hạt lựu xào; cách viết thông dụng hiện nay: 宫保鸡丁   |
+| 麻婆豆腐   | mápó dòufu   | đậu phụ Mapo   |
+| 怪味鸡   | guàiwèijī   | gà vị đặc biệt   |
+| 麦当劳   | Màidāngláo   | McDonald’s   |
+| 肯德基   | Kěndéjī   | KFC   |
+3  |  Ngữ pháp / cách dùng 用法说明
+1. 拿手 (náshǒu)  Tính từ: giỏi, thành thạo ở một lĩnh vực; không dùng như động từ trực tiếp mang tân ngữ.
+例  我最拿手的是做越南菜。  →  Việc tôi giỏi nhất là nấu món Việt.
+2. 不光……而且/还……  Không chỉ A mà còn B; tăng tiến, hai vế cùng chủ đề.
+例  这家店不光菜好吃，而且服务也很好。  →  Quán này không chỉ món ăn ngon mà dịch vụ cũng rất tốt.
+3. 数得上 / 数不上  Thuộc / không thuộc nhóm được xem là tiêu biểu, nổi bật.
+例  这家店在我们学校附近数得上很有名。  →  Quán này thuộc hàng khá nổi tiếng gần trường tôi.
+4  |  Cụm diễn đạt 表达法
+•  请你介绍一下……，好吗？ — Nhờ người khác giới thiệu
+•  ……的特点是…… — Nêu đặc điểm
+•  ……是……中的一种。 — Giới thiệu một loại trong một nhóm
+5  |  Hội thoại A–B (biên soạn theo đề)
+Mẫu mới để luyện Voice, KHÔNG phải nguyên văn bài khóa. Mỗi tình huống 20 lượt, A/B luân phiên; không đọc ký hiệu, đề gốc hoặc mạch ý khi luyện.
+Tình huống 1  |  Ở nhà hàng Tứ Xuyên: gọi món, giới thiệu đặc trưng món Tứ Xuyên
+ĐỀ GỐC  你在一家四川饭馆请朋友吃饭，给他/她报菜名及介绍四川菜的特点。
+Mạch ý: Chào và mời bạn → hỏi mức ăn cay → giới thiệu 川菜 → chọn món → điều chỉnh độ cay → kết thúc.
+BẮT ĐẦU ĐỐI THOẠI  |  开始对话
+A:  你来了！今天我请你吃四川菜，快坐吧。
+B:  谢谢！我第一次来这家饭馆儿，不知道该点什么。
+A:  你平时能吃辣的吗？四川菜一般比较辣。
+B:  能吃一点儿，不过太辣我就受不了了。
+A:  那我给你介绍几道菜吧。川菜不光辣，而且有一种麻麻的味道。
+B:  “麻”是什么意思？跟普通的辣一样吗？
+A:  不太一样。花椒会让嘴巴有点儿发麻，这是川菜的一个特点。
+B:  原来如此。那你觉得我应该先尝哪道菜？
+A:  可以先点鱼香肉丝。名字里有“鱼”，不过这道菜一般没有鱼。
+B:  有意思！那麻婆豆腐是不是也很有名？
+A:  对，不过它通常比较麻辣。我们可以请服务员少放点儿辣椒。
+B:  好啊。除了这两道菜，还要不要点个青菜？
+A:  当然，点一道清炒青菜，再来一碗汤，口味就不会太重。
+B:  听起来不错。你怎么对四川菜这么了解？
+A:  我以前跟朋友吃过几次，慢慢就喜欢上这种口味了。
+B:  那下次换我请你吃越南菜，让你尝尝我们的特色菜。
+A:  好！越南菜是不是比较清淡？
+B:  不一定，各地口味不同。等你吃过就知道了。
+A:  好，那我们今天先点菜吧。
+B:  没问题，谢谢你介绍得这么清楚！
+KẾT THÚC ĐỐI THOẠI  |  结束对话
+Tình huống 2  |  Trà quán: người Trung Quốc và người nước ngoài nói chuyện về trà
+ĐỀ GỐC  一个中国人和一个外国人正在一家茶馆里喝茶，他们一边喝一边谈论着和茶有关系的话题。请你和你的同学扮演这两个角色。
+Mạch ý: Gọi trà → giải thích loại trà → so sánh cách uống ở hai nước → hỏi sở thích → hẹn thử loại khác.
+BẮT ĐẦU ĐỐI THOẠI  |  开始对话
+A:  欢迎你来这家茶馆儿。你以前喝过中国茶吗？
+B:  喝过一点儿，不过我只知道绿茶和红茶。
+A:  那今天试试龙井茶吧，这是杭州很有名的茶。
+B:  闻起来挺香的。它跟花茶有什么不同？
+A:  龙井是绿茶，花茶一般带有花香，比如茉莉花茶。
+B:  明白了。听说中国人每天都喝茶，是真的吗？
+A:  有的人常喝，有的人更喜欢咖啡，各人的习惯不一样。
+B:  在越南也有很多人喝茶，尤其是吃饭后或者聊天的时候。
+A:  你们通常喝热茶还是冰茶？
+B:  两种都有。天气热的时候，我比较喜欢喝冰茶。
+A:  我倒是喜欢喝热茶，慢慢喝，能尝出茶的味道。
+B:  对了，这种茶需要放糖吗？
+A:  一般不放。我建议你先喝原味儿的，再决定要不要加。
+B:  嗯，喝起来有点儿清香，也不苦。
+A:  那你喜欢它，还是更喜欢红茶？
+B:  我现在更喜欢绿茶，不过以后还想试试乌龙茶。
+A:  好啊，下次我们可以换一家茶馆儿。
+B:  没问题。今天跟你聊天，我学到了不少茶的知识。
+A:  那就边喝边聊，不着急。
+B:  好，干杯——用茶干杯！
+KẾT THÚC ĐỐI THOẠI  |  结束对话
+Tình huống 3  |  Mời bạn đến nhà ăn cơm: giới thiệu những món mình nấu
+ĐỀ GỐC  周末，你请朋友来家里吃饭。饭桌上，你给他们介绍你做的菜。
+Mạch ý: Mời vào nhà → giới thiệu món → cách nấu → khẩu vị → hỏi cảm nhận → kết thúc.
+BẮT ĐẦU ĐỐI THOẠI  |  开始对话
+A:  你终于来了，快进来！饭菜都准备好了。
+B:  哇，闻起来真香！这些菜都是你自己做的吗？
+A:  对，今天我做了三个菜，还煮了一锅汤。
+B:  太厉害了！先给我介绍一下吧。
+A:  这道是越南的清蒸鱼，旁边是炒青菜，还有西红柿炒鸡蛋。
+B:  我最感兴趣的是这条鱼。你怎么做的？
+A:  先把鱼洗干净，放上姜和葱，然后蒸熟，最后加一点儿调味料。
+B:  听起来不复杂，不过火候应该很重要吧？
+A:  是啊，蒸太久的话，鱼肉就容易变老。
+B:  那这碗汤是什么汤？颜色很清淡。
+A:  是蔬菜汤。我怕你不太能吃辣，所以今天没做辣菜。
+B:  你想得真周到。其实我能吃一点儿辣。
+A:  那你先尝尝鱼，觉得味道淡的话可以加一点儿鱼露。
+B:  嗯，味道刚刚好，鱼肉也很嫩。
+A:  太好了。我第一次给你做饭，还真有点儿紧张。
+B:  别紧张，真的很好吃。你平时经常自己下厨吗？
+A:  工作日比较忙，周末有时间才做。
+B:  下次你教我做一道越南菜怎么样？
+A:  当然可以！今天你先多吃一点儿。
+B:  好，谢谢你请我吃饭！
+KẾT THÚC ĐỐI THOẠI  |  结束对话
+Tình huống 4  |  Tranh luận: đồ ăn nhanh tiện hay thiếu dinh dưỡng?
+ĐỀ GỐC  有的人认为吃快餐既省时间又方便，也有的人认为吃快餐不但没营养也不好吃，你的看法呢？
+Mạch ý: Đưa hai quan điểm → phân biệt lúc nào tiện → dinh dưỡng → ví dụ → thống nhất điều kiện sử dụng.
+BẮT ĐẦU ĐỐI THOẠI  |  开始对话
+A:  今天中午我又吃快餐了，实在没时间做饭。
+B:  你最近怎么总吃快餐？我觉得那样不太健康。
+A:  可我白天上班，晚上上课。吃快餐既方便又节省时间。
+B:  方便是方便，不过有些快餐油多、盐也多。
+A:  这倒是真的。但快餐也有不同种类，不能一概而论吧？
+B:  你说得有道理。你平时都吃什么？
+A:  有时吃汉堡包，有时买一份带米饭、肉和蔬菜的套餐。
+B:  那当然比只吃炸鸡和薯条好一些。
+A:  你呢？你是不是从来不吃快餐？
+B:  也不是。赶时间的时候我也吃，只是不会天天吃。
+A:  那你觉得怎样才能吃得方便又有营养？
+B:  我会尽量选有蔬菜的饭菜，少喝甜饮料。
+A:  这个办法不错。我还可以周末提前准备几顿饭。
+B:  对，忙的时候拿出来热一下，就不用临时买了。
+A:  不过偶尔跟朋友吃一次汉堡包，我觉得也没问题。
+B:  我同意，关键是吃得均衡，别把快餐当成每一顿。
+A:  原来我们不是完全反对，只是看重的方面不同。
+B:  是啊。方便很重要，健康也不能不管。
+A:  那明天中午我们找一家有蔬菜的店吧。
+B:  好，就这么说定了！
+KẾT THÚC ĐỐI THOẠI  |  结束对话
+BÀI 4  |  第四课  你的理想职业是什么
+| Nguồn  《汉语口语教程》, mục 四、练习（五）根据下面的情景做对话练习; PDF trang 39 (trang sách 27).   |
+1  |  Đề luyện hội thoại trong sách
+1.  你向同屋打听去王府井的行车路线。同屋找出北京市交通图同你边看边说。
+2.  你去商店买电视或其他商品。向售货员询问商品的性能、功能及与别的商品的差别。
+3.  一个外国留学生和几个中国大学生座谈，他们对各自的求职观很感兴趣，请你和你的同学扮演这几个人。
+2  |  Từ vựng 生词
+Giữ các từ trong bảng 生词; các mục con và tên riêng liên quan được ghi thêm trong cùng bảng. Pinyin và nghĩa Việt được chuẩn hóa để dễ ôn.
+| 生词 / Từ vựng   | 拼音 / Pinyin   | Nghĩa tiếng Việt   |
+| 布置   | bùzhì   | giao, bố trí (công việc); sắp đặt   |
+| 报告   | bàogào   | báo cáo   |
+| 为难   | wéinán   | khó xử, thấy khó   |
+| 出主意   | chū zhǔyi   | góp ý, hiến kế   |
+| 求职观   | qiúzhíguān   | quan niệm tìm việc   |
+| 对象   | duìxiàng   | đối tượng   |
+| 专业   | zhuānyè   | chuyên ngành; chuyên nghiệp   |
+| 单调   | dāndiào   | đơn điệu   |
+| 标准   | biāozhǔn   | tiêu chuẩn   |
+| 挑战性   | tiǎozhànxìng   | tính thử thách   |
+| 待遇   | dàiyù   | chế độ đãi ngộ   |
+| 大四   | dàsì   | năm tư đại học   |
+| 樱花   | yīnghuā   | hoa anh đào   |
+| 论文   | lùnwén   | luận văn   |
+| 答辩   | dábiàn   | bảo vệ luận văn   |
+| 典礼   | diǎnlǐ   | nghi lễ   |
+| 特意   | tèyì   | cố ý, đặc biệt dành công   |
+| 赶   | gǎn   | vội đến /赶来   |
+| 独生子(女)   | dúshēngzǐ (nǚ)   | con một trai (gái)   |
+3  |  Ngữ pháp / cách dùng 用法说明
+1. 有什么……的  Câu hỏi tu từ thường nhằm phủ nhận mức độ hoặc giảm nhẹ việc đáng lo, tùy giọng điệu.
+例  这有什么难的？  →  Có gì khó đâu?
+2. 为/为了……才……  Nêu mục đích trước, 才 nhấn hành động được thực hiện chính để đạt mục đích đó.
+例  我是为了找工作才参加招聘会的。  →  Tôi đến hội chợ tuyển dụng chính là để tìm việc.
+3. 得 (děi) + lượng thời gian / ước lượng  Trong bài có nghĩa “chắc phải/mất khoảng”, biểu thị dự đoán thời lượng, không phải trợ từ 得 đọc de.
+例  坐地铁过去大概得半个小时。  →  Đi tàu điện ngầm sang đó chắc phải mất khoảng nửa tiếng.
+4  |  Cụm diễn đạt 表达法
+•  你的……是什么？ — Hỏi quan điểm/tiêu chuẩn
+•  请问，怎么……？ — Hỏi thông tin
+•  您能不能告诉我……？ — Hỏi lịch sự
+5  |  Hội thoại A–B (biên soạn theo đề)
+Mẫu mới để luyện Voice, KHÔNG phải nguyên văn bài khóa. Mỗi tình huống 20 lượt, A/B luân phiên; không đọc ký hiệu, đề gốc hoặc mạch ý khi luyện.
+Tình huống 1  |  Hỏi đường đến Vương Phủ Tỉnh, vừa xem bản đồ vừa trao đổi
+ĐỀ GỐC  你向同屋打听去王府井的行车路线。同屋找出北京市交通图同你边看边说。
+Mạch ý: Xin đường → tra bản đồ → phương tiện → điểm xuống → lưu ý → cảm ơn.
+BẮT ĐẦU ĐỐI THOẠI  |  开始对话
+A:  你有空儿吗？我想问一下儿，去王府井怎么走？
+B:  当然有。你是想去逛街，还是去办事？
+A:  我想去买点儿东西，可是对北京的交通还不太熟。
+B:  没关系。我把北京市交通图拿出来，咱们边看边说。
+A:  谢谢！从咱们学校过去，坐公交车方便吗？
+B:  也可以，不过我觉得坐地铁更容易认路。
+A:  这条线应该往哪边坐？我怕坐错方向。
+B:  咱们先找到学校附近的地铁站，再看看该怎么换乘。
+A:  找到了。王府井在这儿，那我们从学校怎么过去？
+B:  你看，先从学校附近这个站出发，到了换乘站再换车。
+A:  到王府井站以后，还要走很远吗？
+B:  一般不用走太远，不过你要去的商店在哪一边，最好再确认一下。
+A:  明白了。如果我带很多东西回来，怎么坐车比较方便？
+B:  东西不多就坐地铁；太多的话，可以考虑打车。
+A:  那我出发前再看一眼路线，免得走错。
+B:  没错。还要留意末班车时间，别逛得太晚。
+A:  你想得真周到。要不周末你也跟我一起去？
+B:  这个周末我有事儿，下次再陪你吧。
+A:  好，今天多亏你帮我看地图。
+B:  不客气，祝你逛得开心！
+KẾT THÚC ĐỐI THOẠI  |  结束对话
+Tình huống 2  |  Mua TV: hỏi tính năng, hiệu năng và so sánh hai sản phẩm
+ĐỀ GỐC  你去商店买电视或其他商品。向售货员询问商品的性能、功能及与别的商品的差别。
+Mạch ý: Vào cửa hàng → nêu nhu cầu → so hai mẫu → hỏi hiệu năng, bảo hành → quyết định.
+BẮT ĐẦU ĐỐI THOẠI  |  开始对话
+A:  您好，我想买台电视，能给我介绍一下吗？
+B:  当然可以。您打算放在客厅还是卧室？
+A:  放在客厅。平时主要看电影，也偶尔玩游戏。
+B:  那您可以看看这两款。您比较在意画面还是价格？
+A:  两个都重要。这款和那款有什么不同？
+B:  这款屏幕大一些，颜色更自然；那款价格低一点儿。
+A:  它们都能连接网络、安装视频软件吗？
+B:  都可以。不过这款操作更流畅，打开应用也快一些。
+A:  玩游戏的时候，画面会不会不够流畅？
+B:  这款更适合您的需求。您可以现场试一下。
+A:  好的。那声音方面有差别吗？
+B:  有一点儿。这款的扬声器更好，但如果您要求高，也可以加音响。
+A:  我还想知道售后服务怎么样。保修多长时间？
+B:  不同型号可能不一样，我给您看一下这两款的保修说明。
+A:  谢谢。价格贵是贵一点儿，可我打算用好几年。
+B:  那您可以考虑这款，不过也不用急着决定。
+A:  我想再比较一下实际画面，看看值不值得多花钱。
+B:  没问题，您慢慢看，有问题随时问我。
+A:  好，我看完再决定买哪一台。
+B:  好的，希望您能挑到合适的电视。
+KẾT THÚC ĐỐI THOẠI  |  结束对话
+Tình huống 3  |  Tọa đàm về quan điểm chọn nghề của sinh viên Trung Quốc và du học sinh
+ĐỀ GỐC  一个外国留学生和几个中国大学生座谈，他们对各自的求职观很感兴趣，请你和你的同学扮演这几个人。
+Mạch ý: Gặp gỡ → ngành học và dự định → tiêu chuẩn chọn việc → khác biệt → kết luận.
+BẮT ĐẦU ĐỐI THOẠI  |  开始对话
+A:  大家好，我是越南留学生。今天想聊聊毕业以后找工作的事儿。
+B:  欢迎！我是中国大学生。我也很想知道你们怎么看待找工作。
+A:  那先问你吧，你的理想职业是什么？
+B:  我学的是计算机，毕业以后想进一家技术公司。
+A:  你选择工作的标准是什么？工资最重要吗？
+B:  工资当然重要，不过我更看重学习机会和工作环境。
+A:  我跟你有点儿像。我希望工作有挑战性，但也要有时间生活。
+B:  那你愿意为了高工资去很远的城市工作吗？
+A:  如果发展机会特别好，我会考虑，不过不会只看工资。
+B:  我也是。现在很多同学还关心公司是否稳定。
+A:  那中国大学生一般会选择大公司还是小公司？
+B:  两种都有。大公司制度比较完善，小公司可能给年轻人更多机会。
+A:  听起来各有好处。你有没有实习过？
+B:  有，去年暑假实习了两个月，才发现实际工作跟想象的不太一样。
+A:  你觉得最大的不同是什么？
+B:  做项目要跟很多人合作，不是只会专业知识就够了。
+A:  这点我同意。我还想提高中文和沟通能力。
+B:  那以后我们可以互相分享招聘信息。
+A:  好啊。今天交流之后，我对不同的求职观更了解了。
+B:  我也是，希望我们都能找到合适的工作。
+KẾT THÚC ĐỐI THOẠI  |  结束对话
+BÀI 10  |  第十课  讨价还价
+| Nguồn  《汉语口语教程》, mục 四、练习（五）根据下面的情景做对话练习; PDF trang 82 (trang sách 70).   |
+1  |  Đề luyện hội thoại trong sách
+1.  练习去服装市场买东西。看谁最会砍价。
+2.  你要在家请客。列出你要买的东西的单子，去自由市场以最便宜的价格把东西买回来。以下所列食物名单最少选择三种：猪肉、鸡肉、牛肉、鱼、虾、土豆、胡萝卜、西兰花、葱、姜、蒜。
+2  |  Từ vựng 生词
+Giữ các từ trong bảng 生词; các mục con và tên riêng liên quan được ghi thêm trong cùng bảng. Pinyin và nghĩa Việt được chuẩn hóa để dễ ôn.
+| 生词 / Từ vựng   | 拼音 / Pinyin   | Nghĩa tiếng Việt   |
+| 讨价还价   | tǎojià-huánjià   | mặc cả, trả giá qua lại   |
+| 砍价   | kǎnjià   | trả giá / ép giá   |
+| 砍   | kǎn   | chặt; trong 砍价 là trả giá mạnh   |
+| 质量   | zhìliàng   | chất lượng   |
+| 公道   | gōngdao   | hợp lý, công bằng (về giá)   |
+| 五颜六色   | wǔyán-liùsè   | đủ màu sắc   |
+| T恤   | T-xù   | áo thun   |
+| 赔   | péi   | lỗ, thua lỗ   |
+| 赔本   | péiběn   | bán lỗ vốn   |
+| 真丝   | zhēnsī   | lụa tơ tằm thật   |
+| 当   | dàng   | coi là, tưởng là (trong bài)   |
+| 人造棉   | rénzàomián   | sợi nhân tạo loại giống bông   |
+| 摊主   | tānzhǔ   | chủ sạp   |
+| 袜子   | wàzi   | tất, vớ   |
+| 纯棉   | chúnmián   | 100% cotton   |
+| 弹性   | tánxìng   | độ đàn hồi   |
+| 批发   | pīfā   | bán sỉ   |
+| 小贩   | xiǎofàn   | người bán rong   |
+| 比划   | bǐhua   | ra hiệu bằng tay   |
+| 交流   | jiāoliú   | giao lưu, trao đổi   |
+| 耐心   | nàixīn   | kiên nhẫn   |
+| 秀水街   | Xiùshuǐ Jiē   | phố Tú Thủy, Bắc Kinh   |
+3  |  Ngữ pháp / cách dùng 用法说明
+1. 当 (dàng) = 以为  “Cứ tưởng là…” nhưng thực tế khác với điều người nói đoán.
+例  我当你不来了，原来你已经到了。  →  Tôi cứ tưởng bạn không đến, hóa ra bạn đã tới rồi.
+2. 有的是  Khẳng định có rất nhiều, khẩu ngữ.
+例  这种衣服店里有的是。  →  Kiểu áo này trong cửa hàng có rất nhiều.
+3. 一分钱一分货  Tục ngữ: giá thường phản ánh chất lượng; không phải quy luật tuyệt đối.
+例  便宜是便宜，可质量不好，一分钱一分货嘛。  →  Rẻ thì có rẻ, nhưng chất lượng không tốt; tiền nào của nấy mà.
+4. A是A，可是……  Công nhận một khía cạnh rồi chuyển ý phản biện.
+例  好看是好看，可价格太贵了。  →  Đẹp thì có đẹp, nhưng giá đắt quá.
+4  |  Cụm diễn đạt 表达法
+•  怎么卖？ — Hỏi giá
+•  能再便宜一点儿吗？ — Xin giảm giá
+•  我不这么想。 — Phản đối
+•  您说得有道理，可是…… — Đồng ý một phần
+5  |  Hội thoại A–B (biên soạn theo đề)
+Mẫu mới để luyện Voice, KHÔNG phải nguyên văn bài khóa. Mỗi tình huống 20 lượt, A/B luân phiên; không đọc ký hiệu, đề gốc hoặc mạch ý khi luyện.
+Tình huống 1  |  Mua quần áo ở chợ: thực hành mặc cả
+ĐỀ GỐC  练习去服装市场买东西。看谁最会砍价。
+Mạch ý: Hỏi kiểu/size → hỏi chất liệu → trả giá → từ chối giá → nhượng bộ → kết thúc.
+BẮT ĐẦU ĐỐI THOẠI  |  开始对话
+A:  老板，您好！这件T恤怎么卖？
+B:  您好！这件一百二十块，纯棉的，质量很好。
+A:  样子挺好看的，不过一百二十有点儿贵。
+B:  贵是贵一点儿，可您摸摸，料子很舒服。
+A:  我想买两件。要是买两件，能不能便宜些？
+B:  那给您算一百块一件，怎么样？
+A:  还是贵。我朋友在别的摊儿买过，才七十多。
+B:  别的摊儿质量不一定一样，一分钱一分货嘛。
+A:  这我知道，可我还是学生，预算不多。七十块一件行吗？
+B:  七十真的不行，我都快赔本了。九十吧。
+A:  九十我还是不能接受。要不我再去别的地方看看。
+B:  哎，别急着走。您诚心买，我再让一点儿，八十。
+A:  两件都按七十算，我现在就买。
+B:  您可真会砍价！七十太低了，七十五怎么样？
+A:  这样吧，两件一共一百四十，我不再还价了。
+B:  好吧，看在您买两件的份儿上，就这个价。
+A:  谢谢！那我拿这两种颜色，可以吗？
+B:  当然可以。您先检查一下尺码。
+A:  没问题，一共一百四十，我付钱。
+B:  收到了。欢迎下次再来！
+KẾT THÚC ĐỐI THOẠI  |  结束对话
+Tình huống 2  |  Đi chợ mua tối thiểu ba loại thực phẩm với giá hợp lý
+ĐỀ GỐC  你要在家请客。列出你要买的东西的单子，去自由市场以最便宜的价格把东西买回来。以下所列食物名单最少选择三种：猪肉、鸡肉、牛肉、鱼、虾、土豆、胡萝卜、西兰花、葱、姜、蒜。
+Mạch ý: Lập danh sách → hỏi giá ≥3 thứ → chọn chất lượng → xin giảm → chốt đơn. Giá chỉ là giả định trong hội thoại.
+BẮT ĐẦU ĐỐI THOẠI  |  开始对话
+A:  老板，我今天请朋友吃饭，想买点儿菜。
+B:  好啊！您要买什么？我这儿有的是新鲜菜。
+A:  先买一斤鸡肉、一斤土豆，再来一斤西兰花。
+B:  鸡肉十八块一斤，土豆四块，西兰花七块。
+A:  一共二十九块，对吧？能不能便宜一点儿？
+B:  这些已经很便宜了，质量也不错。
+A:  我知道，不过我还要买葱和姜。能给我算个实在价吗？
+B:  那三样给您算二十八块，怎么样？
+A:  二十六可以吗？我以后还会来买。
+B:  二十六太低了。二十七块，真的不能再少了。
+A:  好吧，二十七就二十七。鸡肉是今天送来的吗？
+B:  是今天早上到的，您可以看看。
+A:  看起来挺新鲜的。土豆帮我挑几个小一点儿的吧。
+B:  没问题。西兰花要不要给您挑紧实一点儿的？
+A:  要，谢谢。对了，葱和姜怎么卖？
+B:  您要得不多，我给您称一点儿，再单独算。
+A:  好，先把刚才三样装好。我还得去买点儿水果。
+B:  行。三样二十七块，葱姜另外算，您看清楚。
+A:  没问题。谢谢您，今天买得挺顺利。
+B:  不客气，祝您晚上招待朋友愉快！
+KẾT THÚC ĐỐI THOẠI  |  结束对话
+BÀI 12  |  第十二课  你喜欢什么
+| Nguồn  《汉语口语教程》, mục 四、练习（五）根据下面的情景做对话练习; PDF trang 97 (trang sách 85).   |
+1  |  Đề luyện hội thoại trong sách
+1.  你喜欢养宠物，而且已经养了好几年了，把它当成自己家的一员。可你的同学不喜欢，他/她觉得养宠物太脏、费时间、容易传染疾病等。你们在养宠物问题上看法不一致，互相向对方发表自己的看法。全班同学都可参加这个讨论。
+2.  和你的同学各自讲述一部看过的电影，并说明喜欢或不喜欢的理由。（可评述故事情节、导演水平、演员的演技等）
+2  |  Từ vựng 生词
+Giữ các từ trong bảng 生词; các mục con và tên riêng liên quan được ghi thêm trong cùng bảng. Pinyin và nghĩa Việt được chuẩn hóa để dễ ôn.
+| 生词 / Từ vựng   | 拼音 / Pinyin   | Nghĩa tiếng Việt   |
+| 宠物   | chǒngwù   | thú cưng   |
+| 馋   | chán   | ham ăn   |
+| 躲   | duǒ   | trốn, né   |
+| 凶   | xiōng   | hung dữ   |
+| 嫌   | xián   | chê, ngại vì thấy không vừa ý   |
+| 随地   | suídì   | bừa bãi, tùy nơi   |
+| 眼泪   | yǎnlèi   | nước mắt   |
+| 感动   | gǎndòng   | cảm động, làm xúc động   |
+| 研究生   | yánjiūshēng   | học viên sau đại học   |
+| 悲剧   | bēijù   | bi kịch   |
+| 哭哭啼啼   | kūkūtítí   | khóc lóc thút thít   |
+| 铁打的   | tiě dǎ de   | cứng như sắt, rất kiên cường (ví von)   |
+| 武侠小说   | wǔxiá xiǎoshuō   | tiểu thuyết võ hiệp   |
+| 坚强   | jiānqiáng   | kiên cường   |
+| 棒球   | bàngqiú   | bóng chày   |
+| 输   | shū   | thua   |
+| 偏   | piān   | cứ nhất quyết làm ngược; cố tình   |
+| 武术   | wǔshù   | võ thuật   |
+3  |  Ngữ pháp / cách dùng 用法说明
+1. 还……呢  Cách trách móc/mỉa mai: “thế mà còn tự nhận là…”.
+例  还说自己是球迷呢，连比赛时间都不知道。  →  Thế mà còn bảo mình là fan bóng đá, đến giờ thi đấu cũng không biết.
+2. 尽  Toàn là, chỉ toàn; có thể mang sắc thái than phiền.
+例  桌子上尽是零食。  →  Trên bàn toàn là đồ ăn vặt.
+3. A是一回事儿，B是另一回事儿  Hai khía cạnh là hai vấn đề khác nhau, không thể tự suy từ A sang B.
+例  喜欢动物是一回事儿，能不能照顾好是另一回事儿。  →  Thích động vật là một chuyện, có chăm sóc tốt được hay không lại là chuyện khác.
+4. 偏 + 不/要  Cố tình làm trái ý, mang thái độ kiên quyết hoặc bướng bỉnh.
+例  你越不让我看，我偏要看看。  →  Bạn càng không cho tôi xem, tôi lại cứ muốn xem.
+4  |  Cụm diễn đạt 表达法
+•  我很喜欢 / 最喜欢…… — Bày tỏ yêu thích
+•  我嫌…… / 我受不了…… — Bày tỏ không thích
+•  ……有什么意思？ — Phản hỏi mang sắc thái đánh giá
+5  |  Hội thoại A–B (biên soạn theo đề)
+Mẫu mới để luyện Voice, KHÔNG phải nguyên văn bài khóa. Mỗi tình huống 20 lượt, A/B luân phiên; không đọc ký hiệu, đề gốc hoặc mạch ý khi luyện.
+Tình huống 1  |  Tranh luận về việc nuôi thú cưng: thích và không thích
+ĐỀ GỐC  你喜欢养宠物，而且已经养了好几年了，把它当成自己家的一员。可你的同学不喜欢，他/她觉得养宠物太脏、费时间、容易传染疾病等。你们在养宠物问题上看法不一致，互相向对方发表自己的看法。全班同学都可参加这个讨论。
+Mạch ý: A ủng hộ nuôi thú cưng, B lo vệ sinh/thời gian → nêu cách giải quyết → tìm điểm chung.
+BẮT ĐẦU ĐỐI THOẠI  |  开始对话
+A:  你看，这是我家的小狗。我养它已经五年了。
+B:  真可爱。不过我不太喜欢养宠物，觉得麻烦。
+A:  为什么？它已经像我们家的一员了。
+B:  一是掉毛，二是要花很多时间照顾，还得注意卫生。
+A:  这些问题确实存在，但养宠物也有很多好处。
+B:  比如呢？我总觉得家里有动物不太干净。
+A:  我每天带它出去散步，回家会清洁，还定期带它检查身体。
+B:  这样做当然好，可如果主人工作很忙怎么办？
+A:  那就应该提前考虑清楚，不能一时喜欢就带回家。
+B:  我最担心的是有些人让宠物随地大小便。
+A:  我也很反对这种行为。主人应该负责清理。
+B:  还有，有些狗比较凶，我小时候就被狗吓过。
+A:  难怪你会怕。其实不是所有的狗都凶，训练也很重要。
+B:  你养狗以后，生活有什么变化？
+A:  我每天都要出门运动，心情不好的时候，它也能陪着我。
+B:  听起来挺温暖的，不过我现在还没有时间养。
+A:  这没关系。喜欢动物是一回事儿，能不能养好是另一回事儿。
+B:  这句话我同意。养宠物不能只想着好玩儿。
+A:  那下次你愿意先来我家看看它吗？
+B:  可以，只要它不突然扑过来就行！
+KẾT THÚC ĐỐI THOẠI  |  结束对话
+Tình huống 2  |  Trao đổi về hai bộ phim đã xem và lý do thích/không thích
+ĐỀ GỐC  和你的同学各自讲述一部看过的电影，并说明喜欢或不喜欢的理由。（可评述故事情节、导演水平、演员的演技等）
+Mạch ý: Hai người giới thiệu mỗi người một phim → tóm tắt nội dung không spoil → diễn xuất/nhịp phim → ý kiến cá nhân → kết thúc.
+BẮT ĐẦU ĐỐI THOẠI  |  开始对话
+A:  最近看电影了吗？我周末刚看完一部讲家庭关系的电影。
+B:  看了。我看的是一部悬疑片。你先说说你那部怎么样。
+A:  故事不算复杂，主要讲一个年轻人回家照顾父母的经历。
+B:  听起来有点儿平淡。你为什么喜欢？
+A:  虽然情节简单，但是演员演得很自然，有几个地方特别感动人。
+B:  你是不是喜欢这种容易让人流眼泪的电影？
+A:  不一定。关键是人物真实，不是故意让观众哭。
+B:  我比较喜欢故事发展快一点儿的电影。
+A:  那你看的悬疑片讲什么？别把结局告诉我啊。
+B:  放心。就是一个普通人发现身边有很多奇怪的事，后来开始调查。
+A:  听起来不错。导演处理得怎么样？
+B:  前半段节奏很紧张，可后半段解释得有点儿太快。
+A:  所以你不是特别满意？
+B:  对。喜欢这个题材是一回事儿，觉得这部拍得好是另一回事儿。
+A:  说得有道理。我那部电影也有缺点，有些地方太慢了。
+B:  那如果给它打分，你会给多少？
+A:  我会给八分，因为演员的表演真的很棒。你呢？
+B:  我的那部大概七分。下次想换个轻松点儿的喜剧。
+A:  好啊，等我们找到好看的电影，一起去电影院吧。
+B:  没问题，下次看完再交流！
+KẾT THÚC ĐỐI THOẠI  |  结束对话
+BÀI 17  |  第十七课  生活中什么最重要
+| Nguồn  《汉语口语教程》, mục 四、练习（五）根据下面的情景做对话练习; PDF trang 134 (trang sách 122).   |
+1  |  Đề luyện hội thoại trong sách
+1.  你和同学们分成正方、反方辩论下面的题目：（1）家庭妇女也是一种职业。
+2.  你和同学们分成正方、反方辩论下面的题目：（2）发展汽车工业一定会带来环境污染问题。
+2  |  Từ vựng 生词
+Giữ các từ trong bảng 生词; các mục con và tên riêng liên quan được ghi thêm trong cùng bảng. Pinyin và nghĩa Việt được chuẩn hóa để dễ ôn.
+| 生词 / Từ vựng   | 拼音 / Pinyin   | Nghĩa tiếng Việt   |
+| 应酬   | yìngchou   | giao tiếp xã giao trong công việc; tiệc tiếp khách   |
+| 三天两头   | sān tiān liǎng tóu   | dăm ba hôm lại, thường xuyên   |
+| 瞎说   | xiāshuō   | nói linh tinh, nói bừa   |
+| 挣   | zhèng   | kiếm (tiền)   |
+| 辛苦   | xīnkǔ   | vất vả   |
+| 埋怨   | mányuàn   | trách móc, than phiền   |
+| 设计师   | shèjìshī   | nhà thiết kế   |
+| 单身   | dānshēn   | độc thân   |
+| 贵族   | guìzú   | quý tộc   |
+| 梦想   | mèngxiǎng   | ước mơ   |
+| 寂寞   | jìmò   | cô đơn   |
+| 独身   | dúshēn   | sống độc thân   |
+| 一辈子   | yíbèizi   | cả đời   |
+| 婚姻   | hūnyīn   | hôn nhân   |
+| 实话实说   | shíhuà shíshuō   | nói thật, nói thẳng   |
+| 话题   | huàtí   | chủ đề   |
+| 批评   | pīpíng   | phê bình   |
+| 俗话   | súhuà   | tục ngữ, lời nói dân gian   |
+| 富有   | fùyǒu   | giàu có   |
+| 乐观   | lèguān   | lạc quan   |
+3  |  Ngữ pháp / cách dùng 用法说明
+1. 好不容易……才……  Mãi mới làm được; nhấn quá trình khó khăn trước kết quả.
+例  我好不容易才找到一份合适的工作。  →  Tôi vất vả mãi mới tìm được một công việc phù hợp.
+2. 根本 + 不/没……  Phủ định mạnh “hoàn toàn không / vốn không”.
+例  我根本不认为钱能解决所有问题。  →  Tôi hoàn toàn không cho rằng tiền có thể giải quyết mọi vấn đề.
+3. 小有名气  Có chút tiếng tăm; 小 ở đây là “phần nào”, không phải “nhỏ bé” nghĩa đen.
+例  她在这个行业已经小有名气了。  →  Cô ấy trong ngành này cũng đã có chút tên tuổi.
+4. 非……不可  Nhất định phải A, mang sắc thái bắt buộc hoặc quyết tâm mạnh.
+例  这件事非今天做完不可。  →  Việc này nhất định phải làm xong hôm nay.
+5. 连……都/也……  Nêu trường hợp cực đoan để nhấn mạnh “ngay cả… cũng…”.
+例  他忙得连吃饭的时间都没有。  →  Anh ấy bận đến mức ngay cả thời gian ăn cũng không có.
+6. 意合：lược liên từ trong khẩu ngữ  Trong ngữ cảnh rõ, quan hệ nguyên nhân–kết quả, điều kiện–kết quả có thể nối trực tiếp mà không nêu liên từ.
+例  时间不早了，我们回去吧。  →  Không còn sớm nữa, chúng ta về thôi.
+4  |  Cụm diễn đạt 表达法
+•  我认为…… — Tôi cho rằng
+•  我同意……的看法。 — Tôi đồng ý với quan điểm…
+•  我不这样认为。 — Tôi không nghĩ vậy
+•  我看不见得。 — Tôi thấy chưa chắc vậy
+5  |  Hội thoại A–B (biên soạn theo đề)
+Mẫu mới để luyện Voice, KHÔNG phải nguyên văn bài khóa. Mỗi tình huống 20 lượt, A/B luân phiên; không đọc ký hiệu, đề gốc hoặc mạch ý khi luyện.
+Tình huống 1  |  Tranh luận thuận/phản: làm nội trợ toàn thời gian có phải một nghề?
+ĐỀ GỐC  你和同学们分成正方、反方辩论下面的题目：（1）家庭妇女也是一种职业。
+Mạch ý: A lập luận ủng hộ; B đặt câu hỏi về thu nhập/quyền lợi; phân biệt lao động và nghề chính thức; kết luận có điều kiện.
+BẮT ĐẦU ĐỐI THOẠI  |  开始对话
+A:  今天我们来讨论一个问题：家庭妇女是不是一种职业？
+B:  好啊。我先说，我不太同意把它叫作正式职业。
+A:  我倒是认为，照顾家庭也是劳动，当然应该得到尊重。
+B:  尊重这一点我同意。可职业通常有工资和明确的工作时间。
+A:  问题就在这儿。做饭、照顾孩子、照顾老人，哪一样不花时间？
+B:  确实很辛苦，有时候连休息的时间都没有。
+A:  而且如果请别人来做这些事，往往需要付钱。
+B:  不过，家庭成员之间互相照顾，也不能全用钱来计算吧？
+A:  当然不能。我的意思是，不能因为没有工资，就认为这种劳动没有价值。
+B:  这我同意。但如果一个人长期不出去工作，经济上可能会依赖别人。
+A:  所以家庭也应该共同讨论收入、分工和未来的保障。
+B:  你觉得照顾家庭只能由女性来做吗？
+A:  根本不是。男性也可以负责做家务、照顾孩子。
+B:  对，我觉得“家庭妇女”这个说法本身就容易让人想到只有女性应该做。
+A:  那也许我们应该多说“全职照顾家庭的人”。
+B:  听起来更公平。不过你还认为它是一种职业吗？
+A:  如果说是有社会价值的劳动，我肯定赞成；法律上算不算职业，要看具体规定。
+B:  这样说我比较能接受。尊重劳动和认定职业，确实是两回事儿。
+A:  所以不管一个人是否在外面工作，家庭中的付出都值得被看见。
+B:  我同意。最重要的是尊重每个人的选择。
+KẾT THÚC ĐỐI THOẠI  |  结束对话
+Tình huống 2  |  Tranh luận thuận/phản: phát triển công nghiệp ô tô có tất yếu gây ô nhiễm?
+ĐỀ GỐC  你和同学们分成正方、反方辩论下面的题目：（2）发展汽车工业一定会带来环境污染问题。
+Mạch ý: A khẳng định rủi ro, B chất vấn chữ 一定 → xét sản xuất, điện, giao thông, công nghệ → kết luận cân bằng.
+BẮT ĐẦU ĐỐI THOẠI  |  开始对话
+A:  我认为发展汽车工业一定会带来一些环境污染问题。
+B:  我不完全同意。你说的“一定”，是不是太绝对了？
+A:  汽车生产需要原材料和能源，工厂也可能产生废气和废水。
+B:  确实有这些风险。但技术进步以后，污染不是可以减少吗？
+A:  可以减少，可不代表完全没有。汽车数量多了，交通也会更拥挤。
+B:  不过现在越来越多的人开电动车，使用的时候没有直接的尾气排放。
+A:  这点没错，但生产电池和发电也可能影响环境。
+B:  所以问题不只是汽车本身，还跟能源结构和生产方式有关。
+A:  对。要是没有严格的环保要求，工业发展可能让污染变严重。
+B:  那如果政府要求工厂使用更清洁的技术呢？
+A:  污染会少一些，但我们还得考虑原材料和废旧电池的处理。
+B:  我觉得不能只看汽车工业，也要发展公共交通。
+A:  当然。地铁和公共汽车方便了，很多人就不用天天开车。
+B:  还有，城市设计得好，大家走路和骑车也更方便。
+A:  看来我应该把观点说得更准确：发展汽车工业有污染风险，必须管理。
+B:  这样我就同意了。不能因为有风险，就认为这个行业不能发展。
+A:  没错。经济发展和环境保护不应该完全对立。
+B:  关键是制定标准、使用技术，还要监督执行。
+A:  所以我们争论的重点，其实在“一定会”这几个字。
+B:  对。发展可以继续，但不能忽视环境成本。
+KẾT THÚC ĐỐI THOẠI  |  结束对话

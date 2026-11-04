@@ -7,20 +7,9 @@
 (() => {
   "use strict";
 
-  const D = window.APP_DATA;
-  if (!D) {
-    console.error("APP_DATA chưa được nạp!");
-    return;
-  }
-
-  // Tiện ích DOM
-  const $ = (selector, context = document) => context.querySelector(selector);
-  const $$ = (selector, context = document) => [...context.querySelectorAll(selector)];
-  const esc = (str) =>
-    String(str ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-
   // Trạng thái ứng dụng (lưu localStorage)
   const state = {
+    book: localStorage.getItem("kn_active_book") || "giao-trinh", // Mặc định giáo trình mới
     selectedLesson: localStorage.getItem("kn_selected_lesson") || "all",
     version: localStorage.getItem("kn_version") || "v2", // Mặc định V2 Tối ưu
     showPinyin: localStorage.getItem("kn_show_pinyin") !== "false", // Mặc định bật
@@ -31,6 +20,39 @@
     audioSpeed: parseFloat(localStorage.getItem("kn_audio_speed") || "1.0"),
     audioLoop: localStorage.getItem("kn_audio_loop") === "true"
   };
+
+  function getActiveBook() {
+    if (window.APP_BOOKS && window.APP_BOOKS[state.book]) {
+      return window.APP_BOOKS[state.book];
+    }
+    return window.APP_DATA || {};
+  }
+
+  let D = getActiveBook();
+  let allTopics = [];
+
+  function refreshTopics() {
+    allTopics = [];
+    if (D && D.lessons) {
+      D.lessons.forEach((lesson) => {
+        lesson.topics.forEach((t) => {
+          allTopics.push({
+            ...t,
+            lessonId: lesson.id,
+            lessonNo: lesson.no,
+            lessonTitle: lesson.title
+          });
+        });
+      });
+    }
+  }
+  refreshTopics();
+
+  // Tiện ích DOM
+  const $ = (selector, context = document) => context.querySelector(selector);
+  const $$ = (selector, context = document) => [...context.querySelectorAll(selector)];
+  const esc = (str) =>
+    String(str ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
   // ================================================= Audio Player Engine =================================================
   let currentAudio = null;
@@ -239,6 +261,11 @@
 
   // Định dạng nội dung kịch bản để gửi Doubao
   function getDialogueScript(topic, ver = state.version) {
+    if (state.book === "giao-trinh") {
+      const header = `第${topic.lessonNo}课，情景${topic.no}\n开始对话`;
+      const lines = getTopicLines(topic, ver).map((l) => `${l.role}: ${l.zh}`).join("\n");
+      return `${header}\n${lines}\n结束对话`;
+    }
     const vTag = ver === "v1" ? "V1-Bản gốc" : "V2-Tối ưu";
     const header = `【第${topic.lessonNo}课 · 题${topic.no} · ${vTag}】${topic.question}`;
     const lines = getTopicLines(topic, ver).map((l) => `[${l.n}] ${l.role} ｜${l.zh}`).join("\n");
@@ -246,21 +273,51 @@
   }
 
   function getDoubaoFullPayload(topic, ver = state.version) {
+    if (state.book === "giao-trinh") {
+      return `${D.generalPrompt}\n\n${getDialogueScript(topic, ver)}`;
+    }
     return `${D.generalPrompt}\n\n————————\n${getDialogueScript(topic, ver)}`;
   }
 
-  // Chuẩn bị danh sách phẳng các topic
-  const allTopics = [];
-  D.lessons.forEach((lesson) => {
-    lesson.topics.forEach((t) => {
-      allTopics.push({
-        ...t,
-        lessonId: lesson.id,
-        lessonNo: lesson.no,
-        lessonTitle: lesson.title
-      });
+  // Chuyển đổi môn / giáo trình
+  function switchBook(bookId) {
+    if (!window.APP_BOOKS || !window.APP_BOOKS[bookId]) return;
+    if (state.book === bookId) return;
+    stopAudio();
+    state.book = bookId;
+    localStorage.setItem("kn_active_book", bookId);
+    state.selectedLesson = "all";
+    localStorage.setItem("kn_selected_lesson", "all");
+    state.searchKeyword = "";
+    state.expandedScripts.clear();
+
+    D = getActiveBook();
+    refreshTopics();
+
+    // Cập nhật tab active
+    $$(".book-tab").forEach((tab) => {
+      const isActive = tab.dataset.book === bookId;
+      tab.classList.toggle("active", isActive);
+      tab.setAttribute("aria-selected", isActive ? "true" : "false");
     });
-  });
+
+    // Cập nhật Header text
+    const appTitle = $("#appTitle");
+    const appSubtitle = $("#appSubtitle");
+    if (appTitle) appTitle.textContent = D.title || "Khẩu ngữ Tiếng Trung";
+    if (appSubtitle) appSubtitle.textContent = D.subtitle || "";
+
+    // Ẩn/hiện version toggle nếu sách không có V1/V2
+    const versionToggle = $("#versionToggle");
+    if (versionToggle) {
+      const hasDiffs = allTopics.some((t) => t.diffs && t.diffs.length > 0);
+      versionToggle.style.display = hasDiffs ? "inline-flex" : "none";
+    }
+
+    renderLessonChips();
+    renderTopicList();
+    showToast(`Đã chuyển sang ${D.name || D.title}`, "📖");
+  }
 
   // ================================================= Render Giao Diện =================================================
 
@@ -569,28 +626,60 @@
     );
   }
 
-  // Mở modal Mẫu câu
+  // Mở modal Mẫu câu & Ngữ pháp
   function showPatternsModal(lessonId) {
     const lesson = D.lessons.find((l) => l.id === lessonId);
     if (!lesson) return;
 
     const cards = lesson.patterns
-      .map(
-        (p) => `
-        <div class="pattern-card">
-          <h4>${esc(p.title)}</h4>
-          <p class="pattern-explain">${esc(p.explain)}</p>
-          <div class="pattern-ex">
-            <span class="ex-zh">${esc(p.example)}</span>
-            ${p.examplePinyin ? `<span class="ex-py">${esc(p.examplePinyin)}</span>` : ""}
-            <span class="ex-vi">→ ${esc(p.exampleVi)}</span>
+      .map((p) => {
+        const title = p.pattern || p.title || "";
+        const explain = p.note || p.explain || "";
+        let exHtml = "";
+        if (Array.isArray(p.examples) && p.examples.length) {
+          exHtml = p.examples
+            .map(
+              (ex) => `
+            <div class="pattern-ex">
+              <span class="ex-zh">${esc(ex.zh)}</span>
+              ${ex.vi ? `<span class="ex-vi">→ ${esc(ex.vi)}</span>` : ""}
+            </div>
+          `
+            )
+            .join("");
+        } else if (p.example) {
+          exHtml = `
+            <div class="pattern-ex">
+              <span class="ex-zh">${esc(p.example)}</span>
+              ${p.examplePinyin ? `<span class="ex-py">${esc(p.examplePinyin)}</span>` : ""}
+              <span class="ex-vi">→ ${esc(p.exampleVi)}</span>
+            </div>
+          `;
+        }
+
+        return `
+          <div class="pattern-card">
+            <h4>${esc(title)}</h4>
+            ${explain ? `<p class="pattern-explain">${esc(explain)}</p>` : ""}
+            ${exHtml}
           </div>
-        </div>
-      `
-      )
+        `;
+      })
       .join("");
 
-    openModal(`Bài ${lesson.no} · 词语例释 Mẫu câu (${lesson.patterns.length} mẫu)`, cards);
+    let expSection = "";
+    if (lesson.expressions && lesson.expressions.length) {
+      expSection = `
+        <div style="margin-top: 16px; padding: 12px; background: var(--surface-raised); border-radius: 12px; border: 1px solid var(--border);">
+          <h4 style="margin-bottom: 8px; font-size: 14px; font-weight: 700;">💡 Cụm diễn đạt 表达法:</h4>
+          <ul style="padding-left: 18px; font-size: 13.5px; line-height: 1.6;">
+            ${lesson.expressions.map((e) => `<li>${esc(e)}</li>`).join("")}
+          </ul>
+        </div>
+      `;
+    }
+
+    openModal(`Bài ${lesson.no} · 词语例释 Mẫu câu & Ngữ pháp (${lesson.patterns.length} mục)`, cards + expSection);
   }
 
   // ================================================= Modal: Chế độ Đối chiếu V1 ↔ V2 =================================================
@@ -1004,7 +1093,32 @@
     }
   });
 
+  // Chuyển giáo trình / môn học
+  $("#bookNav")?.addEventListener("click", (e) => {
+    const tab = e.target.closest(".book-tab");
+    if (!tab) return;
+    const bookId = tab.dataset.book;
+    if (bookId) switchBook(bookId);
+  });
+
   // Khởi động
+  if (state.book) {
+    $$(".book-tab").forEach((tab) => {
+      const isActive = tab.dataset.book === state.book;
+      tab.classList.toggle("active", isActive);
+      tab.setAttribute("aria-selected", isActive ? "true" : "false");
+    });
+    const appTitle = $("#appTitle");
+    const appSubtitle = $("#appSubtitle");
+    if (appTitle) appTitle.textContent = D.title || "Khẩu ngữ Tiếng Trung";
+    if (appSubtitle) appSubtitle.textContent = D.subtitle || "";
+    const versionToggle = $("#versionToggle");
+    if (versionToggle) {
+      const hasDiffs = allTopics.some((t) => t.diffs && t.diffs.length > 0);
+      versionToggle.style.display = hasDiffs ? "inline-flex" : "none";
+    }
+  }
+
   updateVersionButtons();
   renderLessonChips();
   renderTopicList();

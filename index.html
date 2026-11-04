@@ -6,11 +6,11 @@
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="default" />
   <meta name="apple-mobile-web-app-title" content="Khẩu ngữ" />
-  <meta name="theme-color" content="#dc2626" />
+  <meta name="theme-color" content="#18181b" />
   <link rel="manifest" href="manifest.json" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23dc2626'/><text x='50%' y='68%' font-size='56' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'>说</text></svg>" />
-  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23dc2626'/><text x='50%' y='68%' font-size='56' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'>说</text></svg>" />
-  <title>Khẩu ngữ Trung cấp · Copy nhanh cho Doubao</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%2318181b'/><text x='50%' y='68%' font-size='56' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'>说</text></svg>" />
+  <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%2318181b'/><text x='50%' y='68%' font-size='56' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'>说</text></svg>" />
+  <title>Khẩu ngữ Tiếng Trung · Copy nhanh cho Doubao</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -20,14 +20,28 @@
       <div class="brand">
         <span class="logo">说</span>
         <div>
-          <h1>Khẩu ngữ Trung cấp</h1>
-          <p class="subtitle">汉语口语速成 · 13 Đề thi</p>
+          <h1 id="appTitle">Khẩu ngữ Tiếng Trung</h1>
+          <p class="subtitle" id="appSubtitle">汉语口语教程 · 5 Bài · 13 Tình huống</p>
         </div>
       </div>
       <button class="btn btn-prompt" id="btnCopyGeneralPrompt" title="Copy prompt chung để dán vào Doubao">
         <span class="icon">📋</span>
         <span class="label">Prompt chung</span>
       </button>
+    </div>
+
+    <!-- Chọn giáo trình / môn học -->
+    <div class="book-nav" id="bookNav">
+      <div class="book-tabs" role="tablist" aria-label="Chọn môn giáo trình">
+        <button type="button" class="book-tab active" data-book="giao-trinh" id="tabGiaoTrinh" role="tab" aria-selected="true">
+          <span class="book-tab-icon">📖</span>
+          <span class="book-tab-text">汉语口语教程</span>
+        </button>
+        <button type="button" class="book-tab" data-book="trung-cap" id="tabTrungCap" role="tab" aria-selected="false">
+          <span class="book-tab-icon">📕</span>
+          <span class="book-tab-text">汉语口语速成</span>
+        </button>
+      </div>
     </div>
 
     <!-- Thanh tìm kiếm & tùy chọn hiển thị -->
