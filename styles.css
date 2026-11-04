@@ -1,20 +1,22 @@
 :root {
-  --bg: #f6f6f7;
+  --bg: #f8fafc;
   --surface: #ffffff;
-  --surface-raised: #ededef;
-  --border: #e2e2e5;
-  --border-strong: #c8c8cc;
-  --text: #18181b;
-  --text-muted: #71717a;
-  --primary: #18181b;
-  --primary-hover: #09090b;
-  --primary-soft: #f0f0f2;
-  --primary-text: #18181b;
-  --role-a-bg: #f4f4f5;
-  --role-a-text: #27272a;
-  --role-b-bg: #e4e4e7;
-  --role-b-text: #09090b;
-  --pinyin: #52525b;
+  --surface-raised: #f1f5f9;
+  --border: #e2e8f0;
+  --border-strong: #cbd5e1;
+  --text: #0f172a;
+  --text-muted: #64748b;
+  --primary: #1e293b;
+  --primary-hover: #0f172a;
+  --primary-soft: #f1f5f9;
+  --primary-text: #0f172a;
+  --role-a-bg: #e0f2fe;
+  --role-a-text: #0369a1;
+  --role-a-border: #bae6fd;
+  --role-b-bg: #fef3c7;
+  --role-b-text: #92400e;
+  --role-b-border: #fde68a;
+  --pinyin: #475569;
   --radius: 16px;
   --radius-sm: 10px;
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04);
@@ -25,22 +27,24 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #121214;
-    --surface: #1c1c1f;
-    --surface-raised: #28282b;
-    --border: #2e2e32;
-    --border-strong: #3f3f46;
-    --text: #f4f4f5;
-    --text-muted: #a1a1aa;
-    --primary: #fafafa;
+    --bg: #0b0f17;
+    --surface: #131b2e;
+    --surface-raised: #1e293b;
+    --border: #232f48;
+    --border-strong: #334155;
+    --text: #f8fafc;
+    --text-muted: #94a3b8;
+    --primary: #f8fafc;
     --primary-hover: #ffffff;
-    --primary-soft: #27272a;
-    --primary-text: #fafafa;
-    --role-a-bg: #27272a;
-    --role-a-text: #e4e4e7;
-    --role-b-bg: #3f3f46;
-    --role-b-text: #fafafa;
-    --pinyin: #a1a1aa;
+    --primary-soft: #1e293b;
+    --primary-text: #f8fafc;
+    --role-a-bg: #0c4a6e;
+    --role-a-text: #7dd3fc;
+    --role-a-border: #0284c7;
+    --role-b-bg: #451a03;
+    --role-b-text: #fde68a;
+    --role-b-border: #b45309;
+    --pinyin: #94a3b8;
     --shadow-sm: none;
     --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.4);
     color-scheme: dark;
@@ -517,10 +521,19 @@ body {
   gap: 4px;
   font-size: 12px;
   font-weight: 700;
-  color: var(--primary);
-  background-color: var(--primary-soft);
+  color: #0369a1;
+  background-color: #f0f9ff;
+  border: 1px solid #bae6fd;
   padding: 3px 8px;
   border-radius: 6px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .topic-badge {
+    color: #38bdf8;
+    background-color: #0c4a6e;
+    border-color: #0284c7;
+  }
 }
 
 .topic-title-vi {
@@ -657,18 +670,11 @@ body {
 }
 
 .topic-secondary-actions {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   gap: 6px;
 }
-
-@media (max-width: 350px) {
-  .topic-secondary-actions {
-    grid-template-columns: 1fr 1fr;
-  }
-  .topic-secondary-actions .btn-compare {
-    grid-column: 1 / -1;
-  }
+.topic-secondary-actions .btn-secondary {
+  flex: 1;
 }
 
 .btn-secondary {
@@ -757,10 +763,10 @@ body {
   transform: scale(0.96);
 }
 .btn-audio-toggle.playing {
-  background-color: #27272a;
+  background-color: #059669;
   color: #ffffff;
-  border-color: #3f3f46;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-color: #047857;
+  box-shadow: 0 2px 10px rgba(5, 150, 105, 0.3);
   animation: pulseAudio 2s infinite ease-in-out;
 }
 @media (prefers-color-scheme: dark) {
@@ -768,9 +774,9 @@ body {
     color: #121214;
   }
   .btn-audio-toggle.playing {
-    background-color: #3f3f46;
+    background-color: #059669;
     color: #ffffff;
-    border-color: #52525b;
+    border-color: #10b981;
   }
 }
 @keyframes pulseAudio {
@@ -815,7 +821,7 @@ body {
 }
 .audio-progress-fill {
   height: 100%;
-  background: var(--primary);
+  background: linear-gradient(90deg, #0284c7, #059669);
   border-radius: 999px;
   transition: width 0.1s linear;
 }
@@ -972,14 +978,16 @@ body {
 
 /* Khi đang được đọc trong lúc nghe thụ động (Karaoke Active Highlight) */
 .dialogue-line.speaking-active {
-  border-color: var(--primary) !important;
-  background: var(--surface) !important;
-  box-shadow: 0 0 0 1.5px var(--primary), 0 3px 10px rgba(0, 0, 0, 0.08);
+  border-color: #0284c7 !important;
+  background-color: #f0f9ff !important;
+  box-shadow: 0 0 0 1.5px #0284c7, 0 4px 14px rgba(2, 132, 199, 0.15);
   transform: scale(1.008);
 }
 @media (prefers-color-scheme: dark) {
   .dialogue-line.speaking-active {
-    box-shadow: 0 0 0 1.5px var(--primary), 0 3px 14px rgba(255, 255, 255, 0.15);
+    border-color: #38bdf8 !important;
+    background-color: #082f49 !important;
+    box-shadow: 0 0 0 1.5px #38bdf8, 0 4px 14px rgba(2, 132, 199, 0.3);
   }
 }
 
@@ -1006,8 +1014,13 @@ body {
 }
 .dialogue-line.speaking-active .btn-line-speak {
   opacity: 1;
-  color: var(--primary);
+  color: #0284c7;
   animation: bounceSpeaker 1s infinite ease-in-out;
+}
+@media (prefers-color-scheme: dark) {
+  .dialogue-line.speaking-active .btn-line-speak {
+    color: #38bdf8;
+  }
 }
 @keyframes bounceSpeaker {
   0%, 100% { transform: scale(1); }
@@ -1018,20 +1031,23 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 2px 7px;
-  border-radius: 6px;
+  padding: 2.5px 8px;
+  border-radius: 7px;
   font-size: 11.5px;
   font-weight: 700;
   flex-shrink: 0;
   margin-top: 2px;
+  border: 1px solid transparent;
 }
 .role-badge.role-A {
   background-color: var(--role-a-bg);
   color: var(--role-a-text);
+  border-color: var(--role-a-border);
 }
 .role-badge.role-B {
   background-color: var(--role-b-bg);
   color: var(--role-b-text);
+  border-color: var(--role-b-border);
 }
 
 .line-content {
@@ -1048,26 +1064,29 @@ body {
 }
 
 .line-pinyin {
-  font-size: 13px;
+  font-size: 13.5px;
   color: var(--pinyin);
-  line-height: 1.4;
-  margin-top: 2px;
+  line-height: 1.5;
+  margin-top: 3px;
+  letter-spacing: 0.01em;
 }
 
-/* Biến điệu thanh 3 - Tông đen trắng dịu mắt */
+/* Biến điệu thanh 3 - Tông cam pastel ấm áp, nổi bật rõ ràng khi đọc */
 .t3 {
-  color: var(--text) !important;
+  color: #c2410c !important;
   font-weight: 700;
-  text-decoration: underline dotted 1.5px;
-  text-underline-offset: 3px;
-  background-color: rgba(0, 0, 0, 0.05);
-  padding: 0 3px;
-  border-radius: 3px;
+  background-color: #ffedd5;
+  padding: 1px 5px;
+  border-radius: 4px;
+  border-bottom: 1.5px solid #fb923c;
+  display: inline-block;
+  line-height: 1.25;
 }
 @media (prefers-color-scheme: dark) {
   .t3 {
-    color: var(--text) !important;
-    background-color: rgba(255, 255, 255, 0.12);
+    color: #fdba74 !important;
+    background-color: #431407;
+    border-bottom-color: #ea580c;
   }
 }
 
@@ -1076,7 +1095,7 @@ body {
   color: var(--text-muted);
   display: inline-flex;
   align-items: center;
-  gap: 4px;
+  gap: 5px;
 }
 
 /* Dịch nghĩa tiếng Việt */

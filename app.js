@@ -397,13 +397,21 @@
           const diffCount = t.diffs ? t.diffs.length : 0;
           const isV2 = state.version === "v2";
           const isCurrentPlaying = currentPlayingTopicId === t.id && currentAudio && !currentAudio.paused;
+          const isBook2 = t.id.startsWith("gt-") || diffCount === 0;
+          const badgeText = isBook2 ? `Bài ${lesson.no} · Tình huống ${t.no}` : `Bài ${lesson.no} · Câu ${t.no}`;
+          const versionBadge = diffCount > 0
+            ? `<span class="version-indicator ${state.version}">${isV2 ? "✨ V2 Tối ưu" : "📌 V1 Gốc"}</span>`
+            : `<span class="version-indicator v2">Bản chuẩn ${currentLines.length} câu</span>`;
+          const copyLabel = diffCount > 0
+            ? `Copy cho Doubao (${isV2 ? "V2 Tối ưu" : "V1 Gốc"})`
+            : `Copy cho Doubao (Tình huống ${t.no})`;
 
           return `
             <article class="topic-card" id="card-${t.id}">
               <div class="topic-meta">
                 <div class="topic-meta-badges">
-                  <span class="topic-badge">Bài ${lesson.no} · Câu ${t.no}</span>
-                  <span class="version-indicator ${state.version}">${isV2 ? "✨ V2 Tối ưu" : "📌 V1 Gốc"}</span>
+                  <span class="topic-badge">${badgeText}</span>
+                  ${versionBadge}
                 </div>
                 <span class="topic-title-vi">${esc(t.titleVi)}</span>
               </div>
@@ -436,13 +444,15 @@
               <div class="topic-actions">
                 <button type="button" class="btn-primary-copy" data-action="copy-doubao" data-topic-id="${t.id}">
                   <span>⚡</span>
-                  <span>Copy cho Doubao (${isV2 ? "V2 Tối ưu" : "V1 Gốc"})</span>
+                  <span>${copyLabel}</span>
                 </button>
 
                 <div class="topic-secondary-actions">
-                  <button type="button" class="btn-secondary btn-compare" data-action="open-compare" data-topic-id="${t.id}" title="Xem bản đối chiếu V1 gốc vs V2 nâng cấp">
-                    <span>🔍 Đối chiếu (${diffCount})</span>
-                  </button>
+                  ${diffCount > 0 ? `
+                    <button type="button" class="btn-secondary btn-compare" data-action="open-compare" data-topic-id="${t.id}" title="Xem bản đối chiếu V1 gốc vs V2 nâng cấp">
+                      <span>🔍 Đối chiếu (${diffCount})</span>
+                    </button>
+                  ` : ""}
 
                   <button type="button" class="btn-secondary" data-action="copy-script-only" data-topic-id="${t.id}">
                     <span>📋</span>
