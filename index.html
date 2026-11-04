@@ -14,64 +14,70 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- Header cố định trên mobile -->
+  <!-- Header cố định trên mobile & desktop -->
   <header class="app-header">
-    <div class="header-main">
-      <div class="brand">
-        <span class="logo">说</span>
-        <div>
-          <h1 id="appTitle">Khẩu ngữ Tiếng Trung</h1>
-          <p class="subtitle" id="appSubtitle">汉语口语教程 · 5 Bài · 13 Tình huống</p>
+    <div class="header-inner">
+      <div class="header-top-bar">
+        <div class="brand">
+          <span class="logo">说</span>
+          <div>
+            <h1 id="appTitle">Khẩu ngữ Tiếng Trung</h1>
+            <p class="subtitle" id="appSubtitle">汉语口语教程 · 5 Bài · 13 Tình huống</p>
+          </div>
+        </div>
+
+        <!-- Chọn giáo trình / môn học -->
+        <div class="book-nav" id="bookNav">
+          <div class="book-tabs" role="tablist" aria-label="Chọn môn giáo trình">
+            <button type="button" class="book-tab active" data-book="giao-trinh" id="tabGiaoTrinh" role="tab" aria-selected="true">
+              <span class="book-tab-icon">📖</span>
+              <span class="book-tab-text">汉语口语教程</span>
+            </button>
+            <button type="button" class="book-tab" data-book="trung-cap" id="tabTrungCap" role="tab" aria-selected="false">
+              <span class="book-tab-icon">📕</span>
+              <span class="book-tab-text">汉语口语速成</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="header-top-actions">
+          <button class="btn btn-prompt" id="btnCopyGeneralPrompt" title="Copy prompt chung để dán vào Doubao">
+            <span class="icon">📋</span>
+            <span class="label">Prompt chung</span>
+          </button>
         </div>
       </div>
-      <button class="btn btn-prompt" id="btnCopyGeneralPrompt" title="Copy prompt chung để dán vào Doubao">
-        <span class="icon">📋</span>
-        <span class="label">Prompt chung</span>
-      </button>
-    </div>
 
-    <!-- Chọn giáo trình / môn học -->
-    <div class="book-nav" id="bookNav">
-      <div class="book-tabs" role="tablist" aria-label="Chọn môn giáo trình">
-        <button type="button" class="book-tab active" data-book="giao-trinh" id="tabGiaoTrinh" role="tab" aria-selected="true">
-          <span class="book-tab-icon">📖</span>
-          <span class="book-tab-text">汉语口语教程</span>
-        </button>
-        <button type="button" class="book-tab" data-book="trung-cap" id="tabTrungCap" role="tab" aria-selected="false">
-          <span class="book-tab-icon">📕</span>
-          <span class="book-tab-text">汉语口语速成</span>
-        </button>
-      </div>
-    </div>
-
-    <!-- Thanh tìm kiếm & tùy chọn hiển thị -->
-    <div class="header-tools">
-      <div class="search-wrap">
-        <span class="search-icon">🔍</span>
-        <input type="search" id="searchInput" placeholder="Tìm đề, câu hỏi, từ khóa..." autocomplete="off" />
-        <button id="btnClearSearch" class="btn-clear" hidden>×</button>
-      </div>
-
-      <div class="header-toggles">
-        <div class="version-toggle" id="versionToggle" role="group" aria-label="Chọn phiên bản nội dung">
-          <button type="button" class="v-btn" data-v="v1" title="Bản gốc nguyên bản từ file Word">📌 V1 Gốc</button>
-          <button type="button" class="v-btn active" data-v="v2" title="Bản tối ưu lồng ghép mẫu câu giáo trình">✨ V2 Tối ưu</button>
+      <!-- Thanh tìm kiếm & tùy chọn hiển thị -->
+      <div class="header-tools">
+        <div class="search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="search" id="searchInput" placeholder="Tìm đề, từ khóa... (phím /)" autocomplete="off" />
+          <kbd class="search-kbd-hint" title="Nhấn phím / để tìm nhanh">/</kbd>
+          <button id="btnClearSearch" class="btn-clear" hidden>×</button>
         </div>
-        <label class="toggle-pill" id="pinyinToggleLabel" title="Bật/tắt phiên âm pinyin">
-          <input type="checkbox" id="pinyinToggle" checked />
-          <span class="toggle-track"></span>
-          <span class="toggle-text">Pinyin</span>
-        </label>
-        <label class="toggle-pill" id="viToggleLabel" title="Bật/tắt bản dịch tiếng Việt">
-          <input type="checkbox" id="viToggle" checked />
-          <span class="toggle-track"></span>
-          <span class="toggle-text">Dịch</span>
-        </label>
-      </div>
-    </div>
 
-    <!-- Danh mục bài học (ngang, lướt ngón tay tiện lợi) -->
-    <nav class="lesson-chips" id="lessonChips"></nav>
+        <div class="header-toggles">
+          <div class="version-toggle" id="versionToggle" role="group" aria-label="Chọn phiên bản nội dung">
+            <button type="button" class="v-btn" data-v="v1" title="Bản gốc nguyên bản từ file Word">📌 V1 Gốc</button>
+            <button type="button" class="v-btn active" data-v="v2" title="Bản tối ưu lồng ghép mẫu câu giáo trình">✨ V2 Tối ưu</button>
+          </div>
+          <label class="toggle-pill" id="pinyinToggleLabel" title="Bật/tắt phiên âm pinyin">
+            <input type="checkbox" id="pinyinToggle" checked />
+            <span class="toggle-track"></span>
+            <span class="toggle-text">Pinyin</span>
+          </label>
+          <label class="toggle-pill" id="viToggleLabel" title="Bật/tắt bản dịch tiếng Việt">
+            <input type="checkbox" id="viToggle" checked />
+            <span class="toggle-track"></span>
+            <span class="toggle-text">Dịch</span>
+          </label>
+        </div>
+      </div>
+
+      <!-- Danh mục bài học (ngang, lướt ngón tay tiện lợi) -->
+      <nav class="lesson-chips" id="lessonChips"></nav>
+    </div>
   </header>
 
   <!-- Nội dung danh sách bài & đề thi -->
@@ -107,6 +113,11 @@
       </div>
     </div>
   </div>
+
+  <!-- Nút cuộn lên đầu trang cho desktop & mobile -->
+  <button type="button" class="btn-back-to-top" id="btnBackToTop" title="Cuộn lên đầu trang" hidden aria-label="Cuộn lên đầu trang">
+    <span>↑</span>
+  </button>
 
   <!-- Toast thông báo đã copy -->
   <div class="toast" id="toast" hidden></div>

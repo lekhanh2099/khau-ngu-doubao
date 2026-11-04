@@ -1096,12 +1096,59 @@
     if (e.target === compareModalBackdrop) closeCompareModal();
   });
 
+  // Phím tắt bàn phím tiện ích cho desktop (Escape, /, Cmd+K)
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
-      if (!modalBackdrop?.hidden) closeModal();
-      if (!compareModalBackdrop?.hidden) closeCompareModal();
+      if (!modalBackdrop?.hidden) {
+        closeModal();
+        return;
+      }
+      if (!compareModalBackdrop?.hidden) {
+        closeCompareModal();
+        return;
+      }
+      if (document.activeElement === searchInput) {
+        searchInput.blur();
+        return;
+      }
+    }
+
+    // Nhấn '/' hoặc Cmd+K / Ctrl+K để focus ô tìm kiếm
+    const isEditing = ["INPUT", "TEXTAREA"].includes(document.activeElement?.tagName);
+    if (!isEditing) {
+      if (e.key === "/" || ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k")) {
+        e.preventDefault();
+        searchInput?.focus();
+        searchInput?.select();
+      }
     }
   });
+
+  // Hỗ trợ cuộn chuột ngang mượt mà cho thanh Lesson Chips trên desktop
+  const chipsContainer = $("#lessonChips");
+  if (chipsContainer) {
+    chipsContainer.addEventListener("wheel", (e) => {
+      if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
+        e.preventDefault();
+        chipsContainer.scrollLeft += e.deltaY;
+      }
+    }, { passive: false });
+  }
+
+  // Nút Cuộn lên đầu trang (Back to top)
+  const btnBackToTop = $("#btnBackToTop");
+  if (btnBackToTop) {
+    window.addEventListener("scroll", () => {
+      const show = window.scrollY > 350;
+      if (btnBackToTop.hidden === show) {
+        btnBackToTop.hidden = !show;
+      }
+    }, { passive: true });
+
+    btnBackToTop.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
 
   // Chuyển giáo trình / môn học
   $("#bookNav")?.addEventListener("click", (e) => {
