@@ -499,10 +499,16 @@
                         <button type="button" class="speed-chip ${state.audioSpeed === 1.2 ? "active" : ""}" data-action="change-speed" data-speed="1.2" data-topic-id="${t.id}">1.2x</button>
                       </div>
 
-                      <label class="audio-loop-label" title="Tự động lặp lại khi hết bài để luyện nghe thụ động">
-                        <input type="checkbox" class="audio-loop-cb" data-topic-id="${t.id}" ${state.audioLoop ? "checked" : ""} />
-                        <span class="loop-txt">🔁 Lặp lại</span>
-                      </label>
+                      <div class="player-sub-actions">
+                        <label class="audio-loop-label" title="Tự động lặp lại khi hết bài để luyện nghe thụ động">
+                          <input type="checkbox" class="audio-loop-cb" data-topic-id="${t.id}" ${state.audioLoop ? "checked" : ""} />
+                          <span class="loop-txt">🔁 Lặp</span>
+                        </label>
+
+                        <a href="${t.audio}" download="${t.id}-audio.m4a" class="btn-download-audio" title="Tải file âm thanh về máy để nghe offline">
+                          <span>⬇️ Tải</span>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 ` : (state.version === "v1" ? `
