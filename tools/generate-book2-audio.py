@@ -1,8 +1,15 @@
 """
-Tạo audio hội thoại A & B cho Book 2: 《汉语口语教程》 (13 tình huống).
-Giọng A: zh-CN-YunxiNeural
-Giọng B: zh-CN-XiaoxiaoNeural
-Cắt im lặng, chỉnh ngắt tự nhiên, xuất AAC .m4a.
+Tạo audio hội thoại A & B chuẩn chất lượng cao cho Book 2: 《汉语口语教程》 (13 tình huống).
+Giọng A: zh-CN-YunxiNeural (Nam, tự nhiên, sinh động, chuẩn Bắc Kinh)
+Giọng B: zh-CN-XiaoxiaoNeural (Nữ, ấm áp, truyền cảm, tự nhiên)
+Rate: +0% (chuẩn nhịp nói đời thường)
+
+Điểm cải tiến loại bỏ hoàn toàn hiện tượng vấp/khựng:
+- TUYỆT ĐỐI KHÔNG cắt xén bên trong câu. Giữ nguyên 100% ngữ điệu, hơi thở và khoảng ngắt tự nhiên do AI mô hình hoá.
+- Chỉ cắt bỏ phần im lặng đệm thừa ở đầu (pre-speech) và cuối (post-speech) của từng file.
+- Khoảng nghỉ đổi lượt thoại giữa A và B được cố định ở 0.40s tự nhiên.
+- Mã hoá trực tiếp sang AAC mono .m4a chất lượng cao 64kbps bằng afconvert.
+- Timing karaoke được tính chính xác theo từng sample âm thanh.
 """
 import array
 import asyncio
@@ -15,27 +22,19 @@ import wave
 
 import edge_tts
 
-VOICE_A = "zh-CN-YunxiNeural"      # Nam, tự nhiên, sáng giọng
-VOICE_B = "zh-CN-XiaoxiaoNeural"   # Nữ, ấm và ổn định
-RATE = "+5%"
+VOICE_A = "zh-CN-YunxiNeural"
+VOICE_B = "zh-CN-XiaoxiaoNeural"
+RATE = "+0%"
 
 SR = 24000
 FRAME = int(SR * 0.01)
-SIL_RMS = 120
-EDGE_KEEP = 0.03
-TURN_GAP = 0.38
+SIL_RMS = 100
+TURN_GAP = 0.40
 LEAD_IN = 0.25
-TAIL = 0.6
-XFADE = int(SR * 0.006)
+TAIL = 0.50
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 CACHE_DIR = os.path.join(ROOT, "tools", ".tts-cache")
-
-
-def target_pause(sec):
-    if sec <= 0.18:
-        return sec
-    return min(sec, 0.12 + 0.35 * sec, 0.34)
 
 
 async def tts_mp3(text, voice):
@@ -75,52 +74,21 @@ def silent_frames(pcm):
     return flags
 
 
-def crossfade_join(a, b):
-    n = min(XFADE, len(a), len(b))
-    if n == 0:
-        return a + b
-    out = a[:len(a) - n]
-    for k in range(n):
-        t = k / n
-        out.append(int(a[len(a) - n + k] * (1 - t) + b[k] * t))
-    out.extend(b[n:])
-    return out
-
-
-def clean_sentence(pcm):
+def trim_speech_pcm(pcm):
+    """
+    Chỉ cắt phần im lặng đệm thừa ở đầu và đuôi câu.
+    Không cắt bên trong câu để giữ trọn vẹn ngữ điệu tự nhiên, không bị khựng vấp.
+    """
     flags = silent_frames(pcm)
     voiced = [i for i, s in enumerate(flags) if not s]
     if not voiced:
-        return array.array("h")
-    keep = int(EDGE_KEEP * SR)
-    start = max(0, voiced[0] * FRAME - keep)
-    end = min(len(pcm), (voiced[-1] + 1) * FRAME + keep)
-
-    runs, s = [], None
-    for i in range(voiced[0], voiced[-1] + 1):
-        if flags[i] and s is None:
-            s = i
-        elif not flags[i] and s is not None:
-            runs.append((s * FRAME, i * FRAME))
-            s = None
-
-    out = array.array("h")
-    cursor = start
-    for rs, re_ in runs:
-        length = (re_ - rs) / SR
-        new_len = target_pause(length)
-        if new_len >= length - 0.01:
-            continue
-        cut = int((length - new_len) * SR)
-        mid = rs + (re_ - rs) // 2
-        a_end = mid - cut // 2
-        b_start = a_end + cut
-        out = crossfade_join(out, pcm[cursor:a_end]) if out else pcm[cursor:a_end]
-        cursor = b_start
-    piece = pcm[cursor:end]
-    out = crossfade_join(out, piece) if out else piece
-
-    f = min(int(SR * 0.008), len(out) // 2)
+        return pcm
+    keep_start = int(0.04 * SR)
+    keep_end = int(0.06 * SR)
+    start = max(0, voiced[0] * FRAME - keep_start)
+    end = min(len(pcm), (voiced[-1] + 1) * FRAME + keep_end)
+    out = pcm[start:end]
+    f = min(int(SR * 0.006), len(out) // 2)
     for k in range(f):
         out[k] = int(out[k] * k / f)
         out[-1 - k] = int(out[-1 - k] * k / f)
@@ -145,19 +113,25 @@ async def process_topic(topic, sem):
     for i, (line, path) in enumerate(zip(lines, paths)):
         if i > 0:
             track.extend(silence(TURN_GAP))
-        seg = clean_sentence(decode_pcm(path))
+        seg = trim_speech_pcm(decode_pcm(path))
         start = len(track) / SR
         track.extend(seg)
         end = len(track) / SR
-        timings.append({"n": line["n"], "role": line["role"],
-                        "start": round(start, 2), "end": round(end, 2)})
+        timings.append({
+            "n": line["n"],
+            "role": line["role"],
+            "start": round(start, 2),
+            "end": round(end, 2),
+        })
     track.extend(silence(TAIL))
 
+    # Đồng bộ karaoke: mỗi câu kéo dài tới đầu câu kế tiếp
     for a, b in zip(timings, timings[1:]):
         a["end"] = b["start"]
     timings[-1]["end"] = round(len(track) / SR, 2)
 
     out_rel = f"audio/{topic_id}.m4a"
+    out_path = os.path.join(ROOT, out_rel)
     with tempfile.TemporaryDirectory() as td:
         wav = os.path.join(td, "t.wav")
         with wave.open(wav, "wb") as w:
@@ -166,29 +140,51 @@ async def process_topic(topic, sem):
             w.setframerate(SR)
             w.writeframes(track.tobytes())
         subprocess.run(
-            ["afconvert", "-f", "m4af", "-d", "aac", "-b", "64000", "-q", "127",
-             wav, os.path.join(ROOT, out_rel)],
+            [
+                "afconvert",
+                "-f", "m4af",
+                "-d", "aac",
+                "-b", "64000",
+                "-q", "127",
+                wav,
+                out_path,
+            ],
             check=True,
         )
     dur = round(len(track) / SR, 2)
-    print(f"✓ {topic_id}: {len(lines)} câu, {dur:.1f}s")
+    print(f"✓ {topic_id}: {len(lines)} câu, {dur:.1f}s -> {out_rel}")
     return topic_id, {"file": out_rel, "duration": dur, "timings": timings}
 
 
 async def main():
-    with open(os.path.join(ROOT, "tools", "book2-data.json"), encoding="utf-8") as f:
+    b2_path = os.path.join(ROOT, "tools", "book2-data.json")
+    with open(b2_path, encoding="utf-8") as f:
         book2 = json.load(f)
 
     os.makedirs(os.path.join(ROOT, "audio"), exist_ok=True)
     topics = [t for lesson in book2["lessons"] for t in lesson["topics"]]
-    print(f"Bắt đầu tạo audio cho {len(topics)} tình huống của 《汉语口语教程》...")
-    sem = asyncio.Semaphore(2)
+    print(f"Bắt đầu tạo audio tự nhiên, mượt mà cho {len(topics)} tình huống Book 2...")
+
+    sem = asyncio.Semaphore(3)
     results = await asyncio.gather(*(process_topic(t, sem) for t in topics))
 
     manifest_path = os.path.join(ROOT, "tools", "book2-audio-manifest.json")
+    manifest_data = dict(results)
     with open(manifest_path, "w", encoding="utf-8") as mf:
-        json.dump(dict(results), mf, ensure_ascii=False, indent=2)
-    print(f"\n🎉 Đã tạo {len(results)} file audio cho Book 2. Ghi manifest vào {manifest_path}")
+        json.dump(manifest_data, mf, ensure_ascii=False, indent=2)
+
+    # Cập nhật trực tiếp vào book2-data.json
+    for l in book2["lessons"]:
+        for t in l["topics"]:
+            if t["id"] in manifest_data:
+                t["audio"] = manifest_data[t["id"]]["file"]
+                t["audioDuration"] = manifest_data[t["id"]]["duration"]
+                t["audioTimings"] = manifest_data[t["id"]]["timings"]
+
+    with open(b2_path, "w", encoding="utf-8") as f:
+        json.dump(book2, f, ensure_ascii=False, indent=2)
+
+    print(f"\n🎉 Hoàn thành xuất sắc 13/13 audio cho Book 2! Đã cập nhật book2-data.json và {manifest_path}")
 
 
 if __name__ == "__main__":
