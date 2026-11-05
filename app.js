@@ -511,7 +511,7 @@
                       </div>
                     </div>
                   </div>
-                ` : (state.version === "v1" ? `
+                ` : (state.version === "v1" && t.audio ? `
                   <div class="audio-v1-notice">
                     <span>💡 <em>Audio A &amp; B được thu âm cho bản V2 (Tối ưu).</em></span>
                     <button type="button" class="btn-link-switch-v2" data-action="switch-to-v2">Chuyển sang V2 để nghe</button>
@@ -520,7 +520,7 @@
 
                 <div class="script-intro">
                   <div class="script-version-info">
-                    <span>Kịch bản 18 câu · <strong>${isV2 ? "✨ V2 Tối ưu" : "📌 V1 Gốc"}</strong></span>
+                    <span>Kịch bản ${currentLines.length} câu · <strong>${isV2 ? "✨ V2 Tối ưu" : "📌 V1 Gốc"}</strong></span>
                     ${diffCount > 0 ? `
                       <button type="button" class="btn-compare-mini" data-action="open-compare" data-topic-id="${t.id}">
                         🔍 Chế độ đối chiếu (${diffCount} câu đổi)
@@ -721,16 +721,24 @@
     const v2Lines = topic.v2_lines || [];
 
     const isAllMode = filterMode === "all";
+    const isBook2 = topic.id && topic.id.startsWith("gt-");
+    const badgeLabel = isBook2
+      ? `Bài ${topic.lessonNo} · Tình huống ${topic.no}`
+      : `Bài ${topic.lessonNo} · Câu ${topic.no}`;
+    const totalLinesCount = (v2Lines && v2Lines.length) || (v1Lines && v1Lines.length) || 20;
+    const statDesc = isBook2
+      ? "Đã tối ưu khẩu ngữ đàm thoại &amp; tính thực tế đời sống"
+      : `Đã lồng ghép chuẩn mẫu câu của <em>Bài ${topic.lessonNo}</em>`;
 
     let bodyHtml = `
       <div class="compare-intro">
         <div class="compare-topic-name">
-          <span class="badge-lesson">Bài ${topic.lessonNo} · Câu ${topic.no}</span>
-          <div class="compare-title-zh">${esc(topic.question)}</div>
+          <span class="badge-lesson">${badgeLabel}</span>
+          <div class="compare-title-zh">${esc(topic.question || topic.title || "")}</div>
         </div>
         <div class="compare-stats-bar">
-          <span class="stat-pill">📊 Nâng cấp: <strong>${diffs.length} / 18 câu</strong></span>
-          <span class="stat-desc">Đã lồng ghép chuẩn mẫu câu của <em>Bài ${topic.lessonNo}</em></span>
+          <span class="stat-pill">📊 Nâng cấp: <strong>${diffs.length} / ${totalLinesCount} câu</strong></span>
+          <span class="stat-desc">${statDesc}</span>
         </div>
 
         <div class="compare-filter-tabs">
@@ -738,7 +746,7 @@
             ✨ Chỉ câu thay đổi (${diffs.length})
           </button>
           <button type="button" class="tab-btn ${isAllMode ? "active" : ""}" data-action="set-compare-filter" data-topic-id="${topic.id}" data-filter="all">
-            📄 Toàn bộ 18 câu
+            📄 Toàn bộ ${totalLinesCount} câu
           </button>
         </div>
       </div>

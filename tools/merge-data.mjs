@@ -7,28 +7,8 @@ const here = dirname(fileURLToPath(import.meta.url));
 const root = join(here, "..");
 
 // 1. Nạp Book 1 (Khẩu ngữ Trung cấp)
-let book1 = null;
-const dataJsPath = join(root, "data.js");
-if (existsSync(dataJsPath)) {
-  const content = readFileSync(dataJsPath, "utf8");
-  const jsonStr = content
-    .replace(/^[^\n]*\n/, "")
-    .replace(/^window\.APP_DATA\s*=\s*/, "")
-    .replace(/;\s*$/, "");
-  try {
-    const parsed = JSON.parse(jsonStr);
-    // Nếu data.js đã là cấu trúc đa sách:
-    if (parsed && parsed["trung-cap"]) {
-      book1 = parsed["trung-cap"];
-    } else if (parsed && parsed.lessons) {
-      book1 = parsed;
-      book1.id = "trung-cap";
-      book1.name = "汉语口语速成";
-    }
-  } catch (err) {
-    console.warn("Không parse được data.js cũ:", err.message);
-  }
-}
+const b1DataPath = join(here, "book1-data.json");
+const book1 = JSON.parse(readFileSync(b1DataPath, "utf8"));
 
 // 2. Nạp Book 2 (Khẩu ngữ Giáo trình)
 const b2DataPath = join(here, "book2-data.json");
@@ -60,5 +40,6 @@ window.APP_BOOKS = ${JSON.stringify(books, null, 1)};
 window.APP_DATA = window.APP_BOOKS["giao-trinh"];
 `;
 
+const dataJsPath = join(root, "data.js");
 writeFileSync(dataJsPath, output, "utf8");
-console.log("✅ Đã ghi data.js hợp nhất 2 giáo trình thành công!");
+console.log("✅ Đã ghi data.js hợp nhất 2 giáo trình thành công từ book1-data.json và book2-data.json!");
