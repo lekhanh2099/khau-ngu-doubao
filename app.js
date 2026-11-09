@@ -279,6 +279,37 @@
     return `${D.generalPrompt}\n\n————————\n${getDialogueScript(topic, ver)}`;
   }
 
+  // Tạo Prompt đàm thoại tự do / thi thử phản xạ (Free Talk Roleplay) cho Doubao
+  function getFreeTalkPrompt(topic) {
+    const isBook2 = topic.id && topic.id.startsWith("gt-");
+    const bookTitle = isBook2 ? "《汉语口语教程》" : "《汉语口语速成 · 中级篇》";
+    let lessonNo = topic.lessonNo;
+    if (!lessonNo && D && D.lessons) {
+      const foundLesson = D.lessons.find((l) => l.topics.some((t) => t.id === topic.id));
+      if (foundLesson) lessonNo = foundLesson.no;
+    }
+    const topicLabel = isBook2
+      ? (lessonNo ? `第${lessonNo}课 · 情景${topic.no}` : `情景${topic.no}`)
+      : (lessonNo ? `第${lessonNo}课 · 题${topic.no}` : `题${topic.no}`);
+
+    return `你是我的中文口语考官与对话搭档。今天我们进行【${bookTitle} ${topicLabel}】的【自由口语模拟实战 / 角色扮演】。
+
+【本次对话主题与情境】：
+《${topic.question}》
+${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}
+
+【你的角色与练习规则】：
+1. 【完全入戏】：请根据上述情境主动代入角色（如：朋友/同事/考官/服务员/路人），和我展开真实、生动的口语交流。不要念死记硬背的固定剧本，而是根据我的实际回复灵活应对。
+2. 【控制句长】：每次只回复 1~2 句话（像真人日常聊天一样自然），然后停下来等待我开口。绝对不要一次性说一大段独白。
+3. 【地道表达】：请使用地道、自然的现代中文口语（多用日常高频词与习惯搭配，避免书面化或机械翻译腔）。
+4. 【互动推进】：积极接住我抛出的话题，自然追问、表达看法或提出新点子，让对话自然推进 6~8 个回合。
+5. 【沉浸式纠错】：对话进行中【不要中断我进行语法或发音纠错】，保持对话的沉浸感与流畅度。等我说“结束对话”或者本轮交流完成后，你再简要总结：
+   - 夸奖我表达好的 1~2 个亮点；
+   - 给出 2~3 个可以让表达更地道、更像母语者的词汇/句式替换建议。
+
+收到后，请直接以角色的身份说出你的第一句开场白，等待我的回复！`;
+  }
+
   // Chuyển đổi môn / giáo trình
   function switchBook(bookId) {
     if (!window.APP_BOOKS || !window.APP_BOOKS[bookId]) return;
@@ -403,8 +434,8 @@
             ? `<span class="version-indicator ${state.version}">${isV2 ? "✨ V2 Tối ưu" : "📌 V1 Gốc"}</span>`
             : `<span class="version-indicator v2">Bản chuẩn ${currentLines.length} câu</span>`;
           const copyLabel = diffCount > 0
-            ? `Copy cho Doubao (${isV2 ? "V2 Tối ưu" : "V1 Gốc"})`
-            : `Copy cho Doubao (Tình huống ${t.no})`;
+            ? `Kịch bản (${isV2 ? "V2" : "V1"})`
+            : `Kịch bản (TH ${t.no})`;
 
           return `
             <article class="topic-card" id="card-${t.id}">
@@ -442,10 +473,16 @@
               ` : ""}
 
               <div class="topic-actions">
-                <button type="button" class="btn-primary-copy" data-action="copy-doubao" data-topic-id="${t.id}">
-                  <span>⚡</span>
-                  <span>${copyLabel}</span>
-                </button>
+                <div class="topic-main-copy-group">
+                  <button type="button" class="btn-primary-copy btn-freetalk-copy" data-action="copy-freetalk" data-topic-id="${t.id}" title="Copy Prompt đàm thoại tự do / thi thử phản xạ với Doubao">
+                    <span>🎙️</span>
+                    <span>Nói tự do (Thi thử)</span>
+                  </button>
+                  <button type="button" class="btn-secondary btn-script-copy" data-action="copy-doubao" data-topic-id="${t.id}" title="Copy kịch bản thoại mẫu cho Doubao">
+                    <span>⚡</span>
+                    <span>${copyLabel}</span>
+                  </button>
+                </div>
 
                 <div class="topic-secondary-actions">
                   ${diffCount > 0 ? `
@@ -454,7 +491,7 @@
                     </button>
                   ` : ""}
 
-                  <button type="button" class="btn-secondary" data-action="copy-script-only" data-topic-id="${t.id}">
+                  <button type="button" class="btn-secondary" data-action="copy-script-only" data-topic-id="${t.id}" title="Chỉ copy phần văn bản kịch bản">
                     <span>📋</span>
                     <span>Chỉ Script</span>
                   </button>
@@ -554,8 +591,11 @@
                 </div>
 
                 <div class="script-bottom-bar">
+                  <button type="button" class="btn-primary-copy btn-freetalk-copy" data-action="copy-freetalk" data-topic-id="${t.id}" style="width:100%; margin-bottom: 8px;">
+                    <span>🎙️ Copy Prompt Nói tự do (Thi thử với Doubao)</span>
+                  </button>
                   <button type="button" class="btn-secondary" data-action="copy-doubao" data-topic-id="${t.id}" style="width:100%">
-                    <span>⚡ Copy toàn bộ đề này cho Doubao (${isV2 ? "V2 Tối ưu" : "V1 Gốc"})</span>
+                    <span>⚡ Copy kịch bản mẫu cho Doubao (${isV2 ? "V2 Tối ưu" : "V1 Gốc"})</span>
                   </button>
                 </div>
               </div>
@@ -933,6 +973,14 @@
     const action = target.dataset.action;
     const topicId = target.dataset.topicId;
     const lessonId = target.dataset.lessonId;
+
+    if (action === "copy-freetalk") {
+      const topic = allTopics.find((t) => t.id === topicId);
+      if (topic) {
+        copyText(getFreeTalkPrompt(topic), `Đã copy Prompt Nói tự do (Thi thử) cho Đề ${topic.no}!`);
+      }
+      return;
+    }
 
     if (action === "copy-doubao") {
       const topic = allTopics.find((t) => t.id === topicId);
