@@ -10,32 +10,30 @@
   <link rel="manifest" href="manifest.json" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%2318181b'/><text x='50%' y='68%' font-size='56' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'>说</text></svg>" />
   <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%2318181b'/><text x='50%' y='68%' font-size='56' font-family='sans-serif' font-weight='bold' fill='white' text-anchor='middle'>说</text></svg>" />
-  <title>Khẩu ngữ Tiếng Trung · Copy nhanh cho Doubao</title>
-  <link rel="stylesheet" href="styles.css" />
+  <title>Khẩu ngữ Tiếng Trung · Ôn thi &amp; Luyện nói Doubao</title>
+  <link rel="stylesheet" href="styles.css?v=19" />
 </head>
 <body>
-  <!-- Header cố định trên mobile & desktop -->
+  <!-- Header gọn 1 dòng cố định trên mobile & desktop -->
   <header class="app-header">
     <div class="header-inner">
       <div class="header-top-bar">
         <div class="brand">
           <span class="logo">说</span>
-          <div>
+          <div class="brand-text">
             <h1 id="appTitle">Khẩu ngữ Tiếng Trung</h1>
-            <p class="subtitle" id="appSubtitle">汉语口语教程 · 5 Bài · 13 Tình huống</p>
+            <p class="subtitle" id="appSubtitle">汉语口语速成 · 16 Câu thi</p>
           </div>
         </div>
 
         <!-- Chọn giáo trình / môn học -->
         <div class="book-nav" id="bookNav">
           <div class="book-tabs" role="tablist" aria-label="Chọn môn giáo trình">
-            <button type="button" class="book-tab active" data-book="giao-trinh" id="tabGiaoTrinh" role="tab" aria-selected="true">
-              <span class="book-tab-icon">📖</span>
-              <span class="book-tab-text">汉语口语教程</span>
-            </button>
-            <button type="button" class="book-tab" data-book="trung-cap" id="tabTrungCap" role="tab" aria-selected="false">
-              <span class="book-tab-icon">📕</span>
+            <button type="button" class="book-tab active" data-book="trung-cap" role="tab" aria-selected="true">
               <span class="book-tab-text">汉语口语速成</span>
+            </button>
+            <button type="button" class="book-tab" data-book="giao-trinh" role="tab" aria-selected="false">
+              <span class="book-tab-text">汉语口语教程</span>
             </button>
           </div>
         </div>
@@ -47,12 +45,16 @@
           </button>
         </div>
       </div>
+    </div>
+  </header>
 
-      <!-- Thanh tìm kiếm & tùy chọn hiển thị -->
+  <!-- Thanh công cụ tìm kiếm, phiên bản & chọn bài (cuộn cùng trang, không chiếm chỗ) -->
+  <section class="sub-toolbar" aria-label="Công cụ lọc và tìm kiếm">
+    <div class="sub-toolbar-inner">
       <div class="header-tools">
         <div class="search-wrap">
           <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-          <input type="search" id="searchInput" placeholder="Tìm đề, từ khóa... (phím /)" autocomplete="off" />
+          <input type="search" id="searchInput" placeholder="Tìm câu hỏi, từ khóa... (phím /)" autocomplete="off" />
           <kbd class="search-kbd-hint" title="Nhấn phím / để tìm nhanh">/</kbd>
           <button id="btnClearSearch" class="btn-clear" hidden>×</button>
         </div>
@@ -75,10 +77,9 @@
         </div>
       </div>
 
-      <!-- Danh mục bài học (ngang, lướt ngón tay tiện lợi) -->
       <nav class="lesson-chips" id="lessonChips"></nav>
     </div>
-  </header>
+  </section>
 
   <!-- Nội dung danh sách bài & đề thi -->
   <main class="main-content" id="topicListContainer">
@@ -123,7 +124,7 @@
   <div class="toast" id="toast" hidden></div>
 
   <!-- Nạp dữ liệu & script điều khiển -->
-  <script src="data.js"></script>
-  <script src="app.js"></script>
+  <script src="data.js?v=19"></script>
+  <script src="app.js?v=19"></script>
 </body>
 </html>

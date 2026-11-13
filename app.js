@@ -714,22 +714,21 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}${slideFollowups}
 
           return `
             <article class="topic-card ${isMastered ? "is-mastered" : ""} ${isOutOfScope ? "is-out-of-scope" : ""}" id="card-${t.id}">
-              <div class="topic-meta">
-                <div class="topic-meta-top">
-                  <div class="topic-meta-badges">
-                    <span class="topic-badge">${badgeText}</span>
-                    ${lessonTag}
-                    ${priorityBadge}
-                    ${scopeBadge}
-                    ${versionBadge}
-                  </div>
-                  ${masteredBtn}
+              <div class="topic-meta-top">
+                <div class="topic-meta-badges">
+                  <span class="topic-badge">${badgeText}</span>
+                  ${priorityBadge}
+                  ${scopeBadge}
+                  ${versionBadge}
                 </div>
-                <span class="topic-title-vi">${esc(t.titleVi)}</span>
+                ${masteredBtn}
               </div>
 
-              <div class="topic-question">${esc(t.question)}</div>
-              ${t.questionPinyinHtml ? `<div class="topic-pinyin">${t.questionPinyinHtml}</div>` : (t.questionPinyin ? `<div class="topic-pinyin">${esc(t.questionPinyin)}</div>` : "")}
+              <div class="topic-hero">
+                <div class="topic-question">${esc(t.question)}</div>
+                ${t.questionPinyinHtml ? `<div class="topic-pinyin">${t.questionPinyinHtml}</div>` : (t.questionPinyin ? `<div class="topic-pinyin">${esc(t.questionPinyin)}</div>` : "")}
+                <div class="topic-title-vi">${esc(t.titleVi)}</div>
+              </div>
 
               ${t.outline ? `<div class="topic-outline"><strong>Mạch ý:</strong> ${esc(t.outline)}</div>` : ""}
 
@@ -759,7 +758,7 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}${slideFollowups}
                 <div class="topic-main-copy-group">
                   <button type="button" class="btn-primary-copy btn-freetalk-copy" data-action="copy-freetalk" data-topic-id="${t.id}" title="Copy Prompt đàm thoại tự do / thi thử phản xạ với Doubao">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
-                    <span>Nói tự do (Thi thử)</span>
+                    <span>Nói tự do</span>
                   </button>
                   <button type="button" class="btn-secondary btn-script-copy" data-action="copy-doubao" data-topic-id="${t.id}" title="Copy kịch bản thoại mẫu cho Doubao">
                     <span>${copyLabel}</span>
@@ -768,16 +767,16 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}${slideFollowups}
 
                 <div class="topic-secondary-actions">
                   ${diffCount > 0 ? `
-                    <button type="button" class="btn-secondary btn-compare" data-action="open-compare" data-topic-id="${t.id}" title="Xem bản đối chiếu V1 gốc vs V2 nâng cấp">
+                    <button type="button" class="btn-ghost btn-compare" data-action="open-compare" data-topic-id="${t.id}" title="Xem bản đối chiếu V1 gốc vs V2 nâng cấp">
                       <span>Đối chiếu (${diffCount})</span>
                     </button>
                   ` : ""}
 
-                  <button type="button" class="btn-secondary" data-action="copy-script-only" data-topic-id="${t.id}" title="Chỉ copy phần văn bản kịch bản">
+                  <button type="button" class="btn-ghost" data-action="copy-script-only" data-topic-id="${t.id}" title="Chỉ copy phần văn bản kịch bản">
                     <span>Chỉ Script</span>
                   </button>
 
-                  <button type="button" class="btn-secondary" data-action="toggle-script" data-topic-id="${t.id}">
+                  <button type="button" class="btn-ghost btn-toggle-script" data-action="toggle-script" data-topic-id="${t.id}">
                     <span>${isExpanded ? "Thu gọn ▴" : "Xem Script ▾"}</span>
                   </button>
                 </div>
@@ -1601,10 +1600,19 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}${slideFollowups}
   renderLessonChips();
   renderTopicList();
 
-  // Đăng ký Service Worker cho PWA
+  // Đăng ký Service Worker cho PWA & tự động cập nhật khi có phiên bản mới
   if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
+    let refreshing = false;
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      if (refreshing) return;
+      refreshing = true;
+      window.location.reload();
+    });
     window.addEventListener("load", () => {
-      navigator.serviceWorker.register("./sw.js").catch(() => {});
+      navigator.serviceWorker
+        .register("./sw.js", { updateViaCache: "none" })
+        .then((reg) => reg.update().catch(() => {}))
+        .catch(() => {});
     });
   }
 })();

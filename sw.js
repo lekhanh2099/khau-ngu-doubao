@@ -1,10 +1,10 @@
-const CACHE_NAME = "khau-ngu-v18";
+const CACHE_NAME = "khau-ngu-v19";
 const ASSETS = [
   "./",
   "./index.html",
-  "./styles.css",
-  "./app.js",
-  "./data.js",
+  "./styles.css?v=19",
+  "./app.js?v=19",
+  "./data.js?v=19",
   "./manifest.json"
 ];
 
@@ -38,6 +38,6 @@ self.addEventListener("fetch", (e) => {
         }
         return netRes;
       })
-      .catch(() => caches.match(e.request))
+      .catch(() => caches.match(e.request, { ignoreSearch: true }))
   );
 });
