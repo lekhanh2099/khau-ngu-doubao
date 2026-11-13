@@ -388,11 +388,10 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}${slideFollowups}
         const examCount = topics.filter((t) => t.isExamScope).length;
         const icon = bookData.icon || (examCount > 0 ? "🎯" : "📖");
         const name = bookData.name || bookData.title || bookId;
-        const badge = examCount > 0 ? `${examCount} câu thi` : `${topics.length} bài`;
+        const badge = examCount > 0 ? `${examCount}` : `${topics.length}`;
         const isActive = state.book === bookId;
         return `
           <button type="button" class="book-tab ${isActive ? "active" : ""}" data-book="${esc(bookId)}" role="tab" aria-selected="${isActive ? "true" : "false"}">
-            <span class="book-tab-icon">${icon}</span>
             <span class="book-tab-text">${esc(name)}</span>
             <span class="book-tab-count">${esc(badge)}</span>
           </button>
@@ -482,20 +481,21 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}${slideFollowups}
     const pct = totalExam > 0 ? Math.round((masteredCount / totalExam) * 100) : 0;
 
     const filters = [
-      { id: "examOnly", label: `🎯 ${totalExam} Câu thi` },
-      { id: "priorityOnly", label: `⭐ Trọng tâm (${priorityCount})` },
-      { id: "unmasteredOnly", label: `⏳ Chưa thuộc (${unmasteredCount})` },
-      { id: "all", label: `📚 Tất cả (${allTopics.length})` }
+      { id: "examOnly", label: `${totalExam} Câu thi` },
+      { id: "priorityOnly", label: `Trọng tâm (${priorityCount})` },
+      { id: "unmasteredOnly", label: `Chưa thuộc (${unmasteredCount})` },
+      { id: "all", label: `Tất cả (${allTopics.length})` }
     ];
 
     bar.innerHTML = `
       <div class="exam-bar-top">
         <div class="exam-progress-info">
-          <span class="exam-bar-title">🎯 Ôn thi Khẩu ngữ</span>
+          <span class="exam-bar-title">Ôn thi Khẩu ngữ</span>
           <span class="exam-bar-stat">Đã thuộc <strong>${masteredCount}/${totalExam}</strong> (${pct}%)</span>
         </div>
         <button type="button" class="btn-random-exam" data-action="pick-random-exam" title="Bốc ngẫu nhiên 1 câu thi để luyện phản xạ">
-          🎲 Bốc đề ngẫu nhiên
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>
+          <span>Bốc đề ngẫu nhiên</span>
         </button>
       </div>
       <div class="exam-progress-track" aria-hidden="true">
@@ -667,28 +667,26 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}${slideFollowups}
 
           const badgeText = isSituation
             ? `Bài ${lesson.no} · Tình huống ${t.no}`
-            : (t.examNo ? `🎯 Đề thi #${t.examNo}` : `Bài ${lesson.no} · Câu ${t.no}`);
+            : (t.examNo ? `Đề #${t.examNo} · Bài ${lesson.no}` : `Bài ${lesson.no} · Câu ${t.no}`);
 
-          const lessonTag = (!isSituation && t.examNo)
-            ? `<span class="lesson-mini-badge">Bài ${lesson.no}</span>`
-            : "";
+          const lessonTag = "";
 
           let priorityBadge = "";
           if (t.priority === "red") {
-            priorityBadge = `<span class="priority-badge priority-red">🔴 Khoanh đỏ</span>`;
+            priorityBadge = `<span class="priority-badge priority-red"><span class="prio-dot"></span>Khoanh đỏ</span>`;
           } else if (t.priority === "yellow") {
-            priorityBadge = `<span class="priority-badge priority-yellow">🟡 Khoanh vàng</span>`;
+            priorityBadge = `<span class="priority-badge priority-yellow"><span class="prio-dot"></span>Khoanh vàng</span>`;
           } else if (t.priority === "green") {
-            priorityBadge = `<span class="priority-badge priority-green">🟢 Khoanh xanh</span>`;
+            priorityBadge = `<span class="priority-badge priority-green"><span class="prio-dot"></span>Khoanh xanh</span>`;
           }
 
           const scopeBadge = isOutOfScope
-            ? `<span class="scope-badge-ref">📚 Ngoài đề thi</span>`
+            ? `<span class="scope-badge-ref">Ngoài đề thi</span>`
             : "";
 
           const versionBadge = diffCount > 0
-            ? `<span class="version-indicator ${state.version}">${isV2 ? "✨ V2 Tối ưu" : "📌 V1 Gốc"}</span>`
-            : `<span class="version-indicator v2">${currentLines.length} câu</span>`;
+            ? `<span class="meta-ver-note ${state.version}">${isV2 ? "V2" : "V1"} · ${currentLines.length} câu</span>`
+            : `<span class="meta-ver-note">${currentLines.length} câu</span>`;
 
           const copyLabel = diffCount > 0
             ? `Kịch bản (${isV2 ? "V2" : "V1"})`
@@ -696,7 +694,7 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}${slideFollowups}
 
           const masteredBtn = `
             <button type="button" class="btn-mastered ${isMastered ? "active" : ""}" data-action="toggle-mastered" data-topic-id="${t.id}" aria-pressed="${isMastered}" title="Đánh dấu đã thuộc câu này">
-              ${isMastered ? "✓ Đã thuộc" : "○ Đã thuộc?"}
+              ${isMastered ? "✓ Đã thuộc" : "○ Thuộc"}
             </button>
           `;
 
@@ -704,8 +702,8 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}${slideFollowups}
             ? `
               <details class="slide-questions-box">
                 <summary class="slide-questions-summary">
-                  <span>🎤 <strong>Câu hỏi slide trên lớp</strong> (${t.slideQuestions.length} câu gợi mở)</span>
-                  <span class="chevron">▼</span>
+                  <span>Câu hỏi slide trên lớp (${t.slideQuestions.length} câu)</span>
+                  <span class="chevron">▾</span>
                 </summary>
                 <ul class="slide-questions-list">
                   ${t.slideQuestions.map((sq) => `<li>${esc(sq)}</li>`).join("")}
@@ -740,8 +738,8 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}${slideFollowups}
               ${t.takeaways ? `
                 <details class="takeaways-box">
                   <summary class="takeaways-summary">
-                    <span>💡 <strong>Ý chính để nói</strong> (Takeaways &amp; Câu chốt)</span>
-                    <span class="chevron">▼</span>
+                    <span>Ý chính &amp; Câu chốt</span>
+                    <span class="chevron">▾</span>
                   </summary>
                   <div class="takeaways-content">
                     <ul class="takeaways-list">
@@ -749,7 +747,7 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}${slideFollowups}
                     </ul>
                     ${t.takeaways.goldenQuotes ? `
                       <div class="golden-quote">
-                        <span class="quote-tag">✨ Câu chốt ăn điểm</span>
+                        <span class="quote-tag">Câu chốt ăn điểm</span>
                         <p class="quote-zh">${esc(t.takeaways.goldenQuotes)}</p>
                       </div>
                     ` : ""}
@@ -760,11 +758,10 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}${slideFollowups}
               <div class="topic-actions">
                 <div class="topic-main-copy-group">
                   <button type="button" class="btn-primary-copy btn-freetalk-copy" data-action="copy-freetalk" data-topic-id="${t.id}" title="Copy Prompt đàm thoại tự do / thi thử phản xạ với Doubao">
-                    <span>🎙️</span>
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
                     <span>Nói tự do (Thi thử)</span>
                   </button>
                   <button type="button" class="btn-secondary btn-script-copy" data-action="copy-doubao" data-topic-id="${t.id}" title="Copy kịch bản thoại mẫu cho Doubao">
-                    <span>⚡</span>
                     <span>${copyLabel}</span>
                   </button>
                 </div>
@@ -772,17 +769,16 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}${slideFollowups}
                 <div class="topic-secondary-actions">
                   ${diffCount > 0 ? `
                     <button type="button" class="btn-secondary btn-compare" data-action="open-compare" data-topic-id="${t.id}" title="Xem bản đối chiếu V1 gốc vs V2 nâng cấp">
-                      <span>🔍 Đối chiếu (${diffCount})</span>
+                      <span>Đối chiếu (${diffCount})</span>
                     </button>
                   ` : ""}
 
                   <button type="button" class="btn-secondary" data-action="copy-script-only" data-topic-id="${t.id}" title="Chỉ copy phần văn bản kịch bản">
-                    <span>📋</span>
                     <span>Chỉ Script</span>
                   </button>
 
                   <button type="button" class="btn-secondary" data-action="toggle-script" data-topic-id="${t.id}">
-                    <span>${isExpanded ? "▲ Thu gọn" : "▼ Xem Script"}</span>
+                    <span>${isExpanded ? "Thu gọn ▴" : "Xem Script ▾"}</span>
                   </button>
                 </div>
               </div>
@@ -895,10 +891,10 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}${slideFollowups}
             <h2 class="lesson-title">Bài ${lesson.no} <span class="zh">${esc(lesson.title)}</span></h2>
             <div class="lesson-actions">
               <button type="button" class="btn-sub" data-action="open-vocab" data-lesson-id="${lesson.id}">
-                📚 Từ vựng (${lesson.vocab.length})
+                Từ vựng (${lesson.vocab.length})
               </button>
               <button type="button" class="btn-sub" data-action="open-patterns" data-lesson-id="${lesson.id}">
-                🧩 Đặt câu &amp; Ngữ pháp (${lesson.patterns.length})
+                Đặt câu &amp; Ngữ pháp (${lesson.patterns.length})
               </button>
             </div>
           </div>
@@ -1331,7 +1327,7 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}${slideFollowups}
       const isNowMastered = state.masteredIds.has(topicId);
       target.classList.toggle("active", isNowMastered);
       target.setAttribute("aria-pressed", isNowMastered ? "true" : "false");
-      target.textContent = isNowMastered ? "✓ Đã thuộc" : "○ Đã thuộc?";
+      target.textContent = isNowMastered ? "✓ Đã thuộc" : "○ Thuộc";
       const card = $(`#card-${topicId}`);
       if (card) card.classList.toggle("is-mastered", isNowMastered);
       renderExamFocusBar();
@@ -1355,10 +1351,10 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}${slideFollowups}
         scriptDrawer.hidden = isNowHidden;
         if (isNowHidden) {
           state.expandedScripts.delete(topicId);
-          target.innerHTML = `<span>▼ Xem Script</span>`;
+          target.innerHTML = `<span>Xem Script ▾</span>`;
         } else {
           state.expandedScripts.add(topicId);
-          target.innerHTML = `<span>▲ Thu gọn</span>`;
+          target.innerHTML = `<span>Thu gọn ▴</span>`;
         }
       }
       return;

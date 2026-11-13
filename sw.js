@@ -1,4 +1,4 @@
-const CACHE_NAME = "khau-ngu-v17";
+const CACHE_NAME = "khau-ngu-v18";
 const ASSETS = [
   "./",
   "./index.html",
@@ -23,12 +23,21 @@ self.addEventListener("activate", (e) => {
 });
 
 self.addEventListener("fetch", (e) => {
-  // Audio dùng Range request khi stream/tua: để trình duyệt tự tải trực tiếp,
-  // không đi qua Service Worker (tránh giật/khựng trên iOS Safari).
+  if (e.request.method !== "GET") return;
   const url = new URL(e.request.url);
+  if (url.origin !== location.origin) return;
   if (url.pathname.includes("/audio/") || e.request.headers.has("range")) return;
 
+  // Network-first cho tài nguyên app để bản cập nhật hiển thị ngay, vẫn hỗ trợ offline
   e.respondWith(
-    caches.match(e.request).then((res) => res || fetch(e.request))
+    fetch(e.request)
+      .then((netRes) => {
+        if (netRes && netRes.ok) {
+          const clone = netRes.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(e.request, clone)).catch(() => {});
+        }
+        return netRes;
+      })
+      .catch(() => caches.match(e.request))
   );
 });
