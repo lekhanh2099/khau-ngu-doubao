@@ -7,10 +7,42 @@
 (() => {
   "use strict";
 
+  function loadMasteredSet() {
+    try {
+      const raw = JSON.parse(localStorage.getItem("kn_mastered_topics") || "[]");
+      return new Set(Array.isArray(raw) ? raw : []);
+    } catch {
+      return new Set();
+    }
+  }
+
+  function saveMasteredSet(setObj) {
+    try {
+      localStorage.setItem("kn_mastered_topics", JSON.stringify([...setObj]));
+    } catch {}
+  }
+
+  function getInitialBookId() {
+    const saved = localStorage.getItem("kn_active_book");
+    if (saved && window.APP_BOOKS && window.APP_BOOKS[saved]) return saved;
+    if (window.APP_BOOKS) {
+      const entries = Object.entries(window.APP_BOOKS);
+      const examBook = entries.find(([, b]) =>
+        (b.lessons || []).some((l) => (l.topics || []).some((t) => t.isExamScope))
+      );
+      if (examBook) return examBook[0];
+      if (window.APP_BOOKS["giao-trinh"]) return "giao-trinh";
+      if (entries.length) return entries[0][0];
+    }
+    return "trung-cap";
+  }
+
   // Trạng thái ứng dụng (lưu localStorage)
   const state = {
-    book: localStorage.getItem("kn_active_book") || "giao-trinh", // Mặc định giáo trình mới
+    book: getInitialBookId(),
     selectedLesson: localStorage.getItem("kn_selected_lesson") || "all",
+    examFilter: localStorage.getItem("kn_exam_filter") || "examOnly", // 'examOnly' | 'priorityOnly' | 'unmasteredOnly' | 'all'
+    masteredIds: loadMasteredSet(),
     version: localStorage.getItem("kn_version") || "v2", // Mặc định V2 Tối ưu
     showPinyin: localStorage.getItem("kn_show_pinyin") !== "false", // Mặc định bật
     showVi: localStorage.getItem("kn_show_vi") !== "false", // Mặc định bật
@@ -47,6 +79,29 @@
     }
   }
   refreshTopics();
+
+  function hasExamScopeTopics() {
+    return allTopics.some((t) => t.isExamScope === true);
+  }
+
+  function isSituationBook() {
+    return allTopics.length > 0 && allTopics.every((t) => (t.id && t.id.startsWith("gt-")) || t.isSituation === true);
+  }
+
+  function matchesExamFilter(topic) {
+    if (!hasExamScopeTopics()) return true;
+    switch (state.examFilter) {
+      case "examOnly":
+        return topic.isExamScope === true;
+      case "priorityOnly":
+        return Boolean(topic.priority);
+      case "unmasteredOnly":
+        return topic.isExamScope === true && !state.masteredIds.has(topic.id);
+      case "all":
+      default:
+        return true;
+    }
+  }
 
   // Tiện ích DOM
   const $ = (selector, context = document) => context.querySelector(selector);
@@ -281,8 +336,8 @@
 
   // Tạo Prompt đàm thoại tự do / thi thử phản xạ (Free Talk Roleplay) cho Doubao
   function getFreeTalkPrompt(topic) {
-    const isBook2 = topic.id && topic.id.startsWith("gt-");
-    const bookTitle = isBook2 ? "《汉语口语教程》" : "《汉语口语速成 · 中级篇》";
+    const isBook2 = (topic.id && topic.id.startsWith("gt-")) || isSituationBook();
+    const bookTitle = D.name ? `《${D.name}》` : (isBook2 ? "《汉语口语教程》" : "《汉语口语速成 · 中级篇》");
     let lessonNo = topic.lessonNo;
     if (!lessonNo && D && D.lessons) {
       const foundLesson = D.lessons.find((l) => l.topics.some((t) => t.id === topic.id));
@@ -290,13 +345,23 @@
     }
     const topicLabel = isBook2
       ? (lessonNo ? `第${lessonNo}课 · 情景${topic.no}` : `情景${topic.no}`)
-      : (lessonNo ? `第${lessonNo}课 · 题${topic.no}` : `题${topic.no}`);
+      : (topic.examNo
+        ? `考题 #${topic.examNo}（第${lessonNo}课）`
+        : (lessonNo ? `第${lessonNo}课 · 题${topic.no}` : `题${topic.no}`));
+
+    const slideFollowups = Array.isArray(topic.slideQuestions) && topic.slideQuestions.length
+      ? `\n\n【课堂 Slide 延伸追问参考（请在对话中自然穿插 1~2 个追问）】：\n${topic.slideQuestions.map((q) => `- ${q}`).join("\n")}`
+      : "";
+
+    const takeawaysHint = topic.takeaways && Array.isArray(topic.takeaways.points) && topic.takeaways.points.length
+      ? `\n\n【核心语境提示】：\n${topic.takeaways.points.slice(0, 3).map((p) => `- ${p}`).join("\n")}`
+      : "";
 
     return `你是我的中文口语考官与对话搭档。今天我们进行【${bookTitle} ${topicLabel}】的【自由口语模拟实战 / 角色扮演】。
 
 【本次对话主题与情境】：
 《${topic.question}》
-${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}
+${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}${slideFollowups}${takeawaysHint}
 
 【你的角色与练习规则】：
 1. 【完全入戏】：请根据上述情境主动代入角色（如：朋友/同事/考官/服务员/路人），和我展开真实、生动的口语交流。不要念死记硬背的固定剧本，而是根据我的实际回复灵活应对。
@@ -310,6 +375,32 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}
 收到后，请直接以角色的身份说出你的第一句开场白，等待我的回复！`;
   }
 
+  // Render Book Tabs động từ window.APP_BOOKS (dễ mở rộng giáo trình tương lai)
+  function renderBookTabs() {
+    const tabsWrap = $("#bookNav .book-tabs");
+    if (!tabsWrap || !window.APP_BOOKS) return;
+    const entries = Object.entries(window.APP_BOOKS);
+    if (!entries.length) return;
+
+    tabsWrap.innerHTML = entries
+      .map(([bookId, bookData]) => {
+        const topics = (bookData.lessons || []).flatMap((l) => l.topics || []);
+        const examCount = topics.filter((t) => t.isExamScope).length;
+        const icon = bookData.icon || (examCount > 0 ? "🎯" : "📖");
+        const name = bookData.name || bookData.title || bookId;
+        const badge = examCount > 0 ? `${examCount} câu thi` : `${topics.length} bài`;
+        const isActive = state.book === bookId;
+        return `
+          <button type="button" class="book-tab ${isActive ? "active" : ""}" data-book="${esc(bookId)}" role="tab" aria-selected="${isActive ? "true" : "false"}">
+            <span class="book-tab-icon">${icon}</span>
+            <span class="book-tab-text">${esc(name)}</span>
+            <span class="book-tab-count">${esc(badge)}</span>
+          </button>
+        `;
+      })
+      .join("");
+  }
+
   // Chuyển đổi môn / giáo trình
   function switchBook(bookId) {
     if (!window.APP_BOOKS || !window.APP_BOOKS[bookId]) return;
@@ -320,6 +411,10 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}
     state.selectedLesson = "all";
     localStorage.setItem("kn_selected_lesson", "all");
     state.searchKeyword = "";
+    const searchEl = $("#searchInput");
+    const clearBtn = $("#btnClearSearch");
+    if (searchEl) searchEl.value = "";
+    if (clearBtn) clearBtn.hidden = true;
     state.expandedScripts.clear();
 
     D = getActiveBook();
@@ -345,6 +440,7 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}
       versionToggle.style.display = hasDiffs ? "inline-flex" : "none";
     }
 
+    renderExamFocusBar();
     renderLessonChips();
     renderTopicList();
     showToast(`Đã chuyển sang ${D.name || D.title}`, "📖");
@@ -352,16 +448,149 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}
 
   // ================================================= Render Giao Diện =================================================
 
+  // 0. Thanh Ôn thi trọng tâm & Theo dõi tiến độ (chỉ hiện cho giáo trình có isExamScope)
+  function ensureExamFocusBar() {
+    let bar = $("#examFocusBar");
+    if (!bar) {
+      const listContainer = $("#topicListContainer");
+      if (listContainer && listContainer.parentNode) {
+        bar = document.createElement("section");
+        bar.id = "examFocusBar";
+        bar.className = "exam-focus-bar";
+        listContainer.parentNode.insertBefore(bar, listContainer);
+      }
+    }
+    return bar;
+  }
+
+  function renderExamFocusBar() {
+    const bar = ensureExamFocusBar();
+    if (!bar) return;
+
+    if (!hasExamScopeTopics()) {
+      bar.hidden = true;
+      bar.innerHTML = "";
+      return;
+    }
+
+    bar.hidden = false;
+    const examTopics = allTopics.filter((t) => t.isExamScope === true);
+    const totalExam = examTopics.length;
+    const masteredCount = examTopics.filter((t) => state.masteredIds.has(t.id)).length;
+    const priorityCount = allTopics.filter((t) => Boolean(t.priority)).length;
+    const unmasteredCount = totalExam - masteredCount;
+    const pct = totalExam > 0 ? Math.round((masteredCount / totalExam) * 100) : 0;
+
+    const filters = [
+      { id: "examOnly", label: `🎯 ${totalExam} Câu thi` },
+      { id: "priorityOnly", label: `⭐ Trọng tâm (${priorityCount})` },
+      { id: "unmasteredOnly", label: `⏳ Chưa thuộc (${unmasteredCount})` },
+      { id: "all", label: `📚 Tất cả (${allTopics.length})` }
+    ];
+
+    bar.innerHTML = `
+      <div class="exam-bar-top">
+        <div class="exam-progress-info">
+          <span class="exam-bar-title">🎯 Ôn thi Khẩu ngữ</span>
+          <span class="exam-bar-stat">Đã thuộc <strong>${masteredCount}/${totalExam}</strong> (${pct}%)</span>
+        </div>
+        <button type="button" class="btn-random-exam" data-action="pick-random-exam" title="Bốc ngẫu nhiên 1 câu thi để luyện phản xạ">
+          🎲 Bốc đề ngẫu nhiên
+        </button>
+      </div>
+      <div class="exam-progress-track" aria-hidden="true">
+        <div class="exam-progress-fill" style="width: ${pct}%"></div>
+      </div>
+      <div class="exam-filter-pills" role="tablist" aria-label="Lọc câu hỏi ôn thi">
+        ${filters
+          .map(
+            (f) => `
+          <button type="button" class="exam-filter-pill ${state.examFilter === f.id ? "active" : ""}" data-action="set-exam-filter" data-filter="${f.id}">
+            ${esc(f.label)}
+          </button>
+        `
+          )
+          .join("")}
+      </div>
+    `;
+  }
+
+  function pickRandomExamTopic() {
+    const examTopics = allTopics.filter((t) => t.isExamScope === true);
+    if (!examTopics.length) return;
+
+    // Ưu tiên bốc trong nhóm đang lọc (hoặc các câu chưa thuộc nếu đang lọc tất cả)
+    let pool = examTopics.filter((t) => !state.masteredIds.has(t.id));
+    if (state.examFilter === "priorityOnly") {
+      const prioPool = examTopics.filter((t) => Boolean(t.priority));
+      if (prioPool.length) pool = prioPool;
+    } else if (!pool.length) {
+      pool = examTopics;
+    }
+
+    const picked = pool[Math.floor(Math.random() * pool.length)];
+    if (!picked) return;
+
+    // Đảm bảo bộ lọc không ẩn mất câu vừa bốc
+    if (state.examFilter === "priorityOnly" && !picked.priority) {
+      state.examFilter = "examOnly";
+      localStorage.setItem("kn_exam_filter", state.examFilter);
+    }
+    if (state.selectedLesson !== "all" && state.selectedLesson !== picked.lessonId) {
+      state.selectedLesson = "all";
+      localStorage.setItem("kn_selected_lesson", "all");
+    }
+    state.searchKeyword = "";
+    const searchEl = $("#searchInput");
+    const clearBtn = $("#btnClearSearch");
+    if (searchEl) searchEl.value = "";
+    if (clearBtn) clearBtn.hidden = true;
+
+    renderExamFocusBar();
+    renderLessonChips();
+    renderTopicList();
+
+    requestAnimationFrame(() => {
+      const card = $(`#card-${picked.id}`);
+      if (card) {
+        card.scrollIntoView({ behavior: "smooth", block: "center" });
+        card.classList.remove("is-random-picked");
+        void card.offsetWidth;
+        card.classList.add("is-random-picked");
+      }
+      const numLabel = picked.examNo ? `Đề thi #${picked.examNo}` : `Câu ${picked.no}`;
+      showToast(`🎲 Trúng ${numLabel}: ${picked.titleVi}`, "🎯");
+    });
+  }
+
   // 1. Render thanh Lesson Chips cuộn ngang
   function renderLessonChips() {
     const container = $("#lessonChips");
     if (!container) return;
 
+    const lessonCounts = D.lessons.map((l) => ({
+      lesson: l,
+      count: l.topics.filter(matchesExamFilter).length
+    }));
+    const visibleLessons = hasExamScopeTopics() && state.examFilter !== "all"
+      ? lessonCounts.filter((x) => x.count > 0)
+      : lessonCounts;
+
+    // Nếu bài đang chọn bị ẩn theo filter hiện tại, tự chuyển về 'all'
+    if (
+      state.selectedLesson !== "all" &&
+      !visibleLessons.some((x) => x.lesson.id === state.selectedLesson)
+    ) {
+      state.selectedLesson = "all";
+      localStorage.setItem("kn_selected_lesson", "all");
+    }
+
+    const totalVisible = visibleLessons.reduce((sum, x) => sum + x.count, 0);
     const chips = [
-      { id: "all", label: `Tất cả (${allTopics.length})` },
-      ...D.lessons.map((l) => ({
-        id: l.id,
-        label: `Bài ${l.no} · ${l.title} (${l.topics.length})`
+      { id: "all", label: `Tất cả (${totalVisible})` },
+      ...visibleLessons.map(({ lesson, count }) => ({
+        id: lesson.id,
+        label: `Bài ${lesson.no} · ${lesson.title} (${count})`
       }))
     ];
 
@@ -411,15 +640,20 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}
     const htmlChunks = [];
 
     targetLessons.forEach((lesson) => {
-      // Lọc các topic trong bài này theo từ khóa tìm kiếm
+      // Lọc các topic trong bài này theo chế độ ôn thi & từ khóa tìm kiếm
       const matchedTopics = lesson.topics.filter((t) => {
+        if (!matchesExamFilter(t)) return false;
         if (!query) return true;
-        const searchTarget = `${t.no} ${t.titleVi} ${t.question} ${t.questionPinyin || ""} ${t.outline || ""}`.toLowerCase();
+        const slideText = Array.isArray(t.slideQuestions) ? t.slideQuestions.join(" ") : "";
+        const searchTarget = `${t.no} ${t.examNo || ""} ${t.titleVi} ${t.question} ${t.questionPinyin || ""} ${t.outline || ""} ${slideText}`.toLowerCase();
         return searchTarget.includes(query);
       });
 
       if (!matchedTopics.length) return;
       totalMatched += matchedTopics.length;
+
+      const hasExam = hasExamScopeTopics();
+      const isSituation = isSituationBook();
 
       const topicsHtml = matchedTopics
         .map((t) => {
@@ -428,21 +662,70 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}
           const diffCount = t.diffs ? t.diffs.length : 0;
           const isV2 = state.version === "v2";
           const isCurrentPlaying = currentPlayingTopicId === t.id && currentAudio && !currentAudio.paused;
-          const isBook2 = t.id.startsWith("gt-") || diffCount === 0;
-          const badgeText = isBook2 ? `Bài ${lesson.no} · Tình huống ${t.no}` : `Bài ${lesson.no} · Câu ${t.no}`;
+          const isMastered = state.masteredIds.has(t.id);
+          const isOutOfScope = hasExam && t.isExamScope === false;
+
+          const badgeText = isSituation
+            ? `Bài ${lesson.no} · Tình huống ${t.no}`
+            : (t.examNo ? `🎯 Đề thi #${t.examNo}` : `Bài ${lesson.no} · Câu ${t.no}`);
+
+          const lessonTag = (!isSituation && t.examNo)
+            ? `<span class="lesson-mini-badge">Bài ${lesson.no}</span>`
+            : "";
+
+          let priorityBadge = "";
+          if (t.priority === "red") {
+            priorityBadge = `<span class="priority-badge priority-red">🔴 Khoanh đỏ</span>`;
+          } else if (t.priority === "yellow") {
+            priorityBadge = `<span class="priority-badge priority-yellow">🟡 Khoanh vàng</span>`;
+          } else if (t.priority === "green") {
+            priorityBadge = `<span class="priority-badge priority-green">🟢 Khoanh xanh</span>`;
+          }
+
+          const scopeBadge = isOutOfScope
+            ? `<span class="scope-badge-ref">📚 Ngoài đề thi</span>`
+            : "";
+
           const versionBadge = diffCount > 0
             ? `<span class="version-indicator ${state.version}">${isV2 ? "✨ V2 Tối ưu" : "📌 V1 Gốc"}</span>`
-            : `<span class="version-indicator v2">Bản chuẩn ${currentLines.length} câu</span>`;
+            : `<span class="version-indicator v2">${currentLines.length} câu</span>`;
+
           const copyLabel = diffCount > 0
             ? `Kịch bản (${isV2 ? "V2" : "V1"})`
             : `Kịch bản (TH ${t.no})`;
 
+          const masteredBtn = `
+            <button type="button" class="btn-mastered ${isMastered ? "active" : ""}" data-action="toggle-mastered" data-topic-id="${t.id}" aria-pressed="${isMastered}" title="Đánh dấu đã thuộc câu này">
+              ${isMastered ? "✓ Đã thuộc" : "○ Đã thuộc?"}
+            </button>
+          `;
+
+          const slideQuestionsHtml = Array.isArray(t.slideQuestions) && t.slideQuestions.length
+            ? `
+              <details class="slide-questions-box">
+                <summary class="slide-questions-summary">
+                  <span>🎤 <strong>Câu hỏi slide trên lớp</strong> (${t.slideQuestions.length} câu gợi mở)</span>
+                  <span class="chevron">▼</span>
+                </summary>
+                <ul class="slide-questions-list">
+                  ${t.slideQuestions.map((sq) => `<li>${esc(sq)}</li>`).join("")}
+                </ul>
+              </details>
+            `
+            : "";
+
           return `
-            <article class="topic-card" id="card-${t.id}">
+            <article class="topic-card ${isMastered ? "is-mastered" : ""} ${isOutOfScope ? "is-out-of-scope" : ""}" id="card-${t.id}">
               <div class="topic-meta">
-                <div class="topic-meta-badges">
-                  <span class="topic-badge">${badgeText}</span>
-                  ${versionBadge}
+                <div class="topic-meta-top">
+                  <div class="topic-meta-badges">
+                    <span class="topic-badge">${badgeText}</span>
+                    ${lessonTag}
+                    ${priorityBadge}
+                    ${scopeBadge}
+                    ${versionBadge}
+                  </div>
+                  ${masteredBtn}
                 </div>
                 <span class="topic-title-vi">${esc(t.titleVi)}</span>
               </div>
@@ -451,6 +734,8 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}
               ${t.questionPinyinHtml ? `<div class="topic-pinyin">${t.questionPinyinHtml}</div>` : (t.questionPinyin ? `<div class="topic-pinyin">${esc(t.questionPinyin)}</div>` : "")}
 
               ${t.outline ? `<div class="topic-outline"><strong>Mạch ý:</strong> ${esc(t.outline)}</div>` : ""}
+
+              ${slideQuestionsHtml}
 
               ${t.takeaways ? `
                 <details class="takeaways-box">
@@ -613,7 +898,7 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}
                 📚 Từ vựng (${lesson.vocab.length})
               </button>
               <button type="button" class="btn-sub" data-action="open-patterns" data-lesson-id="${lesson.id}">
-                🧩 Mẫu câu (${lesson.patterns.length})
+                🧩 Đặt câu &amp; Ngữ pháp (${lesson.patterns.length})
               </button>
             </div>
           </div>
@@ -623,12 +908,22 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}
     });
 
     if (totalMatched === 0) {
-      container.innerHTML = `
-        <div style="text-align: center; padding: 48px 16px; color: var(--text-muted);">
-          <div style="font-size: 36px; margin-bottom: 8px;">🔍</div>
-          <p>Không tìm thấy đề thi nào phù hợp với từ khóa "<strong>${esc(query)}</strong>"</p>
-        </div>
-      `;
+      if (hasExamScopeTopics() && state.examFilter === "unmasteredOnly" && !query) {
+        container.innerHTML = `
+          <div style="text-align: center; padding: 48px 16px; color: var(--text-muted);">
+            <div style="font-size: 40px; margin-bottom: 8px;">🎉</div>
+            <p style="font-weight: 700; color: var(--text); margin-bottom: 6px;">Xuất sắc! Bạn đã đánh dấu thuộc hết toàn bộ câu thi.</p>
+            <p style="font-size: 13.5px; margin-bottom: 14px;">Bạn có thể bấm xem lại toàn bộ 16 câu hoặc bốc đề ngẫu nhiên để luyện phản xạ.</p>
+          </div>
+        `;
+      } else {
+        container.innerHTML = `
+          <div style="text-align: center; padding: 48px 16px; color: var(--text-muted);">
+            <div style="font-size: 36px; margin-bottom: 8px;">🔍</div>
+            <p>Không tìm thấy đề thi nào phù hợp${query ? ` với từ khóa "<strong>${esc(query)}</strong>"` : ""}.</p>
+          </div>
+        `;
+      }
     } else {
       container.innerHTML = htmlChunks.join("");
     }
@@ -713,11 +1008,32 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}
           `;
         }
 
+        let extraExHtml = "";
+        if (Array.isArray(p.extraExamples) && p.extraExamples.length) {
+          extraExHtml = `
+            <div class="pattern-extra-block">
+              <div class="pattern-extra-label">📝 Ví dụ đặt câu (Chú thích thi):</div>
+              ${p.extraExamples
+                .map(
+                  (ex) => `
+                <div class="pattern-ex pattern-ex-extra">
+                  <span class="ex-zh">${esc(ex.zh)}</span>
+                  ${ex.pinyinHtml ? `<span class="ex-py">${ex.pinyinHtml}</span>` : (ex.pinyin ? `<span class="ex-py">${esc(ex.pinyin)}</span>` : "")}
+                  ${ex.vi ? `<span class="ex-vi">→ ${esc(ex.vi)}</span>` : ""}
+                </div>
+              `
+                )
+                .join("")}
+            </div>
+          `;
+        }
+
         return `
           <div class="pattern-card">
             <h4>${esc(title)}</h4>
             ${explain ? `<p class="pattern-explain">${esc(explain)}</p>` : ""}
             ${exHtml}
+            ${extraExHtml}
           </div>
         `;
       })
@@ -1005,6 +1321,28 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}
       return;
     }
 
+    if (action === "toggle-mastered") {
+      if (state.masteredIds.has(topicId)) {
+        state.masteredIds.delete(topicId);
+      } else {
+        state.masteredIds.add(topicId);
+      }
+      saveMasteredSet(state.masteredIds);
+      const isNowMastered = state.masteredIds.has(topicId);
+      target.classList.toggle("active", isNowMastered);
+      target.setAttribute("aria-pressed", isNowMastered ? "true" : "false");
+      target.textContent = isNowMastered ? "✓ Đã thuộc" : "○ Đã thuộc?";
+      const card = $(`#card-${topicId}`);
+      if (card) card.classList.toggle("is-mastered", isNowMastered);
+      renderExamFocusBar();
+      if (state.examFilter === "unmasteredOnly" && isNowMastered) {
+        renderLessonChips();
+        renderTopicList();
+      }
+      showToast(isNowMastered ? "Đã đánh dấu thuộc câu này!" : "Đã bỏ đánh dấu thuộc", isNowMastered ? "✓" : "○");
+      return;
+    }
+
     if (action === "switch-to-v2") {
       setVersion("v2");
       return;
@@ -1212,6 +1550,29 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}
     });
   }
 
+  // Thanh lọc ôn thi & bốc đề ngẫu nhiên
+  $(".main-content")?.addEventListener("click", (e) => {
+    const target = e.target.closest("[data-action]");
+    if (!target) return;
+    const action = target.dataset.action;
+
+    if (action === "set-exam-filter") {
+      const nextFilter = target.dataset.filter || "examOnly";
+      if (state.examFilter === nextFilter) return;
+      state.examFilter = nextFilter;
+      localStorage.setItem("kn_exam_filter", nextFilter);
+      renderExamFocusBar();
+      renderLessonChips();
+      renderTopicList();
+      return;
+    }
+
+    if (action === "pick-random-exam") {
+      pickRandomExamTopic();
+      return;
+    }
+  });
+
   // Chuyển giáo trình / môn học
   $("#bookNav")?.addEventListener("click", (e) => {
     const tab = e.target.closest(".book-tab");
@@ -1221,6 +1582,7 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}
   });
 
   // Khởi động
+  renderBookTabs();
   if (state.book) {
     $$(".book-tab").forEach((tab) => {
       const isActive = tab.dataset.book === state.book;
@@ -1239,6 +1601,7 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}
   }
 
   updateVersionButtons();
+  renderExamFocusBar();
   renderLessonChips();
   renderTopicList();
 

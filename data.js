@@ -9771,8 +9771,8 @@ window.APP_BOOKS = {
   }
  },
  "trung-cap": {
-  "title": "KHẨU NGỮ TRUNG CẤP",
-  "subtitle": "汉语口语速成 · 提高篇  |  第2、3、5、7、8、9课",
+  "title": "Khẩu ngữ Tiếng Trung · Ôn thi",
+  "subtitle": "汉语口语速成 · 16 Câu thi (Bài 2,3,5) + Đặt câu + Tham khảo",
   "generalPrompt": "你是我的中文口语「固定台词跟练器」，不是自由聊天机器人，也不是评分老师。我会把本说明和某一道题的完整A-B对话发给你。你只能依照那一道题的编号台词练习。\n\n【规则】\n1. 一题练两遍。第一遍你演A、我演B；第二遍我演A、你演B。两遍都必须从[01]重新开始。\n2. 每次只读自己角色的一句「｜」右边的中文原文，然后停下来听我说。不要读编号、A/B、标题、提示或越南语内容。\n3. 第一遍：你读[01]A→我说[02]B→你读[03]A……；第二遍：我说[01]A→你读[02]B→我说[03]A……。严格按编号前进，禁止自行改写或增添台词。\n4. 无论我有没有逐字说对，只要我说完一轮，就继续读你下一句。不要回答我临时提出的问题；此阶段不纠音、不解释、不评价、不打分。\n5. 第一遍结束时，只说「交换角色。现在你演A，请说第一句。」然后等我开口；第二遍结束时，只说「本题练习结束。」并停止。不要自动跳到下一题。\n6. 我说「暂停」就停止；「继续」就接着读；「重来」就在当前角色分配下从[01]重新开始；「下一题」才改练我指定的新题。\n7. 如果没有看到完整编号台词，不要编造，请让我粘贴该题。\n\n收到本说明后，先等待我粘贴题目。看到题目后，直接只读该题[01]A的原文，不要先解释规则。",
   "lessons": [
    {
@@ -9919,6 +9919,97 @@ window.APP_BOOKS = {
       "hanzi": "广",
       "pinyin": "guǎng",
       "vi": "rộng; phong phú"
+     },
+     {
+      "hanzi": "病毒感染",
+      "pinyin": "bìngdú gǎnrǎn",
+      "pos": "cụm",
+      "hanviet": "BỆNH ĐỘC CẢM NHIỄM",
+      "meaning": "Nhiễm virus"
+     },
+     {
+      "hanzi": "自然疗法",
+      "pinyin": "zìrán liáofǎ",
+      "pos": "n.",
+      "hanviet": "TỰ NHIÊN LIỆU PHÁP",
+      "meaning": "Phương pháp trị liệu tự nhiên"
+     },
+     {
+      "hanzi": "快速恢复",
+      "pinyin": "kuàisù huīfù",
+      "pos": "cụm",
+      "hanviet": "KHOÁI TỐC KHÔI PHỤC",
+      "meaning": "Phục hồi nhanh chóng"
+     },
+     {
+      "hanzi": "免疫系统",
+      "pinyin": "miǎnyì xìtǒng",
+      "pos": "n.",
+      "hanviet": "MIỄN DỊCH HỆ THỐNG",
+      "meaning": "Hệ miễn dịch"
+     },
+     {
+      "hanzi": "免疫力",
+      "pinyin": "miǎnyì lì",
+      "pos": "n.",
+      "hanviet": "MIỄN DỊCH LỰC",
+      "meaning": "Sức đề kháng / khả năng miễn dịch"
+     },
+     {
+      "hanzi": "滥用药物",
+      "pinyin": "lànyòng yàowù",
+      "pos": "cụm",
+      "hanviet": "LẠM DỤNG DƯỢC VẬT",
+      "meaning": "Lạm dụng thuốc"
+     },
+     {
+      "hanzi": "拖久",
+      "pinyin": "tuōjiǔ",
+      "pos": "v.",
+      "hanviet": "THA CỬU",
+      "meaning": "Kéo dài (thời gian)"
+     },
+     {
+      "hanzi": "拖着不治",
+      "pinyin": "tuōzhe bù zhì",
+      "pos": "cụm",
+      "hanviet": "THA TRỨ BẤT TRỊ",
+      "meaning": "Dây dưa kéo dài không chịu chữa"
+     },
+     {
+      "hanzi": "敌人",
+      "pinyin": "dírén",
+      "pos": "n.",
+      "hanviet": "ĐỊCH NHÂN",
+      "meaning": "Kẻ thù"
+     },
+     {
+      "hanzi": "退烧药",
+      "pinyin": "tuìshāoyào",
+      "pos": "n.",
+      "hanviet": "THOÁI THIÊU DƯỢC",
+      "meaning": "Thuốc hạ sốt"
+     },
+     {
+      "hanzi": "止咳药",
+      "pinyin": "zhǐkéyào",
+      "pos": "n.",
+      "hanviet": "CHỈ KHÁI DƯỢC",
+      "meaning": "Thuốc giảm ho"
+     },
+     {
+      "hanzi": "指导下正确使用",
+      "pinyin": "zhǐdǎo xià zhèngquè shǐyòng",
+      "pos": "cụm",
+      "hanviet": "CHỈ ĐẠO HẠ CHÍNH XÁC SỬ DỤNG",
+      "meaning": "Sử dụng đúng cách dưới sự hướng dẫn"
+     },
+     {
+      "hanzi": "缓解症状",
+      "pinyin": "huǎnjiě zhèngzhuàng",
+      "pos": "cụm",
+      "hanviet": "HOÃN GIẢI CHỨNG TRẠNG",
+      "meaning": "Làm giảm nhẹ triệu chứng"
      }
     ],
     "notes": [],
@@ -9929,7 +10020,15 @@ window.APP_BOOKS = {
       "example": "他每天练习发音，终于坚持下来了。",
       "exampleVi": "Ngày nào anh ấy cũng luyện phát âm, cuối cùng đã kiên trì duy trì được.",
       "examplePinyin": "tā měi tiān liàn xí fā yīn, zhōng yú jiān chí xià lái le.",
-      "examplePinyinHtml": "tā měi tiān liàn xí fā yīn, zhōng yú jiān chí xià lái le."
+      "examplePinyinHtml": "tā měi tiān liàn xí fā yīn, zhōng yú jiān chí xià lái le.",
+      "extraExamples": [
+       {
+        "zh": "吵了半天，他们终于安静下来。",
+        "pinyin": "chǎo le bàn tiān, tā men zhōng yú ān jìng xià lái.",
+        "pinyinHtml": "chǎo le bàn tiān, tā men zhōng yú ān jìng xià lái.",
+        "vi": "Cãi nhau nửa ngày, cuối cùng họ cũng yên lặng lại được."
+       }
+      ]
      },
      {
       "title": "坚持下去（V + 下去）",
@@ -9937,7 +10036,15 @@ window.APP_BOOKS = {
       "example": "虽然很累，我还是想坚持下去。",
       "exampleVi": "Mặc dù rất mệt, tôi vẫn muốn tiếp tục kiên trì.",
       "examplePinyin": "suī rán hěn lèi, wǒ hái shì xiǎng jiān chí xià qù.",
-      "examplePinyinHtml": "suī rán hěn lèi, wǒ hái shì xiǎng jiān chí xià qù."
+      "examplePinyinHtml": "suī rán hěn lèi, wǒ hái shì xiǎng jiān chí xià qù.",
+      "extraExamples": [
+       {
+        "zh": "这工作太累了，我简直做不下去了。",
+        "pinyin": "zhè gōng zuò tài lèi le, wǒ jiǎn zhí zuò bú xià qù le.",
+        "pinyinHtml": "zhè gōng zuò tài lèi le, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> jiǎn zhí zuò bú xià qù le.",
+        "vi": "Công việc này mệt quá, tôi gần như không làm tiếp nổi nữa."
+       }
+      ]
      },
      {
       "title": "别提多……了",
@@ -9945,7 +10052,15 @@ window.APP_BOOKS = {
       "example": "听说考试取消了，他别提多高兴了！",
       "exampleVi": "Nghe tin kỳ thi bị hủy, anh ấy vui đến mức khỏi phải nói!",
       "examplePinyin": "tīng shuō kǎo shì qǔ xiāo le, tā bié tí duō gāo xìng le!",
-      "examplePinyinHtml": "tīng shuō kǎo shì qǔ xiāo le, tā bié tí duō gāo xìng le!"
+      "examplePinyinHtml": "tīng shuō kǎo shì qǔ xiāo le, tā bié tí duō gāo xìng le!",
+      "extraExamples": [
+       {
+        "zh": "考试通过了，我别提多高兴了！",
+        "pinyin": "kǎo shì tōng guò le, wǒ bié tí duō gāo xìng le!",
+        "pinyinHtml": "kǎo shì tōng guò le, wǒ bié tí duō gāo xìng le!",
+        "vi": "Thi đậu rồi, tôi vui đến mức khỏi phải nói!"
+       }
+      ]
      },
      {
       "title": "非……不可",
@@ -9953,7 +10068,21 @@ window.APP_BOOKS = {
       "example": "想学好口语，非多开口练习不可。",
       "exampleVi": "Muốn học giỏi khẩu ngữ thì nhất thiết phải luyện nói nhiều.",
       "examplePinyin": "xiǎng xué hǎo kǒu yǔ, fēi duō kāi kǒu liàn xí bù kě.",
-      "examplePinyinHtml": "xiǎng xué <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kǒu</span> yǔ, fēi duō kāi kǒu liàn xí bù kě."
+      "examplePinyinHtml": "xiǎng xué <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kǒu</span> yǔ, fēi duō kāi kǒu liàn xí bù kě.",
+      "extraExamples": [
+       {
+        "zh": "这本书内容丰富，是一本很可读的作品。",
+        "pinyin": "zhè běn shū nèi róng fēng fù, shì yì běn hěn kě dú de zuò pǐn.",
+        "pinyinHtml": "zhè běn shū nèi róng fēng fù, shì yì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">běn</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> kě dú de zuò pǐn.",
+        "vi": "Cuốn sách này nội dung phong phú, là một tác phẩm rất đáng đọc."
+       },
+       {
+        "zh": "这种苹果又小又酸，有什么可买的？",
+        "pinyin": "zhè zhǒng píng guǒ yòu xiǎo yòu suān, yǒu shén me kě mǎi de?",
+        "pinyinHtml": "zhè zhǒng píng guǒ yòu xiǎo yòu suān, yǒu shén me <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> mǎi de?",
+        "vi": "Loại táo này vừa nhỏ vừa chua, có gì đáng mua đâu?"
+       }
+      ]
      },
      {
       "title": "不至于…… / 至于吗？",
@@ -9961,7 +10090,15 @@ window.APP_BOOKS = {
       "example": "只是有点儿感冒，不至于住院吧。",
       "exampleVi": "Chỉ hơi cảm thôi, chắc không đến nỗi phải nằm viện chứ.",
       "examplePinyin": "zhǐ shì yǒu diǎnr gǎn mào, bú zhì yú zhù yuàn ba.",
-      "examplePinyinHtml": "zhǐ shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">diǎnr</span> gǎn mào, bú zhì yú zhù yuàn ba."
+      "examplePinyinHtml": "zhǐ shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">diǎnr</span> gǎn mào, bú zhì yú zhù yuàn ba.",
+      "extraExamples": [
+       {
+        "zh": "考试失败一次，至于放弃吗？",
+        "pinyin": "kǎo shì shī bài yí cì, zhì yú fàng qì ma?",
+        "pinyinHtml": "kǎo shì shī bài yí cì, zhì yú fàng qì ma?",
+        "vi": "Thi trượt một lần, có đến mức phải bỏ cuộc không?"
+       }
+      ]
      },
      {
       "title": "千万 + 别/不要/要……",
@@ -9969,7 +10106,15 @@ window.APP_BOOKS = {
       "example": "这两种药千万别弄混了。",
       "exampleVi": "Hai loại thuốc này tuyệt đối đừng nhầm lẫn.",
       "examplePinyin": "zhè liǎng zhǒng yào qiān wàn bié nòng hùn le.",
-      "examplePinyinHtml": "zhè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">liǎng</span> zhǒng yào qiān wàn bié nòng hùn le."
+      "examplePinyinHtml": "zhè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">liǎng</span> zhǒng yào qiān wàn bié nòng hùn le.",
+      "extraExamples": [
+       {
+        "zh": "这份资料对明天的会议非常重要，你千万别忘。",
+        "pinyin": "zhè fèn zī liào duì míng tiān de huì yì fēi cháng zhòng yào, nǐ qiān wàn bié wàng.",
+        "pinyinHtml": "zhè fèn zī liào duì míng tiān de huì yì fēi cháng zhòng yào, nǐ qiān wàn bié wàng.",
+        "vi": "Tài liệu này rất quan trọng cho cuộc họp ngày mai, bạn tuyệt đối đừng quên."
+       }
+      ]
      }
     ],
     "topics": [
@@ -9977,7 +10122,7 @@ window.APP_BOOKS = {
       "id": "b2-c1",
       "no": 1,
       "titleVi": "Giữ gìn sức khỏe",
-      "question": "怎样才能保持健康？",
+      "question": "你认为怎样才能保持健康？你自己是怎么保持健康的？",
       "outline": "Mở lời từ tình trạng mệt mỏi → ngủ, ăn, vận động, tâm trạng → nhấn mạnh kiên trì → chốt một thói quen thực hiện được.",
       "takeaways": {
        "points": [
@@ -10157,8 +10302,8 @@ window.APP_BOOKS = {
         "modified": false
        }
       ],
-      "questionPinyin": "zěn yàng cái néng bǎo chí jiàn kāng?",
-      "questionPinyinHtml": "zěn yàng cái néng bǎo chí jiàn kāng?",
+      "questionPinyin": "nǐ rèn wéi zěn yàng cái néng bǎo chí jiàn kāng? nǐ zì jǐ shì zěn me bǎo chí jiàn kāng de?",
+      "questionPinyinHtml": "nǐ rèn wéi zěn yàng cái néng bǎo chí jiàn kāng? nǐ zì jǐ shì zěn me bǎo chí jiàn kāng de?",
       "v1_lines": [
        {
         "n": "01",
@@ -10672,13 +10817,19 @@ window.APP_BOOKS = {
         "start": 82.61,
         "end": 88.44
        }
+      ],
+      "examNo": 1,
+      "priority": null,
+      "isExamScope": true,
+      "slideQuestions": [
+       "怎么才能保持健康？"
       ]
      },
      {
       "id": "b2-c2",
       "no": 2,
       "titleVi": "Có nên tin vào thuốc bổ?",
-      "question": "你相信补药吗？",
+      "question": "你相信补药吗？你会不会用补药？",
       "outline": "Nêu quan điểm về 补药 → phân biệt có nhu cầu thật và quảng cáo → không lạm dụng, xem chỉ dẫn chuyên môn → ưu tiên thói quen sống lành mạnh.",
       "takeaways": {
        "points": [
@@ -10859,8 +11010,8 @@ window.APP_BOOKS = {
         "reason": "Đưa mẫu câu chốt Bài 2 【坚持下去】 vào câu kết, giúp thông điệp vững vàng và bám sát giáo trình."
        }
       ],
-      "questionPinyin": "nǐ xiāng xìn bǔ yào ma?",
-      "questionPinyinHtml": "nǐ xiāng xìn bǔ yào ma?",
+      "questionPinyin": "nǐ xiāng xìn bǔ yào ma? nǐ huì bu huì yòng bǔ yào?",
+      "questionPinyinHtml": "nǐ xiāng xìn bǔ yào ma? nǐ huì bu huì yòng bǔ yào?",
       "v1_lines": [
        {
         "n": "01",
@@ -11392,9 +11543,2759 @@ window.APP_BOOKS = {
         "start": 89.98,
         "end": 96.62
        }
+      ],
+      "examNo": 2,
+      "priority": null,
+      "isExamScope": true,
+      "slideQuestions": [
+       "有人送补药，你会吃吗？",
+       "天然的补药和补药片你怎么选？"
+      ]
+     },
+     {
+      "id": "b2-q3",
+      "no": 3,
+      "examNo": 3,
+      "priority": "red",
+      "isExamScope": true,
+      "titleVi": "Ốm mệt có đi khám bác sĩ, uống thuốc không?",
+      "question": "身体不舒服的时候，你会不会去看医生、吃药？",
+      "questionPinyin": "shēn tǐ bù shū fú de shí hòu, nǐ huì bu huì qù kàn yī shēng, chī yào?",
+      "questionPinyinHtml": "shēn tǐ bù shū fú de shí hòu, nǐ huì bu huì qù kàn yī shēng, chī yào?",
+      "slideQuestions": [
+       "身体不舒服时去看医生吗？"
+      ],
+      "outline": "Hỏi thăm khi bạn bị dầm mưa cảm sốt → Nêu thói quen cá nhân (bệnh nhẹ tự nghỉ vs khi nào phải đi khám) → Chốt giải pháp đi khám cùng nhau.",
+      "takeaways": {
+       "points": [
+        "Phân biệt mức độ nặng nhẹ: Cảm nhẹ có thể uống nước ấm, nghỉ ngơi; nhưng đã sốt, đau đầu thì không nên cố chịu (小病休息、发烧头疼不能硬扛)",
+        "Thói quen của bản thân: Không lạm dụng thuốc bừa bãi, nhưng nếu 1-2 ngày không đỡ nhất định đi khám bác sĩ (不滥用药物，但撑不住非去医院不可)",
+        "Tránh lây cho người xung quanh & biến chứng: Kéo dài dễ thành viêm phổi, lây cho gia đình (拖着不治容易引起肺炎，还可能传染家人)",
+        "Mẫu câu Bài 2: 至于 (đến mức), 非……不可 (nhất thiết phải), 千万别 (tuyệt đối đừng)"
+       ],
+       "goldenQuotes": "小病可以多喝水休息，但发烧头疼拖着不治，至于弄成肺炎吗？还是听医生的话最安心。"
+      },
+      "lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "明明，早啊！今儿怎么来得这么早？",
+        "pinyin": "míng míng, zǎo a! jīnr zěn me lái de zhè me zǎo?",
+        "pinyinHtml": "míng míng, zǎo a! jīnr zěn me lái de zhè me zǎo?",
+        "vi": "Minh Minh, chào buổi sáng! Hôm nay sao đến sớm thế?",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "最近老下雨，我怕堵车才早点出门。对了，看你脸色不太好，是不是哪儿不舒服？",
+        "pinyin": "zuì jìn lǎo xià yǔ, wǒ pà dǔ chē cái zǎo diǎn chū mén. duì le, kàn nǐ liǎn sè bú tài hǎo, shì bu shì nǎr bù shū fú?",
+        "pinyinHtml": "zuì jìn lǎo xià yǔ, wǒ pà dǔ chē cái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> diǎn chū mén. duì le, kàn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> liǎn sè bú tài hǎo, shì bu shì nǎr bù shū fú?",
+        "vi": "Dạo này hay mưa quá, tớ sợ tắc đường nên ra khỏi nhà sớm. À, trông sắc mặt cậu hơi kém, có phải thấy trong người không khỏe không?",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "别提了，昨天淋了场雨，晚上回来就开始发低烧，还一直咳嗽，折腾得整夜没睡好。",
+        "pinyin": "bié tí le, zuó tiān lín le chǎng yǔ, wǎn shàng huí lái jiù kāi shǐ fā dī shāo, hái yì zhí ké sou, zhē teng de zhěng yè méi shuì hǎo.",
+        "pinyinHtml": "bié tí le, zuó tiān lín le <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">chǎng</span> yǔ, wǎn shàng huí lái jiù kāi shǐ fā dī shāo, hái yì zhí ké sou, zhē teng de zhěng yè méi shuì hǎo.",
+        "vi": "Đừng nhắc nữa, hôm qua dính trận mưa, tối về bắt đầu sốt nhẹ rồi ho suốt, hành cho cả đêm chẳng ngủ ngon.",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "那你赶紧吃退烧药了吗？",
+        "pinyin": "nà nǐ gǎn jǐn chī tuì shāo yào le ma?",
+        "pinyinHtml": "nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gǎn</span> jǐn chī tuì shāo yào le ma?",
+        "vi": "Thế cậu đã uống thuốc hạ sốt ngay chưa?",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "还没呢，我平时有点小病一般能扛就扛，很少吃药。",
+        "pinyin": "hái méi ne, wǒ píng shí yǒu diǎn xiǎo bìng yì bān néng káng jiù káng, hěn shǎo chī yào.",
+        "pinyinHtml": "hái méi ne, wǒ píng shí <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">diǎn</span> xiǎo bìng yì bān néng káng jiù káng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> shǎo chī yào.",
+        "vi": "Chưa đâu, bình thường tớ hơi ốm vặt toàn cố chịu cho qua, ít khi uống thuốc lắm.",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "哎呀，大家生病了都赶紧看医生吃药，你倒好，连药都不吃，现在感觉怎么样啊？",
+        "pinyin": "āi yā, dà jiā shēng bìng le dōu gǎn jǐn kàn yī shēng chī yào, nǐ dǎo hǎo, lián yào dōu bù chī, xiàn zài gǎn jué zěn me yàng a?",
+        "pinyinHtml": "āi yā, dà jiā shēng bìng le dōu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gǎn</span> jǐn kàn yī shēng chī yào, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǎo</span> hǎo, lián yào dōu bù chī, xiàn zài gǎn jué zěn me yàng a?",
+        "vi": "Trời ạ, mọi người ốm đều vội đi khám uống thuốc, cậu hay thật, thuốc cũng chẳng uống, giờ thấy trong người sao rồi?",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "还凑合吧，我总觉得“是药三分毒”，能不吃就不吃，免得伤身体。",
+        "pinyin": "hái còu hé ba, wǒ zǒng jué de \"shì yào sān fēn dú\", néng bù chī jiù bù chī, miǎn de shāng shēn tǐ.",
+        "pinyinHtml": "hái còu hé ba, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zǒng jué de \"shì yào sān fēn dú\", néng bù chī jiù bù chī, miǎn de shāng shēn tǐ.",
+        "vi": "Cũng tạm ổn, tớ cứ nghĩ thuốc nào chẳng có tác dụng phụ, tránh được thì tránh kẻo hại người.",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "话虽这么说，可发烧往往是病毒感染啊！要是不用药控制，症状只会越来越重，头疼发烧可不是闹着玩的。",
+        "pinyin": "huà suī zhè me shuō, kě fā shāo wǎng wǎng shì bìng dú gǎn rǎn a! yào shi bú yòng yào kòng zhì, zhèng zhuàng zhǐ huì yuè lái yuè zhòng, tóu téng fā shāo kě bú shì nào zhe wán de.",
+        "pinyinHtml": "huà suī zhè me shuō, kě fā shāo <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎng</span> wǎng shì bìng dú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gǎn</span> rǎn a! yào shi bú yòng yào kòng zhì, zhèng zhuàng zhǐ huì yuè lái yuè zhòng, tóu téng fā shāo kě bú shì nào zhe wán de.",
+        "vi": "Nói vậy thôi chứ sốt thường là do nhiễm virus đấy! Không dùng thuốc kiểm soát thì triệu chứng chỉ có nặng thêm, sốt với đau đầu không phải chuyện đùa đâu.",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "不至于那么严重吧？我觉得就是普通感冒，喝点热水、捂着睡一觉就好了。",
+        "pinyin": "bú zhì yú nà me yán zhòng ba? wǒ jué de jiù shì pǔ tōng gǎn mào, hē diǎn rè shuǐ, wǔ zhe shuì yí jiào jiù hǎo le.",
+        "pinyinHtml": "bú zhì yú nà me yán zhòng ba? wǒ jué de jiù shì pǔ tōng gǎn mào, hē diǎn rè shuǐ, wǔ zhe shuì yí jiào jiù hǎo le.",
+        "vi": "Chắc không đến nỗi nặng thế đâu chứ? Tớ thấy chỉ là cảm thường, uống cốc nước ấm rồi trùm chăn ngủ một giấc là khỏi thôi.",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "你可别大意！不少年轻人就是小感冒拖着不治，最后拖成了肺炎，后悔都来不及。",
+        "pinyin": "nǐ kě bié dà yì! bù shào nián qīng rén jiù shì xiǎo gǎn mào tuō zhe bú zhì, zuì hòu tuō chéng le fèi yán, hòu huǐ dōu lái bù jí.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> kě bié dà yì! bù shào nián qīng rén jiù shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> gǎn mào tuō zhe bú zhì, zuì hòu tuō chéng le fèi yán, hòu huǐ dōu lái bù jí.",
+        "vi": "Cậu đừng chủ quan! Không ít người trẻ chỉ vì cảm nhẹ kéo dài không chịu chữa, cuối cùng biến chứng thành viêm phổi, hối không kịp đâu.",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "那换成是你，身体一不舒服就会马上去医院、吃药吗？",
+        "pinyin": "nà huàn chéng shì nǐ, shēn tǐ yí bù shū fú jiù huì mǎ shàng qù yī yuàn, chī yào ma?",
+        "pinyinHtml": "nà huàn chéng shì nǐ, shēn tǐ yí bù shū fú jiù huì mǎ shàng qù yī yuàn, chī yào ma?",
+        "vi": "Thế đổi lại là cậu, hễ người thấy mệt là cậu chạy thẳng ra viện uống thuốc ngay à?",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "那倒也不是，我分情况！要是只是有点乏力或轻度鼻塞，我先多喝水、早睡；但一旦发高烧，或者连着两三天不见好，那非去看医生不可。",
+        "pinyin": "nà dǎo yě bú shì, wǒ fēn qíng kuàng! yào shì zhǐ shì yǒu diǎn fá lì huò qīng dù bí sè, wǒ xiān duō hē shuǐ, zǎo shuì; dàn yí dàn fā gāo shāo, huò zhě lián zhe liǎng sān tiān bú jiàn hǎo, nà fēi qù kàn yī shēng bù kě.",
+        "pinyinHtml": "nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǎo</span> yě bú shì, wǒ fēn qíng kuàng! yào shì zhǐ shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> diǎn fá lì huò qīng dù bí sè, wǒ xiān duō hē shuǐ, zǎo shuì; dàn yí dàn fā gāo shāo, huò zhě lián zhe liǎng sān tiān bú jiàn hǎo, nà fēi qù kàn yī shēng bù kě.",
+        "vi": "Cũng không hẳn, tớ tùy mức độ! Nếu chỉ hơi uể oải hay nghẹt mũi nhẹ thì tớ uống nhiều nước, ngủ sớm; nhưng hễ sốt cao hoặc 2-3 ngày liền không đỡ thì nhất định phải đi khám.",
+        "modified": true
+       },
+       {
+        "n": 13,
+        "role": "A",
+        "zh": "怪不得！你既不盲目乱吃药，也不会傻傻硬扛着。",
+        "pinyin": "guài bù de! nǐ jì bù máng mù luàn chī yào, yě bú huì shǎ shǎ yìng káng zhe.",
+        "pinyinHtml": "guài bù de! nǐ jì bù máng mù luàn chī yào, yě bú huì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǎ</span> shǎ yìng káng zhe.",
+        "vi": "Thảo nào! Cậu vừa không uống thuốc bừa bãi, vừa không cố chịu một cách ngốc nghếch.",
+        "modified": true
+       },
+       {
+        "n": 14,
+        "role": "B",
+        "zh": "就是这个理儿！千万别滥用药物，更别拖着不治。况且你家里还有老人小孩，万一传染给他们就麻烦了。",
+        "pinyin": "jiù shì zhè ge lǐr! qiān wàn bié làn yòng yào wù, gèng bié tuō zhe bú zhì. kuàng qiě nǐ jiā lǐ hái yǒu lǎo rén xiǎo hái, wàn yī chuán rǎn gěi tā men jiù má fán le.",
+        "pinyinHtml": "jiù shì zhè ge lǐr! qiān wàn bié làn yòng yào wù, gèng bié tuō zhe bú zhì. kuàng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qiě</span> nǐ jiā lǐ hái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> lǎo rén xiǎo hái, wàn yī chuán <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">rǎn</span> gěi tā men jiù má fán le.",
+        "vi": "Đúng thế đấy! Tuyệt đối đừng lạm dụng thuốc, càng đừng dây dưa không chữa. Huống chi nhà cậu còn có người già trẻ nhỏ, nhỡ lây cho họ thì phiền toái lắm.",
+        "modified": true
+       },
+       {
+        "n": 15,
+        "role": "A",
+        "zh": "听你这么一劝，我真醒悟了！照顾好自己也是为家人负责。下课我有空，要不你陪我去趟医院吧？",
+        "pinyin": "tīng nǐ zhè me yí quàn, wǒ zhēn xǐng wù le! zhào gù hǎo zì jǐ yě shì wèi jiā rén fù zé. xià kè wǒ yǒu kōng, yào bù nǐ péi wǒ qù tàng yī yuàn ba?",
+        "pinyinHtml": "tīng nǐ zhè me yí quàn, wǒ zhēn xǐng wù le! zhào gù hǎo zì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> yě shì wèi jiā rén fù zé. xià kè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǒu kōng, yào bù nǐ péi wǒ qù tàng yī yuàn ba?",
+        "vi": "Nghe cậu khuyên thế tớ tỉnh ngộ rồi! Tự chăm sóc mình cũng là có trách nhiệm với gia đình. Tan học tớ rảnh, hay cậu đi cùng tớ ra viện một chuyến nhé?",
+        "modified": true
+       },
+       {
+        "n": 16,
+        "role": "B",
+        "zh": "没问题，下课我就陪你去！在医生指导下对症下药，好得快也安心。",
+        "pinyin": "méi wèn tí, xià kè wǒ jiù péi nǐ qù! zài yī shēng zhǐ dǎo xià duì zhèng xià yào, hǎo de kuài yě ān xīn.",
+        "pinyinHtml": "méi wèn tí, xià kè wǒ jiù péi nǐ qù! zài yī shēng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǐ</span> dǎo xià duì zhèng xià yào, hǎo de kuài yě ān xīn.",
+        "vi": "Ok luôn, tan học tớ đi với cậu! Dùng đúng thuốc theo hướng dẫn bác sĩ vừa nhanh khỏi vừa yên tâm.",
+        "modified": true
+       }
+      ],
+      "v1_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "明明，早上好！今天你怎么来么这么早呢？",
+        "pinyin": "míng míng, zǎo shàng hǎo! jīn tiān nǐ zěn me lái me zhè me zǎo ne?",
+        "pinyinHtml": "míng míng, zǎo shàng hǎo! jīn tiān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> zěn me lái me zhè me zǎo ne?",
+        "vi": "Minh Minh, chào buổi sáng! Hôm nay sao cậu đến sớm thế?",
+        "modified": false
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "最近天气不好，我得早点出门，不然又得淋雨了。你的脸色不太好，不舒服吗？",
+        "pinyin": "zuì jìn tiān qì bù hǎo, wǒ de zǎo diǎn chū mén, bù rán yòu de lín yǔ le. nǐ de liǎn sè bú tài hǎo, bù shū fú ma?",
+        "pinyinHtml": "zuì jìn tiān qì bù hǎo, wǒ de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> diǎn chū mén, bù rán yòu de lín yǔ le. nǐ de liǎn sè bú tài hǎo, bù shū fú ma?",
+        "vi": "Dạo này thời tiết xấu quá, tớ phải ra ngoài sớm kẻo lại dính mưa. Sắc mặt cậu không tốt lắm, không khỏe à?",
+        "modified": false
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "别提了，昨天我也被淋雨了。昨天晚上身体不舒服，有点发烧，还有点咳嗽，整夜睡不着。",
+        "pinyin": "bié tí le, zuó tiān wǒ yě bèi lín yǔ le. zuó tiān wǎn shàng shēn tǐ bù shū fú, yǒu diǎn fā shāo, hái yǒu diǎn ké sou, zhěng yè shuì bù zhe.",
+        "pinyinHtml": "bié tí le, zuó tiān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě bèi lín yǔ le. zuó tiān wǎn shàng shēn tǐ bù shū fú, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> diǎn fā shāo, hái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> diǎn ké sou, zhěng yè shuì bù zhe.",
+        "vi": "Đừng nhắc nữa, hôm qua tớ cũng dính mưa. Tối qua người khó chịu, hơi sốt lại ho nữa, cả đêm không ngủ được.",
+        "modified": false
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "那你吃药了吗？",
+        "pinyin": "nà nǐ chī yào le ma?",
+        "pinyinHtml": "nà nǐ chī yào le ma?",
+        "vi": "Thế cậu uống thuốc chưa?",
+        "modified": false
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "还没呢，我平时得了小病一般都不吃药的。",
+        "pinyin": "hái méi ne, wǒ píng shí de le xiǎo bìng yì bān dōu bù chī yào de.",
+        "pinyinHtml": "hái méi ne, wǒ píng shí de le xiǎo bìng yì bān dōu bù chī yào de.",
+        "vi": "Chưa đâu, bình thường tớ bị bệnh vặt chẳng mấy khi uống thuốc.",
+        "modified": false
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "人人得病的时候都会吃药或者赶快看医生，但你连吃药也不吃，现在你觉得怎么样？",
+        "pinyin": "rén rén dé bìng de shí hòu dōu huì chī yào huò zhě gǎn kuài kàn yī shēng, dàn nǐ lián chī yào yě bù chī, xiàn zài nǐ jué de zěn me yàng?",
+        "pinyinHtml": "rén rén dé bìng de shí hòu dōu huì chī yào huò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhě</span> gǎn kuài kàn yī shēng, dàn nǐ lián chī yào yě bù chī, xiàn zài nǐ jué de zěn me yàng?",
+        "vi": "Ai bị bệnh cũng uống thuốc hoặc đi khám ngay, vậy mà cậu thuốc cũng chẳng uống, giờ thấy sao rồi?",
+        "modified": false
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "还行，我觉得不必吃药啦，吃药对身体不好啊，都是化学成分。",
+        "pinyin": "hái xíng, wǒ jué de bú bì chī yào lā, chī yào duì shēn tǐ bù hǎo a, dōu shì huà xué chéng fèn.",
+        "pinyinHtml": "hái xíng, wǒ jué de bú bì chī yào lā, chī yào duì shēn tǐ bù hǎo a, dōu shì huà xué chéng fèn.",
+        "vi": "Cũng tạm, tớ thấy không cần uống thuốc đâu, uống thuốc hại người lắm, toàn thành phần hóa học.",
+        "modified": false
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "可是，感冒发烧也算是得了病毒啊，如果不吃药控制，可能会越来越严重。你现在都发烧了，还头疼，这可不是一件小事！",
+        "pinyin": "kě shì, gǎn mào fā shāo yě suàn shì děi le bìng dú a, rú guǒ bù chī yào kòng zhì, kě néng huì yuè lái yuè yán zhòng. nǐ xiàn zài dōu fā shāo le, hái tóu téng, zhè kě bú shì yí jiàn xiǎo shì!",
+        "pinyinHtml": "kě shì, gǎn mào fā shāo yě suàn shì děi le bìng dú a, rú guǒ bù chī yào kòng zhì, kě néng huì yuè lái yuè yán zhòng. nǐ xiàn zài dōu fā shāo le, hái tóu téng, zhè kě bú shì yí jiàn xiǎo shì!",
+        "vi": "Nhưng cảm sốt cũng là nhiễm virus đấy, không uống thuốc kiểm soát dễ nặng thêm lắm. Cậu đang sốt lại đau đầu thế kia không phải chuyện nhỏ đâu!",
+        "modified": false
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "不至于那么严重吧？感冒这种小病，休息一下就好了。",
+        "pinyin": "bú zhì yú nà me yán zhòng ba? gǎn mào zhè zhǒng xiǎo bìng, xiū xi yí xià jiù hǎo le.",
+        "pinyinHtml": "bú zhì yú nà me yán zhòng ba? gǎn mào zhè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǒng</span> xiǎo bìng, xiū xi yí xià jiù hǎo le.",
+        "vi": "Không đến mức nghiêm trọng thế chứ? Cảm vặt thế này nghỉ ngơi chút là khỏi thôi.",
+        "modified": false
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "虽然药物能有副作用，但有些疾病如果不及时用药就会影响健康。很多人因为小感冒拖着不治，结果引起了肺炎！",
+        "pinyin": "suī rán yào wù néng yǒu fù zuò yòng, dàn yǒu xiē jí bìng rú guǒ bù jí shí yòng yào jiù huì yǐng xiǎng jiàn kāng. hěn duō rén yīn wèi xiǎo gǎn mào tuō zhe bú zhì, jié guǒ yǐn qǐ le fèi yán!",
+        "pinyinHtml": "suī rán yào wù néng yǒu fù zuò yòng, dàn yǒu xiē jí bìng rú guǒ bù jí shí yòng yào jiù huì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐng</span> xiǎng jiàn kāng. hěn duō rén yīn wèi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> gǎn mào tuō zhe bú zhì, jié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐn</span> qǐ le fèi yán!",
+        "vi": "Tuy thuốc có tác dụng phụ nhưng có những bệnh không dùng thuốc kịp là ảnh hưởng sức khỏe đấy. Nhiều người cảm nhẹ kéo dài không chữa rồi biến chứng thành viêm phổi đấy!",
+        "modified": false
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "那平时身体不舒服的时候，你会不会马上去看医生、吃药？",
+        "pinyin": "nà píng shí shēn tǐ bù shū fú de shí hòu, nǐ huì bu huì mǎ shàng qù kàn yī shēng, chī yào?",
+        "pinyinHtml": "nà píng shí shēn tǐ bù shū fú de shí hòu, nǐ huì bu huì mǎ shàng qù kàn yī shēng, chī yào?",
+        "vi": "Vậy bình thường lúc người không khỏe, cậu có đi khám bác sĩ, uống thuốc ngay không?",
+        "modified": false
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "我也看情况。要是只是累了或者有点鼻塞，我会先多喝水、早点睡；但要是发烧或者两三天还没好，我就非去看医生不可。",
+        "pinyin": "wǒ yě kàn qíng kuàng. yào shi zhǐ shì lèi le huò zhě yǒu diǎn bí sè, wǒ huì xiān duō hē shuǐ, zǎo diǎn shuì; dàn yào shi fā shāo huò zhě liǎng sān tiān hái méi hǎo, wǒ jiù fēi qù kàn yī shēng bù kě.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě kàn qíng kuàng. yào shi zhǐ shì lèi le huò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> diǎn bí sè, wǒ huì xiān duō hē shuǐ, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> diǎn shuì; dàn yào shi fā shāo huò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhě</span> liǎng sān tiān hái méi hǎo, wǒ jiù fēi qù kàn yī shēng bù kě.",
+        "vi": "Tớ cũng tùy tình hình. Nếu chỉ mệt hay hơi nghẹt mũi thì tớ uống nhiều nước, ngủ sớm trước; nhưng nếu sốt hoặc 2-3 ngày chưa đỡ là tớ nhất định đi bác sĩ.",
+        "modified": false
+       },
+       {
+        "n": 13,
+        "role": "A",
+        "zh": "原来如此，你不是一不舒服就乱吃药，而是看症状决定。",
+        "pinyin": "yuán lái rú cǐ, nǐ bú shì yí bù shū fú jiù luàn chī yào, ér shì kàn zhèng zhuàng jué dìng.",
+        "pinyinHtml": "yuán lái rú cǐ, nǐ bú shì yí bù shū fú jiù luàn chī yào, ér shì kàn zhèng zhuàng jué dìng.",
+        "vi": "Thì ra là vậy, cậu không phải hễ mệt là uống bừa thuốc, mà xem triệu chứng để quyết định.",
+        "modified": false
+       },
+       {
+        "n": 14,
+        "role": "B",
+        "zh": "对啊，千万别滥用药物，也千万别硬扛着不治。况且你家里有老有小，传染给他们就不好了。",
+        "pinyin": "duì a, qiān wàn bié làn yòng yào wù, yě qiān wàn bié yìng káng zhe bú zhì. kuàng qiě nǐ jiā lǐ yǒu lǎo yǒu xiǎo, chuán rǎn gěi tā men jiù bù hǎo le.",
+        "pinyinHtml": "duì a, qiān wàn bié làn yòng yào wù, yě qiān wàn bié yìng káng zhe bú zhì. kuàng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qiě</span> nǐ jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǎo</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> xiǎo, chuán <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">rǎn</span> gěi tā men jiù bù hǎo le.",
+        "vi": "Đúng thế, tuyệt đối đừng lạm dụng thuốc, cũng đừng cố chịu không chữa. Huống hồ nhà cậu có người già trẻ nhỏ, lây sang họ thì khổ.",
+        "modified": false
+       },
+       {
+        "n": 15,
+        "role": "A",
+        "zh": "你说得真有道理，关心自己的健康，也是关心身边人的健康啊。那下课后我还是去看看医生吧。",
+        "pinyin": "nǐ shuō de zhēn yǒu dào lǐ, guān xīn zì jǐ de jiàn kāng, yě shì guān xīn shēn biān rén de jiàn kāng a. nà xià kè hòu wǒ hái shì qù kàn kàn yī shēng ba.",
+        "pinyinHtml": "nǐ shuō de zhēn yǒu dào lǐ, guān xīn zì jǐ de jiàn kāng, yě shì guān xīn shēn biān rén de jiàn kāng a. nà xià kè hòu wǒ hái shì qù kàn kàn yī shēng ba.",
+        "vi": "Cậu nói có lý thật, quan tâm sức khỏe bản thân cũng là quan tâm mọi người xung quanh. Vậy tan học tớ đi khám bác sĩ vậy.",
+        "modified": false
+       },
+       {
+        "n": 16,
+        "role": "B",
+        "zh": "下课后我陪你一起去，早点查清楚早点安心！",
+        "pinyin": "xià kè hòu wǒ péi nǐ yì qǐ qù, zǎo diǎn chá qīng chǔ zǎo diǎn ān xīn!",
+        "pinyinHtml": "xià kè hòu wǒ péi nǐ yì qǐ qù, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> diǎn chá qīng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">chǔ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> diǎn ān xīn!",
+        "vi": "Tan học tớ đi cùng cậu, khám rõ sớm cho yên tâm!",
+        "modified": false
+       }
+      ],
+      "v2_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "明明，早啊！今儿怎么来得这么早？",
+        "pinyin": "míng míng, zǎo a! jīnr zěn me lái de zhè me zǎo?",
+        "pinyinHtml": "míng míng, zǎo a! jīnr zěn me lái de zhè me zǎo?",
+        "vi": "Minh Minh, chào buổi sáng! Hôm nay sao đến sớm thế?",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "最近老下雨，我怕堵车才早点出门。对了，看你脸色不太好，是不是哪儿不舒服？",
+        "pinyin": "zuì jìn lǎo xià yǔ, wǒ pà dǔ chē cái zǎo diǎn chū mén. duì le, kàn nǐ liǎn sè bú tài hǎo, shì bu shì nǎr bù shū fú?",
+        "pinyinHtml": "zuì jìn lǎo xià yǔ, wǒ pà dǔ chē cái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> diǎn chū mén. duì le, kàn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> liǎn sè bú tài hǎo, shì bu shì nǎr bù shū fú?",
+        "vi": "Dạo này hay mưa quá, tớ sợ tắc đường nên ra khỏi nhà sớm. À, trông sắc mặt cậu hơi kém, có phải thấy trong người không khỏe không?",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "别提了，昨天淋了场雨，晚上回来就开始发低烧，还一直咳嗽，折腾得整夜没睡好。",
+        "pinyin": "bié tí le, zuó tiān lín le chǎng yǔ, wǎn shàng huí lái jiù kāi shǐ fā dī shāo, hái yì zhí ké sou, zhē teng de zhěng yè méi shuì hǎo.",
+        "pinyinHtml": "bié tí le, zuó tiān lín le <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">chǎng</span> yǔ, wǎn shàng huí lái jiù kāi shǐ fā dī shāo, hái yì zhí ké sou, zhē teng de zhěng yè méi shuì hǎo.",
+        "vi": "Đừng nhắc nữa, hôm qua dính trận mưa, tối về bắt đầu sốt nhẹ rồi ho suốt, hành cho cả đêm chẳng ngủ ngon.",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "那你赶紧吃退烧药了吗？",
+        "pinyin": "nà nǐ gǎn jǐn chī tuì shāo yào le ma?",
+        "pinyinHtml": "nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gǎn</span> jǐn chī tuì shāo yào le ma?",
+        "vi": "Thế cậu đã uống thuốc hạ sốt ngay chưa?",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "还没呢，我平时有点小病一般能扛就扛，很少吃药。",
+        "pinyin": "hái méi ne, wǒ píng shí yǒu diǎn xiǎo bìng yì bān néng káng jiù káng, hěn shǎo chī yào.",
+        "pinyinHtml": "hái méi ne, wǒ píng shí <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">diǎn</span> xiǎo bìng yì bān néng káng jiù káng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> shǎo chī yào.",
+        "vi": "Chưa đâu, bình thường tớ hơi ốm vặt toàn cố chịu cho qua, ít khi uống thuốc lắm.",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "哎呀，大家生病了都赶紧看医生吃药，你倒好，连药都不吃，现在感觉怎么样啊？",
+        "pinyin": "āi yā, dà jiā shēng bìng le dōu gǎn jǐn kàn yī shēng chī yào, nǐ dǎo hǎo, lián yào dōu bù chī, xiàn zài gǎn jué zěn me yàng a?",
+        "pinyinHtml": "āi yā, dà jiā shēng bìng le dōu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gǎn</span> jǐn kàn yī shēng chī yào, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǎo</span> hǎo, lián yào dōu bù chī, xiàn zài gǎn jué zěn me yàng a?",
+        "vi": "Trời ạ, mọi người ốm đều vội đi khám uống thuốc, cậu hay thật, thuốc cũng chẳng uống, giờ thấy trong người sao rồi?",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "还凑合吧，我总觉得“是药三分毒”，能不吃就不吃，免得伤身体。",
+        "pinyin": "hái còu hé ba, wǒ zǒng jué de \"shì yào sān fēn dú\", néng bù chī jiù bù chī, miǎn de shāng shēn tǐ.",
+        "pinyinHtml": "hái còu hé ba, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zǒng jué de \"shì yào sān fēn dú\", néng bù chī jiù bù chī, miǎn de shāng shēn tǐ.",
+        "vi": "Cũng tạm ổn, tớ cứ nghĩ thuốc nào chẳng có tác dụng phụ, tránh được thì tránh kẻo hại người.",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "话虽这么说，可发烧往往是病毒感染啊！要是不用药控制，症状只会越来越重，头疼发烧可不是闹着玩的。",
+        "pinyin": "huà suī zhè me shuō, kě fā shāo wǎng wǎng shì bìng dú gǎn rǎn a! yào shi bú yòng yào kòng zhì, zhèng zhuàng zhǐ huì yuè lái yuè zhòng, tóu téng fā shāo kě bú shì nào zhe wán de.",
+        "pinyinHtml": "huà suī zhè me shuō, kě fā shāo <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎng</span> wǎng shì bìng dú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gǎn</span> rǎn a! yào shi bú yòng yào kòng zhì, zhèng zhuàng zhǐ huì yuè lái yuè zhòng, tóu téng fā shāo kě bú shì nào zhe wán de.",
+        "vi": "Nói vậy thôi chứ sốt thường là do nhiễm virus đấy! Không dùng thuốc kiểm soát thì triệu chứng chỉ có nặng thêm, sốt với đau đầu không phải chuyện đùa đâu.",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "不至于那么严重吧？我觉得就是普通感冒，喝点热水、捂着睡一觉就好了。",
+        "pinyin": "bú zhì yú nà me yán zhòng ba? wǒ jué de jiù shì pǔ tōng gǎn mào, hē diǎn rè shuǐ, wǔ zhe shuì yí jiào jiù hǎo le.",
+        "pinyinHtml": "bú zhì yú nà me yán zhòng ba? wǒ jué de jiù shì pǔ tōng gǎn mào, hē diǎn rè shuǐ, wǔ zhe shuì yí jiào jiù hǎo le.",
+        "vi": "Chắc không đến nỗi nặng thế đâu chứ? Tớ thấy chỉ là cảm thường, uống cốc nước ấm rồi trùm chăn ngủ một giấc là khỏi thôi.",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "你可别大意！不少年轻人就是小感冒拖着不治，最后拖成了肺炎，后悔都来不及。",
+        "pinyin": "nǐ kě bié dà yì! bù shào nián qīng rén jiù shì xiǎo gǎn mào tuō zhe bú zhì, zuì hòu tuō chéng le fèi yán, hòu huǐ dōu lái bù jí.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> kě bié dà yì! bù shào nián qīng rén jiù shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> gǎn mào tuō zhe bú zhì, zuì hòu tuō chéng le fèi yán, hòu huǐ dōu lái bù jí.",
+        "vi": "Cậu đừng chủ quan! Không ít người trẻ chỉ vì cảm nhẹ kéo dài không chịu chữa, cuối cùng biến chứng thành viêm phổi, hối không kịp đâu.",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "那换成是你，身体一不舒服就会马上去医院、吃药吗？",
+        "pinyin": "nà huàn chéng shì nǐ, shēn tǐ yí bù shū fú jiù huì mǎ shàng qù yī yuàn, chī yào ma?",
+        "pinyinHtml": "nà huàn chéng shì nǐ, shēn tǐ yí bù shū fú jiù huì mǎ shàng qù yī yuàn, chī yào ma?",
+        "vi": "Thế đổi lại là cậu, hễ người thấy mệt là cậu chạy thẳng ra viện uống thuốc ngay à?",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "那倒也不是，我分情况！要是只是有点乏力或轻度鼻塞，我先多喝水、早睡；但一旦发高烧，或者连着两三天不见好，那非去看医生不可。",
+        "pinyin": "nà dǎo yě bú shì, wǒ fēn qíng kuàng! yào shì zhǐ shì yǒu diǎn fá lì huò qīng dù bí sè, wǒ xiān duō hē shuǐ, zǎo shuì; dàn yí dàn fā gāo shāo, huò zhě lián zhe liǎng sān tiān bú jiàn hǎo, nà fēi qù kàn yī shēng bù kě.",
+        "pinyinHtml": "nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǎo</span> yě bú shì, wǒ fēn qíng kuàng! yào shì zhǐ shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> diǎn fá lì huò qīng dù bí sè, wǒ xiān duō hē shuǐ, zǎo shuì; dàn yí dàn fā gāo shāo, huò zhě lián zhe liǎng sān tiān bú jiàn hǎo, nà fēi qù kàn yī shēng bù kě.",
+        "vi": "Cũng không hẳn, tớ tùy mức độ! Nếu chỉ hơi uể oải hay nghẹt mũi nhẹ thì tớ uống nhiều nước, ngủ sớm; nhưng hễ sốt cao hoặc 2-3 ngày liền không đỡ thì nhất định phải đi khám.",
+        "modified": true
+       },
+       {
+        "n": 13,
+        "role": "A",
+        "zh": "怪不得！你既不盲目乱吃药，也不会傻傻硬扛着。",
+        "pinyin": "guài bù de! nǐ jì bù máng mù luàn chī yào, yě bú huì shǎ shǎ yìng káng zhe.",
+        "pinyinHtml": "guài bù de! nǐ jì bù máng mù luàn chī yào, yě bú huì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǎ</span> shǎ yìng káng zhe.",
+        "vi": "Thảo nào! Cậu vừa không uống thuốc bừa bãi, vừa không cố chịu một cách ngốc nghếch.",
+        "modified": true
+       },
+       {
+        "n": 14,
+        "role": "B",
+        "zh": "就是这个理儿！千万别滥用药物，更别拖着不治。况且你家里还有老人小孩，万一传染给他们就麻烦了。",
+        "pinyin": "jiù shì zhè ge lǐr! qiān wàn bié làn yòng yào wù, gèng bié tuō zhe bú zhì. kuàng qiě nǐ jiā lǐ hái yǒu lǎo rén xiǎo hái, wàn yī chuán rǎn gěi tā men jiù má fán le.",
+        "pinyinHtml": "jiù shì zhè ge lǐr! qiān wàn bié làn yòng yào wù, gèng bié tuō zhe bú zhì. kuàng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qiě</span> nǐ jiā lǐ hái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> lǎo rén xiǎo hái, wàn yī chuán <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">rǎn</span> gěi tā men jiù má fán le.",
+        "vi": "Đúng thế đấy! Tuyệt đối đừng lạm dụng thuốc, càng đừng dây dưa không chữa. Huống chi nhà cậu còn có người già trẻ nhỏ, nhỡ lây cho họ thì phiền toái lắm.",
+        "modified": true
+       },
+       {
+        "n": 15,
+        "role": "A",
+        "zh": "听你这么一劝，我真醒悟了！照顾好自己也是为家人负责。下课我有空，要不你陪我去趟医院吧？",
+        "pinyin": "tīng nǐ zhè me yí quàn, wǒ zhēn xǐng wù le! zhào gù hǎo zì jǐ yě shì wèi jiā rén fù zé. xià kè wǒ yǒu kōng, yào bù nǐ péi wǒ qù tàng yī yuàn ba?",
+        "pinyinHtml": "tīng nǐ zhè me yí quàn, wǒ zhēn xǐng wù le! zhào gù hǎo zì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> yě shì wèi jiā rén fù zé. xià kè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǒu kōng, yào bù nǐ péi wǒ qù tàng yī yuàn ba?",
+        "vi": "Nghe cậu khuyên thế tớ tỉnh ngộ rồi! Tự chăm sóc mình cũng là có trách nhiệm với gia đình. Tan học tớ rảnh, hay cậu đi cùng tớ ra viện một chuyến nhé?",
+        "modified": true
+       },
+       {
+        "n": 16,
+        "role": "B",
+        "zh": "没问题，下课我就陪你去！在医生指导下对症下药，好得快也安心。",
+        "pinyin": "méi wèn tí, xià kè wǒ jiù péi nǐ qù! zài yī shēng zhǐ dǎo xià duì zhèng xià yào, hǎo de kuài yě ān xīn.",
+        "pinyinHtml": "méi wèn tí, xià kè wǒ jiù péi nǐ qù! zài yī shēng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǐ</span> dǎo xià duì zhèng xià yào, hǎo de kuài yě ān xīn.",
+        "vi": "Ok luôn, tan học tớ đi với cậu! Dùng đúng thuốc theo hướng dẫn bác sĩ vừa nhanh khỏi vừa yên tâm.",
+        "modified": true
+       }
+      ],
+      "diffs": [
+       {
+        "n": 1,
+        "role": "A",
+        "v1": {
+         "zh": "明明，早上好！今天你怎么来么这么早呢？",
+         "pinyin": "míng míng, zǎo shàng hǎo! jīn tiān nǐ zěn me lái me zhè me zǎo ne?",
+         "pinyinHtml": "míng míng, zǎo shàng hǎo! jīn tiān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> zěn me lái me zhè me zǎo ne?",
+         "vi": "Minh Minh, chào buổi sáng! Hôm nay sao cậu đến sớm thế?"
+        },
+        "v2": {
+         "zh": "明明，早啊！今儿怎么来得这么早？",
+         "pinyin": "míng míng, zǎo a! jīnr zěn me lái de zhè me zǎo?",
+         "pinyinHtml": "míng míng, zǎo a! jīnr zěn me lái de zhè me zǎo?",
+         "vi": "Minh Minh, chào buổi sáng! Hôm nay sao đến sớm thế?"
+        },
+        "reason": "Sửa lỗi gõ dư chữ “来么这么早” (lỗi Google Doc) thành khẩu ngữ Bắc Kinh tự nhiên “今儿怎么来得这么早？”"
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "v1": {
+         "zh": "最近天气不好，我得早点出门，不然又得淋雨了。你的脸色不太好，不舒服吗？",
+         "pinyin": "zuì jìn tiān qì bù hǎo, wǒ de zǎo diǎn chū mén, bù rán yòu de lín yǔ le. nǐ de liǎn sè bú tài hǎo, bù shū fú ma?",
+         "pinyinHtml": "zuì jìn tiān qì bù hǎo, wǒ de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> diǎn chū mén, bù rán yòu de lín yǔ le. nǐ de liǎn sè bú tài hǎo, bù shū fú ma?",
+         "vi": "Dạo này thời tiết xấu quá, tớ phải ra ngoài sớm kẻo lại dính mưa. Sắc mặt cậu không tốt lắm, không khỏe à?"
+        },
+        "v2": {
+         "zh": "最近老下雨，我怕堵车才早点出门。对了，看你脸色不太好，是不是哪儿不舒服？",
+         "pinyin": "zuì jìn lǎo xià yǔ, wǒ pà dǔ chē cái zǎo diǎn chū mén. duì le, kàn nǐ liǎn sè bú tài hǎo, shì bu shì nǎr bù shū fú?",
+         "pinyinHtml": "zuì jìn lǎo xià yǔ, wǒ pà dǔ chē cái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> diǎn chū mén. duì le, kàn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> liǎn sè bú tài hǎo, shì bu shì nǎr bù shū fú?",
+         "vi": "Dạo này hay mưa quá, tớ sợ tắc đường nên ra khỏi nhà sớm. À, trông sắc mặt cậu hơi kém, có phải thấy trong người không khỏe không?"
+        },
+        "reason": "Chỉnh lý do tự nhiên hơn (tránh lặp “淋雨”) và chuyển câu hỏi tự nhiên sang sức khỏe."
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "v1": {
+         "zh": "别提了，昨天我也被淋雨了。昨天晚上身体不舒服，有点发烧，还有点咳嗽，整夜睡不着。",
+         "pinyin": "bié tí le, zuó tiān wǒ yě bèi lín yǔ le. zuó tiān wǎn shàng shēn tǐ bù shū fú, yǒu diǎn fā shāo, hái yǒu diǎn ké sou, zhěng yè shuì bù zhe.",
+         "pinyinHtml": "bié tí le, zuó tiān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě bèi lín yǔ le. zuó tiān wǎn shàng shēn tǐ bù shū fú, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> diǎn fā shāo, hái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> diǎn ké sou, zhěng yè shuì bù zhe.",
+         "vi": "Đừng nhắc nữa, hôm qua tớ cũng dính mưa. Tối qua người khó chịu, hơi sốt lại ho nữa, cả đêm không ngủ được."
+        },
+        "v2": {
+         "zh": "别提了，昨天淋了场雨，晚上回来就开始发低烧，还一直咳嗽，折腾得整夜没睡好。",
+         "pinyin": "bié tí le, zuó tiān lín le chǎng yǔ, wǎn shàng huí lái jiù kāi shǐ fā dī shāo, hái yì zhí ké sou, zhē teng de zhěng yè méi shuì hǎo.",
+         "pinyinHtml": "bié tí le, zuó tiān lín le <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">chǎng</span> yǔ, wǎn shàng huí lái jiù kāi shǐ fā dī shāo, hái yì zhí ké sou, zhē teng de zhěng yè méi shuì hǎo.",
+         "vi": "Đừng nhắc nữa, hôm qua dính trận mưa, tối về bắt đầu sốt nhẹ rồi ho suốt, hành cho cả đêm chẳng ngủ ngon."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "v1": {
+         "zh": "那你吃药了吗？",
+         "pinyin": "nà nǐ chī yào le ma?",
+         "pinyinHtml": "nà nǐ chī yào le ma?",
+         "vi": "Thế cậu uống thuốc chưa?"
+        },
+        "v2": {
+         "zh": "那你赶紧吃退烧药了吗？",
+         "pinyin": "nà nǐ gǎn jǐn chī tuì shāo yào le ma?",
+         "pinyinHtml": "nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gǎn</span> jǐn chī tuì shāo yào le ma?",
+         "vi": "Thế cậu đã uống thuốc hạ sốt ngay chưa?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "v1": {
+         "zh": "还没呢，我平时得了小病一般都不吃药的。",
+         "pinyin": "hái méi ne, wǒ píng shí de le xiǎo bìng yì bān dōu bù chī yào de.",
+         "pinyinHtml": "hái méi ne, wǒ píng shí de le xiǎo bìng yì bān dōu bù chī yào de.",
+         "vi": "Chưa đâu, bình thường tớ bị bệnh vặt chẳng mấy khi uống thuốc."
+        },
+        "v2": {
+         "zh": "还没呢，我平时有点小病一般能扛就扛，很少吃药。",
+         "pinyin": "hái méi ne, wǒ píng shí yǒu diǎn xiǎo bìng yì bān néng káng jiù káng, hěn shǎo chī yào.",
+         "pinyinHtml": "hái méi ne, wǒ píng shí <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">diǎn</span> xiǎo bìng yì bān néng káng jiù káng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> shǎo chī yào.",
+         "vi": "Chưa đâu, bình thường tớ hơi ốm vặt toàn cố chịu cho qua, ít khi uống thuốc lắm."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "v1": {
+         "zh": "人人得病的时候都会吃药或者赶快看医生，但你连吃药也不吃，现在你觉得怎么样？",
+         "pinyin": "rén rén dé bìng de shí hòu dōu huì chī yào huò zhě gǎn kuài kàn yī shēng, dàn nǐ lián chī yào yě bù chī, xiàn zài nǐ jué de zěn me yàng?",
+         "pinyinHtml": "rén rén dé bìng de shí hòu dōu huì chī yào huò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhě</span> gǎn kuài kàn yī shēng, dàn nǐ lián chī yào yě bù chī, xiàn zài nǐ jué de zěn me yàng?",
+         "vi": "Ai bị bệnh cũng uống thuốc hoặc đi khám ngay, vậy mà cậu thuốc cũng chẳng uống, giờ thấy sao rồi?"
+        },
+        "v2": {
+         "zh": "哎呀，大家生病了都赶紧看医生吃药，你倒好，连药都不吃，现在感觉怎么样啊？",
+         "pinyin": "āi yā, dà jiā shēng bìng le dōu gǎn jǐn kàn yī shēng chī yào, nǐ dǎo hǎo, lián yào dōu bù chī, xiàn zài gǎn jué zěn me yàng a?",
+         "pinyinHtml": "āi yā, dà jiā shēng bìng le dōu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gǎn</span> jǐn kàn yī shēng chī yào, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǎo</span> hǎo, lián yào dōu bù chī, xiàn zài gǎn jué zěn me yàng a?",
+         "vi": "Trời ạ, mọi người ốm đều vội đi khám uống thuốc, cậu hay thật, thuốc cũng chẳng uống, giờ thấy trong người sao rồi?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "v1": {
+         "zh": "还行，我觉得不必吃药啦，吃药对身体不好啊，都是化学成分。",
+         "pinyin": "hái xíng, wǒ jué de bú bì chī yào lā, chī yào duì shēn tǐ bù hǎo a, dōu shì huà xué chéng fèn.",
+         "pinyinHtml": "hái xíng, wǒ jué de bú bì chī yào lā, chī yào duì shēn tǐ bù hǎo a, dōu shì huà xué chéng fèn.",
+         "vi": "Cũng tạm, tớ thấy không cần uống thuốc đâu, uống thuốc hại người lắm, toàn thành phần hóa học."
+        },
+        "v2": {
+         "zh": "还凑合吧，我总觉得“是药三分毒”，能不吃就不吃，免得伤身体。",
+         "pinyin": "hái còu hé ba, wǒ zǒng jué de \"shì yào sān fēn dú\", néng bù chī jiù bù chī, miǎn de shāng shēn tǐ.",
+         "pinyinHtml": "hái còu hé ba, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zǒng jué de \"shì yào sān fēn dú\", néng bù chī jiù bù chī, miǎn de shāng shēn tǐ.",
+         "vi": "Cũng tạm ổn, tớ cứ nghĩ thuốc nào chẳng có tác dụng phụ, tránh được thì tránh kẻo hại người."
+        },
+        "reason": "Thay văn dịch “都是化学成分” bằng thành ngữ khẩu ngữ cực chuẩn “是药三分毒” (thuốc nào cũng có 3 phần độc)."
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "v1": {
+         "zh": "可是，感冒发烧也算是得了病毒啊，如果不吃药控制，可能会越来越严重。你现在都发烧了，还头疼，这可不是一件小事！",
+         "pinyin": "kě shì, gǎn mào fā shāo yě suàn shì děi le bìng dú a, rú guǒ bù chī yào kòng zhì, kě néng huì yuè lái yuè yán zhòng. nǐ xiàn zài dōu fā shāo le, hái tóu téng, zhè kě bú shì yí jiàn xiǎo shì!",
+         "pinyinHtml": "kě shì, gǎn mào fā shāo yě suàn shì děi le bìng dú a, rú guǒ bù chī yào kòng zhì, kě néng huì yuè lái yuè yán zhòng. nǐ xiàn zài dōu fā shāo le, hái tóu téng, zhè kě bú shì yí jiàn xiǎo shì!",
+         "vi": "Nhưng cảm sốt cũng là nhiễm virus đấy, không uống thuốc kiểm soát dễ nặng thêm lắm. Cậu đang sốt lại đau đầu thế kia không phải chuyện nhỏ đâu!"
+        },
+        "v2": {
+         "zh": "话虽这么说，可发烧往往是病毒感染啊！要是不用药控制，症状只会越来越重，头疼发烧可不是闹着玩的。",
+         "pinyin": "huà suī zhè me shuō, kě fā shāo wǎng wǎng shì bìng dú gǎn rǎn a! yào shi bú yòng yào kòng zhì, zhèng zhuàng zhǐ huì yuè lái yuè zhòng, tóu téng fā shāo kě bú shì nào zhe wán de.",
+         "pinyinHtml": "huà suī zhè me shuō, kě fā shāo <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎng</span> wǎng shì bìng dú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gǎn</span> rǎn a! yào shi bú yòng yào kòng zhì, zhèng zhuàng zhǐ huì yuè lái yuè zhòng, tóu téng fā shāo kě bú shì nào zhe wán de.",
+         "vi": "Nói vậy thôi chứ sốt thường là do nhiễm virus đấy! Không dùng thuốc kiểm soát thì triệu chứng chỉ có nặng thêm, sốt với đau đầu không phải chuyện đùa đâu."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "v1": {
+         "zh": "不至于那么严重吧？感冒这种小病，休息一下就好了。",
+         "pinyin": "bú zhì yú nà me yán zhòng ba? gǎn mào zhè zhǒng xiǎo bìng, xiū xi yí xià jiù hǎo le.",
+         "pinyinHtml": "bú zhì yú nà me yán zhòng ba? gǎn mào zhè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǒng</span> xiǎo bìng, xiū xi yí xià jiù hǎo le.",
+         "vi": "Không đến mức nghiêm trọng thế chứ? Cảm vặt thế này nghỉ ngơi chút là khỏi thôi."
+        },
+        "v2": {
+         "zh": "不至于那么严重吧？我觉得就是普通感冒，喝点热水、捂着睡一觉就好了。",
+         "pinyin": "bú zhì yú nà me yán zhòng ba? wǒ jué de jiù shì pǔ tōng gǎn mào, hē diǎn rè shuǐ, wǔ zhe shuì yí jiào jiù hǎo le.",
+         "pinyinHtml": "bú zhì yú nà me yán zhòng ba? wǒ jué de jiù shì pǔ tōng gǎn mào, hē diǎn rè shuǐ, wǔ zhe shuì yí jiào jiù hǎo le.",
+         "vi": "Chắc không đến nỗi nặng thế đâu chứ? Tớ thấy chỉ là cảm thường, uống cốc nước ấm rồi trùm chăn ngủ một giấc là khỏi thôi."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "v1": {
+         "zh": "虽然药物能有副作用，但有些疾病如果不及时用药就会影响健康。很多人因为小感冒拖着不治，结果引起了肺炎！",
+         "pinyin": "suī rán yào wù néng yǒu fù zuò yòng, dàn yǒu xiē jí bìng rú guǒ bù jí shí yòng yào jiù huì yǐng xiǎng jiàn kāng. hěn duō rén yīn wèi xiǎo gǎn mào tuō zhe bú zhì, jié guǒ yǐn qǐ le fèi yán!",
+         "pinyinHtml": "suī rán yào wù néng yǒu fù zuò yòng, dàn yǒu xiē jí bìng rú guǒ bù jí shí yòng yào jiù huì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐng</span> xiǎng jiàn kāng. hěn duō rén yīn wèi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> gǎn mào tuō zhe bú zhì, jié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐn</span> qǐ le fèi yán!",
+         "vi": "Tuy thuốc có tác dụng phụ nhưng có những bệnh không dùng thuốc kịp là ảnh hưởng sức khỏe đấy. Nhiều người cảm nhẹ kéo dài không chữa rồi biến chứng thành viêm phổi đấy!"
+        },
+        "v2": {
+         "zh": "你可别大意！不少年轻人就是小感冒拖着不治，最后拖成了肺炎，后悔都来不及。",
+         "pinyin": "nǐ kě bié dà yì! bù shào nián qīng rén jiù shì xiǎo gǎn mào tuō zhe bú zhì, zuì hòu tuō chéng le fèi yán, hòu huǐ dōu lái bù jí.",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> kě bié dà yì! bù shào nián qīng rén jiù shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> gǎn mào tuō zhe bú zhì, zuì hòu tuō chéng le fèi yán, hòu huǐ dōu lái bù jí.",
+         "vi": "Cậu đừng chủ quan! Không ít người trẻ chỉ vì cảm nhẹ kéo dài không chịu chữa, cuối cùng biến chứng thành viêm phổi, hối không kịp đâu."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "v1": {
+         "zh": "那平时身体不舒服的时候，你会不会马上去看医生、吃药？",
+         "pinyin": "nà píng shí shēn tǐ bù shū fú de shí hòu, nǐ huì bu huì mǎ shàng qù kàn yī shēng, chī yào?",
+         "pinyinHtml": "nà píng shí shēn tǐ bù shū fú de shí hòu, nǐ huì bu huì mǎ shàng qù kàn yī shēng, chī yào?",
+         "vi": "Vậy bình thường lúc người không khỏe, cậu có đi khám bác sĩ, uống thuốc ngay không?"
+        },
+        "v2": {
+         "zh": "那换成是你，身体一不舒服就会马上去医院、吃药吗？",
+         "pinyin": "nà huàn chéng shì nǐ, shēn tǐ yí bù shū fú jiù huì mǎ shàng qù yī yuàn, chī yào ma?",
+         "pinyinHtml": "nà huàn chéng shì nǐ, shēn tǐ yí bù shū fú jiù huì mǎ shàng qù yī yuàn, chī yào ma?",
+         "vi": "Thế đổi lại là cậu, hễ người thấy mệt là cậu chạy thẳng ra viện uống thuốc ngay à?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "v1": {
+         "zh": "我也看情况。要是只是累了或者有点鼻塞，我会先多喝水、早点睡；但要是发烧或者两三天还没好，我就非去看医生不可。",
+         "pinyin": "wǒ yě kàn qíng kuàng. yào shi zhǐ shì lèi le huò zhě yǒu diǎn bí sè, wǒ huì xiān duō hē shuǐ, zǎo diǎn shuì; dàn yào shi fā shāo huò zhě liǎng sān tiān hái méi hǎo, wǒ jiù fēi qù kàn yī shēng bù kě.",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě kàn qíng kuàng. yào shi zhǐ shì lèi le huò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> diǎn bí sè, wǒ huì xiān duō hē shuǐ, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> diǎn shuì; dàn yào shi fā shāo huò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhě</span> liǎng sān tiān hái méi hǎo, wǒ jiù fēi qù kàn yī shēng bù kě.",
+         "vi": "Tớ cũng tùy tình hình. Nếu chỉ mệt hay hơi nghẹt mũi thì tớ uống nhiều nước, ngủ sớm trước; nhưng nếu sốt hoặc 2-3 ngày chưa đỡ là tớ nhất định đi bác sĩ."
+        },
+        "v2": {
+         "zh": "那倒也不是，我分情况！要是只是有点乏力或轻度鼻塞，我先多喝水、早睡；但一旦发高烧，或者连着两三天不见好，那非去看医生不可。",
+         "pinyin": "nà dǎo yě bú shì, wǒ fēn qíng kuàng! yào shì zhǐ shì yǒu diǎn fá lì huò qīng dù bí sè, wǒ xiān duō hē shuǐ, zǎo shuì; dàn yí dàn fā gāo shāo, huò zhě lián zhe liǎng sān tiān bú jiàn hǎo, nà fēi qù kàn yī shēng bù kě.",
+         "pinyinHtml": "nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǎo</span> yě bú shì, wǒ fēn qíng kuàng! yào shì zhǐ shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> diǎn fá lì huò qīng dù bí sè, wǒ xiān duō hē shuǐ, zǎo shuì; dàn yí dàn fā gāo shāo, huò zhě lián zhe liǎng sān tiān bú jiàn hǎo, nà fēi qù kàn yī shēng bù kě.",
+         "vi": "Cũng không hẳn, tớ tùy mức độ! Nếu chỉ hơi uể oải hay nghẹt mũi nhẹ thì tớ uống nhiều nước, ngủ sớm; nhưng hễ sốt cao hoặc 2-3 ngày liền không đỡ thì nhất định phải đi khám."
+        },
+        "reason": "Lồng ghép chuẩn mẫu câu Bài 2: “非去看医生不可” (nhất thiết phải đi bác sĩ)."
+       },
+       {
+        "n": 13,
+        "role": "A",
+        "v1": {
+         "zh": "原来如此，你不是一不舒服就乱吃药，而是看症状决定。",
+         "pinyin": "yuán lái rú cǐ, nǐ bú shì yí bù shū fú jiù luàn chī yào, ér shì kàn zhèng zhuàng jué dìng.",
+         "pinyinHtml": "yuán lái rú cǐ, nǐ bú shì yí bù shū fú jiù luàn chī yào, ér shì kàn zhèng zhuàng jué dìng.",
+         "vi": "Thì ra là vậy, cậu không phải hễ mệt là uống bừa thuốc, mà xem triệu chứng để quyết định."
+        },
+        "v2": {
+         "zh": "怪不得！你既不盲目乱吃药，也不会傻傻硬扛着。",
+         "pinyin": "guài bù de! nǐ jì bù máng mù luàn chī yào, yě bú huì shǎ shǎ yìng káng zhe.",
+         "pinyinHtml": "guài bù de! nǐ jì bù máng mù luàn chī yào, yě bú huì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǎ</span> shǎ yìng káng zhe.",
+         "vi": "Thảo nào! Cậu vừa không uống thuốc bừa bãi, vừa không cố chịu một cách ngốc nghếch."
+        },
+        "reason": "Thay từ văn viết/dịch anime “原来如此” bằng khẩu ngữ tự nhiên “怪不得！”."
+       },
+       {
+        "n": 14,
+        "role": "B",
+        "v1": {
+         "zh": "对啊，千万别滥用药物，也千万别硬扛着不治。况且你家里有老有小，传染给他们就不好了。",
+         "pinyin": "duì a, qiān wàn bié làn yòng yào wù, yě qiān wàn bié yìng káng zhe bú zhì. kuàng qiě nǐ jiā lǐ yǒu lǎo yǒu xiǎo, chuán rǎn gěi tā men jiù bù hǎo le.",
+         "pinyinHtml": "duì a, qiān wàn bié làn yòng yào wù, yě qiān wàn bié yìng káng zhe bú zhì. kuàng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qiě</span> nǐ jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǎo</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> xiǎo, chuán <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">rǎn</span> gěi tā men jiù bù hǎo le.",
+         "vi": "Đúng thế, tuyệt đối đừng lạm dụng thuốc, cũng đừng cố chịu không chữa. Huống hồ nhà cậu có người già trẻ nhỏ, lây sang họ thì khổ."
+        },
+        "v2": {
+         "zh": "就是这个理儿！千万别滥用药物，更别拖着不治。况且你家里还有老人小孩，万一传染给他们就麻烦了。",
+         "pinyin": "jiù shì zhè ge lǐr! qiān wàn bié làn yòng yào wù, gèng bié tuō zhe bú zhì. kuàng qiě nǐ jiā lǐ hái yǒu lǎo rén xiǎo hái, wàn yī chuán rǎn gěi tā men jiù má fán le.",
+         "pinyinHtml": "jiù shì zhè ge lǐr! qiān wàn bié làn yòng yào wù, gèng bié tuō zhe bú zhì. kuàng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qiě</span> nǐ jiā lǐ hái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> lǎo rén xiǎo hái, wàn yī chuán <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">rǎn</span> gěi tā men jiù má fán le.",
+         "vi": "Đúng thế đấy! Tuyệt đối đừng lạm dụng thuốc, càng đừng dây dưa không chữa. Huống chi nhà cậu còn có người già trẻ nhỏ, nhỡ lây cho họ thì phiền toái lắm."
+        },
+        "reason": "Bỏ chữ “对啊” cụt, dùng “就是这个理儿！” và nhấn mạnh “千万别……” của Bài 2."
+       },
+       {
+        "n": 15,
+        "role": "A",
+        "v1": {
+         "zh": "你说得真有道理，关心自己的健康，也是关心身边人的健康啊。那下课后我还是去看看医生吧。",
+         "pinyin": "nǐ shuō de zhēn yǒu dào lǐ, guān xīn zì jǐ de jiàn kāng, yě shì guān xīn shēn biān rén de jiàn kāng a. nà xià kè hòu wǒ hái shì qù kàn kàn yī shēng ba.",
+         "pinyinHtml": "nǐ shuō de zhēn yǒu dào lǐ, guān xīn zì jǐ de jiàn kāng, yě shì guān xīn shēn biān rén de jiàn kāng a. nà xià kè hòu wǒ hái shì qù kàn kàn yī shēng ba.",
+         "vi": "Cậu nói có lý thật, quan tâm sức khỏe bản thân cũng là quan tâm mọi người xung quanh. Vậy tan học tớ đi khám bác sĩ vậy."
+        },
+        "v2": {
+         "zh": "听你这么一劝，我真醒悟了！照顾好自己也是为家人负责。下课我有空，要不你陪我去趟医院吧？",
+         "pinyin": "tīng nǐ zhè me yí quàn, wǒ zhēn xǐng wù le! zhào gù hǎo zì jǐ yě shì wèi jiā rén fù zé. xià kè wǒ yǒu kōng, yào bù nǐ péi wǒ qù tàng yī yuàn ba?",
+         "pinyinHtml": "tīng nǐ zhè me yí quàn, wǒ zhēn xǐng wù le! zhào gù hǎo zì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> yě shì wèi jiā rén fù zé. xià kè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǒu kōng, yào bù nǐ péi wǒ qù tàng yī yuàn ba?",
+         "vi": "Nghe cậu khuyên thế tớ tỉnh ngộ rồi! Tự chăm sóc mình cũng là có trách nhiệm với gia đình. Tan học tớ rảnh, hay cậu đi cùng tớ ra viện một chuyến nhé?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 16,
+        "role": "B",
+        "v1": {
+         "zh": "下课后我陪你一起去，早点查清楚早点安心！",
+         "pinyin": "xià kè hòu wǒ péi nǐ yì qǐ qù, zǎo diǎn chá qīng chǔ zǎo diǎn ān xīn!",
+         "pinyinHtml": "xià kè hòu wǒ péi nǐ yì qǐ qù, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> diǎn chá qīng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">chǔ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> diǎn ān xīn!",
+         "vi": "Tan học tớ đi cùng cậu, khám rõ sớm cho yên tâm!"
+        },
+        "v2": {
+         "zh": "没问题，下课我就陪你去！在医生指导下对症下药，好得快也安心。",
+         "pinyin": "méi wèn tí, xià kè wǒ jiù péi nǐ qù! zài yī shēng zhǐ dǎo xià duì zhèng xià yào, hǎo de kuài yě ān xīn.",
+         "pinyinHtml": "méi wèn tí, xià kè wǒ jiù péi nǐ qù! zài yī shēng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǐ</span> dǎo xià duì zhèng xià yào, hǎo de kuài yě ān xīn.",
+         "vi": "Ok luôn, tan học tớ đi với cậu! Dùng đúng thuốc theo hướng dẫn bác sĩ vừa nhanh khỏi vừa yên tâm."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       }
+      ],
+      "audio": "audio/b2-q3.m4a",
+      "audioDuration": 110.73,
+      "audioTimings": [
+       {
+        "n": 1,
+        "role": "A",
+        "start": 0.25,
+        "end": 3.75
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "start": 3.75,
+        "end": 11.26
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "start": 11.26,
+        "end": 18.26
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "start": 18.26,
+        "end": 20.61
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "start": 20.61,
+        "end": 25.6
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "start": 25.6,
+        "end": 32.83
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "start": 32.83,
+        "end": 38.88
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "start": 38.88,
+        "end": 48.78
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "start": 48.78,
+        "end": 55.07
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "start": 55.07,
+        "end": 62.94
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "start": 62.94,
+        "end": 67.62
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "start": 67.62,
+        "end": 80.78
+       },
+       {
+        "n": 13,
+        "role": "A",
+        "start": 80.78,
+        "end": 85.37
+       },
+       {
+        "n": 14,
+        "role": "B",
+        "start": 85.37,
+        "end": 95.28
+       },
+       {
+        "n": 15,
+        "role": "A",
+        "start": 95.28,
+        "end": 104.09
+       },
+       {
+        "n": 16,
+        "role": "B",
+        "start": 104.09,
+        "end": 110.73
+       }
+      ]
+     },
+     {
+      "id": "b2-q4",
+      "no": 4,
+      "examNo": 4,
+      "priority": null,
+      "isExamScope": true,
+      "titleVi": "Đối với bạn, sức khỏe có phải số 1 không?",
+      "question": "对你来说，健康是不是第一？",
+      "questionPinyin": "duì nǐ lái shuō, jiàn kāng shì bu shì dì yī?",
+      "questionPinyinHtml": "duì nǐ lái shuō, jiàn kāng shì bu shì dì yī?",
+      "slideQuestions": [],
+      "outline": "Phàn nàn áp lực công việc phải tăng ca → Tranh luận: Sức khỏe số 1 vs Không có tiền cũng không sống/chữa bệnh nổi → Chốt lại cân bằng: Giữ sức khỏe để kiếm tiền bền vững.",
+      "takeaways": {
+       "points": [
+        "Khẳng định quan điểm: Sức khỏe chắc chắn là số 1 (毫无疑问，健康肯定是第一位)",
+        "Hai mặt của Sức khỏe & Tiền bạc: Không có tiền thì khó xoay xở chi phí sinh hoạt & viện phí; nhưng bán mạng kiếm tiền đến khi ngã bệnh thì bao nhiêu tiền cũng vô nghĩa (有健康才能赚钱，别拿命换钱)",
+        "Ví dụ thực tế dễ ghi điểm: Nhắc người thân/đồng nghiệp làm việc quá sức đến mức nhập viện (太拼命最后得了重病)",
+        "Mẫu câu Bài 2: 别提多……了 (khỏi phải nói), 非……不可 (nhất thiết), 千万别 (tuyệt đối đừng)"
+       ],
+       "goldenQuotes": "“健康第一”不是说钱不重要，而是提醒我们千万别为了赚钱把身体搞垮。有健康才能谈未来。"
+      },
+      "lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "薇薇，你这是怎么了？最近精神头看着不太好啊，是不是太累了？",
+        "pinyin": "wēi wēi, nǐ zhè shì zěn me le? zuì jìn jīng shén tóu kàn zhe bú tài hǎo a, shì bu shì tài lèi le?",
+        "pinyinHtml": "wēi wēi, nǐ zhè shì zěn me le? zuì jìn jīng shén tóu kàn zhe bú tài hǎo a, shì bu shì tài lèi le?",
+        "vi": "Vi Vi, cậu sao thế này? Dạo này trông thần sắc hơi kém đấy, có phải mệt quá không?",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "别提有多累了！最近项目赶进度，我天天加班熬夜，今天累得连晚饭都咽不下。",
+        "pinyin": "bié tí yǒu duō lèi le! zuì jìn xiàng mù gǎn jìn dù, wǒ tiān tiān jiā bān áo yè, jīn tiān lèi de lián wǎn fàn dōu yàn bú xià.",
+        "pinyinHtml": "bié tí yǒu duō lèi le! zuì jìn xiàng mù gǎn jìn dù, wǒ tiān tiān jiā bān áo yè, jīn tiān lèi de lián wǎn fàn dōu yàn bú xià.",
+        "vi": "Mệt khỏi phải nói luôn! Dạo này dự án chạy tiến độ, ngày nào tớ cũng tăng ca thức khuya, hôm nay mệt đến mức cơm tối chẳng nuốt nổi.",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "工作哪有干完的时候？什么事过了头都不好，拿命换钱最不划算。对我来说，健康永远是第一位的！",
+        "pinyin": "gōng zuò nǎ yǒu gān wán de shí hòu? shén me shì guò le tóu dōu bù hǎo, ná mìng huàn qián zuì bú huá suàn. duì wǒ lái shuō, jiàn kāng yǒng yuǎn shì dì yī wèi de!",
+        "pinyinHtml": "gōng zuò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǎ</span> yǒu gān wán de shí hòu? shén me shì guò le tóu dōu bù hǎo, ná mìng huàn qián zuì bú huá suàn. duì wǒ lái shuō, jiàn kāng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒng</span> yuǎn shì dì yī wèi de!",
+        "vi": "Công việc bao giờ mới hết được? Chuyện gì quá mức cũng dở, lấy mạng đổi tiền là dại nhất. Với tớ, sức khỏe lúc nào cũng là số một!",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "话是这么说，可现实摆在这儿啊，没钱怎么应付每天的柴米油盐？万一生个大病，连医药费都掏不起！",
+        "pinyin": "huà shì zhè me shuō, kě xiàn shí bǎi zài zhèr a, méi qián zěn me yìng fù měi tiān de chái mǐ yóu yán? wàn yī shēng gè dà bìng, lián yī yào fèi dōu tāo bù qǐ!",
+        "pinyinHtml": "huà shì zhè me shuō, kě xiàn shí bǎi zài zhèr a, méi qián zěn me yìng fù měi tiān de chái mǐ yóu yán? wàn yī shēng gè dà bìng, lián yī yào fèi dōu tāo bù qǐ!",
+        "vi": "Nói thì hay thế, nhưng thực tế sờ sờ ra đấy, không tiền lấy gì lo cơm áo gạo tiền hàng ngày? Nhỡ ốm nặng một trận, tiền thuốc men còn chẳng đủ đóng!",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "这我承认，但反过来想，要是把身体熬垮了，赚再多钱也只能躺在医院花，难道咱们拼命赚钱就是为了养医生吗？",
+        "pinyin": "zhè wǒ chéng rèn, dàn fǎn guò lái xiǎng, yào shi bǎ shēn tǐ áo kuǎ le, zhuàn zài duō qián yě zhǐ néng tǎng zài yī yuàn huā, nán dào zán men pīn mìng zhuàn qián jiù shì wèi le yǎng yī shēng ma?",
+        "pinyinHtml": "zhè wǒ chéng rèn, dàn fǎn guò lái xiǎng, yào shi bǎ shēn tǐ áo kuǎ le, zhuàn zài duō qián yě zhǐ néng tǎng zài yī yuàn huā, nán dào zán men pīn mìng zhuàn qián jiù shì wèi le yǎng yī shēng ma?",
+        "vi": "Cái này tớ công nhận, nhưng nghĩ ngược lại xem, nếu thức đêm cày kiệt sức, kiếm nhiều tiền mấy rồi cũng chỉ nằm viện tiêu, chẳng lẽ mình bán sức kiếm tiền để nuôi bác sĩ à?",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "道理我懂，我只是想趁着年轻能吃苦，多攒点本钱，以后好早点实现财富自由，过轻松日子。",
+        "pinyin": "dào lǐ wǒ dǒng, wǒ zhǐ shì xiǎng chèn zhe nián qīng néng chī kǔ, duō zǎn diǎn běn qián, yǐ hòu hǎo zǎo diǎn shí xiàn cái fù zì yóu, guò qīng sōng rì zi.",
+        "pinyinHtml": "dào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǒng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zhǐ shì xiǎng chèn zhe nián qīng néng chī kǔ, duō <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎn</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">diǎn</span> běn qián, yǐ hòu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> diǎn shí xiàn cái fù zì yóu, guò qīng sōng rì zi.",
+        "vi": "Lý lẽ tớ hiểu, tớ chỉ muốn tranh thủ còn trẻ chịu khổ được, tích cóp thêm chút vốn để sau này sớm tự do tài chính, sống nhàn hạ hơn.",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "我以前有个亲戚就是这么想的，拼命工作赚了大钱，结果四十几岁就查出重病，现在只能天天养病，钱再多也花不开心。",
+        "pinyin": "wǒ yǐ qián yǒu gè qīn qi jiù shì zhè me xiǎng de, pīn mìng gōng zuò zhuàn le dà qián, jié guǒ sì shí jǐ suì jiù chá chū zhòng bìng, xiàn zài zhǐ néng tiān tiān yǎng bìng, qián zài duō yě huā bù kāi xīn.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǐ qián yǒu gè qīn qi jiù shì zhè me xiǎng de, pīn mìng gōng zuò zhuàn le dà qián, jié guǒ sì shí jǐ suì jiù chá chū zhòng bìng, xiàn zài zhǐ néng tiān tiān yǎng bìng, qián zài duō yě huā bù kāi xīn.",
+        "vi": "Trước tớ có người họ hàng cũng nghĩ y vậy, làm sống làm chết kiếm bộn tiền, kết quả hơn 40 tuổi phát hiện bệnh nặng, giờ suốt ngày nằm dưỡng bệnh, nhiều tiền mấy cũng chẳng tiêu vui nổi.",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "哎，我倒也见过另一面：有位朋友平时很注重养生，但收入太低舍不得去体检，结果小病拖成大病。所以没钱有时也护不住健康。",
+        "pinyin": "āi, wǒ dǎo yě jiàn guò lìng yí miàn: yǒu wèi péng yǒu píng shí hěn zhù zhòng yǎng shēng, dàn shōu rù tài dī shě bu de qù tǐ jiǎn, jié guǒ xiǎo bìng tuō chéng dà bìng. suǒ yǐ méi qián yǒu shí yě hù bú zhù jiàn kāng.",
+        "pinyinHtml": "āi, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǎo</span> yě jiàn guò lìng yí miàn: yǒu wèi péng yǒu píng shí hěn zhù zhòng yǎng shēng, dàn shōu rù tài dī shě bu de qù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐ</span> jiǎn, jié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> xiǎo bìng tuō chéng dà bìng. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǐ méi qián yǒu shí yě hù bú zhù jiàn kāng.",
+        "vi": "Haiz, tớ cũng thấy mặt trái kia rồi: có người bạn bình thường rất giữ sức khỏe nhưng thu nhập thấp, tiếc tiền không đi khám định kỳ, cuối cùng bệnh nhẹ thành nặng. Nên đôi khi không tiền cũng chẳng bảo vệ nổi sức khỏe.",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "对，所以关键在于平衡！不能把健康和赚钱对立起来，但在两头冲突的时候，咱还是非把健康放在第一位不可。",
+        "pinyin": "duì, suǒ yǐ guān jiàn zài yú píng héng! bù néng bǎ jiàn kāng hé zhuàn qián duì lì qǐ lái, dàn zài liǎng tóu chōng tū de shí hòu, zán hái shì fēi bǎ jiàn kāng fàng zài dì yī wèi bù kě.",
+        "pinyinHtml": "duì, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǐ guān jiàn zài yú píng héng! bù néng bǎ jiàn kāng hé zhuàn qián duì lì qǐ lái, dàn zài liǎng tóu chōng tū de shí hòu, zán hái shì fēi bǎ jiàn kāng fàng zài dì yī wèi bù kě.",
+        "vi": "Chuẩn, nên mấu chốt là cân bằng! Đừng đặt sức khỏe đối nghịch với kiếm tiền, nhưng lúc hai thứ xung đột thì nhất thiết phải đặt sức khỏe lên hàng đầu.",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "说到底，这两者其实相辅相成——有好身体才能长久赚钱，有经济基础才能更好地保养身体。",
+        "pinyin": "shuō dào dǐ, zhè liǎng zhě qí shí xiāng fǔ xiāng chéng-- yǒu hǎo shēn tǐ cái néng cháng jiǔ zhuàn qián, yǒu jīng jì jī chǔ cái néng gèng hǎo de bǎo yǎng shēn tǐ.",
+        "pinyinHtml": "shuō dào dǐ, zhè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">liǎng</span> zhě qí shí xiāng fǔ xiāng chéng-- <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> hǎo shēn tǐ cái néng cháng jiǔ zhuàn qián, yǒu jīng jì jī chǔ cái néng gèng hǎo de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎo</span> yǎng shēn tǐ.",
+        "vi": "Nói cho cùng, hai thứ đó hỗ trợ lẫn nhau — có thân thể khỏe mới kiếm tiền đường dài, có kinh tế mới chăm sóc bản thân tốt hơn.",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "你这话太透彻了！“健康第一”不是清高到不要钱，而是提醒咱们千万别为了眼前的收入透支未来的健康。",
+        "pinyin": "nǐ zhè huà tài tòu chè le! \"jiàn kāng dì yī\" bú shì qīng gāo dào bú yào qián, ér shì tí xǐng zán men qiān wàn bié wèi le yǎn qián de shōu rù tòu zhī wèi lái de jiàn kāng.",
+        "pinyinHtml": "nǐ zhè huà tài tòu chè le! \"jiàn kāng dì yī\" bú shì qīng gāo dào bú yào qián, ér shì tí xǐng zán men qiān wàn bié wèi le yǎn qián de shōu rù tòu zhī wèi lái de jiàn kāng.",
+        "vi": "Câu này cậu nói thấu đáo quá! 'Sức khỏe số 1' không phải chê tiền, mà nhắc nhở ta tuyệt đối đừng vì thu nhập trước mắt mà xài lạm sức khỏe tương lai.",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "听你这么一开导，我最近绷紧的神经总算松快点儿了。正好明天周末，我决定不加班了，咱们出去放松一下吧？",
+        "pinyin": "tīng nǐ zhè me yì kāi dǎo, wǒ zuì jìn bēng jǐn de shén jīng zǒng suàn sōng kuài diǎnr le. zhèng hǎo míng tiān zhōu mò, wǒ jué dìng bù jiā bān le, zán men chū qù fàng sōng yí xià ba?",
+        "pinyinHtml": "tīng nǐ zhè me yì kāi dǎo, wǒ zuì jìn bēng jǐn de shén jīng zǒng suàn sōng kuài diǎnr le. zhèng hǎo míng tiān zhōu mò, wǒ jué dìng bù jiā bān le, zán men chū qù fàng sōng yí xià ba?",
+        "vi": "Nghe cậu phân tích xong, đầu óc căng thẳng dạo này của tớ đỡ hẳn rồi. Vừa khéo mai cuối tuần, tớ quyết định nghỉ tăng ca, mình ra ngoài thư giãn một bữa nhé?",
+        "modified": true
+       },
+       {
+        "n": 13,
+        "role": "A",
+        "zh": "这主意太赞了！能陪大忙人好好放松一回，那是我的荣幸啊！",
+        "pinyin": "zhè zhǔ yì tài zàn le! néng péi dà máng rén hǎo hǎo fàng sōng yì huí, nà shì wǒ de róng xìng a!",
+        "pinyinHtml": "zhè zhǔ yì tài zàn le! néng péi dà máng rén <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> hǎo fàng sōng yì huí, nà shì wǒ de róng xìng a!",
+        "vi": "Ý kiến này đỉnh quá! Được đưa người bận rộn đi xả hơi một chuyến đúng là vinh hạnh của tớ đấy!",
+        "modified": true
+       },
+       {
+        "n": 14,
+        "role": "B",
+        "zh": "哈哈哈，就会拿我打趣，明天不见不散！",
+        "pinyin": "hā hā hā, jiù huì ná wǒ dǎ qù, míng tiān bú jiàn bú sàn!",
+        "pinyinHtml": "hā hā hā, jiù huì ná <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎ qù, míng tiān bú jiàn bú sàn!",
+        "vi": "Haha, chỉ giỏi trêu tớ, mai không gặp không về nhé!",
+        "modified": true
+       }
+      ],
+      "v1_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "你怎么了薇薇？最近生活不顺利吗？我看你的精神不太好啊？",
+        "pinyin": "nǐ zěn me le wēi wēi? zuì jìn shēng huó bú shùn lì ma? wǒ kàn nǐ de jīng shén bú tài hǎo a?",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> zěn me le wēi wēi? zuì jìn shēng huó bú shùn lì ma? wǒ kàn nǐ de jīng shén bú tài hǎo a?",
+        "vi": "Cậu sao thế Vi Vi? Dạo này cuộc sống không thuận lợi à? Tớ thấy tinh thần cậu không tốt lắm.",
+        "modified": false
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "别提了，我最近的工作太忙了，这份工作太复杂了，我每天都要加班，熬夜，今天累得连饭也不想吃。",
+        "pinyin": "bié tí le, wǒ zuì jìn de gōng zuò tài máng le, zhè fèn gōng zuò tài fù zá le, wǒ měi tiān dōu yào jiā bān, áo yè, jīn tiān lèi de lián fàn yě bù xiǎng chī.",
+        "pinyinHtml": "bié tí le, wǒ zuì jìn de gōng zuò tài máng le, zhè fèn gōng zuò tài fù zá le, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> měi tiān dōu yào jiā bān, áo yè, jīn tiān lèi de lián fàn yě bù xiǎng chī.",
+        "vi": "Đừng nhắc nữa, dạo này công việc bận quá, việc lại phức tạp, ngày nào tớ cũng phải tăng ca, thức khuya, hôm nay mệt đến cơm chẳng buồn ăn.",
+        "modified": false
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "那么严重吗？什么事情过了头都不好。自己的能力到哪儿就到哪儿，太勉强了反而会伤身体。没什么事情比健康更重要。",
+        "pinyin": "nà me yán zhòng ma? shén me shì qíng guò le tóu dōu bù hǎo. zì jǐ de néng lì dào nǎr jiù dào nǎr, tài miǎn qiǎng le fǎn ér huì shāng shēn tǐ. méi shén me shì qíng bǐ jiàn kāng gèng zhòng yào.",
+        "pinyinHtml": "nà me yán zhòng ma? shén me shì qíng guò le tóu dōu bù hǎo. zì jǐ de néng lì dào nǎr jiù dào nǎr, tài <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">miǎn</span> qiǎng le fǎn ér huì shāng shēn tǐ. méi shén me shì qíng bǐ jiàn kāng gèng zhòng yào.",
+        "vi": "Nghiêm trọng vậy sao? Chuyện gì quá mức cũng không tốt. Sức mình tới đâu làm tới đó, cố quá lại hại thân. Chẳng gì quan trọng bằng sức khỏe đâu.",
+        "modified": false
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "说归说，可是你想想，没有钱你怎么解决柴米油盐的问题呢，甚至连生病看医生都看不起。光靠健康也不能生活啊。",
+        "pinyin": "shuō guī shuō, kě shì nǐ xiǎng xiǎng, méi yǒu qián nǐ zěn me jiě jué chái mǐ yóu yán de wèn tí ne, shèn zhì lián shēng bìng kàn yī shēng dōu kàn bù qǐ. guāng kào jiàn kāng yě bù néng shēng huó a.",
+        "pinyinHtml": "shuō guī shuō, kě shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> xiǎng, méi yǒu qián <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> zěn me jiě jué chái mǐ yóu yán de wèn tí ne, shèn zhì lián shēng bìng kàn yī shēng dōu kàn bù qǐ. guāng kào jiàn kāng yě bù néng shēng huó a.",
+        "vi": "Nói thì nói thế, nhưng cậu thử nghĩ xem, không có tiền sao lo nổi cơm áo gạo tiền, thậm chí ốm đau cũng chẳng đủ tiền đi khám. Chỉ có sức khỏe không thì đâu sống nổi.",
+        "modified": false
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "你的观点有问题了，如果没有健康的话，再多的钱也没用。再说，难道你赚钱就为了看病，值得吗？",
+        "pinyin": "nǐ de guān diǎn yǒu wèn tí le, rú guǒ méi yǒu jiàn kāng de huà, zài duō de qián yě méi yòng. zài shuō, nán dào nǐ zhuàn qián jiù wèi le kàn bìng, zhí de ma?",
+        "pinyinHtml": "nǐ de guān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">diǎn</span> yǒu wèn tí le, rú guǒ méi yǒu jiàn kāng de huà, zài duō de qián yě méi yòng. zài shuō, nán dào nǐ zhuàn qián jiù wèi le kàn bìng, zhí de ma?",
+        "vi": "Quan điểm của cậu có vấn đề rồi, nếu không có sức khỏe thì bao nhiêu tiền cũng vô dụng. Với lại, chẳng lẽ cậu kiếm tiền chỉ để đi viện khám bệnh, có đáng không?",
+        "modified": false
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "可是我想趁着现在年轻再多赚钱，以后可以早退休，到那时候钱可以给我活得轻松，幸福。所以，现在无论有多么累，我也接受。",
+        "pinyin": "kě shì wǒ xiǎng chèn zhe xiàn zài nián qīng zài duō zhuàn qián, yǐ hòu kě yǐ zǎo tuì xiū, dào nà shí hòu qián kě yǐ gěi wǒ huó de qīng sōng, xìng fú. suǒ yǐ, xiàn zài wú lùn yǒu duō me lèi, wǒ yě jiē shòu.",
+        "pinyinHtml": "kě shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> xiǎng chèn zhe xiàn zài nián qīng zài duō zhuàn qián, yǐ hòu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐ</span> zǎo tuì xiū, dào nà shí hòu qián <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gěi</span> wǒ huó de qīng sōng, xìng fú. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǐ, xiàn zài wú lùn yǒu duō me lèi, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě jiē shòu.",
+        "vi": "Nhưng tớ muốn tranh thủ lúc còn trẻ kiếm thêm nhiều tiền, sau này về hưu sớm, lúc đó tiền sẽ giúp tớ sống nhẹ nhàng, hạnh phúc. Nên giờ có mệt thế nào tớ cũng chấp nhận.",
+        "modified": false
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "我不这么想。拿我叔叔来说，他以前就是太拼命赚钱，最后得了重病，现在什么都不能做了，钱再多也没意义。",
+        "pinyin": "wǒ bú zhè me xiǎng. ná wǒ shū shu lái shuō, tā yǐ qián jiù shì tài pīn mìng zhuàn qián, zuì hòu de le zhòng bìng, xiàn zài shén me dōu bù néng zuò le, qián zài duō yě méi yì yì.",
+        "pinyinHtml": "wǒ bú zhè me xiǎng. ná wǒ shū shu lái shuō, tā yǐ qián jiù shì tài pīn mìng zhuàn qián, zuì hòu de le zhòng bìng, xiàn zài shén me dōu bù néng zuò le, qián zài duō yě méi yì yì.",
+        "vi": "Tớ không nghĩ vậy. Lấy ví dụ chú tớ, trước đây chú ấy cắm đầu kiếm tiền quá mức, cuối cùng mắc bệnh nặng, giờ chẳng làm được gì, tiền nhiều cũng vô nghĩa.",
+        "modified": false
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "我也认识一个人，很注意健康，可是没钱来检查、买药，最后小病拖成大病。看他的情况，我觉得有钱还是非常必要的。",
+        "pinyin": "wǒ yě rèn shi yí gè rén, hěn zhù yì jiàn kāng, kě shì méi qián lái jiǎn chá, mǎi yào, zuì hòu xiǎo bìng tuō chéng dà bìng. kàn tā de qíng kuàng, wǒ jué de yǒu qián hái shì fēi cháng bì yào de.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě rèn shi yí gè rén, hěn zhù yì jiàn kāng, kě shì méi qián lái jiǎn chá, mǎi yào, zuì hòu xiǎo bìng tuō chéng dà bìng. kàn tā de qíng kuàng, wǒ jué de yǒu qián hái shì fēi cháng bì yào de.",
+        "vi": "Tớ cũng quen một người rất chú ý sức khỏe, nhưng không có tiền đi khám, mua thuốc, cuối cùng bệnh nhẹ kéo thành bệnh nặng. Nhìn anh ta, tớ thấy có tiền vẫn rất cần thiết.",
+        "modified": false
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "钱也重要我知道啊！面对重病而没有钱真的无可奈何，但是关于着钱和健康这两个问题，我们还该会平衡，最好还是把健康的方面放在第一。",
+        "pinyin": "qián yě zhòng yào wǒ zhī dào a! miàn duì zhòng bìng ér méi yǒu qián zhēn de wú kě nài hé, dàn shì guān yú zhe qián hé jiàn kāng zhè liǎng gè wèn tí, wǒ men hái gāi huì píng héng, zuì hǎo hái shì bǎ jiàn kāng de fāng miàn fàng zài dì yī.",
+        "pinyinHtml": "qián yě zhòng yào wǒ zhī dào a! miàn duì zhòng bìng ér méi yǒu qián zhēn de wú kě nài hé, dàn shì guān yú zhe qián hé jiàn kāng zhè liǎng gè wèn tí, wǒ men hái gāi huì píng héng, zuì hǎo hái shì bǎ jiàn kāng de fāng miàn fàng zài dì yī.",
+        "vi": "Tiền cũng quan trọng tớ biết chứ! Đối mặt bệnh nặng mà không tiền đúng là bất lực, nhưng về chuyện tiền và sức khỏe thì chúng ta vẫn phải biết cân bằng, tốt nhất vẫn đặt sức khỏe lên hàng đầu.",
+        "modified": false
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "其实说到底，钱和健康都互相影响。有健康才能赚钱，有钱才能更好地保护健康。",
+        "pinyin": "qí shí shuō dào dǐ, qián hé jiàn kāng dōu hù xiāng yǐng xiǎng. yǒu jiàn kāng cái néng zhuàn qián, yǒu qián cái néng gèng hǎo de bǎo hù jiàn kāng.",
+        "pinyinHtml": "qí shí shuō dào dǐ, qián hé jiàn kāng dōu hù xiāng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐng</span> xiǎng. yǒu jiàn kāng cái néng zhuàn qián, yǒu qián cái néng gèng hǎo de bǎo hù jiàn kāng.",
+        "vi": "Thực ra nói cho cùng, tiền và sức khỏe ảnh hưởng qua lại. Có sức khỏe mới kiếm được tiền, có tiền mới bảo vệ sức khỏe tốt hơn.",
+        "modified": false
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "你终于明白了！说了这么久，你这句话我才觉得有道理，“健康第一”不是说钱不重要，而是提醒我们：别为了赚钱而危害健康。",
+        "pinyin": "nǐ zhōng yú míng bái le! shuō le zhè me jiǔ, nǐ zhè jù huà wǒ cái jué de yǒu dào lǐ, \"jiàn kāng dì yī\" bú shì shuō qián bú zhòng yào, ér shì tí xǐng wǒ men: bié wèi le zhuàn qián ér wēi hài jiàn kāng.",
+        "pinyinHtml": "nǐ zhōng yú míng bái le! shuō le zhè me jiǔ, nǐ zhè jù huà wǒ cái jué de yǒu dào lǐ, \"jiàn kāng dì yī\" bú shì shuō qián bú zhòng yào, ér shì tí <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xǐng</span> wǒ men: bié wèi le zhuàn qián ér wēi hài jiàn kāng.",
+        "vi": "Cuối cùng cậu cũng hiểu ra rồi! Nói mãi câu này của cậu tớ mới thấy chí lý, 'Sức khỏe là số 1' không có nghĩa tiền không quan trọng, mà nhắc ta đừng vì kiếm tiền mà hại sức khỏe.",
+        "modified": false
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "对啊！我觉得我最近的精神简直太压力了。听你说的话，我也该轻松一下，明天是周末，我们一起去玩吧。",
+        "pinyin": "duì a! wǒ jué de wǒ zuì jìn de jīng shén jiǎn zhí tài yā lì le. tīng nǐ shuō de huà, wǒ yě gāi qīng sōng yí xià, míng tiān shì zhōu mò, wǒ men yì qǐ qù wán ba.",
+        "pinyinHtml": "duì a! wǒ jué de wǒ zuì jìn de jīng shén jiǎn zhí tài yā lì le. tīng nǐ shuō de huà, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě gāi qīng sōng yí xià, míng tiān shì zhōu mò, wǒ men yì qǐ qù wán ba.",
+        "vi": "Đúng thế! Tớ thấy tinh thần dạo này áp lực quá mức rồi. Nghe cậu nói, tớ cũng nên thư giãn chút, mai cuối tuần mình đi chơi đi.",
+        "modified": false
+       },
+       {
+        "n": 13,
+        "role": "A",
+        "zh": "行，没问题，可以帮你轻松是我的荣幸。",
+        "pinyin": "xíng, méi wèn tí, kě yǐ bāng nǐ qīng sōng shì wǒ de róng xìng.",
+        "pinyinHtml": "xíng, méi wèn tí, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ bāng nǐ qīng sōng shì wǒ de róng xìng.",
+        "vi": "Được, không vấn đề, giúp cậu thư giãn là vinh hạnh của tớ.",
+        "modified": false
+       },
+       {
+        "n": 14,
+        "role": "B",
+        "zh": "哈哈哈，你又开玩笑了。",
+        "pinyin": "hā hā hā, nǐ yòu kāi wán xiào le.",
+        "pinyinHtml": "hā hā hā, nǐ yòu kāi wán xiào le.",
+        "vi": "Haha, cậu lại nói đùa rồi.",
+        "modified": false
+       }
+      ],
+      "v2_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "薇薇，你这是怎么了？最近精神头看着不太好啊，是不是太累了？",
+        "pinyin": "wēi wēi, nǐ zhè shì zěn me le? zuì jìn jīng shén tóu kàn zhe bú tài hǎo a, shì bu shì tài lèi le?",
+        "pinyinHtml": "wēi wēi, nǐ zhè shì zěn me le? zuì jìn jīng shén tóu kàn zhe bú tài hǎo a, shì bu shì tài lèi le?",
+        "vi": "Vi Vi, cậu sao thế này? Dạo này trông thần sắc hơi kém đấy, có phải mệt quá không?",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "别提有多累了！最近项目赶进度，我天天加班熬夜，今天累得连晚饭都咽不下。",
+        "pinyin": "bié tí yǒu duō lèi le! zuì jìn xiàng mù gǎn jìn dù, wǒ tiān tiān jiā bān áo yè, jīn tiān lèi de lián wǎn fàn dōu yàn bú xià.",
+        "pinyinHtml": "bié tí yǒu duō lèi le! zuì jìn xiàng mù gǎn jìn dù, wǒ tiān tiān jiā bān áo yè, jīn tiān lèi de lián wǎn fàn dōu yàn bú xià.",
+        "vi": "Mệt khỏi phải nói luôn! Dạo này dự án chạy tiến độ, ngày nào tớ cũng tăng ca thức khuya, hôm nay mệt đến mức cơm tối chẳng nuốt nổi.",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "工作哪有干完的时候？什么事过了头都不好，拿命换钱最不划算。对我来说，健康永远是第一位的！",
+        "pinyin": "gōng zuò nǎ yǒu gān wán de shí hòu? shén me shì guò le tóu dōu bù hǎo, ná mìng huàn qián zuì bú huá suàn. duì wǒ lái shuō, jiàn kāng yǒng yuǎn shì dì yī wèi de!",
+        "pinyinHtml": "gōng zuò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǎ</span> yǒu gān wán de shí hòu? shén me shì guò le tóu dōu bù hǎo, ná mìng huàn qián zuì bú huá suàn. duì wǒ lái shuō, jiàn kāng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒng</span> yuǎn shì dì yī wèi de!",
+        "vi": "Công việc bao giờ mới hết được? Chuyện gì quá mức cũng dở, lấy mạng đổi tiền là dại nhất. Với tớ, sức khỏe lúc nào cũng là số một!",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "话是这么说，可现实摆在这儿啊，没钱怎么应付每天的柴米油盐？万一生个大病，连医药费都掏不起！",
+        "pinyin": "huà shì zhè me shuō, kě xiàn shí bǎi zài zhèr a, méi qián zěn me yìng fù měi tiān de chái mǐ yóu yán? wàn yī shēng gè dà bìng, lián yī yào fèi dōu tāo bù qǐ!",
+        "pinyinHtml": "huà shì zhè me shuō, kě xiàn shí bǎi zài zhèr a, méi qián zěn me yìng fù měi tiān de chái mǐ yóu yán? wàn yī shēng gè dà bìng, lián yī yào fèi dōu tāo bù qǐ!",
+        "vi": "Nói thì hay thế, nhưng thực tế sờ sờ ra đấy, không tiền lấy gì lo cơm áo gạo tiền hàng ngày? Nhỡ ốm nặng một trận, tiền thuốc men còn chẳng đủ đóng!",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "这我承认，但反过来想，要是把身体熬垮了，赚再多钱也只能躺在医院花，难道咱们拼命赚钱就是为了养医生吗？",
+        "pinyin": "zhè wǒ chéng rèn, dàn fǎn guò lái xiǎng, yào shi bǎ shēn tǐ áo kuǎ le, zhuàn zài duō qián yě zhǐ néng tǎng zài yī yuàn huā, nán dào zán men pīn mìng zhuàn qián jiù shì wèi le yǎng yī shēng ma?",
+        "pinyinHtml": "zhè wǒ chéng rèn, dàn fǎn guò lái xiǎng, yào shi bǎ shēn tǐ áo kuǎ le, zhuàn zài duō qián yě zhǐ néng tǎng zài yī yuàn huā, nán dào zán men pīn mìng zhuàn qián jiù shì wèi le yǎng yī shēng ma?",
+        "vi": "Cái này tớ công nhận, nhưng nghĩ ngược lại xem, nếu thức đêm cày kiệt sức, kiếm nhiều tiền mấy rồi cũng chỉ nằm viện tiêu, chẳng lẽ mình bán sức kiếm tiền để nuôi bác sĩ à?",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "道理我懂，我只是想趁着年轻能吃苦，多攒点本钱，以后好早点实现财富自由，过轻松日子。",
+        "pinyin": "dào lǐ wǒ dǒng, wǒ zhǐ shì xiǎng chèn zhe nián qīng néng chī kǔ, duō zǎn diǎn běn qián, yǐ hòu hǎo zǎo diǎn shí xiàn cái fù zì yóu, guò qīng sōng rì zi.",
+        "pinyinHtml": "dào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǒng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zhǐ shì xiǎng chèn zhe nián qīng néng chī kǔ, duō <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎn</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">diǎn</span> běn qián, yǐ hòu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> diǎn shí xiàn cái fù zì yóu, guò qīng sōng rì zi.",
+        "vi": "Lý lẽ tớ hiểu, tớ chỉ muốn tranh thủ còn trẻ chịu khổ được, tích cóp thêm chút vốn để sau này sớm tự do tài chính, sống nhàn hạ hơn.",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "我以前有个亲戚就是这么想的，拼命工作赚了大钱，结果四十几岁就查出重病，现在只能天天养病，钱再多也花不开心。",
+        "pinyin": "wǒ yǐ qián yǒu gè qīn qi jiù shì zhè me xiǎng de, pīn mìng gōng zuò zhuàn le dà qián, jié guǒ sì shí jǐ suì jiù chá chū zhòng bìng, xiàn zài zhǐ néng tiān tiān yǎng bìng, qián zài duō yě huā bù kāi xīn.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǐ qián yǒu gè qīn qi jiù shì zhè me xiǎng de, pīn mìng gōng zuò zhuàn le dà qián, jié guǒ sì shí jǐ suì jiù chá chū zhòng bìng, xiàn zài zhǐ néng tiān tiān yǎng bìng, qián zài duō yě huā bù kāi xīn.",
+        "vi": "Trước tớ có người họ hàng cũng nghĩ y vậy, làm sống làm chết kiếm bộn tiền, kết quả hơn 40 tuổi phát hiện bệnh nặng, giờ suốt ngày nằm dưỡng bệnh, nhiều tiền mấy cũng chẳng tiêu vui nổi.",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "哎，我倒也见过另一面：有位朋友平时很注重养生，但收入太低舍不得去体检，结果小病拖成大病。所以没钱有时也护不住健康。",
+        "pinyin": "āi, wǒ dǎo yě jiàn guò lìng yí miàn: yǒu wèi péng yǒu píng shí hěn zhù zhòng yǎng shēng, dàn shōu rù tài dī shě bu de qù tǐ jiǎn, jié guǒ xiǎo bìng tuō chéng dà bìng. suǒ yǐ méi qián yǒu shí yě hù bú zhù jiàn kāng.",
+        "pinyinHtml": "āi, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǎo</span> yě jiàn guò lìng yí miàn: yǒu wèi péng yǒu píng shí hěn zhù zhòng yǎng shēng, dàn shōu rù tài dī shě bu de qù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐ</span> jiǎn, jié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> xiǎo bìng tuō chéng dà bìng. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǐ méi qián yǒu shí yě hù bú zhù jiàn kāng.",
+        "vi": "Haiz, tớ cũng thấy mặt trái kia rồi: có người bạn bình thường rất giữ sức khỏe nhưng thu nhập thấp, tiếc tiền không đi khám định kỳ, cuối cùng bệnh nhẹ thành nặng. Nên đôi khi không tiền cũng chẳng bảo vệ nổi sức khỏe.",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "对，所以关键在于平衡！不能把健康和赚钱对立起来，但在两头冲突的时候，咱还是非把健康放在第一位不可。",
+        "pinyin": "duì, suǒ yǐ guān jiàn zài yú píng héng! bù néng bǎ jiàn kāng hé zhuàn qián duì lì qǐ lái, dàn zài liǎng tóu chōng tū de shí hòu, zán hái shì fēi bǎ jiàn kāng fàng zài dì yī wèi bù kě.",
+        "pinyinHtml": "duì, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǐ guān jiàn zài yú píng héng! bù néng bǎ jiàn kāng hé zhuàn qián duì lì qǐ lái, dàn zài liǎng tóu chōng tū de shí hòu, zán hái shì fēi bǎ jiàn kāng fàng zài dì yī wèi bù kě.",
+        "vi": "Chuẩn, nên mấu chốt là cân bằng! Đừng đặt sức khỏe đối nghịch với kiếm tiền, nhưng lúc hai thứ xung đột thì nhất thiết phải đặt sức khỏe lên hàng đầu.",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "说到底，这两者其实相辅相成——有好身体才能长久赚钱，有经济基础才能更好地保养身体。",
+        "pinyin": "shuō dào dǐ, zhè liǎng zhě qí shí xiāng fǔ xiāng chéng-- yǒu hǎo shēn tǐ cái néng cháng jiǔ zhuàn qián, yǒu jīng jì jī chǔ cái néng gèng hǎo de bǎo yǎng shēn tǐ.",
+        "pinyinHtml": "shuō dào dǐ, zhè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">liǎng</span> zhě qí shí xiāng fǔ xiāng chéng-- <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> hǎo shēn tǐ cái néng cháng jiǔ zhuàn qián, yǒu jīng jì jī chǔ cái néng gèng hǎo de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎo</span> yǎng shēn tǐ.",
+        "vi": "Nói cho cùng, hai thứ đó hỗ trợ lẫn nhau — có thân thể khỏe mới kiếm tiền đường dài, có kinh tế mới chăm sóc bản thân tốt hơn.",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "你这话太透彻了！“健康第一”不是清高到不要钱，而是提醒咱们千万别为了眼前的收入透支未来的健康。",
+        "pinyin": "nǐ zhè huà tài tòu chè le! \"jiàn kāng dì yī\" bú shì qīng gāo dào bú yào qián, ér shì tí xǐng zán men qiān wàn bié wèi le yǎn qián de shōu rù tòu zhī wèi lái de jiàn kāng.",
+        "pinyinHtml": "nǐ zhè huà tài tòu chè le! \"jiàn kāng dì yī\" bú shì qīng gāo dào bú yào qián, ér shì tí xǐng zán men qiān wàn bié wèi le yǎn qián de shōu rù tòu zhī wèi lái de jiàn kāng.",
+        "vi": "Câu này cậu nói thấu đáo quá! 'Sức khỏe số 1' không phải chê tiền, mà nhắc nhở ta tuyệt đối đừng vì thu nhập trước mắt mà xài lạm sức khỏe tương lai.",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "听你这么一开导，我最近绷紧的神经总算松快点儿了。正好明天周末，我决定不加班了，咱们出去放松一下吧？",
+        "pinyin": "tīng nǐ zhè me yì kāi dǎo, wǒ zuì jìn bēng jǐn de shén jīng zǒng suàn sōng kuài diǎnr le. zhèng hǎo míng tiān zhōu mò, wǒ jué dìng bù jiā bān le, zán men chū qù fàng sōng yí xià ba?",
+        "pinyinHtml": "tīng nǐ zhè me yì kāi dǎo, wǒ zuì jìn bēng jǐn de shén jīng zǒng suàn sōng kuài diǎnr le. zhèng hǎo míng tiān zhōu mò, wǒ jué dìng bù jiā bān le, zán men chū qù fàng sōng yí xià ba?",
+        "vi": "Nghe cậu phân tích xong, đầu óc căng thẳng dạo này của tớ đỡ hẳn rồi. Vừa khéo mai cuối tuần, tớ quyết định nghỉ tăng ca, mình ra ngoài thư giãn một bữa nhé?",
+        "modified": true
+       },
+       {
+        "n": 13,
+        "role": "A",
+        "zh": "这主意太赞了！能陪大忙人好好放松一回，那是我的荣幸啊！",
+        "pinyin": "zhè zhǔ yì tài zàn le! néng péi dà máng rén hǎo hǎo fàng sōng yì huí, nà shì wǒ de róng xìng a!",
+        "pinyinHtml": "zhè zhǔ yì tài zàn le! néng péi dà máng rén <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> hǎo fàng sōng yì huí, nà shì wǒ de róng xìng a!",
+        "vi": "Ý kiến này đỉnh quá! Được đưa người bận rộn đi xả hơi một chuyến đúng là vinh hạnh của tớ đấy!",
+        "modified": true
+       },
+       {
+        "n": 14,
+        "role": "B",
+        "zh": "哈哈哈，就会拿我打趣，明天不见不散！",
+        "pinyin": "hā hā hā, jiù huì ná wǒ dǎ qù, míng tiān bú jiàn bú sàn!",
+        "pinyinHtml": "hā hā hā, jiù huì ná <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎ qù, míng tiān bú jiàn bú sàn!",
+        "vi": "Haha, chỉ giỏi trêu tớ, mai không gặp không về nhé!",
+        "modified": true
+       }
+      ],
+      "diffs": [
+       {
+        "n": 1,
+        "role": "A",
+        "v1": {
+         "zh": "你怎么了薇薇？最近生活不顺利吗？我看你的精神不太好啊？",
+         "pinyin": "nǐ zěn me le wēi wēi? zuì jìn shēng huó bú shùn lì ma? wǒ kàn nǐ de jīng shén bú tài hǎo a?",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> zěn me le wēi wēi? zuì jìn shēng huó bú shùn lì ma? wǒ kàn nǐ de jīng shén bú tài hǎo a?",
+         "vi": "Cậu sao thế Vi Vi? Dạo này cuộc sống không thuận lợi à? Tớ thấy tinh thần cậu không tốt lắm."
+        },
+        "v2": {
+         "zh": "薇薇，你这是怎么了？最近精神头看着不太好啊，是不是太累了？",
+         "pinyin": "wēi wēi, nǐ zhè shì zěn me le? zuì jìn jīng shén tóu kàn zhe bú tài hǎo a, shì bu shì tài lèi le?",
+         "pinyinHtml": "wēi wēi, nǐ zhè shì zěn me le? zuì jìn jīng shén tóu kàn zhe bú tài hǎo a, shì bu shì tài lèi le?",
+         "vi": "Vi Vi, cậu sao thế này? Dạo này trông thần sắc hơi kém đấy, có phải mệt quá không?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "v1": {
+         "zh": "别提了，我最近的工作太忙了，这份工作太复杂了，我每天都要加班，熬夜，今天累得连饭也不想吃。",
+         "pinyin": "bié tí le, wǒ zuì jìn de gōng zuò tài máng le, zhè fèn gōng zuò tài fù zá le, wǒ měi tiān dōu yào jiā bān, áo yè, jīn tiān lèi de lián fàn yě bù xiǎng chī.",
+         "pinyinHtml": "bié tí le, wǒ zuì jìn de gōng zuò tài máng le, zhè fèn gōng zuò tài fù zá le, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> měi tiān dōu yào jiā bān, áo yè, jīn tiān lèi de lián fàn yě bù xiǎng chī.",
+         "vi": "Đừng nhắc nữa, dạo này công việc bận quá, việc lại phức tạp, ngày nào tớ cũng phải tăng ca, thức khuya, hôm nay mệt đến cơm chẳng buồn ăn."
+        },
+        "v2": {
+         "zh": "别提有多累了！最近项目赶进度，我天天加班熬夜，今天累得连晚饭都咽不下。",
+         "pinyin": "bié tí yǒu duō lèi le! zuì jìn xiàng mù gǎn jìn dù, wǒ tiān tiān jiā bān áo yè, jīn tiān lèi de lián wǎn fàn dōu yàn bú xià.",
+         "pinyinHtml": "bié tí yǒu duō lèi le! zuì jìn xiàng mù gǎn jìn dù, wǒ tiān tiān jiā bān áo yè, jīn tiān lèi de lián wǎn fàn dōu yàn bú xià.",
+         "vi": "Mệt khỏi phải nói luôn! Dạo này dự án chạy tiến độ, ngày nào tớ cũng tăng ca thức khuya, hôm nay mệt đến mức cơm tối chẳng nuốt nổi."
+        },
+        "reason": "Dùng chuẩn cấu trúc Bài 2 “别提有多累了” thay câu liệt kê rườm rà."
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "v1": {
+         "zh": "那么严重吗？什么事情过了头都不好。自己的能力到哪儿就到哪儿，太勉强了反而会伤身体。没什么事情比健康更重要。",
+         "pinyin": "nà me yán zhòng ma? shén me shì qíng guò le tóu dōu bù hǎo. zì jǐ de néng lì dào nǎr jiù dào nǎr, tài miǎn qiǎng le fǎn ér huì shāng shēn tǐ. méi shén me shì qíng bǐ jiàn kāng gèng zhòng yào.",
+         "pinyinHtml": "nà me yán zhòng ma? shén me shì qíng guò le tóu dōu bù hǎo. zì jǐ de néng lì dào nǎr jiù dào nǎr, tài <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">miǎn</span> qiǎng le fǎn ér huì shāng shēn tǐ. méi shén me shì qíng bǐ jiàn kāng gèng zhòng yào.",
+         "vi": "Nghiêm trọng vậy sao? Chuyện gì quá mức cũng không tốt. Sức mình tới đâu làm tới đó, cố quá lại hại thân. Chẳng gì quan trọng bằng sức khỏe đâu."
+        },
+        "v2": {
+         "zh": "工作哪有干完的时候？什么事过了头都不好，拿命换钱最不划算。对我来说，健康永远是第一位的！",
+         "pinyin": "gōng zuò nǎ yǒu gān wán de shí hòu? shén me shì guò le tóu dōu bù hǎo, ná mìng huàn qián zuì bú huá suàn. duì wǒ lái shuō, jiàn kāng yǒng yuǎn shì dì yī wèi de!",
+         "pinyinHtml": "gōng zuò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǎ</span> yǒu gān wán de shí hòu? shén me shì guò le tóu dōu bù hǎo, ná mìng huàn qián zuì bú huá suàn. duì wǒ lái shuō, jiàn kāng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒng</span> yuǎn shì dì yī wèi de!",
+         "vi": "Công việc bao giờ mới hết được? Chuyện gì quá mức cũng dở, lấy mạng đổi tiền là dại nhất. Với tớ, sức khỏe lúc nào cũng là số một!"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "v1": {
+         "zh": "说归说，可是你想想，没有钱你怎么解决柴米油盐的问题呢，甚至连生病看医生都看不起。光靠健康也不能生活啊。",
+         "pinyin": "shuō guī shuō, kě shì nǐ xiǎng xiǎng, méi yǒu qián nǐ zěn me jiě jué chái mǐ yóu yán de wèn tí ne, shèn zhì lián shēng bìng kàn yī shēng dōu kàn bù qǐ. guāng kào jiàn kāng yě bù néng shēng huó a.",
+         "pinyinHtml": "shuō guī shuō, kě shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> xiǎng, méi yǒu qián <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> zěn me jiě jué chái mǐ yóu yán de wèn tí ne, shèn zhì lián shēng bìng kàn yī shēng dōu kàn bù qǐ. guāng kào jiàn kāng yě bù néng shēng huó a.",
+         "vi": "Nói thì nói thế, nhưng cậu thử nghĩ xem, không có tiền sao lo nổi cơm áo gạo tiền, thậm chí ốm đau cũng chẳng đủ tiền đi khám. Chỉ có sức khỏe không thì đâu sống nổi."
+        },
+        "v2": {
+         "zh": "话是这么说，可现实摆在这儿啊，没钱怎么应付每天的柴米油盐？万一生个大病，连医药费都掏不起！",
+         "pinyin": "huà shì zhè me shuō, kě xiàn shí bǎi zài zhèr a, méi qián zěn me yìng fù měi tiān de chái mǐ yóu yán? wàn yī shēng gè dà bìng, lián yī yào fèi dōu tāo bù qǐ!",
+         "pinyinHtml": "huà shì zhè me shuō, kě xiàn shí bǎi zài zhèr a, méi qián zěn me yìng fù měi tiān de chái mǐ yóu yán? wàn yī shēng gè dà bìng, lián yī yào fèi dōu tāo bù qǐ!",
+         "vi": "Nói thì hay thế, nhưng thực tế sờ sờ ra đấy, không tiền lấy gì lo cơm áo gạo tiền hàng ngày? Nhỡ ốm nặng một trận, tiền thuốc men còn chẳng đủ đóng!"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "v1": {
+         "zh": "你的观点有问题了，如果没有健康的话，再多的钱也没用。再说，难道你赚钱就为了看病，值得吗？",
+         "pinyin": "nǐ de guān diǎn yǒu wèn tí le, rú guǒ méi yǒu jiàn kāng de huà, zài duō de qián yě méi yòng. zài shuō, nán dào nǐ zhuàn qián jiù wèi le kàn bìng, zhí de ma?",
+         "pinyinHtml": "nǐ de guān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">diǎn</span> yǒu wèn tí le, rú guǒ méi yǒu jiàn kāng de huà, zài duō de qián yě méi yòng. zài shuō, nán dào nǐ zhuàn qián jiù wèi le kàn bìng, zhí de ma?",
+         "vi": "Quan điểm của cậu có vấn đề rồi, nếu không có sức khỏe thì bao nhiêu tiền cũng vô dụng. Với lại, chẳng lẽ cậu kiếm tiền chỉ để đi viện khám bệnh, có đáng không?"
+        },
+        "v2": {
+         "zh": "这我承认，但反过来想，要是把身体熬垮了，赚再多钱也只能躺在医院花，难道咱们拼命赚钱就是为了养医生吗？",
+         "pinyin": "zhè wǒ chéng rèn, dàn fǎn guò lái xiǎng, yào shi bǎ shēn tǐ áo kuǎ le, zhuàn zài duō qián yě zhǐ néng tǎng zài yī yuàn huā, nán dào zán men pīn mìng zhuàn qián jiù shì wèi le yǎng yī shēng ma?",
+         "pinyinHtml": "zhè wǒ chéng rèn, dàn fǎn guò lái xiǎng, yào shi bǎ shēn tǐ áo kuǎ le, zhuàn zài duō qián yě zhǐ néng tǎng zài yī yuàn huā, nán dào zán men pīn mìng zhuàn qián jiù shì wèi le yǎng yī shēng ma?",
+         "vi": "Cái này tớ công nhận, nhưng nghĩ ngược lại xem, nếu thức đêm cày kiệt sức, kiếm nhiều tiền mấy rồi cũng chỉ nằm viện tiêu, chẳng lẽ mình bán sức kiếm tiền để nuôi bác sĩ à?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "v1": {
+         "zh": "可是我想趁着现在年轻再多赚钱，以后可以早退休，到那时候钱可以给我活得轻松，幸福。所以，现在无论有多么累，我也接受。",
+         "pinyin": "kě shì wǒ xiǎng chèn zhe xiàn zài nián qīng zài duō zhuàn qián, yǐ hòu kě yǐ zǎo tuì xiū, dào nà shí hòu qián kě yǐ gěi wǒ huó de qīng sōng, xìng fú. suǒ yǐ, xiàn zài wú lùn yǒu duō me lèi, wǒ yě jiē shòu.",
+         "pinyinHtml": "kě shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> xiǎng chèn zhe xiàn zài nián qīng zài duō zhuàn qián, yǐ hòu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐ</span> zǎo tuì xiū, dào nà shí hòu qián <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gěi</span> wǒ huó de qīng sōng, xìng fú. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǐ, xiàn zài wú lùn yǒu duō me lèi, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě jiē shòu.",
+         "vi": "Nhưng tớ muốn tranh thủ lúc còn trẻ kiếm thêm nhiều tiền, sau này về hưu sớm, lúc đó tiền sẽ giúp tớ sống nhẹ nhàng, hạnh phúc. Nên giờ có mệt thế nào tớ cũng chấp nhận."
+        },
+        "v2": {
+         "zh": "道理我懂，我只是想趁着年轻能吃苦，多攒点本钱，以后好早点实现财富自由，过轻松日子。",
+         "pinyin": "dào lǐ wǒ dǒng, wǒ zhǐ shì xiǎng chèn zhe nián qīng néng chī kǔ, duō zǎn diǎn běn qián, yǐ hòu hǎo zǎo diǎn shí xiàn cái fù zì yóu, guò qīng sōng rì zi.",
+         "pinyinHtml": "dào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǒng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zhǐ shì xiǎng chèn zhe nián qīng néng chī kǔ, duō <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎn</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">diǎn</span> běn qián, yǐ hòu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> diǎn shí xiàn cái fù zì yóu, guò qīng sōng rì zi.",
+         "vi": "Lý lẽ tớ hiểu, tớ chỉ muốn tranh thủ còn trẻ chịu khổ được, tích cóp thêm chút vốn để sau này sớm tự do tài chính, sống nhàn hạ hơn."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "v1": {
+         "zh": "我不这么想。拿我叔叔来说，他以前就是太拼命赚钱，最后得了重病，现在什么都不能做了，钱再多也没意义。",
+         "pinyin": "wǒ bú zhè me xiǎng. ná wǒ shū shu lái shuō, tā yǐ qián jiù shì tài pīn mìng zhuàn qián, zuì hòu de le zhòng bìng, xiàn zài shén me dōu bù néng zuò le, qián zài duō yě méi yì yì.",
+         "pinyinHtml": "wǒ bú zhè me xiǎng. ná wǒ shū shu lái shuō, tā yǐ qián jiù shì tài pīn mìng zhuàn qián, zuì hòu de le zhòng bìng, xiàn zài shén me dōu bù néng zuò le, qián zài duō yě méi yì yì.",
+         "vi": "Tớ không nghĩ vậy. Lấy ví dụ chú tớ, trước đây chú ấy cắm đầu kiếm tiền quá mức, cuối cùng mắc bệnh nặng, giờ chẳng làm được gì, tiền nhiều cũng vô nghĩa."
+        },
+        "v2": {
+         "zh": "我以前有个亲戚就是这么想的，拼命工作赚了大钱，结果四十几岁就查出重病，现在只能天天养病，钱再多也花不开心。",
+         "pinyin": "wǒ yǐ qián yǒu gè qīn qi jiù shì zhè me xiǎng de, pīn mìng gōng zuò zhuàn le dà qián, jié guǒ sì shí jǐ suì jiù chá chū zhòng bìng, xiàn zài zhǐ néng tiān tiān yǎng bìng, qián zài duō yě huā bù kāi xīn.",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǐ qián yǒu gè qīn qi jiù shì zhè me xiǎng de, pīn mìng gōng zuò zhuàn le dà qián, jié guǒ sì shí jǐ suì jiù chá chū zhòng bìng, xiàn zài zhǐ néng tiān tiān yǎng bìng, qián zài duō yě huā bù kāi xīn.",
+         "vi": "Trước tớ có người họ hàng cũng nghĩ y vậy, làm sống làm chết kiếm bộn tiền, kết quả hơn 40 tuổi phát hiện bệnh nặng, giờ suốt ngày nằm dưỡng bệnh, nhiều tiền mấy cũng chẳng tiêu vui nổi."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "v1": {
+         "zh": "我也认识一个人，很注意健康，可是没钱来检查、买药，最后小病拖成大病。看他的情况，我觉得有钱还是非常必要的。",
+         "pinyin": "wǒ yě rèn shi yí gè rén, hěn zhù yì jiàn kāng, kě shì méi qián lái jiǎn chá, mǎi yào, zuì hòu xiǎo bìng tuō chéng dà bìng. kàn tā de qíng kuàng, wǒ jué de yǒu qián hái shì fēi cháng bì yào de.",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě rèn shi yí gè rén, hěn zhù yì jiàn kāng, kě shì méi qián lái jiǎn chá, mǎi yào, zuì hòu xiǎo bìng tuō chéng dà bìng. kàn tā de qíng kuàng, wǒ jué de yǒu qián hái shì fēi cháng bì yào de.",
+         "vi": "Tớ cũng quen một người rất chú ý sức khỏe, nhưng không có tiền đi khám, mua thuốc, cuối cùng bệnh nhẹ kéo thành bệnh nặng. Nhìn anh ta, tớ thấy có tiền vẫn rất cần thiết."
+        },
+        "v2": {
+         "zh": "哎，我倒也见过另一面：有位朋友平时很注重养生，但收入太低舍不得去体检，结果小病拖成大病。所以没钱有时也护不住健康。",
+         "pinyin": "āi, wǒ dǎo yě jiàn guò lìng yí miàn: yǒu wèi péng yǒu píng shí hěn zhù zhòng yǎng shēng, dàn shōu rù tài dī shě bu de qù tǐ jiǎn, jié guǒ xiǎo bìng tuō chéng dà bìng. suǒ yǐ méi qián yǒu shí yě hù bú zhù jiàn kāng.",
+         "pinyinHtml": "āi, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǎo</span> yě jiàn guò lìng yí miàn: yǒu wèi péng yǒu píng shí hěn zhù zhòng yǎng shēng, dàn shōu rù tài dī shě bu de qù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐ</span> jiǎn, jié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> xiǎo bìng tuō chéng dà bìng. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǐ méi qián yǒu shí yě hù bú zhù jiàn kāng.",
+         "vi": "Haiz, tớ cũng thấy mặt trái kia rồi: có người bạn bình thường rất giữ sức khỏe nhưng thu nhập thấp, tiếc tiền không đi khám định kỳ, cuối cùng bệnh nhẹ thành nặng. Nên đôi khi không tiền cũng chẳng bảo vệ nổi sức khỏe."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "v1": {
+         "zh": "钱也重要我知道啊！面对重病而没有钱真的无可奈何，但是关于着钱和健康这两个问题，我们还该会平衡，最好还是把健康的方面放在第一。",
+         "pinyin": "qián yě zhòng yào wǒ zhī dào a! miàn duì zhòng bìng ér méi yǒu qián zhēn de wú kě nài hé, dàn shì guān yú zhe qián hé jiàn kāng zhè liǎng gè wèn tí, wǒ men hái gāi huì píng héng, zuì hǎo hái shì bǎ jiàn kāng de fāng miàn fàng zài dì yī.",
+         "pinyinHtml": "qián yě zhòng yào wǒ zhī dào a! miàn duì zhòng bìng ér méi yǒu qián zhēn de wú kě nài hé, dàn shì guān yú zhe qián hé jiàn kāng zhè liǎng gè wèn tí, wǒ men hái gāi huì píng héng, zuì hǎo hái shì bǎ jiàn kāng de fāng miàn fàng zài dì yī.",
+         "vi": "Tiền cũng quan trọng tớ biết chứ! Đối mặt bệnh nặng mà không tiền đúng là bất lực, nhưng về chuyện tiền và sức khỏe thì chúng ta vẫn phải biết cân bằng, tốt nhất vẫn đặt sức khỏe lên hàng đầu."
+        },
+        "v2": {
+         "zh": "对，所以关键在于平衡！不能把健康和赚钱对立起来，但在两头冲突的时候，咱还是非把健康放在第一位不可。",
+         "pinyin": "duì, suǒ yǐ guān jiàn zài yú píng héng! bù néng bǎ jiàn kāng hé zhuàn qián duì lì qǐ lái, dàn zài liǎng tóu chōng tū de shí hòu, zán hái shì fēi bǎ jiàn kāng fàng zài dì yī wèi bù kě.",
+         "pinyinHtml": "duì, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǐ guān jiàn zài yú píng héng! bù néng bǎ jiàn kāng hé zhuàn qián duì lì qǐ lái, dàn zài liǎng tóu chōng tū de shí hòu, zán hái shì fēi bǎ jiàn kāng fàng zài dì yī wèi bù kě.",
+         "vi": "Chuẩn, nên mấu chốt là cân bằng! Đừng đặt sức khỏe đối nghịch với kiếm tiền, nhưng lúc hai thứ xung đột thì nhất thiết phải đặt sức khỏe lên hàng đầu."
+        },
+        "reason": "Sửa lỗi ngữ pháp “关于着钱和健康” (không dùng 关于着) thành câu tự nhiên + lồng ghép “非……不可”."
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "v1": {
+         "zh": "其实说到底，钱和健康都互相影响。有健康才能赚钱，有钱才能更好地保护健康。",
+         "pinyin": "qí shí shuō dào dǐ, qián hé jiàn kāng dōu hù xiāng yǐng xiǎng. yǒu jiàn kāng cái néng zhuàn qián, yǒu qián cái néng gèng hǎo de bǎo hù jiàn kāng.",
+         "pinyinHtml": "qí shí shuō dào dǐ, qián hé jiàn kāng dōu hù xiāng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐng</span> xiǎng. yǒu jiàn kāng cái néng zhuàn qián, yǒu qián cái néng gèng hǎo de bǎo hù jiàn kāng.",
+         "vi": "Thực ra nói cho cùng, tiền và sức khỏe ảnh hưởng qua lại. Có sức khỏe mới kiếm được tiền, có tiền mới bảo vệ sức khỏe tốt hơn."
+        },
+        "v2": {
+         "zh": "说到底，这两者其实相辅相成——有好身体才能长久赚钱，有经济基础才能更好地保养身体。",
+         "pinyin": "shuō dào dǐ, zhè liǎng zhě qí shí xiāng fǔ xiāng chéng-- yǒu hǎo shēn tǐ cái néng cháng jiǔ zhuàn qián, yǒu jīng jì jī chǔ cái néng gèng hǎo de bǎo yǎng shēn tǐ.",
+         "pinyinHtml": "shuō dào dǐ, zhè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">liǎng</span> zhě qí shí xiāng fǔ xiāng chéng-- <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> hǎo shēn tǐ cái néng cháng jiǔ zhuàn qián, yǒu jīng jì jī chǔ cái néng gèng hǎo de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎo</span> yǎng shēn tǐ.",
+         "vi": "Nói cho cùng, hai thứ đó hỗ trợ lẫn nhau — có thân thể khỏe mới kiếm tiền đường dài, có kinh tế mới chăm sóc bản thân tốt hơn."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "v1": {
+         "zh": "你终于明白了！说了这么久，你这句话我才觉得有道理，“健康第一”不是说钱不重要，而是提醒我们：别为了赚钱而危害健康。",
+         "pinyin": "nǐ zhōng yú míng bái le! shuō le zhè me jiǔ, nǐ zhè jù huà wǒ cái jué de yǒu dào lǐ, \"jiàn kāng dì yī\" bú shì shuō qián bú zhòng yào, ér shì tí xǐng wǒ men: bié wèi le zhuàn qián ér wēi hài jiàn kāng.",
+         "pinyinHtml": "nǐ zhōng yú míng bái le! shuō le zhè me jiǔ, nǐ zhè jù huà wǒ cái jué de yǒu dào lǐ, \"jiàn kāng dì yī\" bú shì shuō qián bú zhòng yào, ér shì tí <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xǐng</span> wǒ men: bié wèi le zhuàn qián ér wēi hài jiàn kāng.",
+         "vi": "Cuối cùng cậu cũng hiểu ra rồi! Nói mãi câu này của cậu tớ mới thấy chí lý, 'Sức khỏe là số 1' không có nghĩa tiền không quan trọng, mà nhắc ta đừng vì kiếm tiền mà hại sức khỏe."
+        },
+        "v2": {
+         "zh": "你这话太透彻了！“健康第一”不是清高到不要钱，而是提醒咱们千万别为了眼前的收入透支未来的健康。",
+         "pinyin": "nǐ zhè huà tài tòu chè le! \"jiàn kāng dì yī\" bú shì qīng gāo dào bú yào qián, ér shì tí xǐng zán men qiān wàn bié wèi le yǎn qián de shōu rù tòu zhī wèi lái de jiàn kāng.",
+         "pinyinHtml": "nǐ zhè huà tài tòu chè le! \"jiàn kāng dì yī\" bú shì qīng gāo dào bú yào qián, ér shì tí xǐng zán men qiān wàn bié wèi le yǎn qián de shōu rù tòu zhī wèi lái de jiàn kāng.",
+         "vi": "Câu này cậu nói thấu đáo quá! 'Sức khỏe số 1' không phải chê tiền, mà nhắc nhở ta tuyệt đối đừng vì thu nhập trước mắt mà xài lạm sức khỏe tương lai."
+        },
+        "reason": "Sửa “我这番说话不是白说” thành cách khen tự nhiên “你这话太透彻了！” + mẫu câu “千万别……”."
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "v1": {
+         "zh": "对啊！我觉得我最近的精神简直太压力了。听你说的话，我也该轻松一下，明天是周末，我们一起去玩吧。",
+         "pinyin": "duì a! wǒ jué de wǒ zuì jìn de jīng shén jiǎn zhí tài yā lì le. tīng nǐ shuō de huà, wǒ yě gāi qīng sōng yí xià, míng tiān shì zhōu mò, wǒ men yì qǐ qù wán ba.",
+         "pinyinHtml": "duì a! wǒ jué de wǒ zuì jìn de jīng shén jiǎn zhí tài yā lì le. tīng nǐ shuō de huà, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě gāi qīng sōng yí xià, míng tiān shì zhōu mò, wǒ men yì qǐ qù wán ba.",
+         "vi": "Đúng thế! Tớ thấy tinh thần dạo này áp lực quá mức rồi. Nghe cậu nói, tớ cũng nên thư giãn chút, mai cuối tuần mình đi chơi đi."
+        },
+        "v2": {
+         "zh": "听你这么一开导，我最近绷紧的神经总算松快点儿了。正好明天周末，我决定不加班了，咱们出去放松一下吧？",
+         "pinyin": "tīng nǐ zhè me yì kāi dǎo, wǒ zuì jìn bēng jǐn de shén jīng zǒng suàn sōng kuài diǎnr le. zhèng hǎo míng tiān zhōu mò, wǒ jué dìng bù jiā bān le, zán men chū qù fàng sōng yí xià ba?",
+         "pinyinHtml": "tīng nǐ zhè me yì kāi dǎo, wǒ zuì jìn bēng jǐn de shén jīng zǒng suàn sōng kuài diǎnr le. zhèng hǎo míng tiān zhōu mò, wǒ jué dìng bù jiā bān le, zán men chū qù fàng sōng yí xià ba?",
+         "vi": "Nghe cậu phân tích xong, đầu óc căng thẳng dạo này của tớ đỡ hẳn rồi. Vừa khéo mai cuối tuần, tớ quyết định nghỉ tăng ca, mình ra ngoài thư giãn một bữa nhé?"
+        },
+        "reason": "Sửa lỗi ngữ pháp nặng “精神简直太压力了” (名词 压力 không làm tính từ sau 太) thành “绷紧的神经总算松快点儿了”."
+       },
+       {
+        "n": 13,
+        "role": "A",
+        "v1": {
+         "zh": "行，没问题，可以帮你轻松是我的荣幸。",
+         "pinyin": "xíng, méi wèn tí, kě yǐ bāng nǐ qīng sōng shì wǒ de róng xìng.",
+         "pinyinHtml": "xíng, méi wèn tí, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ bāng nǐ qīng sōng shì wǒ de róng xìng.",
+         "vi": "Được, không vấn đề, giúp cậu thư giãn là vinh hạnh của tớ."
+        },
+        "v2": {
+         "zh": "这主意太赞了！能陪大忙人好好放松一回，那是我的荣幸啊！",
+         "pinyin": "zhè zhǔ yì tài zàn le! néng péi dà máng rén hǎo hǎo fàng sōng yì huí, nà shì wǒ de róng xìng a!",
+         "pinyinHtml": "zhè zhǔ yì tài zàn le! néng péi dà máng rén <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> hǎo fàng sōng yì huí, nà shì wǒ de róng xìng a!",
+         "vi": "Ý kiến này đỉnh quá! Được đưa người bận rộn đi xả hơi một chuyến đúng là vinh hạnh của tớ đấy!"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 14,
+        "role": "B",
+        "v1": {
+         "zh": "哈哈哈，你又开玩笑了。",
+         "pinyin": "hā hā hā, nǐ yòu kāi wán xiào le.",
+         "pinyinHtml": "hā hā hā, nǐ yòu kāi wán xiào le.",
+         "vi": "Haha, cậu lại nói đùa rồi."
+        },
+        "v2": {
+         "zh": "哈哈哈，就会拿我打趣，明天不见不散！",
+         "pinyin": "hā hā hā, jiù huì ná wǒ dǎ qù, míng tiān bú jiàn bú sàn!",
+         "pinyinHtml": "hā hā hā, jiù huì ná <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎ qù, míng tiān bú jiàn bú sàn!",
+         "vi": "Haha, chỉ giỏi trêu tớ, mai không gặp không về nhé!"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       }
+      ],
+      "audio": "audio/b2-q4.m4a",
+      "audioDuration": 118.08,
+      "audioTimings": [
+       {
+        "n": 1,
+        "role": "A",
+        "start": 0.25,
+        "end": 5.89
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "start": 5.89,
+        "end": 13.28
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "start": 13.28,
+        "end": 22.22
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "start": 22.22,
+        "end": 31.35
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "start": 31.35,
+        "end": 41.24
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "start": 41.24,
+        "end": 50
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "start": 50,
+        "end": 59.27
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "start": 59.27,
+        "end": 72.03
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "start": 72.03,
+        "end": 81.14
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "start": 81.14,
+        "end": 90.06
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "start": 90.06,
+        "end": 99.01
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "start": 99.01,
+        "end": 108.66
+       },
+       {
+        "n": 13,
+        "role": "A",
+        "start": 108.66,
+        "end": 114.19
+       },
+       {
+        "n": 14,
+        "role": "B",
+        "start": 114.19,
+        "end": 118.08
+       }
+      ]
+     },
+     {
+      "id": "b2-q5",
+      "no": 5,
+      "examNo": 5,
+      "priority": "red",
+      "isExamScope": true,
+      "titleVi": "Quan điểm: Bệnh thường không cần uống thuốc sẽ tự khỏi",
+      "question": "现在有很多人认为普通的病不要吃药，会自然好了，说说你的看法。",
+      "questionPinyin": "xiàn zài yǒu hěn duō rén rèn wéi pǔ tōng de bìng bú yào chī yào, huì zì rán hǎo le, shuō shuō nǐ de kàn fǎ.",
+      "questionPinyinHtml": "xiàn zài <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> hěn duō rén rèn wéi pǔ tōng de bìng bú yào chī yào, huì zì rán hǎo le, shuō shuō nǐ de kàn fǎ.",
+      "slideQuestions": [
+       "很多人生病了但不吃药，相信自然会恢复"
+      ],
+      "outline": "Nêu hiện tượng nhiều người tin tự khỏi → Mặt tích cực (hạn chế lạm dụng thuốc, phát huy miễn dịch tự nhiên) → Mặt rủi ro (virus biến chứng, lây lan) → Kết luận dùng thuốc hợp lý theo hướng dẫn bác sĩ.",
+      "takeaways": {
+       "points": [
+        "Lý do có quan điểm này: Một số cảm cúm nhẹ do virus tự giới hạn, cơ thể tự phục hồi nếu nghỉ ngơi và giữ miễn dịch (免疫系统与自愈力)",
+        "Mặt trái của thuốc: Lạm dụng thuốc gây nhờn thuốc, tác dụng phụ, buồn ngủ (滥用药物有副作用)",
+        "Rủi ro nếu mù quáng không uống thuốc: Triệu chứng nặng lên, lây người thân, biến chứng viêm phổi (拖着不治容易引发并发症)",
+        "Từ vựng ăn điểm (Google Doc): 病毒感染, 自然疗法, 免疫系统, 滥用药物, 拖着不治, 缓解症状, 退烧药/止咳药"
+       ],
+       "goldenQuotes": "药物不是敌人，而是工具。普通小病靠自身免疫力恢复没问题，但症状加重时千万别硬扛，在医生指导下合理用药才最科学。"
+      },
+      "lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "我刷手机看到好多人说，普通的头疼脑热根本不用吃药，靠身体自己扛就能好，你认同这种说法吗？",
+        "pinyin": "wǒ shuā shǒu jī kàn dào hǎo duō rén shuō, pǔ tōng de tóu téng nǎo rè gēn běn bú yòng chī yào, kào shēn tǐ zì jǐ káng jiù néng hǎo, nǐ rèn tóng zhè zhǒng shuō fǎ ma?",
+        "pinyinHtml": "wǒ shuā shǒu jī kàn dào hǎo duō rén shuō, pǔ tōng de tóu téng nǎo rè gēn běn bú yòng chī yào, kào shēn tǐ zì jǐ káng jiù néng hǎo, nǐ rèn tóng zhè zhǒng shuō fǎ ma?",
+        "vi": "Tớ lướt điện thoại thấy nhiều người bảo đau đầu sốt nhẹ thông thường chẳng cần uống thuốc, cứ để cơ thể tự lướt qua là khỏi, cậu có đồng tình không?",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "我觉得这得看具体情况，不能一概而论。像轻度的普通感冒，多喝温水、保证睡眠，确实能靠自然疗法慢慢自愈。",
+        "pinyin": "wǒ jué de zhè de kàn jù tǐ qíng kuàng, bù néng yí gài ér lùn. xiàng qīng dù de pǔ tōng gǎn mào, duō hē wēn shuǐ, bǎo zhèng shuì mián, què shí néng kào zì rán liáo fǎ màn màn zì yù.",
+        "pinyinHtml": "wǒ jué de zhè de kàn jù tǐ qíng kuàng, bù néng yí gài ér lùn. xiàng qīng dù de pǔ tōng gǎn mào, duō hē wēn shuǐ, bǎo zhèng shuì mián, què shí néng kào zì rán liáo fǎ màn màn zì yù.",
+        "vi": "Tớ thấy chuyện này phải tùy trường hợp, không thể đánh đồng. Như cảm nhẹ bình thường, uống nhiều nước ấm, ngủ đủ giấc, đúng là có thể tự khỏi nhờ cơ chế tự nhiên.",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "道理是没错，可有些看着像小感冒，其实是比较厉害的病毒感染啊！要是完全不干预，拖久了症状反而越来越重。",
+        "pinyin": "dào lǐ shì méi cuò, kě yǒu xiē kàn zhe xiàng xiǎo gǎn mào, qí shí shì bǐ jiào lì hài de bìng dú gǎn rǎn a! yào shi wán quán bù gān yù, tuō jiǔ le zhèng zhuàng fǎn ér yuè lái yuè zhòng.",
+        "pinyinHtml": "dào lǐ shì méi cuò, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǒu xiē kàn zhe xiàng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> gǎn mào, qí shí shì bǐ jiào lì hài de bìng dú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gǎn</span> rǎn a! yào shi wán quán bù gān yù, tuō jiǔ le zhèng zhuàng fǎn ér yuè lái yuè zhòng.",
+        "vi": "Lý thuyết đúng là thế, nhưng có những ca trông giống cảm vặt thực chất là nhiễm virus khá nặng đấy! Nếu không can thiệp gì, kéo dài triệu chứng càng nặng thêm.",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "确实有这层风险。不过支持不吃药的人也有顾虑：他们怕药物影响自身免疫系统，而且不少感冒药有副作用，吃完犯困，特别耽误工作学习。",
+        "pinyin": "què shí yǒu zhè céng fēng xiǎn. bú guò zhī chí bù chī yào de rén yě yǒu gù lǜ: tā men pà yào wù yǐng xiǎng zì shēn miǎn yì xì tǒng, ér qiě bù shǎo gǎn mào yào yǒu fù zuò yòng, chī wán fàn kùn, tè bié dān wù gōng zuò xué xí.",
+        "pinyinHtml": "què shí yǒu zhè céng fēng xiǎn. bú guò zhī chí bù chī yào de rén <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> yǒu gù lǜ: tā men pà yào wù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐng</span> xiǎng zì shēn miǎn yì xì tǒng, ér qiě bù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǎo</span> gǎn mào yào yǒu fù zuò yòng, chī wán fàn kùn, tè bié dān wù gōng zuò xué xí.",
+        "vi": "Đúng là có rủi ro đó. Nhưng phe không uống thuốc cũng có cái lo: họ sợ thuốc ảnh hưởng hệ miễn dịch, với nhiều thuốc cảm gây tác dụng phụ buồn ngủ, lỡ hết việc học và làm.",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "我非常赞成“不能滥用药物”，但不等于“生病硬扛”。我听说不少人就是发烧拖着不治，结果小感冒硬生生拖成了肺炎！",
+        "pinyin": "wǒ fēi cháng zàn chéng \"bù néng làn yòng yào wù\", dàn bù děng yú \"shēng bìng yìng káng\". wǒ tīng shuō bù shǎo rén jiù shì fā shāo tuō zhe bú zhì, jié guǒ xiǎo gǎn mào yìng shēng shēng tuō chéng le fèi yán!",
+        "pinyinHtml": "wǒ fēi cháng zàn chéng \"bù néng làn yòng yào wù\", dàn bù děng yú \"shēng bìng yìng káng\". wǒ tīng shuō bù shǎo rén jiù shì fā shāo tuō zhe bú zhì, jié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> gǎn mào yìng shēng shēng tuō chéng le fèi yán!",
+        "vi": "Tớ rất tán thành 'không lạm dụng thuốc', nhưng không đồng nghĩa với 'ốm cố chịu'. Tớ nghe nhiều người sốt mà dây dưa không chữa, cuối cùng cảm nhẹ biến thành viêm phổi đấy!",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "哎，这确实太危险了。但话说回来，归根到底恢复健康还是得靠自身的免疫力，平时规律饮食、多锻炼才是最好的预防。",
+        "pinyin": "āi, zhè què shí tài wēi xiǎn le. dàn huà shuō huí lái, guī gēn dào dǐ huī fù jiàn kāng hái shì děi kào zì shēn de miǎn yì lì, píng shí guī lǜ yǐn shí, duō duàn liàn cái shì zuì hǎo de yù fáng.",
+        "pinyinHtml": "āi, zhè què shí tài wēi xiǎn le. dàn huà shuō huí lái, guī gēn dào dǐ huī fù jiàn kāng hái shì děi kào zì shēn de miǎn yì lì, píng shí guī lǜ yǐn shí, duō duàn liàn cái shì zuì hǎo de yù fáng.",
+        "vi": "Chà, thế thì nguy quá. Nhưng nói đi cũng phải nói lại, gốc rễ hồi phục vẫn phải nhờ sức đề kháng tự thân, bình thường ăn uống điều độ, chăm tập thể dục mới là phòng bệnh tốt nhất.",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "没错！其实我们不必把药物当成“敌人”，它更像是一种“工具”——像退烧药、止咳药，在医生指导下正确使用，能帮我们快速缓解症状、睡个好觉，身体反而好得更快。",
+        "pinyin": "méi cuò! qí shí wǒ men bú bì bǎ yào wù dàng chéng \"dí rén\", tā gèng xiàng shì yì zhǒng \"gōng jù\"-- xiàng tuì shāo yào, zhǐ ké yào, zài yī shēng zhǐ dǎo xià zhèng què shǐ yòng, néng bāng wǒ men kuài sù huǎn jiě zhèng zhuàng, shuì gè hǎo jué, shēn tǐ fǎn ér hǎo de gèng kuài.",
+        "pinyinHtml": "méi cuò! qí shí wǒ men bú bì bǎ yào wù dàng chéng \"dí rén\", tā gèng xiàng shì yì zhǒng \"gōng jù\"-- xiàng tuì shāo yào, zhǐ ké yào, zài yī shēng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǐ</span> dǎo xià zhèng què shǐ yòng, néng bāng wǒ men kuài sù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">huǎn</span> jiě zhèng zhuàng, shuì gè hǎo jué, shēn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐ</span> fǎn ér hǎo de gèng kuài.",
+        "vi": "Chuẩn luôn! Thực ra không cần coi thuốc là 'kẻ thù', nó giống 'công cụ' hơn — như thuốc hạ sốt, giảm ho, dùng đúng theo chỉ dẫn bác sĩ giúp giảm triệu chứng nhanh, ngủ ngon giấc thì cơ thể càng mau hồi phục.",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "你说得太在理了！而且人难受得厉害的时候不吃药，不仅复习和工作全砸了，家里有老有小的话，还很容易把病毒传染给他们。",
+        "pinyin": "nǐ shuō de tài zài lǐ le! ér qiě rén nán shòu de lì hài de shí hòu bù chī yào, bù jǐn fù xí hé gōng zuò quán zá le, jiā lǐ yǒu lǎo yǒu xiǎo de huà, hái hěn róng yì bǎ bìng dú chuán rǎn gěi tā men.",
+        "pinyinHtml": "nǐ shuō de tài zài lǐ le! ér qiě rén nán shòu de lì hài de shí hòu bù chī yào, bù jǐn fù xí hé gōng zuò quán zá le, jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǎo</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> xiǎo de huà, hái hěn róng yì bǎ bìng dú chuán <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">rǎn</span> gěi tā men.",
+        "vi": "Cậu nói chí lý quá! Hơn nữa lúc người mệt rũ mà không uống thuốc, chẳng những học hành công việc hỏng bét, mà nhà có người già trẻ nhỏ rất dễ lây virus cho họ.",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "就是啊，所以现在医生一般都建议：轻微不适可以先观察、多休息；但一旦高烧不退或持续好几天没好转，就非去医院检查不可。",
+        "pinyin": "jiù shì a, suǒ yǐ xiàn zài yī shēng yì bān dōu jiàn yì: qīng wēi bú shì kě yǐ xiān guān chá, duō xiū xi; dàn yí dàn gāo shāo bú tuì huò chí xù hǎo jǐ tiān méi hǎo zhuǎn, jiù fēi qù yī yuàn jiǎn chá bù kě.",
+        "pinyinHtml": "jiù shì a, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǐ xiàn zài yī shēng yì bān dōu jiàn yì: qīng wēi bú shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ xiān guān chá, duō xiū xi; dàn yí dàn gāo shāo bú tuì huò chí xù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> jǐ tiān méi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> zhuǎn, jiù fēi qù yī yuàn jiǎn chá bù kě.",
+        "vi": "Chính thế, nên giờ bác sĩ hay khuyên: khó chịu nhẹ thì theo dõi, nghỉ ngơi thêm; nhưng hễ sốt cao không hạ hoặc kéo dài mấy ngày không đỡ là nhất thiết phải đi viện kiểm tra.",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "总结得很到位！科学养病才是最靠谱的——既不盲目乱吃药，也千万别拿身体去赌那“自然会好”的运气。",
+        "pinyin": "zǒng jié de hěn dào wèi! kē xué yǎng bìng cái shì zuì kào pǔ de-- jì bù máng mù luàn chī yào, yě qiān wàn bié ná shēn tǐ qù dǔ nà \"zì rán huì hǎo\" de yùn qì.",
+        "pinyinHtml": "zǒng jié de hěn dào wèi! kē xué yǎng bìng cái shì zuì kào pǔ de-- jì bù máng mù luàn chī yào, yě qiān wàn bié ná shēn tǐ qù dǔ nà \"zì rán huì hǎo\" de yùn qì.",
+        "vi": "Tổng kết chuẩn không cần chỉnh! Chữa bệnh khoa học mới yên tâm nhất — vừa không uống thuốc bừa bãi, vừa tuyệt đối đừng đánh cược sức khỏe vào vận may 'tự khỏi'.",
+        "modified": true
+       }
+      ],
+      "v1_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "现在很多人都说，普通的病不用吃药，靠身体自己恢复比较好，你怎么看？",
+        "pinyin": "xiàn zài hěn duō rén dōu shuō, pǔ tōng de bìng bú yòng chī yào, kào shēn tǐ zì jǐ huī fù bǐ jiào hǎo, nǐ zěn me kàn?",
+        "pinyinHtml": "xiàn zài hěn duō rén dōu shuō, pǔ tōng de bìng bú yòng chī yào, kào shēn tǐ zì jǐ huī fù bǐ jiào hǎo, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> zěn me kàn?",
+        "vi": "Giờ nhiều người bảo bệnh thông thường không cần uống thuốc, để cơ thể tự hồi phục tốt hơn, cậu nghĩ sao?",
+        "modified": false
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "我觉得这要看是什么病。如果是普通的小感冒，休息一下、多喝水，利用自然疗法确实能慢慢恢复。",
+        "pinyin": "wǒ jué de zhè yào kàn shì shén me bìng. rú guǒ shì pǔ tōng de xiǎo gǎn mào, xiū xi yí xià, duō hē shuǐ, lì yòng zì rán liáo fǎ què shí néng màn màn huī fù.",
+        "pinyinHtml": "wǒ jué de zhè yào kàn shì shén me bìng. rú guǒ shì pǔ tōng de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> gǎn mào, xiū xi yí xià, duō hē shuǐ, lì yòng zì rán liáo fǎ què shí néng màn màn huī fù.",
+        "vi": "Tớ thấy còn tùy bệnh gì. Nếu chỉ là cảm nhẹ thông thường, nghỉ ngơi, uống nhiều nước, dùng liệu pháp tự nhiên đúng là tự hồi phục dần được.",
+        "modified": false
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "可是，感冒发烧也算是病毒感染啊，如果不吃药控制，可能会越来越严重，这可不是一件小事。",
+        "pinyin": "kě shì, gǎn mào fā shāo yě suàn shì bìng dú gǎn rǎn a, rú guǒ bù chī yào kòng zhì, kě néng huì yuè lái yuè yán zhòng, zhè kě bú shì yí jiàn xiǎo shì.",
+        "pinyinHtml": "kě shì, gǎn mào fā shāo yě suàn shì bìng dú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gǎn</span> rǎn a, rú guǒ bù chī yào kòng zhì, kě néng huì yuè lái yuè yán zhòng, zhè kě bú shì yí jiàn xiǎo shì.",
+        "vi": "Nhưng cảm sốt cũng là nhiễm virus đấy, nếu không uống thuốc kiểm soát dễ nặng hơn lắm, không phải chuyện nhỏ đâu.",
+        "modified": false
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "但是虽然药物能帮助身体快速恢复，同时也会影响我们的免疫系统。有些感冒药有副作用，还会让人犯困。",
+        "pinyin": "dàn shì suī rán yào wù néng bāng zhù shēn tǐ kuài sù huī fù, tóng shí yě huì yǐng xiǎng wǒ men de miǎn yì xì tǒng. yǒu xiē gǎn mào yào yǒu fù zuò yòng, hái huì ràng rén fàn kùn.",
+        "pinyinHtml": "dàn shì suī rán yào wù néng bāng zhù shēn tǐ kuài sù huī fù, tóng shí yě huì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐng</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> wǒ men de miǎn yì xì tǒng. yǒu xiē gǎn mào yào yǒu fù zuò yòng, hái huì ràng rén fàn kùn.",
+        "vi": "Nhưng tuy thuốc giúp cơ thể hồi phục nhanh, đồng thời cũng ảnh hưởng hệ miễn dịch. Một số thuốc cảm có tác dụng phụ, lại gây buồn ngủ nữa.",
+        "modified": false
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "我同意不能滥用药物，但有些疾病如果不及时用药就会拖久。不少人是因为小感冒拖着不治，结果引起了肺炎。",
+        "pinyin": "wǒ tóng yì bù néng làn yòng yào wù, dàn yǒu xiē jí bìng rú guǒ bù jí shí yòng yào jiù huì tuō jiǔ. bù shǎo rén shì yīn wèi xiǎo gǎn mào tuō zhe bú zhì, jié guǒ yǐn qǐ le fèi yán.",
+        "pinyinHtml": "wǒ tóng yì bù néng làn yòng yào wù, dàn yǒu xiē jí bìng rú guǒ bù jí shí yòng yào jiù huì tuō jiǔ. bù shǎo rén shì yīn wèi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> gǎn mào tuō zhe bú zhì, jié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐn</span> qǐ le fèi yán.",
+        "vi": "Tớ đồng ý không được lạm dụng thuốc, nhưng có những bệnh không dùng thuốc kịp thời sẽ kéo dài. Không ít người cảm nhẹ kéo dài không chữa rồi thành viêm phổi.",
+        "modified": false
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "我觉得让我们身体恢复健康主要是靠自己的免疫力和修复力，每天怎么吃、怎么生活才是关键。",
+        "pinyin": "wǒ jué de ràng wǒ men shēn tǐ huī fù jiàn kāng zhǔ yào shi kào zì jǐ de miǎn yì lì hé xiū fù lì, měi tiān zěn me chī, zěn me shēng huó cái shì guān jiàn.",
+        "pinyinHtml": "wǒ jué de ràng wǒ men shēn tǐ huī fù jiàn kāng zhǔ yào shi kào zì jǐ de miǎn yì lì hé xiū fù lì, měi tiān zěn me chī, zěn me shēng huó cái shì guān jiàn.",
+        "vi": "Tớ nghĩ điều giúp cơ thể khỏe lại chủ yếu là sức đề kháng và khả năng tự phục hồi, ăn uống sinh hoạt hàng ngày thế nào mới là mấu chốt.",
+        "modified": false
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "我当然相信免疫力的重要性，可是药物不是敌人，而是工具，关键是怎么用。退烧药、止咳药能缓解症状。",
+        "pinyin": "wǒ dāng rán xiāng xìn miǎn yì lì de zhòng yào xìng, kě shì yào wù bú shì dí rén, ér shì gōng jù, guān jiàn shì zěn me yòng. tuì shāo yào, zhǐ ké yào néng huǎn jiě zhèng zhuàng.",
+        "pinyinHtml": "wǒ dāng rán xiāng xìn miǎn yì lì de zhòng yào xìng, kě shì yào wù bú shì dí rén, ér shì gōng jù, guān jiàn shì zěn me yòng. tuì shāo yào, zhǐ ké yào néng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">huǎn</span> jiě zhèng zhuàng.",
+        "vi": "Tớ đương nhiên tin tầm quan trọng của sức đề kháng, nhưng thuốc không phải kẻ thù mà là công cụ, quan trọng là cách dùng. Thuốc hạ sốt, thuốc ho giúp giảm nhẹ triệu chứng.",
+        "modified": false
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "你说的也有道理，如果我们一直强撑着不吃药，不仅自己难受，还会影响工作和复习，甚至传染给别人。",
+        "pinyin": "nǐ shuō de yě yǒu dào lǐ, rú guǒ wǒ men yì zhí qiáng chēng zhe bù chī yào, bù jǐn zì jǐ nán shòu, hái huì yǐng xiǎng gōng zuò hé fù xí, shèn zhì chuán rǎn gěi bié rén.",
+        "pinyinHtml": "nǐ shuō de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> yǒu dào lǐ, rú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> wǒ men yì zhí qiáng chēng zhe bù chī yào, bù jǐn zì jǐ nán shòu, hái huì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐng</span> xiǎng gōng zuò hé fù xí, shèn zhì chuán <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">rǎn</span> gěi bié rén.",
+        "vi": "Cậu nói cũng có lý, nếu cứ cố gồng không uống thuốc, chẳng những mình khổ mà còn ảnh hưởng công việc ôn thi, thậm chí lây cho người khác.",
+        "modified": false
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "尤其是家里有老人和小孩的时候，病毒防不胜防，小病也要特别小心。",
+        "pinyin": "yóu qí shì jiā lǐ yǒu lǎo rén hé xiǎo hái de shí hòu, bìng dú fáng bú shèng fáng, xiǎo bìng yě yào tè bié xiǎo xīn.",
+        "pinyinHtml": "yóu qí shì jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> lǎo rén hé xiǎo hái de shí hòu, bìng dú fáng bú shèng fáng, xiǎo bìng yě yào tè bié xiǎo xīn.",
+        "vi": "Nhất là lúc nhà có người già trẻ nhỏ, virus khó phòng lắm, bệnh nhẹ cũng phải cẩn thận.",
+        "modified": false
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "所以说到底，不要把“不吃药”绝对化。小病可以先观察、调理；症状重了就该及时看医生，听从专业建议。",
+        "pinyin": "suǒ yǐ shuō dào dǐ, bú yào bǎ \"bù chī yào\" jué duì huà. xiǎo bìng kě yǐ xiān guān chá, tiáo lǐ; zhèng zhuàng zhòng le jiù gāi jí shí kàn yī shēng, tīng cóng zhuān yè jiàn yì.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǐ shuō dào dǐ, bú yào bǎ \"bù chī yào\" jué duì huà. xiǎo bìng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ xiān guān chá, tiáo lǐ; zhèng zhuàng zhòng le jiù gāi jí shí kàn yī shēng, tīng cóng zhuān yè jiàn yì.",
+        "vi": "Vậy nói cho cùng, đừng tuyệt đối hóa chuyện 'không uống thuốc'. Bệnh nhẹ thì theo dõi, điều dưỡng; triệu chứng nặng lên phải đi khám kịp thời, nghe lời khuyên chuyên môn.",
+        "modified": false
+       }
+      ],
+      "v2_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "我刷手机看到好多人说，普通的头疼脑热根本不用吃药，靠身体自己扛就能好，你认同这种说法吗？",
+        "pinyin": "wǒ shuā shǒu jī kàn dào hǎo duō rén shuō, pǔ tōng de tóu téng nǎo rè gēn běn bú yòng chī yào, kào shēn tǐ zì jǐ káng jiù néng hǎo, nǐ rèn tóng zhè zhǒng shuō fǎ ma?",
+        "pinyinHtml": "wǒ shuā shǒu jī kàn dào hǎo duō rén shuō, pǔ tōng de tóu téng nǎo rè gēn běn bú yòng chī yào, kào shēn tǐ zì jǐ káng jiù néng hǎo, nǐ rèn tóng zhè zhǒng shuō fǎ ma?",
+        "vi": "Tớ lướt điện thoại thấy nhiều người bảo đau đầu sốt nhẹ thông thường chẳng cần uống thuốc, cứ để cơ thể tự lướt qua là khỏi, cậu có đồng tình không?",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "我觉得这得看具体情况，不能一概而论。像轻度的普通感冒，多喝温水、保证睡眠，确实能靠自然疗法慢慢自愈。",
+        "pinyin": "wǒ jué de zhè de kàn jù tǐ qíng kuàng, bù néng yí gài ér lùn. xiàng qīng dù de pǔ tōng gǎn mào, duō hē wēn shuǐ, bǎo zhèng shuì mián, què shí néng kào zì rán liáo fǎ màn màn zì yù.",
+        "pinyinHtml": "wǒ jué de zhè de kàn jù tǐ qíng kuàng, bù néng yí gài ér lùn. xiàng qīng dù de pǔ tōng gǎn mào, duō hē wēn shuǐ, bǎo zhèng shuì mián, què shí néng kào zì rán liáo fǎ màn màn zì yù.",
+        "vi": "Tớ thấy chuyện này phải tùy trường hợp, không thể đánh đồng. Như cảm nhẹ bình thường, uống nhiều nước ấm, ngủ đủ giấc, đúng là có thể tự khỏi nhờ cơ chế tự nhiên.",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "道理是没错，可有些看着像小感冒，其实是比较厉害的病毒感染啊！要是完全不干预，拖久了症状反而越来越重。",
+        "pinyin": "dào lǐ shì méi cuò, kě yǒu xiē kàn zhe xiàng xiǎo gǎn mào, qí shí shì bǐ jiào lì hài de bìng dú gǎn rǎn a! yào shi wán quán bù gān yù, tuō jiǔ le zhèng zhuàng fǎn ér yuè lái yuè zhòng.",
+        "pinyinHtml": "dào lǐ shì méi cuò, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǒu xiē kàn zhe xiàng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> gǎn mào, qí shí shì bǐ jiào lì hài de bìng dú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gǎn</span> rǎn a! yào shi wán quán bù gān yù, tuō jiǔ le zhèng zhuàng fǎn ér yuè lái yuè zhòng.",
+        "vi": "Lý thuyết đúng là thế, nhưng có những ca trông giống cảm vặt thực chất là nhiễm virus khá nặng đấy! Nếu không can thiệp gì, kéo dài triệu chứng càng nặng thêm.",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "确实有这层风险。不过支持不吃药的人也有顾虑：他们怕药物影响自身免疫系统，而且不少感冒药有副作用，吃完犯困，特别耽误工作学习。",
+        "pinyin": "què shí yǒu zhè céng fēng xiǎn. bú guò zhī chí bù chī yào de rén yě yǒu gù lǜ: tā men pà yào wù yǐng xiǎng zì shēn miǎn yì xì tǒng, ér qiě bù shǎo gǎn mào yào yǒu fù zuò yòng, chī wán fàn kùn, tè bié dān wù gōng zuò xué xí.",
+        "pinyinHtml": "què shí yǒu zhè céng fēng xiǎn. bú guò zhī chí bù chī yào de rén <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> yǒu gù lǜ: tā men pà yào wù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐng</span> xiǎng zì shēn miǎn yì xì tǒng, ér qiě bù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǎo</span> gǎn mào yào yǒu fù zuò yòng, chī wán fàn kùn, tè bié dān wù gōng zuò xué xí.",
+        "vi": "Đúng là có rủi ro đó. Nhưng phe không uống thuốc cũng có cái lo: họ sợ thuốc ảnh hưởng hệ miễn dịch, với nhiều thuốc cảm gây tác dụng phụ buồn ngủ, lỡ hết việc học và làm.",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "我非常赞成“不能滥用药物”，但不等于“生病硬扛”。我听说不少人就是发烧拖着不治，结果小感冒硬生生拖成了肺炎！",
+        "pinyin": "wǒ fēi cháng zàn chéng \"bù néng làn yòng yào wù\", dàn bù děng yú \"shēng bìng yìng káng\". wǒ tīng shuō bù shǎo rén jiù shì fā shāo tuō zhe bú zhì, jié guǒ xiǎo gǎn mào yìng shēng shēng tuō chéng le fèi yán!",
+        "pinyinHtml": "wǒ fēi cháng zàn chéng \"bù néng làn yòng yào wù\", dàn bù děng yú \"shēng bìng yìng káng\". wǒ tīng shuō bù shǎo rén jiù shì fā shāo tuō zhe bú zhì, jié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> gǎn mào yìng shēng shēng tuō chéng le fèi yán!",
+        "vi": "Tớ rất tán thành 'không lạm dụng thuốc', nhưng không đồng nghĩa với 'ốm cố chịu'. Tớ nghe nhiều người sốt mà dây dưa không chữa, cuối cùng cảm nhẹ biến thành viêm phổi đấy!",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "哎，这确实太危险了。但话说回来，归根到底恢复健康还是得靠自身的免疫力，平时规律饮食、多锻炼才是最好的预防。",
+        "pinyin": "āi, zhè què shí tài wēi xiǎn le. dàn huà shuō huí lái, guī gēn dào dǐ huī fù jiàn kāng hái shì děi kào zì shēn de miǎn yì lì, píng shí guī lǜ yǐn shí, duō duàn liàn cái shì zuì hǎo de yù fáng.",
+        "pinyinHtml": "āi, zhè què shí tài wēi xiǎn le. dàn huà shuō huí lái, guī gēn dào dǐ huī fù jiàn kāng hái shì děi kào zì shēn de miǎn yì lì, píng shí guī lǜ yǐn shí, duō duàn liàn cái shì zuì hǎo de yù fáng.",
+        "vi": "Chà, thế thì nguy quá. Nhưng nói đi cũng phải nói lại, gốc rễ hồi phục vẫn phải nhờ sức đề kháng tự thân, bình thường ăn uống điều độ, chăm tập thể dục mới là phòng bệnh tốt nhất.",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "没错！其实我们不必把药物当成“敌人”，它更像是一种“工具”——像退烧药、止咳药，在医生指导下正确使用，能帮我们快速缓解症状、睡个好觉，身体反而好得更快。",
+        "pinyin": "méi cuò! qí shí wǒ men bú bì bǎ yào wù dàng chéng \"dí rén\", tā gèng xiàng shì yì zhǒng \"gōng jù\"-- xiàng tuì shāo yào, zhǐ ké yào, zài yī shēng zhǐ dǎo xià zhèng què shǐ yòng, néng bāng wǒ men kuài sù huǎn jiě zhèng zhuàng, shuì gè hǎo jué, shēn tǐ fǎn ér hǎo de gèng kuài.",
+        "pinyinHtml": "méi cuò! qí shí wǒ men bú bì bǎ yào wù dàng chéng \"dí rén\", tā gèng xiàng shì yì zhǒng \"gōng jù\"-- xiàng tuì shāo yào, zhǐ ké yào, zài yī shēng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǐ</span> dǎo xià zhèng què shǐ yòng, néng bāng wǒ men kuài sù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">huǎn</span> jiě zhèng zhuàng, shuì gè hǎo jué, shēn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐ</span> fǎn ér hǎo de gèng kuài.",
+        "vi": "Chuẩn luôn! Thực ra không cần coi thuốc là 'kẻ thù', nó giống 'công cụ' hơn — như thuốc hạ sốt, giảm ho, dùng đúng theo chỉ dẫn bác sĩ giúp giảm triệu chứng nhanh, ngủ ngon giấc thì cơ thể càng mau hồi phục.",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "你说得太在理了！而且人难受得厉害的时候不吃药，不仅复习和工作全砸了，家里有老有小的话，还很容易把病毒传染给他们。",
+        "pinyin": "nǐ shuō de tài zài lǐ le! ér qiě rén nán shòu de lì hài de shí hòu bù chī yào, bù jǐn fù xí hé gōng zuò quán zá le, jiā lǐ yǒu lǎo yǒu xiǎo de huà, hái hěn róng yì bǎ bìng dú chuán rǎn gěi tā men.",
+        "pinyinHtml": "nǐ shuō de tài zài lǐ le! ér qiě rén nán shòu de lì hài de shí hòu bù chī yào, bù jǐn fù xí hé gōng zuò quán zá le, jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǎo</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> xiǎo de huà, hái hěn róng yì bǎ bìng dú chuán <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">rǎn</span> gěi tā men.",
+        "vi": "Cậu nói chí lý quá! Hơn nữa lúc người mệt rũ mà không uống thuốc, chẳng những học hành công việc hỏng bét, mà nhà có người già trẻ nhỏ rất dễ lây virus cho họ.",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "就是啊，所以现在医生一般都建议：轻微不适可以先观察、多休息；但一旦高烧不退或持续好几天没好转，就非去医院检查不可。",
+        "pinyin": "jiù shì a, suǒ yǐ xiàn zài yī shēng yì bān dōu jiàn yì: qīng wēi bú shì kě yǐ xiān guān chá, duō xiū xi; dàn yí dàn gāo shāo bú tuì huò chí xù hǎo jǐ tiān méi hǎo zhuǎn, jiù fēi qù yī yuàn jiǎn chá bù kě.",
+        "pinyinHtml": "jiù shì a, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǐ xiàn zài yī shēng yì bān dōu jiàn yì: qīng wēi bú shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ xiān guān chá, duō xiū xi; dàn yí dàn gāo shāo bú tuì huò chí xù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> jǐ tiān méi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> zhuǎn, jiù fēi qù yī yuàn jiǎn chá bù kě.",
+        "vi": "Chính thế, nên giờ bác sĩ hay khuyên: khó chịu nhẹ thì theo dõi, nghỉ ngơi thêm; nhưng hễ sốt cao không hạ hoặc kéo dài mấy ngày không đỡ là nhất thiết phải đi viện kiểm tra.",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "总结得很到位！科学养病才是最靠谱的——既不盲目乱吃药，也千万别拿身体去赌那“自然会好”的运气。",
+        "pinyin": "zǒng jié de hěn dào wèi! kē xué yǎng bìng cái shì zuì kào pǔ de-- jì bù máng mù luàn chī yào, yě qiān wàn bié ná shēn tǐ qù dǔ nà \"zì rán huì hǎo\" de yùn qì.",
+        "pinyinHtml": "zǒng jié de hěn dào wèi! kē xué yǎng bìng cái shì zuì kào pǔ de-- jì bù máng mù luàn chī yào, yě qiān wàn bié ná shēn tǐ qù dǔ nà \"zì rán huì hǎo\" de yùn qì.",
+        "vi": "Tổng kết chuẩn không cần chỉnh! Chữa bệnh khoa học mới yên tâm nhất — vừa không uống thuốc bừa bãi, vừa tuyệt đối đừng đánh cược sức khỏe vào vận may 'tự khỏi'.",
+        "modified": true
+       }
+      ],
+      "diffs": [
+       {
+        "n": 1,
+        "role": "A",
+        "v1": {
+         "zh": "现在很多人都说，普通的病不用吃药，靠身体自己恢复比较好，你怎么看？",
+         "pinyin": "xiàn zài hěn duō rén dōu shuō, pǔ tōng de bìng bú yòng chī yào, kào shēn tǐ zì jǐ huī fù bǐ jiào hǎo, nǐ zěn me kàn?",
+         "pinyinHtml": "xiàn zài hěn duō rén dōu shuō, pǔ tōng de bìng bú yòng chī yào, kào shēn tǐ zì jǐ huī fù bǐ jiào hǎo, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> zěn me kàn?",
+         "vi": "Giờ nhiều người bảo bệnh thông thường không cần uống thuốc, để cơ thể tự hồi phục tốt hơn, cậu nghĩ sao?"
+        },
+        "v2": {
+         "zh": "我刷手机看到好多人说，普通的头疼脑热根本不用吃药，靠身体自己扛就能好，你认同这种说法吗？",
+         "pinyin": "wǒ shuā shǒu jī kàn dào hǎo duō rén shuō, pǔ tōng de tóu téng nǎo rè gēn běn bú yòng chī yào, kào shēn tǐ zì jǐ káng jiù néng hǎo, nǐ rèn tóng zhè zhǒng shuō fǎ ma?",
+         "pinyinHtml": "wǒ shuā shǒu jī kàn dào hǎo duō rén shuō, pǔ tōng de tóu téng nǎo rè gēn běn bú yòng chī yào, kào shēn tǐ zì jǐ káng jiù néng hǎo, nǐ rèn tóng zhè zhǒng shuō fǎ ma?",
+         "vi": "Tớ lướt điện thoại thấy nhiều người bảo đau đầu sốt nhẹ thông thường chẳng cần uống thuốc, cứ để cơ thể tự lướt qua là khỏi, cậu có đồng tình không?"
+        },
+        "reason": "Mở đầu bằng bối cảnh lướt mạng xã hội tự nhiên (“刷手机看到”), gần gũi giao tiếp thi nói."
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "v1": {
+         "zh": "我觉得这要看是什么病。如果是普通的小感冒，休息一下、多喝水，利用自然疗法确实能慢慢恢复。",
+         "pinyin": "wǒ jué de zhè yào kàn shì shén me bìng. rú guǒ shì pǔ tōng de xiǎo gǎn mào, xiū xi yí xià, duō hē shuǐ, lì yòng zì rán liáo fǎ què shí néng màn màn huī fù.",
+         "pinyinHtml": "wǒ jué de zhè yào kàn shì shén me bìng. rú guǒ shì pǔ tōng de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> gǎn mào, xiū xi yí xià, duō hē shuǐ, lì yòng zì rán liáo fǎ què shí néng màn màn huī fù.",
+         "vi": "Tớ thấy còn tùy bệnh gì. Nếu chỉ là cảm nhẹ thông thường, nghỉ ngơi, uống nhiều nước, dùng liệu pháp tự nhiên đúng là tự hồi phục dần được."
+        },
+        "v2": {
+         "zh": "我觉得这得看具体情况，不能一概而论。像轻度的普通感冒，多喝温水、保证睡眠，确实能靠自然疗法慢慢自愈。",
+         "pinyin": "wǒ jué de zhè de kàn jù tǐ qíng kuàng, bù néng yí gài ér lùn. xiàng qīng dù de pǔ tōng gǎn mào, duō hē wēn shuǐ, bǎo zhèng shuì mián, què shí néng kào zì rán liáo fǎ màn màn zì yù.",
+         "pinyinHtml": "wǒ jué de zhè de kàn jù tǐ qíng kuàng, bù néng yí gài ér lùn. xiàng qīng dù de pǔ tōng gǎn mào, duō hē wēn shuǐ, bǎo zhèng shuì mián, què shí néng kào zì rán liáo fǎ màn màn zì yù.",
+         "vi": "Tớ thấy chuyện này phải tùy trường hợp, không thể đánh đồng. Như cảm nhẹ bình thường, uống nhiều nước ấm, ngủ đủ giấc, đúng là có thể tự khỏi nhờ cơ chế tự nhiên."
+        },
+        "reason": "Dùng cụm “不能一概而论” (không thể đánh đồng) cho luận điểm sắc bén."
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "v1": {
+         "zh": "可是，感冒发烧也算是病毒感染啊，如果不吃药控制，可能会越来越严重，这可不是一件小事。",
+         "pinyin": "kě shì, gǎn mào fā shāo yě suàn shì bìng dú gǎn rǎn a, rú guǒ bù chī yào kòng zhì, kě néng huì yuè lái yuè yán zhòng, zhè kě bú shì yí jiàn xiǎo shì.",
+         "pinyinHtml": "kě shì, gǎn mào fā shāo yě suàn shì bìng dú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gǎn</span> rǎn a, rú guǒ bù chī yào kòng zhì, kě néng huì yuè lái yuè yán zhòng, zhè kě bú shì yí jiàn xiǎo shì.",
+         "vi": "Nhưng cảm sốt cũng là nhiễm virus đấy, nếu không uống thuốc kiểm soát dễ nặng hơn lắm, không phải chuyện nhỏ đâu."
+        },
+        "v2": {
+         "zh": "道理是没错，可有些看着像小感冒，其实是比较厉害的病毒感染啊！要是完全不干预，拖久了症状反而越来越重。",
+         "pinyin": "dào lǐ shì méi cuò, kě yǒu xiē kàn zhe xiàng xiǎo gǎn mào, qí shí shì bǐ jiào lì hài de bìng dú gǎn rǎn a! yào shi wán quán bù gān yù, tuō jiǔ le zhèng zhuàng fǎn ér yuè lái yuè zhòng.",
+         "pinyinHtml": "dào lǐ shì méi cuò, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǒu xiē kàn zhe xiàng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> gǎn mào, qí shí shì bǐ jiào lì hài de bìng dú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gǎn</span> rǎn a! yào shi wán quán bù gān yù, tuō jiǔ le zhèng zhuàng fǎn ér yuè lái yuè zhòng.",
+         "vi": "Lý thuyết đúng là thế, nhưng có những ca trông giống cảm vặt thực chất là nhiễm virus khá nặng đấy! Nếu không can thiệp gì, kéo dài triệu chứng càng nặng thêm."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "v1": {
+         "zh": "但是虽然药物能帮助身体快速恢复，同时也会影响我们的免疫系统。有些感冒药有副作用，还会让人犯困。",
+         "pinyin": "dàn shì suī rán yào wù néng bāng zhù shēn tǐ kuài sù huī fù, tóng shí yě huì yǐng xiǎng wǒ men de miǎn yì xì tǒng. yǒu xiē gǎn mào yào yǒu fù zuò yòng, hái huì ràng rén fàn kùn.",
+         "pinyinHtml": "dàn shì suī rán yào wù néng bāng zhù shēn tǐ kuài sù huī fù, tóng shí yě huì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐng</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> wǒ men de miǎn yì xì tǒng. yǒu xiē gǎn mào yào yǒu fù zuò yòng, hái huì ràng rén fàn kùn.",
+         "vi": "Nhưng tuy thuốc giúp cơ thể hồi phục nhanh, đồng thời cũng ảnh hưởng hệ miễn dịch. Một số thuốc cảm có tác dụng phụ, lại gây buồn ngủ nữa."
+        },
+        "v2": {
+         "zh": "确实有这层风险。不过支持不吃药的人也有顾虑：他们怕药物影响自身免疫系统，而且不少感冒药有副作用，吃完犯困，特别耽误工作学习。",
+         "pinyin": "què shí yǒu zhè céng fēng xiǎn. bú guò zhī chí bù chī yào de rén yě yǒu gù lǜ: tā men pà yào wù yǐng xiǎng zì shēn miǎn yì xì tǒng, ér qiě bù shǎo gǎn mào yào yǒu fù zuò yòng, chī wán fàn kùn, tè bié dān wù gōng zuò xué xí.",
+         "pinyinHtml": "què shí yǒu zhè céng fēng xiǎn. bú guò zhī chí bù chī yào de rén <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> yǒu gù lǜ: tā men pà yào wù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐng</span> xiǎng zì shēn miǎn yì xì tǒng, ér qiě bù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǎo</span> gǎn mào yào yǒu fù zuò yòng, chī wán fàn kùn, tè bié dān wù gōng zuò xué xí.",
+         "vi": "Đúng là có rủi ro đó. Nhưng phe không uống thuốc cũng có cái lo: họ sợ thuốc ảnh hưởng hệ miễn dịch, với nhiều thuốc cảm gây tác dụng phụ buồn ngủ, lỡ hết việc học và làm."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "v1": {
+         "zh": "我同意不能滥用药物，但有些疾病如果不及时用药就会拖久。不少人是因为小感冒拖着不治，结果引起了肺炎。",
+         "pinyin": "wǒ tóng yì bù néng làn yòng yào wù, dàn yǒu xiē jí bìng rú guǒ bù jí shí yòng yào jiù huì tuō jiǔ. bù shǎo rén shì yīn wèi xiǎo gǎn mào tuō zhe bú zhì, jié guǒ yǐn qǐ le fèi yán.",
+         "pinyinHtml": "wǒ tóng yì bù néng làn yòng yào wù, dàn yǒu xiē jí bìng rú guǒ bù jí shí yòng yào jiù huì tuō jiǔ. bù shǎo rén shì yīn wèi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> gǎn mào tuō zhe bú zhì, jié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐn</span> qǐ le fèi yán.",
+         "vi": "Tớ đồng ý không được lạm dụng thuốc, nhưng có những bệnh không dùng thuốc kịp thời sẽ kéo dài. Không ít người cảm nhẹ kéo dài không chữa rồi thành viêm phổi."
+        },
+        "v2": {
+         "zh": "我非常赞成“不能滥用药物”，但不等于“生病硬扛”。我听说不少人就是发烧拖着不治，结果小感冒硬生生拖成了肺炎！",
+         "pinyin": "wǒ fēi cháng zàn chéng \"bù néng làn yòng yào wù\", dàn bù děng yú \"shēng bìng yìng káng\". wǒ tīng shuō bù shǎo rén jiù shì fā shāo tuō zhe bú zhì, jié guǒ xiǎo gǎn mào yìng shēng shēng tuō chéng le fèi yán!",
+         "pinyinHtml": "wǒ fēi cháng zàn chéng \"bù néng làn yòng yào wù\", dàn bù děng yú \"shēng bìng yìng káng\". wǒ tīng shuō bù shǎo rén jiù shì fā shāo tuō zhe bú zhì, jié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> gǎn mào yìng shēng shēng tuō chéng le fèi yán!",
+         "vi": "Tớ rất tán thành 'không lạm dụng thuốc', nhưng không đồng nghĩa với 'ốm cố chịu'. Tớ nghe nhiều người sốt mà dây dưa không chữa, cuối cùng cảm nhẹ biến thành viêm phổi đấy!"
+        },
+        "reason": "Sửa câu gượng và lồng ghép từ vựng ăn điểm “滥用药物”, “拖着不治”."
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "v1": {
+         "zh": "我觉得让我们身体恢复健康主要是靠自己的免疫力和修复力，每天怎么吃、怎么生活才是关键。",
+         "pinyin": "wǒ jué de ràng wǒ men shēn tǐ huī fù jiàn kāng zhǔ yào shi kào zì jǐ de miǎn yì lì hé xiū fù lì, měi tiān zěn me chī, zěn me shēng huó cái shì guān jiàn.",
+         "pinyinHtml": "wǒ jué de ràng wǒ men shēn tǐ huī fù jiàn kāng zhǔ yào shi kào zì jǐ de miǎn yì lì hé xiū fù lì, měi tiān zěn me chī, zěn me shēng huó cái shì guān jiàn.",
+         "vi": "Tớ nghĩ điều giúp cơ thể khỏe lại chủ yếu là sức đề kháng và khả năng tự phục hồi, ăn uống sinh hoạt hàng ngày thế nào mới là mấu chốt."
+        },
+        "v2": {
+         "zh": "哎，这确实太危险了。但话说回来，归根到底恢复健康还是得靠自身的免疫力，平时规律饮食、多锻炼才是最好的预防。",
+         "pinyin": "āi, zhè què shí tài wēi xiǎn le. dàn huà shuō huí lái, guī gēn dào dǐ huī fù jiàn kāng hái shì děi kào zì shēn de miǎn yì lì, píng shí guī lǜ yǐn shí, duō duàn liàn cái shì zuì hǎo de yù fáng.",
+         "pinyinHtml": "āi, zhè què shí tài wēi xiǎn le. dàn huà shuō huí lái, guī gēn dào dǐ huī fù jiàn kāng hái shì děi kào zì shēn de miǎn yì lì, píng shí guī lǜ yǐn shí, duō duàn liàn cái shì zuì hǎo de yù fáng.",
+         "vi": "Chà, thế thì nguy quá. Nhưng nói đi cũng phải nói lại, gốc rễ hồi phục vẫn phải nhờ sức đề kháng tự thân, bình thường ăn uống điều độ, chăm tập thể dục mới là phòng bệnh tốt nhất."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "v1": {
+         "zh": "我当然相信免疫力的重要性，可是药物不是敌人，而是工具，关键是怎么用。退烧药、止咳药能缓解症状。",
+         "pinyin": "wǒ dāng rán xiāng xìn miǎn yì lì de zhòng yào xìng, kě shì yào wù bú shì dí rén, ér shì gōng jù, guān jiàn shì zěn me yòng. tuì shāo yào, zhǐ ké yào néng huǎn jiě zhèng zhuàng.",
+         "pinyinHtml": "wǒ dāng rán xiāng xìn miǎn yì lì de zhòng yào xìng, kě shì yào wù bú shì dí rén, ér shì gōng jù, guān jiàn shì zěn me yòng. tuì shāo yào, zhǐ ké yào néng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">huǎn</span> jiě zhèng zhuàng.",
+         "vi": "Tớ đương nhiên tin tầm quan trọng của sức đề kháng, nhưng thuốc không phải kẻ thù mà là công cụ, quan trọng là cách dùng. Thuốc hạ sốt, thuốc ho giúp giảm nhẹ triệu chứng."
+        },
+        "v2": {
+         "zh": "没错！其实我们不必把药物当成“敌人”，它更像是一种“工具”——像退烧药、止咳药，在医生指导下正确使用，能帮我们快速缓解症状、睡个好觉，身体反而好得更快。",
+         "pinyin": "méi cuò! qí shí wǒ men bú bì bǎ yào wù dàng chéng \"dí rén\", tā gèng xiàng shì yì zhǒng \"gōng jù\"-- xiàng tuì shāo yào, zhǐ ké yào, zài yī shēng zhǐ dǎo xià zhèng què shǐ yòng, néng bāng wǒ men kuài sù huǎn jiě zhèng zhuàng, shuì gè hǎo jué, shēn tǐ fǎn ér hǎo de gèng kuài.",
+         "pinyinHtml": "méi cuò! qí shí wǒ men bú bì bǎ yào wù dàng chéng \"dí rén\", tā gèng xiàng shì yì zhǒng \"gōng jù\"-- xiàng tuì shāo yào, zhǐ ké yào, zài yī shēng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǐ</span> dǎo xià zhèng què shǐ yòng, néng bāng wǒ men kuài sù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">huǎn</span> jiě zhèng zhuàng, shuì gè hǎo jué, shēn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐ</span> fǎn ér hǎo de gèng kuài.",
+         "vi": "Chuẩn luôn! Thực ra không cần coi thuốc là 'kẻ thù', nó giống 'công cụ' hơn — như thuốc hạ sốt, giảm ho, dùng đúng theo chỉ dẫn bác sĩ giúp giảm triệu chứng nhanh, ngủ ngon giấc thì cơ thể càng mau hồi phục."
+        },
+        "reason": "Tổng hợp mượt ý “药物不是敌人，而是工具” + “缓解症状” + “指导下正确使用”."
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "v1": {
+         "zh": "你说的也有道理，如果我们一直强撑着不吃药，不仅自己难受，还会影响工作和复习，甚至传染给别人。",
+         "pinyin": "nǐ shuō de yě yǒu dào lǐ, rú guǒ wǒ men yì zhí qiáng chēng zhe bù chī yào, bù jǐn zì jǐ nán shòu, hái huì yǐng xiǎng gōng zuò hé fù xí, shèn zhì chuán rǎn gěi bié rén.",
+         "pinyinHtml": "nǐ shuō de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> yǒu dào lǐ, rú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> wǒ men yì zhí qiáng chēng zhe bù chī yào, bù jǐn zì jǐ nán shòu, hái huì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐng</span> xiǎng gōng zuò hé fù xí, shèn zhì chuán <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">rǎn</span> gěi bié rén.",
+         "vi": "Cậu nói cũng có lý, nếu cứ cố gồng không uống thuốc, chẳng những mình khổ mà còn ảnh hưởng công việc ôn thi, thậm chí lây cho người khác."
+        },
+        "v2": {
+         "zh": "你说得太在理了！而且人难受得厉害的时候不吃药，不仅复习和工作全砸了，家里有老有小的话，还很容易把病毒传染给他们。",
+         "pinyin": "nǐ shuō de tài zài lǐ le! ér qiě rén nán shòu de lì hài de shí hòu bù chī yào, bù jǐn fù xí hé gōng zuò quán zá le, jiā lǐ yǒu lǎo yǒu xiǎo de huà, hái hěn róng yì bǎ bìng dú chuán rǎn gěi tā men.",
+         "pinyinHtml": "nǐ shuō de tài zài lǐ le! ér qiě rén nán shòu de lì hài de shí hòu bù chī yào, bù jǐn fù xí hé gōng zuò quán zá le, jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǎo</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> xiǎo de huà, hái hěn róng yì bǎ bìng dú chuán <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">rǎn</span> gěi tā men.",
+         "vi": "Cậu nói chí lý quá! Hơn nữa lúc người mệt rũ mà không uống thuốc, chẳng những học hành công việc hỏng bét, mà nhà có người già trẻ nhỏ rất dễ lây virus cho họ."
+        },
+        "reason": "Lồng ghép từ khóa Bài 3 “全砸了” (hỏng bét) và tình huống lây cho người nhà."
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "v1": {
+         "zh": "尤其是家里有老人和小孩的时候，病毒防不胜防，小病也要特别小心。",
+         "pinyin": "yóu qí shì jiā lǐ yǒu lǎo rén hé xiǎo hái de shí hòu, bìng dú fáng bú shèng fáng, xiǎo bìng yě yào tè bié xiǎo xīn.",
+         "pinyinHtml": "yóu qí shì jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> lǎo rén hé xiǎo hái de shí hòu, bìng dú fáng bú shèng fáng, xiǎo bìng yě yào tè bié xiǎo xīn.",
+         "vi": "Nhất là lúc nhà có người già trẻ nhỏ, virus khó phòng lắm, bệnh nhẹ cũng phải cẩn thận."
+        },
+        "v2": {
+         "zh": "就是啊，所以现在医生一般都建议：轻微不适可以先观察、多休息；但一旦高烧不退或持续好几天没好转，就非去医院检查不可。",
+         "pinyin": "jiù shì a, suǒ yǐ xiàn zài yī shēng yì bān dōu jiàn yì: qīng wēi bú shì kě yǐ xiān guān chá, duō xiū xi; dàn yí dàn gāo shāo bú tuì huò chí xù hǎo jǐ tiān méi hǎo zhuǎn, jiù fēi qù yī yuàn jiǎn chá bù kě.",
+         "pinyinHtml": "jiù shì a, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǐ xiàn zài yī shēng yì bān dōu jiàn yì: qīng wēi bú shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ xiān guān chá, duō xiū xi; dàn yí dàn gāo shāo bú tuì huò chí xù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> jǐ tiān méi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> zhuǎn, jiù fēi qù yī yuàn jiǎn chá bù kě.",
+         "vi": "Chính thế, nên giờ bác sĩ hay khuyên: khó chịu nhẹ thì theo dõi, nghỉ ngơi thêm; nhưng hễ sốt cao không hạ hoặc kéo dài mấy ngày không đỡ là nhất thiết phải đi viện kiểm tra."
+        },
+        "reason": "Lồng ghép mẫu câu Bài 2 “非……不可” & câu 10 lồng ghép “千万别……”."
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "v1": {
+         "zh": "所以说到底，不要把“不吃药”绝对化。小病可以先观察、调理；症状重了就该及时看医生，听从专业建议。",
+         "pinyin": "suǒ yǐ shuō dào dǐ, bú yào bǎ \"bù chī yào\" jué duì huà. xiǎo bìng kě yǐ xiān guān chá, tiáo lǐ; zhèng zhuàng zhòng le jiù gāi jí shí kàn yī shēng, tīng cóng zhuān yè jiàn yì.",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǐ shuō dào dǐ, bú yào bǎ \"bù chī yào\" jué duì huà. xiǎo bìng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ xiān guān chá, tiáo lǐ; zhèng zhuàng zhòng le jiù gāi jí shí kàn yī shēng, tīng cóng zhuān yè jiàn yì.",
+         "vi": "Vậy nói cho cùng, đừng tuyệt đối hóa chuyện 'không uống thuốc'. Bệnh nhẹ thì theo dõi, điều dưỡng; triệu chứng nặng lên phải đi khám kịp thời, nghe lời khuyên chuyên môn."
+        },
+        "v2": {
+         "zh": "总结得很到位！科学养病才是最靠谱的——既不盲目乱吃药，也千万别拿身体去赌那“自然会好”的运气。",
+         "pinyin": "zǒng jié de hěn dào wèi! kē xué yǎng bìng cái shì zuì kào pǔ de-- jì bù máng mù luàn chī yào, yě qiān wàn bié ná shēn tǐ qù dǔ nà \"zì rán huì hǎo\" de yùn qì.",
+         "pinyinHtml": "zǒng jié de hěn dào wèi! kē xué yǎng bìng cái shì zuì kào pǔ de-- jì bù máng mù luàn chī yào, yě qiān wàn bié ná shēn tǐ qù dǔ nà \"zì rán huì hǎo\" de yùn qì.",
+         "vi": "Tổng kết chuẩn không cần chỉnh! Chữa bệnh khoa học mới yên tâm nhất — vừa không uống thuốc bừa bãi, vừa tuyệt đối đừng đánh cược sức khỏe vào vận may 'tự khỏi'."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       }
+      ],
+      "audio": "audio/b2-q5.m4a",
+      "audioDuration": 109.52,
+      "audioTimings": [
+       {
+        "n": 1,
+        "role": "A",
+        "start": 0.25,
+        "end": 8.67
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "start": 8.67,
+        "end": 19.64
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "start": 19.64,
+        "end": 28.95
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "start": 28.95,
+        "end": 42.02
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "start": 42.02,
+        "end": 51.26
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "start": 51.26,
+        "end": 63.14
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "start": 63.14,
+        "end": 77.33
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "start": 77.33,
+        "end": 88.75
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "start": 88.75,
+        "end": 99.88
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "start": 99.88,
+        "end": 109.52
+       }
+      ]
+     },
+     {
+      "id": "b2-q6",
+      "no": 6,
+      "examNo": 6,
+      "priority": null,
+      "isExamScope": true,
+      "titleVi": "Bạn chọn hình thức rèn luyện sức khỏe nào? Tại sao?",
+      "question": "你选择哪一种锻炼身体？为什么？",
+      "questionPinyin": "nǐ xuǎn zé nǎ yì zhǒng duàn liàn shēn tǐ? wèi shén me?",
+      "questionPinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> xuǎn zé nǎ yì zhǒng duàn liàn shēn tǐ? wèi shén me?",
+      "slideQuestions": [
+       "你选择哪一种锻炼？"
+      ],
+      "outline": "Rủ bạn mua giày thể thao → So sánh 2 cách tập: Đi bộ (nhẹ nhàng, dễ duy trì, tốt tiêu hóa) vs Chạy bộ (ra mồ hôi, tăng thể lực, giải tỏa stress) → Lập kế hoạch nhắc nhở nhau kiên trì.",
+      "takeaways": {
+       "points": [
+        "Lựa chọn của bản thân: Chọn Đi bộ / Chạy bộ / Cầu lông vì phù hợp thể lực và dễ thực hiện mỗi ngày (散步轻松易坚持 / 跑步减压效果明显)",
+        "So sánh ưu điểm 2 môn: Đi bộ cường độ vừa phải, hợp người mới bắt đầu; Chạy bộ ra mồ hôi sảng khoái, cải thiện giấc ngủ (强度适中 vs 全身出汗改善睡眠)",
+        "Bí quyết không bỏ cuộc: Tìm bạn đồng hành đốc thúc nhau, tránh “ba bữa đực bữa cái” (找搭子互相督促、保持毅力)",
+        "Mẫu câu Bài 2: 坚持下来 / 坚持下去 (kiên trì đến giờ / tiếp tục kiên trì), 别提多舒服了"
+       ],
+       "goldenQuotes": "生命在于运动，但最难的不是开始，而是坚持下去。选自己喜欢的项目，最好再找个朋友互相督促。"
+      },
+      "lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "小明，这周末有空吗？陪我去逛逛商场、挑双鞋呗？",
+        "pinyin": "xiǎo míng, zhè zhōu mò yǒu kōng ma? péi wǒ qù guàng guàng shāng chǎng, tiāo shuāng xié bài?",
+        "pinyinHtml": "xiǎo míng, zhè zhōu mò yǒu kōng ma? péi wǒ qù guàng guàng shāng chǎng, tiāo shuāng xié bài?",
+        "vi": "Tiểu Minh, cuối tuần này rảnh không? Đi trung tâm thương mại với tớ chọn đôi giày đi?",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "我记得你鞋柜都快塞满了吧，怎么又要买新鞋呀？",
+        "pinyin": "wǒ jì de nǐ xié guì dōu kuài sāi mǎn le ba, zěn me yòu yào mǎi xīn xié ya?",
+        "pinyinHtml": "wǒ jì de nǐ xié guì dōu kuài sāi mǎn le ba, zěn me yòu yào mǎi xīn xié ya?",
+        "vi": "Tớ nhớ tủ giày nhà cậu chật cứng rồi cơ mà, sao lại định mua thêm thế?",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "这次不一样，我想挑双正经的运动鞋！最近每天早起散步，以前穿的休闲鞋太磨脚了。",
+        "pinyin": "zhè cì bù yí yàng, wǒ xiǎng tiāo shuāng zhèng jīng de yùn dòng xié! zuì jìn měi tiān zǎo qǐ sàn bù, yǐ qián chuān de xiū xián xié tài mó jiǎo le.",
+        "pinyinHtml": "zhè cì bù yí yàng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> xiǎng tiāo shuāng zhèng jīng de yùn dòng xié! zuì jìn měi tiān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> qǐ sàn bù, yǐ qián chuān de xiū xián xié tài mó jiǎo le.",
+        "vi": "Lần này khác nhé, tớ định chọn đôi giày thể thao tử tế! Dạo này sáng nào cũng dậy sớm đi bộ, mấy đôi giày đi chơi cũ đau chân quá.",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "哟，太阳打西边出来了？以前从来没听你提过运动，怎么突然想起来去散步啦？",
+        "pinyin": "yō, tài yáng dǎ xī biān chū lái le? yǐ qián cóng lái méi tīng nǐ tí guò yùn dòng, zěn me tū rán xiǎng qǐ lái qù sàn bù lā?",
+        "pinyinHtml": "yō, tài yáng dǎ xī biān chū lái le? yǐ qián cóng lái méi tīng nǐ tí guò yùn dòng, zěn me tū rán <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> qǐ lái qù sàn bù lā?",
+        "vi": "Ồ, nay mặt trời mọc đằng tây à? Trước giờ có thấy cậu nhắc tập tành gì đâu, sao tự dưng lại đi bộ thế?",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "哎，别提多难受了！最近工作压力大，夜里经常失眠，医生建议多出来走走，透透气、放空一下脑子。",
+        "pinyin": "āi, bié tí duō nán shòu le! zuì jìn gōng zuò yā lì dà, yè lǐ jīng cháng shī mián, yī shēng jiàn yì duō chū lái zǒu zǒu, tòu tòu qì, fàng kōng yí xià nǎo zǐ.",
+        "pinyinHtml": "āi, bié tí duō nán shòu le! zuì jìn gōng zuò yā lì dà, yè lǐ jīng cháng shī mián, yī shēng jiàn yì duō chū lái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǒu</span> zǒu, tòu tòu qì, fàng kōng yí xià <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǎo</span> zǐ.",
+        "vi": "Haiz, khó chịu khỏi nói luôn! Dạo này áp lực công việc quá, đêm hay mất ngủ, bác sĩ khuyên ra ngoài đi bộ cho thoáng người, thả lỏng đầu óc.",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "怪不得！我自己每天早上也绕着小区跑步，算下来都坚持下来两个多月了，现在白天精神头足得很！",
+        "pinyin": "guài bù de! wǒ zì jǐ měi tiān zǎo shàng yě rào zhe xiǎo qū pǎo bù, suàn xià lái dōu jiān chí xià lái liǎng gè duō yuè le, xiàn zài bái tiān jīng shén tóu zú de hěn!",
+        "pinyinHtml": "guài bù de! wǒ zì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> měi tiān zǎo shàng yě rào zhe xiǎo qū pǎo bù, suàn xià lái dōu jiān chí xià lái liǎng gè duō yuè le, xiàn zài bái tiān jīng shén tóu zú de hěn!",
+        "vi": "Thảo nào! Tớ sáng nào cũng chạy vòng quanh khu nhà, tính ra kiên trì được hơn hai tháng rồi, giờ ban ngày tinh thần sung sức lắm!",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "跑步减脂是快，可对我这种刚起步的“运动小白”来说门槛太高了，跑两步就喘不上气，还是散步更适合我。",
+        "pinyin": "pǎo bù jiǎn zhī shì kuài, kě duì wǒ zhè zhǒng gāng qǐ bù de \"yùn dòng xiǎo bái\" lái shuō mén kǎn tài gāo le, pǎo liǎng bù jiù chuǎn bú shàng qì, hái shì sàn bù gèng shì hé wǒ.",
+        "pinyinHtml": "pǎo bù jiǎn zhī shì kuài, kě duì wǒ zhè zhǒng gāng qǐ bù de \"yùn dòng xiǎo bái\" lái shuō mén kǎn tài gāo le, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">pǎo</span> liǎng bù jiù chuǎn bú shàng qì, hái shì sàn bù gèng shì hé wǒ.",
+        "vi": "Chạy bộ đốt mỡ nhanh thật, nhưng với 'tấm chiếu mới' như tớ thì hơi quá sức, chạy vài bước đã hụt hơi, vẫn thấy đi bộ hợp với tớ hơn.",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "选对适合自己的项目最重要！我喜欢跑步后浑身大汗淋漓的感觉，回家冲个热水澡，那叫一个痛快！",
+        "pinyin": "xuǎn duì shì hé zì jǐ de xiàng mù zuì zhòng yào! wǒ xǐ huan pǎo bù hòu hún shēn dà hàn lín lí de gǎn jué, huí jiā chōng gè rè shuǐ zǎo, nà jiào yí gè tòng kuài!",
+        "pinyinHtml": "xuǎn duì shì hé zì jǐ de xiàng mù zuì zhòng yào! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> xǐ huan pǎo bù hòu hún shēn dà hàn lín lí de gǎn jué, huí jiā chōng gè rè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shuǐ</span> zǎo, nà jiào yí gè tòng kuài!",
+        "vi": "Chọn được môn hợp với mình là quan trọng nhất! Tớ thích cảm giác chạy xong mồ hôi nhễ nhại, về tắm nước nóng một cái, sảng khoái cực kỳ!",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "其实散步的好处也不少：不仅不伤膝盖、帮助消化，还能一边听播客或者和朋友聊天，强度适中，最容易长期坚持。",
+        "pinyin": "qí shí sàn bù de hǎo chù yě bù shǎo: bù jǐn bù shāng xī gài, bāng zhù xiāo huà, hái néng yì biān tīng bō kè huò zhě hé péng yǒu liáo tiān, qiáng dù shì zhōng, zuì róng yì cháng qī jiān chí.",
+        "pinyinHtml": "qí shí sàn bù de hǎo chù yě bù shǎo: bù jǐn bù shāng xī gài, bāng zhù xiāo huà, hái néng yì biān tīng bō kè huò zhě hé péng yǒu liáo tiān, qiáng dù shì zhōng, zuì róng yì cháng qī jiān chí.",
+        "vi": "Thực ra đi bộ cũng nhiều cái lợi lắm: vừa không hại đầu gối, hỗ trợ tiêu hóa, lại vừa nghe podcast hay tán gẫu với bạn được, cường độ vừa phải dễ theo lâu dài nhất.",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "确实，不管是跑步还是散步，最怕的就是“三分钟热度”，工作一忙就不想继续坚持下去了。",
+        "pinyin": "què shí, bù guǎn shì pǎo bù hái shì sàn bù, zuì pà de jiù shì \"sān fēn zhōng rè dù\", gōng zuò yì máng jiù bù xiǎng jì xù jiān chí xià qù le.",
+        "pinyinHtml": "què shí, bù guǎn shì pǎo bù hái shì sàn bù, zuì pà de jiù shì \"sān fēn zhōng rè dù\", gōng zuò yì máng jiù bù xiǎng jì xù jiān chí xià qù le.",
+        "vi": "Đúng thế, dù chạy hay đi bộ thì đáng sợ nhất vẫn là 'cả thèm chóng chán', việc bận cái là chẳng muốn kiên trì tiếp.",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "要不咱俩做个运动搭子互相监督吧？以后谁想偷懒，另一个就发微信督促他出门，怎么样？",
+        "pinyin": "yào bù zán liǎ zuò gè yùn dòng dā zǐ hù xiāng jiān dū ba? yǐ hòu shuí xiǎng tōu lǎn, lìng yí gè jiù fā wēi xìn dū cù tā chū mén, zěn me yàng?",
+        "pinyinHtml": "yào bù zán liǎ zuò gè yùn dòng dā zǐ hù xiāng jiān dū ba? yǐ hòu shuí xiǎng tōu lǎn, lìng yí gè jiù fā wēi xìn dū cù tā chū mén, zěn me yàng?",
+        "vi": "Hay hai đứa làm bạn đồng hành giám sát nhau đi? Sau này ai định lười thì người kia nhắn WeChat giục ra khỏi nhà, thấy sao?",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "太靠谱了！有搭子陪着一定能坚持下来，周六一早咱先去买装备！",
+        "pinyin": "tài kào pǔ le! yǒu dā zǐ péi zhe yí dìng néng jiān chí xià lái, zhōu liù yī zǎo zán xiān qù mǎi zhuāng bèi!",
+        "pinyinHtml": "tài kào pǔ le! yǒu dā zǐ péi zhe yí dìng néng jiān chí xià lái, zhōu liù yī zǎo zán xiān qù mǎi zhuāng bèi!",
+        "vi": "Chí lý quá! Có bạn đồng hành chắc chắn theo được, sáng thứ 7 mình đi sắm đồ trước nhé!",
+        "modified": true
+       }
+      ],
+      "v1_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "小明你周末有空儿吗？跟我一起去买一双鞋子，好吗？",
+        "pinyin": "xiǎo míng nǐ zhōu mò yǒu kòngr ma? gēn wǒ yì qǐ qù mǎi yì shuāng xié zǐ, hǎo ma?",
+        "pinyinHtml": "xiǎo míng nǐ zhōu mò yǒu kòngr ma? gēn wǒ yì qǐ qù mǎi yì shuāng xié zǐ, hǎo ma?",
+        "vi": "Tiểu Minh cuối tuần có rảnh không? Đi mua với tớ một đôi giày được không?",
+        "modified": false
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "我记得你已经有很多鞋子了，怎么还再买新的？",
+        "pinyin": "wǒ jì de nǐ yǐ jīng yǒu hěn duō xié zǐ le, zěn me hái zài mǎi xīn de?",
+        "pinyinHtml": "wǒ jì de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> yǐ jīng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> hěn duō xié zǐ le, zěn me hái zài mǎi xīn de?",
+        "vi": "Tớ nhớ cậu có nhiều giày lắm rồi mà, sao lại mua thêm?",
+        "modified": false
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "这次我想买一双运动鞋，最近我每天都早起散散步，现在的鞋子不合适。",
+        "pinyin": "zhè cì wǒ xiǎng mǎi yì shuāng yùn dòng xié, zuì jìn wǒ měi tiān dōu zǎo qǐ sàn sàn bù, xiàn zài de xié zǐ bù hé shì.",
+        "pinyinHtml": "zhè cì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> mǎi yì shuāng yùn dòng xié, zuì jìn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> měi tiān dōu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> qǐ sàn sàn bù, xiàn zài de xié zǐ bù hé shì.",
+        "vi": "Lần này tớ muốn mua đôi giày thể thao, dạo này sáng nào tớ cũng dậy sớm đi bộ, mấy đôi hiện tại không hợp.",
+        "modified": false
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "你也运动吗？我从来没听过你说运动啊，怎么现在又想散步了？",
+        "pinyin": "nǐ yě yùn dòng ma? wǒ cóng lái méi tīng guò nǐ shuō yùn dòng a, zěn me xiàn zài yòu xiǎng sàn bù le?",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> yě yùn dòng ma? wǒ cóng lái méi tīng guò nǐ shuō yùn dòng a, zěn me xiàn zài yòu xiǎng sàn bù le?",
+        "vi": "Cậu cũng tập thể thao à? Tớ chưa nghe cậu nói bao giờ, sao giờ lại muốn đi bộ thế?",
+        "modified": false
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "别提了，最近工作太忙，精神压力大得连睡也睡不着，所以想散散步让精神放松一下。",
+        "pinyin": "bié tí le, zuì jìn gōng zuò tài máng, jīng shén yā lì dà de lián shuì yě shuì bù zhe, suǒ yǐ xiǎng sàn sàn bù ràng jīng shén fàng sōng yí xià.",
+        "pinyinHtml": "bié tí le, zuì jìn gōng zuò tài máng, jīng shén yā lì dà de lián shuì yě shuì bù zhe, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐ</span> xiǎng sàn sàn bù ràng jīng shén fàng sōng yí xià.",
+        "vi": "Đừng nhắc nữa, dạo này việc bận quá, áp lực tinh thần đến mức mất ngủ luôn, nên muốn đi bộ cho đầu óc thư giãn.",
+        "modified": false
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "原来如此！我每天也早起在家附近跑步，已经坚持两个月了，整个人有精神多了。",
+        "pinyin": "yuán lái rú cǐ! wǒ měi tiān yě zǎo qǐ zài jiā fù jìn pǎo bù, yǐ jīng jiān chí liǎng gè yuè le, zhěng gè rén yǒu jīng shén duō le.",
+        "pinyinHtml": "yuán lái rú cǐ! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> měi tiān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> qǐ zài jiā fù jìn pǎo bù, yǐ jīng jiān chí liǎng gè yuè le, zhěng gè rén yǒu jīng shén duō le.",
+        "vi": "Thì ra là vậy! Ngày nào tớ cũng dậy sớm chạy bộ gần nhà, kiên trì được 2 tháng rồi, người tỉnh táo hẳn ra.",
+        "modified": false
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "跑步也好，但对刚开始锻炼的人来说有点儿难，我一跑步就喘不过气，还是散步轻松点。",
+        "pinyin": "pǎo bù yě hǎo, dàn duì gāng kāi shǐ duàn liàn de rén lái shuō yǒu diǎnr nán, wǒ yì pǎo bù jiù chuǎn bú guò qì, hái shì sàn bù qīng sōng diǎn.",
+        "pinyinHtml": "pǎo bù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> hǎo, dàn duì gāng kāi shǐ duàn liàn de rén lái shuō <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> diǎnr nán, wǒ yì pǎo bù jiù chuǎn bú guò qì, hái shì sàn bù qīng sōng diǎn.",
+        "vi": "Chạy bộ cũng tốt nhưng hơi khó với người mới tập, tớ cứ chạy là thở không ra hơi, vẫn thấy đi bộ nhẹ nhàng hơn.",
+        "modified": false
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "每个人都有自己的锻炼方式，我觉得跑步出汗以后回家洗个澡，那才叫真正的放松。",
+        "pinyin": "měi gè rén dōu yǒu zì jǐ de duàn liàn fāng shì, wǒ jué de pǎo bù chū hàn yǐ hòu huí jiā xǐ gè zǎo, nà cái jiào zhēn zhèng de fàng sōng.",
+        "pinyinHtml": "měi gè rén dōu yǒu zì jǐ de duàn liàn fāng shì, wǒ jué de pǎo bù chū hàn yǐ hòu huí jiā xǐ gè zǎo, nà cái jiào zhēn zhèng de fàng sōng.",
+        "vi": "Mỗi người một cách tập, tớ thấy chạy bộ xong vã mồ hôi về tắm một cái mới gọi là thư giãn thực sự.",
+        "modified": false
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "我觉得散步也不错，不仅控制体重、帮助消化，而且强度适中，容易坚持，谁都能练。",
+        "pinyin": "wǒ jué de sàn bù yě bú cuò, bù jǐn kòng zhì tǐ zhòng, bāng zhù xiāo huà, ér qiě qiáng dù shì zhōng, róng yì jiān chí, shuí dōu néng liàn.",
+        "pinyinHtml": "wǒ jué de sàn bù yě bú cuò, bù jǐn kòng zhì tǐ zhòng, bāng zhù xiāo huà, ér qiě qiáng dù shì zhōng, róng yì jiān chí, shuí dōu néng liàn.",
+        "vi": "Tớ thấy đi bộ cũng hay mà, vừa kiểm soát cân nặng, hỗ trợ tiêu hóa, cường độ lại vừa phải dễ duy trì, ai cũng tập được.",
+        "modified": false
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "说是这么说，我也常担心工作一忙就偷懒坚持不下去。生命在于运动，真的需要毅力啊！",
+        "pinyin": "shuō shì zhè me shuō, wǒ yě cháng dān xīn gōng zuò yì máng jiù tōu lǎn jiān chí bú xià qù. shēng mìng zài yú yùn dòng, zhēn de xū yào yì lì a!",
+        "pinyinHtml": "shuō shì zhè me shuō, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě cháng dān xīn gōng zuò yì máng jiù tōu lǎn jiān chí bú xià qù. shēng mìng zài yú yùn dòng, zhēn de xū yào yì lì a!",
+        "vi": "Nói thì thế nhưng tớ cũng hay lo bận việc lại lười không kiên trì tiếp được. Sự sống nằm ở vận động, đúng là cần nghị lực thật!",
+        "modified": false
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "不如我们定个计划互相监督吧：你偷懒的时候我提醒你，我想放弃的时候你鼓励我！",
+        "pinyin": "bù rú wǒ men dìng gè jì huà hù xiāng jiān dū ba: nǐ tōu lǎn de shí hòu wǒ tí xǐng nǐ, wǒ xiǎng fàng qì de shí hòu nǐ gǔ lì wǒ!",
+        "pinyinHtml": "bù rú wǒ men dìng gè jì huà hù xiāng jiān dū ba: nǐ tōu lǎn de shí hòu wǒ tí <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xǐng</span> nǐ, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> xiǎng fàng qì de shí hòu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> gǔ lì wǒ!",
+        "vi": "Hay mình lên kế hoạch giám sát nhau đi: lúc cậu lười tớ nhắc, lúc tớ nản cậu cổ vũ!",
+        "modified": false
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "好主意！那明天就从一起去买运动鞋开始吧！",
+        "pinyin": "hǎo zhǔ yì! nà míng tiān jiù cóng yì qǐ qù mǎi yùn dòng xié kāi shǐ ba!",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> zhǔ yì! nà míng tiān jiù cóng yì qǐ qù mǎi yùn dòng xié kāi shǐ ba!",
+        "vi": "Ý kiến hay! Vậy mai bắt đầu từ việc đi mua giày thể thao cùng nhau nhé!",
+        "modified": false
+       }
+      ],
+      "v2_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "小明，这周末有空吗？陪我去逛逛商场、挑双鞋呗？",
+        "pinyin": "xiǎo míng, zhè zhōu mò yǒu kōng ma? péi wǒ qù guàng guàng shāng chǎng, tiāo shuāng xié bài?",
+        "pinyinHtml": "xiǎo míng, zhè zhōu mò yǒu kōng ma? péi wǒ qù guàng guàng shāng chǎng, tiāo shuāng xié bài?",
+        "vi": "Tiểu Minh, cuối tuần này rảnh không? Đi trung tâm thương mại với tớ chọn đôi giày đi?",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "我记得你鞋柜都快塞满了吧，怎么又要买新鞋呀？",
+        "pinyin": "wǒ jì de nǐ xié guì dōu kuài sāi mǎn le ba, zěn me yòu yào mǎi xīn xié ya?",
+        "pinyinHtml": "wǒ jì de nǐ xié guì dōu kuài sāi mǎn le ba, zěn me yòu yào mǎi xīn xié ya?",
+        "vi": "Tớ nhớ tủ giày nhà cậu chật cứng rồi cơ mà, sao lại định mua thêm thế?",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "这次不一样，我想挑双正经的运动鞋！最近每天早起散步，以前穿的休闲鞋太磨脚了。",
+        "pinyin": "zhè cì bù yí yàng, wǒ xiǎng tiāo shuāng zhèng jīng de yùn dòng xié! zuì jìn měi tiān zǎo qǐ sàn bù, yǐ qián chuān de xiū xián xié tài mó jiǎo le.",
+        "pinyinHtml": "zhè cì bù yí yàng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> xiǎng tiāo shuāng zhèng jīng de yùn dòng xié! zuì jìn měi tiān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> qǐ sàn bù, yǐ qián chuān de xiū xián xié tài mó jiǎo le.",
+        "vi": "Lần này khác nhé, tớ định chọn đôi giày thể thao tử tế! Dạo này sáng nào cũng dậy sớm đi bộ, mấy đôi giày đi chơi cũ đau chân quá.",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "哟，太阳打西边出来了？以前从来没听你提过运动，怎么突然想起来去散步啦？",
+        "pinyin": "yō, tài yáng dǎ xī biān chū lái le? yǐ qián cóng lái méi tīng nǐ tí guò yùn dòng, zěn me tū rán xiǎng qǐ lái qù sàn bù lā?",
+        "pinyinHtml": "yō, tài yáng dǎ xī biān chū lái le? yǐ qián cóng lái méi tīng nǐ tí guò yùn dòng, zěn me tū rán <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> qǐ lái qù sàn bù lā?",
+        "vi": "Ồ, nay mặt trời mọc đằng tây à? Trước giờ có thấy cậu nhắc tập tành gì đâu, sao tự dưng lại đi bộ thế?",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "哎，别提多难受了！最近工作压力大，夜里经常失眠，医生建议多出来走走，透透气、放空一下脑子。",
+        "pinyin": "āi, bié tí duō nán shòu le! zuì jìn gōng zuò yā lì dà, yè lǐ jīng cháng shī mián, yī shēng jiàn yì duō chū lái zǒu zǒu, tòu tòu qì, fàng kōng yí xià nǎo zǐ.",
+        "pinyinHtml": "āi, bié tí duō nán shòu le! zuì jìn gōng zuò yā lì dà, yè lǐ jīng cháng shī mián, yī shēng jiàn yì duō chū lái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǒu</span> zǒu, tòu tòu qì, fàng kōng yí xià <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǎo</span> zǐ.",
+        "vi": "Haiz, khó chịu khỏi nói luôn! Dạo này áp lực công việc quá, đêm hay mất ngủ, bác sĩ khuyên ra ngoài đi bộ cho thoáng người, thả lỏng đầu óc.",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "怪不得！我自己每天早上也绕着小区跑步，算下来都坚持下来两个多月了，现在白天精神头足得很！",
+        "pinyin": "guài bù de! wǒ zì jǐ měi tiān zǎo shàng yě rào zhe xiǎo qū pǎo bù, suàn xià lái dōu jiān chí xià lái liǎng gè duō yuè le, xiàn zài bái tiān jīng shén tóu zú de hěn!",
+        "pinyinHtml": "guài bù de! wǒ zì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> měi tiān zǎo shàng yě rào zhe xiǎo qū pǎo bù, suàn xià lái dōu jiān chí xià lái liǎng gè duō yuè le, xiàn zài bái tiān jīng shén tóu zú de hěn!",
+        "vi": "Thảo nào! Tớ sáng nào cũng chạy vòng quanh khu nhà, tính ra kiên trì được hơn hai tháng rồi, giờ ban ngày tinh thần sung sức lắm!",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "跑步减脂是快，可对我这种刚起步的“运动小白”来说门槛太高了，跑两步就喘不上气，还是散步更适合我。",
+        "pinyin": "pǎo bù jiǎn zhī shì kuài, kě duì wǒ zhè zhǒng gāng qǐ bù de \"yùn dòng xiǎo bái\" lái shuō mén kǎn tài gāo le, pǎo liǎng bù jiù chuǎn bú shàng qì, hái shì sàn bù gèng shì hé wǒ.",
+        "pinyinHtml": "pǎo bù jiǎn zhī shì kuài, kě duì wǒ zhè zhǒng gāng qǐ bù de \"yùn dòng xiǎo bái\" lái shuō mén kǎn tài gāo le, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">pǎo</span> liǎng bù jiù chuǎn bú shàng qì, hái shì sàn bù gèng shì hé wǒ.",
+        "vi": "Chạy bộ đốt mỡ nhanh thật, nhưng với 'tấm chiếu mới' như tớ thì hơi quá sức, chạy vài bước đã hụt hơi, vẫn thấy đi bộ hợp với tớ hơn.",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "选对适合自己的项目最重要！我喜欢跑步后浑身大汗淋漓的感觉，回家冲个热水澡，那叫一个痛快！",
+        "pinyin": "xuǎn duì shì hé zì jǐ de xiàng mù zuì zhòng yào! wǒ xǐ huan pǎo bù hòu hún shēn dà hàn lín lí de gǎn jué, huí jiā chōng gè rè shuǐ zǎo, nà jiào yí gè tòng kuài!",
+        "pinyinHtml": "xuǎn duì shì hé zì jǐ de xiàng mù zuì zhòng yào! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> xǐ huan pǎo bù hòu hún shēn dà hàn lín lí de gǎn jué, huí jiā chōng gè rè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shuǐ</span> zǎo, nà jiào yí gè tòng kuài!",
+        "vi": "Chọn được môn hợp với mình là quan trọng nhất! Tớ thích cảm giác chạy xong mồ hôi nhễ nhại, về tắm nước nóng một cái, sảng khoái cực kỳ!",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "其实散步的好处也不少：不仅不伤膝盖、帮助消化，还能一边听播客或者和朋友聊天，强度适中，最容易长期坚持。",
+        "pinyin": "qí shí sàn bù de hǎo chù yě bù shǎo: bù jǐn bù shāng xī gài, bāng zhù xiāo huà, hái néng yì biān tīng bō kè huò zhě hé péng yǒu liáo tiān, qiáng dù shì zhōng, zuì róng yì cháng qī jiān chí.",
+        "pinyinHtml": "qí shí sàn bù de hǎo chù yě bù shǎo: bù jǐn bù shāng xī gài, bāng zhù xiāo huà, hái néng yì biān tīng bō kè huò zhě hé péng yǒu liáo tiān, qiáng dù shì zhōng, zuì róng yì cháng qī jiān chí.",
+        "vi": "Thực ra đi bộ cũng nhiều cái lợi lắm: vừa không hại đầu gối, hỗ trợ tiêu hóa, lại vừa nghe podcast hay tán gẫu với bạn được, cường độ vừa phải dễ theo lâu dài nhất.",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "确实，不管是跑步还是散步，最怕的就是“三分钟热度”，工作一忙就不想继续坚持下去了。",
+        "pinyin": "què shí, bù guǎn shì pǎo bù hái shì sàn bù, zuì pà de jiù shì \"sān fēn zhōng rè dù\", gōng zuò yì máng jiù bù xiǎng jì xù jiān chí xià qù le.",
+        "pinyinHtml": "què shí, bù guǎn shì pǎo bù hái shì sàn bù, zuì pà de jiù shì \"sān fēn zhōng rè dù\", gōng zuò yì máng jiù bù xiǎng jì xù jiān chí xià qù le.",
+        "vi": "Đúng thế, dù chạy hay đi bộ thì đáng sợ nhất vẫn là 'cả thèm chóng chán', việc bận cái là chẳng muốn kiên trì tiếp.",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "要不咱俩做个运动搭子互相监督吧？以后谁想偷懒，另一个就发微信督促他出门，怎么样？",
+        "pinyin": "yào bù zán liǎ zuò gè yùn dòng dā zǐ hù xiāng jiān dū ba? yǐ hòu shuí xiǎng tōu lǎn, lìng yí gè jiù fā wēi xìn dū cù tā chū mén, zěn me yàng?",
+        "pinyinHtml": "yào bù zán liǎ zuò gè yùn dòng dā zǐ hù xiāng jiān dū ba? yǐ hòu shuí xiǎng tōu lǎn, lìng yí gè jiù fā wēi xìn dū cù tā chū mén, zěn me yàng?",
+        "vi": "Hay hai đứa làm bạn đồng hành giám sát nhau đi? Sau này ai định lười thì người kia nhắn WeChat giục ra khỏi nhà, thấy sao?",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "太靠谱了！有搭子陪着一定能坚持下来，周六一早咱先去买装备！",
+        "pinyin": "tài kào pǔ le! yǒu dā zǐ péi zhe yí dìng néng jiān chí xià lái, zhōu liù yī zǎo zán xiān qù mǎi zhuāng bèi!",
+        "pinyinHtml": "tài kào pǔ le! yǒu dā zǐ péi zhe yí dìng néng jiān chí xià lái, zhōu liù yī zǎo zán xiān qù mǎi zhuāng bèi!",
+        "vi": "Chí lý quá! Có bạn đồng hành chắc chắn theo được, sáng thứ 7 mình đi sắm đồ trước nhé!",
+        "modified": true
+       }
+      ],
+      "diffs": [
+       {
+        "n": 1,
+        "role": "A",
+        "v1": {
+         "zh": "小明你周末有空儿吗？跟我一起去买一双鞋子，好吗？",
+         "pinyin": "xiǎo míng nǐ zhōu mò yǒu kòngr ma? gēn wǒ yì qǐ qù mǎi yì shuāng xié zǐ, hǎo ma?",
+         "pinyinHtml": "xiǎo míng nǐ zhōu mò yǒu kòngr ma? gēn wǒ yì qǐ qù mǎi yì shuāng xié zǐ, hǎo ma?",
+         "vi": "Tiểu Minh cuối tuần có rảnh không? Đi mua với tớ một đôi giày được không?"
+        },
+        "v2": {
+         "zh": "小明，这周末有空吗？陪我去逛逛商场、挑双鞋呗？",
+         "pinyin": "xiǎo míng, zhè zhōu mò yǒu kōng ma? péi wǒ qù guàng guàng shāng chǎng, tiāo shuāng xié bài?",
+         "pinyinHtml": "xiǎo míng, zhè zhōu mò yǒu kōng ma? péi wǒ qù guàng guàng shāng chǎng, tiāo shuāng xié bài?",
+         "vi": "Tiểu Minh, cuối tuần này rảnh không? Đi trung tâm thương mại với tớ chọn đôi giày đi?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "v1": {
+         "zh": "我记得你已经有很多鞋子了，怎么还再买新的？",
+         "pinyin": "wǒ jì de nǐ yǐ jīng yǒu hěn duō xié zǐ le, zěn me hái zài mǎi xīn de?",
+         "pinyinHtml": "wǒ jì de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> yǐ jīng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> hěn duō xié zǐ le, zěn me hái zài mǎi xīn de?",
+         "vi": "Tớ nhớ cậu có nhiều giày lắm rồi mà, sao lại mua thêm?"
+        },
+        "v2": {
+         "zh": "我记得你鞋柜都快塞满了吧，怎么又要买新鞋呀？",
+         "pinyin": "wǒ jì de nǐ xié guì dōu kuài sāi mǎn le ba, zěn me yòu yào mǎi xīn xié ya?",
+         "pinyinHtml": "wǒ jì de nǐ xié guì dōu kuài sāi mǎn le ba, zěn me yòu yào mǎi xīn xié ya?",
+         "vi": "Tớ nhớ tủ giày nhà cậu chật cứng rồi cơ mà, sao lại định mua thêm thế?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "v1": {
+         "zh": "这次我想买一双运动鞋，最近我每天都早起散散步，现在的鞋子不合适。",
+         "pinyin": "zhè cì wǒ xiǎng mǎi yì shuāng yùn dòng xié, zuì jìn wǒ měi tiān dōu zǎo qǐ sàn sàn bù, xiàn zài de xié zǐ bù hé shì.",
+         "pinyinHtml": "zhè cì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> mǎi yì shuāng yùn dòng xié, zuì jìn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> měi tiān dōu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> qǐ sàn sàn bù, xiàn zài de xié zǐ bù hé shì.",
+         "vi": "Lần này tớ muốn mua đôi giày thể thao, dạo này sáng nào tớ cũng dậy sớm đi bộ, mấy đôi hiện tại không hợp."
+        },
+        "v2": {
+         "zh": "这次不一样，我想挑双正经的运动鞋！最近每天早起散步，以前穿的休闲鞋太磨脚了。",
+         "pinyin": "zhè cì bù yí yàng, wǒ xiǎng tiāo shuāng zhèng jīng de yùn dòng xié! zuì jìn měi tiān zǎo qǐ sàn bù, yǐ qián chuān de xiū xián xié tài mó jiǎo le.",
+         "pinyinHtml": "zhè cì bù yí yàng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> xiǎng tiāo shuāng zhèng jīng de yùn dòng xié! zuì jìn měi tiān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> qǐ sàn bù, yǐ qián chuān de xiū xián xié tài mó jiǎo le.",
+         "vi": "Lần này khác nhé, tớ định chọn đôi giày thể thao tử tế! Dạo này sáng nào cũng dậy sớm đi bộ, mấy đôi giày đi chơi cũ đau chân quá."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "v1": {
+         "zh": "你也运动吗？我从来没听过你说运动啊，怎么现在又想散步了？",
+         "pinyin": "nǐ yě yùn dòng ma? wǒ cóng lái méi tīng guò nǐ shuō yùn dòng a, zěn me xiàn zài yòu xiǎng sàn bù le?",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> yě yùn dòng ma? wǒ cóng lái méi tīng guò nǐ shuō yùn dòng a, zěn me xiàn zài yòu xiǎng sàn bù le?",
+         "vi": "Cậu cũng tập thể thao à? Tớ chưa nghe cậu nói bao giờ, sao giờ lại muốn đi bộ thế?"
+        },
+        "v2": {
+         "zh": "哟，太阳打西边出来了？以前从来没听你提过运动，怎么突然想起来去散步啦？",
+         "pinyin": "yō, tài yáng dǎ xī biān chū lái le? yǐ qián cóng lái méi tīng nǐ tí guò yùn dòng, zěn me tū rán xiǎng qǐ lái qù sàn bù lā?",
+         "pinyinHtml": "yō, tài yáng dǎ xī biān chū lái le? yǐ qián cóng lái méi tīng nǐ tí guò yùn dòng, zěn me tū rán <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> qǐ lái qù sàn bù lā?",
+         "vi": "Ồ, nay mặt trời mọc đằng tây à? Trước giờ có thấy cậu nhắc tập tành gì đâu, sao tự dưng lại đi bộ thế?"
+        },
+        "reason": "Thêm thành ngữ khẩu ngữ sinh động “太阳打西边出来了？” khi ngạc nhiên trước thói quen mới của bạn."
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "v1": {
+         "zh": "别提了，最近工作太忙，精神压力大得连睡也睡不着，所以想散散步让精神放松一下。",
+         "pinyin": "bié tí le, zuì jìn gōng zuò tài máng, jīng shén yā lì dà de lián shuì yě shuì bù zhe, suǒ yǐ xiǎng sàn sàn bù ràng jīng shén fàng sōng yí xià.",
+         "pinyinHtml": "bié tí le, zuì jìn gōng zuò tài máng, jīng shén yā lì dà de lián shuì yě shuì bù zhe, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐ</span> xiǎng sàn sàn bù ràng jīng shén fàng sōng yí xià.",
+         "vi": "Đừng nhắc nữa, dạo này việc bận quá, áp lực tinh thần đến mức mất ngủ luôn, nên muốn đi bộ cho đầu óc thư giãn."
+        },
+        "v2": {
+         "zh": "哎，别提多难受了！最近工作压力大，夜里经常失眠，医生建议多出来走走，透透气、放空一下脑子。",
+         "pinyin": "āi, bié tí duō nán shòu le! zuì jìn gōng zuò yā lì dà, yè lǐ jīng cháng shī mián, yī shēng jiàn yì duō chū lái zǒu zǒu, tòu tòu qì, fàng kōng yí xià nǎo zǐ.",
+         "pinyinHtml": "āi, bié tí duō nán shòu le! zuì jìn gōng zuò yā lì dà, yè lǐ jīng cháng shī mián, yī shēng jiàn yì duō chū lái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǒu</span> zǒu, tòu tòu qì, fàng kōng yí xià <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǎo</span> zǐ.",
+         "vi": "Haiz, khó chịu khỏi nói luôn! Dạo này áp lực công việc quá, đêm hay mất ngủ, bác sĩ khuyên ra ngoài đi bộ cho thoáng người, thả lỏng đầu óc."
+        },
+        "reason": "Sửa lỗi ngữ pháp “压力得连睡也睡不着” -> lồng ghép “别提多难受了” (Bài 2) và kể tự nhiên chuyện bác sĩ khuyên."
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "v1": {
+         "zh": "原来如此！我每天也早起在家附近跑步，已经坚持两个月了，整个人有精神多了。",
+         "pinyin": "yuán lái rú cǐ! wǒ měi tiān yě zǎo qǐ zài jiā fù jìn pǎo bù, yǐ jīng jiān chí liǎng gè yuè le, zhěng gè rén yǒu jīng shén duō le.",
+         "pinyinHtml": "yuán lái rú cǐ! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> měi tiān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> qǐ zài jiā fù jìn pǎo bù, yǐ jīng jiān chí liǎng gè yuè le, zhěng gè rén yǒu jīng shén duō le.",
+         "vi": "Thì ra là vậy! Ngày nào tớ cũng dậy sớm chạy bộ gần nhà, kiên trì được 2 tháng rồi, người tỉnh táo hẳn ra."
+        },
+        "v2": {
+         "zh": "怪不得！我自己每天早上也绕着小区跑步，算下来都坚持下来两个多月了，现在白天精神头足得很！",
+         "pinyin": "guài bù de! wǒ zì jǐ měi tiān zǎo shàng yě rào zhe xiǎo qū pǎo bù, suàn xià lái dōu jiān chí xià lái liǎng gè duō yuè le, xiàn zài bái tiān jīng shén tóu zú de hěn!",
+         "pinyinHtml": "guài bù de! wǒ zì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> měi tiān zǎo shàng yě rào zhe xiǎo qū pǎo bù, suàn xià lái dōu jiān chí xià lái liǎng gè duō yuè le, xiàn zài bái tiān jīng shén tóu zú de hěn!",
+         "vi": "Thảo nào! Tớ sáng nào cũng chạy vòng quanh khu nhà, tính ra kiên trì được hơn hai tháng rồi, giờ ban ngày tinh thần sung sức lắm!"
+        },
+        "reason": "Bỏ “原来如此”, thay bằng “怪不得！” + lồng ghép mẫu câu Bài 2 “坚持下来”."
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "v1": {
+         "zh": "跑步也好，但对刚开始锻炼的人来说有点儿难，我一跑步就喘不过气，还是散步轻松点。",
+         "pinyin": "pǎo bù yě hǎo, dàn duì gāng kāi shǐ duàn liàn de rén lái shuō yǒu diǎnr nán, wǒ yì pǎo bù jiù chuǎn bú guò qì, hái shì sàn bù qīng sōng diǎn.",
+         "pinyinHtml": "pǎo bù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> hǎo, dàn duì gāng kāi shǐ duàn liàn de rén lái shuō <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> diǎnr nán, wǒ yì pǎo bù jiù chuǎn bú guò qì, hái shì sàn bù qīng sōng diǎn.",
+         "vi": "Chạy bộ cũng tốt nhưng hơi khó với người mới tập, tớ cứ chạy là thở không ra hơi, vẫn thấy đi bộ nhẹ nhàng hơn."
+        },
+        "v2": {
+         "zh": "跑步减脂是快，可对我这种刚起步的“运动小白”来说门槛太高了，跑两步就喘不上气，还是散步更适合我。",
+         "pinyin": "pǎo bù jiǎn zhī shì kuài, kě duì wǒ zhè zhǒng gāng qǐ bù de \"yùn dòng xiǎo bái\" lái shuō mén kǎn tài gāo le, pǎo liǎng bù jiù chuǎn bú shàng qì, hái shì sàn bù gèng shì hé wǒ.",
+         "pinyinHtml": "pǎo bù jiǎn zhī shì kuài, kě duì wǒ zhè zhǒng gāng qǐ bù de \"yùn dòng xiǎo bái\" lái shuō mén kǎn tài gāo le, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">pǎo</span> liǎng bù jiù chuǎn bú shàng qì, hái shì sàn bù gèng shì hé wǒ.",
+         "vi": "Chạy bộ đốt mỡ nhanh thật, nhưng với 'tấm chiếu mới' như tớ thì hơi quá sức, chạy vài bước đã hụt hơi, vẫn thấy đi bộ hợp với tớ hơn."
+        },
+        "reason": "Dùng từ vựng hiện đại rất đời thường “运动小白” (người mới tập) & sửa “喘不出气” thành “喘不上气”."
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "v1": {
+         "zh": "每个人都有自己的锻炼方式，我觉得跑步出汗以后回家洗个澡，那才叫真正的放松。",
+         "pinyin": "měi gè rén dōu yǒu zì jǐ de duàn liàn fāng shì, wǒ jué de pǎo bù chū hàn yǐ hòu huí jiā xǐ gè zǎo, nà cái jiào zhēn zhèng de fàng sōng.",
+         "pinyinHtml": "měi gè rén dōu yǒu zì jǐ de duàn liàn fāng shì, wǒ jué de pǎo bù chū hàn yǐ hòu huí jiā xǐ gè zǎo, nà cái jiào zhēn zhèng de fàng sōng.",
+         "vi": "Mỗi người một cách tập, tớ thấy chạy bộ xong vã mồ hôi về tắm một cái mới gọi là thư giãn thực sự."
+        },
+        "v2": {
+         "zh": "选对适合自己的项目最重要！我喜欢跑步后浑身大汗淋漓的感觉，回家冲个热水澡，那叫一个痛快！",
+         "pinyin": "xuǎn duì shì hé zì jǐ de xiàng mù zuì zhòng yào! wǒ xǐ huan pǎo bù hòu hún shēn dà hàn lín lí de gǎn jué, huí jiā chōng gè rè shuǐ zǎo, nà jiào yí gè tòng kuài!",
+         "pinyinHtml": "xuǎn duì shì hé zì jǐ de xiàng mù zuì zhòng yào! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> xǐ huan pǎo bù hòu hún shēn dà hàn lín lí de gǎn jué, huí jiā chōng gè rè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shuǐ</span> zǎo, nà jiào yí gè tòng kuài!",
+         "vi": "Chọn được môn hợp với mình là quan trọng nhất! Tớ thích cảm giác chạy xong mồ hôi nhễ nhại, về tắm nước nóng một cái, sảng khoái cực kỳ!"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "v1": {
+         "zh": "我觉得散步也不错，不仅控制体重、帮助消化，而且强度适中，容易坚持，谁都能练。",
+         "pinyin": "wǒ jué de sàn bù yě bú cuò, bù jǐn kòng zhì tǐ zhòng, bāng zhù xiāo huà, ér qiě qiáng dù shì zhōng, róng yì jiān chí, shuí dōu néng liàn.",
+         "pinyinHtml": "wǒ jué de sàn bù yě bú cuò, bù jǐn kòng zhì tǐ zhòng, bāng zhù xiāo huà, ér qiě qiáng dù shì zhōng, róng yì jiān chí, shuí dōu néng liàn.",
+         "vi": "Tớ thấy đi bộ cũng hay mà, vừa kiểm soát cân nặng, hỗ trợ tiêu hóa, cường độ lại vừa phải dễ duy trì, ai cũng tập được."
+        },
+        "v2": {
+         "zh": "其实散步的好处也不少：不仅不伤膝盖、帮助消化，还能一边听播客或者和朋友聊天，强度适中，最容易长期坚持。",
+         "pinyin": "qí shí sàn bù de hǎo chù yě bù shǎo: bù jǐn bù shāng xī gài, bāng zhù xiāo huà, hái néng yì biān tīng bō kè huò zhě hé péng yǒu liáo tiān, qiáng dù shì zhōng, zuì róng yì cháng qī jiān chí.",
+         "pinyinHtml": "qí shí sàn bù de hǎo chù yě bù shǎo: bù jǐn bù shāng xī gài, bāng zhù xiāo huà, hái néng yì biān tīng bō kè huò zhě hé péng yǒu liáo tiān, qiáng dù shì zhōng, zuì róng yì cháng qī jiān chí.",
+         "vi": "Thực ra đi bộ cũng nhiều cái lợi lắm: vừa không hại đầu gối, hỗ trợ tiêu hóa, lại vừa nghe podcast hay tán gẫu với bạn được, cường độ vừa phải dễ theo lâu dài nhất."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "v1": {
+         "zh": "说是这么说，我也常担心工作一忙就偷懒坚持不下去。生命在于运动，真的需要毅力啊！",
+         "pinyin": "shuō shì zhè me shuō, wǒ yě cháng dān xīn gōng zuò yì máng jiù tōu lǎn jiān chí bú xià qù. shēng mìng zài yú yùn dòng, zhēn de xū yào yì lì a!",
+         "pinyinHtml": "shuō shì zhè me shuō, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě cháng dān xīn gōng zuò yì máng jiù tōu lǎn jiān chí bú xià qù. shēng mìng zài yú yùn dòng, zhēn de xū yào yì lì a!",
+         "vi": "Nói thì thế nhưng tớ cũng hay lo bận việc lại lười không kiên trì tiếp được. Sự sống nằm ở vận động, đúng là cần nghị lực thật!"
+        },
+        "v2": {
+         "zh": "确实，不管是跑步还是散步，最怕的就是“三分钟热度”，工作一忙就不想继续坚持下去了。",
+         "pinyin": "què shí, bù guǎn shì pǎo bù hái shì sàn bù, zuì pà de jiù shì \"sān fēn zhōng rè dù\", gōng zuò yì máng jiù bù xiǎng jì xù jiān chí xià qù le.",
+         "pinyinHtml": "què shí, bù guǎn shì pǎo bù hái shì sàn bù, zuì pà de jiù shì \"sān fēn zhōng rè dù\", gōng zuò yì máng jiù bù xiǎng jì xù jiān chí xià qù le.",
+         "vi": "Đúng thế, dù chạy hay đi bộ thì đáng sợ nhất vẫn là 'cả thèm chóng chán', việc bận cái là chẳng muốn kiên trì tiếp."
+        },
+        "reason": "Dùng thành ngữ “三分钟热度” (nhiệt huyết 3 phút) + mẫu câu Bài 2 “坚持下去”."
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "v1": {
+         "zh": "不如我们定个计划互相监督吧：你偷懒的时候我提醒你，我想放弃的时候你鼓励我！",
+         "pinyin": "bù rú wǒ men dìng gè jì huà hù xiāng jiān dū ba: nǐ tōu lǎn de shí hòu wǒ tí xǐng nǐ, wǒ xiǎng fàng qì de shí hòu nǐ gǔ lì wǒ!",
+         "pinyinHtml": "bù rú wǒ men dìng gè jì huà hù xiāng jiān dū ba: nǐ tōu lǎn de shí hòu wǒ tí <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xǐng</span> nǐ, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> xiǎng fàng qì de shí hòu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> gǔ lì wǒ!",
+         "vi": "Hay mình lên kế hoạch giám sát nhau đi: lúc cậu lười tớ nhắc, lúc tớ nản cậu cổ vũ!"
+        },
+        "v2": {
+         "zh": "要不咱俩做个运动搭子互相监督吧？以后谁想偷懒，另一个就发微信督促他出门，怎么样？",
+         "pinyin": "yào bù zán liǎ zuò gè yùn dòng dā zǐ hù xiāng jiān dū ba? yǐ hòu shuí xiǎng tōu lǎn, lìng yí gè jiù fā wēi xìn dū cù tā chū mén, zěn me yàng?",
+         "pinyinHtml": "yào bù zán liǎ zuò gè yùn dòng dā zǐ hù xiāng jiān dū ba? yǐ hòu shuí xiǎng tōu lǎn, lìng yí gè jiù fā wēi xìn dū cù tā chū mén, zěn me yàng?",
+         "vi": "Hay hai đứa làm bạn đồng hành giám sát nhau đi? Sau này ai định lười thì người kia nhắn WeChat giục ra khỏi nhà, thấy sao?"
+        },
+        "reason": "Đưa văn hóa giới trẻ TQ “运动搭子” (bạn tập thể thao cùng) vào làm bài thoại hiện đại, tự nhiên."
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "v1": {
+         "zh": "好主意！那明天就从一起去买运动鞋开始吧！",
+         "pinyin": "hǎo zhǔ yì! nà míng tiān jiù cóng yì qǐ qù mǎi yùn dòng xié kāi shǐ ba!",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> zhǔ yì! nà míng tiān jiù cóng yì qǐ qù mǎi yùn dòng xié kāi shǐ ba!",
+         "vi": "Ý kiến hay! Vậy mai bắt đầu từ việc đi mua giày thể thao cùng nhau nhé!"
+        },
+        "v2": {
+         "zh": "太靠谱了！有搭子陪着一定能坚持下来，周六一早咱先去买装备！",
+         "pinyin": "tài kào pǔ le! yǒu dā zǐ péi zhe yí dìng néng jiān chí xià lái, zhōu liù yī zǎo zán xiān qù mǎi zhuāng bèi!",
+         "pinyinHtml": "tài kào pǔ le! yǒu dā zǐ péi zhe yí dìng néng jiān chí xià lái, zhōu liù yī zǎo zán xiān qù mǎi zhuāng bèi!",
+         "vi": "Chí lý quá! Có bạn đồng hành chắc chắn theo được, sáng thứ 7 mình đi sắm đồ trước nhé!"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       }
+      ],
+      "audio": "audio/b2-q6.m4a",
+      "audioDuration": 94.3,
+      "audioTimings": [
+       {
+        "n": 1,
+        "role": "A",
+        "start": 0.25,
+        "end": 5.68
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "start": 5.68,
+        "end": 9.9
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "start": 9.9,
+        "end": 17.38
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "start": 17.38,
+        "end": 24.26
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "start": 24.26,
+        "end": 33.52
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "start": 33.52,
+        "end": 43
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "start": 43,
+        "end": 52.05
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "start": 52.05,
+        "end": 61.35
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "start": 61.35,
+        "end": 71.25
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "start": 71.25,
+        "end": 79.53
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "start": 79.53,
+        "end": 87.7
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "start": 87.7,
+        "end": 94.3
+       }
       ]
      }
-    ]
+    ],
+    "isExamScope": true
    },
    {
     "id": "b3",
@@ -11567,7 +14468,15 @@ window.APP_BOOKS = {
       "example": "我吃惯了清淡的菜，吃不惯太辣的。",
       "exampleVi": "Tôi đã quen ăn món thanh đạm, không quen ăn đồ quá cay.",
       "examplePinyin": "wǒ chī guàn le qīng dàn de cài, chī bú guàn tài là de.",
-      "examplePinyinHtml": "wǒ chī guàn le qīng dàn de cài, chī bú guàn tài là de."
+      "examplePinyinHtml": "wǒ chī guàn le qīng dàn de cài, chī bú guàn tài là de.",
+      "extraExamples": [
+       {
+        "zh": "他住惯了北京，觉得南方太热了。",
+        "pinyin": "tā zhù guàn le běi jīng, jué de nán fāng tài rè le.",
+        "pinyinHtml": "tā zhù guàn le běi jīng, jué de nán fāng tài rè le.",
+        "vi": "Anh ấy ở quen Bắc Kinh rồi, thấy miền Nam nóng quá."
+       }
+      ]
      },
      {
       "title": "看来……",
@@ -11575,7 +14484,15 @@ window.APP_BOOKS = {
       "example": "你一点儿都没吃，看来这道菜不合你的口味。",
       "exampleVi": "Bạn chẳng ăn chút nào, xem ra món này không hợp khẩu vị của bạn.",
       "examplePinyin": "nǐ yì diǎnr dōu méi chī, kàn lái zhè dào cài bù hé nǐ de kǒu wèi.",
-      "examplePinyinHtml": "nǐ yì diǎnr dōu méi chī, kàn lái zhè dào cài bù hé nǐ de kǒu wèi."
+      "examplePinyinHtml": "nǐ yì diǎnr dōu méi chī, kàn lái zhè dào cài bù hé nǐ de kǒu wèi.",
+      "extraExamples": [
+       {
+        "zh": "他的脸都红了，看来生气了。",
+        "pinyin": "tā de liǎn dōu hóng le, kàn lái shēng qì le.",
+        "pinyinHtml": "tā de liǎn dōu hóng le, kàn lái shēng qì le.",
+        "vi": "Mặt anh ấy đỏ bừng lên rồi, xem ra giận rồi đấy."
+       }
+      ]
      },
      {
       "title": "要么……要么……",
@@ -11583,7 +14500,15 @@ window.APP_BOOKS = {
       "example": "中午要么吃米饭，要么吃面条。",
       "exampleVi": "Buổi trưa hoặc ăn cơm, hoặc ăn mì.",
       "examplePinyin": "zhōng wǔ yào me chī mǐ fàn, yào me chī miàn tiáo.",
-      "examplePinyinHtml": "zhōng wǔ yào me chī mǐ fàn, yào me chī miàn tiáo."
+      "examplePinyinHtml": "zhōng wǔ yào me chī mǐ fàn, yào me chī miàn tiáo.",
+      "extraExamples": [
+       {
+        "zh": "周末要么去爬山，要么在家看电影，你选吧。",
+        "pinyin": "zhōu mò yào me qù pá shān, yào me zài jiā kàn diàn yǐng, nǐ xuǎn ba.",
+        "pinyinHtml": "zhōu mò yào me qù pá shān, yào me zài jiā kàn diàn yǐng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> xuǎn ba.",
+        "vi": "Cuối tuần hoặc đi leo núi, hoặc ở nhà xem phim, cậu chọn đi."
+       }
+      ]
      },
      {
       "title": "好说",
@@ -11591,7 +14516,27 @@ window.APP_BOOKS = {
       "example": "吃什么好说，关键是大家都有时间。",
       "exampleVi": "Ăn gì thì dễ bàn thôi, quan trọng là mọi người đều có thời gian.",
       "examplePinyin": "chī shén me hǎo shuō, guān jiàn shì dà jiā dōu yǒu shí jiān.",
-      "examplePinyinHtml": "chī shén me hǎo shuō, guān jiàn shì dà jiā dōu yǒu shí jiān."
+      "examplePinyinHtml": "chī shén me hǎo shuō, guān jiàn shì dà jiā dōu yǒu shí jiān.",
+      "extraExamples": [
+       {
+        "zh": "吃的好说，我可以带过去，但喝的你得自己准备。",
+        "pinyin": "chī de hǎo shuō, wǒ kě yǐ dài guò qù, dàn hē de nǐ de zì jǐ zhǔn bèi.",
+        "pinyinHtml": "chī de hǎo shuō, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ dài guò qù, dàn hē de nǐ de zì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> zhǔn bèi.",
+        "vi": "Đồ ăn thì dễ thôi, tôi mang qua được, nhưng đồ uống cậu phải tự chuẩn bị."
+       },
+       {
+        "zh": "请假好说，我老板人很好，但是机票太贵了。",
+        "pinyin": "qǐng jià hǎo shuō, wǒ lǎo bǎn rén hěn hǎo, dàn shì jī piào tài guì le.",
+        "pinyinHtml": "qǐng jià hǎo shuō, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǎo</span> bǎn rén <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> hǎo, dàn shì jī piào tài guì le.",
+        "vi": "Xin nghỉ phép thì dễ thôi, sếp tôi tốt tính lắm, nhưng vé máy bay đắt quá."
+       },
+       {
+        "zh": "礼物好说，我已经买好了，难的是怎么开这个口。",
+        "pinyin": "lǐ wù hǎo shuō, wǒ yǐ jīng mǎi hǎo le, nán de shì zěn me kāi zhè ge kǒu.",
+        "pinyinHtml": "lǐ wù hǎo shuō, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǐ jīng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> hǎo le, nán de shì zěn me kāi zhè ge kǒu.",
+        "vi": "Quà cáp thì dễ nói, tôi mua sẵn rồi, khó là mở lời thế nào thôi."
+       }
+      ]
      },
      {
       "title": "砸了 / V + 砸了",
@@ -11599,7 +14544,15 @@ window.APP_BOOKS = {
       "example": "这次活动办砸了，大家都挺失望。",
       "exampleVi": "Hoạt động lần này tổ chức hỏng rồi, mọi người đều khá thất vọng.",
       "examplePinyin": "zhè cì huó dòng bàn zá le, dà jiā dōu tǐng shī wàng.",
-      "examplePinyinHtml": "zhè cì huó dòng bàn zá le, dà jiā dōu tǐng shī wàng."
+      "examplePinyinHtml": "zhè cì huó dòng bàn zá le, dà jiā dōu tǐng shī wàng.",
+      "extraExamples": [
+       {
+        "zh": "他因为太紧张，把今天的面试弄砸了。",
+        "pinyin": "tā yīn wèi tài jǐn zhāng, bǎ jīn tiān de miàn shì nòng zá le.",
+        "pinyinHtml": "tā yīn wèi tài jǐn zhāng, bǎ jīn tiān de miàn shì nòng zá le.",
+        "vi": "Vì căng thẳng quá nên anh ấy làm hỏng bét buổi phỏng vấn hôm nay rồi."
+       }
+      ]
      },
      {
       "title": "大饱口福",
@@ -11607,7 +14560,15 @@ window.APP_BOOKS = {
       "example": "今天尝了这么多特色菜，真是大饱口福。",
       "exampleVi": "Hôm nay nếm được nhiều món đặc sắc như vậy, đúng là đã đời về ăn uống.",
       "examplePinyin": "jīn tiān cháng le zhè me duō tè sè cài, zhēn shì dà bǎo kǒu fú.",
-      "examplePinyinHtml": "jīn tiān cháng le zhè me duō tè sè cài, zhēn shì dà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎo</span> kǒu fú."
+      "examplePinyinHtml": "jīn tiān cháng le zhè me duō tè sè cài, zhēn shì dà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎo</span> kǒu fú.",
+      "extraExamples": [
+       {
+        "zh": "这是我亲自做的菜，你们要大饱口福呀！",
+        "pinyin": "zhè shì wǒ qīn zì zuò de cài, nǐ men yào dà bǎo kǒu fú ya!",
+        "pinyinHtml": "zhè shì wǒ qīn zì zuò de cài, nǐ men yào dà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎo</span> kǒu fú ya!",
+        "vi": "Đây là món tự tay tôi nấu đấy, mọi người phải ăn cho thật đã nhé!"
+       }
+      ]
      },
      {
       "title": "有两下子",
@@ -11615,7 +14576,15 @@ window.APP_BOOKS = {
       "example": "没想到你做饭这么好吃，真有两下子！",
       "exampleVi": "Không ngờ bạn nấu ăn ngon thế, đúng là có nghề!",
       "examplePinyin": "méi xiǎng dào nǐ zuò fàn zhè me hǎo chī, zhēn yǒu liǎng xià zǐ!",
-      "examplePinyinHtml": "méi xiǎng dào nǐ zuò fàn zhè me hǎo chī, zhēn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> liǎng xià zǐ!"
+      "examplePinyinHtml": "méi xiǎng dào nǐ zuò fàn zhè me hǎo chī, zhēn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> liǎng xià zǐ!",
+      "extraExamples": [
+       {
+        "zh": "别看他年纪小，其实他游泳真有两下子。",
+        "pinyin": "bié kàn tā nián jì xiǎo, qí shí tā yóu yǒng zhēn yǒu liǎng xià zǐ.",
+        "pinyinHtml": "bié kàn tā nián jì xiǎo, qí shí tā yóu yǒng zhēn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> liǎng xià zǐ.",
+        "vi": "Đừng thấy cậu ấy nhỏ tuổi, thực ra cậu ấy bơi lội có nghề phết đấy."
+       }
+      ]
      }
     ],
     "topics": [
@@ -11623,7 +14592,7 @@ window.APP_BOOKS = {
       "id": "b3-c1",
       "no": 1,
       "titleVi": "Khẩu vị cá nhân",
-      "question": "你喜欢吃什么样的饭菜？介绍一下你的口味。",
+      "question": "你喜欢什么样的饭菜？请介绍一下儿你的口味。",
       "outline": "Khẩu vị của A và B → món ăn ưa thích → đối chiếu cay/thanh đạm → chọn món hợp cả hai → kết lời rủ đi ăn.",
       "takeaways": {
        "points": [
@@ -11804,8 +14773,8 @@ window.APP_BOOKS = {
         "reason": "Đưa thành ngữ khẩu ngữ Bài 3 【大饱口福】 vào câu chốt rủ rê đi ăn, cực kỳ hào hứng và tự nhiên."
        }
       ],
-      "questionPinyin": "nǐ xǐ huan chī shén me yàng de fàn cài? jiè shào yí xià nǐ de kǒu wèi.",
-      "questionPinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> xǐ huan chī shén me yàng de fàn cài? jiè shào yí xià nǐ de kǒu wèi.",
+      "questionPinyin": "nǐ xǐ huan shén me yàng de fàn cài? qǐng jiè shào yí xiàr nǐ de kǒu wèi.",
+      "questionPinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> xǐ huan shén me yàng de fàn cài? qǐng jiè shào yí xiàr nǐ de kǒu wèi.",
       "v1_lines": [
        {
         "n": "01",
@@ -12337,13 +15306,19 @@ window.APP_BOOKS = {
         "start": 97.32,
         "end": 101.9
        }
+      ],
+      "examNo": 7,
+      "priority": "yellow",
+      "isExamScope": true,
+      "slideQuestions": [
+       "介绍一下你的口味。"
       ]
      },
      {
       "id": "b3-c2",
       "no": 2,
       "titleVi": "Thói quen ăn uống tại Việt Nam",
-      "question": "介绍一下你们国家一般人的饮食习惯。",
+      "question": "请介绍一个国家或地区的饮食习惯。",
       "outline": "Món ăn thường ngày → bữa sáng → ăn chung trong gia đình → khác biệt vùng miền → thói quen hiện đại → giới thiệu đặc sản.",
       "takeaways": {
        "points": [
@@ -12523,8 +15498,8 @@ window.APP_BOOKS = {
         "modified": false
        }
       ],
-      "questionPinyin": "jiè shào yí xià nǐ men guó jiā yì bān rén de yǐn shí xí guàn.",
-      "questionPinyinHtml": "jiè shào yí xià nǐ men guó jiā yì bān rén de yǐn shí xí guàn.",
+      "questionPinyin": "qǐng jiè shào yí gè guó jiā huò dì qū de yǐn shí xí guàn.",
+      "questionPinyinHtml": "qǐng jiè shào yí gè guó jiā huò dì qū de yǐn shí xí guàn.",
       "v1_lines": [
        {
         "n": "01",
@@ -13038,9 +16013,1924 @@ window.APP_BOOKS = {
         "start": 99.27,
         "end": 104.16
        }
+      ],
+      "examNo": 8,
+      "priority": null,
+      "isExamScope": true,
+      "slideQuestions": [
+       "介绍一个国家/地区一般人的饮食习惯。"
+      ]
+     },
+     {
+      "id": "b3-q9",
+      "no": 9,
+      "examNo": 9,
+      "priority": "yellow",
+      "isExamScope": true,
+      "titleVi": "Thói quen ăn uống gia đình & Món tủ tự nấu",
+      "question": "说一下你家的饮食习惯。",
+      "questionPinyin": "shuō yí xià nǐ jiā de yǐn shí xí guàn.",
+      "questionPinyinHtml": "shuō yí xià nǐ jiā de yǐn shí xí guàn.",
+      "slideQuestions": [
+       "你会做饭吗？介绍你的拿手菜。"
+      ],
+      "outline": "Hỏi thăm thói quen ăn uống của gia đình (khẩu vị thanh đạm, ít dầu mỡ, nhiều rau, thói quen uống canh trước bữa) → Mở rộng hỏi có biết nấu ăn không & giới thiệu món tủ (拿手菜) → Hẹn dịp mời bạn qua nhà ăn thử.",
+      "takeaways": {
+       "points": [
+        "Đặc trưng cơm nhà: Thanh đạm, ít dầu mỡ/đồ chiên rán, cân bằng dinh dưỡng thịt-cá-rau-canh (清淡、少油腻、饮食均衡)",
+        "Thói quen đặc biệt: Luôn có món canh trên mâm cơm, thích uống chút canh trước khi ăn cho dễ tiêu (每顿都有汤、饭前喝汤助消化)",
+        "Bổ sung câu Slide (Bạn có biết nấu ăn không / Món tủ): Tự nấu ăn theo thói quen nhà, món tủ như sườn xào chua ngọt / canh chua / trứng xào cà chua (拿手菜、有两下子)",
+        "Mẫu câu Bài 3: V+惯 (đã quen ăn...), 看来 (xem ra), 大饱口福 (ăn uống thỏa thuê), 有两下子 (có nghề)"
+       ],
+       "goldenQuotes": "我们家吃惯了清淡的家常菜，每顿必须有一碗热汤。我的拿手菜是番茄炒蛋，下次来我家让你大饱口福！"
+      },
+      "lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "小王，最近忙啥呢？看你精神挺足的！",
+        "pinyin": "xiǎo wáng, zuì jìn máng shá ne? kàn nǐ jīng shén tǐng zú de!",
+        "pinyinHtml": "xiǎo wáng, zuì jìn máng shá ne? kàn nǐ jīng shén tǐng zú de!",
+        "vi": "Tiểu Vương, dạo này bận gì đấy? Trông em có vẻ sung sức lắm!",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "还行杨哥，主要最近在家吃住规律。哥你呢，平时都在外边吃还是在家自己做？",
+        "pinyin": "hái xíng yáng gē, zhǔ yào zuì jìn zài jiā chī zhù guī lǜ. gē nǐ ne, píng shí dōu zài wài biān chī hái shì zài jiā zì jǐ zuò?",
+        "pinyinHtml": "hái xíng yáng gē, zhǔ yào zuì jìn zài jiā chī zhù guī lǜ. gē nǐ ne, píng shí dōu zài wài biān chī hái shì zài jiā zì jǐ zuò?",
+        "vi": "Cũng ổn anh Dương ạ, chủ yếu dạo này ăn ngủ điều độ ở nhà. Còn anh, bình thường hay ăn ngoài hay tự nấu?",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "我尽量回家吃！说起来，你家的饮食习惯是什么样的，偏重口味还是清淡点儿？",
+        "pinyin": "wǒ jǐn liàng huí jiā chī! shuō qǐ lái, nǐ jiā de yǐn shí xí guàn shì shén me yàng de, piān zhòng kǒu wèi hái shì qīng dàn diǎnr?",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> jǐn liàng huí jiā chī! shuō qǐ lái, nǐ jiā de yǐn shí xí guàn shì shén me yàng de, piān zhòng kǒu wèi hái shì qīng dàn diǎnr?",
+        "vi": "Anh cố gắng về nhà ăn! Nói đến đây, thói quen ăn uống nhà em thế nào, thích đậm vị hay thanh đạm?",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "我们全家都吃惯了清淡的菜，平时特别注意少油少盐，每顿少不了青菜，而且家里没一个人能吃辣。",
+        "pinyin": "wǒ men quán jiā dōu chī guàn le qīng dàn de cài, píng shí tè bié zhù yì shǎo yóu shǎo yán, měi dùn shǎo bù liǎo qīng cài, ér qiě jiā lǐ méi yí gè rén néng chī là.",
+        "pinyinHtml": "wǒ men quán jiā dōu chī guàn le qīng dàn de cài, píng shí tè bié zhù yì shǎo yóu shǎo yán, měi dùn shǎo bù liǎo qīng cài, ér qiě jiā lǐ méi yí gè rén néng chī là.",
+        "vi": "Cả nhà em đều ăn quen đồ thanh đạm rồi, bình thường đặc biệt chú ý ít dầu ít muối, bữa nào cũng phải có rau xanh, mà chẳng ai trong nhà ăn được cay.",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "这习惯真健康！那你们家饭桌上平时一般做什么菜呀？",
+        "pinyin": "zhè xí guàn zhēn jiàn kāng! nà nǐ men jiā fàn zhuō shàng píng shí yì bān zuò shén me cài ya?",
+        "pinyinHtml": "zhè xí guàn zhēn jiàn kāng! nà nǐ men jiā fàn zhuō shàng píng shí yì bān zuò shén me cài ya?",
+        "vi": "Thói quen này lành mạnh quá! Thế mâm cơm nhà em bình thường hay nấu món gì?",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "都是些家常菜，像蒜蓉炒青菜、清蒸鱼、嫩豆腐汤，很少碰油炸和太油腻的东西。杨哥你家呢？",
+        "pinyin": "dōu shì xiē jiā cháng cài, xiàng suàn róng chǎo qīng cài, qīng zhēng yú, nèn dòu fu tāng, hěn shǎo pèng yóu zhà hé tài yóu nì de dōng xi. yáng gē nǐ jiā ne?",
+        "pinyinHtml": "dōu shì xiē jiā cháng cài, xiàng suàn róng chǎo qīng cài, qīng zhēng yú, nèn dòu fu tāng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> shǎo pèng yóu zhà hé tài yóu nì de dōng xi. yáng gē nǐ jiā ne?",
+        "vi": "Toàn món cơm nhà giản dị thôi, như rau xanh xào tỏi, cá hấp, canh đậu hũ non, hiếm khi đụng đồ chiên rán quá ngấy. Còn nhà anh Dương?",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "我们家也差不多，荤素搭配讲究饮食均衡，不过我爸妈还有个特别坚持的习惯——每顿饭桌中间必须摆一碗汤！",
+        "pinyin": "wǒ men jiā yě chà bù duō, hūn sù dā pèi jiǎng jiū yǐn shí jūn héng, bú guò wǒ bà mā hái yǒu gè tè bié jiān chí de xí guàn-- měi dùn fàn zhuō zhōng jiān bì xū bǎi yì wǎn tāng!",
+        "pinyinHtml": "wǒ men jiā yě chà bù duō, hūn sù dā pèi jiǎng jiū yǐn shí jūn héng, bú guò wǒ bà mā hái yǒu gè tè bié jiān chí de xí guàn-- měi dùn fàn zhuō zhōng jiān bì xū bǎi yì wǎn tāng!",
+        "vi": "Nhà anh cũng tương tự, mặn chay cân đối đủ dinh dưỡng, nhưng bố mẹ anh có một thói quen cực kỳ giữ vững: giữa mâm cơm bữa nào cũng phải có một bát canh!",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "对，我也听说饭前先喝两口热汤特别养胃，还能帮助消化，这是不少南方家庭的习惯呢！",
+        "pinyin": "duì, wǒ yě tīng shuō fàn qián xiān hē liǎng kǒu rè tāng tè bié yǎng wèi, hái néng bāng zhù xiāo huà, zhè shì bù shǎo nán fāng jiā tíng de xí guàn ne!",
+        "pinyinHtml": "duì, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě tīng shuō fàn qián xiān hē <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">liǎng</span> kǒu rè tāng tè bié yǎng wèi, hái néng bāng zhù xiāo huà, zhè shì bù shǎo nán fāng jiā tíng de xí guàn ne!",
+        "vi": "Chuẩn luôn, em cũng nghe nói uống vài ngụm canh nóng trước bữa rất tốt cho dạ dày lại dễ tiêu, đúng kiểu thói quen nhiều gia đình miền Nam!",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "哈哈，看来你挺懂行的！那受家里影响，你自己平时会做饭吗？有啥拿手菜？",
+        "pinyin": "hā hā, kàn lái nǐ tǐng dǒng háng de! nà shòu jiā lǐ yǐng xiǎng, nǐ zì jǐ píng shí huì zuò fàn ma? yǒu shá ná shǒu cài?",
+        "pinyinHtml": "hā hā, kàn lái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> dǒng háng de! nà shòu jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐng</span> xiǎng, nǐ zì jǐ píng shí huì zuò fàn ma? yǒu shá ná shǒu cài?",
+        "vi": "Haha, xem ra em rành phết đấy! Thế chịu ảnh hưởng từ nhà, bình thường em có biết nấu cơm không? Có món tủ nào không?",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "我倒真学了几手，最拿手的是糖醋排骨和番茄炒蛋。家里人平时要么吃我炒的菜，要么叫外卖换换口味，不过还是我做的更合胃口！",
+        "pinyin": "wǒ dǎo zhēn xué le jǐ shǒu, zuì ná shǒu de shì táng cù pái gǔ hé fān qié chǎo dàn. jiā lǐ rén píng shí yào me chī wǒ chǎo de cài, yào me jiào wài mài huàn huàn kǒu wèi, bú guò hái shì wǒ zuò de gèng hé wèi kǒu!",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎo zhēn xué le <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> shǒu, zuì ná shǒu de shì táng cù pái gǔ hé fān qié chǎo dàn. jiā lǐ rén píng shí yào me chī <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> chǎo de cài, yào me jiào wài mài huàn huàn kǒu wèi, bú guò hái shì wǒ zuò de gèng hé wèi kǒu!",
+        "vi": "Em cũng học lỏm được vài món đấy, tủ nhất là sườn xào chua ngọt với trứng xào cà chua. Người nhà bình thường hoặc ăn cơm em nấu, hoặc đặt đồ ngoài đổi vị, nhưng vẫn khen đồ em làm hợp miệng hơn!",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "厉害啊小王，没想到你在厨房这么有两下子！我平时只会煮个面。",
+        "pinyin": "lì hài a xiǎo wáng, méi xiǎng dào nǐ zài chú fáng zhè me yǒu liǎng xià zǐ! wǒ píng shí zhǐ huì zhǔ gè miàn.",
+        "pinyinHtml": "lì hài a xiǎo wáng, méi xiǎng dào nǐ zài chú fáng zhè me <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> liǎng xià zǐ! wǒ píng shí zhǐ huì zhǔ gè miàn.",
+        "vi": "Đỉnh thế Tiểu Vương, không ngờ vào bếp em cũng có nghề gớm! Anh bình thường chỉ biết nấu mì thôi.",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "杨哥太谦虚了！周末来我家吃饭吧，我亲自下厨给你露一手，保证让你大饱口福！",
+        "pinyin": "yáng gē tài qiān xū le! zhōu mò lái wǒ jiā chī fàn ba, wǒ qīn zì xià chú gěi nǐ lòu yì shǒu, bǎo zhèng ràng nǐ dà bǎo kǒu fú!",
+        "pinyinHtml": "yáng gē tài qiān xū le! zhōu mò lái wǒ jiā chī fàn ba, wǒ qīn zì xià chú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gěi</span> nǐ lòu yì shǒu, bǎo zhèng ràng nǐ dà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎo</span> kǒu fú!",
+        "vi": "Anh Dương khiêm tốn quá! Cuối tuần qua nhà em ăn cơm đi, em tự tay trổ tài mời anh một bữa, đảm bảo cho anh ăn no nê đã đời!",
+        "modified": true
+       }
+      ],
+      "v1_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "小王，你好！最近怎么样？",
+        "pinyin": "xiǎo wáng, nǐ hǎo! zuì jìn zěn me yàng?",
+        "pinyinHtml": "xiǎo wáng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> hǎo! zuì jìn zěn me yàng?",
+        "vi": "Tiểu Vương, chào cậu! Dạo này sao rồi?",
+        "modified": false
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "我很好，谢谢！杨哥你呢？",
+        "pinyin": "wǒ hěn hǎo, xiè xiè! yáng gē nǐ ne?",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> hǎo, xiè xiè! yáng gē nǐ ne?",
+        "vi": "Tớ khỏe, cảm ơn! Còn anh Dương thì sao?",
+        "modified": false
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "我也挺好的。对了，我想聊一聊，你家的饮食习惯是什么样的？",
+        "pinyin": "wǒ yě tǐng hǎo de. duì le, wǒ xiǎng liáo yi liáo, nǐ jiā de yǐn shí xí guàn shì shén me yàng de?",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> hǎo de. duì le, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> xiǎng liáo yi liáo, nǐ jiā de yǐn shí xí guàn shì shén me yàng de?",
+        "vi": "Anh cũng ổn. À, anh muốn hỏi chút, thói quen ăn uống nhà em thế nào?",
+        "modified": false
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "嗯，我们家比较注重健康饮食，平时菜都很清淡，而且喜欢多吃蔬菜和水果。我们全家都不太能吃辣。",
+        "pinyin": "ǹg, wǒ men jiā bǐ jiào zhù zhòng jiàn kāng yǐn shí, píng shí cài dōu hěn qīng dàn, ér qiě xǐ huan duō chī shū cài hé shuǐ guǒ. wǒ men quán jiā dōu bú tài néng chī là.",
+        "pinyinHtml": "ǹg, wǒ men jiā bǐ jiào zhù zhòng jiàn kāng yǐn shí, píng shí cài dōu hěn qīng dàn, ér <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qiě</span> xǐ huan duō chī shū cài hé <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shuǐ</span> guǒ. wǒ men quán jiā dōu bú tài néng chī là.",
+        "vi": "Ừm, nhà em khá chú trọng ăn uống lành mạnh, bình thường món ăn thanh đạm, thích ăn nhiều rau quả. Cả nhà đều không ăn được cay lắm.",
+        "modified": false
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "听起来真不错！那你们家一般都做些什么菜呢？",
+        "pinyin": "tīng qǐ lái zhēn bú cuò! nà nǐ men jiā yì bān dōu zuò xiē shén me cài ne?",
+        "pinyinHtml": "tīng qǐ lái zhēn bú cuò! nà nǐ men jiā yì bān dōu zuò xiē shén me cài ne?",
+        "vi": "Nghe hay đấy! Thế nhà em hay nấu những món gì?",
+        "modified": false
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "一般就是些家常菜，比如炒青菜、蒸鱼或者豆腐。我们家很少吃油炸或者太油腻的东西。你家呢？",
+        "pinyin": "yì bān jiù shì xiē jiā cháng cài, bǐ rú chǎo qīng cài, zhēng yú huò zhě dòu fu. wǒ men jiā hěn shǎo chī yóu zhà huò zhě tài yóu nì de dōng xi. nǐ jiā ne?",
+        "pinyinHtml": "yì bān jiù shì xiē jiā cháng cài, bǐ rú chǎo qīng cài, zhēng yú huò zhě dòu fu. wǒ men jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> shǎo chī yóu zhà huò zhě tài yóu nì de dōng xi. nǐ jiā ne?",
+        "vi": "Thường là mấy món cơm nhà thôi, như rau xào, cá hấp hoặc đậu phụ. Nhà em ít ăn đồ chiên hay quá dầu mỡ. Còn nhà anh?",
+        "modified": false
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "我们家也差不多，很注重饮食均衡，蔬菜水果也是每天都吃。",
+        "pinyin": "wǒ men jiā yě chà bù duō, hěn zhù zhòng yǐn shí jūn héng, shū cài shuǐ guǒ yě shì měi tiān dōu chī.",
+        "pinyinHtml": "wǒ men jiā yě chà bù duō, hěn zhù zhòng yǐn shí jūn héng, shū cài <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shuǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> yě shì měi tiān dōu chī.",
+        "vi": "Nhà anh cũng na ná vậy, chú trọng cân bằng dinh dưỡng, rau quả ngày nào cũng ăn.",
+        "modified": false
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "那你们家有什么特别的饮食习惯吗？",
+        "pinyin": "nà nǐ men jiā yǒu shén me tè bié de yǐn shí xí guàn ma?",
+        "pinyinHtml": "nà nǐ men jiā yǒu shén me tè bié de yǐn shí xí guàn ma?",
+        "vi": "Thế nhà anh có thói quen ăn uống gì đặc biệt không?",
+        "modified": false
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "有一个！我们家每顿饭都一定要有汤。我们觉得饭前喝点儿汤对身体好，也能帮助消化。",
+        "pinyin": "yǒu yí gè! wǒ men jiā měi dùn fàn dōu yí dìng yào yǒu tāng. wǒ men jué de fàn qián hē diǎnr tāng duì shēn tǐ hǎo, yě néng bāng zhù xiāo huà.",
+        "pinyinHtml": "yǒu yí gè! wǒ men jiā měi dùn fàn dōu yí dìng yào yǒu tāng. wǒ men jué de fàn qián hē diǎnr tāng duì shēn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐ</span> hǎo, yě néng bāng zhù xiāo huà.",
+        "vi": "Có đấy! Nhà anh bữa nào cũng nhất định phải có canh. Cả nhà thấy uống chút canh trước bữa vừa tốt cho sức khỏe vừa dễ tiêu hóa.",
+        "modified": false
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "原来如此，这可能是南方人的习惯吧！那杨哥你自己会做饭吗？有什么拿手菜吗？",
+        "pinyin": "yuán lái rú cǐ, zhè kě néng shì nán fāng rén de xí guàn ba! nà yáng gē nǐ zì jǐ huì zuò fàn ma? yǒu shén me ná shǒu cài ma?",
+        "pinyinHtml": "yuán lái rú cǐ, zhè kě néng shì nán fāng rén de xí guàn ba! nà yáng gē nǐ zì jǐ huì zuò fàn ma? yǒu shén me ná shǒu cài ma?",
+        "vi": "Thì ra vậy, chắc thói quen người miền Nam đấy! Thế anh Dương biết nấu ăn không? Có món tủ nào không?",
+        "modified": false
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "我平常自己也下厨，最拿手的是清蒸鱼和玉米排骨汤，大家尝过都说有两下子呢！",
+        "pinyin": "wǒ píng cháng zì jǐ yě xià chú, zuì ná shǒu de shì qīng zhēng yú hé yù mǐ pái gǔ tāng, dà jiā cháng guò dōu shuō yǒu liǎng xià zǐ ne!",
+        "pinyinHtml": "wǒ píng cháng zì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> yě xià chú, zuì ná shǒu de shì qīng zhēng yú hé yù mǐ pái gǔ tāng, dà jiā cháng guò dōu shuō <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> liǎng xià zǐ ne!",
+        "vi": "Anh bình thường cũng hay vào bếp, món tủ nhất là cá hấp xì dầu với canh sườn bắp, mọi người ăn xong đều khen anh cũng có nghề đấy!",
+        "modified": false
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "听起来真让人羡慕！下次有机会，我一定要去尝尝你的手艺，大饱口福一下！",
+        "pinyin": "tīng qǐ lái zhēn ràng rén xiàn mù! xià cì yǒu jī huì, wǒ yí dìng yào qù cháng cháng nǐ de shǒu yì, dà bǎo kǒu fú yí xià!",
+        "pinyinHtml": "tīng qǐ lái zhēn ràng rén xiàn mù! xià cì yǒu jī huì, wǒ yí dìng yào qù cháng cháng nǐ de shǒu yì, dà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎo</span> kǒu fú yí xià!",
+        "vi": "Nghe mà thèm quá! Lần sau có dịp nhất định em phải qua nếm thử tay nghề anh để thỏa sức ăn ngon một bữa!",
+        "modified": false
+       }
+      ],
+      "v2_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "小王，最近忙啥呢？看你精神挺足的！",
+        "pinyin": "xiǎo wáng, zuì jìn máng shá ne? kàn nǐ jīng shén tǐng zú de!",
+        "pinyinHtml": "xiǎo wáng, zuì jìn máng shá ne? kàn nǐ jīng shén tǐng zú de!",
+        "vi": "Tiểu Vương, dạo này bận gì đấy? Trông em có vẻ sung sức lắm!",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "还行杨哥，主要最近在家吃住规律。哥你呢，平时都在外边吃还是在家自己做？",
+        "pinyin": "hái xíng yáng gē, zhǔ yào zuì jìn zài jiā chī zhù guī lǜ. gē nǐ ne, píng shí dōu zài wài biān chī hái shì zài jiā zì jǐ zuò?",
+        "pinyinHtml": "hái xíng yáng gē, zhǔ yào zuì jìn zài jiā chī zhù guī lǜ. gē nǐ ne, píng shí dōu zài wài biān chī hái shì zài jiā zì jǐ zuò?",
+        "vi": "Cũng ổn anh Dương ạ, chủ yếu dạo này ăn ngủ điều độ ở nhà. Còn anh, bình thường hay ăn ngoài hay tự nấu?",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "我尽量回家吃！说起来，你家的饮食习惯是什么样的，偏重口味还是清淡点儿？",
+        "pinyin": "wǒ jǐn liàng huí jiā chī! shuō qǐ lái, nǐ jiā de yǐn shí xí guàn shì shén me yàng de, piān zhòng kǒu wèi hái shì qīng dàn diǎnr?",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> jǐn liàng huí jiā chī! shuō qǐ lái, nǐ jiā de yǐn shí xí guàn shì shén me yàng de, piān zhòng kǒu wèi hái shì qīng dàn diǎnr?",
+        "vi": "Anh cố gắng về nhà ăn! Nói đến đây, thói quen ăn uống nhà em thế nào, thích đậm vị hay thanh đạm?",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "我们全家都吃惯了清淡的菜，平时特别注意少油少盐，每顿少不了青菜，而且家里没一个人能吃辣。",
+        "pinyin": "wǒ men quán jiā dōu chī guàn le qīng dàn de cài, píng shí tè bié zhù yì shǎo yóu shǎo yán, měi dùn shǎo bù liǎo qīng cài, ér qiě jiā lǐ méi yí gè rén néng chī là.",
+        "pinyinHtml": "wǒ men quán jiā dōu chī guàn le qīng dàn de cài, píng shí tè bié zhù yì shǎo yóu shǎo yán, měi dùn shǎo bù liǎo qīng cài, ér qiě jiā lǐ méi yí gè rén néng chī là.",
+        "vi": "Cả nhà em đều ăn quen đồ thanh đạm rồi, bình thường đặc biệt chú ý ít dầu ít muối, bữa nào cũng phải có rau xanh, mà chẳng ai trong nhà ăn được cay.",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "这习惯真健康！那你们家饭桌上平时一般做什么菜呀？",
+        "pinyin": "zhè xí guàn zhēn jiàn kāng! nà nǐ men jiā fàn zhuō shàng píng shí yì bān zuò shén me cài ya?",
+        "pinyinHtml": "zhè xí guàn zhēn jiàn kāng! nà nǐ men jiā fàn zhuō shàng píng shí yì bān zuò shén me cài ya?",
+        "vi": "Thói quen này lành mạnh quá! Thế mâm cơm nhà em bình thường hay nấu món gì?",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "都是些家常菜，像蒜蓉炒青菜、清蒸鱼、嫩豆腐汤，很少碰油炸和太油腻的东西。杨哥你家呢？",
+        "pinyin": "dōu shì xiē jiā cháng cài, xiàng suàn róng chǎo qīng cài, qīng zhēng yú, nèn dòu fu tāng, hěn shǎo pèng yóu zhà hé tài yóu nì de dōng xi. yáng gē nǐ jiā ne?",
+        "pinyinHtml": "dōu shì xiē jiā cháng cài, xiàng suàn róng chǎo qīng cài, qīng zhēng yú, nèn dòu fu tāng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> shǎo pèng yóu zhà hé tài yóu nì de dōng xi. yáng gē nǐ jiā ne?",
+        "vi": "Toàn món cơm nhà giản dị thôi, như rau xanh xào tỏi, cá hấp, canh đậu hũ non, hiếm khi đụng đồ chiên rán quá ngấy. Còn nhà anh Dương?",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "我们家也差不多，荤素搭配讲究饮食均衡，不过我爸妈还有个特别坚持的习惯——每顿饭桌中间必须摆一碗汤！",
+        "pinyin": "wǒ men jiā yě chà bù duō, hūn sù dā pèi jiǎng jiū yǐn shí jūn héng, bú guò wǒ bà mā hái yǒu gè tè bié jiān chí de xí guàn-- měi dùn fàn zhuō zhōng jiān bì xū bǎi yì wǎn tāng!",
+        "pinyinHtml": "wǒ men jiā yě chà bù duō, hūn sù dā pèi jiǎng jiū yǐn shí jūn héng, bú guò wǒ bà mā hái yǒu gè tè bié jiān chí de xí guàn-- měi dùn fàn zhuō zhōng jiān bì xū bǎi yì wǎn tāng!",
+        "vi": "Nhà anh cũng tương tự, mặn chay cân đối đủ dinh dưỡng, nhưng bố mẹ anh có một thói quen cực kỳ giữ vững: giữa mâm cơm bữa nào cũng phải có một bát canh!",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "对，我也听说饭前先喝两口热汤特别养胃，还能帮助消化，这是不少南方家庭的习惯呢！",
+        "pinyin": "duì, wǒ yě tīng shuō fàn qián xiān hē liǎng kǒu rè tāng tè bié yǎng wèi, hái néng bāng zhù xiāo huà, zhè shì bù shǎo nán fāng jiā tíng de xí guàn ne!",
+        "pinyinHtml": "duì, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě tīng shuō fàn qián xiān hē <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">liǎng</span> kǒu rè tāng tè bié yǎng wèi, hái néng bāng zhù xiāo huà, zhè shì bù shǎo nán fāng jiā tíng de xí guàn ne!",
+        "vi": "Chuẩn luôn, em cũng nghe nói uống vài ngụm canh nóng trước bữa rất tốt cho dạ dày lại dễ tiêu, đúng kiểu thói quen nhiều gia đình miền Nam!",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "哈哈，看来你挺懂行的！那受家里影响，你自己平时会做饭吗？有啥拿手菜？",
+        "pinyin": "hā hā, kàn lái nǐ tǐng dǒng háng de! nà shòu jiā lǐ yǐng xiǎng, nǐ zì jǐ píng shí huì zuò fàn ma? yǒu shá ná shǒu cài?",
+        "pinyinHtml": "hā hā, kàn lái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> dǒng háng de! nà shòu jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐng</span> xiǎng, nǐ zì jǐ píng shí huì zuò fàn ma? yǒu shá ná shǒu cài?",
+        "vi": "Haha, xem ra em rành phết đấy! Thế chịu ảnh hưởng từ nhà, bình thường em có biết nấu cơm không? Có món tủ nào không?",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "我倒真学了几手，最拿手的是糖醋排骨和番茄炒蛋。家里人平时要么吃我炒的菜，要么叫外卖换换口味，不过还是我做的更合胃口！",
+        "pinyin": "wǒ dǎo zhēn xué le jǐ shǒu, zuì ná shǒu de shì táng cù pái gǔ hé fān qié chǎo dàn. jiā lǐ rén píng shí yào me chī wǒ chǎo de cài, yào me jiào wài mài huàn huàn kǒu wèi, bú guò hái shì wǒ zuò de gèng hé wèi kǒu!",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎo zhēn xué le <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> shǒu, zuì ná shǒu de shì táng cù pái gǔ hé fān qié chǎo dàn. jiā lǐ rén píng shí yào me chī <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> chǎo de cài, yào me jiào wài mài huàn huàn kǒu wèi, bú guò hái shì wǒ zuò de gèng hé wèi kǒu!",
+        "vi": "Em cũng học lỏm được vài món đấy, tủ nhất là sườn xào chua ngọt với trứng xào cà chua. Người nhà bình thường hoặc ăn cơm em nấu, hoặc đặt đồ ngoài đổi vị, nhưng vẫn khen đồ em làm hợp miệng hơn!",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "厉害啊小王，没想到你在厨房这么有两下子！我平时只会煮个面。",
+        "pinyin": "lì hài a xiǎo wáng, méi xiǎng dào nǐ zài chú fáng zhè me yǒu liǎng xià zǐ! wǒ píng shí zhǐ huì zhǔ gè miàn.",
+        "pinyinHtml": "lì hài a xiǎo wáng, méi xiǎng dào nǐ zài chú fáng zhè me <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> liǎng xià zǐ! wǒ píng shí zhǐ huì zhǔ gè miàn.",
+        "vi": "Đỉnh thế Tiểu Vương, không ngờ vào bếp em cũng có nghề gớm! Anh bình thường chỉ biết nấu mì thôi.",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "杨哥太谦虚了！周末来我家吃饭吧，我亲自下厨给你露一手，保证让你大饱口福！",
+        "pinyin": "yáng gē tài qiān xū le! zhōu mò lái wǒ jiā chī fàn ba, wǒ qīn zì xià chú gěi nǐ lòu yì shǒu, bǎo zhèng ràng nǐ dà bǎo kǒu fú!",
+        "pinyinHtml": "yáng gē tài qiān xū le! zhōu mò lái wǒ jiā chī fàn ba, wǒ qīn zì xià chú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gěi</span> nǐ lòu yì shǒu, bǎo zhèng ràng nǐ dà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎo</span> kǒu fú!",
+        "vi": "Anh Dương khiêm tốn quá! Cuối tuần qua nhà em ăn cơm đi, em tự tay trổ tài mời anh một bữa, đảm bảo cho anh ăn no nê đã đời!",
+        "modified": true
+       }
+      ],
+      "diffs": [
+       {
+        "n": 1,
+        "role": "A",
+        "v1": {
+         "zh": "小王，你好！最近怎么样？",
+         "pinyin": "xiǎo wáng, nǐ hǎo! zuì jìn zěn me yàng?",
+         "pinyinHtml": "xiǎo wáng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> hǎo! zuì jìn zěn me yàng?",
+         "vi": "Tiểu Vương, chào cậu! Dạo này sao rồi?"
+        },
+        "v2": {
+         "zh": "小王，最近忙啥呢？看你精神挺足的！",
+         "pinyin": "xiǎo wáng, zuì jìn máng shá ne? kàn nǐ jīng shén tǐng zú de!",
+         "pinyinHtml": "xiǎo wáng, zuì jìn máng shá ne? kàn nǐ jīng shén tǐng zú de!",
+         "vi": "Tiểu Vương, dạo này bận gì đấy? Trông em có vẻ sung sức lắm!"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "v1": {
+         "zh": "我很好，谢谢！杨哥你呢？",
+         "pinyin": "wǒ hěn hǎo, xiè xiè! yáng gē nǐ ne?",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> hǎo, xiè xiè! yáng gē nǐ ne?",
+         "vi": "Tớ khỏe, cảm ơn! Còn anh Dương thì sao?"
+        },
+        "v2": {
+         "zh": "还行杨哥，主要最近在家吃住规律。哥你呢，平时都在外边吃还是在家自己做？",
+         "pinyin": "hái xíng yáng gē, zhǔ yào zuì jìn zài jiā chī zhù guī lǜ. gē nǐ ne, píng shí dōu zài wài biān chī hái shì zài jiā zì jǐ zuò?",
+         "pinyinHtml": "hái xíng yáng gē, zhǔ yào zuì jìn zài jiā chī zhù guī lǜ. gē nǐ ne, píng shí dōu zài wài biān chī hái shì zài jiā zì jǐ zuò?",
+         "vi": "Cũng ổn anh Dương ạ, chủ yếu dạo này ăn ngủ điều độ ở nhà. Còn anh, bình thường hay ăn ngoài hay tự nấu?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "v1": {
+         "zh": "我也挺好的。对了，我想聊一聊，你家的饮食习惯是什么样的？",
+         "pinyin": "wǒ yě tǐng hǎo de. duì le, wǒ xiǎng liáo yi liáo, nǐ jiā de yǐn shí xí guàn shì shén me yàng de?",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> hǎo de. duì le, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> xiǎng liáo yi liáo, nǐ jiā de yǐn shí xí guàn shì shén me yàng de?",
+         "vi": "Anh cũng ổn. À, anh muốn hỏi chút, thói quen ăn uống nhà em thế nào?"
+        },
+        "v2": {
+         "zh": "我尽量回家吃！说起来，你家的饮食习惯是什么样的，偏重口味还是清淡点儿？",
+         "pinyin": "wǒ jǐn liàng huí jiā chī! shuō qǐ lái, nǐ jiā de yǐn shí xí guàn shì shén me yàng de, piān zhòng kǒu wèi hái shì qīng dàn diǎnr?",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> jǐn liàng huí jiā chī! shuō qǐ lái, nǐ jiā de yǐn shí xí guàn shì shén me yàng de, piān zhòng kǒu wèi hái shì qīng dàn diǎnr?",
+         "vi": "Anh cố gắng về nhà ăn! Nói đến đây, thói quen ăn uống nhà em thế nào, thích đậm vị hay thanh đạm?"
+        },
+        "reason": "Gắn kết mạch chuyện tự nhiên và đi thẳng vào chủ đề thói quen ăn uống gia đình."
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "v1": {
+         "zh": "嗯，我们家比较注重健康饮食，平时菜都很清淡，而且喜欢多吃蔬菜和水果。我们全家都不太能吃辣。",
+         "pinyin": "ǹg, wǒ men jiā bǐ jiào zhù zhòng jiàn kāng yǐn shí, píng shí cài dōu hěn qīng dàn, ér qiě xǐ huan duō chī shū cài hé shuǐ guǒ. wǒ men quán jiā dōu bú tài néng chī là.",
+         "pinyinHtml": "ǹg, wǒ men jiā bǐ jiào zhù zhòng jiàn kāng yǐn shí, píng shí cài dōu hěn qīng dàn, ér <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qiě</span> xǐ huan duō chī shū cài hé <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shuǐ</span> guǒ. wǒ men quán jiā dōu bú tài néng chī là.",
+         "vi": "Ừm, nhà em khá chú trọng ăn uống lành mạnh, bình thường món ăn thanh đạm, thích ăn nhiều rau quả. Cả nhà đều không ăn được cay lắm."
+        },
+        "v2": {
+         "zh": "我们全家都吃惯了清淡的菜，平时特别注意少油少盐，每顿少不了青菜，而且家里没一个人能吃辣。",
+         "pinyin": "wǒ men quán jiā dōu chī guàn le qīng dàn de cài, píng shí tè bié zhù yì shǎo yóu shǎo yán, měi dùn shǎo bù liǎo qīng cài, ér qiě jiā lǐ méi yí gè rén néng chī là.",
+         "pinyinHtml": "wǒ men quán jiā dōu chī guàn le qīng dàn de cài, píng shí tè bié zhù yì shǎo yóu shǎo yán, měi dùn shǎo bù liǎo qīng cài, ér qiě jiā lǐ méi yí gè rén néng chī là.",
+         "vi": "Cả nhà em đều ăn quen đồ thanh đạm rồi, bình thường đặc biệt chú ý ít dầu ít muối, bữa nào cũng phải có rau xanh, mà chẳng ai trong nhà ăn được cay."
+        },
+        "reason": "Lồng ghép mẫu câu Bài 3 “吃惯了” (ăn quen rồi) + sửa lỗi lặp trong bản cũ."
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "v1": {
+         "zh": "听起来真不错！那你们家一般都做些什么菜呢？",
+         "pinyin": "tīng qǐ lái zhēn bú cuò! nà nǐ men jiā yì bān dōu zuò xiē shén me cài ne?",
+         "pinyinHtml": "tīng qǐ lái zhēn bú cuò! nà nǐ men jiā yì bān dōu zuò xiē shén me cài ne?",
+         "vi": "Nghe hay đấy! Thế nhà em hay nấu những món gì?"
+        },
+        "v2": {
+         "zh": "这习惯真健康！那你们家饭桌上平时一般做什么菜呀？",
+         "pinyin": "zhè xí guàn zhēn jiàn kāng! nà nǐ men jiā fàn zhuō shàng píng shí yì bān zuò shén me cài ya?",
+         "pinyinHtml": "zhè xí guàn zhēn jiàn kāng! nà nǐ men jiā fàn zhuō shàng píng shí yì bān zuò shén me cài ya?",
+         "vi": "Thói quen này lành mạnh quá! Thế mâm cơm nhà em bình thường hay nấu món gì?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "v1": {
+         "zh": "一般就是些家常菜，比如炒青菜、蒸鱼或者豆腐。我们家很少吃油炸或者太油腻的东西。你家呢？",
+         "pinyin": "yì bān jiù shì xiē jiā cháng cài, bǐ rú chǎo qīng cài, zhēng yú huò zhě dòu fu. wǒ men jiā hěn shǎo chī yóu zhà huò zhě tài yóu nì de dōng xi. nǐ jiā ne?",
+         "pinyinHtml": "yì bān jiù shì xiē jiā cháng cài, bǐ rú chǎo qīng cài, zhēng yú huò zhě dòu fu. wǒ men jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> shǎo chī yóu zhà huò zhě tài yóu nì de dōng xi. nǐ jiā ne?",
+         "vi": "Thường là mấy món cơm nhà thôi, như rau xào, cá hấp hoặc đậu phụ. Nhà em ít ăn đồ chiên hay quá dầu mỡ. Còn nhà anh?"
+        },
+        "v2": {
+         "zh": "都是些家常菜，像蒜蓉炒青菜、清蒸鱼、嫩豆腐汤，很少碰油炸和太油腻的东西。杨哥你家呢？",
+         "pinyin": "dōu shì xiē jiā cháng cài, xiàng suàn róng chǎo qīng cài, qīng zhēng yú, nèn dòu fu tāng, hěn shǎo pèng yóu zhà hé tài yóu nì de dōng xi. yáng gē nǐ jiā ne?",
+         "pinyinHtml": "dōu shì xiē jiā cháng cài, xiàng suàn róng chǎo qīng cài, qīng zhēng yú, nèn dòu fu tāng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> shǎo pèng yóu zhà hé tài yóu nì de dōng xi. yáng gē nǐ jiā ne?",
+         "vi": "Toàn món cơm nhà giản dị thôi, như rau xanh xào tỏi, cá hấp, canh đậu hũ non, hiếm khi đụng đồ chiên rán quá ngấy. Còn nhà anh Dương?"
+        },
+        "reason": "Sửa 2 dòng cuối bị ghi nhầm cùng vai A ở bản Google Doc, tạo đối đáp ăn khớp A-B."
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "v1": {
+         "zh": "我们家也差不多，很注重饮食均衡，蔬菜水果也是每天都吃。",
+         "pinyin": "wǒ men jiā yě chà bù duō, hěn zhù zhòng yǐn shí jūn héng, shū cài shuǐ guǒ yě shì měi tiān dōu chī.",
+         "pinyinHtml": "wǒ men jiā yě chà bù duō, hěn zhù zhòng yǐn shí jūn héng, shū cài <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shuǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> yě shì měi tiān dōu chī.",
+         "vi": "Nhà anh cũng na ná vậy, chú trọng cân bằng dinh dưỡng, rau quả ngày nào cũng ăn."
+        },
+        "v2": {
+         "zh": "我们家也差不多，荤素搭配讲究饮食均衡，不过我爸妈还有个特别坚持的习惯——每顿饭桌中间必须摆一碗汤！",
+         "pinyin": "wǒ men jiā yě chà bù duō, hūn sù dā pèi jiǎng jiū yǐn shí jūn héng, bú guò wǒ bà mā hái yǒu gè tè bié jiān chí de xí guàn-- měi dùn fàn zhuō zhōng jiān bì xū bǎi yì wǎn tāng!",
+         "pinyinHtml": "wǒ men jiā yě chà bù duō, hūn sù dā pèi jiǎng jiū yǐn shí jūn héng, bú guò wǒ bà mā hái yǒu gè tè bié jiān chí de xí guàn-- měi dùn fàn zhuō zhōng jiān bì xū bǎi yì wǎn tāng!",
+         "vi": "Nhà anh cũng tương tự, mặn chay cân đối đủ dinh dưỡng, nhưng bố mẹ anh có một thói quen cực kỳ giữ vững: giữa mâm cơm bữa nào cũng phải có một bát canh!"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "v1": {
+         "zh": "那你们家有什么特别的饮食习惯吗？",
+         "pinyin": "nà nǐ men jiā yǒu shén me tè bié de yǐn shí xí guàn ma?",
+         "pinyinHtml": "nà nǐ men jiā yǒu shén me tè bié de yǐn shí xí guàn ma?",
+         "vi": "Thế nhà anh có thói quen ăn uống gì đặc biệt không?"
+        },
+        "v2": {
+         "zh": "对，我也听说饭前先喝两口热汤特别养胃，还能帮助消化，这是不少南方家庭的习惯呢！",
+         "pinyin": "duì, wǒ yě tīng shuō fàn qián xiān hē liǎng kǒu rè tāng tè bié yǎng wèi, hái néng bāng zhù xiāo huà, zhè shì bù shǎo nán fāng jiā tíng de xí guàn ne!",
+         "pinyinHtml": "duì, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě tīng shuō fàn qián xiān hē <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">liǎng</span> kǒu rè tāng tè bié yǎng wèi, hái néng bāng zhù xiāo huà, zhè shì bù shǎo nán fāng jiā tíng de xí guàn ne!",
+         "vi": "Chuẩn luôn, em cũng nghe nói uống vài ngụm canh nóng trước bữa rất tốt cho dạ dày lại dễ tiêu, đúng kiểu thói quen nhiều gia đình miền Nam!"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "v1": {
+         "zh": "有一个！我们家每顿饭都一定要有汤。我们觉得饭前喝点儿汤对身体好，也能帮助消化。",
+         "pinyin": "yǒu yí gè! wǒ men jiā měi dùn fàn dōu yí dìng yào yǒu tāng. wǒ men jué de fàn qián hē diǎnr tāng duì shēn tǐ hǎo, yě néng bāng zhù xiāo huà.",
+         "pinyinHtml": "yǒu yí gè! wǒ men jiā měi dùn fàn dōu yí dìng yào yǒu tāng. wǒ men jué de fàn qián hē diǎnr tāng duì shēn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐ</span> hǎo, yě néng bāng zhù xiāo huà.",
+         "vi": "Có đấy! Nhà anh bữa nào cũng nhất định phải có canh. Cả nhà thấy uống chút canh trước bữa vừa tốt cho sức khỏe vừa dễ tiêu hóa."
+        },
+        "v2": {
+         "zh": "哈哈，看来你挺懂行的！那受家里影响，你自己平时会做饭吗？有啥拿手菜？",
+         "pinyin": "hā hā, kàn lái nǐ tǐng dǒng háng de! nà shòu jiā lǐ yǐng xiǎng, nǐ zì jǐ píng shí huì zuò fàn ma? yǒu shá ná shǒu cài?",
+         "pinyinHtml": "hā hā, kàn lái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> dǒng háng de! nà shòu jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐng</span> xiǎng, nǐ zì jǐ píng shí huì zuò fàn ma? yǒu shá ná shǒu cài?",
+         "vi": "Haha, xem ra em rành phết đấy! Thế chịu ảnh hưởng từ nhà, bình thường em có biết nấu cơm không? Có món tủ nào không?"
+        },
+        "reason": "Lồng ghép mẫu câu Bài 3 “看来” (xem ra) + dẫn tự nhiên sang câu hỏi Slide cô giáo (“你会做饭吗？拿手菜”)."
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "v1": {
+         "zh": "原来如此，这可能是南方人的习惯吧！那杨哥你自己会做饭吗？有什么拿手菜吗？",
+         "pinyin": "yuán lái rú cǐ, zhè kě néng shì nán fāng rén de xí guàn ba! nà yáng gē nǐ zì jǐ huì zuò fàn ma? yǒu shén me ná shǒu cài ma?",
+         "pinyinHtml": "yuán lái rú cǐ, zhè kě néng shì nán fāng rén de xí guàn ba! nà yáng gē nǐ zì jǐ huì zuò fàn ma? yǒu shén me ná shǒu cài ma?",
+         "vi": "Thì ra vậy, chắc thói quen người miền Nam đấy! Thế anh Dương biết nấu ăn không? Có món tủ nào không?"
+        },
+        "v2": {
+         "zh": "我倒真学了几手，最拿手的是糖醋排骨和番茄炒蛋。家里人平时要么吃我炒的菜，要么叫外卖换换口味，不过还是我做的更合胃口！",
+         "pinyin": "wǒ dǎo zhēn xué le jǐ shǒu, zuì ná shǒu de shì táng cù pái gǔ hé fān qié chǎo dàn. jiā lǐ rén píng shí yào me chī wǒ chǎo de cài, yào me jiào wài mài huàn huàn kǒu wèi, bú guò hái shì wǒ zuò de gèng hé wèi kǒu!",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎo zhēn xué le <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> shǒu, zuì ná shǒu de shì táng cù pái gǔ hé fān qié chǎo dàn. jiā lǐ rén píng shí yào me chī <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> chǎo de cài, yào me jiào wài mài huàn huàn kǒu wèi, bú guò hái shì wǒ zuò de gèng hé wèi kǒu!",
+         "vi": "Em cũng học lỏm được vài món đấy, tủ nhất là sườn xào chua ngọt với trứng xào cà chua. Người nhà bình thường hoặc ăn cơm em nấu, hoặc đặt đồ ngoài đổi vị, nhưng vẫn khen đồ em làm hợp miệng hơn!"
+        },
+        "reason": "Lồng ghép mẫu câu Bài 3 “要么……要么……” và miêu tả món tủ (糖醋排骨、番茄炒蛋)."
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "v1": {
+         "zh": "我平常自己也下厨，最拿手的是清蒸鱼和玉米排骨汤，大家尝过都说有两下子呢！",
+         "pinyin": "wǒ píng cháng zì jǐ yě xià chú, zuì ná shǒu de shì qīng zhēng yú hé yù mǐ pái gǔ tāng, dà jiā cháng guò dōu shuō yǒu liǎng xià zǐ ne!",
+         "pinyinHtml": "wǒ píng cháng zì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> yě xià chú, zuì ná shǒu de shì qīng zhēng yú hé yù mǐ pái gǔ tāng, dà jiā cháng guò dōu shuō <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> liǎng xià zǐ ne!",
+         "vi": "Anh bình thường cũng hay vào bếp, món tủ nhất là cá hấp xì dầu với canh sườn bắp, mọi người ăn xong đều khen anh cũng có nghề đấy!"
+        },
+        "v2": {
+         "zh": "厉害啊小王，没想到你在厨房这么有两下子！我平时只会煮个面。",
+         "pinyin": "lì hài a xiǎo wáng, méi xiǎng dào nǐ zài chú fáng zhè me yǒu liǎng xià zǐ! wǒ píng shí zhǐ huì zhǔ gè miàn.",
+         "pinyinHtml": "lì hài a xiǎo wáng, méi xiǎng dào nǐ zài chú fáng zhè me <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> liǎng xià zǐ! wǒ píng shí zhǐ huì zhǔ gè miàn.",
+         "vi": "Đỉnh thế Tiểu Vương, không ngờ vào bếp em cũng có nghề gớm! Anh bình thường chỉ biết nấu mì thôi."
+        },
+        "reason": "Lồng ghép mẫu câu Bài 3 “有两下子” (có nghề / có bản lĩnh)."
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "v1": {
+         "zh": "听起来真让人羡慕！下次有机会，我一定要去尝尝你的手艺，大饱口福一下！",
+         "pinyin": "tīng qǐ lái zhēn ràng rén xiàn mù! xià cì yǒu jī huì, wǒ yí dìng yào qù cháng cháng nǐ de shǒu yì, dà bǎo kǒu fú yí xià!",
+         "pinyinHtml": "tīng qǐ lái zhēn ràng rén xiàn mù! xià cì yǒu jī huì, wǒ yí dìng yào qù cháng cháng nǐ de shǒu yì, dà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎo</span> kǒu fú yí xià!",
+         "vi": "Nghe mà thèm quá! Lần sau có dịp nhất định em phải qua nếm thử tay nghề anh để thỏa sức ăn ngon một bữa!"
+        },
+        "v2": {
+         "zh": "杨哥太谦虚了！周末来我家吃饭吧，我亲自下厨给你露一手，保证让你大饱口福！",
+         "pinyin": "yáng gē tài qiān xū le! zhōu mò lái wǒ jiā chī fàn ba, wǒ qīn zì xià chú gěi nǐ lòu yì shǒu, bǎo zhèng ràng nǐ dà bǎo kǒu fú!",
+         "pinyinHtml": "yáng gē tài qiān xū le! zhōu mò lái wǒ jiā chī fàn ba, wǒ qīn zì xià chú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gěi</span> nǐ lòu yì shǒu, bǎo zhèng ràng nǐ dà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎo</span> kǒu fú!",
+         "vi": "Anh Dương khiêm tốn quá! Cuối tuần qua nhà em ăn cơm đi, em tự tay trổ tài mời anh một bữa, đảm bảo cho anh ăn no nê đã đời!"
+        },
+        "reason": "Lồng ghép mẫu câu Bài 3 “大饱口福” (thỏa thuê ăn ngon)."
+       }
+      ],
+      "audio": "audio/b3-q9.m4a",
+      "audioDuration": 93.26,
+      "audioTimings": [
+       {
+        "n": 1,
+        "role": "A",
+        "start": 0.25,
+        "end": 4.48
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "start": 4.48,
+        "end": 12.36
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "start": 12.36,
+        "end": 19.14
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "start": 19.14,
+        "end": 27.81
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "start": 27.81,
+        "end": 33.03
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "start": 33.03,
+        "end": 42.62
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "start": 42.62,
+        "end": 51.1
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "start": 51.1,
+        "end": 59.36
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "start": 59.36,
+        "end": 67.55
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "start": 67.55,
+        "end": 79.83
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "start": 79.83,
+        "end": 85.26
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "start": 85.26,
+        "end": 93.26
+       }
+      ]
+     },
+     {
+      "id": "b3-q10",
+      "no": 10,
+      "examNo": 10,
+      "priority": null,
+      "isExamScope": true,
+      "titleVi": "Kể trải nghiệm một lần mời khách & Cách gọi món khi mời",
+      "question": "请说一说你的一次请客的经历。",
+      "questionPinyin": "qǐng shuō yi shuō nǐ de yí cì qǐng kè de jīng lì.",
+      "questionPinyinHtml": "qǐng shuō yi shuō nǐ de yí cì qǐng kè de jīng lì.",
+      "slideQuestions": [
+       "请客时，怎么点菜？"
+      ],
+      "outline": "Chia sẻ kỷ niệm lần đầu mời khách (chuẩn bị chu đáo: báo giờ, đón tiếp, sắp xếp chỗ ngồi) → Chia sẻ bí quyết gọi món khi mời khách (hỏi khẩu vị/kiêng kỵ trước, cân bằng nóng-lạnh-canh-rau) → Chốt ý nghĩa của việc mời khách.",
+      "takeaways": {
+       "points": [
+        "Trải nghiệm mời khách thực tế: Mời bạn bè/người thân ăn mừng; chuẩn bị từ gửi địa chỉ rõ ràng, ra cửa đón đến dặn trước giờ đi (明确时间地点、提前迎客)",
+        "Bí quyết gọi món (Slide): Hỏi trước xem khách có kiêng hay dị ứng gì không; gọi vừa đủ, kết hợp món mặn-nhạt-canh-rau tránh lãng phí (先问忌口、荤素搭配、点菜适度)",
+        "Ý nghĩa mời khách: Quan trọng không phải mâm cao cỗ đầy đắt tiền, mà là sự trân trọng và không khí ấm cúng (重在心意、气氛融洽、别弄砸了)",
+        "Mẫu câu Bài 3: 好说 (dễ bàn thôi), 弄砸 (làm hỏng chuyện), 大饱口福 (ăn đã đời)"
+       ],
+       "goldenQuotes": "请客最重要的是让客人觉得舒服、受重视。点菜前先问清大家的忌口，荤素搭配好，别怕花心思弄砸了气氛。"
+      },
+      "lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "明明，我妹妹刚拿到大学录取通知书！家里打算这周末请亲戚朋友吃顿饭庆祝一下，可我头一回张罗请客，心里真没底。",
+        "pinyin": "míng míng, wǒ mèi mèi gāng ná dào dà xué lù qǔ tōng zhī shū! jiā lǐ dǎ suàn zhè zhōu mò qǐng qīn qi péng yǒu chī dùn fàn qìng zhù yí xià, kě wǒ tóu yì huí zhāng luó qǐng kè, xīn lǐ zhēn méi dǐ.",
+        "pinyinHtml": "míng míng, wǒ mèi mèi gāng ná dào dà xué lù qǔ tōng zhī shū! jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> dǎ suàn zhè zhōu mò qǐng qīn qi péng yǒu chī dùn fàn qìng zhù yí xià, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> wǒ tóu yì huí zhāng luó qǐng kè, xīn lǐ zhēn méi dǐ.",
+        "vi": "Minh Minh, em gái tớ vừa nhận được giấy báo trúng tuyển đại học! Nhà định cuối tuần này mời họ hàng bạn bè ăn bữa cơm mừng, mà tớ lần đầu đứng ra tổ chức mời khách, thấy lo ghê.",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "嗨，这事好说！其实我上个月刚张罗过一次家庭聚餐，最有心得了，说到底就是用心二字。",
+        "pinyin": "hāi, zhè shì hǎo shuō! qí shí wǒ shàng gè yuè gāng zhāng luó guò yí cì jiā tíng jù cān, zuì yǒu xīn de le, shuō dào dǐ jiù shì yòng xīn èr zì.",
+        "pinyinHtml": "hāi, zhè shì hǎo shuō! qí shí wǒ shàng gè yuè gāng zhāng luó guò yí cì jiā tíng jù cān, zuì yǒu xīn de le, shuō dào dǐ jiù shì yòng xīn èr zì.",
+        "vi": "Ôi, chuyện này dễ bàn thôi! Tháng trước tớ vừa đứng ra tổ chức một bữa tiệc gia đình xong, rút ra nhiều kinh nghiệm lắm, nói cho cùng gói gọn ở chữ 'tận tâm'.",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "那太好了！快跟我讲讲，你那次请客从头到尾是怎么安排的？",
+        "pinyin": "nà tài hǎo le! kuài gēn wǒ jiǎng jiǎng, nǐ nà cì qǐng kè cóng tóu dào wěi shì zěn me ān pái de?",
+        "pinyinHtml": "nà tài hǎo le! kuài gēn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jiǎng</span> jiǎng, nǐ nà cì qǐng kè cóng tóu dào wěi shì zěn me ān pái de?",
+        "vi": "Tuyệt quá! Kể tớ nghe ngay đi, lần đó cậu thu xếp từ đầu đến cuối thế nào?",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "我提前两天就把餐厅定位和时间发群里了，还特意早到二十分钟去包厢空调、茶水都备好，亲戚长辈一到门口我就亲自迎进去。",
+        "pinyin": "wǒ tí qián liǎng tiān jiù bǎ cān tīng dìng wèi hé shí jiān fā qún lǐ le, hái tè yì zǎo dào èr shí fēn zhōng qù bāo xiāng kōng tiáo, chá shuǐ dōu bèi hǎo, qīn qi zhǎng bèi yí dào mén kǒu wǒ jiù qīn zì yíng jìn qù.",
+        "pinyinHtml": "wǒ tí qián liǎng tiān jiù bǎ cān tīng dìng wèi hé shí jiān fā qún lǐ le, hái tè yì zǎo dào èr shí fēn zhōng qù bāo xiāng kōng tiáo, chá shuǐ dōu bèi hǎo, qīn qi zhǎng bèi yí dào mén <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kǒu</span> wǒ jiù qīn zì yíng jìn qù.",
+        "vi": "Trước hai hôm tớ đã gửi định vị quán và giờ giấc lên nhóm, hôm đó cố tình tới sớm 20 phút chuẩn bị phòng riêng, điều hòa, trà nước sẵn sàng; họ hàng người lớn vừa tới cửa là tớ ra đón tận nơi.",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "哇，这么讲究呀？我原本以为请客不就是订好桌，大家坐下来点菜吃饭嘛，原来细节这么多。",
+        "pinyin": "wā, zhè me jiǎng jiū ya? wǒ yuán běn yǐ wéi qǐng kè bú jiù shì dìng hǎo zhuō, dà jiā zuò xià lái diǎn cài chī fàn ma, yuán lái xì jié zhè me duō.",
+        "pinyinHtml": "wā, zhè me jiǎng jiū ya? wǒ yuán <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">běn</span> yǐ wéi qǐng kè bú jiù shì dìng hǎo zhuō, dà jiā zuò xià lái diǎn cài chī fàn ma, yuán lái xì jié zhè me duō.",
+        "vi": "Ồ, cầu kỳ vậy cơ à? Tớ vốn tưởng mời khách chỉ là đặt bàn, mọi người ngồi xuống gọi món ăn thôi chứ, hóa ra lắm tiểu tiết thế.",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "可不是嘛！客人推掉别的事来捧场，就是给咱们面子，特别是长辈，更得显得热情周到，不然很容易把气氛弄砸。",
+        "pinyin": "kě bú shì ma! kè rén tuī diào bié de shì lái pěng chǎng, jiù shì gěi zán men miàn zi, tè bié shì zhǎng bèi, gèng de xiǎn de rè qíng zhōu dào, bù rán hěn róng yì bǎ qì fēn nòng zá.",
+        "pinyinHtml": "kě bú shì ma! kè rén tuī diào bié de shì lái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">pěng</span> chǎng, jiù shì gěi zán men miàn zi, tè bié shì zhǎng bèi, gèng de xiǎn de rè qíng zhōu dào, bù rán hěn róng yì bǎ qì fēn nòng zá.",
+        "vi": "Chứ còn gì nữa! Khách gác việc khác qua chung vui là nể mặt mình lắm rồi, nhất là bậc lớn tuổi càng phải chu đáo nhiệt tình, kẻo dễ làm hỏng không khí lắm.",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "受教了！那到最头疼的一步了——请客时该怎么点菜才显得得体又不浪费？",
+        "pinyin": "shòu jiào le! nà dào zuì tóu téng de yí bù le-- qǐng kè shí gāi zěn me diǎn cài cái xiǎn de dé tǐ yòu bú làng fèi?",
+        "pinyinHtml": "shòu jiào le! nà dào zuì tóu téng de yí bù le-- qǐng kè shí gāi zěn me diǎn cài cái xiǎn de dé tǐ yòu bú làng fèi?",
+        "vi": "Mở mang tầm mắt thật! Thế đến bước đau đầu nhất — lúc mời khách nên gọi món thế nào cho vừa khéo lại không lãng phí?",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "我一般有三个原则：第一，先问清楚客人的口味和忌口，比如有人吃不惯辣或者不吃海鲜；第二，荤素凉热搭配着点，照顾老人小孩；第三，菜量按“人数加一”就够了，重在让大家大饱口福又不剩菜。",
+        "pinyin": "wǒ yì bān yǒu sān gè yuán zé: dì yī, xiān wèn qīng chǔ kè rén de kǒu wèi hé jì kǒu, bǐ rú yǒu rén chī bú guàn là huò zhě bù chī hǎi xiān; dì èr, hūn sù liáng rè dā pèi zhe diǎn, zhào gù lǎo rén xiǎo hái; dì sān, cài liáng àn \"rén shù jiā yī\" jiù gòu le, zhòng zài ràng dà jiā dà bǎo kǒu fú yòu bú shèng cài.",
+        "pinyinHtml": "wǒ yì bān yǒu sān gè yuán zé: dì yī, xiān wèn qīng chǔ kè rén de kǒu wèi hé jì kǒu, bǐ rú yǒu rén chī bú guàn là huò zhě bù chī hǎi xiān; dì èr, hūn sù liáng rè dā pèi zhe diǎn, zhào gù lǎo rén xiǎo hái; dì sān, cài liáng àn \"rén shù jiā yī\" jiù gòu le, zhòng zài ràng dà jiā dà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎo</span> kǒu fú yòu bú shèng cài.",
+        "vi": "Tớ thường theo 3 nguyên tắc: Một là hỏi rõ khẩu vị và món kiêng của khách trước, ví dụ có ai không quen ăn cay hay dị ứng hải sản không; Hai là kết hợp món mặn-chay-nguội-nóng cho hợp cả người già trẻ nhỏ; Ba là gọi số món bằng 'số người cộng một' thôi, cốt sao ai cũng được ăn ngon thỏa thích mà không thừa mứa.",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "听你这么一拆解，我豁然开朗！请客真不是比谁花钱多，而是比谁心思细、能让客人觉得舒坦受重视。",
+        "pinyin": "tīng nǐ zhè me yì chāi jiě, wǒ huō rán kāi lǎng! qǐng kè zhēn bú shì bǐ shuí huā qián duō, ér shì bǐ shuí xīn sī xì, néng ràng kè rén jué de shū tǎn shòu zhòng shì.",
+        "pinyinHtml": "tīng nǐ zhè me yì chāi jiě, wǒ huō rán kāi lǎng! qǐng kè zhēn bú shì bǐ shuí huā qián duō, ér shì bǐ shuí xīn sī xì, néng ràng kè rén jué de shū tǎn shòu zhòng shì.",
+        "vi": "Nghe cậu phân tích xong tớ thông suốt hẳn! Mời khách đâu phải thi xem ai chi nhiều tiền, mà ở chỗ tinh tế để khách thấy dễ chịu và được tôn trọng.",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "对头！记住吃饭时多给大家夹夹菜、照顾一下冷场的客人，别光顾着自己低头吃就行。",
+        "pinyin": "duì tóu! jì zhù chī fàn shí duō gěi dà jiā jiá jiá cài, zhào gù yí xià lěng chǎng de kè rén, bié guāng gù zhe zì jǐ dī tóu chī jiù xíng.",
+        "pinyinHtml": "duì tóu! jì zhù chī fàn shí duō gěi dà jiā jiá jiá cài, zhào gù yí xià <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lěng</span> chǎng de kè rén, bié guāng gù zhe zì jǐ dī tóu chī jiù xíng.",
+        "vi": "Chuẩn luôn! Nhớ lúc ăn thỉnh thoảng gắp đồ ăn mời mọi người, để ý bắt chuyện với khách nào hơi ít nói, đừng chỉ cắm cúi ăn phần mình là ổn.",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "太实用了！这周末聚餐要是办得妥妥当当的，全靠你这位军师！对了，周六晚上你也一起来喝两杯吧？",
+        "pinyin": "tài shí yòng le! zhè zhōu mò jù cān yào shi bàn de tuǒ tuǒ dàng dāng de, quán kào nǐ zhè wèi jūn shī! duì le, zhōu liù wǎn shàng nǐ yě yì qǐ lái hē liǎng bēi ba?",
+        "pinyinHtml": "tài shí yòng le! zhè zhōu mò jù cān yào shi bàn de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tuǒ</span> tuǒ dàng dāng de, quán kào nǐ zhè wèi jūn shī! duì le, zhōu liù wǎn shàng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> yě yì qǐ lái hē liǎng bēi ba?",
+        "vi": "Hữu ích quá! Cuối tuần này tiệc mà suôn sẻ là nhờ cả quân sư cậu đấy! À, tối thứ 7 cậu cũng qua làm vài ly cùng nhé?",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "哈哈，这邀请我可不客气了，一定准时去给你帮衬场子！",
+        "pinyin": "hā hā, zhè yāo qǐng wǒ kě bú kè qì le, yí dìng zhǔn shí qù gěi nǐ bāng chèn chǎng zi!",
+        "pinyinHtml": "hā hā, zhè yāo <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qǐng</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> kě bú kè qì le, yí dìng zhǔn shí qù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gěi</span> nǐ bāng chèn chǎng zi!",
+        "vi": "Haha, lời mời này tớ không khách sáo đâu, nhất định tới đúng giờ phụ cậu tiếp khách!",
+        "modified": true
+       }
+      ],
+      "v1_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "明明，我妹妹考上大学了，我家打算周末宴请亲戚朋友庆祝，但我从来没有请客过，不知道怎么办？",
+        "pinyin": "míng míng, wǒ mèi mei kǎo shàng dà xué le, wǒ jiā dǎ suàn zhōu mò yàn qǐng qīn qi péng yǒu qìng zhù, dàn wǒ cóng lái méi yǒu qǐng kè guò, bù zhī dào zěn me bàn?",
+        "pinyinHtml": "míng míng, wǒ mèi mei kǎo shàng dà xué le, wǒ jiā dǎ suàn zhōu mò yàn qǐng qīn qi péng yǒu qìng zhù, dàn wǒ cóng lái méi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> qǐng kè guò, bù zhī dào zěn me bàn?",
+        "vi": "Minh Minh, em gái tớ đỗ đại học rồi, nhà tớ định cuối tuần mời họ hàng bạn bè ăn mừng, nhưng tớ chưa từng đứng ra mời khách bao giờ, chẳng biết làm sao nữa?",
+        "modified": false
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "我以前经历过一次请客，也当过很多次客人。我觉得请客是一件很有意义的事情。",
+        "pinyin": "wǒ yǐ qián jīng lì guò yí cì qǐng kè, yě dāng guò hěn duō cì kè rén. wǒ jué de qǐng kè shì yí jiàn hěn yǒu yì yì de shì qíng.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǐ qián jīng lì guò yí cì qǐng kè, yě dāng guò hěn duō cì kè rén. wǒ jué de qǐng kè shì yí jiàn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> yǒu yì yì de shì qíng.",
+        "vi": "Tớ trước từng có một lần đứng ra mời khách, cũng đi làm khách nhiều lần rồi. Tớ thấy mời khách là việc rất có ý nghĩa đấy.",
+        "modified": false
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "太好了！那次请客的时候，你是怎么准备和招待客人的？",
+        "pinyin": "tài hǎo le! nà cì qǐng kè de shí hòu, nǐ shì zěn me zhǔn bèi hé zhāo dài kè rén de?",
+        "pinyinHtml": "tài hǎo le! nà cì qǐng kè de shí hòu, nǐ shì zěn me zhǔn bèi hé zhāo dài kè rén de?",
+        "vi": "Hay quá! Lần mời khách đó cậu chuẩn bị và tiếp đón mọi người thế nào?",
+        "modified": false
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "我先提前发了明确的时间和地点，清楚地指了路，那天还早到半小时在门口迎接大家。",
+        "pinyin": "wǒ xiān tí qián fā le míng què de shí jiān hé dì diǎn, qīng chǔ de zhǐ le lù, nà tiān hái zǎo dào bàn xiǎo shí zài mén kǒu yíng jiē dà jiā.",
+        "pinyinHtml": "wǒ xiān tí qián fā le míng què de shí jiān hé dì diǎn, qīng chǔ de zhǐ le lù, nà tiān hái zǎo dào bàn xiǎo shí zài mén kǒu yíng jiē dà jiā.",
+        "vi": "Tớ gửi trước thời gian địa điểm thật rõ ràng, chỉ đường cẩn thận, hôm đó còn đến sớm nửa tiếng đứng ở cửa đón mọi người.",
+        "modified": false
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "只请一顿饭，一定要派人在门口接人吗？我以为客人想吃什么点什么就行了。",
+        "pinyin": "zhǐ qǐng yí dùn fàn, yí dìng yào pài rén zài mén kǒu jiē rén ma? wǒ yǐ wéi kè rén xiǎng chī shén me diǎn shén me jiù xíng le.",
+        "pinyinHtml": "zhǐ qǐng yí dùn fàn, yí dìng yào pài rén zài mén kǒu jiē rén ma? <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǐ wéi kè rén xiǎng chī shén me diǎn shén me jiù xíng le.",
+        "vi": "Chỉ mời một bữa cơm thôi mà nhất thiết phải đứng ở cửa đón à? Tớ tưởng khách thích ăn gì gọi nấy là xong chứ.",
+        "modified": false
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "那可不行。既然请了客，就应该好好招待，尤其是对长辈更要注意礼貌。先安排好座位，再热心问大家口味。",
+        "pinyin": "nà kě bù xíng. jì rán qǐng le kè, jiù yīng gāi hǎo hǎo zhāo dài, yóu qí shì duì zhǎng bèi gèng yào zhù yì lǐ mào. xiān ān pái hǎo zuò wèi, zài rè xīn wèn dà jiā kǒu wèi.",
+        "pinyinHtml": "nà kě bù xíng. jì rán qǐng le kè, jiù yīng gāi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> hǎo zhāo dài, yóu qí shì duì zhǎng bèi gèng yào zhù yì lǐ mào. xiān ān pái hǎo zuò wèi, zài rè xīn wèn dà jiā kǒu wèi.",
+        "vi": "Thế thì không ổn đâu. Đã mời khách thì phải tiếp đón chu đáo, nhất là người lớn tuổi càng phải giữ lễ phép. Xếp chỗ ngồi xong xuôi rồi nhiệt tình hỏi khẩu vị mọi người.",
+        "modified": false
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "对哦，那请客的时候到底怎么点菜才合适呢？我最怕点得不合大家胃口。",
+        "pinyin": "duì ò, nà qǐng kè de shí hòu dào dǐ zěn me diǎn cài cái hé shì ne? wǒ zuì pà diǎn de bù hé dà jiā wèi kǒu.",
+        "pinyinHtml": "duì ò, nà qǐng kè de shí hòu dào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǐ</span> zěn me diǎn cài cái hé shì ne? wǒ zuì pà diǎn de bù hé dà jiā wèi kǒu.",
+        "vi": "Đúng rồi, thế lúc mời khách rốt cuộc gọi món thế nào cho khéo? Tớ sợ nhất gọi không hợp miệng mọi người.",
+        "modified": false
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "点菜好说！先问大家有没有不吃辣或者忌口的，再按照人数点：有荤有素、有凉有热，再来一锅好喝的汤，肯定不会出错。",
+        "pinyin": "diǎn cài hǎo shuō! xiān wèn dà jiā yǒu méi yǒu bù chī là huò zhě jì kǒu de, zài àn zhào rén shù diǎn: yǒu hūn yǒu sù, yǒu liáng yǒu rè, zài lái yì guō hǎo hē de tāng, kěn dìng bú huì chū cuò.",
+        "pinyinHtml": "diǎn cài hǎo shuō! xiān wèn dà jiā yǒu méi yǒu bù chī là huò zhě jì kǒu de, zài àn zhào rén shù diǎn: yǒu hūn yǒu sù, yǒu liáng yǒu rè, zài lái yì guō hǎo hē de tāng, kěn dìng bú huì chū cuò.",
+        "vi": "Gọi món dễ ẹc! Trước hết hỏi mọi người xem có ai không ăn cay hay kiêng gì không, rồi căn theo số người mà gọi: có món mặn món chay, món nguội món nóng, thêm nồi canh ngon nữa là chắc chắn không sai được.",
+        "modified": false
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "原来如此！以前我总以为请客就是花钱吃饭，现在才知道最重要的是让客人觉得舒服、被重视。",
+        "pinyin": "yuán lái rú cǐ! yǐ qián wǒ zǒng yǐ wéi qǐng kè jiù shì huā qián chī fàn, xiàn zài cái zhī dào zuì zhòng yào de shì ràng kè rén jué de shū fú, bèi zhòng shì.",
+        "pinyinHtml": "yuán lái rú cǐ! yǐ qián <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǒng</span> yǐ wéi qǐng kè jiù shì huā qián chī fàn, xiàn zài cái zhī dào zuì zhòng yào de shì ràng kè rén jué de shū fú, bèi zhòng shì.",
+        "vi": "Thì ra vậy! Trước tớ cứ tưởng mời khách chỉ là bỏ tiền ra ăn, giờ mới biết quan trọng nhất là để khách thấy thoải mái và được trân trọng.",
+        "modified": false
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "没错，只要用心照顾好气氛，大家聊得开心，这顿饭就算成功了。",
+        "pinyin": "méi cuò, zhǐ yào yòng xīn zhào gù hǎo qì fēn, dà jiā liáo de kāi xīn, zhè dùn fàn jiù suàn chéng gōng le.",
+        "pinyinHtml": "méi cuò, zhǐ yào yòng xīn zhào gù hǎo qì fēn, dà jiā liáo de kāi xīn, zhè dùn fàn jiù suàn chéng gōng le.",
+        "vi": "Đúng thế, chỉ cần để tâm chăm chút không khí, mọi người trò chuyện vui vẻ là bữa cơm coi như thành công rồi.",
+        "modified": false
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "谢谢你的经验，有你指点我心里踏实多了！周末有空也欢迎你一起来吃顿便饭啊。",
+        "pinyin": "xiè xiè nǐ de jīng yàn, yǒu nǐ zhǐ diǎn wǒ xīn lǐ tà shí duō le! zhōu mò yǒu kōng yě huān yíng nǐ yì qǐ lái chī dùn biàn fàn a.",
+        "pinyinHtml": "xiè xiè nǐ de jīng yàn, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">diǎn</span> wǒ xīn lǐ tà shí duō le! zhōu mò yǒu kōng yě huān yíng nǐ yì qǐ lái chī dùn biàn fàn a.",
+        "vi": "Cảm ơn kinh nghiệm của cậu, có cậu chỉ dẫn tớ yên tâm hẳn! Cuối tuần rảnh mời cậu cùng qua ăn bữa cơm thân mật nhé.",
+        "modified": false
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "一定到场，预祝你妹妹前程似锦，祝你首次请客圆满成功！",
+        "pinyin": "yí dìng dào chǎng, yù zhù nǐ mèi mei qián chéng sì jǐn, zhù nǐ shǒu cì qǐng kè yuán mǎn chéng gōng!",
+        "pinyinHtml": "yí dìng dào chǎng, yù zhù nǐ mèi mei qián chéng sì jǐn, zhù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> shǒu cì qǐng kè yuán mǎn chéng gōng!",
+        "vi": "Nhất định có mặt, chúc em gái cậu tương lai rạng rỡ, chúc lần đầu mời khách của cậu thành công mỹ mãn!",
+        "modified": false
+       }
+      ],
+      "v2_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "明明，我妹妹刚拿到大学录取通知书！家里打算这周末请亲戚朋友吃顿饭庆祝一下，可我头一回张罗请客，心里真没底。",
+        "pinyin": "míng míng, wǒ mèi mèi gāng ná dào dà xué lù qǔ tōng zhī shū! jiā lǐ dǎ suàn zhè zhōu mò qǐng qīn qi péng yǒu chī dùn fàn qìng zhù yí xià, kě wǒ tóu yì huí zhāng luó qǐng kè, xīn lǐ zhēn méi dǐ.",
+        "pinyinHtml": "míng míng, wǒ mèi mèi gāng ná dào dà xué lù qǔ tōng zhī shū! jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> dǎ suàn zhè zhōu mò qǐng qīn qi péng yǒu chī dùn fàn qìng zhù yí xià, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> wǒ tóu yì huí zhāng luó qǐng kè, xīn lǐ zhēn méi dǐ.",
+        "vi": "Minh Minh, em gái tớ vừa nhận được giấy báo trúng tuyển đại học! Nhà định cuối tuần này mời họ hàng bạn bè ăn bữa cơm mừng, mà tớ lần đầu đứng ra tổ chức mời khách, thấy lo ghê.",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "嗨，这事好说！其实我上个月刚张罗过一次家庭聚餐，最有心得了，说到底就是用心二字。",
+        "pinyin": "hāi, zhè shì hǎo shuō! qí shí wǒ shàng gè yuè gāng zhāng luó guò yí cì jiā tíng jù cān, zuì yǒu xīn de le, shuō dào dǐ jiù shì yòng xīn èr zì.",
+        "pinyinHtml": "hāi, zhè shì hǎo shuō! qí shí wǒ shàng gè yuè gāng zhāng luó guò yí cì jiā tíng jù cān, zuì yǒu xīn de le, shuō dào dǐ jiù shì yòng xīn èr zì.",
+        "vi": "Ôi, chuyện này dễ bàn thôi! Tháng trước tớ vừa đứng ra tổ chức một bữa tiệc gia đình xong, rút ra nhiều kinh nghiệm lắm, nói cho cùng gói gọn ở chữ 'tận tâm'.",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "那太好了！快跟我讲讲，你那次请客从头到尾是怎么安排的？",
+        "pinyin": "nà tài hǎo le! kuài gēn wǒ jiǎng jiǎng, nǐ nà cì qǐng kè cóng tóu dào wěi shì zěn me ān pái de?",
+        "pinyinHtml": "nà tài hǎo le! kuài gēn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jiǎng</span> jiǎng, nǐ nà cì qǐng kè cóng tóu dào wěi shì zěn me ān pái de?",
+        "vi": "Tuyệt quá! Kể tớ nghe ngay đi, lần đó cậu thu xếp từ đầu đến cuối thế nào?",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "我提前两天就把餐厅定位和时间发群里了，还特意早到二十分钟去包厢空调、茶水都备好，亲戚长辈一到门口我就亲自迎进去。",
+        "pinyin": "wǒ tí qián liǎng tiān jiù bǎ cān tīng dìng wèi hé shí jiān fā qún lǐ le, hái tè yì zǎo dào èr shí fēn zhōng qù bāo xiāng kōng tiáo, chá shuǐ dōu bèi hǎo, qīn qi zhǎng bèi yí dào mén kǒu wǒ jiù qīn zì yíng jìn qù.",
+        "pinyinHtml": "wǒ tí qián liǎng tiān jiù bǎ cān tīng dìng wèi hé shí jiān fā qún lǐ le, hái tè yì zǎo dào èr shí fēn zhōng qù bāo xiāng kōng tiáo, chá shuǐ dōu bèi hǎo, qīn qi zhǎng bèi yí dào mén <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kǒu</span> wǒ jiù qīn zì yíng jìn qù.",
+        "vi": "Trước hai hôm tớ đã gửi định vị quán và giờ giấc lên nhóm, hôm đó cố tình tới sớm 20 phút chuẩn bị phòng riêng, điều hòa, trà nước sẵn sàng; họ hàng người lớn vừa tới cửa là tớ ra đón tận nơi.",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "哇，这么讲究呀？我原本以为请客不就是订好桌，大家坐下来点菜吃饭嘛，原来细节这么多。",
+        "pinyin": "wā, zhè me jiǎng jiū ya? wǒ yuán běn yǐ wéi qǐng kè bú jiù shì dìng hǎo zhuō, dà jiā zuò xià lái diǎn cài chī fàn ma, yuán lái xì jié zhè me duō.",
+        "pinyinHtml": "wā, zhè me jiǎng jiū ya? wǒ yuán <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">běn</span> yǐ wéi qǐng kè bú jiù shì dìng hǎo zhuō, dà jiā zuò xià lái diǎn cài chī fàn ma, yuán lái xì jié zhè me duō.",
+        "vi": "Ồ, cầu kỳ vậy cơ à? Tớ vốn tưởng mời khách chỉ là đặt bàn, mọi người ngồi xuống gọi món ăn thôi chứ, hóa ra lắm tiểu tiết thế.",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "可不是嘛！客人推掉别的事来捧场，就是给咱们面子，特别是长辈，更得显得热情周到，不然很容易把气氛弄砸。",
+        "pinyin": "kě bú shì ma! kè rén tuī diào bié de shì lái pěng chǎng, jiù shì gěi zán men miàn zi, tè bié shì zhǎng bèi, gèng de xiǎn de rè qíng zhōu dào, bù rán hěn róng yì bǎ qì fēn nòng zá.",
+        "pinyinHtml": "kě bú shì ma! kè rén tuī diào bié de shì lái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">pěng</span> chǎng, jiù shì gěi zán men miàn zi, tè bié shì zhǎng bèi, gèng de xiǎn de rè qíng zhōu dào, bù rán hěn róng yì bǎ qì fēn nòng zá.",
+        "vi": "Chứ còn gì nữa! Khách gác việc khác qua chung vui là nể mặt mình lắm rồi, nhất là bậc lớn tuổi càng phải chu đáo nhiệt tình, kẻo dễ làm hỏng không khí lắm.",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "受教了！那到最头疼的一步了——请客时该怎么点菜才显得得体又不浪费？",
+        "pinyin": "shòu jiào le! nà dào zuì tóu téng de yí bù le-- qǐng kè shí gāi zěn me diǎn cài cái xiǎn de dé tǐ yòu bú làng fèi?",
+        "pinyinHtml": "shòu jiào le! nà dào zuì tóu téng de yí bù le-- qǐng kè shí gāi zěn me diǎn cài cái xiǎn de dé tǐ yòu bú làng fèi?",
+        "vi": "Mở mang tầm mắt thật! Thế đến bước đau đầu nhất — lúc mời khách nên gọi món thế nào cho vừa khéo lại không lãng phí?",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "我一般有三个原则：第一，先问清楚客人的口味和忌口，比如有人吃不惯辣或者不吃海鲜；第二，荤素凉热搭配着点，照顾老人小孩；第三，菜量按“人数加一”就够了，重在让大家大饱口福又不剩菜。",
+        "pinyin": "wǒ yì bān yǒu sān gè yuán zé: dì yī, xiān wèn qīng chǔ kè rén de kǒu wèi hé jì kǒu, bǐ rú yǒu rén chī bú guàn là huò zhě bù chī hǎi xiān; dì èr, hūn sù liáng rè dā pèi zhe diǎn, zhào gù lǎo rén xiǎo hái; dì sān, cài liáng àn \"rén shù jiā yī\" jiù gòu le, zhòng zài ràng dà jiā dà bǎo kǒu fú yòu bú shèng cài.",
+        "pinyinHtml": "wǒ yì bān yǒu sān gè yuán zé: dì yī, xiān wèn qīng chǔ kè rén de kǒu wèi hé jì kǒu, bǐ rú yǒu rén chī bú guàn là huò zhě bù chī hǎi xiān; dì èr, hūn sù liáng rè dā pèi zhe diǎn, zhào gù lǎo rén xiǎo hái; dì sān, cài liáng àn \"rén shù jiā yī\" jiù gòu le, zhòng zài ràng dà jiā dà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎo</span> kǒu fú yòu bú shèng cài.",
+        "vi": "Tớ thường theo 3 nguyên tắc: Một là hỏi rõ khẩu vị và món kiêng của khách trước, ví dụ có ai không quen ăn cay hay dị ứng hải sản không; Hai là kết hợp món mặn-chay-nguội-nóng cho hợp cả người già trẻ nhỏ; Ba là gọi số món bằng 'số người cộng một' thôi, cốt sao ai cũng được ăn ngon thỏa thích mà không thừa mứa.",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "听你这么一拆解，我豁然开朗！请客真不是比谁花钱多，而是比谁心思细、能让客人觉得舒坦受重视。",
+        "pinyin": "tīng nǐ zhè me yì chāi jiě, wǒ huō rán kāi lǎng! qǐng kè zhēn bú shì bǐ shuí huā qián duō, ér shì bǐ shuí xīn sī xì, néng ràng kè rén jué de shū tǎn shòu zhòng shì.",
+        "pinyinHtml": "tīng nǐ zhè me yì chāi jiě, wǒ huō rán kāi lǎng! qǐng kè zhēn bú shì bǐ shuí huā qián duō, ér shì bǐ shuí xīn sī xì, néng ràng kè rén jué de shū tǎn shòu zhòng shì.",
+        "vi": "Nghe cậu phân tích xong tớ thông suốt hẳn! Mời khách đâu phải thi xem ai chi nhiều tiền, mà ở chỗ tinh tế để khách thấy dễ chịu và được tôn trọng.",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "对头！记住吃饭时多给大家夹夹菜、照顾一下冷场的客人，别光顾着自己低头吃就行。",
+        "pinyin": "duì tóu! jì zhù chī fàn shí duō gěi dà jiā jiá jiá cài, zhào gù yí xià lěng chǎng de kè rén, bié guāng gù zhe zì jǐ dī tóu chī jiù xíng.",
+        "pinyinHtml": "duì tóu! jì zhù chī fàn shí duō gěi dà jiā jiá jiá cài, zhào gù yí xià <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lěng</span> chǎng de kè rén, bié guāng gù zhe zì jǐ dī tóu chī jiù xíng.",
+        "vi": "Chuẩn luôn! Nhớ lúc ăn thỉnh thoảng gắp đồ ăn mời mọi người, để ý bắt chuyện với khách nào hơi ít nói, đừng chỉ cắm cúi ăn phần mình là ổn.",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "太实用了！这周末聚餐要是办得妥妥当当的，全靠你这位军师！对了，周六晚上你也一起来喝两杯吧？",
+        "pinyin": "tài shí yòng le! zhè zhōu mò jù cān yào shi bàn de tuǒ tuǒ dàng dāng de, quán kào nǐ zhè wèi jūn shī! duì le, zhōu liù wǎn shàng nǐ yě yì qǐ lái hē liǎng bēi ba?",
+        "pinyinHtml": "tài shí yòng le! zhè zhōu mò jù cān yào shi bàn de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tuǒ</span> tuǒ dàng dāng de, quán kào nǐ zhè wèi jūn shī! duì le, zhōu liù wǎn shàng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> yě yì qǐ lái hē liǎng bēi ba?",
+        "vi": "Hữu ích quá! Cuối tuần này tiệc mà suôn sẻ là nhờ cả quân sư cậu đấy! À, tối thứ 7 cậu cũng qua làm vài ly cùng nhé?",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "哈哈，这邀请我可不客气了，一定准时去给你帮衬场子！",
+        "pinyin": "hā hā, zhè yāo qǐng wǒ kě bú kè qì le, yí dìng zhǔn shí qù gěi nǐ bāng chèn chǎng zi!",
+        "pinyinHtml": "hā hā, zhè yāo <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qǐng</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> kě bú kè qì le, yí dìng zhǔn shí qù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gěi</span> nǐ bāng chèn chǎng zi!",
+        "vi": "Haha, lời mời này tớ không khách sáo đâu, nhất định tới đúng giờ phụ cậu tiếp khách!",
+        "modified": true
+       }
+      ],
+      "diffs": [
+       {
+        "n": 1,
+        "role": "A",
+        "v1": {
+         "zh": "明明，我妹妹考上大学了，我家打算周末宴请亲戚朋友庆祝，但我从来没有请客过，不知道怎么办？",
+         "pinyin": "míng míng, wǒ mèi mei kǎo shàng dà xué le, wǒ jiā dǎ suàn zhōu mò yàn qǐng qīn qi péng yǒu qìng zhù, dàn wǒ cóng lái méi yǒu qǐng kè guò, bù zhī dào zěn me bàn?",
+         "pinyinHtml": "míng míng, wǒ mèi mei kǎo shàng dà xué le, wǒ jiā dǎ suàn zhōu mò yàn qǐng qīn qi péng yǒu qìng zhù, dàn wǒ cóng lái méi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> qǐng kè guò, bù zhī dào zěn me bàn?",
+         "vi": "Minh Minh, em gái tớ đỗ đại học rồi, nhà tớ định cuối tuần mời họ hàng bạn bè ăn mừng, nhưng tớ chưa từng đứng ra mời khách bao giờ, chẳng biết làm sao nữa?"
+        },
+        "v2": {
+         "zh": "明明，我妹妹刚拿到大学录取通知书！家里打算这周末请亲戚朋友吃顿饭庆祝一下，可我头一回张罗请客，心里真没底。",
+         "pinyin": "míng míng, wǒ mèi mèi gāng ná dào dà xué lù qǔ tōng zhī shū! jiā lǐ dǎ suàn zhè zhōu mò qǐng qīn qi péng yǒu chī dùn fàn qìng zhù yí xià, kě wǒ tóu yì huí zhāng luó qǐng kè, xīn lǐ zhēn méi dǐ.",
+         "pinyinHtml": "míng míng, wǒ mèi mèi gāng ná dào dà xué lù qǔ tōng zhī shū! jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> dǎ suàn zhè zhōu mò qǐng qīn qi péng yǒu chī dùn fàn qìng zhù yí xià, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> wǒ tóu yì huí zhāng luó qǐng kè, xīn lǐ zhēn méi dǐ.",
+         "vi": "Minh Minh, em gái tớ vừa nhận được giấy báo trúng tuyển đại học! Nhà định cuối tuần này mời họ hàng bạn bè ăn bữa cơm mừng, mà tớ lần đầu đứng ra tổ chức mời khách, thấy lo ghê."
+        },
+        "reason": "Sửa lỗi sai ngữ pháp câu 1 bản gốc (“不知道这么办” -> “心里真没底”) + mô tả bối cảnh tự nhiên."
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "v1": {
+         "zh": "我以前经历过一次请客，也当过很多次客人。我觉得请客是一件很有意义的事情。",
+         "pinyin": "wǒ yǐ qián jīng lì guò yí cì qǐng kè, yě dāng guò hěn duō cì kè rén. wǒ jué de qǐng kè shì yí jiàn hěn yǒu yì yì de shì qíng.",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǐ qián jīng lì guò yí cì qǐng kè, yě dāng guò hěn duō cì kè rén. wǒ jué de qǐng kè shì yí jiàn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> yǒu yì yì de shì qíng.",
+         "vi": "Tớ trước từng có một lần đứng ra mời khách, cũng đi làm khách nhiều lần rồi. Tớ thấy mời khách là việc rất có ý nghĩa đấy."
+        },
+        "v2": {
+         "zh": "嗨，这事好说！其实我上个月刚张罗过一次家庭聚餐，最有心得了，说到底就是用心二字。",
+         "pinyin": "hāi, zhè shì hǎo shuō! qí shí wǒ shàng gè yuè gāng zhāng luó guò yí cì jiā tíng jù cān, zuì yǒu xīn de le, shuō dào dǐ jiù shì yòng xīn èr zì.",
+         "pinyinHtml": "hāi, zhè shì hǎo shuō! qí shí wǒ shàng gè yuè gāng zhāng luó guò yí cì jiā tíng jù cān, zuì yǒu xīn de le, shuō dào dǐ jiù shì yòng xīn èr zì.",
+         "vi": "Ôi, chuyện này dễ bàn thôi! Tháng trước tớ vừa đứng ra tổ chức một bữa tiệc gia đình xong, rút ra nhiều kinh nghiệm lắm, nói cho cùng gói gọn ở chữ 'tận tâm'."
+        },
+        "reason": "Lồng ghép mẫu câu Bài 3 “好说” (dễ thu xếp thôi) + kể lại trải nghiệm thực tế sinh động."
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "v1": {
+         "zh": "太好了！那次请客的时候，你是怎么准备和招待客人的？",
+         "pinyin": "tài hǎo le! nà cì qǐng kè de shí hòu, nǐ shì zěn me zhǔn bèi hé zhāo dài kè rén de?",
+         "pinyinHtml": "tài hǎo le! nà cì qǐng kè de shí hòu, nǐ shì zěn me zhǔn bèi hé zhāo dài kè rén de?",
+         "vi": "Hay quá! Lần mời khách đó cậu chuẩn bị và tiếp đón mọi người thế nào?"
+        },
+        "v2": {
+         "zh": "那太好了！快跟我讲讲，你那次请客从头到尾是怎么安排的？",
+         "pinyin": "nà tài hǎo le! kuài gēn wǒ jiǎng jiǎng, nǐ nà cì qǐng kè cóng tóu dào wěi shì zěn me ān pái de?",
+         "pinyinHtml": "nà tài hǎo le! kuài gēn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jiǎng</span> jiǎng, nǐ nà cì qǐng kè cóng tóu dào wěi shì zěn me ān pái de?",
+         "vi": "Tuyệt quá! Kể tớ nghe ngay đi, lần đó cậu thu xếp từ đầu đến cuối thế nào?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "v1": {
+         "zh": "我先提前发了明确的时间和地点，清楚地指了路，那天还早到半小时在门口迎接大家。",
+         "pinyin": "wǒ xiān tí qián fā le míng què de shí jiān hé dì diǎn, qīng chǔ de zhǐ le lù, nà tiān hái zǎo dào bàn xiǎo shí zài mén kǒu yíng jiē dà jiā.",
+         "pinyinHtml": "wǒ xiān tí qián fā le míng què de shí jiān hé dì diǎn, qīng chǔ de zhǐ le lù, nà tiān hái zǎo dào bàn xiǎo shí zài mén kǒu yíng jiē dà jiā.",
+         "vi": "Tớ gửi trước thời gian địa điểm thật rõ ràng, chỉ đường cẩn thận, hôm đó còn đến sớm nửa tiếng đứng ở cửa đón mọi người."
+        },
+        "v2": {
+         "zh": "我提前两天就把餐厅定位和时间发群里了，还特意早到二十分钟去包厢空调、茶水都备好，亲戚长辈一到门口我就亲自迎进去。",
+         "pinyin": "wǒ tí qián liǎng tiān jiù bǎ cān tīng dìng wèi hé shí jiān fā qún lǐ le, hái tè yì zǎo dào èr shí fēn zhōng qù bāo xiāng kōng tiáo, chá shuǐ dōu bèi hǎo, qīn qi zhǎng bèi yí dào mén kǒu wǒ jiù qīn zì yíng jìn qù.",
+         "pinyinHtml": "wǒ tí qián liǎng tiān jiù bǎ cān tīng dìng wèi hé shí jiān fā qún lǐ le, hái tè yì zǎo dào èr shí fēn zhōng qù bāo xiāng kōng tiáo, chá shuǐ dōu bèi hǎo, qīn qi zhǎng bèi yí dào mén <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kǒu</span> wǒ jiù qīn zì yíng jìn qù.",
+         "vi": "Trước hai hôm tớ đã gửi định vị quán và giờ giấc lên nhóm, hôm đó cố tình tới sớm 20 phút chuẩn bị phòng riêng, điều hòa, trà nước sẵn sàng; họ hàng người lớn vừa tới cửa là tớ ra đón tận nơi."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "v1": {
+         "zh": "只请一顿饭，一定要派人在门口接人吗？我以为客人想吃什么点什么就行了。",
+         "pinyin": "zhǐ qǐng yí dùn fàn, yí dìng yào pài rén zài mén kǒu jiē rén ma? wǒ yǐ wéi kè rén xiǎng chī shén me diǎn shén me jiù xíng le.",
+         "pinyinHtml": "zhǐ qǐng yí dùn fàn, yí dìng yào pài rén zài mén kǒu jiē rén ma? <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǐ wéi kè rén xiǎng chī shén me diǎn shén me jiù xíng le.",
+         "vi": "Chỉ mời một bữa cơm thôi mà nhất thiết phải đứng ở cửa đón à? Tớ tưởng khách thích ăn gì gọi nấy là xong chứ."
+        },
+        "v2": {
+         "zh": "哇，这么讲究呀？我原本以为请客不就是订好桌，大家坐下来点菜吃饭嘛，原来细节这么多。",
+         "pinyin": "wā, zhè me jiǎng jiū ya? wǒ yuán běn yǐ wéi qǐng kè bú jiù shì dìng hǎo zhuō, dà jiā zuò xià lái diǎn cài chī fàn ma, yuán lái xì jié zhè me duō.",
+         "pinyinHtml": "wā, zhè me jiǎng jiū ya? wǒ yuán <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">běn</span> yǐ wéi qǐng kè bú jiù shì dìng hǎo zhuō, dà jiā zuò xià lái diǎn cài chī fàn ma, yuán lái xì jié zhè me duō.",
+         "vi": "Ồ, cầu kỳ vậy cơ à? Tớ vốn tưởng mời khách chỉ là đặt bàn, mọi người ngồi xuống gọi món ăn thôi chứ, hóa ra lắm tiểu tiết thế."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "v1": {
+         "zh": "那可不行。既然请了客，就应该好好招待，尤其是对长辈更要注意礼貌。先安排好座位，再热心问大家口味。",
+         "pinyin": "nà kě bù xíng. jì rán qǐng le kè, jiù yīng gāi hǎo hǎo zhāo dài, yóu qí shì duì zhǎng bèi gèng yào zhù yì lǐ mào. xiān ān pái hǎo zuò wèi, zài rè xīn wèn dà jiā kǒu wèi.",
+         "pinyinHtml": "nà kě bù xíng. jì rán qǐng le kè, jiù yīng gāi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> hǎo zhāo dài, yóu qí shì duì zhǎng bèi gèng yào zhù yì lǐ mào. xiān ān pái hǎo zuò wèi, zài rè xīn wèn dà jiā kǒu wèi.",
+         "vi": "Thế thì không ổn đâu. Đã mời khách thì phải tiếp đón chu đáo, nhất là người lớn tuổi càng phải giữ lễ phép. Xếp chỗ ngồi xong xuôi rồi nhiệt tình hỏi khẩu vị mọi người."
+        },
+        "v2": {
+         "zh": "可不是嘛！客人推掉别的事来捧场，就是给咱们面子，特别是长辈，更得显得热情周到，不然很容易把气氛弄砸。",
+         "pinyin": "kě bú shì ma! kè rén tuī diào bié de shì lái pěng chǎng, jiù shì gěi zán men miàn zi, tè bié shì zhǎng bèi, gèng de xiǎn de rè qíng zhōu dào, bù rán hěn róng yì bǎ qì fēn nòng zá.",
+         "pinyinHtml": "kě bú shì ma! kè rén tuī diào bié de shì lái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">pěng</span> chǎng, jiù shì gěi zán men miàn zi, tè bié shì zhǎng bèi, gèng de xiǎn de rè qíng zhōu dào, bù rán hěn róng yì bǎ qì fēn nòng zá.",
+         "vi": "Chứ còn gì nữa! Khách gác việc khác qua chung vui là nể mặt mình lắm rồi, nhất là bậc lớn tuổi càng phải chu đáo nhiệt tình, kẻo dễ làm hỏng không khí lắm."
+        },
+        "reason": "Lồng ghép mẫu câu Bài 3 “弄砸” (làm hỏng chuyện)."
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "v1": {
+         "zh": "对哦，那请客的时候到底怎么点菜才合适呢？我最怕点得不合大家胃口。",
+         "pinyin": "duì ò, nà qǐng kè de shí hòu dào dǐ zěn me diǎn cài cái hé shì ne? wǒ zuì pà diǎn de bù hé dà jiā wèi kǒu.",
+         "pinyinHtml": "duì ò, nà qǐng kè de shí hòu dào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǐ</span> zěn me diǎn cài cái hé shì ne? wǒ zuì pà diǎn de bù hé dà jiā wèi kǒu.",
+         "vi": "Đúng rồi, thế lúc mời khách rốt cuộc gọi món thế nào cho khéo? Tớ sợ nhất gọi không hợp miệng mọi người."
+        },
+        "v2": {
+         "zh": "受教了！那到最头疼的一步了——请客时该怎么点菜才显得得体又不浪费？",
+         "pinyin": "shòu jiào le! nà dào zuì tóu téng de yí bù le-- qǐng kè shí gāi zěn me diǎn cài cái xiǎn de dé tǐ yòu bú làng fèi?",
+         "pinyinHtml": "shòu jiào le! nà dào zuì tóu téng de yí bù le-- qǐng kè shí gāi zěn me diǎn cài cái xiǎn de dé tǐ yòu bú làng fèi?",
+         "vi": "Mở mang tầm mắt thật! Thế đến bước đau đầu nhất — lúc mời khách nên gọi món thế nào cho vừa khéo lại không lãng phí?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "v1": {
+         "zh": "点菜好说！先问大家有没有不吃辣或者忌口的，再按照人数点：有荤有素、有凉有热，再来一锅好喝的汤，肯定不会出错。",
+         "pinyin": "diǎn cài hǎo shuō! xiān wèn dà jiā yǒu méi yǒu bù chī là huò zhě jì kǒu de, zài àn zhào rén shù diǎn: yǒu hūn yǒu sù, yǒu liáng yǒu rè, zài lái yì guō hǎo hē de tāng, kěn dìng bú huì chū cuò.",
+         "pinyinHtml": "diǎn cài hǎo shuō! xiān wèn dà jiā yǒu méi yǒu bù chī là huò zhě jì kǒu de, zài àn zhào rén shù diǎn: yǒu hūn yǒu sù, yǒu liáng yǒu rè, zài lái yì guō hǎo hē de tāng, kěn dìng bú huì chū cuò.",
+         "vi": "Gọi món dễ ẹc! Trước hết hỏi mọi người xem có ai không ăn cay hay kiêng gì không, rồi căn theo số người mà gọi: có món mặn món chay, món nguội món nóng, thêm nồi canh ngon nữa là chắc chắn không sai được."
+        },
+        "v2": {
+         "zh": "我一般有三个原则：第一，先问清楚客人的口味和忌口，比如有人吃不惯辣或者不吃海鲜；第二，荤素凉热搭配着点，照顾老人小孩；第三，菜量按“人数加一”就够了，重在让大家大饱口福又不剩菜。",
+         "pinyin": "wǒ yì bān yǒu sān gè yuán zé: dì yī, xiān wèn qīng chǔ kè rén de kǒu wèi hé jì kǒu, bǐ rú yǒu rén chī bú guàn là huò zhě bù chī hǎi xiān; dì èr, hūn sù liáng rè dā pèi zhe diǎn, zhào gù lǎo rén xiǎo hái; dì sān, cài liáng àn \"rén shù jiā yī\" jiù gòu le, zhòng zài ràng dà jiā dà bǎo kǒu fú yòu bú shèng cài.",
+         "pinyinHtml": "wǒ yì bān yǒu sān gè yuán zé: dì yī, xiān wèn qīng chǔ kè rén de kǒu wèi hé jì kǒu, bǐ rú yǒu rén chī bú guàn là huò zhě bù chī hǎi xiān; dì èr, hūn sù liáng rè dā pèi zhe diǎn, zhào gù lǎo rén xiǎo hái; dì sān, cài liáng àn \"rén shù jiā yī\" jiù gòu le, zhòng zài ràng dà jiā dà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎo</span> kǒu fú yòu bú shèng cài.",
+         "vi": "Tớ thường theo 3 nguyên tắc: Một là hỏi rõ khẩu vị và món kiêng của khách trước, ví dụ có ai không quen ăn cay hay dị ứng hải sản không; Hai là kết hợp món mặn-chay-nguội-nóng cho hợp cả người già trẻ nhỏ; Ba là gọi số món bằng 'số người cộng một' thôi, cốt sao ai cũng được ăn ngon thỏa thích mà không thừa mứa."
+        },
+        "reason": "Bổ sung trọn vẹn bí quyết cho câu hỏi Slide (“请客时，怎么点菜？”) + lồng ghép “吃不惯” và “大饱口福” (Bài 3)."
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "v1": {
+         "zh": "原来如此！以前我总以为请客就是花钱吃饭，现在才知道最重要的是让客人觉得舒服、被重视。",
+         "pinyin": "yuán lái rú cǐ! yǐ qián wǒ zǒng yǐ wéi qǐng kè jiù shì huā qián chī fàn, xiàn zài cái zhī dào zuì zhòng yào de shì ràng kè rén jué de shū fú, bèi zhòng shì.",
+         "pinyinHtml": "yuán lái rú cǐ! yǐ qián <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǒng</span> yǐ wéi qǐng kè jiù shì huā qián chī fàn, xiàn zài cái zhī dào zuì zhòng yào de shì ràng kè rén jué de shū fú, bèi zhòng shì.",
+         "vi": "Thì ra vậy! Trước tớ cứ tưởng mời khách chỉ là bỏ tiền ra ăn, giờ mới biết quan trọng nhất là để khách thấy thoải mái và được trân trọng."
+        },
+        "v2": {
+         "zh": "听你这么一拆解，我豁然开朗！请客真不是比谁花钱多，而是比谁心思细、能让客人觉得舒坦受重视。",
+         "pinyin": "tīng nǐ zhè me yì chāi jiě, wǒ huō rán kāi lǎng! qǐng kè zhēn bú shì bǐ shuí huā qián duō, ér shì bǐ shuí xīn sī xì, néng ràng kè rén jué de shū tǎn shòu zhòng shì.",
+         "pinyinHtml": "tīng nǐ zhè me yì chāi jiě, wǒ huō rán kāi lǎng! qǐng kè zhēn bú shì bǐ shuí huā qián duō, ér shì bǐ shuí xīn sī xì, néng ràng kè rén jué de shū tǎn shòu zhòng shì.",
+         "vi": "Nghe cậu phân tích xong tớ thông suốt hẳn! Mời khách đâu phải thi xem ai chi nhiều tiền, mà ở chỗ tinh tế để khách thấy dễ chịu và được tôn trọng."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "v1": {
+         "zh": "没错，只要用心照顾好气氛，大家聊得开心，这顿饭就算成功了。",
+         "pinyin": "méi cuò, zhǐ yào yòng xīn zhào gù hǎo qì fēn, dà jiā liáo de kāi xīn, zhè dùn fàn jiù suàn chéng gōng le.",
+         "pinyinHtml": "méi cuò, zhǐ yào yòng xīn zhào gù hǎo qì fēn, dà jiā liáo de kāi xīn, zhè dùn fàn jiù suàn chéng gōng le.",
+         "vi": "Đúng thế, chỉ cần để tâm chăm chút không khí, mọi người trò chuyện vui vẻ là bữa cơm coi như thành công rồi."
+        },
+        "v2": {
+         "zh": "对头！记住吃饭时多给大家夹夹菜、照顾一下冷场的客人，别光顾着自己低头吃就行。",
+         "pinyin": "duì tóu! jì zhù chī fàn shí duō gěi dà jiā jiá jiá cài, zhào gù yí xià lěng chǎng de kè rén, bié guāng gù zhe zì jǐ dī tóu chī jiù xíng.",
+         "pinyinHtml": "duì tóu! jì zhù chī fàn shí duō gěi dà jiā jiá jiá cài, zhào gù yí xià <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lěng</span> chǎng de kè rén, bié guāng gù zhe zì jǐ dī tóu chī jiù xíng.",
+         "vi": "Chuẩn luôn! Nhớ lúc ăn thỉnh thoảng gắp đồ ăn mời mọi người, để ý bắt chuyện với khách nào hơi ít nói, đừng chỉ cắm cúi ăn phần mình là ổn."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "v1": {
+         "zh": "谢谢你的经验，有你指点我心里踏实多了！周末有空也欢迎你一起来吃顿便饭啊。",
+         "pinyin": "xiè xiè nǐ de jīng yàn, yǒu nǐ zhǐ diǎn wǒ xīn lǐ tà shí duō le! zhōu mò yǒu kōng yě huān yíng nǐ yì qǐ lái chī dùn biàn fàn a.",
+         "pinyinHtml": "xiè xiè nǐ de jīng yàn, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">diǎn</span> wǒ xīn lǐ tà shí duō le! zhōu mò yǒu kōng yě huān yíng nǐ yì qǐ lái chī dùn biàn fàn a.",
+         "vi": "Cảm ơn kinh nghiệm của cậu, có cậu chỉ dẫn tớ yên tâm hẳn! Cuối tuần rảnh mời cậu cùng qua ăn bữa cơm thân mật nhé."
+        },
+        "v2": {
+         "zh": "太实用了！这周末聚餐要是办得妥妥当当的，全靠你这位军师！对了，周六晚上你也一起来喝两杯吧？",
+         "pinyin": "tài shí yòng le! zhè zhōu mò jù cān yào shi bàn de tuǒ tuǒ dàng dāng de, quán kào nǐ zhè wèi jūn shī! duì le, zhōu liù wǎn shàng nǐ yě yì qǐ lái hē liǎng bēi ba?",
+         "pinyinHtml": "tài shí yòng le! zhè zhōu mò jù cān yào shi bàn de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tuǒ</span> tuǒ dàng dāng de, quán kào nǐ zhè wèi jūn shī! duì le, zhōu liù wǎn shàng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> yě yì qǐ lái hē liǎng bēi ba?",
+         "vi": "Hữu ích quá! Cuối tuần này tiệc mà suôn sẻ là nhờ cả quân sư cậu đấy! À, tối thứ 7 cậu cũng qua làm vài ly cùng nhé?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "v1": {
+         "zh": "一定到场，预祝你妹妹前程似锦，祝你首次请客圆满成功！",
+         "pinyin": "yí dìng dào chǎng, yù zhù nǐ mèi mei qián chéng sì jǐn, zhù nǐ shǒu cì qǐng kè yuán mǎn chéng gōng!",
+         "pinyinHtml": "yí dìng dào chǎng, yù zhù nǐ mèi mei qián chéng sì jǐn, zhù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> shǒu cì qǐng kè yuán mǎn chéng gōng!",
+         "vi": "Nhất định có mặt, chúc em gái cậu tương lai rạng rỡ, chúc lần đầu mời khách của cậu thành công mỹ mãn!"
+        },
+        "v2": {
+         "zh": "哈哈，这邀请我可不客气了，一定准时去给你帮衬场子！",
+         "pinyin": "hā hā, zhè yāo qǐng wǒ kě bú kè qì le, yí dìng zhǔn shí qù gěi nǐ bāng chèn chǎng zi!",
+         "pinyinHtml": "hā hā, zhè yāo <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qǐng</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> kě bú kè qì le, yí dìng zhǔn shí qù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gěi</span> nǐ bāng chèn chǎng zi!",
+         "vi": "Haha, lời mời này tớ không khách sáo đâu, nhất định tới đúng giờ phụ cậu tiếp khách!"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       }
+      ],
+      "audio": "audio/b3-q10.m4a",
+      "audioDuration": 112.61,
+      "audioTimings": [
+       {
+        "n": 1,
+        "role": "A",
+        "start": 0.25,
+        "end": 10.53
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "start": 10.53,
+        "end": 19.16
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "start": 19.16,
+        "end": 24.74
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "start": 24.74,
+        "end": 36.15
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "start": 36.15,
+        "end": 44.62
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "start": 44.62,
+        "end": 55.11
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "start": 55.11,
+        "end": 61.89
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "start": 61.89,
+        "end": 79.94
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "start": 79.94,
+        "end": 89.32
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "start": 89.32,
+        "end": 97.77
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "start": 97.77,
+        "end": 107.56
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "start": 107.56,
+        "end": 112.61
+       }
+      ]
+     },
+     {
+      "id": "b3-q11",
+      "no": 11,
+      "examNo": 11,
+      "priority": null,
+      "isExamScope": true,
+      "titleVi": "Nam nữ đi ăn cùng nhau, ai nên là người trả tiền?",
+      "question": "男生和女生一起去吃饭时，你认为谁应该买单？",
+      "questionPinyin": "nán shēng hé nǚ shēng yì qǐ qù chī fàn shí, nǐ rèn wéi shuí yīng gāi mǎi dān?",
+      "questionPinyinHtml": "nán shēng hé nǚ shēng yì qǐ qù chī fàn shí, nǐ rèn wéi shuí yīng gāi mǎi dān?",
+      "slideQuestions": [
+       "女生都认为男生应该付钱，你怎么看？"
+      ],
+      "outline": "Dẫn dắt từ bữa ăn chung → Nêu 2 luồng quan điểm (quan điểm truyền thống: nam trả thể hiện ga-lăng vs quan điểm hiện đại: bình đẳng AA hoặc luân phiên mời) → Chốt giải pháp khéo léo: Lần đầu ai rủ/nam chủ động, sau đó chia AA hoặc mời qua lại.",
+      "takeaways": {
+       "points": [
+        "Quan điểm truyền thống: Bạn nam chủ động trả tiền thể hiện sự lịch sự, ga-lăng và tôn trọng bạn nữ (男方主动买单，显得大方有担当)",
+        "Quan điểm hiện đại & Bình đẳng: Ngày nay nam nữ đều độc lập tài chính; nếu luôn để bạn nam trả, bạn nữ cũng ngại và mang tâm lý mắc nợ (经济独立、一直让男生付会不好意思)",
+        "Cách giải quyết tinh tế nhất: Ai chủ động hẹn trước hoặc buổi gặp đầu tiên nên trả; về sau quen rồi thì chia AA hoặc bữa này anh mời, bữa sau em mời trà sữa (谁请客谁买单 / 你请吃饭我请咖啡)",
+        "Mẫu câu Bài 3: 看来 (xem ra), 要么……要么…… (hoặc... hoặc...), 好说 (dễ bàn thôi)"
+       ],
+       "goldenQuotes": "第一次见面或谁主动约就谁买单，表达诚意；熟了以后要么AA制，要么你请吃饭我请喝奶茶，谁都不吃亏也不尴尬。"
+      },
+      "lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "怎么样，这家新开的馆子合你胃口吗？",
+        "pinyin": "zěn me yàng, zhè jiā xīn kāi de guǎn zǐ hé nǐ wèi kǒu ma?",
+        "pinyinHtml": "zěn me yàng, zhè jiā xīn kāi de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǎn</span> zǐ hé nǐ wèi kǒu ma?",
+        "vi": "Sao nào, quán mới mở này có hợp khẩu vị cậu không?",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "菜很地道，环境也舒心，多谢你破费请客啦！",
+        "pinyin": "cài hěn dì dào, huán jìng yě shū xīn, duō xiè nǐ pò fèi qǐng kè lā!",
+        "pinyinHtml": "cài hěn dì dào, huán jìng yě shū xīn, duō xiè nǐ pò fèi qǐng kè lā!",
+        "vi": "Món ăn chuẩn vị lắm, không gian cũng dễ chịu, cảm ơn cậu đã tốn kém khao tớ nhé!",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "客气啥！再说了，跟女生出来吃饭，男孩子主动买单不是天经地义的事嘛。",
+        "pinyin": "kè qì shá! zài shuō le, gēn nǚ shēng chū lái chī fàn, nán hái zi zhǔ dòng mǎi dān bú shì tiān jīng de yì de shì ma.",
+        "pinyinHtml": "kè qì shá! zài shuō le, gēn nǚ shēng chū lái chī fàn, nán hái zi zhǔ dòng mǎi dān bú shì tiān jīng de yì de shì ma.",
+        "vi": "Khách sáo gì! Với lại đi ăn với con gái, con trai chủ động trả tiền chẳng phải chuyện đương nhiên à.",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "哎，正好聊到这儿，我就想问你：现在好多女生觉得男生付钱理所应当，你心里真这么看，还是觉得有点冤？",
+        "pinyin": "āi, zhèng hǎo liáo dào zhèr, wǒ jiù xiǎng wèn nǐ: xiàn zài hǎo duō nǚ shēng jué de nán shēng fù qián lǐ suǒ yīng dāng, nǐ xīn lǐ zhēn zhè me kàn, hái shì jué de yǒu diǎn yuān?",
+        "pinyinHtml": "āi, zhèng hǎo liáo dào zhèr, wǒ jiù xiǎng wèn nǐ: xiàn zài hǎo duō nǚ shēng jué de nán shēng fù qián <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> suǒ yīng dāng, nǐ xīn lǐ zhēn zhè me kàn, hái shì jué de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> diǎn yuān?",
+        "vi": "Này, đúng lúc nói tới chuyện này tớ muốn hỏi thật: giờ nhiều bạn nữ cứ mặc định con trai phải trả tiền, trong lòng cậu nghĩ thế thật hay cũng thấy hơi thiệt?",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "分人也分场合吧。如果是我主动约出来的，买单是基本的礼貌和绅士风度，我心甘情愿。",
+        "pinyin": "fēn rén yě fēn chǎng hé ba. rú guǒ shì wǒ zhǔ dòng yuē chū lái de, mǎi dān shì jī běn de lǐ mào hé shēn shì fēng dù, wǒ xīn gān qíng yuàn.",
+        "pinyinHtml": "fēn rén yě fēn chǎng hé ba. rú guǒ shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zhǔ dòng yuē chū lái de, mǎi dān shì jī běn de lǐ mào hé shēn shì fēng dù, wǒ xīn gān qíng yuàn.",
+        "vi": "Tùy người tùy dịp chứ. Nếu là tớ chủ động mở lời rủ đi, trả tiền là phép lịch sự tối thiểu và phong độ đàn ông, tớ hoàn toàn tự nguyện.",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "这倒是。可我不太认同“男生必须次次买单”这种老观念，毕竟现在大家都是学生或者各自有工作，谁的钱也不是大风刮来的。",
+        "pinyin": "zhè dǎo shì. kě wǒ bú tài rèn tóng \"nán shēng bì xū cì cì mǎi dān\" zhè zhǒng lǎo guān niàn, bì jìng xiàn zài dà jiā dōu shì xué shēng huò zhě gè zì yǒu gōng zuò, shuí de qián yě bú shì dà fēng guā lái de.",
+        "pinyinHtml": "zhè dǎo shì. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> wǒ bú tài rèn tóng \"nán shēng bì xū cì cì mǎi dān\" zhè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǒng</span> lǎo guān niàn, bì jìng xiàn zài dà jiā dōu shì xué shēng huò zhě gè zì yǒu gōng zuò, shuí de qián yě bú shì dà fēng guā lái de.",
+        "vi": "Cái đó thì đúng. Nhưng tớ không đồng tình kiểu quan niệm cũ 'con trai lần nào cũng phải trả', dù sao giờ mọi người đều là sinh viên hoặc đi làm cả rồi, tiền của ai cũng đâu phải tự nhiên rơi xuống.",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "看来你挺独立的！确实，有些男生嘴上说无所谓，其实天天被当“提款机”心里也别扭；反过来直接提AA吧，又怕女生觉得自己小气。",
+        "pinyin": "kàn lái nǐ tǐng dú lì de! què shí, yǒu xiē nán shēng zuǐ shàng shuō wú suǒ wèi, qí shí tiān tiān bèi dāng \"tí kuǎn jī\" xīn lǐ yě biè niu; fǎn guò lái zhí jiē tí A A ba, yòu pà nǚ shēng jué de zì jǐ xiǎo qì.",
+        "pinyinHtml": "kàn lái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> tǐng dú lì de! què shí, yǒu xiē nán shēng zuǐ shàng shuō wú suǒ wèi, qí shí tiān tiān bèi dāng \"tí kuǎn jī\" xīn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> yě biè niu; fǎn guò lái zhí jiē tí A A ba, yòu pà nǚ shēng jué de zì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> xiǎo qì.",
+        "vi": "Xem ra cậu rất độc lập đấy! Đúng thật, nhiều ông con trai miệng bảo không sao chứ ngày nào cũng bị coi như 'cây ATM' trong lòng cũng khó chịu; ngược lại mở miệng đòi chia AA ngay lại sợ bạn nữ nghĩ mình ki bo.",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "太真实了！所以我跟朋友甚至约会对象出门，从来不让对方单方面一直付钱，老吃白食我心里不踏实，尴尬得很。",
+        "pinyin": "tài zhēn shí le! suǒ yǐ wǒ gēn péng yǒu shèn zhì yuē huì duì xiàng chū mén, cóng lái bú ràng duì fāng dān fāng miàn yì zhí fù qián, lǎo chī bái shí wǒ xīn lǐ bú tà shí, gān gà de hěn.",
+        "pinyinHtml": "tài zhēn shí le! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐ</span> wǒ gēn péng yǒu shèn zhì yuē huì duì xiàng chū mén, cóng lái bú ràng duì fāng dān fāng miàn yì zhí fù qián, lǎo chī bái shí wǒ xīn lǐ bú tà shí, gān gà de hěn.",
+        "vi": "Chuẩn không cần chỉnh! Thế nên tớ đi chơi với bạn bè hay cả đối tượng hẹn hò, chẳng bao giờ để một phía cứ trả mãi, ăn chực mãi trong lòng thấy bất an, ngại chết đi được.",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "那按你的经验，怎么处理才显得双方都体面、不伤感情？",
+        "pinyin": "nà àn nǐ de jīng yàn, zěn me chǔ lǐ cái xiǎn de shuāng fāng dōu tǐ miàn, bù shāng gǎn qíng?",
+        "pinyinHtml": "nà àn nǐ de jīng yàn, zěn me <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">chǔ</span> lǐ cái xiǎn de shuāng fāng dōu tǐ miàn, bù shāng gǎn qíng?",
+        "vi": "Thế theo kinh nghiệm của cậu, xử lý sao cho đôi bên đều đẹp mặt mà không sứt mẻ tình cảm?",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "好说呀！要么头一回见面或谁主动发起就谁买单，展现一下诚意；熟络之后要么直接AA，要么“你请正餐、我买奶茶”，轮流回请最舒服！",
+        "pinyin": "hǎo shuō ya! yào me tóu yì huí jiàn miàn huò shuí zhǔ dòng fā qǐ jiù shuí mǎi dān, zhǎn xiàn yí xià chéng yì; shú luò zhī hòu yào me zhí jiē A A, yào me \"nǐ qǐng zhèng cān, wǒ mǎi nǎi chá\", lún liú huí qǐng zuì shū fú!",
+        "pinyinHtml": "hǎo shuō ya! yào me tóu yì huí jiàn miàn huò shuí zhǔ dòng fā qǐ jiù shuí mǎi dān, zhǎn xiàn yí xià chéng yì; shú luò zhī hòu yào me zhí jiē A A, yào me \"<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> qǐng zhèng cān, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> nǎi chá\", lún liú huí qǐng zuì shū fú!",
+        "vi": "Dễ xử lý mà! Hoặc lần đầu gặp hay ai chủ động rủ thì người đó trả để tỏ thành ý; thân rồi thì hoặc chia AA thẳng, hoặc 'anh mời bữa chính, em mua trà sữa', luân phiên đáp lễ là thoải mái nhất!",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "高明！这招既保留了男生的担当，又让女生觉得平等尊重，双方都没压力。",
+        "pinyin": "gāo míng! zhè zhāo jì bǎo liú le nán shēng de dān dāng, yòu ràng nǚ shēng jué de píng děng zūn zhòng, shuāng fāng dōu méi yā lì.",
+        "pinyinHtml": "gāo míng! zhè zhāo jì bǎo liú le nán shēng de dān dāng, yòu ràng nǚ shēng jué de píng děng zūn zhòng, shuāng fāng dōu méi yā lì.",
+        "vi": "Cao tay! Chiêu này vừa giữ được sự ga-lăng cho bạn nam, vừa để bạn nữ thấy bình đẳng tôn trọng, hai bên đều nhẹ đầu.",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "那今天咱就从这儿开始实行！待会儿出门右转那家奶茶店，这杯我请定了，不许跟我抢！",
+        "pinyin": "nà jīn tiān zán jiù cóng zhèr kāi shǐ shí xíng! dài huìr chū mén yòu zhuǎn nà jiā nǎi chá diàn, zhè bēi wǒ qǐng dìng le, bù xǔ gēn wǒ qiǎng!",
+        "pinyinHtml": "nà jīn tiān zán jiù cóng zhèr kāi shǐ shí xíng! dài huìr chū mén yòu zhuǎn nà jiā nǎi chá diàn, zhè bēi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> qǐng dìng le, bù xǔ gēn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> qiǎng!",
+        "vi": "Vậy hôm nay mình áp dụng luôn từ đây! Lát ra cửa rẽ phải có quán trà sữa, chầu này nhất định tớ khao, cấm tranh giành với tớ đấy!",
+        "modified": true
+       }
+      ],
+      "v1_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "这家店味道不错吧？",
+        "pinyin": "zhè jiā diàn wèi dào bú cuò ba?",
+        "pinyinHtml": "zhè jiā diàn wèi dào bú cuò ba?",
+        "vi": "Quán này vị ngon đấy chứ?",
+        "modified": false
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "环境也很好。谢谢你请我吃饭啦！",
+        "pinyin": "huán jìng yě hěn hǎo. xiè xiè nǐ qǐng wǒ chī fàn lā!",
+        "pinyinHtml": "huán jìng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> hǎo. xiè xiè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qǐng</span> wǒ chī fàn lā!",
+        "vi": "Không gian cũng đẹp nữa. Cảm ơn cậu đã mời tớ ăn cơm nhé!",
+        "modified": false
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "哈哈，不客气。男生请女生吃饭不是应该的吗？",
+        "pinyin": "hā hā, bú kè qì. nán shēng qǐng nǚ shēng chī fàn bú shì yīng gāi de ma?",
+        "pinyinHtml": "hā hā, bú kè qì. nán shēng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qǐng</span> nǚ shēng chī fàn bú shì yīng gāi de ma?",
+        "vi": "Haha, đừng khách sáo. Con trai mời con gái ăn cơm chẳng phải chuyện đương nhiên sao?",
+        "modified": false
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "哎，其实我一直想跟你聊这个话题。你真的觉得男生就“应该”请客吗？",
+        "pinyin": "āi, qí shí wǒ yì zhí xiǎng gēn nǐ liáo zhè ge huà tí. nǐ zhēn de jué de nán shēng jiù \"yīng gāi\" qǐng kè ma?",
+        "pinyinHtml": "āi, qí shí wǒ yì zhí xiǎng gēn nǐ liáo zhè ge huà tí. nǐ zhēn de jué de nán shēng jiù \"yīng gāi\" qǐng kè ma?",
+        "vi": "Này, thực ra tớ vẫn muốn bàn với cậu chuyện này. Cậu thật sự nghĩ con trai là 'đương nhiên phải' trả tiền à?",
+        "modified": false
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "我觉得如果男生约女生吃饭，那就该买单，算是一种礼貌和担当吧。",
+        "pinyin": "wǒ jué de rú guǒ nán shēng yuē nǚ shēng chī fàn, nà jiù gāi mǎi dān, suàn shì yì zhǒng lǐ mào hé dān dāng ba.",
+        "pinyinHtml": "wǒ jué de rú guǒ nán shēng yuē nǚ shēng chī fàn, nà jiù gāi mǎi dān, suàn shì yì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǒng</span> lǐ mào hé dān dāng ba.",
+        "vi": "Tớ thấy nếu con trai hẹn con gái đi ăn thì nên thanh toán, coi như phép lịch sự và sự ga-lăng.",
+        "modified": false
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "但是现在男女都经济独立了，总认为男生“必须”付钱，是不是有点太传统了？",
+        "pinyin": "dàn shì xiàn zài nán nǚ dōu jīng jì dú lì le, zǒng rèn wéi nán shēng \"bì xū\" fù qián, shì bu shì yǒu diǎn tài chuán tǒng le?",
+        "pinyinHtml": "dàn shì xiàn zài nán nǚ dōu jīng jì dú lì le, zǒng rèn wéi nán shēng \"bì xū\" fù qián, shì bu shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> diǎn tài chuán tǒng le?",
+        "vi": "Nhưng giờ nam nữ đều độc lập kinh tế rồi, cứ nghĩ con trai 'bắt buộc' trả tiền liệu có hơi truyền thống quá không?",
+        "modified": false
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "你说得也对。不过在感情刚开始的时候，男生主动一点，确实能让女生觉得被重视。",
+        "pinyin": "nǐ shuō de yě duì. bú guò zài gǎn qíng gāng kāi shǐ de shí hòu, nán shēng zhǔ dòng yì diǎn, què shí néng ràng nǚ shēng jué de bèi zhòng shì.",
+        "pinyinHtml": "nǐ shuō de yě duì. bú guò zài gǎn qíng gāng kāi shǐ de shí hòu, nán shēng zhǔ dòng yì diǎn, què shí néng ràng nǚ shēng jué de bèi zhòng shì.",
+        "vi": "Cậu nói cũng đúng. Nhưng lúc mới bắt đầu tìm hiểu, con trai chủ động một chút đúng là khiến con gái thấy được trân trọng.",
+        "modified": false
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "对啊，但如果每次一起吃饭都让男的付钱，我自己也会觉得不好意思，好像欠人情一样。",
+        "pinyin": "duì a, dàn rú guǒ měi cì yì qǐ chī fàn dōu ràng nán de fù qián, wǒ zì jǐ yě huì jué de bù hǎo yì si, hǎo xiàng qiàn rén qíng yí yàng.",
+        "pinyinHtml": "duì a, dàn rú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> měi cì yì qǐ chī fàn dōu ràng nán de fù qián, wǒ zì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> yě huì jué de bù hǎo yì si, hǎo xiàng qiàn rén qíng yí yàng.",
+        "vi": "Đúng thế, nhưng nếu lần nào đi ăn cũng để bạn nam trả tiền, chính tớ cũng thấy ngại lắm, cứ như mắc nợ ân tình vậy.",
+        "modified": false
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "其实我有时候也纠结，怕直接提AA制显得小气或者不够礼貌。你说怎么做才最妥当呢？",
+        "pinyin": "qí shí wǒ yǒu shí hòu yě jiū jié, pà zhí jiē tí A A zhì xiǎn de xiǎo qì huò zhě bú gòu lǐ mào. nǐ shuō zěn me zuò cái zuì tuǒ dàng ne?",
+        "pinyinHtml": "qí shí <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǒu shí hòu yě jiū jié, pà zhí jiē tí A A zhì xiǎn de xiǎo qì huò zhě bú gòu lǐ mào. nǐ shuō zěn me zuò cái zuì tuǒ dàng ne?",
+        "vi": "Thực ra thỉnh thoảng tớ cũng lăn tăn, sợ nói thẳng chia AA lại tỏ ra ki bo hay thiếu lịch sự. Theo cậu làm thế nào mới khéo nhất?",
+        "modified": false
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "我觉得第一次见面男的买单表达诚意没问题；以后熟悉了，要么AA制，要么轮流请客，你请吃饭我请喝咖啡。",
+        "pinyin": "wǒ jué de dì yī cì jiàn miàn nán de mǎi dān biǎo dá chéng yì méi wèn tí; yǐ hòu shú xī le, yào me A A zhì, yào me lún liú qǐng kè, nǐ qǐng chī fàn wǒ qǐng hē kā fēi.",
+        "pinyinHtml": "wǒ jué de dì yī cì jiàn miàn nán de mǎi dān biǎo dá chéng yì méi wèn tí; yǐ hòu shú xī le, yào me A A zhì, yào me lún liú qǐng kè, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> qǐng chī fàn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> qǐng hē kā fēi.",
+        "vi": "Tớ thấy lần đầu gặp bạn nam trả tiền tỏ thành ý rất ổn; sau này quen rồi thì hoặc chia AA, hoặc thay phiên nhau mời, cậu mời cơm tớ mời cà phê.",
+        "modified": false
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "这办法太公平了！既照顾了面子，又体现了男女平等。",
+        "pinyin": "zhè bàn fǎ tài gōng píng le! jì zhào gù le miàn zi, yòu tǐ xiàn le nán nǚ píng děng.",
+        "pinyinHtml": "zhè bàn fǎ tài gōng píng le! jì zhào gù le miàn zi, yòu tǐ xiàn le nán nǚ píng děng.",
+        "vi": "Cách này công bằng quá! Vừa giữ thể diện, vừa thể hiện bình đẳng nam nữ.",
+        "modified": false
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "那说好了，旁边新开了一家咖啡店，一会儿喝咖啡这顿换我买单！",
+        "pinyin": "nà shuō hǎo le, páng biān xīn kāi le yì jiā kā fēi diàn, yí huìr hē kā fēi zhè dùn huàn wǒ mǎi dān!",
+        "pinyinHtml": "nà shuō hǎo le, páng biān xīn kāi le yì jiā kā fēi diàn, yí huìr hē kā fēi zhè dùn huàn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> mǎi dān!",
+        "vi": "Thế chốt nhé, bên cạnh mới mở quán cà phê, lát nữa chầu cà phê đổi lại để tớ thanh toán!",
+        "modified": false
+       }
+      ],
+      "v2_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "怎么样，这家新开的馆子合你胃口吗？",
+        "pinyin": "zěn me yàng, zhè jiā xīn kāi de guǎn zǐ hé nǐ wèi kǒu ma?",
+        "pinyinHtml": "zěn me yàng, zhè jiā xīn kāi de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǎn</span> zǐ hé nǐ wèi kǒu ma?",
+        "vi": "Sao nào, quán mới mở này có hợp khẩu vị cậu không?",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "菜很地道，环境也舒心，多谢你破费请客啦！",
+        "pinyin": "cài hěn dì dào, huán jìng yě shū xīn, duō xiè nǐ pò fèi qǐng kè lā!",
+        "pinyinHtml": "cài hěn dì dào, huán jìng yě shū xīn, duō xiè nǐ pò fèi qǐng kè lā!",
+        "vi": "Món ăn chuẩn vị lắm, không gian cũng dễ chịu, cảm ơn cậu đã tốn kém khao tớ nhé!",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "客气啥！再说了，跟女生出来吃饭，男孩子主动买单不是天经地义的事嘛。",
+        "pinyin": "kè qì shá! zài shuō le, gēn nǚ shēng chū lái chī fàn, nán hái zi zhǔ dòng mǎi dān bú shì tiān jīng de yì de shì ma.",
+        "pinyinHtml": "kè qì shá! zài shuō le, gēn nǚ shēng chū lái chī fàn, nán hái zi zhǔ dòng mǎi dān bú shì tiān jīng de yì de shì ma.",
+        "vi": "Khách sáo gì! Với lại đi ăn với con gái, con trai chủ động trả tiền chẳng phải chuyện đương nhiên à.",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "哎，正好聊到这儿，我就想问你：现在好多女生觉得男生付钱理所应当，你心里真这么看，还是觉得有点冤？",
+        "pinyin": "āi, zhèng hǎo liáo dào zhèr, wǒ jiù xiǎng wèn nǐ: xiàn zài hǎo duō nǚ shēng jué de nán shēng fù qián lǐ suǒ yīng dāng, nǐ xīn lǐ zhēn zhè me kàn, hái shì jué de yǒu diǎn yuān?",
+        "pinyinHtml": "āi, zhèng hǎo liáo dào zhèr, wǒ jiù xiǎng wèn nǐ: xiàn zài hǎo duō nǚ shēng jué de nán shēng fù qián <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> suǒ yīng dāng, nǐ xīn lǐ zhēn zhè me kàn, hái shì jué de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> diǎn yuān?",
+        "vi": "Này, đúng lúc nói tới chuyện này tớ muốn hỏi thật: giờ nhiều bạn nữ cứ mặc định con trai phải trả tiền, trong lòng cậu nghĩ thế thật hay cũng thấy hơi thiệt?",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "分人也分场合吧。如果是我主动约出来的，买单是基本的礼貌和绅士风度，我心甘情愿。",
+        "pinyin": "fēn rén yě fēn chǎng hé ba. rú guǒ shì wǒ zhǔ dòng yuē chū lái de, mǎi dān shì jī běn de lǐ mào hé shēn shì fēng dù, wǒ xīn gān qíng yuàn.",
+        "pinyinHtml": "fēn rén yě fēn chǎng hé ba. rú guǒ shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zhǔ dòng yuē chū lái de, mǎi dān shì jī běn de lǐ mào hé shēn shì fēng dù, wǒ xīn gān qíng yuàn.",
+        "vi": "Tùy người tùy dịp chứ. Nếu là tớ chủ động mở lời rủ đi, trả tiền là phép lịch sự tối thiểu và phong độ đàn ông, tớ hoàn toàn tự nguyện.",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "这倒是。可我不太认同“男生必须次次买单”这种老观念，毕竟现在大家都是学生或者各自有工作，谁的钱也不是大风刮来的。",
+        "pinyin": "zhè dǎo shì. kě wǒ bú tài rèn tóng \"nán shēng bì xū cì cì mǎi dān\" zhè zhǒng lǎo guān niàn, bì jìng xiàn zài dà jiā dōu shì xué shēng huò zhě gè zì yǒu gōng zuò, shuí de qián yě bú shì dà fēng guā lái de.",
+        "pinyinHtml": "zhè dǎo shì. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> wǒ bú tài rèn tóng \"nán shēng bì xū cì cì mǎi dān\" zhè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǒng</span> lǎo guān niàn, bì jìng xiàn zài dà jiā dōu shì xué shēng huò zhě gè zì yǒu gōng zuò, shuí de qián yě bú shì dà fēng guā lái de.",
+        "vi": "Cái đó thì đúng. Nhưng tớ không đồng tình kiểu quan niệm cũ 'con trai lần nào cũng phải trả', dù sao giờ mọi người đều là sinh viên hoặc đi làm cả rồi, tiền của ai cũng đâu phải tự nhiên rơi xuống.",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "看来你挺独立的！确实，有些男生嘴上说无所谓，其实天天被当“提款机”心里也别扭；反过来直接提AA吧，又怕女生觉得自己小气。",
+        "pinyin": "kàn lái nǐ tǐng dú lì de! què shí, yǒu xiē nán shēng zuǐ shàng shuō wú suǒ wèi, qí shí tiān tiān bèi dāng \"tí kuǎn jī\" xīn lǐ yě biè niu; fǎn guò lái zhí jiē tí A A ba, yòu pà nǚ shēng jué de zì jǐ xiǎo qì.",
+        "pinyinHtml": "kàn lái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> tǐng dú lì de! què shí, yǒu xiē nán shēng zuǐ shàng shuō wú suǒ wèi, qí shí tiān tiān bèi dāng \"tí kuǎn jī\" xīn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> yě biè niu; fǎn guò lái zhí jiē tí A A ba, yòu pà nǚ shēng jué de zì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> xiǎo qì.",
+        "vi": "Xem ra cậu rất độc lập đấy! Đúng thật, nhiều ông con trai miệng bảo không sao chứ ngày nào cũng bị coi như 'cây ATM' trong lòng cũng khó chịu; ngược lại mở miệng đòi chia AA ngay lại sợ bạn nữ nghĩ mình ki bo.",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "太真实了！所以我跟朋友甚至约会对象出门，从来不让对方单方面一直付钱，老吃白食我心里不踏实，尴尬得很。",
+        "pinyin": "tài zhēn shí le! suǒ yǐ wǒ gēn péng yǒu shèn zhì yuē huì duì xiàng chū mén, cóng lái bú ràng duì fāng dān fāng miàn yì zhí fù qián, lǎo chī bái shí wǒ xīn lǐ bú tà shí, gān gà de hěn.",
+        "pinyinHtml": "tài zhēn shí le! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐ</span> wǒ gēn péng yǒu shèn zhì yuē huì duì xiàng chū mén, cóng lái bú ràng duì fāng dān fāng miàn yì zhí fù qián, lǎo chī bái shí wǒ xīn lǐ bú tà shí, gān gà de hěn.",
+        "vi": "Chuẩn không cần chỉnh! Thế nên tớ đi chơi với bạn bè hay cả đối tượng hẹn hò, chẳng bao giờ để một phía cứ trả mãi, ăn chực mãi trong lòng thấy bất an, ngại chết đi được.",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "那按你的经验，怎么处理才显得双方都体面、不伤感情？",
+        "pinyin": "nà àn nǐ de jīng yàn, zěn me chǔ lǐ cái xiǎn de shuāng fāng dōu tǐ miàn, bù shāng gǎn qíng?",
+        "pinyinHtml": "nà àn nǐ de jīng yàn, zěn me <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">chǔ</span> lǐ cái xiǎn de shuāng fāng dōu tǐ miàn, bù shāng gǎn qíng?",
+        "vi": "Thế theo kinh nghiệm của cậu, xử lý sao cho đôi bên đều đẹp mặt mà không sứt mẻ tình cảm?",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "好说呀！要么头一回见面或谁主动发起就谁买单，展现一下诚意；熟络之后要么直接AA，要么“你请正餐、我买奶茶”，轮流回请最舒服！",
+        "pinyin": "hǎo shuō ya! yào me tóu yì huí jiàn miàn huò shuí zhǔ dòng fā qǐ jiù shuí mǎi dān, zhǎn xiàn yí xià chéng yì; shú luò zhī hòu yào me zhí jiē A A, yào me \"nǐ qǐng zhèng cān, wǒ mǎi nǎi chá\", lún liú huí qǐng zuì shū fú!",
+        "pinyinHtml": "hǎo shuō ya! yào me tóu yì huí jiàn miàn huò shuí zhǔ dòng fā qǐ jiù shuí mǎi dān, zhǎn xiàn yí xià chéng yì; shú luò zhī hòu yào me zhí jiē A A, yào me \"<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> qǐng zhèng cān, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> nǎi chá\", lún liú huí qǐng zuì shū fú!",
+        "vi": "Dễ xử lý mà! Hoặc lần đầu gặp hay ai chủ động rủ thì người đó trả để tỏ thành ý; thân rồi thì hoặc chia AA thẳng, hoặc 'anh mời bữa chính, em mua trà sữa', luân phiên đáp lễ là thoải mái nhất!",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "高明！这招既保留了男生的担当，又让女生觉得平等尊重，双方都没压力。",
+        "pinyin": "gāo míng! zhè zhāo jì bǎo liú le nán shēng de dān dāng, yòu ràng nǚ shēng jué de píng děng zūn zhòng, shuāng fāng dōu méi yā lì.",
+        "pinyinHtml": "gāo míng! zhè zhāo jì bǎo liú le nán shēng de dān dāng, yòu ràng nǚ shēng jué de píng děng zūn zhòng, shuāng fāng dōu méi yā lì.",
+        "vi": "Cao tay! Chiêu này vừa giữ được sự ga-lăng cho bạn nam, vừa để bạn nữ thấy bình đẳng tôn trọng, hai bên đều nhẹ đầu.",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "那今天咱就从这儿开始实行！待会儿出门右转那家奶茶店，这杯我请定了，不许跟我抢！",
+        "pinyin": "nà jīn tiān zán jiù cóng zhèr kāi shǐ shí xíng! dài huìr chū mén yòu zhuǎn nà jiā nǎi chá diàn, zhè bēi wǒ qǐng dìng le, bù xǔ gēn wǒ qiǎng!",
+        "pinyinHtml": "nà jīn tiān zán jiù cóng zhèr kāi shǐ shí xíng! dài huìr chū mén yòu zhuǎn nà jiā nǎi chá diàn, zhè bēi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> qǐng dìng le, bù xǔ gēn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> qiǎng!",
+        "vi": "Vậy hôm nay mình áp dụng luôn từ đây! Lát ra cửa rẽ phải có quán trà sữa, chầu này nhất định tớ khao, cấm tranh giành với tớ đấy!",
+        "modified": true
+       }
+      ],
+      "diffs": [
+       {
+        "n": 1,
+        "role": "A",
+        "v1": {
+         "zh": "这家店味道不错吧？",
+         "pinyin": "zhè jiā diàn wèi dào bú cuò ba?",
+         "pinyinHtml": "zhè jiā diàn wèi dào bú cuò ba?",
+         "vi": "Quán này vị ngon đấy chứ?"
+        },
+        "v2": {
+         "zh": "怎么样，这家新开的馆子合你胃口吗？",
+         "pinyin": "zěn me yàng, zhè jiā xīn kāi de guǎn zǐ hé nǐ wèi kǒu ma?",
+         "pinyinHtml": "zěn me yàng, zhè jiā xīn kāi de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǎn</span> zǐ hé nǐ wèi kǒu ma?",
+         "vi": "Sao nào, quán mới mở này có hợp khẩu vị cậu không?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "v1": {
+         "zh": "环境也很好。谢谢你请我吃饭啦！",
+         "pinyin": "huán jìng yě hěn hǎo. xiè xiè nǐ qǐng wǒ chī fàn lā!",
+         "pinyinHtml": "huán jìng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> hǎo. xiè xiè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qǐng</span> wǒ chī fàn lā!",
+         "vi": "Không gian cũng đẹp nữa. Cảm ơn cậu đã mời tớ ăn cơm nhé!"
+        },
+        "v2": {
+         "zh": "菜很地道，环境也舒心，多谢你破费请客啦！",
+         "pinyin": "cài hěn dì dào, huán jìng yě shū xīn, duō xiè nǐ pò fèi qǐng kè lā!",
+         "pinyinHtml": "cài hěn dì dào, huán jìng yě shū xīn, duō xiè nǐ pò fèi qǐng kè lā!",
+         "vi": "Món ăn chuẩn vị lắm, không gian cũng dễ chịu, cảm ơn cậu đã tốn kém khao tớ nhé!"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "v1": {
+         "zh": "哈哈，不客气。男生请女生吃饭不是应该的吗？",
+         "pinyin": "hā hā, bú kè qì. nán shēng qǐng nǚ shēng chī fàn bú shì yīng gāi de ma?",
+         "pinyinHtml": "hā hā, bú kè qì. nán shēng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qǐng</span> nǚ shēng chī fàn bú shì yīng gāi de ma?",
+         "vi": "Haha, đừng khách sáo. Con trai mời con gái ăn cơm chẳng phải chuyện đương nhiên sao?"
+        },
+        "v2": {
+         "zh": "客气啥！再说了，跟女生出来吃饭，男孩子主动买单不是天经地义的事嘛。",
+         "pinyin": "kè qì shá! zài shuō le, gēn nǚ shēng chū lái chī fàn, nán hái zi zhǔ dòng mǎi dān bú shì tiān jīng de yì de shì ma.",
+         "pinyinHtml": "kè qì shá! zài shuō le, gēn nǚ shēng chū lái chī fàn, nán hái zi zhǔ dòng mǎi dān bú shì tiān jīng de yì de shì ma.",
+         "vi": "Khách sáo gì! Với lại đi ăn với con gái, con trai chủ động trả tiền chẳng phải chuyện đương nhiên à."
+        },
+        "reason": "Nâng cấp thành ngữ tự nhiên “天经地义” (chuyện đương nhiên)."
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "v1": {
+         "zh": "哎，其实我一直想跟你聊这个话题。你真的觉得男生就“应该”请客吗？",
+         "pinyin": "āi, qí shí wǒ yì zhí xiǎng gēn nǐ liáo zhè ge huà tí. nǐ zhēn de jué de nán shēng jiù \"yīng gāi\" qǐng kè ma?",
+         "pinyinHtml": "āi, qí shí wǒ yì zhí xiǎng gēn nǐ liáo zhè ge huà tí. nǐ zhēn de jué de nán shēng jiù \"yīng gāi\" qǐng kè ma?",
+         "vi": "Này, thực ra tớ vẫn muốn bàn với cậu chuyện này. Cậu thật sự nghĩ con trai là 'đương nhiên phải' trả tiền à?"
+        },
+        "v2": {
+         "zh": "哎，正好聊到这儿，我就想问你：现在好多女生觉得男生付钱理所应当，你心里真这么看，还是觉得有点冤？",
+         "pinyin": "āi, zhèng hǎo liáo dào zhèr, wǒ jiù xiǎng wèn nǐ: xiàn zài hǎo duō nǚ shēng jué de nán shēng fù qián lǐ suǒ yīng dāng, nǐ xīn lǐ zhēn zhè me kàn, hái shì jué de yǒu diǎn yuān?",
+         "pinyinHtml": "āi, zhèng hǎo liáo dào zhèr, wǒ jiù xiǎng wèn nǐ: xiàn zài hǎo duō nǚ shēng jué de nán shēng fù qián <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> suǒ yīng dāng, nǐ xīn lǐ zhēn zhè me kàn, hái shì jué de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> diǎn yuān?",
+         "vi": "Này, đúng lúc nói tới chuyện này tớ muốn hỏi thật: giờ nhiều bạn nữ cứ mặc định con trai phải trả tiền, trong lòng cậu nghĩ thế thật hay cũng thấy hơi thiệt?"
+        },
+        "reason": "Đưa đúng câu hỏi trọng tâm trên Slide cô giáo (“女生都认为男生应该付钱，你怎么看？”) vào thoại."
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "v1": {
+         "zh": "我觉得如果男生约女生吃饭，那就该买单，算是一种礼貌和担当吧。",
+         "pinyin": "wǒ jué de rú guǒ nán shēng yuē nǚ shēng chī fàn, nà jiù gāi mǎi dān, suàn shì yì zhǒng lǐ mào hé dān dāng ba.",
+         "pinyinHtml": "wǒ jué de rú guǒ nán shēng yuē nǚ shēng chī fàn, nà jiù gāi mǎi dān, suàn shì yì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǒng</span> lǐ mào hé dān dāng ba.",
+         "vi": "Tớ thấy nếu con trai hẹn con gái đi ăn thì nên thanh toán, coi như phép lịch sự và sự ga-lăng."
+        },
+        "v2": {
+         "zh": "分人也分场合吧。如果是我主动约出来的，买单是基本的礼貌和绅士风度，我心甘情愿。",
+         "pinyin": "fēn rén yě fēn chǎng hé ba. rú guǒ shì wǒ zhǔ dòng yuē chū lái de, mǎi dān shì jī běn de lǐ mào hé shēn shì fēng dù, wǒ xīn gān qíng yuàn.",
+         "pinyinHtml": "fēn rén yě fēn chǎng hé ba. rú guǒ shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zhǔ dòng yuē chū lái de, mǎi dān shì jī běn de lǐ mào hé shēn shì fēng dù, wǒ xīn gān qíng yuàn.",
+         "vi": "Tùy người tùy dịp chứ. Nếu là tớ chủ động mở lời rủ đi, trả tiền là phép lịch sự tối thiểu và phong độ đàn ông, tớ hoàn toàn tự nguyện."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "v1": {
+         "zh": "但是现在男女都经济独立了，总认为男生“必须”付钱，是不是有点太传统了？",
+         "pinyin": "dàn shì xiàn zài nán nǚ dōu jīng jì dú lì le, zǒng rèn wéi nán shēng \"bì xū\" fù qián, shì bu shì yǒu diǎn tài chuán tǒng le?",
+         "pinyinHtml": "dàn shì xiàn zài nán nǚ dōu jīng jì dú lì le, zǒng rèn wéi nán shēng \"bì xū\" fù qián, shì bu shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> diǎn tài chuán tǒng le?",
+         "vi": "Nhưng giờ nam nữ đều độc lập kinh tế rồi, cứ nghĩ con trai 'bắt buộc' trả tiền liệu có hơi truyền thống quá không?"
+        },
+        "v2": {
+         "zh": "这倒是。可我不太认同“男生必须次次买单”这种老观念，毕竟现在大家都是学生或者各自有工作，谁的钱也不是大风刮来的。",
+         "pinyin": "zhè dǎo shì. kě wǒ bú tài rèn tóng \"nán shēng bì xū cì cì mǎi dān\" zhè zhǒng lǎo guān niàn, bì jìng xiàn zài dà jiā dōu shì xué shēng huò zhě gè zì yǒu gōng zuò, shuí de qián yě bú shì dà fēng guā lái de.",
+         "pinyinHtml": "zhè dǎo shì. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> wǒ bú tài rèn tóng \"nán shēng bì xū cì cì mǎi dān\" zhè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǒng</span> lǎo guān niàn, bì jìng xiàn zài dà jiā dōu shì xué shēng huò zhě gè zì yǒu gōng zuò, shuí de qián yě bú shì dà fēng guā lái de.",
+         "vi": "Cái đó thì đúng. Nhưng tớ không đồng tình kiểu quan niệm cũ 'con trai lần nào cũng phải trả', dù sao giờ mọi người đều là sinh viên hoặc đi làm cả rồi, tiền của ai cũng đâu phải tự nhiên rơi xuống."
+        },
+        "reason": "Thêm thành ngữ khẩu ngữ rất hay “谁的钱也不是大风刮来的” (tiền của ai cũng chẳng phải gió thổi tới)."
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "v1": {
+         "zh": "你说得也对。不过在感情刚开始的时候，男生主动一点，确实能让女生觉得被重视。",
+         "pinyin": "nǐ shuō de yě duì. bú guò zài gǎn qíng gāng kāi shǐ de shí hòu, nán shēng zhǔ dòng yì diǎn, què shí néng ràng nǚ shēng jué de bèi zhòng shì.",
+         "pinyinHtml": "nǐ shuō de yě duì. bú guò zài gǎn qíng gāng kāi shǐ de shí hòu, nán shēng zhǔ dòng yì diǎn, què shí néng ràng nǚ shēng jué de bèi zhòng shì.",
+         "vi": "Cậu nói cũng đúng. Nhưng lúc mới bắt đầu tìm hiểu, con trai chủ động một chút đúng là khiến con gái thấy được trân trọng."
+        },
+        "v2": {
+         "zh": "看来你挺独立的！确实，有些男生嘴上说无所谓，其实天天被当“提款机”心里也别扭；反过来直接提AA吧，又怕女生觉得自己小气。",
+         "pinyin": "kàn lái nǐ tǐng dú lì de! què shí, yǒu xiē nán shēng zuǐ shàng shuō wú suǒ wèi, qí shí tiān tiān bèi dāng \"tí kuǎn jī\" xīn lǐ yě biè niu; fǎn guò lái zhí jiē tí A A ba, yòu pà nǚ shēng jué de zì jǐ xiǎo qì.",
+         "pinyinHtml": "kàn lái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> tǐng dú lì de! què shí, yǒu xiē nán shēng zuǐ shàng shuō wú suǒ wèi, qí shí tiān tiān bèi dāng \"tí kuǎn jī\" xīn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> yě biè niu; fǎn guò lái zhí jiē tí A A ba, yòu pà nǚ shēng jué de zì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> xiǎo qì.",
+         "vi": "Xem ra cậu rất độc lập đấy! Đúng thật, nhiều ông con trai miệng bảo không sao chứ ngày nào cũng bị coi như 'cây ATM' trong lòng cũng khó chịu; ngược lại mở miệng đòi chia AA ngay lại sợ bạn nữ nghĩ mình ki bo."
+        },
+        "reason": "Lồng ghép mẫu câu Bài 3 “看来” + từ khóa hiện đại “提款机” (cây ATM)."
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "v1": {
+         "zh": "对啊，但如果每次一起吃饭都让男的付钱，我自己也会觉得不好意思，好像欠人情一样。",
+         "pinyin": "duì a, dàn rú guǒ měi cì yì qǐ chī fàn dōu ràng nán de fù qián, wǒ zì jǐ yě huì jué de bù hǎo yì si, hǎo xiàng qiàn rén qíng yí yàng.",
+         "pinyinHtml": "duì a, dàn rú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> měi cì yì qǐ chī fàn dōu ràng nán de fù qián, wǒ zì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> yě huì jué de bù hǎo yì si, hǎo xiàng qiàn rén qíng yí yàng.",
+         "vi": "Đúng thế, nhưng nếu lần nào đi ăn cũng để bạn nam trả tiền, chính tớ cũng thấy ngại lắm, cứ như mắc nợ ân tình vậy."
+        },
+        "v2": {
+         "zh": "太真实了！所以我跟朋友甚至约会对象出门，从来不让对方单方面一直付钱，老吃白食我心里不踏实，尴尬得很。",
+         "pinyin": "tài zhēn shí le! suǒ yǐ wǒ gēn péng yǒu shèn zhì yuē huì duì xiàng chū mén, cóng lái bú ràng duì fāng dān fāng miàn yì zhí fù qián, lǎo chī bái shí wǒ xīn lǐ bú tà shí, gān gà de hěn.",
+         "pinyinHtml": "tài zhēn shí le! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐ</span> wǒ gēn péng yǒu shèn zhì yuē huì duì xiàng chū mén, cóng lái bú ràng duì fāng dān fāng miàn yì zhí fù qián, lǎo chī bái shí wǒ xīn lǐ bú tà shí, gān gà de hěn.",
+         "vi": "Chuẩn không cần chỉnh! Thế nên tớ đi chơi với bạn bè hay cả đối tượng hẹn hò, chẳng bao giờ để một phía cứ trả mãi, ăn chực mãi trong lòng thấy bất an, ngại chết đi được."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "v1": {
+         "zh": "其实我有时候也纠结，怕直接提AA制显得小气或者不够礼貌。你说怎么做才最妥当呢？",
+         "pinyin": "qí shí wǒ yǒu shí hòu yě jiū jié, pà zhí jiē tí A A zhì xiǎn de xiǎo qì huò zhě bú gòu lǐ mào. nǐ shuō zěn me zuò cái zuì tuǒ dàng ne?",
+         "pinyinHtml": "qí shí <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǒu shí hòu yě jiū jié, pà zhí jiē tí A A zhì xiǎn de xiǎo qì huò zhě bú gòu lǐ mào. nǐ shuō zěn me zuò cái zuì tuǒ dàng ne?",
+         "vi": "Thực ra thỉnh thoảng tớ cũng lăn tăn, sợ nói thẳng chia AA lại tỏ ra ki bo hay thiếu lịch sự. Theo cậu làm thế nào mới khéo nhất?"
+        },
+        "v2": {
+         "zh": "那按你的经验，怎么处理才显得双方都体面、不伤感情？",
+         "pinyin": "nà àn nǐ de jīng yàn, zěn me chǔ lǐ cái xiǎn de shuāng fāng dōu tǐ miàn, bù shāng gǎn qíng?",
+         "pinyinHtml": "nà àn nǐ de jīng yàn, zěn me <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">chǔ</span> lǐ cái xiǎn de shuāng fāng dōu tǐ miàn, bù shāng gǎn qíng?",
+         "vi": "Thế theo kinh nghiệm của cậu, xử lý sao cho đôi bên đều đẹp mặt mà không sứt mẻ tình cảm?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "v1": {
+         "zh": "我觉得第一次见面男的买单表达诚意没问题；以后熟悉了，要么AA制，要么轮流请客，你请吃饭我请喝咖啡。",
+         "pinyin": "wǒ jué de dì yī cì jiàn miàn nán de mǎi dān biǎo dá chéng yì méi wèn tí; yǐ hòu shú xī le, yào me A A zhì, yào me lún liú qǐng kè, nǐ qǐng chī fàn wǒ qǐng hē kā fēi.",
+         "pinyinHtml": "wǒ jué de dì yī cì jiàn miàn nán de mǎi dān biǎo dá chéng yì méi wèn tí; yǐ hòu shú xī le, yào me A A zhì, yào me lún liú qǐng kè, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> qǐng chī fàn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> qǐng hē kā fēi.",
+         "vi": "Tớ thấy lần đầu gặp bạn nam trả tiền tỏ thành ý rất ổn; sau này quen rồi thì hoặc chia AA, hoặc thay phiên nhau mời, cậu mời cơm tớ mời cà phê."
+        },
+        "v2": {
+         "zh": "好说呀！要么头一回见面或谁主动发起就谁买单，展现一下诚意；熟络之后要么直接AA，要么“你请正餐、我买奶茶”，轮流回请最舒服！",
+         "pinyin": "hǎo shuō ya! yào me tóu yì huí jiàn miàn huò shuí zhǔ dòng fā qǐ jiù shuí mǎi dān, zhǎn xiàn yí xià chéng yì; shú luò zhī hòu yào me zhí jiē A A, yào me \"nǐ qǐng zhèng cān, wǒ mǎi nǎi chá\", lún liú huí qǐng zuì shū fú!",
+         "pinyinHtml": "hǎo shuō ya! yào me tóu yì huí jiàn miàn huò shuí zhǔ dòng fā qǐ jiù shuí mǎi dān, zhǎn xiàn yí xià chéng yì; shú luò zhī hòu yào me zhí jiē A A, yào me \"<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> qǐng zhèng cān, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> nǎi chá\", lún liú huí qǐng zuì shū fú!",
+         "vi": "Dễ xử lý mà! Hoặc lần đầu gặp hay ai chủ động rủ thì người đó trả để tỏ thành ý; thân rồi thì hoặc chia AA thẳng, hoặc 'anh mời bữa chính, em mua trà sữa', luân phiên đáp lễ là thoải mái nhất!"
+        },
+        "reason": "Lồng ghép chuẩn 2 mẫu câu Bài 3 “好说” và “要么……要么……” + giải pháp thực tế đời sống giới trẻ."
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "v1": {
+         "zh": "这办法太公平了！既照顾了面子，又体现了男女平等。",
+         "pinyin": "zhè bàn fǎ tài gōng píng le! jì zhào gù le miàn zi, yòu tǐ xiàn le nán nǚ píng děng.",
+         "pinyinHtml": "zhè bàn fǎ tài gōng píng le! jì zhào gù le miàn zi, yòu tǐ xiàn le nán nǚ píng děng.",
+         "vi": "Cách này công bằng quá! Vừa giữ thể diện, vừa thể hiện bình đẳng nam nữ."
+        },
+        "v2": {
+         "zh": "高明！这招既保留了男生的担当，又让女生觉得平等尊重，双方都没压力。",
+         "pinyin": "gāo míng! zhè zhāo jì bǎo liú le nán shēng de dān dāng, yòu ràng nǚ shēng jué de píng děng zūn zhòng, shuāng fāng dōu méi yā lì.",
+         "pinyinHtml": "gāo míng! zhè zhāo jì bǎo liú le nán shēng de dān dāng, yòu ràng nǚ shēng jué de píng děng zūn zhòng, shuāng fāng dōu méi yā lì.",
+         "vi": "Cao tay! Chiêu này vừa giữ được sự ga-lăng cho bạn nam, vừa để bạn nữ thấy bình đẳng tôn trọng, hai bên đều nhẹ đầu."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "v1": {
+         "zh": "那说好了，旁边新开了一家咖啡店，一会儿喝咖啡这顿换我买单！",
+         "pinyin": "nà shuō hǎo le, páng biān xīn kāi le yì jiā kā fēi diàn, yí huìr hē kā fēi zhè dùn huàn wǒ mǎi dān!",
+         "pinyinHtml": "nà shuō hǎo le, páng biān xīn kāi le yì jiā kā fēi diàn, yí huìr hē kā fēi zhè dùn huàn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> mǎi dān!",
+         "vi": "Thế chốt nhé, bên cạnh mới mở quán cà phê, lát nữa chầu cà phê đổi lại để tớ thanh toán!"
+        },
+        "v2": {
+         "zh": "那今天咱就从这儿开始实行！待会儿出门右转那家奶茶店，这杯我请定了，不许跟我抢！",
+         "pinyin": "nà jīn tiān zán jiù cóng zhèr kāi shǐ shí xíng! dài huìr chū mén yòu zhuǎn nà jiā nǎi chá diàn, zhè bēi wǒ qǐng dìng le, bù xǔ gēn wǒ qiǎng!",
+         "pinyinHtml": "nà jīn tiān zán jiù cóng zhèr kāi shǐ shí xíng! dài huìr chū mén yòu zhuǎn nà jiā nǎi chá diàn, zhè bēi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> qǐng dìng le, bù xǔ gēn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> qiǎng!",
+         "vi": "Vậy hôm nay mình áp dụng luôn từ đây! Lát ra cửa rẽ phải có quán trà sữa, chầu này nhất định tớ khao, cấm tranh giành với tớ đấy!"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       }
+      ],
+      "audio": "audio/b3-q11.m4a",
+      "audioDuration": 98.77,
+      "audioTimings": [
+       {
+        "n": 1,
+        "role": "A",
+        "start": 0.25,
+        "end": 3.89
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "start": 3.89,
+        "end": 8.42
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "start": 8.42,
+        "end": 15.55
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "start": 15.55,
+        "end": 25.15
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "start": 25.15,
+        "end": 32.64
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "start": 32.64,
+        "end": 44.32
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "start": 44.32,
+        "end": 55.3
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "start": 55.3,
+        "end": 66.06
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "start": 66.06,
+        "end": 70.62
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "start": 70.62,
+        "end": 83.92
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "start": 83.92,
+        "end": 90.67
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "start": 90.67,
+        "end": 98.77
+       }
       ]
      }
-    ]
+    ],
+    "isExamScope": true
    },
    {
     "id": "b5",
@@ -13196,7 +18086,21 @@ window.APP_BOOKS = {
       "example": "这个商店没什么可买的。",
       "exampleVi": "Cửa hàng này chẳng có gì đáng mua.",
       "examplePinyin": "zhè ge shāng diàn méi shén me kě mǎi de.",
-      "examplePinyinHtml": "zhè ge shāng diàn méi shén me <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> mǎi de."
+      "examplePinyinHtml": "zhè ge shāng diàn méi shén me <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> mǎi de.",
+      "extraExamples": [
+       {
+        "zh": "这本书内容丰富，是一本很可读的作品。",
+        "pinyin": "zhè běn shū nèi róng fēng fù, shì yì běn hěn kě dú de zuò pǐn.",
+        "pinyinHtml": "zhè běn shū nèi róng fēng fù, shì yì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">běn</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> kě dú de zuò pǐn.",
+        "vi": "Cuốn sách này nội dung phong phú, là một tác phẩm rất đáng đọc."
+       },
+       {
+        "zh": "这种苹果又小又酸，有什么可买的？",
+        "pinyin": "zhè zhǒng píng guǒ yòu xiǎo yòu suān, yǒu shén me kě mǎi de?",
+        "pinyinHtml": "zhè zhǒng píng guǒ yòu xiǎo yòu suān, yǒu shén me <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> mǎi de?",
+        "vi": "Loại táo này vừa nhỏ vừa chua, có gì đáng mua đâu?"
+       }
+      ]
      },
      {
       "title": "V₁……好 + V₂……",
@@ -13204,7 +18108,15 @@ window.APP_BOOKS = {
       "example": "我先把地址记下来，好找那家商店。",
       "exampleVi": "Tôi ghi địa chỉ lại trước, để tiện tìm cửa hàng đó.",
       "examplePinyin": "wǒ xiān bǎ dì zhǐ jì xià lái, hǎo zhǎo nà jiā shāng diàn.",
-      "examplePinyinHtml": "wǒ xiān bǎ dì zhǐ jì xià lái, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> zhǎo nà jiā shāng diàn."
+      "examplePinyinHtml": "wǒ xiān bǎ dì zhǐ jì xià lái, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> zhǎo nà jiā shāng diàn.",
+      "extraExamples": [
+       {
+        "zh": "你把今天会议的内容写下来吧，明天好跟老板报告。",
+        "pinyin": "nǐ bǎ jīn tiān huì yì de nèi róng xiě xià lái ba, míng tiān hǎo gēn lǎo bǎn bào gào.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> bǎ jīn tiān huì yì de nèi róng xiě xià lái ba, míng tiān hǎo gēn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǎo</span> bǎn bào gào.",
+        "vi": "Cậu ghi chép lại nội dung họp hôm nay đi, để mai tiện báo cáo với sếp."
+       }
+      ]
      },
      {
       "title": "V + 遍",
@@ -13212,7 +18124,27 @@ window.APP_BOOKS = {
       "example": "我把附近的商店都逛遍了。",
       "exampleVi": "Tôi đã đi xem hết một lượt các cửa hàng gần đây.",
       "examplePinyin": "wǒ bǎ fù jìn de shāng diàn dōu guàng biàn le.",
-      "examplePinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> bǎ fù jìn de shāng diàn dōu guàng biàn le."
+      "examplePinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> bǎ fù jìn de shāng diàn dōu guàng biàn le.",
+      "extraExamples": [
+       {
+        "zh": "为了找女儿，他跑遍了整个城市。",
+        "pinyin": "wèi le zhǎo nǚ ér, tā pǎo biàn le zhěng gè chéng shì.",
+        "pinyinHtml": "wèi le <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǎo</span> nǚ ér, tā pǎo biàn le zhěng gè chéng shì.",
+        "vi": "Để tìm con gái, ông ấy chạy khắp cả thành phố."
+       },
+       {
+        "zh": "我们把所有的答案试遍了，还是不对。",
+        "pinyin": "wǒ men bǎ suǒ yǒu de dá àn shì biàn le, hái shì bú duì.",
+        "pinyinHtml": "wǒ men <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǒu de dá àn shì biàn le, hái shì bú duì.",
+        "vi": "Chúng tôi thử hết lượt tất cả đáp án rồi mà vẫn không đúng."
+       },
+       {
+        "zh": "她问遍了所有的亲戚，也没人知道这事。",
+        "pinyin": "tā wèn biàn le suǒ yǒu de qīn qi, yě méi rén zhī dào zhè shì.",
+        "pinyinHtml": "tā wèn biàn le <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǒu de qīn qi, yě méi rén zhī dào zhè shì.",
+        "vi": "Cô ấy hỏi khắp lượt hết mọi họ hàng mà cũng chẳng ai biết chuyện này."
+       }
+      ]
      },
      {
       "title": "除非……才…… / 除非……否则…… / ……除非……",
@@ -13220,7 +18152,39 @@ window.APP_BOOKS = {
       "example": "除非打折，我才会买这件衣服。",
       "exampleVi": "Chỉ khi giảm giá thì tôi mới mua chiếc áo này.",
       "examplePinyin": "chú fēi dǎ zhé, wǒ cái huì mǎi zhè jiàn yī fu.",
-      "examplePinyinHtml": "chú fēi dǎ zhé, wǒ cái huì mǎi zhè jiàn yī fu."
+      "examplePinyinHtml": "chú fēi dǎ zhé, wǒ cái huì mǎi zhè jiàn yī fu.",
+      "extraExamples": [
+       {
+        "zh": "除非你好好练习，才能考上大学。",
+        "pinyin": "chú fēi nǐ hǎo hǎo liàn xí, cái néng kǎo shàng dà xué.",
+        "pinyinHtml": "chú fēi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> hǎo liàn xí, cái néng kǎo shàng dà xué.",
+        "vi": "Chỉ khi cậu luyện tập chăm chỉ thì mới thi đỗ đại học được."
+       },
+       {
+        "zh": "除非我们找到钥匙，否则只好在外面睡一晚。",
+        "pinyin": "chú fēi wǒ men zhǎo dào yào shi, fǒu zé zhǐ hǎo zài wài miàn shuì yì wǎn.",
+        "pinyinHtml": "chú fēi wǒ men zhǎo dào yào shi, fǒu zé <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǐ</span> hǎo zài wài miàn shuì yì wǎn.",
+        "vi": "Trừ phi tìm được chìa khóa, nếu không đành ngủ ngoài đường một đêm."
+       },
+       {
+        "zh": "除非雨下太大，比赛才取消，否则一定会按时进行。",
+        "pinyin": "chú fēi yǔ xià tài dà, bǐ sài cái qǔ xiāo, fǒu zé yí dìng huì àn shí jìn xíng.",
+        "pinyinHtml": "chú fēi yǔ xià tài dà, bǐ sài cái qǔ xiāo, fǒu zé yí dìng huì àn shí jìn xíng.",
+        "vi": "Chỉ khi mưa quá to trận đấu mới hủy, nếu không nhất định diễn ra đúng giờ."
+       },
+       {
+        "zh": "除非你现在马上出发，才赶得上车，否则只好走路回家。",
+        "pinyin": "chú fēi nǐ xiàn zài mǎ shàng chū fā, cái gǎn de shàng chē, fǒu zé zhǐ hǎo zǒu lù huí jiā.",
+        "pinyinHtml": "chú fēi nǐ xiàn zài mǎ shàng chū fā, cái gǎn de shàng chē, fǒu zé <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> zǒu lù huí jiā.",
+        "vi": "Chỉ khi cậu xuất phát ngay bây giờ mới kịp xe, nếu không đành đi bộ về nhà."
+       },
+       {
+        "zh": "他这个人轻易不生气，除非你真的太过分了。",
+        "pinyin": "tā zhè ge rén qīng yì bù shēng qì, chú fēi nǐ zhēn de tài guò fèn le.",
+        "pinyinHtml": "tā zhè ge rén qīng yì bù shēng qì, chú fēi nǐ zhēn de tài guò fèn le.",
+        "vi": "Người như anh ấy ít khi nổi giận, trừ phi cậu thực sự quá đáng lắm rồi."
+       }
+      ]
      },
      {
       "title": "V + 中（zhòng）",
@@ -13228,7 +18192,21 @@ window.APP_BOOKS = {
       "example": "我终于选中了合适的礼物。",
       "exampleVi": "Cuối cùng tôi đã chọn trúng món quà phù hợp.",
       "examplePinyin": "wǒ zhōng yú xuǎn zhōng le hé shì de lǐ wù.",
-      "examplePinyinHtml": "wǒ zhōng yú xuǎn zhōng le hé shì de lǐ wù."
+      "examplePinyinHtml": "wǒ zhōng yú xuǎn zhōng le hé shì de lǐ wù.",
+      "extraExamples": [
+       {
+        "zh": "她选了半天，真没想到选中了那么酸的苹果。",
+        "pinyin": "tā xuǎn le bàn tiān, zhēn méi xiǎng dào xuǎn zhòng le nà me suān de píng guǒ.",
+        "pinyinHtml": "tā xuǎn le bàn tiān, zhēn méi xiǎng dào xuǎn zhòng le nà me suān de píng guǒ.",
+        "vi": "Cô ấy lựa mãi nửa ngày, chẳng ngờ lại chọn trúng quả táo chua thế."
+       },
+       {
+        "zh": "世界上人那么多，你却刚好选中了我，真是太幸运了。",
+        "pinyin": "shì jiè shàng rén nà me duō, nǐ què gāng hǎo xuǎn zhòng le wǒ, zhēn shì tài xìng yùn le.",
+        "pinyinHtml": "shì jiè shàng rén nà me duō, nǐ què gāng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> xuǎn zhòng le wǒ, zhēn shì tài xìng yùn le.",
+        "vi": "Thế giới đông người thế, vậy mà cậu lại chọn trúng tớ, đúng là may mắn quá."
+       }
+      ]
      },
      {
       "title": "说得过去",
@@ -13236,10 +18214,3278 @@ window.APP_BOOKS = {
       "example": "这家店的价格还说得过去。",
       "exampleVi": "Giá ở cửa hàng này cũng tạm chấp nhận được.",
       "examplePinyin": "zhè jiā diàn de jià gé hái shuō de guò qù.",
-      "examplePinyinHtml": "zhè jiā diàn de jià gé hái shuō de guò qù."
+      "examplePinyinHtml": "zhè jiā diàn de jià gé hái shuō de guò qù.",
+      "extraExamples": [
+       {
+        "zh": "这次迟到还有点理由，勉强说得过去。",
+        "pinyin": "zhè cì chí dào hái yǒu diǎn lǐ yóu, miǎn qiǎng shuō de guò qù.",
+        "pinyinHtml": "zhè cì chí dào hái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">diǎn</span> lǐ yóu, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">miǎn</span> qiǎng shuō de guò qù.",
+        "vi": "Lần đi muộn này còn có chút lý do, tạm chấp nhận được."
+       }
+      ]
      }
     ],
     "topics": [
+     {
+      "id": "b5-q12",
+      "no": 12,
+      "examNo": 12,
+      "priority": null,
+      "isExamScope": true,
+      "titleVi": "Đi sinh nhật bạn nên tặng gì & Kiêng kỵ không được tặng gì?",
+      "question": "参加别人的生日会，你会送什么？什么是不可以送人的？",
+      "questionPinyin": "cān jiā bié rén de shēng rì huì, nǐ huì sòng shén me? shén me shì bù kě yǐ sòng rén de?",
+      "questionPinyinHtml": "cān jiā bié rén de shēng rì huì, nǐ huì sòng shén me? shén me shì bù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ sòng rén de?",
+      "slideQuestions": [],
+      "outline": "Rủ nhau chuẩn bị quà sinh nhật cho bạn → Gợi ý quà phù hợp (sách, phụ kiện, hoa, đồ dùng thiết thực theo sở thích) → Lưu ý những món kiêng kỵ trong văn hóa (đồng hồ 送终, ô/dù 散, hoa trắng 白花, mũ xanh 绿帽子) → Chốt chọn món quà tinh tế.",
+      "takeaways": {
+       "points": [
+        "Quà nên tặng khi đi sinh nhật: Chọn theo sở thích và tính thiết thực như sách, ví, quần áo, mỹ phẩm, hoa tươi hoặc bánh (看个人爱好和实用性：书、钱包、花)",
+        "Những món ĐẠI KỴ (nhất định phải nhớ khi thi!): 1. Đồng hồ (送钟 đồng âm 送终 tiễn đưa người mất); 2. Ô/Dù (送伞 đồng âm 散 chia ly); 3. Hoa trắng/Cúc trắng (白花 tang lễ); 4. Mũ xanh (绿帽子 ý bị cắm sừng); 5. Quả lê chia đôi (分梨 đồng âm 分离 chia lìa)",
+        "Nguyên tắc chọn quà: Giá trị không cần quá đắt, cốt ở tấm lòng và hợp văn hóa người nhận (心意最重要、懂忌讳)",
+        "Mẫu câu Bài 5: 除非……否则…… (trừ phi... nếu không thì), 有什么可……的 (có gì đáng...), 选中 (chọn trúng)"
+       ],
+       "goldenQuotes": "给中国朋友送生日礼物，千万避开钟表、雨伞、白花和绿帽子这些谐音不吉利的东西。只要选中对方喜欢的实用小物，心意就到了。"
+      },
+      "lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "明明，明晚小李过生日，你去参加他的生日派对吗？",
+        "pinyin": "míng míng, míng wǎn xiǎo lǐ guò shēng rì, nǐ qù cān jiā tā de shēng rì pài duì ma?",
+        "pinyinHtml": "míng míng, míng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎn</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> lǐ guò shēng rì, nǐ qù cān jiā tā de shēng rì pài duì ma?",
+        "vi": "Minh Minh, tối mai sinh nhật Tiểu Lý, cậu có đi dự tiệc sinh nhật cậu ấy không?",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "肯定去呀！不过我逛了一下午街，还是没想好送啥生日礼物。你平时去朋友生日会一般都送什么？",
+        "pinyin": "kěn dìng qù ya! bú guò wǒ guàng le yí xià wǔ jiē, hái shì méi xiǎng hǎo sòng shá shēng rì lǐ wù. nǐ píng shí qù péng yǒu shēng rì huì yì bān dōu sòng shén me?",
+        "pinyinHtml": "kěn dìng qù ya! bú guò wǒ guàng le yí xià wǔ jiē, hái shì méi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> hǎo sòng shá shēng rì lǐ wù. nǐ píng shí qù péng yǒu shēng rì huì yì bān dōu sòng shén me?",
+        "vi": "Chắc chắn đi chứ! Cơ mà tớ lượn phố cả chiều rồi vẫn chưa nghĩ ra tặng quà sinh nhật gì. Bình thường cậu đi sinh nhật bạn hay tặng gì thế?",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "这有什么可犯愁的？投其所好最稳妥！比如护肤品、书、围巾或者真皮钱包。小李不是特别爱看悬疑小说嘛，送套好书就挺有格调。",
+        "pinyin": "zhè yǒu shén me kě fàn chóu de? tóu qí suǒ hǎo zuì wěn tuǒ! bǐ rú hù fū pǐn, shū, wéi jīn huò zhě zhēn pí qián bāo. xiǎo lǐ bú shì tè bié ài kàn xuán yí xiǎo shuō ma, sòng tào hǎo shū jiù tǐng yǒu gé diào.",
+        "pinyinHtml": "zhè yǒu shén me kě fàn chóu de? tóu qí <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> hǎo zuì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wěn</span> tuǒ! bǐ rú hù fū pǐn, shū, wéi jīn huò zhě zhēn pí qián bāo. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> lǐ bú shì tè bié ài kàn xuán yí xiǎo shuō ma, sòng tào hǎo shū jiù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> yǒu gé diào.",
+        "vi": "Chuyện này có gì đáng lo đâu? Tặng đúng sở thích là chắc ăn nhất! Như đồ dưỡng da, sách, khăn quàng hay ví da. Tiểu Lý chẳng mê đọc tiểu thuyết trinh thám lắm sao, tặng bộ sách hay vừa tinh tế vừa sang.",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "其实刚才路过文创店，我差点冲动买下那个复古小闹钟了，觉得摆在书桌上可好看了！",
+        "pinyin": "qí shí gāng cái lù guò wén chuàng diàn, wǒ chà diǎn chōng dòng mǎi xià nà ge fù gǔ xiǎo nào zhōng le, jué de bǎi zài shū zhuō shàng kě hǎo kàn le!",
+        "pinyinHtml": "qí shí gāng cái lù guò wén chuàng diàn, wǒ chà diǎn chōng dòng mǎi xià nà ge fù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gǔ</span> xiǎo nào zhōng le, jué de bǎi zài shū zhuō shàng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> hǎo kàn le!",
+        "vi": "Thực ra nãy đi ngang tiệm đồ decor, tớ suýt thì mua ngay cái đồng hồ báo thức cổ điển kia rồi đấy, thấy đặt trên bàn học xinh xỉu!",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "好险！这东西可千万不能买！小李家是华人家庭，在中国文化里“送钟”可是大忌讳，跟“送终”谐音，除非你俩绝交了，否则绝对不能送！",
+        "pinyin": "hǎo xiǎn! zhè dōng xi kě qiān wàn bù néng mǎi! xiǎo lǐ jiā shì huá rén jiā tíng, zài zhōng guó wén huà lǐ \"sòng zhōng\" kě shì dà jì huì, gēn \"sòng zhōng\" xié yīn, chú fēi nǐ liǎ jué jiāo le, fǒu zé jué duì bù néng sòng!",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> xiǎn! zhè dōng xi kě qiān wàn bù néng mǎi! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> lǐ jiā shì huá rén jiā tíng, zài zhōng guó wén huà lǐ \"sòng zhōng\" kě shì dà jì huì, gēn \"sòng zhōng\" xié yīn, chú fēi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> liǎ jué jiāo le, fǒu zé jué duì bù néng sòng!",
+        "vi": "Nguy hiểm quá! Thứ đó tuyệt đối không được mua nhé! Nhà Tiểu Lý là người gốc Hoa, trong văn hóa Trung Quốc tặng đồng hồ là đại kỵ vì đồng âm với 'tống chung', trừ phi hai cậu nghỉ chơi với nhau chứ đừng bao giờ tặng!",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "天哪，吓我一跳！多亏先跟你商量了一下。那除了“钟”之外，还有哪些东西是绝对不能拿来送人的？",
+        "pinyin": "tiān nǎ, xià wǒ yí tiào! duō kuī xiān gēn nǐ shāng liáng le yí xià. nà chú le \"zhōng\" zhī wài, hái yǒu nǎ xiē dōng xi shì jué duì bù néng ná lái sòng rén de?",
+        "pinyinHtml": "tiān nǎ, xià wǒ yí tiào! duō kuī xiān gēn nǐ shāng liáng le yí xià. nà chú le \"zhōng\" zhī wài, hái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> nǎ xiē dōng xi shì jué duì bù néng ná lái sòng rén de?",
+        "vi": "Trời ạ, giật hết cả mình! May mà bàn trước với cậu. Thế ngoài đồng hồ ra, còn những món nào tuyệt đối không được đem đi tặng nữa?",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "讲究可多了！比如别送雨伞，“伞”和“散”谐音，寓意一拍两散；也别给朋友或者情侣分着吃梨（“分梨”等于分离）。另外白菊花一般用于祭奠，还有绿帽子绝对碰不得，寓意太不好了。",
+        "pinyin": "jiǎng jiū kě duō le! bǐ rú bié sòng yǔ sǎn, \"sǎn\" hé \"sàn\" xié yīn, yù yì yì pāi liǎng sàn; yě bié gěi péng yǒu huò zhě qíng lǚ fēn zhe chī lí \"fēn lí\" děng yú fēn lí). lìng wài bái jú huā yì bān yòng yú jì diàn, hái yǒu lǜ mào zi jué duì pèng bù de, yù yì tài bù hǎo le.",
+        "pinyinHtml": "jiǎng jiū kě duō le! bǐ rú bié sòng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǔ</span> sǎn, \"sǎn\" hé \"sàn\" xié yīn, yù yì yì pāi liǎng sàn; yě bié gěi péng yǒu huò zhě qíng lǚ fēn zhe chī lí \"fēn lí\" děng yú fēn lí). lìng wài bái jú huā yì bān yòng yú jì diàn, hái yǒu lǜ mào zi jué duì pèng bù de, yù yì tài bù hǎo le.",
+        "vi": "Nhiều kiêng kỵ lắm! Ví dụ đừng tặng ô dù vì 'tản' đồng âm 'tán' (tan vỡ chia lìa); cũng đừng bổ quả lê ăn chung ('phân lê' đồng âm phân ly). Ngoài ra hoa cúc trắng thường dùng viếng tang, còn mũ xanh lá cây tuyệt đối tránh xa vì ý nghĩa cực xấu.",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "长知识了！看来送礼不仅要看颜值，更要懂当地的文化忌讳，不然好心办坏事把气氛弄僵就尴尬了。",
+        "pinyin": "cháng zhī shi le! kàn lái sòng lǐ bù jǐn yào kàn yán zhí, gèng yào dǒng dāng dì de wén huà jì huì, bù rán hǎo xīn bàn huài shì bǎ qì fēn nòng jiāng jiù gān gà le.",
+        "pinyinHtml": "cháng zhī shi le! kàn lái sòng lǐ bù jǐn yào kàn yán zhí, gèng yào dǒng dāng dì de wén huà jì huì, bù rán hǎo xīn bàn huài shì bǎ qì fēn nòng jiāng jiù gān gà le.",
+        "vi": "Mở mang kiến thức thật! Xem ra tặng quà không chỉ nhìn đẹp mã mà còn phải hiểu kiêng kỵ văn hóa, kẻo lòng tốt thành làm hỏng chuyện thì ngại chết.",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "是啊，要既体面又讨喜，我建议还是挑个质感不错的钱包或者护眼台灯。送钱包还有“财源广进”的好彩头，他每天用得到。",
+        "pinyin": "shì a, yào jì tǐ miàn yòu tǎo xǐ, wǒ jiàn yì hái shì tiāo gè zhì gǎn bú cuò de qián bāo huò zhě hù yǎn tái dēng. sòng qián bāo hái yǒu \"cái yuán guǎng jìn\" de hǎo cǎi tóu, tā měi tiān yòng dé dào.",
+        "pinyinHtml": "shì a, yào jì tǐ miàn yòu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǎo</span> xǐ, wǒ jiàn yì hái shì tiāo gè zhì gǎn bú cuò de qián bāo huò zhě hù yǎn tái dēng. sòng qián bāo hái yǒu \"cái yuán guǎng jìn\" de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> cǎi tóu, tā měi tiān yòng dé dào.",
+        "vi": "Đúng thế, muốn vừa lịch sự vừa được lòng thì tớ khuyên chọn cái ví xịn hoặc đèn bàn chống cận. Tặng ví còn mang điềm lành 'tiền vào như nước', cậu ấy dùng hàng ngày luôn.",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "这个主意太赞了！只要精心选中一件实用又有心意的小礼物，远比盲目买昂贵的摆设强得多。",
+        "pinyin": "zhè ge zhǔ yì tài zàn le! zhǐ yào jīng xīn xuǎn zhòng yí jiàn shí yòng yòu yǒu xīn yì de xiǎo lǐ wù, yuǎn bǐ máng mù mǎi áng guì de bǎi shè qiáng de duō.",
+        "pinyinHtml": "zhè ge zhǔ yì tài zàn le! zhǐ yào jīng xīn xuǎn zhòng yí jiàn shí yòng yòu yǒu xīn yì de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> lǐ wù, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yuǎn</span> bǐ máng mù mǎi áng guì de bǎi shè qiáng de duō.",
+        "vi": "Ý kiến này đỉnh quá! Chỉ cần dày công chọn trúng một món quà nhỏ thiết thực và có tâm ý, hơn đứt việc mua bừa đồ trưng bày đắt đỏ.",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "完全同意！那明天下课咱俩顺便把商店逛遍，挑个最合他眼缘的钱包，顺便写张手写贺卡。",
+        "pinyin": "wán quán tóng yì! nà míng tiān xià kè zán liǎ shùn biàn bǎ shāng diàn guàng biàn, tiāo gè zuì hé tā yǎn yuán de qián bāo, shùn biàn xiě zhāng shǒu xiě hè kǎ.",
+        "pinyinHtml": "wán quán tóng yì! nà míng tiān xià kè zán liǎ shùn biàn bǎ shāng diàn guàng biàn, tiāo gè zuì hé tā yǎn yuán de qián bāo, shùn biàn xiě zhāng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> xiě hè kǎ.",
+        "vi": "Đồng ý hai tay! Vậy mai tan học hai đứa tiện thể lượn hết lượt cửa hàng, chọn cái ví ưng mắt nhất rồi viết thêm tấm thiệp tay nữa.",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "就这么定了，明天见！",
+        "pinyin": "jiù zhè me dìng le, míng tiān jiàn!",
+        "pinyinHtml": "jiù zhè me dìng le, míng tiān jiàn!",
+        "vi": "Chốt kèo thế nhé, mai gặp!",
+        "modified": true
+       }
+      ],
+      "v1_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "明明，明天晚上你去参加小李的生日会吗？",
+        "pinyin": "míng míng, míng tiān wǎn shàng nǐ qù cān jiā xiǎo lǐ de shēng rì huì ma?",
+        "pinyinHtml": "míng míng, míng tiān wǎn shàng nǐ qù cān jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> lǐ de shēng rì huì ma?",
+        "vi": "Minh Minh, tối mai cậu có đi tiệc sinh nhật Tiểu Lý không?",
+        "modified": false
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "去啊，我打算今天给他准备一份生日礼物，但是想了半天也不知道送什么好。一般生日人们会送什么？",
+        "pinyin": "qù a, wǒ dǎ suàn jīn tiān gěi tā zhǔn bèi yí fèn shēng rì lǐ wù, dàn shì xiǎng le bàn tiān yě bù zhī dào sòng shén me hǎo. yì bān shēng rì rén men huì sòng shén me?",
+        "pinyinHtml": "qù a, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎ suàn jīn tiān gěi tā zhǔn bèi yí fèn shēng rì lǐ wù, dàn shì xiǎng le bàn tiān yě bù zhī dào sòng shén me hǎo. yì bān shēng rì rén men huì sòng shén me?",
+        "vi": "Có chứ, tớ định hôm nay chuẩn bị cho cậu ấy một món quà, mà nghĩ cả buổi vẫn chẳng biết tặng gì. Bình thường sinh nhật người ta hay tặng gì nhỉ?",
+        "modified": false
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "可送的东西多得很啊！比如衣服、鲜花、书、钱包什么的。小李爱看小说，要不你买几本他喜欢的书送给他？",
+        "pinyin": "kě sòng de dōng xi duō de hěn a! bǐ rú yī fu, xiān huā, shū, qián bāo shén me de. xiǎo lǐ ài kàn xiǎo shuō, yào bù nǐ mǎi jǐ běn tā xǐ huan de shū sòng gěi tā?",
+        "pinyinHtml": "kě sòng de dōng xi duō de hěn a! bǐ rú yī fu, xiān huā, shū, qián bāo shén me de. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> lǐ ài kàn xiǎo shuō, yào bù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> běn tā xǐ huan de shū sòng gěi tā?",
+        "vi": "Đồ tặng nhiều lắm! Như quần áo, hoa tươi, sách, ví tiền các thứ. Tiểu Lý thích đọc tiểu thuyết, hay cậu mua mấy cuốn sách cậu ấy thích tặng đi?",
+        "modified": false
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "对了，刚才我在店里看到一款闹钟挺精致的，本来想买个闹钟或者手表送给他。",
+        "pinyin": "duì le, gāng cái wǒ zài diàn lǐ kàn dào yì kuǎn nào zhōng tǐng jīng zhì de, běn lái xiǎng mǎi gè nào zhōng huò zhě shǒu biǎo sòng gěi tā.",
+        "pinyinHtml": "duì le, gāng cái wǒ zài diàn lǐ kàn dào yì kuǎn nào zhōng tǐng jīng zhì de, běn lái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> mǎi gè nào zhōng huò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> biǎo sòng gěi tā.",
+        "vi": "À đúng rồi, nãy ở tiệm tớ thấy mẫu đồng hồ báo thức tinh xảo lắm, định bụng mua cái đồng hồ báo thức hoặc đồng hồ đeo tay tặng cậu ấy.",
+        "modified": false
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "手表还行，但是千万别送闹钟啊！小李是华裔，对中国人来说“送钟”不吉利，因为“钟”和“终”谐音，像“送终”一样。",
+        "pinyin": "shǒu biǎo hái xíng, dàn shì qiān wàn bié sòng nào zhōng a! xiǎo lǐ shì huá yì, duì zhōng guó rén lái shuō \"sòng zhōng\" bù jí lì, yīn wèi \"zhōng\" hé \"zhōng\" xié yīn, xiàng \"sòng zhōng\" yí yàng.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> biǎo hái xíng, dàn shì qiān wàn bié sòng nào zhōng a! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> lǐ shì huá yì, duì zhōng guó rén lái shuō \"sòng zhōng\" bù jí lì, yīn wèi \"zhōng\" hé \"zhōng\" xié yīn, xiàng \"sòng zhōng\" yí yàng.",
+        "vi": "Đồng hồ đeo tay thì được, chứ tuyệt đối đừng tặng đồng hồ báo thức/treo tường nhé! Tiểu Lý là người gốc Hoa, với người Trung Quốc tặng 'chung' (đồng hồ) rất xui, vì đồng âm chữ 'chung' trong 'tống chung' (tiễn người chết).",
+        "modified": false
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "连这个也有讲究啊！幸好问了你，差点就送错了！除了不要送钟，还有什么是不可以送人的吗？",
+        "pinyin": "lián zhè ge yě yǒu jiǎng jiū a! xìng hǎo wèn le nǐ, chà diǎn jiù sòng cuò le! chú le bú yào sòng zhōng, hái yǒu shén me shì bù kě yǐ sòng rén de ma?",
+        "pinyinHtml": "lián zhè ge <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> jiǎng jiū a! xìng hǎo wèn le nǐ, chà diǎn jiù sòng cuò le! chú le bú yào sòng zhōng, hái yǒu shén me shì bù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ sòng rén de ma?",
+        "vi": "Đến cái này cũng có kiêng kỵ cơ à! May mà hỏi cậu, suýt thì tặng nhầm to! Ngoài đồng hồ ra còn thứ gì không được tặng người khác nữa?",
+        "modified": false
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "我记得不能送雨伞，因为“伞”和“散”谐音，容易让人联想到分开。还有不要送白花，也不要送绿色的帽子。",
+        "pinyin": "wǒ jì de bù néng sòng yǔ sǎn, yīn wèi \"sǎn\" hé \"sàn\" xié yīn, róng yì ràng rén lián xiǎng dào fēn kāi. hái yǒu bú yào sòng bái huā, yě bú yào sòng lǜ sè de mào zi.",
+        "pinyinHtml": "wǒ jì de bù néng sòng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǔ</span> sǎn, yīn wèi \"sǎn\" hé \"sàn\" xié yīn, róng yì ràng rén lián xiǎng dào fēn kāi. hái yǒu bú yào sòng bái huā, yě bú yào sòng lǜ sè de mào zi.",
+        "vi": "Tớ nhớ không được tặng ô (dù), vì 'tản' đồng âm với 'tán' (tan rã), dễ liên tưởng chia ly. Ngoài ra đừng tặng hoa trắng, cũng đừng tặng mũ màu xanh lá cây.",
+        "modified": false
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "天哪，原来中国送礼规矩这么多！送个生日礼物还得注意文化习惯。",
+        "pinyin": "tiān nǎ, yuán lái zhōng guó sòng lǐ guī jǔ zhè me duō! sòng gè shēng rì lǐ wù hái děi zhù yì wén huà xí guàn.",
+        "pinyinHtml": "tiān nǎ, yuán lái zhōng guó sòng lǐ guī jǔ zhè me duō! sòng gè shēng rì lǐ wù hái děi zhù yì wén huà xí guàn.",
+        "vi": "Trời ơi, hóa ra văn hóa tặng quà Trung Quốc nhiều quy tắc thế! Tặng món quà sinh nhật thôi cũng phải để ý phong tục.",
+        "modified": false
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "可不是嘛，另外如果送钱包或者实用小物倒挺不错的，寓意“财源滚滚”。",
+        "pinyin": "kě bú shì ma, lìng wài rú guǒ sòng qián bāo huò zhě shí yòng xiǎo wù dǎo tǐng bú cuò de, yù yì \"cái yuán gǔn gǔn\".",
+        "pinyinHtml": "kě bú shì ma, lìng wài rú guǒ sòng qián bāo huò zhě shí yòng xiǎo wù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǎo</span> tǐng bú cuò de, yù yì \"cái yuán <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gǔn</span> gǔn\".",
+        "vi": "Chứ sao nữa, ngoài ra nếu tặng ví tiền hoặc đồ dùng thiết thực lại rất hay đấy, ngụ ý tiền vào như nước.",
+        "modified": false
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "听起来不错！其实送什么不用太贵，关键是选得合适，让他感受到我们的心意和祝福。",
+        "pinyin": "tīng qǐ lái bú cuò! qí shí sòng shén me bú yòng tài guì, guān jiàn shì xuǎn de hé shì, ràng tā gǎn shòu dào wǒ men de xīn yì hé zhù fú.",
+        "pinyinHtml": "tīng qǐ lái bú cuò! qí shí sòng shén me bú yòng tài guì, guān jiàn shì xuǎn de hé shì, ràng tā gǎn shòu dào wǒ men de xīn yì hé zhù fú.",
+        "vi": "Nghe ổn đấy! Thực ra tặng gì không cần quá đắt, quan trọng là chọn hợp để bạn ấy cảm nhận được tấm lòng và lời chúc của mình.",
+        "modified": false
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "说得对，那明天下午有空儿吗？我们一起去逛街挑礼物吧！",
+        "pinyin": "shuō de duì, nà míng tiān xià wǔ yǒu kòngr ma? wǒ men yì qǐ qù guàng jiē tiāo lǐ wù ba!",
+        "pinyinHtml": "shuō de duì, nà míng tiān xià <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǔ</span> yǒu kòngr ma? wǒ men yì qǐ qù guàng jiē tiāo lǐ wù ba!",
+        "vi": "Nói phải lắm, thế chiều mai cậu rảnh không? Mình cùng đi dạo phố chọn quà đi!",
+        "modified": false
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "一言为定，明天见！",
+        "pinyin": "yì yán wèi dìng, míng tiān jiàn!",
+        "pinyinHtml": "yì yán wèi dìng, míng tiān jiàn!",
+        "vi": "Nhất ngôn cửu đỉnh, mai gặp!",
+        "modified": false
+       }
+      ],
+      "v2_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "明明，明晚小李过生日，你去参加他的生日派对吗？",
+        "pinyin": "míng míng, míng wǎn xiǎo lǐ guò shēng rì, nǐ qù cān jiā tā de shēng rì pài duì ma?",
+        "pinyinHtml": "míng míng, míng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎn</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> lǐ guò shēng rì, nǐ qù cān jiā tā de shēng rì pài duì ma?",
+        "vi": "Minh Minh, tối mai sinh nhật Tiểu Lý, cậu có đi dự tiệc sinh nhật cậu ấy không?",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "肯定去呀！不过我逛了一下午街，还是没想好送啥生日礼物。你平时去朋友生日会一般都送什么？",
+        "pinyin": "kěn dìng qù ya! bú guò wǒ guàng le yí xià wǔ jiē, hái shì méi xiǎng hǎo sòng shá shēng rì lǐ wù. nǐ píng shí qù péng yǒu shēng rì huì yì bān dōu sòng shén me?",
+        "pinyinHtml": "kěn dìng qù ya! bú guò wǒ guàng le yí xià wǔ jiē, hái shì méi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> hǎo sòng shá shēng rì lǐ wù. nǐ píng shí qù péng yǒu shēng rì huì yì bān dōu sòng shén me?",
+        "vi": "Chắc chắn đi chứ! Cơ mà tớ lượn phố cả chiều rồi vẫn chưa nghĩ ra tặng quà sinh nhật gì. Bình thường cậu đi sinh nhật bạn hay tặng gì thế?",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "这有什么可犯愁的？投其所好最稳妥！比如护肤品、书、围巾或者真皮钱包。小李不是特别爱看悬疑小说嘛，送套好书就挺有格调。",
+        "pinyin": "zhè yǒu shén me kě fàn chóu de? tóu qí suǒ hǎo zuì wěn tuǒ! bǐ rú hù fū pǐn, shū, wéi jīn huò zhě zhēn pí qián bāo. xiǎo lǐ bú shì tè bié ài kàn xuán yí xiǎo shuō ma, sòng tào hǎo shū jiù tǐng yǒu gé diào.",
+        "pinyinHtml": "zhè yǒu shén me kě fàn chóu de? tóu qí <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> hǎo zuì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wěn</span> tuǒ! bǐ rú hù fū pǐn, shū, wéi jīn huò zhě zhēn pí qián bāo. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> lǐ bú shì tè bié ài kàn xuán yí xiǎo shuō ma, sòng tào hǎo shū jiù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> yǒu gé diào.",
+        "vi": "Chuyện này có gì đáng lo đâu? Tặng đúng sở thích là chắc ăn nhất! Như đồ dưỡng da, sách, khăn quàng hay ví da. Tiểu Lý chẳng mê đọc tiểu thuyết trinh thám lắm sao, tặng bộ sách hay vừa tinh tế vừa sang.",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "其实刚才路过文创店，我差点冲动买下那个复古小闹钟了，觉得摆在书桌上可好看了！",
+        "pinyin": "qí shí gāng cái lù guò wén chuàng diàn, wǒ chà diǎn chōng dòng mǎi xià nà ge fù gǔ xiǎo nào zhōng le, jué de bǎi zài shū zhuō shàng kě hǎo kàn le!",
+        "pinyinHtml": "qí shí gāng cái lù guò wén chuàng diàn, wǒ chà diǎn chōng dòng mǎi xià nà ge fù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gǔ</span> xiǎo nào zhōng le, jué de bǎi zài shū zhuō shàng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> hǎo kàn le!",
+        "vi": "Thực ra nãy đi ngang tiệm đồ decor, tớ suýt thì mua ngay cái đồng hồ báo thức cổ điển kia rồi đấy, thấy đặt trên bàn học xinh xỉu!",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "好险！这东西可千万不能买！小李家是华人家庭，在中国文化里“送钟”可是大忌讳，跟“送终”谐音，除非你俩绝交了，否则绝对不能送！",
+        "pinyin": "hǎo xiǎn! zhè dōng xi kě qiān wàn bù néng mǎi! xiǎo lǐ jiā shì huá rén jiā tíng, zài zhōng guó wén huà lǐ \"sòng zhōng\" kě shì dà jì huì, gēn \"sòng zhōng\" xié yīn, chú fēi nǐ liǎ jué jiāo le, fǒu zé jué duì bù néng sòng!",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> xiǎn! zhè dōng xi kě qiān wàn bù néng mǎi! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> lǐ jiā shì huá rén jiā tíng, zài zhōng guó wén huà lǐ \"sòng zhōng\" kě shì dà jì huì, gēn \"sòng zhōng\" xié yīn, chú fēi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> liǎ jué jiāo le, fǒu zé jué duì bù néng sòng!",
+        "vi": "Nguy hiểm quá! Thứ đó tuyệt đối không được mua nhé! Nhà Tiểu Lý là người gốc Hoa, trong văn hóa Trung Quốc tặng đồng hồ là đại kỵ vì đồng âm với 'tống chung', trừ phi hai cậu nghỉ chơi với nhau chứ đừng bao giờ tặng!",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "天哪，吓我一跳！多亏先跟你商量了一下。那除了“钟”之外，还有哪些东西是绝对不能拿来送人的？",
+        "pinyin": "tiān nǎ, xià wǒ yí tiào! duō kuī xiān gēn nǐ shāng liáng le yí xià. nà chú le \"zhōng\" zhī wài, hái yǒu nǎ xiē dōng xi shì jué duì bù néng ná lái sòng rén de?",
+        "pinyinHtml": "tiān nǎ, xià wǒ yí tiào! duō kuī xiān gēn nǐ shāng liáng le yí xià. nà chú le \"zhōng\" zhī wài, hái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> nǎ xiē dōng xi shì jué duì bù néng ná lái sòng rén de?",
+        "vi": "Trời ạ, giật hết cả mình! May mà bàn trước với cậu. Thế ngoài đồng hồ ra, còn những món nào tuyệt đối không được đem đi tặng nữa?",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "讲究可多了！比如别送雨伞，“伞”和“散”谐音，寓意一拍两散；也别给朋友或者情侣分着吃梨（“分梨”等于分离）。另外白菊花一般用于祭奠，还有绿帽子绝对碰不得，寓意太不好了。",
+        "pinyin": "jiǎng jiū kě duō le! bǐ rú bié sòng yǔ sǎn, \"sǎn\" hé \"sàn\" xié yīn, yù yì yì pāi liǎng sàn; yě bié gěi péng yǒu huò zhě qíng lǚ fēn zhe chī lí \"fēn lí\" děng yú fēn lí). lìng wài bái jú huā yì bān yòng yú jì diàn, hái yǒu lǜ mào zi jué duì pèng bù de, yù yì tài bù hǎo le.",
+        "pinyinHtml": "jiǎng jiū kě duō le! bǐ rú bié sòng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǔ</span> sǎn, \"sǎn\" hé \"sàn\" xié yīn, yù yì yì pāi liǎng sàn; yě bié gěi péng yǒu huò zhě qíng lǚ fēn zhe chī lí \"fēn lí\" děng yú fēn lí). lìng wài bái jú huā yì bān yòng yú jì diàn, hái yǒu lǜ mào zi jué duì pèng bù de, yù yì tài bù hǎo le.",
+        "vi": "Nhiều kiêng kỵ lắm! Ví dụ đừng tặng ô dù vì 'tản' đồng âm 'tán' (tan vỡ chia lìa); cũng đừng bổ quả lê ăn chung ('phân lê' đồng âm phân ly). Ngoài ra hoa cúc trắng thường dùng viếng tang, còn mũ xanh lá cây tuyệt đối tránh xa vì ý nghĩa cực xấu.",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "长知识了！看来送礼不仅要看颜值，更要懂当地的文化忌讳，不然好心办坏事把气氛弄僵就尴尬了。",
+        "pinyin": "cháng zhī shi le! kàn lái sòng lǐ bù jǐn yào kàn yán zhí, gèng yào dǒng dāng dì de wén huà jì huì, bù rán hǎo xīn bàn huài shì bǎ qì fēn nòng jiāng jiù gān gà le.",
+        "pinyinHtml": "cháng zhī shi le! kàn lái sòng lǐ bù jǐn yào kàn yán zhí, gèng yào dǒng dāng dì de wén huà jì huì, bù rán hǎo xīn bàn huài shì bǎ qì fēn nòng jiāng jiù gān gà le.",
+        "vi": "Mở mang kiến thức thật! Xem ra tặng quà không chỉ nhìn đẹp mã mà còn phải hiểu kiêng kỵ văn hóa, kẻo lòng tốt thành làm hỏng chuyện thì ngại chết.",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "是啊，要既体面又讨喜，我建议还是挑个质感不错的钱包或者护眼台灯。送钱包还有“财源广进”的好彩头，他每天用得到。",
+        "pinyin": "shì a, yào jì tǐ miàn yòu tǎo xǐ, wǒ jiàn yì hái shì tiāo gè zhì gǎn bú cuò de qián bāo huò zhě hù yǎn tái dēng. sòng qián bāo hái yǒu \"cái yuán guǎng jìn\" de hǎo cǎi tóu, tā měi tiān yòng dé dào.",
+        "pinyinHtml": "shì a, yào jì tǐ miàn yòu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǎo</span> xǐ, wǒ jiàn yì hái shì tiāo gè zhì gǎn bú cuò de qián bāo huò zhě hù yǎn tái dēng. sòng qián bāo hái yǒu \"cái yuán guǎng jìn\" de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> cǎi tóu, tā měi tiān yòng dé dào.",
+        "vi": "Đúng thế, muốn vừa lịch sự vừa được lòng thì tớ khuyên chọn cái ví xịn hoặc đèn bàn chống cận. Tặng ví còn mang điềm lành 'tiền vào như nước', cậu ấy dùng hàng ngày luôn.",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "这个主意太赞了！只要精心选中一件实用又有心意的小礼物，远比盲目买昂贵的摆设强得多。",
+        "pinyin": "zhè ge zhǔ yì tài zàn le! zhǐ yào jīng xīn xuǎn zhòng yí jiàn shí yòng yòu yǒu xīn yì de xiǎo lǐ wù, yuǎn bǐ máng mù mǎi áng guì de bǎi shè qiáng de duō.",
+        "pinyinHtml": "zhè ge zhǔ yì tài zàn le! zhǐ yào jīng xīn xuǎn zhòng yí jiàn shí yòng yòu yǒu xīn yì de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> lǐ wù, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yuǎn</span> bǐ máng mù mǎi áng guì de bǎi shè qiáng de duō.",
+        "vi": "Ý kiến này đỉnh quá! Chỉ cần dày công chọn trúng một món quà nhỏ thiết thực và có tâm ý, hơn đứt việc mua bừa đồ trưng bày đắt đỏ.",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "完全同意！那明天下课咱俩顺便把商店逛遍，挑个最合他眼缘的钱包，顺便写张手写贺卡。",
+        "pinyin": "wán quán tóng yì! nà míng tiān xià kè zán liǎ shùn biàn bǎ shāng diàn guàng biàn, tiāo gè zuì hé tā yǎn yuán de qián bāo, shùn biàn xiě zhāng shǒu xiě hè kǎ.",
+        "pinyinHtml": "wán quán tóng yì! nà míng tiān xià kè zán liǎ shùn biàn bǎ shāng diàn guàng biàn, tiāo gè zuì hé tā yǎn yuán de qián bāo, shùn biàn xiě zhāng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> xiě hè kǎ.",
+        "vi": "Đồng ý hai tay! Vậy mai tan học hai đứa tiện thể lượn hết lượt cửa hàng, chọn cái ví ưng mắt nhất rồi viết thêm tấm thiệp tay nữa.",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "就这么定了，明天见！",
+        "pinyin": "jiù zhè me dìng le, míng tiān jiàn!",
+        "pinyinHtml": "jiù zhè me dìng le, míng tiān jiàn!",
+        "vi": "Chốt kèo thế nhé, mai gặp!",
+        "modified": true
+       }
+      ],
+      "diffs": [
+       {
+        "n": 1,
+        "role": "A",
+        "v1": {
+         "zh": "明明，明天晚上你去参加小李的生日会吗？",
+         "pinyin": "míng míng, míng tiān wǎn shàng nǐ qù cān jiā xiǎo lǐ de shēng rì huì ma?",
+         "pinyinHtml": "míng míng, míng tiān wǎn shàng nǐ qù cān jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> lǐ de shēng rì huì ma?",
+         "vi": "Minh Minh, tối mai cậu có đi tiệc sinh nhật Tiểu Lý không?"
+        },
+        "v2": {
+         "zh": "明明，明晚小李过生日，你去参加他的生日派对吗？",
+         "pinyin": "míng míng, míng wǎn xiǎo lǐ guò shēng rì, nǐ qù cān jiā tā de shēng rì pài duì ma?",
+         "pinyinHtml": "míng míng, míng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎn</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> lǐ guò shēng rì, nǐ qù cān jiā tā de shēng rì pài duì ma?",
+         "vi": "Minh Minh, tối mai sinh nhật Tiểu Lý, cậu có đi dự tiệc sinh nhật cậu ấy không?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "v1": {
+         "zh": "去啊，我打算今天给他准备一份生日礼物，但是想了半天也不知道送什么好。一般生日人们会送什么？",
+         "pinyin": "qù a, wǒ dǎ suàn jīn tiān gěi tā zhǔn bèi yí fèn shēng rì lǐ wù, dàn shì xiǎng le bàn tiān yě bù zhī dào sòng shén me hǎo. yì bān shēng rì rén men huì sòng shén me?",
+         "pinyinHtml": "qù a, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎ suàn jīn tiān gěi tā zhǔn bèi yí fèn shēng rì lǐ wù, dàn shì xiǎng le bàn tiān yě bù zhī dào sòng shén me hǎo. yì bān shēng rì rén men huì sòng shén me?",
+         "vi": "Có chứ, tớ định hôm nay chuẩn bị cho cậu ấy một món quà, mà nghĩ cả buổi vẫn chẳng biết tặng gì. Bình thường sinh nhật người ta hay tặng gì nhỉ?"
+        },
+        "v2": {
+         "zh": "肯定去呀！不过我逛了一下午街，还是没想好送啥生日礼物。你平时去朋友生日会一般都送什么？",
+         "pinyin": "kěn dìng qù ya! bú guò wǒ guàng le yí xià wǔ jiē, hái shì méi xiǎng hǎo sòng shá shēng rì lǐ wù. nǐ píng shí qù péng yǒu shēng rì huì yì bān dōu sòng shén me?",
+         "pinyinHtml": "kěn dìng qù ya! bú guò wǒ guàng le yí xià wǔ jiē, hái shì méi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> hǎo sòng shá shēng rì lǐ wù. nǐ píng shí qù péng yǒu shēng rì huì yì bān dōu sòng shén me?",
+         "vi": "Chắc chắn đi chứ! Cơ mà tớ lượn phố cả chiều rồi vẫn chưa nghĩ ra tặng quà sinh nhật gì. Bình thường cậu đi sinh nhật bạn hay tặng gì thế?"
+        },
+        "reason": "Sửa lỗi gõ nhầm “想了办天” (Google Doc) -> tự nhiên hơn."
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "v1": {
+         "zh": "可送的东西多得很啊！比如衣服、鲜花、书、钱包什么的。小李爱看小说，要不你买几本他喜欢的书送给他？",
+         "pinyin": "kě sòng de dōng xi duō de hěn a! bǐ rú yī fu, xiān huā, shū, qián bāo shén me de. xiǎo lǐ ài kàn xiǎo shuō, yào bù nǐ mǎi jǐ běn tā xǐ huan de shū sòng gěi tā?",
+         "pinyinHtml": "kě sòng de dōng xi duō de hěn a! bǐ rú yī fu, xiān huā, shū, qián bāo shén me de. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> lǐ ài kàn xiǎo shuō, yào bù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> běn tā xǐ huan de shū sòng gěi tā?",
+         "vi": "Đồ tặng nhiều lắm! Như quần áo, hoa tươi, sách, ví tiền các thứ. Tiểu Lý thích đọc tiểu thuyết, hay cậu mua mấy cuốn sách cậu ấy thích tặng đi?"
+        },
+        "v2": {
+         "zh": "这有什么可犯愁的？投其所好最稳妥！比如护肤品、书、围巾或者真皮钱包。小李不是特别爱看悬疑小说嘛，送套好书就挺有格调。",
+         "pinyin": "zhè yǒu shén me kě fàn chóu de? tóu qí suǒ hǎo zuì wěn tuǒ! bǐ rú hù fū pǐn, shū, wéi jīn huò zhě zhēn pí qián bāo. xiǎo lǐ bú shì tè bié ài kàn xuán yí xiǎo shuō ma, sòng tào hǎo shū jiù tǐng yǒu gé diào.",
+         "pinyinHtml": "zhè yǒu shén me kě fàn chóu de? tóu qí <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> hǎo zuì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wěn</span> tuǒ! bǐ rú hù fū pǐn, shū, wéi jīn huò zhě zhēn pí qián bāo. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> lǐ bú shì tè bié ài kàn xuán yí xiǎo shuō ma, sòng tào hǎo shū jiù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> yǒu gé diào.",
+         "vi": "Chuyện này có gì đáng lo đâu? Tặng đúng sở thích là chắc ăn nhất! Như đồ dưỡng da, sách, khăn quàng hay ví da. Tiểu Lý chẳng mê đọc tiểu thuyết trinh thám lắm sao, tặng bộ sách hay vừa tinh tế vừa sang."
+        },
+        "reason": "Lồng ghép mẫu câu Bài 5 “有什么可……的” (có gì đáng lo đâu)."
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "v1": {
+         "zh": "对了，刚才我在店里看到一款闹钟挺精致的，本来想买个闹钟或者手表送给他。",
+         "pinyin": "duì le, gāng cái wǒ zài diàn lǐ kàn dào yì kuǎn nào zhōng tǐng jīng zhì de, běn lái xiǎng mǎi gè nào zhōng huò zhě shǒu biǎo sòng gěi tā.",
+         "pinyinHtml": "duì le, gāng cái wǒ zài diàn lǐ kàn dào yì kuǎn nào zhōng tǐng jīng zhì de, běn lái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> mǎi gè nào zhōng huò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> biǎo sòng gěi tā.",
+         "vi": "À đúng rồi, nãy ở tiệm tớ thấy mẫu đồng hồ báo thức tinh xảo lắm, định bụng mua cái đồng hồ báo thức hoặc đồng hồ đeo tay tặng cậu ấy."
+        },
+        "v2": {
+         "zh": "其实刚才路过文创店，我差点冲动买下那个复古小闹钟了，觉得摆在书桌上可好看了！",
+         "pinyin": "qí shí gāng cái lù guò wén chuàng diàn, wǒ chà diǎn chōng dòng mǎi xià nà ge fù gǔ xiǎo nào zhōng le, jué de bǎi zài shū zhuō shàng kě hǎo kàn le!",
+         "pinyinHtml": "qí shí gāng cái lù guò wén chuàng diàn, wǒ chà diǎn chōng dòng mǎi xià nà ge fù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gǔ</span> xiǎo nào zhōng le, jué de bǎi zài shū zhuō shàng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> hǎo kàn le!",
+         "vi": "Thực ra nãy đi ngang tiệm đồ decor, tớ suýt thì mua ngay cái đồng hồ báo thức cổ điển kia rồi đấy, thấy đặt trên bàn học xinh xỉu!"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "v1": {
+         "zh": "手表还行，但是千万别送闹钟啊！小李是华裔，对中国人来说“送钟”不吉利，因为“钟”和“终”谐音，像“送终”一样。",
+         "pinyin": "shǒu biǎo hái xíng, dàn shì qiān wàn bié sòng nào zhōng a! xiǎo lǐ shì huá yì, duì zhōng guó rén lái shuō \"sòng zhōng\" bù jí lì, yīn wèi \"zhōng\" hé \"zhōng\" xié yīn, xiàng \"sòng zhōng\" yí yàng.",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> biǎo hái xíng, dàn shì qiān wàn bié sòng nào zhōng a! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> lǐ shì huá yì, duì zhōng guó rén lái shuō \"sòng zhōng\" bù jí lì, yīn wèi \"zhōng\" hé \"zhōng\" xié yīn, xiàng \"sòng zhōng\" yí yàng.",
+         "vi": "Đồng hồ đeo tay thì được, chứ tuyệt đối đừng tặng đồng hồ báo thức/treo tường nhé! Tiểu Lý là người gốc Hoa, với người Trung Quốc tặng 'chung' (đồng hồ) rất xui, vì đồng âm chữ 'chung' trong 'tống chung' (tiễn người chết)."
+        },
+        "v2": {
+         "zh": "好险！这东西可千万不能买！小李家是华人家庭，在中国文化里“送钟”可是大忌讳，跟“送终”谐音，除非你俩绝交了，否则绝对不能送！",
+         "pinyin": "hǎo xiǎn! zhè dōng xi kě qiān wàn bù néng mǎi! xiǎo lǐ jiā shì huá rén jiā tíng, zài zhōng guó wén huà lǐ \"sòng zhōng\" kě shì dà jì huì, gēn \"sòng zhōng\" xié yīn, chú fēi nǐ liǎ jué jiāo le, fǒu zé jué duì bù néng sòng!",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> xiǎn! zhè dōng xi kě qiān wàn bù néng mǎi! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> lǐ jiā shì huá rén jiā tíng, zài zhōng guó wén huà lǐ \"sòng zhōng\" kě shì dà jì huì, gēn \"sòng zhōng\" xié yīn, chú fēi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> liǎ jué jiāo le, fǒu zé jué duì bù néng sòng!",
+         "vi": "Nguy hiểm quá! Thứ đó tuyệt đối không được mua nhé! Nhà Tiểu Lý là người gốc Hoa, trong văn hóa Trung Quốc tặng đồng hồ là đại kỵ vì đồng âm với 'tống chung', trừ phi hai cậu nghỉ chơi với nhau chứ đừng bao giờ tặng!"
+        },
+        "reason": "Sửa dùng sai đại từ “它” -> người và lồng ghép mẫu câu Bài 5 “除非……否则……” cực sắc nét."
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "v1": {
+         "zh": "连这个也有讲究啊！幸好问了你，差点就送错了！除了不要送钟，还有什么是不可以送人的吗？",
+         "pinyin": "lián zhè ge yě yǒu jiǎng jiū a! xìng hǎo wèn le nǐ, chà diǎn jiù sòng cuò le! chú le bú yào sòng zhōng, hái yǒu shén me shì bù kě yǐ sòng rén de ma?",
+         "pinyinHtml": "lián zhè ge <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> jiǎng jiū a! xìng hǎo wèn le nǐ, chà diǎn jiù sòng cuò le! chú le bú yào sòng zhōng, hái yǒu shén me shì bù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ sòng rén de ma?",
+         "vi": "Đến cái này cũng có kiêng kỵ cơ à! May mà hỏi cậu, suýt thì tặng nhầm to! Ngoài đồng hồ ra còn thứ gì không được tặng người khác nữa?"
+        },
+        "v2": {
+         "zh": "天哪，吓我一跳！多亏先跟你商量了一下。那除了“钟”之外，还有哪些东西是绝对不能拿来送人的？",
+         "pinyin": "tiān nǎ, xià wǒ yí tiào! duō kuī xiān gēn nǐ shāng liáng le yí xià. nà chú le \"zhōng\" zhī wài, hái yǒu nǎ xiē dōng xi shì jué duì bù néng ná lái sòng rén de?",
+         "pinyinHtml": "tiān nǎ, xià wǒ yí tiào! duō kuī xiān gēn nǐ shāng liáng le yí xià. nà chú le \"zhōng\" zhī wài, hái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> nǎ xiē dōng xi shì jué duì bù néng ná lái sòng rén de?",
+         "vi": "Trời ạ, giật hết cả mình! May mà bàn trước với cậu. Thế ngoài đồng hồ ra, còn những món nào tuyệt đối không được đem đi tặng nữa?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "v1": {
+         "zh": "我记得不能送雨伞，因为“伞”和“散”谐音，容易让人联想到分开。还有不要送白花，也不要送绿色的帽子。",
+         "pinyin": "wǒ jì de bù néng sòng yǔ sǎn, yīn wèi \"sǎn\" hé \"sàn\" xié yīn, róng yì ràng rén lián xiǎng dào fēn kāi. hái yǒu bú yào sòng bái huā, yě bú yào sòng lǜ sè de mào zi.",
+         "pinyinHtml": "wǒ jì de bù néng sòng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǔ</span> sǎn, yīn wèi \"sǎn\" hé \"sàn\" xié yīn, róng yì ràng rén lián xiǎng dào fēn kāi. hái yǒu bú yào sòng bái huā, yě bú yào sòng lǜ sè de mào zi.",
+         "vi": "Tớ nhớ không được tặng ô (dù), vì 'tản' đồng âm với 'tán' (tan rã), dễ liên tưởng chia ly. Ngoài ra đừng tặng hoa trắng, cũng đừng tặng mũ màu xanh lá cây."
+        },
+        "v2": {
+         "zh": "讲究可多了！比如别送雨伞，“伞”和“散”谐音，寓意一拍两散；也别给朋友或者情侣分着吃梨（“分梨”等于分离）。另外白菊花一般用于祭奠，还有绿帽子绝对碰不得，寓意太不好了。",
+         "pinyin": "jiǎng jiū kě duō le! bǐ rú bié sòng yǔ sǎn, \"sǎn\" hé \"sàn\" xié yīn, yù yì yì pāi liǎng sàn; yě bié gěi péng yǒu huò zhě qíng lǚ fēn zhe chī lí \"fēn lí\" děng yú fēn lí). lìng wài bái jú huā yì bān yòng yú jì diàn, hái yǒu lǜ mào zi jué duì pèng bù de, yù yì tài bù hǎo le.",
+         "pinyinHtml": "jiǎng jiū kě duō le! bǐ rú bié sòng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǔ</span> sǎn, \"sǎn\" hé \"sàn\" xié yīn, yù yì yì pāi liǎng sàn; yě bié gěi péng yǒu huò zhě qíng lǚ fēn zhe chī lí \"fēn lí\" děng yú fēn lí). lìng wài bái jú huā yì bān yòng yú jì diàn, hái yǒu lǜ mào zi jué duì pèng bù de, yù yì tài bù hǎo le.",
+         "vi": "Nhiều kiêng kỵ lắm! Ví dụ đừng tặng ô dù vì 'tản' đồng âm 'tán' (tan vỡ chia lìa); cũng đừng bổ quả lê ăn chung ('phân lê' đồng âm phân ly). Ngoài ra hoa cúc trắng thường dùng viếng tang, còn mũ xanh lá cây tuyệt đối tránh xa vì ý nghĩa cực xấu."
+        },
+        "reason": "Sửa lỗi gõ sai “送百花” -> giải thích đầy đủ 4 món kiêng kỵ chuẩn thi: 钟 (送终), 伞 (散), 梨 (分离), 白花 & 绿帽子."
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "v1": {
+         "zh": "天哪，原来中国送礼规矩这么多！送个生日礼物还得注意文化习惯。",
+         "pinyin": "tiān nǎ, yuán lái zhōng guó sòng lǐ guī jǔ zhè me duō! sòng gè shēng rì lǐ wù hái děi zhù yì wén huà xí guàn.",
+         "pinyinHtml": "tiān nǎ, yuán lái zhōng guó sòng lǐ guī jǔ zhè me duō! sòng gè shēng rì lǐ wù hái děi zhù yì wén huà xí guàn.",
+         "vi": "Trời ơi, hóa ra văn hóa tặng quà Trung Quốc nhiều quy tắc thế! Tặng món quà sinh nhật thôi cũng phải để ý phong tục."
+        },
+        "v2": {
+         "zh": "长知识了！看来送礼不仅要看颜值，更要懂当地的文化忌讳，不然好心办坏事把气氛弄僵就尴尬了。",
+         "pinyin": "cháng zhī shi le! kàn lái sòng lǐ bù jǐn yào kàn yán zhí, gèng yào dǒng dāng dì de wén huà jì huì, bù rán hǎo xīn bàn huài shì bǎ qì fēn nòng jiāng jiù gān gà le.",
+         "pinyinHtml": "cháng zhī shi le! kàn lái sòng lǐ bù jǐn yào kàn yán zhí, gèng yào dǒng dāng dì de wén huà jì huì, bù rán hǎo xīn bàn huài shì bǎ qì fēn nòng jiāng jiù gān gà le.",
+         "vi": "Mở mang kiến thức thật! Xem ra tặng quà không chỉ nhìn đẹp mã mà còn phải hiểu kiêng kỵ văn hóa, kẻo lòng tốt thành làm hỏng chuyện thì ngại chết."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "v1": {
+         "zh": "可不是嘛，另外如果送钱包或者实用小物倒挺不错的，寓意“财源滚滚”。",
+         "pinyin": "kě bú shì ma, lìng wài rú guǒ sòng qián bāo huò zhě shí yòng xiǎo wù dǎo tǐng bú cuò de, yù yì \"cái yuán gǔn gǔn\".",
+         "pinyinHtml": "kě bú shì ma, lìng wài rú guǒ sòng qián bāo huò zhě shí yòng xiǎo wù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǎo</span> tǐng bú cuò de, yù yì \"cái yuán <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gǔn</span> gǔn\".",
+         "vi": "Chứ sao nữa, ngoài ra nếu tặng ví tiền hoặc đồ dùng thiết thực lại rất hay đấy, ngụ ý tiền vào như nước."
+        },
+        "v2": {
+         "zh": "是啊，要既体面又讨喜，我建议还是挑个质感不错的钱包或者护眼台灯。送钱包还有“财源广进”的好彩头，他每天用得到。",
+         "pinyin": "shì a, yào jì tǐ miàn yòu tǎo xǐ, wǒ jiàn yì hái shì tiāo gè zhì gǎn bú cuò de qián bāo huò zhě hù yǎn tái dēng. sòng qián bāo hái yǒu \"cái yuán guǎng jìn\" de hǎo cǎi tóu, tā měi tiān yòng dé dào.",
+         "pinyinHtml": "shì a, yào jì tǐ miàn yòu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǎo</span> xǐ, wǒ jiàn yì hái shì tiāo gè zhì gǎn bú cuò de qián bāo huò zhě hù yǎn tái dēng. sòng qián bāo hái yǒu \"cái yuán guǎng jìn\" de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> cǎi tóu, tā měi tiān yòng dé dào.",
+         "vi": "Đúng thế, muốn vừa lịch sự vừa được lòng thì tớ khuyên chọn cái ví xịn hoặc đèn bàn chống cận. Tặng ví còn mang điềm lành 'tiền vào như nước', cậu ấy dùng hàng ngày luôn."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "v1": {
+         "zh": "听起来不错！其实送什么不用太贵，关键是选得合适，让他感受到我们的心意和祝福。",
+         "pinyin": "tīng qǐ lái bú cuò! qí shí sòng shén me bú yòng tài guì, guān jiàn shì xuǎn de hé shì, ràng tā gǎn shòu dào wǒ men de xīn yì hé zhù fú.",
+         "pinyinHtml": "tīng qǐ lái bú cuò! qí shí sòng shén me bú yòng tài guì, guān jiàn shì xuǎn de hé shì, ràng tā gǎn shòu dào wǒ men de xīn yì hé zhù fú.",
+         "vi": "Nghe ổn đấy! Thực ra tặng gì không cần quá đắt, quan trọng là chọn hợp để bạn ấy cảm nhận được tấm lòng và lời chúc của mình."
+        },
+        "v2": {
+         "zh": "这个主意太赞了！只要精心选中一件实用又有心意的小礼物，远比盲目买昂贵的摆设强得多。",
+         "pinyin": "zhè ge zhǔ yì tài zàn le! zhǐ yào jīng xīn xuǎn zhòng yí jiàn shí yòng yòu yǒu xīn yì de xiǎo lǐ wù, yuǎn bǐ máng mù mǎi áng guì de bǎi shè qiáng de duō.",
+         "pinyinHtml": "zhè ge zhǔ yì tài zàn le! zhǐ yào jīng xīn xuǎn zhòng yí jiàn shí yòng yòu yǒu xīn yì de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎo</span> lǐ wù, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yuǎn</span> bǐ máng mù mǎi áng guì de bǎi shè qiáng de duō.",
+         "vi": "Ý kiến này đỉnh quá! Chỉ cần dày công chọn trúng một món quà nhỏ thiết thực và có tâm ý, hơn đứt việc mua bừa đồ trưng bày đắt đỏ."
+        },
+        "reason": "Lồng ghép mẫu câu Bài 5 “选中” (chọn trúng)."
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "v1": {
+         "zh": "说得对，那明天下午有空儿吗？我们一起去逛街挑礼物吧！",
+         "pinyin": "shuō de duì, nà míng tiān xià wǔ yǒu kòngr ma? wǒ men yì qǐ qù guàng jiē tiāo lǐ wù ba!",
+         "pinyinHtml": "shuō de duì, nà míng tiān xià <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǔ</span> yǒu kòngr ma? wǒ men yì qǐ qù guàng jiē tiāo lǐ wù ba!",
+         "vi": "Nói phải lắm, thế chiều mai cậu rảnh không? Mình cùng đi dạo phố chọn quà đi!"
+        },
+        "v2": {
+         "zh": "完全同意！那明天下课咱俩顺便把商店逛遍，挑个最合他眼缘的钱包，顺便写张手写贺卡。",
+         "pinyin": "wán quán tóng yì! nà míng tiān xià kè zán liǎ shùn biàn bǎ shāng diàn guàng biàn, tiāo gè zuì hé tā yǎn yuán de qián bāo, shùn biàn xiě zhāng shǒu xiě hè kǎ.",
+         "pinyinHtml": "wán quán tóng yì! nà míng tiān xià kè zán liǎ shùn biàn bǎ shāng diàn guàng biàn, tiāo gè zuì hé tā yǎn yuán de qián bāo, shùn biàn xiě zhāng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> xiě hè kǎ.",
+         "vi": "Đồng ý hai tay! Vậy mai tan học hai đứa tiện thể lượn hết lượt cửa hàng, chọn cái ví ưng mắt nhất rồi viết thêm tấm thiệp tay nữa."
+        },
+        "reason": "Lồng ghép mẫu câu Bài 5 “逛遍” (đi hết lượt)."
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "v1": {
+         "zh": "一言为定，明天见！",
+         "pinyin": "yì yán wèi dìng, míng tiān jiàn!",
+         "pinyinHtml": "yì yán wèi dìng, míng tiān jiàn!",
+         "vi": "Nhất ngôn cửu đỉnh, mai gặp!"
+        },
+        "v2": {
+         "zh": "就这么定了，明天见！",
+         "pinyin": "jiù zhè me dìng le, míng tiān jiàn!",
+         "pinyinHtml": "jiù zhè me dìng le, míng tiān jiàn!",
+         "vi": "Chốt kèo thế nhé, mai gặp!"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       }
+      ],
+      "audio": "audio/b5-q12.m4a",
+      "audioDuration": 112.37,
+      "audioTimings": [
+       {
+        "n": 1,
+        "role": "A",
+        "start": 0.25,
+        "end": 4.75
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "start": 4.75,
+        "end": 14.05
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "start": 14.05,
+        "end": 27.17
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "start": 27.17,
+        "end": 34.84
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "start": 34.84,
+        "end": 47.48
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "start": 47.48,
+        "end": 56.55
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "start": 56.55,
+        "end": 72.67
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "start": 72.67,
+        "end": 81.9
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "start": 81.9,
+        "end": 93.01
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "start": 93.01,
+        "end": 101.4
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "start": 101.4,
+        "end": 110.02
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "start": 110.02,
+        "end": 112.37
+       }
+      ]
+     },
+     {
+      "id": "b5-c3",
+      "no": 3,
+      "titleVi": "Hàng hiệu hay hàng tầm trung",
+      "question": "你喜欢买名牌儿货还是中档货？为什么？",
+      "outline": "Quan điểm về hàng hiệu → chất lượng và giá → ví dụ chọn quần áo → thói quen lập danh sách, thử và so sánh → chốt tiêu chí mua sắm.",
+      "takeaways": {
+       "points": [
+        "Thái độ với hàng hiệu: Không bài trừ nhưng không chi tiền chỉ vì cái logo (不反对名牌，不因为商标多花钱)",
+        "Cách kiểm tra quần áo tốt: Sờ chất vải, xem đường may mũi chỉ, mặc thử form dáng (摸摸面料、看看做工、试穿尺寸)",
+        "Lựa chọn thực tế: Giữa đồ hiệu và đồ trung cấp chất lượng tương đương, chọn đồ giá hợp lý để dành tiền việc khác (选价格实惠、把省下的钱留给更需要的东西)",
+        "Thói quen mua sắm thông minh: Xem tủ đồ thiếu gì rồi lên danh sách, thích thử trực tiếp (列清单、试穿合适才买)"
+       ],
+       "goldenQuotes": "买东西最看重的不是牌子，而是实用和合适。只要质量不错、价格说得过去，我就愿意买。"
+      },
+      "lines": [
+       {
+        "n": "01",
+        "role": "A",
+        "zh": "嗨，你的新外套挺好看的，是名牌儿货吗？",
+        "pinyin": "hāi, nǐ de xīn wài tào tǐng hǎo kàn de, shì míng páir huò ma?",
+        "pinyinHtml": "hāi, nǐ de xīn wài tào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> hǎo kàn de, shì míng páir huò ma?",
+        "vi": "Này, chiếc áo khoác mới của cậu đẹp ghê, có phải hàng hiệu không vậy?",
+        "modified": false
+       },
+       {
+        "n": "02",
+        "role": "B",
+        "zh": "不是，是一家普通商店买的中档货。你平时喜欢买名牌儿货吗？",
+        "pinyin": "bú shì, shì yì jiā pǔ tōng shāng diàn mǎi de zhōng dàng huò. nǐ píng shí xǐ huan mǎi míng páir huò ma?",
+        "pinyinHtml": "bú shì, shì yì jiā pǔ tōng shāng diàn mǎi de zhōng dàng huò. nǐ píng shí xǐ huan mǎi míng páir huò ma?",
+        "vi": "Không phải đâu, đồ bình dân tầm trung tớ mua ở một cửa tiệm bình thường thôi. Bình thường cậu có thích mua đồ hiệu không?",
+        "modified": false
+       },
+       {
+        "n": "03",
+        "role": "A",
+        "zh": "我不太追求名牌，比较在意质量、价格和穿起来舒不舒服。",
+        "pinyin": "wǒ bú tài zhuī qiú míng pái, bǐ jiào zài yì zhì liàng, jià gé hé chuān qǐ lái shū bu shū fú.",
+        "pinyinHtml": "wǒ bú tài zhuī qiú míng pái, bǐ jiào zài yì zhì liàng, jià gé hé chuān qǐ lái shū bu shū fú.",
+        "vi": "Tớ không ham đồ hiệu cho lắm, tớ quan tâm hơn đến chất lượng, giá cả và mặc vào có thoải mái hay không.",
+        "modified": false
+       },
+       {
+        "n": "04",
+        "role": "B",
+        "zh": "其实日常衣服没有什么可攀比的，名牌儿固然体面，但溢价实在太高了。",
+        "pinyin": "qí shí rì cháng yī fu méi yǒu shén me kě pān bǐ de, míng páir gù rán tǐ miàn, dàn yì jià shí zài tài gāo le.",
+        "pinyinHtml": "qí shí rì cháng yī fu méi yǒu shén me kě pān bǐ de, míng páir gù rán tǐ miàn, dàn yì jià shí zài tài gāo le.",
+        "vi": "Thực ra quần áo thường ngày chẳng có gì đáng để so bì hơn thua cả, đồ hiệu thì sang thật, nhưng giá bị đội lên quá cao rồi.",
+        "modified": true,
+        "reason": "Lồng ghép mẫu Bài 5 【没有什么可 + V + 的】 (没有什么可攀比的: không có gì để đua đòi)."
+       },
+       {
+        "n": "05",
+        "role": "A",
+        "zh": "就是说啊！我倒不是全盘否定名牌，只是觉得没必要单为一个商标掏大笔冤枉钱。",
+        "pinyin": "jiù shì shuō a! wǒ dǎo bú shì quán pán fǒu dìng míng pái, zhǐ shì jué de méi bì yào dān wèi yí gè shāng biāo tāo dà bǐ yuān wǎng qián.",
+        "pinyinHtml": "jiù shì shuō a! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎo bú shì quán pán fǒu dìng míng pái, zhǐ shì jué de méi bì yào dān wèi yí gè shāng biāo tāo dà bǐ yuān wǎng qián.",
+        "vi": "Đấy, ý mình chính là thế! Mình không hề bài xích hoàn toàn đồ hiệu, chỉ là thấy chẳng cần thiết chỉ vì một cái logo nhãn mác mà phải móc hầu bao trả khoản tiền oan uổng.",
+        "modified": true,
+        "reason": "Thay '是啊' bằng quán dụng ngữ đồng tình sâu sắc 【就是说啊！】 và cụm khẩu ngữ 【掏冤枉钱】."
+       },
+       {
+        "n": "06",
+        "role": "B",
+        "zh": "那你怎么判断一件衣服的质量好不好？",
+        "pinyin": "nà nǐ zěn me pàn duàn yí jiàn yī fu de zhì liàng hǎo bu hǎo?",
+        "pinyinHtml": "nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> zěn me pàn duàn yí jiàn yī fu de zhì liàng hǎo bu hǎo?",
+        "vi": "Thế cậu dựa vào đâu để đánh giá chất lượng một bộ quần áo có tốt hay không?",
+        "modified": false
+       },
+       {
+        "n": "07",
+        "role": "A",
+        "zh": "我会摸摸面料，看看做工，还要试穿一下，尺寸合适才行。",
+        "pinyin": "wǒ huì mō mō miàn liào, kàn kàn zuò gōng, hái yào shì chuān yí xià, chǐ cùn hé shì cái xíng.",
+        "pinyinHtml": "wǒ huì mō mō miàn liào, kàn kàn zuò gōng, hái yào shì chuān yí xià, chǐ cùn hé shì cái xíng.",
+        "vi": "Tớ sẽ sờ thử chất vải, ngắm nghía đường kim mũi chỉ, rồi còn phải mặc thử xem form dáng kích cỡ có vừa vặn mới được.",
+        "modified": false
+       },
+       {
+        "n": "08",
+        "role": "B",
+        "zh": "只要款式大方、面料舒服，价格也说得过去，中档货完全够用了。你觉得呢？",
+        "pinyin": "zhǐ yào kuǎn shì dà fāng, miàn liào shū fú, jià gé yě shuō de guò qù, zhōng dàng huò wán quán gòu yòng le. nǐ jué de ne?",
+        "pinyinHtml": "zhǐ yào kuǎn shì dà fāng, miàn liào shū fú, jià gé yě shuō de guò qù, zhōng dàng huò wán quán gòu yòng le. nǐ jué de ne?",
+        "vi": "Chỉ cần kiểu dáng trang nhã, chất vải thoải mái, giá cả cũng phải chăng hợp lý, thì hàng tầm trung hoàn toàn đủ dùng rồi. Bạn thấy sao?",
+        "modified": true,
+        "reason": "Lồng ghép cụm Bài 5 【说得过去】 (giá cả hợp lý, chấp nhận được)."
+       },
+       {
+        "n": "09",
+        "role": "A",
+        "zh": "我多半选价格实惠的那件，把省下的钱留给更需要的东西。",
+        "pinyin": "wǒ duō bàn xuǎn jià gé shí huì de nà jiàn, bǎ shěng xià de qián liú gěi gèng xū yào de dōng xi.",
+        "pinyinHtml": "wǒ duō bàn xuǎn jià gé shí huì de nà jiàn, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎ</span> shěng xià de qián liú gěi gèng xū yào de dōng xi.",
+        "vi": "Phần lớn là tớ sẽ chọn chiếc có giá cả thiết thực hơn, để dành khoản tiền tiết kiệm được cho những thứ cần thiết hơn.",
+        "modified": false
+       },
+       {
+        "n": "10",
+        "role": "B",
+        "zh": "我有时候喜欢名牌的设计，不过要等打折才舍得买。",
+        "pinyin": "wǒ yǒu shí hòu xǐ huan míng pái de shè jì, bú guò yào děng dǎ zhé cái shě de mǎi.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǒu shí hòu xǐ huan míng pái de shè jì, bú guò yào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">děng</span> dǎ zhé cái shě de mǎi.",
+        "vi": "Thỉnh thoảng tớ cũng mê thiết kế của đồ hiệu lắm, nhưng phải đợi đến lúc giảm giá mới nỡ xuống tiền mua.",
+        "modified": false
+       },
+       {
+        "n": "11",
+        "role": "A",
+        "zh": "除非出席很正式的商务场合需要撑场面，否则日常穿戴我坚决不买昂贵的名牌儿。",
+        "pinyin": "chú fēi chū xí hěn zhèng shì de shāng wù chǎng hé xū yào chēng chǎng miàn, fǒu zé rì cháng chuān dài wǒ jiān jué bù mǎi áng guì de míng páir.",
+        "pinyinHtml": "chú fēi chū xí hěn zhèng shì de shāng wù chǎng hé xū yào chēng chǎng miàn, fǒu zé rì cháng chuān dài wǒ jiān jué bù mǎi áng guì de míng páir.",
+        "vi": "Trừ phi tham dự dịp thương mại rất trang trọng cần giữ thể diện, còn ngày thường mặc đồ mình kiên quyết không mua đồ hiệu đắt đỏ.",
+        "modified": true,
+        "reason": "Áp dụng mẫu điều kiện Bài 5 【除非……否则……】 tạo lập luận sắc sảo, thuyết phục."
+       },
+       {
+        "n": "12",
+        "role": "B",
+        "zh": "会。我先看看衣柜里缺什么，再决定要买哪些衣服。",
+        "pinyin": "huì. wǒ xiān kàn kàn yī guì lǐ quē shén me, zài jué dìng yào mǎi nǎ xiē yī fu.",
+        "pinyinHtml": "huì. wǒ xiān kàn kàn yī guì lǐ quē shén me, zài jué dìng yào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> nǎ xiē yī fu.",
+        "vi": "Có chứ. Tớ xem trước trong tủ quần áo đang thiếu món gì rồi mới quyết định mua thêm những loại nào.",
+        "modified": false
+       },
+       {
+        "n": "13",
+        "role": "A",
+        "zh": "我也会列清单，不然逛商店时容易被漂亮的东西吸引。",
+        "pinyin": "wǒ yě huì liè qīng dān, bù rán guàng shāng diàn shí róng yì bèi piào liang de dōng xi xī yǐn.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě huì liè qīng dān, bù rán guàng shāng diàn shí róng yì bèi piào liang de dōng xi xī yǐn.",
+        "vi": "Tớ cũng hay lên danh sách, chứ không lúc đi lượn phố mua sắm dễ bị mấy món bắt mắt cuốn hút lắm.",
+        "modified": false
+       },
+       {
+        "n": "14",
+        "role": "B",
+        "zh": "网上买是不是更方便？可我总担心尺寸不合适。",
+        "pinyin": "wǎng shàng mǎi shì bu shì gèng fāng biàn? kě wǒ zǒng dān xīn chǐ cùn bù hé shì.",
+        "pinyinHtml": "wǎng shàng mǎi shì bu shì gèng fāng biàn? <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zǒng dān xīn chǐ cùn bù hé shì.",
+        "vi": "Mua qua mạng chẳng phải tiện hơn sao? Cơ mà tớ cứ hay lo kích cỡ mặc không vừa.",
+        "modified": false
+       },
+       {
+        "n": "15",
+        "role": "A",
+        "zh": "那倒是！网购虽然省事，但衣服版型合不合适，还是得亲自上身试穿才踏实。",
+        "pinyin": "nà dǎo shì! wǎng gòu suī rán shěng shì, dàn yī fu bǎn xíng hé bu hé shì, hái shì děi qīn zì shàng shēn shì chuān cái tà shí.",
+        "pinyinHtml": "nà dǎo shì! wǎng gòu suī rán shěng shì, dàn yī fu bǎn xíng hé bu hé shì, hái shì děi qīn zì shàng shēn shì chuān cái tà shí.",
+        "vi": "Đúng là vậy! Mua online tuy tiện thật, nhưng form dáng quần áo có vừa vặn không, vẫn phải đích thân mặc thử lên người mới an tâm.",
+        "modified": true,
+        "reason": "Thay '对' bằng liên từ khẩu ngữ chuẩn xác 【那倒是！】."
+       },
+       {
+        "n": "16",
+        "role": "B",
+        "zh": "所以你买东西最看重的不是牌子，而是实用和合适，对吗？",
+        "pinyin": "suǒ yǐ nǐ mǎi dōng xi zuì kàn zhòng de bú shì pái zi, ér shì shí yòng hé hé shì, duì ma?",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> mǎi dōng xi zuì kàn zhòng de bú shì pái zi, ér shì shí yòng hé hé shì, duì ma?",
+        "vi": "Cho nên khi mua đồ, điều cậu coi trọng nhất không phải thương hiệu mà là tính thực dụng và sự phù hợp, đúng không?",
+        "modified": false
+       },
+       {
+        "n": "17",
+        "role": "A",
+        "zh": "可不是嘛！只要做工扎实、版型板正，价格又说得过去，中档品牌绝对是首选。",
+        "pinyin": "kě bú shì ma! zhǐ yào zuò gōng zhā shí, bǎn xíng bǎn zhèng, jià gé yòu shuō de guò qù, zhōng dàng pǐn pái jué duì shì shǒu xuǎn.",
+        "pinyinHtml": "kě bú shì ma! zhǐ yào zuò gōng zhā shí, bǎn xíng bǎn zhèng, jià gé yòu shuō de guò qù, zhōng dàng pǐn pái jué duì shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> xuǎn.",
+        "vi": "Chứ còn gì nữa! Miễn là đường may chắc chắn, form dáng ngay ngắn chuẩn chỉnh, giá lại phải chăng hợp túi tiền, thì hàng tầm trung chắc chắn là lựa chọn số một.",
+        "modified": true,
+        "reason": "Thay chữ '没错' bằng 【可不是嘛！】 và tính từ miêu tả quần áo đắt giá 【版型板正】."
+       },
+       {
+        "n": "18",
+        "role": "B",
+        "zh": "跟你聊完，我觉得以后也该少看商标，多看看实际质量。",
+        "pinyin": "gēn nǐ liáo wán, wǒ jué de yǐ hòu yě gāi shǎo kàn shāng biāo, duō kàn kàn shí jì zhì liàng.",
+        "pinyinHtml": "gēn nǐ liáo wán, wǒ jué de yǐ hòu yě gāi shǎo kàn shāng biāo, duō kàn kàn shí jì zhì liàng.",
+        "vi": "Trò chuyện với cậu xong, tớ thấy sau này mình cũng nên bớt soi nhãn hiệu lại, mà chú ý nhiều hơn đến chất lượng thực tế.",
+        "modified": false
+       }
+      ],
+      "questionPinyin": "nǐ xǐ huan mǎi míng páir huò hái shì zhōng dàng huò? wèi shén me?",
+      "questionPinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> xǐ huan mǎi míng páir huò hái shì zhōng dàng huò? wèi shén me?",
+      "v1_lines": [
+       {
+        "n": "01",
+        "role": "A",
+        "zh": "嗨，你的新外套挺好看的，是名牌儿货吗？",
+        "pinyin": "hāi, nǐ de xīn wài tào tǐng hǎo kàn de, shì míng páir huò ma?",
+        "pinyinHtml": "hāi, nǐ de xīn wài tào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> hǎo kàn de, shì míng páir huò ma?",
+        "vi": "Này, chiếc áo khoác mới của cậu đẹp ghê, có phải hàng hiệu không vậy?"
+       },
+       {
+        "n": "02",
+        "role": "B",
+        "zh": "不是，是一家普通商店买的中档货。你平时喜欢买名牌儿货吗？",
+        "pinyin": "bú shì, shì yì jiā pǔ tōng shāng diàn mǎi de zhōng dàng huò. nǐ píng shí xǐ huan mǎi míng páir huò ma?",
+        "pinyinHtml": "bú shì, shì yì jiā pǔ tōng shāng diàn mǎi de zhōng dàng huò. nǐ píng shí xǐ huan mǎi míng páir huò ma?",
+        "vi": "Không phải đâu, đồ bình dân tầm trung tớ mua ở một cửa tiệm bình thường thôi. Bình thường cậu có thích mua đồ hiệu không?"
+       },
+       {
+        "n": "03",
+        "role": "A",
+        "zh": "我不太追求名牌，比较在意质量、价格和穿起来舒不舒服。",
+        "pinyin": "wǒ bú tài zhuī qiú míng pái, bǐ jiào zài yì zhì liàng, jià gé hé chuān qǐ lái shū bu shū fú.",
+        "pinyinHtml": "wǒ bú tài zhuī qiú míng pái, bǐ jiào zài yì zhì liàng, jià gé hé chuān qǐ lái shū bu shū fú.",
+        "vi": "Tớ không ham đồ hiệu cho lắm, tớ quan tâm hơn đến chất lượng, giá cả và mặc vào có thoải mái hay không."
+       },
+       {
+        "n": "04",
+        "role": "B",
+        "zh": "可是有些名牌做工很好，买一件可以穿很多年。",
+        "pinyin": "kě shì yǒu xiē míng pái zuò gōng hěn hǎo, mǎi yí jiàn kě yǐ chuān hěn duō nián.",
+        "pinyinHtml": "kě shì yǒu xiē míng pái zuò gōng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> hǎo, mǎi yí jiàn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ chuān hěn duō nián.",
+        "vi": "Nhưng mà có vài thương hiệu lớn làm đường may mũi chỉ rất khéo, sắm một cái có thể mặc được suốt nhiều năm trời."
+       },
+       {
+        "n": "05",
+        "role": "A",
+        "zh": "是啊，我不反对买名牌，只是不会因为商标就多花很多钱。",
+        "pinyin": "shì a, wǒ bù fǎn duì mǎi míng pái, zhǐ shì bú huì yīn wèi shāng biāo jiù duō huā hěn duō qián.",
+        "pinyinHtml": "shì a, wǒ bù fǎn duì mǎi míng pái, zhǐ shì bú huì yīn wèi shāng biāo jiù duō huā hěn duō qián.",
+        "vi": "Ừ đúng rồi, tớ không phản đối việc mua đồ hiệu, chỉ là không muốn vì mỗi cái logo nhãn mác mà phải bỏ thêm một đống tiền."
+       },
+       {
+        "n": "06",
+        "role": "B",
+        "zh": "那你怎么判断一件衣服的质量好不好？",
+        "pinyin": "nà nǐ zěn me pàn duàn yí jiàn yī fu de zhì liàng hǎo bu hǎo?",
+        "pinyinHtml": "nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> zěn me pàn duàn yí jiàn yī fu de zhì liàng hǎo bu hǎo?",
+        "vi": "Thế cậu dựa vào đâu để đánh giá chất lượng một bộ quần áo có tốt hay không?"
+       },
+       {
+        "n": "07",
+        "role": "A",
+        "zh": "我会摸摸面料，看看做工，还要试穿一下，尺寸合适才行。",
+        "pinyin": "wǒ huì mō mō miàn liào, kàn kàn zuò gōng, hái yào shì chuān yí xià, chǐ cùn hé shì cái xíng.",
+        "pinyinHtml": "wǒ huì mō mō miàn liào, kàn kàn zuò gōng, hái yào shì chuān yí xià, chǐ cùn hé shì cái xíng.",
+        "vi": "Tớ sẽ sờ thử chất vải, ngắm nghía đường kim mũi chỉ, rồi còn phải mặc thử xem form dáng kích cỡ có vừa vặn mới được."
+       },
+       {
+        "n": "08",
+        "role": "B",
+        "zh": "如果两件衣服质量差不多，一件是名牌，一件是中档货，你选哪个？",
+        "pinyin": "rú guǒ liǎng jiàn yī fú zhì liàng chà bù duō, yí jiàn shì míng pái, yí jiàn shì zhōng dàng huò, nǐ xuǎn nǎ gè?",
+        "pinyinHtml": "rú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> liǎng jiàn yī fú zhì liàng chà bù duō, yí jiàn shì míng pái, yí jiàn shì zhōng dàng huò, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xuǎn</span> nǎ gè?",
+        "vi": "Nếu hai chiếc áo chất lượng tương đương nhau, một cái là hàng hiệu, một cái là hàng tầm trung, cậu sẽ chọn cái nào?"
+       },
+       {
+        "n": "09",
+        "role": "A",
+        "zh": "我多半选价格实惠的那件，把省下的钱留给更需要的东西。",
+        "pinyin": "wǒ duō bàn xuǎn jià gé shí huì de nà jiàn, bǎ shěng xià de qián liú gěi gèng xū yào de dōng xi.",
+        "pinyinHtml": "wǒ duō bàn xuǎn jià gé shí huì de nà jiàn, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎ</span> shěng xià de qián liú gěi gèng xū yào de dōng xi.",
+        "vi": "Phần lớn là tớ sẽ chọn chiếc có giá cả thiết thực hơn, để dành khoản tiền tiết kiệm được cho những thứ cần thiết hơn."
+       },
+       {
+        "n": "10",
+        "role": "B",
+        "zh": "我有时候喜欢名牌的设计，不过要等打折才舍得买。",
+        "pinyin": "wǒ yǒu shí hòu xǐ huan míng pái de shè jì, bú guò yào děng dǎ zhé cái shě de mǎi.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǒu shí hòu xǐ huan míng pái de shè jì, bú guò yào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">děng</span> dǎ zhé cái shě de mǎi.",
+        "vi": "Thỉnh thoảng tớ cũng mê thiết kế của đồ hiệu lắm, nhưng phải đợi đến lúc giảm giá mới nỡ xuống tiền mua."
+       },
+       {
+        "n": "11",
+        "role": "A",
+        "zh": "那也挺合理。你买东西之前会不会做计划？",
+        "pinyin": "nà yě tǐng hé lǐ. nǐ mǎi dōng xi zhī qián huì bu huì zuò jì huà?",
+        "pinyinHtml": "nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> tǐng hé lǐ. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> mǎi dōng xi zhī qián huì bu huì zuò jì huà?",
+        "vi": "Như thế cũng rất hợp lý mà. Trước khi mua sắm cậu có lên kế hoạch trước không?"
+       },
+       {
+        "n": "12",
+        "role": "B",
+        "zh": "会。我先看看衣柜里缺什么，再决定要买哪些衣服。",
+        "pinyin": "huì. wǒ xiān kàn kàn yī guì lǐ quē shén me, zài jué dìng yào mǎi nǎ xiē yī fu.",
+        "pinyinHtml": "huì. wǒ xiān kàn kàn yī guì lǐ quē shén me, zài jué dìng yào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> nǎ xiē yī fu.",
+        "vi": "Có chứ. Tớ xem trước trong tủ quần áo đang thiếu món gì rồi mới quyết định mua thêm những loại nào."
+       },
+       {
+        "n": "13",
+        "role": "A",
+        "zh": "我也会列清单，不然逛商店时容易被漂亮的东西吸引。",
+        "pinyin": "wǒ yě huì liè qīng dān, bù rán guàng shāng diàn shí róng yì bèi piào liang de dōng xi xī yǐn.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě huì liè qīng dān, bù rán guàng shāng diàn shí róng yì bèi piào liang de dōng xi xī yǐn.",
+        "vi": "Tớ cũng hay lên danh sách, chứ không lúc đi lượn phố mua sắm dễ bị mấy món bắt mắt cuốn hút lắm."
+       },
+       {
+        "n": "14",
+        "role": "B",
+        "zh": "网上买是不是更方便？可我总担心尺寸不合适。",
+        "pinyin": "wǎng shàng mǎi shì bu shì gèng fāng biàn? kě wǒ zǒng dān xīn chǐ cùn bù hé shì.",
+        "pinyinHtml": "wǎng shàng mǎi shì bu shì gèng fāng biàn? <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zǒng dān xīn chǐ cùn bù hé shì.",
+        "vi": "Mua qua mạng chẳng phải tiện hơn sao? Cơ mà tớ cứ hay lo kích cỡ mặc không vừa."
+       },
+       {
+        "n": "15",
+        "role": "A",
+        "zh": "对，方便是方便，不过买衣服我还是喜欢先试穿。",
+        "pinyin": "duì, fāng biàn shì fāng biàn, bú guò mǎi yī fu wǒ hái shì xǐ huan xiān shì chuān.",
+        "pinyinHtml": "duì, fāng biàn shì fāng biàn, bú guò mǎi yī fu wǒ hái shì xǐ huan xiān shì chuān.",
+        "vi": "Đúng vậy, tiện thì tiện thật, nhưng mua quần áo tớ vẫn khoái được mặc thử trước đã."
+       },
+       {
+        "n": "16",
+        "role": "B",
+        "zh": "所以你买东西最看重的不是牌子，而是实用和合适，对吗？",
+        "pinyin": "suǒ yǐ nǐ mǎi dōng xi zuì kàn zhòng de bú shì pái zi, ér shì shí yòng hé hé shì, duì ma?",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> mǎi dōng xi zuì kàn zhòng de bú shì pái zi, ér shì shí yòng hé hé shì, duì ma?",
+        "vi": "Cho nên khi mua đồ, điều cậu coi trọng nhất không phải thương hiệu mà là tính thực dụng và sự phù hợp, đúng không?"
+       },
+       {
+        "n": "17",
+        "role": "A",
+        "zh": "没错。只要质量不错、价格说得过去，我就愿意买。",
+        "pinyin": "méi cuò. zhǐ yào zhì liàng bú cuò, jià gé shuō de guò qù, wǒ jiù yuàn yì mǎi.",
+        "pinyinHtml": "méi cuò. zhǐ yào zhì liàng bú cuò, jià gé shuō de guò qù, wǒ jiù yuàn yì mǎi.",
+        "vi": "Chuẩn luôn. Chỉ cần chất lượng ổn áp, mức giá chấp nhận được là tớ sẵn sàng mua liền."
+       },
+       {
+        "n": "18",
+        "role": "B",
+        "zh": "跟你聊完，我觉得以后也该少看商标，多看看实际质量。",
+        "pinyin": "gēn nǐ liáo wán, wǒ jué de yǐ hòu yě gāi shǎo kàn shāng biāo, duō kàn kàn shí jì zhì liàng.",
+        "pinyinHtml": "gēn nǐ liáo wán, wǒ jué de yǐ hòu yě gāi shǎo kàn shāng biāo, duō kàn kàn shí jì zhì liàng.",
+        "vi": "Trò chuyện với cậu xong, tớ thấy sau này mình cũng nên bớt soi nhãn hiệu lại, mà chú ý nhiều hơn đến chất lượng thực tế."
+       }
+      ],
+      "v2_lines": [
+       {
+        "n": "01",
+        "role": "A",
+        "zh": "嗨，你的新外套挺好看的，是名牌儿货吗？",
+        "pinyin": "hāi, nǐ de xīn wài tào tǐng hǎo kàn de, shì míng páir huò ma?",
+        "pinyinHtml": "hāi, nǐ de xīn wài tào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> hǎo kàn de, shì míng páir huò ma?",
+        "vi": "Này, chiếc áo khoác mới của cậu đẹp ghê, có phải hàng hiệu không vậy?",
+        "modified": false
+       },
+       {
+        "n": "02",
+        "role": "B",
+        "zh": "不是，是一家普通商店买的中档货。你平时喜欢买名牌儿货吗？",
+        "pinyin": "bú shì, shì yì jiā pǔ tōng shāng diàn mǎi de zhōng dàng huò. nǐ píng shí xǐ huan mǎi míng páir huò ma?",
+        "pinyinHtml": "bú shì, shì yì jiā pǔ tōng shāng diàn mǎi de zhōng dàng huò. nǐ píng shí xǐ huan mǎi míng páir huò ma?",
+        "vi": "Không phải đâu, đồ bình dân tầm trung tớ mua ở một cửa tiệm bình thường thôi. Bình thường cậu có thích mua đồ hiệu không?",
+        "modified": false
+       },
+       {
+        "n": "03",
+        "role": "A",
+        "zh": "我不太追求名牌，比较在意质量、价格和穿起来舒不舒服。",
+        "pinyin": "wǒ bú tài zhuī qiú míng pái, bǐ jiào zài yì zhì liàng, jià gé hé chuān qǐ lái shū bu shū fú.",
+        "pinyinHtml": "wǒ bú tài zhuī qiú míng pái, bǐ jiào zài yì zhì liàng, jià gé hé chuān qǐ lái shū bu shū fú.",
+        "vi": "Tớ không ham đồ hiệu cho lắm, tớ quan tâm hơn đến chất lượng, giá cả và mặc vào có thoải mái hay không.",
+        "modified": false
+       },
+       {
+        "n": "04",
+        "role": "B",
+        "zh": "其实日常衣服没有什么可攀比的，名牌儿固然体面，但溢价实在太高了。",
+        "pinyin": "qí shí rì cháng yī fu méi yǒu shén me kě pān bǐ de, míng páir gù rán tǐ miàn, dàn yì jià shí zài tài gāo le.",
+        "pinyinHtml": "qí shí rì cháng yī fu méi yǒu shén me kě pān bǐ de, míng páir gù rán tǐ miàn, dàn yì jià shí zài tài gāo le.",
+        "vi": "Thực ra quần áo thường ngày chẳng có gì đáng để so bì hơn thua cả, đồ hiệu thì sang thật, nhưng giá bị đội lên quá cao rồi.",
+        "modified": true,
+        "reason": "Lồng ghép mẫu Bài 5 【没有什么可 + V + 的】 (没有什么可攀比的: không có gì để đua đòi)."
+       },
+       {
+        "n": "05",
+        "role": "A",
+        "zh": "就是说啊！我倒不是全盘否定名牌，只是觉得没必要单为一个商标掏大笔冤枉钱。",
+        "pinyin": "jiù shì shuō a! wǒ dǎo bú shì quán pán fǒu dìng míng pái, zhǐ shì jué de méi bì yào dān wèi yí gè shāng biāo tāo dà bǐ yuān wǎng qián.",
+        "pinyinHtml": "jiù shì shuō a! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎo bú shì quán pán fǒu dìng míng pái, zhǐ shì jué de méi bì yào dān wèi yí gè shāng biāo tāo dà bǐ yuān wǎng qián.",
+        "vi": "Đấy, ý mình chính là thế! Mình không hề bài xích hoàn toàn đồ hiệu, chỉ là thấy chẳng cần thiết chỉ vì một cái logo nhãn mác mà phải móc hầu bao trả khoản tiền oan uổng.",
+        "modified": true,
+        "reason": "Thay '是啊' bằng quán dụng ngữ đồng tình sâu sắc 【就是说啊！】 và cụm khẩu ngữ 【掏冤枉钱】."
+       },
+       {
+        "n": "06",
+        "role": "B",
+        "zh": "那你怎么判断一件衣服的质量好不好？",
+        "pinyin": "nà nǐ zěn me pàn duàn yí jiàn yī fu de zhì liàng hǎo bu hǎo?",
+        "pinyinHtml": "nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> zěn me pàn duàn yí jiàn yī fu de zhì liàng hǎo bu hǎo?",
+        "vi": "Thế cậu dựa vào đâu để đánh giá chất lượng một bộ quần áo có tốt hay không?",
+        "modified": false
+       },
+       {
+        "n": "07",
+        "role": "A",
+        "zh": "我会摸摸面料，看看做工，还要试穿一下，尺寸合适才行。",
+        "pinyin": "wǒ huì mō mō miàn liào, kàn kàn zuò gōng, hái yào shì chuān yí xià, chǐ cùn hé shì cái xíng.",
+        "pinyinHtml": "wǒ huì mō mō miàn liào, kàn kàn zuò gōng, hái yào shì chuān yí xià, chǐ cùn hé shì cái xíng.",
+        "vi": "Tớ sẽ sờ thử chất vải, ngắm nghía đường kim mũi chỉ, rồi còn phải mặc thử xem form dáng kích cỡ có vừa vặn mới được.",
+        "modified": false
+       },
+       {
+        "n": "08",
+        "role": "B",
+        "zh": "只要款式大方、面料舒服，价格也说得过去，中档货完全够用了。你觉得呢？",
+        "pinyin": "zhǐ yào kuǎn shì dà fāng, miàn liào shū fú, jià gé yě shuō de guò qù, zhōng dàng huò wán quán gòu yòng le. nǐ jué de ne?",
+        "pinyinHtml": "zhǐ yào kuǎn shì dà fāng, miàn liào shū fú, jià gé yě shuō de guò qù, zhōng dàng huò wán quán gòu yòng le. nǐ jué de ne?",
+        "vi": "Chỉ cần kiểu dáng trang nhã, chất vải thoải mái, giá cả cũng phải chăng hợp lý, thì hàng tầm trung hoàn toàn đủ dùng rồi. Bạn thấy sao?",
+        "modified": true,
+        "reason": "Lồng ghép cụm Bài 5 【说得过去】 (giá cả hợp lý, chấp nhận được)."
+       },
+       {
+        "n": "09",
+        "role": "A",
+        "zh": "我多半选价格实惠的那件，把省下的钱留给更需要的东西。",
+        "pinyin": "wǒ duō bàn xuǎn jià gé shí huì de nà jiàn, bǎ shěng xià de qián liú gěi gèng xū yào de dōng xi.",
+        "pinyinHtml": "wǒ duō bàn xuǎn jià gé shí huì de nà jiàn, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎ</span> shěng xià de qián liú gěi gèng xū yào de dōng xi.",
+        "vi": "Phần lớn là tớ sẽ chọn chiếc có giá cả thiết thực hơn, để dành khoản tiền tiết kiệm được cho những thứ cần thiết hơn.",
+        "modified": false
+       },
+       {
+        "n": "10",
+        "role": "B",
+        "zh": "我有时候喜欢名牌的设计，不过要等打折才舍得买。",
+        "pinyin": "wǒ yǒu shí hòu xǐ huan míng pái de shè jì, bú guò yào děng dǎ zhé cái shě de mǎi.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǒu shí hòu xǐ huan míng pái de shè jì, bú guò yào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">děng</span> dǎ zhé cái shě de mǎi.",
+        "vi": "Thỉnh thoảng tớ cũng mê thiết kế của đồ hiệu lắm, nhưng phải đợi đến lúc giảm giá mới nỡ xuống tiền mua.",
+        "modified": false
+       },
+       {
+        "n": "11",
+        "role": "A",
+        "zh": "除非出席很正式的商务场合需要撑场面，否则日常穿戴我坚决不买昂贵的名牌儿。",
+        "pinyin": "chú fēi chū xí hěn zhèng shì de shāng wù chǎng hé xū yào chēng chǎng miàn, fǒu zé rì cháng chuān dài wǒ jiān jué bù mǎi áng guì de míng páir.",
+        "pinyinHtml": "chú fēi chū xí hěn zhèng shì de shāng wù chǎng hé xū yào chēng chǎng miàn, fǒu zé rì cháng chuān dài wǒ jiān jué bù mǎi áng guì de míng páir.",
+        "vi": "Trừ phi tham dự dịp thương mại rất trang trọng cần giữ thể diện, còn ngày thường mặc đồ mình kiên quyết không mua đồ hiệu đắt đỏ.",
+        "modified": true,
+        "reason": "Áp dụng mẫu điều kiện Bài 5 【除非……否则……】 tạo lập luận sắc sảo, thuyết phục."
+       },
+       {
+        "n": "12",
+        "role": "B",
+        "zh": "会。我先看看衣柜里缺什么，再决定要买哪些衣服。",
+        "pinyin": "huì. wǒ xiān kàn kàn yī guì lǐ quē shén me, zài jué dìng yào mǎi nǎ xiē yī fu.",
+        "pinyinHtml": "huì. wǒ xiān kàn kàn yī guì lǐ quē shén me, zài jué dìng yào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> nǎ xiē yī fu.",
+        "vi": "Có chứ. Tớ xem trước trong tủ quần áo đang thiếu món gì rồi mới quyết định mua thêm những loại nào.",
+        "modified": false
+       },
+       {
+        "n": "13",
+        "role": "A",
+        "zh": "我也会列清单，不然逛商店时容易被漂亮的东西吸引。",
+        "pinyin": "wǒ yě huì liè qīng dān, bù rán guàng shāng diàn shí róng yì bèi piào liang de dōng xi xī yǐn.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě huì liè qīng dān, bù rán guàng shāng diàn shí róng yì bèi piào liang de dōng xi xī yǐn.",
+        "vi": "Tớ cũng hay lên danh sách, chứ không lúc đi lượn phố mua sắm dễ bị mấy món bắt mắt cuốn hút lắm.",
+        "modified": false
+       },
+       {
+        "n": "14",
+        "role": "B",
+        "zh": "网上买是不是更方便？可我总担心尺寸不合适。",
+        "pinyin": "wǎng shàng mǎi shì bu shì gèng fāng biàn? kě wǒ zǒng dān xīn chǐ cùn bù hé shì.",
+        "pinyinHtml": "wǎng shàng mǎi shì bu shì gèng fāng biàn? <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zǒng dān xīn chǐ cùn bù hé shì.",
+        "vi": "Mua qua mạng chẳng phải tiện hơn sao? Cơ mà tớ cứ hay lo kích cỡ mặc không vừa.",
+        "modified": false
+       },
+       {
+        "n": "15",
+        "role": "A",
+        "zh": "那倒是！网购虽然省事，但衣服版型合不合适，还是得亲自上身试穿才踏实。",
+        "pinyin": "nà dǎo shì! wǎng gòu suī rán shěng shì, dàn yī fu bǎn xíng hé bu hé shì, hái shì děi qīn zì shàng shēn shì chuān cái tà shí.",
+        "pinyinHtml": "nà dǎo shì! wǎng gòu suī rán shěng shì, dàn yī fu bǎn xíng hé bu hé shì, hái shì děi qīn zì shàng shēn shì chuān cái tà shí.",
+        "vi": "Đúng là vậy! Mua online tuy tiện thật, nhưng form dáng quần áo có vừa vặn không, vẫn phải đích thân mặc thử lên người mới an tâm.",
+        "modified": true,
+        "reason": "Thay '对' bằng liên từ khẩu ngữ chuẩn xác 【那倒是！】."
+       },
+       {
+        "n": "16",
+        "role": "B",
+        "zh": "所以你买东西最看重的不是牌子，而是实用和合适，对吗？",
+        "pinyin": "suǒ yǐ nǐ mǎi dōng xi zuì kàn zhòng de bú shì pái zi, ér shì shí yòng hé hé shì, duì ma?",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> mǎi dōng xi zuì kàn zhòng de bú shì pái zi, ér shì shí yòng hé hé shì, duì ma?",
+        "vi": "Cho nên khi mua đồ, điều cậu coi trọng nhất không phải thương hiệu mà là tính thực dụng và sự phù hợp, đúng không?",
+        "modified": false
+       },
+       {
+        "n": "17",
+        "role": "A",
+        "zh": "可不是嘛！只要做工扎实、版型板正，价格又说得过去，中档品牌绝对是首选。",
+        "pinyin": "kě bú shì ma! zhǐ yào zuò gōng zhā shí, bǎn xíng bǎn zhèng, jià gé yòu shuō de guò qù, zhōng dàng pǐn pái jué duì shì shǒu xuǎn.",
+        "pinyinHtml": "kě bú shì ma! zhǐ yào zuò gōng zhā shí, bǎn xíng bǎn zhèng, jià gé yòu shuō de guò qù, zhōng dàng pǐn pái jué duì shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> xuǎn.",
+        "vi": "Chứ còn gì nữa! Miễn là đường may chắc chắn, form dáng ngay ngắn chuẩn chỉnh, giá lại phải chăng hợp túi tiền, thì hàng tầm trung chắc chắn là lựa chọn số một.",
+        "modified": true,
+        "reason": "Thay chữ '没错' bằng 【可不是嘛！】 và tính từ miêu tả quần áo đắt giá 【版型板正】."
+       },
+       {
+        "n": "18",
+        "role": "B",
+        "zh": "跟你聊完，我觉得以后也该少看商标，多看看实际质量。",
+        "pinyin": "gēn nǐ liáo wán, wǒ jué de yǐ hòu yě gāi shǎo kàn shāng biāo, duō kàn kàn shí jì zhì liàng.",
+        "pinyinHtml": "gēn nǐ liáo wán, wǒ jué de yǐ hòu yě gāi shǎo kàn shāng biāo, duō kàn kàn shí jì zhì liàng.",
+        "vi": "Trò chuyện với cậu xong, tớ thấy sau này mình cũng nên bớt soi nhãn hiệu lại, mà chú ý nhiều hơn đến chất lượng thực tế.",
+        "modified": false
+       }
+      ],
+      "diffs": [
+       {
+        "n": "04",
+        "role": "B",
+        "reason": "Lồng ghép mẫu Bài 5 【没有什么可 + V + 的】 (没有什么可攀比的: không có gì để đua đòi).",
+        "v1": {
+         "zh": "可是有些名牌做工很好，买一件可以穿很多年。",
+         "pinyin": "kě shì yǒu xiē míng pái zuò gōng hěn hǎo, mǎi yí jiàn kě yǐ chuān hěn duō nián.",
+         "pinyinHtml": "kě shì yǒu xiē míng pái zuò gōng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> hǎo, mǎi yí jiàn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ chuān hěn duō nián.",
+         "vi": "Nhưng mà có vài thương hiệu lớn làm đường may mũi chỉ rất khéo, sắm một cái có thể mặc được suốt nhiều năm trời."
+        },
+        "v2": {
+         "zh": "其实日常衣服没有什么可攀比的，名牌儿固然体面，但溢价实在太高了。",
+         "pinyin": "qí shí rì cháng yī fu méi yǒu shén me kě pān bǐ de, míng páir gù rán tǐ miàn, dàn yì jià shí zài tài gāo le.",
+         "pinyinHtml": "qí shí rì cháng yī fu méi yǒu shén me kě pān bǐ de, míng páir gù rán tǐ miàn, dàn yì jià shí zài tài gāo le.",
+         "vi": "Thực ra quần áo thường ngày chẳng có gì đáng để so bì hơn thua cả, đồ hiệu thì sang thật, nhưng giá bị đội lên quá cao rồi."
+        }
+       },
+       {
+        "n": "05",
+        "role": "A",
+        "reason": "Thay '是啊' bằng quán dụng ngữ đồng tình sâu sắc 【就是说啊！】 và cụm khẩu ngữ 【掏冤枉钱】.",
+        "v1": {
+         "zh": "是啊，我不反对买名牌，只是不会因为商标就多花很多钱。",
+         "pinyin": "shì a, wǒ bù fǎn duì mǎi míng pái, zhǐ shì bú huì yīn wèi shāng biāo jiù duō huā hěn duō qián.",
+         "pinyinHtml": "shì a, wǒ bù fǎn duì mǎi míng pái, zhǐ shì bú huì yīn wèi shāng biāo jiù duō huā hěn duō qián.",
+         "vi": "Ừ đúng rồi, tớ không phản đối việc mua đồ hiệu, chỉ là không muốn vì mỗi cái logo nhãn mác mà phải bỏ thêm một đống tiền."
+        },
+        "v2": {
+         "zh": "就是说啊！我倒不是全盘否定名牌，只是觉得没必要单为一个商标掏大笔冤枉钱。",
+         "pinyin": "jiù shì shuō a! wǒ dǎo bú shì quán pán fǒu dìng míng pái, zhǐ shì jué de méi bì yào dān wèi yí gè shāng biāo tāo dà bǐ yuān wǎng qián.",
+         "pinyinHtml": "jiù shì shuō a! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎo bú shì quán pán fǒu dìng míng pái, zhǐ shì jué de méi bì yào dān wèi yí gè shāng biāo tāo dà bǐ yuān wǎng qián.",
+         "vi": "Đấy, ý mình chính là thế! Mình không hề bài xích hoàn toàn đồ hiệu, chỉ là thấy chẳng cần thiết chỉ vì một cái logo nhãn mác mà phải móc hầu bao trả khoản tiền oan uổng."
+        }
+       },
+       {
+        "n": "08",
+        "role": "B",
+        "reason": "Lồng ghép cụm Bài 5 【说得过去】 (giá cả hợp lý, chấp nhận được).",
+        "v1": {
+         "zh": "如果两件衣服质量差不多，一件是名牌，一件是中档货，你选哪个？",
+         "pinyin": "rú guǒ liǎng jiàn yī fú zhì liàng chà bù duō, yí jiàn shì míng pái, yí jiàn shì zhōng dàng huò, nǐ xuǎn nǎ gè?",
+         "pinyinHtml": "rú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> liǎng jiàn yī fú zhì liàng chà bù duō, yí jiàn shì míng pái, yí jiàn shì zhōng dàng huò, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xuǎn</span> nǎ gè?",
+         "vi": "Nếu hai chiếc áo chất lượng tương đương nhau, một cái là hàng hiệu, một cái là hàng tầm trung, cậu sẽ chọn cái nào?"
+        },
+        "v2": {
+         "zh": "只要款式大方、面料舒服，价格也说得过去，中档货完全够用了。你觉得呢？",
+         "pinyin": "zhǐ yào kuǎn shì dà fāng, miàn liào shū fú, jià gé yě shuō de guò qù, zhōng dàng huò wán quán gòu yòng le. nǐ jué de ne?",
+         "pinyinHtml": "zhǐ yào kuǎn shì dà fāng, miàn liào shū fú, jià gé yě shuō de guò qù, zhōng dàng huò wán quán gòu yòng le. nǐ jué de ne?",
+         "vi": "Chỉ cần kiểu dáng trang nhã, chất vải thoải mái, giá cả cũng phải chăng hợp lý, thì hàng tầm trung hoàn toàn đủ dùng rồi. Bạn thấy sao?"
+        }
+       },
+       {
+        "n": "11",
+        "role": "A",
+        "reason": "Áp dụng mẫu điều kiện Bài 5 【除非……否则……】 tạo lập luận sắc sảo, thuyết phục.",
+        "v1": {
+         "zh": "那也挺合理。你买东西之前会不会做计划？",
+         "pinyin": "nà yě tǐng hé lǐ. nǐ mǎi dōng xi zhī qián huì bu huì zuò jì huà?",
+         "pinyinHtml": "nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> tǐng hé lǐ. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> mǎi dōng xi zhī qián huì bu huì zuò jì huà?",
+         "vi": "Như thế cũng rất hợp lý mà. Trước khi mua sắm cậu có lên kế hoạch trước không?"
+        },
+        "v2": {
+         "zh": "除非出席很正式的商务场合需要撑场面，否则日常穿戴我坚决不买昂贵的名牌儿。",
+         "pinyin": "chú fēi chū xí hěn zhèng shì de shāng wù chǎng hé xū yào chēng chǎng miàn, fǒu zé rì cháng chuān dài wǒ jiān jué bù mǎi áng guì de míng páir.",
+         "pinyinHtml": "chú fēi chū xí hěn zhèng shì de shāng wù chǎng hé xū yào chēng chǎng miàn, fǒu zé rì cháng chuān dài wǒ jiān jué bù mǎi áng guì de míng páir.",
+         "vi": "Trừ phi tham dự dịp thương mại rất trang trọng cần giữ thể diện, còn ngày thường mặc đồ mình kiên quyết không mua đồ hiệu đắt đỏ."
+        }
+       },
+       {
+        "n": "15",
+        "role": "A",
+        "reason": "Thay '对' bằng liên từ khẩu ngữ chuẩn xác 【那倒是！】.",
+        "v1": {
+         "zh": "对，方便是方便，不过买衣服我还是喜欢先试穿。",
+         "pinyin": "duì, fāng biàn shì fāng biàn, bú guò mǎi yī fu wǒ hái shì xǐ huan xiān shì chuān.",
+         "pinyinHtml": "duì, fāng biàn shì fāng biàn, bú guò mǎi yī fu wǒ hái shì xǐ huan xiān shì chuān.",
+         "vi": "Đúng vậy, tiện thì tiện thật, nhưng mua quần áo tớ vẫn khoái được mặc thử trước đã."
+        },
+        "v2": {
+         "zh": "那倒是！网购虽然省事，但衣服版型合不合适，还是得亲自上身试穿才踏实。",
+         "pinyin": "nà dǎo shì! wǎng gòu suī rán shěng shì, dàn yī fu bǎn xíng hé bu hé shì, hái shì děi qīn zì shàng shēn shì chuān cái tà shí.",
+         "pinyinHtml": "nà dǎo shì! wǎng gòu suī rán shěng shì, dàn yī fu bǎn xíng hé bu hé shì, hái shì děi qīn zì shàng shēn shì chuān cái tà shí.",
+         "vi": "Đúng là vậy! Mua online tuy tiện thật, nhưng form dáng quần áo có vừa vặn không, vẫn phải đích thân mặc thử lên người mới an tâm."
+        }
+       },
+       {
+        "n": "17",
+        "role": "A",
+        "reason": "Thay chữ '没错' bằng 【可不是嘛！】 và tính từ miêu tả quần áo đắt giá 【版型板正】.",
+        "v1": {
+         "zh": "没错。只要质量不错、价格说得过去，我就愿意买。",
+         "pinyin": "méi cuò. zhǐ yào zhì liàng bú cuò, jià gé shuō de guò qù, wǒ jiù yuàn yì mǎi.",
+         "pinyinHtml": "méi cuò. zhǐ yào zhì liàng bú cuò, jià gé shuō de guò qù, wǒ jiù yuàn yì mǎi.",
+         "vi": "Chuẩn luôn. Chỉ cần chất lượng ổn áp, mức giá chấp nhận được là tớ sẵn sàng mua liền."
+        },
+        "v2": {
+         "zh": "可不是嘛！只要做工扎实、版型板正，价格又说得过去，中档品牌绝对是首选。",
+         "pinyin": "kě bú shì ma! zhǐ yào zuò gōng zhā shí, bǎn xíng bǎn zhèng, jià gé yòu shuō de guò qù, zhōng dàng pǐn pái jué duì shì shǒu xuǎn.",
+         "pinyinHtml": "kě bú shì ma! zhǐ yào zuò gōng zhā shí, bǎn xíng bǎn zhèng, jià gé yòu shuō de guò qù, zhōng dàng pǐn pái jué duì shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> xuǎn.",
+         "vi": "Chứ còn gì nữa! Miễn là đường may chắc chắn, form dáng ngay ngắn chuẩn chỉnh, giá lại phải chăng hợp túi tiền, thì hàng tầm trung chắc chắn là lựa chọn số một."
+        }
+       }
+      ],
+      "audio": "audio/b5-c3.m4a",
+      "audioDuration": 102.5,
+      "audioTimings": [
+       {
+        "n": "01",
+        "role": "A",
+        "start": 0.25,
+        "end": 4.31
+       },
+       {
+        "n": "02",
+        "role": "B",
+        "start": 4.31,
+        "end": 10.42
+       },
+       {
+        "n": "03",
+        "role": "A",
+        "start": 10.42,
+        "end": 15.69
+       },
+       {
+        "n": "04",
+        "role": "B",
+        "start": 15.69,
+        "end": 22.07
+       },
+       {
+        "n": "05",
+        "role": "A",
+        "start": 22.07,
+        "end": 29.71
+       },
+       {
+        "n": "06",
+        "role": "B",
+        "start": 29.71,
+        "end": 32.96
+       },
+       {
+        "n": "07",
+        "role": "A",
+        "start": 32.96,
+        "end": 38.5
+       },
+       {
+        "n": "08",
+        "role": "B",
+        "start": 38.5,
+        "end": 45.93
+       },
+       {
+        "n": "09",
+        "role": "A",
+        "start": 45.93,
+        "end": 50.65
+       },
+       {
+        "n": "10",
+        "role": "B",
+        "start": 50.65,
+        "end": 55.27
+       },
+       {
+        "n": "11",
+        "role": "A",
+        "start": 55.27,
+        "end": 61.54
+       },
+       {
+        "n": "12",
+        "role": "B",
+        "start": 61.54,
+        "end": 66.81
+       },
+       {
+        "n": "13",
+        "role": "A",
+        "start": 66.81,
+        "end": 71.41
+       },
+       {
+        "n": "14",
+        "role": "B",
+        "start": 71.41,
+        "end": 76.45
+       },
+       {
+        "n": "15",
+        "role": "A",
+        "start": 76.45,
+        "end": 83.62
+       },
+       {
+        "n": "16",
+        "role": "B",
+        "start": 83.62,
+        "end": 89.41
+       },
+       {
+        "n": "17",
+        "role": "A",
+        "start": 89.41,
+        "end": 97.18
+       },
+       {
+        "n": "18",
+        "role": "B",
+        "start": 97.18,
+        "end": 102.5
+       }
+      ],
+      "examNo": 13,
+      "priority": null,
+      "isExamScope": true,
+      "slideQuestions": []
+     },
+     {
+      "id": "b5-q14",
+      "no": 14,
+      "examNo": 14,
+      "priority": "green",
+      "isExamScope": true,
+      "titleVi": "Muốn mua đồ nhưng không biết chọn thế nào, bạn làm sao?",
+      "question": "你要买东西，但是你不知道应该怎么选，你会怎么办？",
+      "questionPinyin": "nǐ yào mǎi dōng xi, dàn shì nǐ bù zhī dào yīng gāi zěn me xuǎn, nǐ huì zěn me bàn?",
+      "questionPinyinHtml": "nǐ yào mǎi dōng xi, dàn shì nǐ bù zhī dào yīng gāi zěn me xuǎn, nǐ huì zěn me bàn?",
+      "slideQuestions": [],
+      "outline": "Nêu tình huống phân vân không biết chọn mua đồ gì (đồ điện tử / quần áo) → 3 bước giải quyết thực tế: 1. Lên mạng đọc review & so giá; 2. Ra cửa hàng sờ chất liệu/thử trực tiếp; 3. Hỏi ý kiến bạn bè có kinh nghiệm → Chốt quyết định hợp lý.",
+      "takeaways": {
+       "points": [
+        "Bước 1 — Tra cứu Online: Lên app/mạng đọc đánh giá thật của người mua trước (看评价、比价格、做功课)",
+        "Bước 2 — Trải nghiệm trực tiếp: Với quần áo/giày dép/đồ đắt tiền phải ra cửa hàng thử, sờ tận tay (去实体店亲自试穿、摸质量)",
+        "Bước 3 — Hỏi người có kinh nghiệm: Nhờ bạn bè am hiểu tư vấn hoặc giới thiệu quán uy tín (请有经验的朋友推荐靠谱的店)",
+        "Mẫu câu Bài 5: V+遍 (xem hết một lượt), 除非……才…… (trừ phi... mới...), 选中 (chọn trúng), 说得过去 (tạm ổn)"
+       ],
+       "goldenQuotes": "买东西举棋不定时，我先上网查遍评价、比比价格，再去实体店亲自试一试，或者问问内行朋友，确保选到性价比最合适的。"
+      },
+      "lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "在刷啥呢这么入迷？眉头都皱成一团了！",
+        "pinyin": "zài shuā shá ne zhè me rù mí? méi tóu dōu zhòu chéng yì tuán le!",
+        "pinyinHtml": "zài shuā shá ne zhè me rù mí? méi tóu dōu zhòu chéng yì tuán le!",
+        "vi": "Đang lướt gì mà mê mẩn thế? Nhíu hết cả mày lại kìa!",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "我想趁着换季买件保暖外套，结果网上一搜几百页，花多眼乱，实在不知道该怎么选才好。",
+        "pinyin": "wǒ xiǎng chèn zhe huàn jì mǎi jiàn bǎo nuǎn wài tào, jié guǒ wǎng shàng yì sōu jǐ bǎi yè, huā duō yǎn luàn, shí zài bù zhī dào gāi zěn me xuǎn cái hǎo.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> xiǎng chèn zhe huàn jì mǎi jiàn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎo</span> nuǎn wài tào, jié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> wǎng shàng yì sōu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> bǎi yè, huā duō yǎn luàn, shí zài bù zhī dào gāi zěn me xuǎn cái hǎo.",
+        "vi": "Tớ định nhân lúc chuyển mùa mua cái áo khoác ấm, ai dè lên mạng tìm ra cả trăm trang, hoa hết cả mắt, chẳng biết chọn kiểu gì.",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "遇到选择困难症的时候，你平时都怎么搞定啊？",
+        "pinyin": "yù dào xuǎn zé kùn nán zhèng de shí hòu, nǐ píng shí dōu zěn me gǎo dìng a?",
+        "pinyinHtml": "yù dào xuǎn zé kùn nán zhèng de shí hòu, nǐ píng shí dōu zěn me gǎo dìng a?",
+        "vi": "Gặp lúc mắc 'bệnh khó lựa chọn' thế này, bình thường cậu xử lý sao?",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "我有三步走！第一步肯定先在网上做功课，把各大品牌的销量和真实差评看一遍，先把明显“踩雷”的款式淘汰掉。",
+        "pinyin": "wǒ yǒu sān bù zǒu! dì yī bù kěn dìng xiān zài wǎng shàng zuò gōng kè, bǎ gè dà pǐn pái de xiāo liáng hé zhēn shí chà píng kàn yí biàn, xiān bǎ míng xiǎn \"cǎi léi\" de kuǎn shì táo tài diào.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǒu sān bù zǒu! dì yī bù kěn dìng xiān zài wǎng shàng zuò gōng kè, bǎ gè dà pǐn pái de xiāo liáng hé zhēn shí chà píng kàn yí biàn, xiān bǎ míng xiǎn \"cǎi léi\" de kuǎn shì táo tài diào.",
+        "vi": "Tớ có 3 bước hẳn hoi! Bước 1 chắc chắn lên mạng tìm hiểu, lướt qua một lượt doanh số và bình luận chê thật của các hãng, loại ngay mấy mẫu dễ 'dính bẫy' trước.",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "看差评比看好评管用多了！不过网图滤镜太厚，实物往往跟卖家秀对不上号。",
+        "pinyin": "kàn chà píng bǐ kàn hǎo píng guǎn yòng duō le! bú guò wǎng tú lǜ jìng tài hòu, shí wù wǎng wǎng gēn mài jiā xiù duì bú shàng hào.",
+        "pinyinHtml": "kàn chà píng bǐ kàn hǎo píng guǎn yòng duō le! bú guò wǎng tú lǜ jìng tài hòu, shí wù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎng</span> wǎng gēn mài jiā xiù duì bú shàng hào.",
+        "vi": "Đọc bình luận chê hiệu quả hơn đọc khen nhiều! Cơ mà ảnh mạng chỉnh màu dày quá, đồ thật hay khác một trời một vực với ảnh mẫu.",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "太对了！所以第二步我会先把想买的清单记下来，好周末直奔实体店亲自试穿——摸摸面料厚不厚、版型正不正。",
+        "pinyin": "tài duì le! suǒ yǐ dì èr bù wǒ huì xiān bǎ xiǎng mǎi de qīng dān jì xià lái, hǎo zhōu mò zhí bēn shí tǐ diàn qīn zì shì chuān-- mō mō miàn liào hòu bu hòu, bǎn xíng zhèng bu zhèng.",
+        "pinyinHtml": "tài duì le! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǐ dì èr bù wǒ huì xiān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> mǎi de qīng dān jì xià lái, hǎo zhōu mò zhí bēn shí tǐ diàn qīn zì shì chuān-- mō mō miàn liào hòu bu hòu, bǎn xíng zhèng bu zhèng.",
+        "vi": "Chuẩn không cần chỉnh! Nên bước 2 tớ ghi sẵn danh sách mẫu ưng lại, để cuối tuần chạy thẳng ra tiệm thử tận người — sờ xem vải có dày không, form có chuẩn không.",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "亲自上身试确实踏实。要是遇到自己完全外行的东西，比如买电脑或者相机，你会怎么办？",
+        "pinyin": "qīn zì shàng shēn shì què shí tà shí. yào shi yù dào zì jǐ wán quán wài háng de dōng xi, bǐ rú mǎi diàn nǎo huò zhě xiàng jī, nǐ huì zěn me bàn?",
+        "pinyinHtml": "qīn zì shàng shēn shì què shí tà shí. yào shi yù dào zì jǐ wán quán wài háng de dōng xi, bǐ rú mǎi diàn nǎo huò zhě xiàng jī, nǐ huì zěn me bàn?",
+        "vi": "Mặc thử tận người đúng là yên tâm thật. Còn nếu gặp thứ mình mù tịt hoàn toàn, như mua laptop hay máy ảnh chẳng hạn, cậu tính sao?",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "那更简单了！第三步就是直接找内行朋友请教，听听他们的避坑建议，请他们推荐几家靠谱的店，这样能少走很多弯路。",
+        "pinyin": "nà gèng jiǎn dān le! dì sān bù jiù shì zhí jiē zhǎo nèi háng péng yǒu qǐng jiào, tīng tīng tā men de bì kēng jiàn yì, qǐng tā men tuī jiàn jǐ jiā kào pǔ de diàn, zhè yàng néng shǎo zǒu hěn duō wān lù.",
+        "pinyinHtml": "nà gèng jiǎn dān le! dì sān bù jiù shì zhí jiē zhǎo nèi háng péng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> qǐng jiào, tīng tīng tā men de bì kēng jiàn yì, qǐng tā men tuī jiàn jǐ jiā kào pǔ de diàn, zhè yàng néng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǎo</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǒu</span> hěn duō wān lù.",
+        "vi": "Thế càng dễ! Bước 3 là hỏi thẳng đứa bạn rành nghề, nghe nó chỉ cách né bẫy và gợi ý vài tiệm uy tín, đỡ tốn công mò mẫm bao nhiêu.",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "有道理！除非评价口碑都过硬、性价比也说得过去，否则真不能头脑一热就下单。",
+        "pinyin": "yǒu dào lǐ! chú fēi píng jià kǒu bēi dōu guò yìng, xìng jià bǐ yě shuō de guò qù, fǒu zé zhēn bù néng tóu nǎo yí rè jiù xià dān.",
+        "pinyinHtml": "yǒu dào lǐ! chú fēi píng jià kǒu bēi dōu guò yìng, xìng jià <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǐ</span> yě shuō de guò qù, fǒu zé zhēn bù néng tóu nǎo yí rè jiù xià dān.",
+        "vi": "Có lý! Trừ phi đánh giá uy tín đều ổn áp và giá cả hợp túi tiền, nếu không đừng bao giờ bốc đồng chốt đơn vội.",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "就是啊，按照“查评价+试实物+问朋友”这三步来，基本上都能精准选中既合心意又耐穿的好东西！",
+        "pinyin": "jiù shì a, àn zhào \"chá píng jià + shì shí wù + wèn péng yǒu\" zhè sān bù lái, jī běn shàng dōu néng jīng zhǔn xuǎn zhòng jì hé xīn yì yòu nài chuān de hǎo dōng xi!",
+        "pinyinHtml": "jiù shì a, àn zhào \"chá píng jià + shì shí wù + wèn péng yǒu\" zhè sān bù lái, jī běn shàng dōu néng jīng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǔn</span> xuǎn zhòng jì hé xīn yì yòu nài chuān de hǎo dōng xi!",
+        "vi": "Đúng thế, cứ làm theo 3 bước 'tra review + thử tận tay + hỏi bạn thân' này, cơ bản là chọn trúng ngay món vừa hợp ý lại bền đẹp!",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "听你这么一说，我觉得购物也挺讲究门道的！正好我也要买双跑鞋，走，咱俩现在去逛逛？",
+        "pinyin": "tīng nǐ zhè me yì shuō, wǒ jué de gòu wù yě tǐng jiǎng jiū mén dào de! zhèng hǎo wǒ yě yào mǎi shuāng pǎo xié, zǒu, zán liǎ xiàn zài qù guàng guàng?",
+        "pinyinHtml": "tīng nǐ zhè me yì shuō, wǒ jué de gòu wù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> jiǎng jiū mén dào de! zhèng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě yào mǎi shuāng pǎo xié, zǒu, zán liǎ xiàn zài qù guàng guàng?",
+        "vi": "Nghe cậu nói xong mới thấy mua sắm cũng lắm bí quyết! Vừa khéo tớ cũng định mua đôi giày chạy, đi, hai đứa mình lượn luôn bây giờ không?",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "好嘞，走起，顺便帮你把把关！",
+        "pinyin": "hǎo lē, zǒu qǐ, shùn biàn bāng nǐ bǎ bǎ guān!",
+        "pinyinHtml": "hǎo lē, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǒu</span> qǐ, shùn biàn bāng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎ</span> bǎ guān!",
+        "vi": "Ok luôn, đi thôi, tiện thể tớ thẩm định giúp cậu luôn!",
+        "modified": true
+       }
+      ],
+      "v1_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "小王，最近怎么样？看你在逛购物网站呢？",
+        "pinyin": "xiǎo wáng, zuì jìn zěn me yàng? kàn nǐ zài guàng gòu wù wǎng zhàn ne?",
+        "pinyinHtml": "xiǎo wáng, zuì jìn zěn me yàng? kàn nǐ zài guàng gòu wù wǎng zhàn ne?",
+        "vi": "Tiểu Vương, dạo này sao rồi? Thấy cậu đang lướt web mua sắm à?",
+        "modified": false
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "别提了，我想买一台新电脑（或者一件大衣），但款式太多了，完全不知道该怎么选。",
+        "pinyin": "bié tí le, wǒ xiǎng mǎi yì tái xīn diàn nǎo (huò zhě yí jiàn dà yī), dàn kuǎn shì tài duō le, wán quán bù zhī dào gāi zěn me xuǎn.",
+        "pinyinHtml": "bié tí le, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> mǎi yì tái xīn diàn nǎo (huò zhě yí jiàn dà yī), dàn kuǎn shì tài duō le, wán quán bù zhī dào gāi zěn me xuǎn.",
+        "vi": "Đừng nhắc nữa, tớ định mua cái máy tính mới (hoặc áo khoác), mà nhiều mẫu quá, chẳng biết chọn kiểu gì luôn.",
+        "modified": false
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "遇到拿不定主意的时候，你平时一般会怎么办？",
+        "pinyin": "yù dào ná bú dìng zhǔ yì de shí hòu, nǐ píng shí yì bān huì zěn me bàn?",
+        "pinyinHtml": "yù dào ná bú dìng zhǔ yì de shí hòu, nǐ píng shí yì bān huì zěn me bàn?",
+        "vi": "Gặp lúc không quyết được như thế, bình thường cậu hay làm sao?",
+        "modified": false
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "我第一步会先上网查资料。现在网购很方便，几乎所有商品都能对比价格和买家评价。",
+        "pinyin": "wǒ dì yī bù huì xiān shàng wǎng chá zī liào. xiàn zài wǎng gòu hěn fāng biàn, jī hū suǒ yǒu shāng pǐn dōu néng duì bǐ jià gé hé mǎi jiā píng jià.",
+        "pinyinHtml": "wǒ dì yī bù huì xiān shàng wǎng chá zī liào. xiàn zài wǎng gòu hěn fāng biàn, jī hū <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǒu shāng pǐn dōu néng duì bǐ jià gé hé mǎi jiā píng jià.",
+        "vi": "Bước đầu tiên tớ sẽ lên mạng tra thông tin trước. Giờ mua sắm online tiện lắm, hầu như món nào cũng so được giá và đánh giá của người mua.",
+        "modified": false
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "对，看评价确实省事，不过有时候网上的图片和实物还是有点差距。",
+        "pinyin": "duì, kàn píng jià què shí shěng shì, bú guò yǒu shí hòu wǎng shàng de tú piàn hé shí wù hái shì yǒu diǎn chā jù.",
+        "pinyinHtml": "duì, kàn píng jià què shí shěng shì, bú guò yǒu shí hòu wǎng shàng de tú piàn hé shí wù hái shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> diǎn chā jù.",
+        "vi": "Đúng, xem đánh giá đúng là đỡ công, nhưng thỉnh thoảng ảnh trên mạng với đồ thật vẫn lệch nhau chút đấy.",
+        "modified": false
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "没错！所以如果是买衣服或者贵重物品，我还是会再去实体店看看，亲自摸摸质量、试一试才知道合不合适。",
+        "pinyin": "méi cuò! suǒ yǐ rú guǒ shì mǎi yī fu huò zhě guì zhòng wù pǐn, wǒ hái shì huì zài qù shí tǐ diàn kàn kàn, qīn zì mō mō zhì liàng, shì yi shì cái zhī dào hé bu hé shì.",
+        "pinyinHtml": "méi cuò! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǐ rú guǒ shì mǎi yī fu huò zhě guì zhòng wù pǐn, wǒ hái shì huì zài qù shí tǐ diàn kàn kàn, qīn zì mō mō zhì liàng, shì yi shì cái zhī dào hé bu hé shì.",
+        "vi": "Chuẩn luôn! Nên nếu mua quần áo hay đồ đắt tiền, tớ vẫn ra cửa hàng xem thêm, tự tay sờ chất liệu và thử mới biết hợp hay không.",
+        "modified": false
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "有时候网上看着好像便宜，去店里对比后反而更清楚值不值得买。",
+        "pinyin": "yǒu shí hòu wǎng shàng kàn zhe hǎo xiàng pián yi, qù diàn lǐ duì bǐ hòu fǎn ér gèng qīng chǔ zhí bu zhí de mǎi.",
+        "pinyinHtml": "yǒu shí hòu wǎng shàng kàn zhe hǎo xiàng pián yi, qù diàn lǐ duì bǐ hòu fǎn ér gèng qīng chǔ zhí bu zhí de mǎi.",
+        "vi": "Nhiều khi trên mạng trông rẻ vậy thôi, ra tiệm đối chiếu xong mới rõ có đáng mua không.",
+        "modified": false
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "对了，要是对那个领域实在不熟，我还会向有经验的朋友求助，请他们推荐靠谱的牌子和店铺。",
+        "pinyin": "duì le, yào shi duì nà ge lǐng yù shí zài bù shú, wǒ hái huì xiàng yǒu jīng yàn de péng yǒu qiú zhù, qǐng tā men tuī jiàn kào pǔ de pái zi hé diàn pù.",
+        "pinyinHtml": "duì le, yào shi duì nà ge lǐng yù shí zài bù shú, wǒ hái huì xiàng yǒu jīng yàn de péng yǒu qiú zhù, qǐng tā men tuī jiàn kào pǔ de pái zi hé diàn pù.",
+        "vi": "À, nếu gặp món mình mù tịt hẳn, tớ còn nhờ bạn bè có kinh nghiệm tư vấn, xin họ gợi ý hãng và cửa hàng uy tín.",
+        "modified": false
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "朋友的推荐确实最靠谱，能少走很多弯路。",
+        "pinyin": "péng yǒu de tuī jiàn què shí zuì kào pǔ, néng shǎo zǒu hěn duō wān lù.",
+        "pinyinHtml": "péng yǒu de tuī jiàn què shí zuì kào pǔ, néng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǎo</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǒu</span> hěn duō wān lù.",
+        "vi": "Lời khuyên của bạn bè đúng là đáng tin nhất, tránh được bao nhiêu đường vòng.",
+        "modified": false
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "是的，买东西还是得提前做好功课，仔细对比以后再决定，才能选中既实惠又耐用的好商品。",
+        "pinyin": "shì de, mǎi dōng xi hái shì děi tí qián zuò hǎo gōng kè, zǐ xì duì bǐ yǐ hòu zài jué dìng, cái néng xuǎn zhòng jì shí huì yòu nài yòng de hǎo shāng pǐn.",
+        "pinyinHtml": "shì de, mǎi dōng xi hái shì děi tí qián zuò hǎo gōng kè, zǐ xì duì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǐ</span> yǐ hòu zài jué dìng, cái néng xuǎn zhòng jì shí huì yòu nài yòng de hǎo shāng pǐn.",
+        "vi": "Đúng vậy, mua đồ vẫn phải tìm hiểu kỹ trước, so sánh cẩn thận rồi mới quyết định, thế mới chọn trúng món vừa hời vừa bền đẹp.",
+        "modified": false
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "看来你买东西很有自己的一套办法！那陪我去附近逛逛吧，帮我也参谋参谋。",
+        "pinyin": "kàn lái nǐ mǎi dōng xi hěn yǒu zì jǐ de yí tào bàn fǎ! nà péi wǒ qù fù jìn guàng guàng ba, bāng wǒ yě cān móu cān móu.",
+        "pinyinHtml": "kàn lái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> mǎi dōng xi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> yǒu zì jǐ de yí tào bàn fǎ! nà péi wǒ qù fù jìn guàng guàng ba, bāng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě cān móu cān móu.",
+        "vi": "Xem ra cậu mua đồ có chiêu thức bài bản phết! Vậy đi dạo loanh quanh với tớ đi, làm quân sư cho tớ luôn.",
+        "modified": false
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "没问题，走起！",
+        "pinyin": "méi wèn tí, zǒu qǐ!",
+        "pinyinHtml": "méi wèn tí, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǒu</span> qǐ!",
+        "vi": "Ok luôn, đi thôi!",
+        "modified": false
+       }
+      ],
+      "v2_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "在刷啥呢这么入迷？眉头都皱成一团了！",
+        "pinyin": "zài shuā shá ne zhè me rù mí? méi tóu dōu zhòu chéng yì tuán le!",
+        "pinyinHtml": "zài shuā shá ne zhè me rù mí? méi tóu dōu zhòu chéng yì tuán le!",
+        "vi": "Đang lướt gì mà mê mẩn thế? Nhíu hết cả mày lại kìa!",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "我想趁着换季买件保暖外套，结果网上一搜几百页，花多眼乱，实在不知道该怎么选才好。",
+        "pinyin": "wǒ xiǎng chèn zhe huàn jì mǎi jiàn bǎo nuǎn wài tào, jié guǒ wǎng shàng yì sōu jǐ bǎi yè, huā duō yǎn luàn, shí zài bù zhī dào gāi zěn me xuǎn cái hǎo.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> xiǎng chèn zhe huàn jì mǎi jiàn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎo</span> nuǎn wài tào, jié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> wǎng shàng yì sōu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> bǎi yè, huā duō yǎn luàn, shí zài bù zhī dào gāi zěn me xuǎn cái hǎo.",
+        "vi": "Tớ định nhân lúc chuyển mùa mua cái áo khoác ấm, ai dè lên mạng tìm ra cả trăm trang, hoa hết cả mắt, chẳng biết chọn kiểu gì.",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "遇到选择困难症的时候，你平时都怎么搞定啊？",
+        "pinyin": "yù dào xuǎn zé kùn nán zhèng de shí hòu, nǐ píng shí dōu zěn me gǎo dìng a?",
+        "pinyinHtml": "yù dào xuǎn zé kùn nán zhèng de shí hòu, nǐ píng shí dōu zěn me gǎo dìng a?",
+        "vi": "Gặp lúc mắc 'bệnh khó lựa chọn' thế này, bình thường cậu xử lý sao?",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "我有三步走！第一步肯定先在网上做功课，把各大品牌的销量和真实差评看一遍，先把明显“踩雷”的款式淘汰掉。",
+        "pinyin": "wǒ yǒu sān bù zǒu! dì yī bù kěn dìng xiān zài wǎng shàng zuò gōng kè, bǎ gè dà pǐn pái de xiāo liáng hé zhēn shí chà píng kàn yí biàn, xiān bǎ míng xiǎn \"cǎi léi\" de kuǎn shì táo tài diào.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǒu sān bù zǒu! dì yī bù kěn dìng xiān zài wǎng shàng zuò gōng kè, bǎ gè dà pǐn pái de xiāo liáng hé zhēn shí chà píng kàn yí biàn, xiān bǎ míng xiǎn \"cǎi léi\" de kuǎn shì táo tài diào.",
+        "vi": "Tớ có 3 bước hẳn hoi! Bước 1 chắc chắn lên mạng tìm hiểu, lướt qua một lượt doanh số và bình luận chê thật của các hãng, loại ngay mấy mẫu dễ 'dính bẫy' trước.",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "看差评比看好评管用多了！不过网图滤镜太厚，实物往往跟卖家秀对不上号。",
+        "pinyin": "kàn chà píng bǐ kàn hǎo píng guǎn yòng duō le! bú guò wǎng tú lǜ jìng tài hòu, shí wù wǎng wǎng gēn mài jiā xiù duì bú shàng hào.",
+        "pinyinHtml": "kàn chà píng bǐ kàn hǎo píng guǎn yòng duō le! bú guò wǎng tú lǜ jìng tài hòu, shí wù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎng</span> wǎng gēn mài jiā xiù duì bú shàng hào.",
+        "vi": "Đọc bình luận chê hiệu quả hơn đọc khen nhiều! Cơ mà ảnh mạng chỉnh màu dày quá, đồ thật hay khác một trời một vực với ảnh mẫu.",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "太对了！所以第二步我会先把想买的清单记下来，好周末直奔实体店亲自试穿——摸摸面料厚不厚、版型正不正。",
+        "pinyin": "tài duì le! suǒ yǐ dì èr bù wǒ huì xiān bǎ xiǎng mǎi de qīng dān jì xià lái, hǎo zhōu mò zhí bēn shí tǐ diàn qīn zì shì chuān-- mō mō miàn liào hòu bu hòu, bǎn xíng zhèng bu zhèng.",
+        "pinyinHtml": "tài duì le! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǐ dì èr bù wǒ huì xiān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> mǎi de qīng dān jì xià lái, hǎo zhōu mò zhí bēn shí tǐ diàn qīn zì shì chuān-- mō mō miàn liào hòu bu hòu, bǎn xíng zhèng bu zhèng.",
+        "vi": "Chuẩn không cần chỉnh! Nên bước 2 tớ ghi sẵn danh sách mẫu ưng lại, để cuối tuần chạy thẳng ra tiệm thử tận người — sờ xem vải có dày không, form có chuẩn không.",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "亲自上身试确实踏实。要是遇到自己完全外行的东西，比如买电脑或者相机，你会怎么办？",
+        "pinyin": "qīn zì shàng shēn shì què shí tà shí. yào shi yù dào zì jǐ wán quán wài háng de dōng xi, bǐ rú mǎi diàn nǎo huò zhě xiàng jī, nǐ huì zěn me bàn?",
+        "pinyinHtml": "qīn zì shàng shēn shì què shí tà shí. yào shi yù dào zì jǐ wán quán wài háng de dōng xi, bǐ rú mǎi diàn nǎo huò zhě xiàng jī, nǐ huì zěn me bàn?",
+        "vi": "Mặc thử tận người đúng là yên tâm thật. Còn nếu gặp thứ mình mù tịt hoàn toàn, như mua laptop hay máy ảnh chẳng hạn, cậu tính sao?",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "那更简单了！第三步就是直接找内行朋友请教，听听他们的避坑建议，请他们推荐几家靠谱的店，这样能少走很多弯路。",
+        "pinyin": "nà gèng jiǎn dān le! dì sān bù jiù shì zhí jiē zhǎo nèi háng péng yǒu qǐng jiào, tīng tīng tā men de bì kēng jiàn yì, qǐng tā men tuī jiàn jǐ jiā kào pǔ de diàn, zhè yàng néng shǎo zǒu hěn duō wān lù.",
+        "pinyinHtml": "nà gèng jiǎn dān le! dì sān bù jiù shì zhí jiē zhǎo nèi háng péng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> qǐng jiào, tīng tīng tā men de bì kēng jiàn yì, qǐng tā men tuī jiàn jǐ jiā kào pǔ de diàn, zhè yàng néng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǎo</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǒu</span> hěn duō wān lù.",
+        "vi": "Thế càng dễ! Bước 3 là hỏi thẳng đứa bạn rành nghề, nghe nó chỉ cách né bẫy và gợi ý vài tiệm uy tín, đỡ tốn công mò mẫm bao nhiêu.",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "有道理！除非评价口碑都过硬、性价比也说得过去，否则真不能头脑一热就下单。",
+        "pinyin": "yǒu dào lǐ! chú fēi píng jià kǒu bēi dōu guò yìng, xìng jià bǐ yě shuō de guò qù, fǒu zé zhēn bù néng tóu nǎo yí rè jiù xià dān.",
+        "pinyinHtml": "yǒu dào lǐ! chú fēi píng jià kǒu bēi dōu guò yìng, xìng jià <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǐ</span> yě shuō de guò qù, fǒu zé zhēn bù néng tóu nǎo yí rè jiù xià dān.",
+        "vi": "Có lý! Trừ phi đánh giá uy tín đều ổn áp và giá cả hợp túi tiền, nếu không đừng bao giờ bốc đồng chốt đơn vội.",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "就是啊，按照“查评价+试实物+问朋友”这三步来，基本上都能精准选中既合心意又耐穿的好东西！",
+        "pinyin": "jiù shì a, àn zhào \"chá píng jià + shì shí wù + wèn péng yǒu\" zhè sān bù lái, jī běn shàng dōu néng jīng zhǔn xuǎn zhòng jì hé xīn yì yòu nài chuān de hǎo dōng xi!",
+        "pinyinHtml": "jiù shì a, àn zhào \"chá píng jià + shì shí wù + wèn péng yǒu\" zhè sān bù lái, jī běn shàng dōu néng jīng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǔn</span> xuǎn zhòng jì hé xīn yì yòu nài chuān de hǎo dōng xi!",
+        "vi": "Đúng thế, cứ làm theo 3 bước 'tra review + thử tận tay + hỏi bạn thân' này, cơ bản là chọn trúng ngay món vừa hợp ý lại bền đẹp!",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "听你这么一说，我觉得购物也挺讲究门道的！正好我也要买双跑鞋，走，咱俩现在去逛逛？",
+        "pinyin": "tīng nǐ zhè me yì shuō, wǒ jué de gòu wù yě tǐng jiǎng jiū mén dào de! zhèng hǎo wǒ yě yào mǎi shuāng pǎo xié, zǒu, zán liǎ xiàn zài qù guàng guàng?",
+        "pinyinHtml": "tīng nǐ zhè me yì shuō, wǒ jué de gòu wù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> jiǎng jiū mén dào de! zhèng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě yào mǎi shuāng pǎo xié, zǒu, zán liǎ xiàn zài qù guàng guàng?",
+        "vi": "Nghe cậu nói xong mới thấy mua sắm cũng lắm bí quyết! Vừa khéo tớ cũng định mua đôi giày chạy, đi, hai đứa mình lượn luôn bây giờ không?",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "好嘞，走起，顺便帮你把把关！",
+        "pinyin": "hǎo lē, zǒu qǐ, shùn biàn bāng nǐ bǎ bǎ guān!",
+        "pinyinHtml": "hǎo lē, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǒu</span> qǐ, shùn biàn bāng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎ</span> bǎ guān!",
+        "vi": "Ok luôn, đi thôi, tiện thể tớ thẩm định giúp cậu luôn!",
+        "modified": true
+       }
+      ],
+      "diffs": [
+       {
+        "n": 1,
+        "role": "A",
+        "v1": {
+         "zh": "小王，最近怎么样？看你在逛购物网站呢？",
+         "pinyin": "xiǎo wáng, zuì jìn zěn me yàng? kàn nǐ zài guàng gòu wù wǎng zhàn ne?",
+         "pinyinHtml": "xiǎo wáng, zuì jìn zěn me yàng? kàn nǐ zài guàng gòu wù wǎng zhàn ne?",
+         "vi": "Tiểu Vương, dạo này sao rồi? Thấy cậu đang lướt web mua sắm à?"
+        },
+        "v2": {
+         "zh": "在刷啥呢这么入迷？眉头都皱成一团了！",
+         "pinyin": "zài shuā shá ne zhè me rù mí? méi tóu dōu zhòu chéng yì tuán le!",
+         "pinyinHtml": "zài shuā shá ne zhè me rù mí? méi tóu dōu zhòu chéng yì tuán le!",
+         "vi": "Đang lướt gì mà mê mẩn thế? Nhíu hết cả mày lại kìa!"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "v1": {
+         "zh": "别提了，我想买一台新电脑（或者一件大衣），但款式太多了，完全不知道该怎么选。",
+         "pinyin": "bié tí le, wǒ xiǎng mǎi yì tái xīn diàn nǎo (huò zhě yí jiàn dà yī), dàn kuǎn shì tài duō le, wán quán bù zhī dào gāi zěn me xuǎn.",
+         "pinyinHtml": "bié tí le, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> mǎi yì tái xīn diàn nǎo (huò zhě yí jiàn dà yī), dàn kuǎn shì tài duō le, wán quán bù zhī dào gāi zěn me xuǎn.",
+         "vi": "Đừng nhắc nữa, tớ định mua cái máy tính mới (hoặc áo khoác), mà nhiều mẫu quá, chẳng biết chọn kiểu gì luôn."
+        },
+        "v2": {
+         "zh": "我想趁着换季买件保暖外套，结果网上一搜几百页，花多眼乱，实在不知道该怎么选才好。",
+         "pinyin": "wǒ xiǎng chèn zhe huàn jì mǎi jiàn bǎo nuǎn wài tào, jié guǒ wǎng shàng yì sōu jǐ bǎi yè, huā duō yǎn luàn, shí zài bù zhī dào gāi zěn me xuǎn cái hǎo.",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> xiǎng chèn zhe huàn jì mǎi jiàn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎo</span> nuǎn wài tào, jié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> wǎng shàng yì sōu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> bǎi yè, huā duō yǎn luàn, shí zài bù zhī dào gāi zěn me xuǎn cái hǎo.",
+         "vi": "Tớ định nhân lúc chuyển mùa mua cái áo khoác ấm, ai dè lên mạng tìm ra cả trăm trang, hoa hết cả mắt, chẳng biết chọn kiểu gì."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "v1": {
+         "zh": "遇到拿不定主意的时候，你平时一般会怎么办？",
+         "pinyin": "yù dào ná bú dìng zhǔ yì de shí hòu, nǐ píng shí yì bān huì zěn me bàn?",
+         "pinyinHtml": "yù dào ná bú dìng zhǔ yì de shí hòu, nǐ píng shí yì bān huì zěn me bàn?",
+         "vi": "Gặp lúc không quyết được như thế, bình thường cậu hay làm sao?"
+        },
+        "v2": {
+         "zh": "遇到选择困难症的时候，你平时都怎么搞定啊？",
+         "pinyin": "yù dào xuǎn zé kùn nán zhèng de shí hòu, nǐ píng shí dōu zěn me gǎo dìng a?",
+         "pinyinHtml": "yù dào xuǎn zé kùn nán zhèng de shí hòu, nǐ píng shí dōu zěn me gǎo dìng a?",
+         "vi": "Gặp lúc mắc 'bệnh khó lựa chọn' thế này, bình thường cậu xử lý sao?"
+        },
+        "reason": "Dùng cụm từ hiện đại “选择困难症” (bệnh khó đưa ra lựa chọn)."
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "v1": {
+         "zh": "我第一步会先上网查资料。现在网购很方便，几乎所有商品都能对比价格和买家评价。",
+         "pinyin": "wǒ dì yī bù huì xiān shàng wǎng chá zī liào. xiàn zài wǎng gòu hěn fāng biàn, jī hū suǒ yǒu shāng pǐn dōu néng duì bǐ jià gé hé mǎi jiā píng jià.",
+         "pinyinHtml": "wǒ dì yī bù huì xiān shàng wǎng chá zī liào. xiàn zài wǎng gòu hěn fāng biàn, jī hū <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǒu shāng pǐn dōu néng duì bǐ jià gé hé mǎi jiā píng jià.",
+         "vi": "Bước đầu tiên tớ sẽ lên mạng tra thông tin trước. Giờ mua sắm online tiện lắm, hầu như món nào cũng so được giá và đánh giá của người mua."
+        },
+        "v2": {
+         "zh": "我有三步走！第一步肯定先在网上做功课，把各大品牌的销量和真实差评看一遍，先把明显“踩雷”的款式淘汰掉。",
+         "pinyin": "wǒ yǒu sān bù zǒu! dì yī bù kěn dìng xiān zài wǎng shàng zuò gōng kè, bǎ gè dà pǐn pái de xiāo liáng hé zhēn shí chà píng kàn yí biàn, xiān bǎ míng xiǎn \"cǎi léi\" de kuǎn shì táo tài diào.",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǒu sān bù zǒu! dì yī bù kěn dìng xiān zài wǎng shàng zuò gōng kè, bǎ gè dà pǐn pái de xiāo liáng hé zhēn shí chà píng kàn yí biàn, xiān bǎ míng xiǎn \"cǎi léi\" de kuǎn shì táo tài diào.",
+         "vi": "Tớ có 3 bước hẳn hoi! Bước 1 chắc chắn lên mạng tìm hiểu, lướt qua một lượt doanh số và bình luận chê thật của các hãng, loại ngay mấy mẫu dễ 'dính bẫy' trước."
+        },
+        "reason": "Lồng ghép mẫu câu Bài 5 “看一遍” (xem hết một lượt) + từ lóng “踩雷” (dính bẫy/mua hớ)."
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "v1": {
+         "zh": "对，看评价确实省事，不过有时候网上的图片和实物还是有点差距。",
+         "pinyin": "duì, kàn píng jià què shí shěng shì, bú guò yǒu shí hòu wǎng shàng de tú piàn hé shí wù hái shì yǒu diǎn chā jù.",
+         "pinyinHtml": "duì, kàn píng jià què shí shěng shì, bú guò yǒu shí hòu wǎng shàng de tú piàn hé shí wù hái shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> diǎn chā jù.",
+         "vi": "Đúng, xem đánh giá đúng là đỡ công, nhưng thỉnh thoảng ảnh trên mạng với đồ thật vẫn lệch nhau chút đấy."
+        },
+        "v2": {
+         "zh": "看差评比看好评管用多了！不过网图滤镜太厚，实物往往跟卖家秀对不上号。",
+         "pinyin": "kàn chà píng bǐ kàn hǎo píng guǎn yòng duō le! bú guò wǎng tú lǜ jìng tài hòu, shí wù wǎng wǎng gēn mài jiā xiù duì bú shàng hào.",
+         "pinyinHtml": "kàn chà píng bǐ kàn hǎo píng guǎn yòng duō le! bú guò wǎng tú lǜ jìng tài hòu, shí wù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎng</span> wǎng gēn mài jiā xiù duì bú shàng hào.",
+         "vi": "Đọc bình luận chê hiệu quả hơn đọc khen nhiều! Cơ mà ảnh mạng chỉnh màu dày quá, đồ thật hay khác một trời một vực với ảnh mẫu."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "v1": {
+         "zh": "没错！所以如果是买衣服或者贵重物品，我还是会再去实体店看看，亲自摸摸质量、试一试才知道合不合适。",
+         "pinyin": "méi cuò! suǒ yǐ rú guǒ shì mǎi yī fu huò zhě guì zhòng wù pǐn, wǒ hái shì huì zài qù shí tǐ diàn kàn kàn, qīn zì mō mō zhì liàng, shì yi shì cái zhī dào hé bu hé shì.",
+         "pinyinHtml": "méi cuò! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǐ rú guǒ shì mǎi yī fu huò zhě guì zhòng wù pǐn, wǒ hái shì huì zài qù shí tǐ diàn kàn kàn, qīn zì mō mō zhì liàng, shì yi shì cái zhī dào hé bu hé shì.",
+         "vi": "Chuẩn luôn! Nên nếu mua quần áo hay đồ đắt tiền, tớ vẫn ra cửa hàng xem thêm, tự tay sờ chất liệu và thử mới biết hợp hay không."
+        },
+        "v2": {
+         "zh": "太对了！所以第二步我会先把想买的清单记下来，好周末直奔实体店亲自试穿——摸摸面料厚不厚、版型正不正。",
+         "pinyin": "tài duì le! suǒ yǐ dì èr bù wǒ huì xiān bǎ xiǎng mǎi de qīng dān jì xià lái, hǎo zhōu mò zhí bēn shí tǐ diàn qīn zì shì chuān-- mō mō miàn liào hòu bu hòu, bǎn xíng zhèng bu zhèng.",
+         "pinyinHtml": "tài duì le! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> yǐ dì èr bù wǒ huì xiān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> mǎi de qīng dān jì xià lái, hǎo zhōu mò zhí bēn shí tǐ diàn qīn zì shì chuān-- mō mō miàn liào hòu bu hòu, bǎn xíng zhèng bu zhèng.",
+         "vi": "Chuẩn không cần chỉnh! Nên bước 2 tớ ghi sẵn danh sách mẫu ưng lại, để cuối tuần chạy thẳng ra tiệm thử tận người — sờ xem vải có dày không, form có chuẩn không."
+        },
+        "reason": "Lồng ghép chuẩn mẫu câu Bài 5 “先……好……” (ghi lại trước để tiện cuối tuần đi thử)."
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "v1": {
+         "zh": "有时候网上看着好像便宜，去店里对比后反而更清楚值不值得买。",
+         "pinyin": "yǒu shí hòu wǎng shàng kàn zhe hǎo xiàng pián yi, qù diàn lǐ duì bǐ hòu fǎn ér gèng qīng chǔ zhí bu zhí de mǎi.",
+         "pinyinHtml": "yǒu shí hòu wǎng shàng kàn zhe hǎo xiàng pián yi, qù diàn lǐ duì bǐ hòu fǎn ér gèng qīng chǔ zhí bu zhí de mǎi.",
+         "vi": "Nhiều khi trên mạng trông rẻ vậy thôi, ra tiệm đối chiếu xong mới rõ có đáng mua không."
+        },
+        "v2": {
+         "zh": "亲自上身试确实踏实。要是遇到自己完全外行的东西，比如买电脑或者相机，你会怎么办？",
+         "pinyin": "qīn zì shàng shēn shì què shí tà shí. yào shi yù dào zì jǐ wán quán wài háng de dōng xi, bǐ rú mǎi diàn nǎo huò zhě xiàng jī, nǐ huì zěn me bàn?",
+         "pinyinHtml": "qīn zì shàng shēn shì què shí tà shí. yào shi yù dào zì jǐ wán quán wài háng de dōng xi, bǐ rú mǎi diàn nǎo huò zhě xiàng jī, nǐ huì zěn me bàn?",
+         "vi": "Mặc thử tận người đúng là yên tâm thật. Còn nếu gặp thứ mình mù tịt hoàn toàn, như mua laptop hay máy ảnh chẳng hạn, cậu tính sao?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "v1": {
+         "zh": "对了，要是对那个领域实在不熟，我还会向有经验的朋友求助，请他们推荐靠谱的牌子和店铺。",
+         "pinyin": "duì le, yào shi duì nà ge lǐng yù shí zài bù shú, wǒ hái huì xiàng yǒu jīng yàn de péng yǒu qiú zhù, qǐng tā men tuī jiàn kào pǔ de pái zi hé diàn pù.",
+         "pinyinHtml": "duì le, yào shi duì nà ge lǐng yù shí zài bù shú, wǒ hái huì xiàng yǒu jīng yàn de péng yǒu qiú zhù, qǐng tā men tuī jiàn kào pǔ de pái zi hé diàn pù.",
+         "vi": "À, nếu gặp món mình mù tịt hẳn, tớ còn nhờ bạn bè có kinh nghiệm tư vấn, xin họ gợi ý hãng và cửa hàng uy tín."
+        },
+        "v2": {
+         "zh": "那更简单了！第三步就是直接找内行朋友请教，听听他们的避坑建议，请他们推荐几家靠谱的店，这样能少走很多弯路。",
+         "pinyin": "nà gèng jiǎn dān le! dì sān bù jiù shì zhí jiē zhǎo nèi háng péng yǒu qǐng jiào, tīng tīng tā men de bì kēng jiàn yì, qǐng tā men tuī jiàn jǐ jiā kào pǔ de diàn, zhè yàng néng shǎo zǒu hěn duō wān lù.",
+         "pinyinHtml": "nà gèng jiǎn dān le! dì sān bù jiù shì zhí jiē zhǎo nèi háng péng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> qǐng jiào, tīng tīng tā men de bì kēng jiàn yì, qǐng tā men tuī jiàn jǐ jiā kào pǔ de diàn, zhè yàng néng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǎo</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǒu</span> hěn duō wān lù.",
+         "vi": "Thế càng dễ! Bước 3 là hỏi thẳng đứa bạn rành nghề, nghe nó chỉ cách né bẫy và gợi ý vài tiệm uy tín, đỡ tốn công mò mẫm bao nhiêu."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "v1": {
+         "zh": "朋友的推荐确实最靠谱，能少走很多弯路。",
+         "pinyin": "péng yǒu de tuī jiàn què shí zuì kào pǔ, néng shǎo zǒu hěn duō wān lù.",
+         "pinyinHtml": "péng yǒu de tuī jiàn què shí zuì kào pǔ, néng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǎo</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǒu</span> hěn duō wān lù.",
+         "vi": "Lời khuyên của bạn bè đúng là đáng tin nhất, tránh được bao nhiêu đường vòng."
+        },
+        "v2": {
+         "zh": "有道理！除非评价口碑都过硬、性价比也说得过去，否则真不能头脑一热就下单。",
+         "pinyin": "yǒu dào lǐ! chú fēi píng jià kǒu bēi dōu guò yìng, xìng jià bǐ yě shuō de guò qù, fǒu zé zhēn bù néng tóu nǎo yí rè jiù xià dān.",
+         "pinyinHtml": "yǒu dào lǐ! chú fēi píng jià kǒu bēi dōu guò yìng, xìng jià <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǐ</span> yě shuō de guò qù, fǒu zé zhēn bù néng tóu nǎo yí rè jiù xià dān.",
+         "vi": "Có lý! Trừ phi đánh giá uy tín đều ổn áp và giá cả hợp túi tiền, nếu không đừng bao giờ bốc đồng chốt đơn vội."
+        },
+        "reason": "Lồng ghép liền 2 mẫu câu Bài 5 “除非……否则……” và “说得过去”."
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "v1": {
+         "zh": "是的，买东西还是得提前做好功课，仔细对比以后再决定，才能选中既实惠又耐用的好商品。",
+         "pinyin": "shì de, mǎi dōng xi hái shì děi tí qián zuò hǎo gōng kè, zǐ xì duì bǐ yǐ hòu zài jué dìng, cái néng xuǎn zhòng jì shí huì yòu nài yòng de hǎo shāng pǐn.",
+         "pinyinHtml": "shì de, mǎi dōng xi hái shì děi tí qián zuò hǎo gōng kè, zǐ xì duì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǐ</span> yǐ hòu zài jué dìng, cái néng xuǎn zhòng jì shí huì yòu nài yòng de hǎo shāng pǐn.",
+         "vi": "Đúng vậy, mua đồ vẫn phải tìm hiểu kỹ trước, so sánh cẩn thận rồi mới quyết định, thế mới chọn trúng món vừa hời vừa bền đẹp."
+        },
+        "v2": {
+         "zh": "就是啊，按照“查评价+试实物+问朋友”这三步来，基本上都能精准选中既合心意又耐穿的好东西！",
+         "pinyin": "jiù shì a, àn zhào \"chá píng jià + shì shí wù + wèn péng yǒu\" zhè sān bù lái, jī běn shàng dōu néng jīng zhǔn xuǎn zhòng jì hé xīn yì yòu nài chuān de hǎo dōng xi!",
+         "pinyinHtml": "jiù shì a, àn zhào \"chá píng jià + shì shí wù + wèn péng yǒu\" zhè sān bù lái, jī běn shàng dōu néng jīng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǔn</span> xuǎn zhòng jì hé xīn yì yòu nài chuān de hǎo dōng xi!",
+         "vi": "Đúng thế, cứ làm theo 3 bước 'tra review + thử tận tay + hỏi bạn thân' này, cơ bản là chọn trúng ngay món vừa hợp ý lại bền đẹp!"
+        },
+        "reason": "Lồng ghép mẫu câu Bài 5 “选中” (chọn trúng)."
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "v1": {
+         "zh": "看来你买东西很有自己的一套办法！那陪我去附近逛逛吧，帮我也参谋参谋。",
+         "pinyin": "kàn lái nǐ mǎi dōng xi hěn yǒu zì jǐ de yí tào bàn fǎ! nà péi wǒ qù fù jìn guàng guàng ba, bāng wǒ yě cān móu cān móu.",
+         "pinyinHtml": "kàn lái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> mǎi dōng xi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> yǒu zì jǐ de yí tào bàn fǎ! nà péi wǒ qù fù jìn guàng guàng ba, bāng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě cān móu cān móu.",
+         "vi": "Xem ra cậu mua đồ có chiêu thức bài bản phết! Vậy đi dạo loanh quanh với tớ đi, làm quân sư cho tớ luôn."
+        },
+        "v2": {
+         "zh": "听你这么一说，我觉得购物也挺讲究门道的！正好我也要买双跑鞋，走，咱俩现在去逛逛？",
+         "pinyin": "tīng nǐ zhè me yì shuō, wǒ jué de gòu wù yě tǐng jiǎng jiū mén dào de! zhèng hǎo wǒ yě yào mǎi shuāng pǎo xié, zǒu, zán liǎ xiàn zài qù guàng guàng?",
+         "pinyinHtml": "tīng nǐ zhè me yì shuō, wǒ jué de gòu wù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> jiǎng jiū mén dào de! zhèng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě yào mǎi shuāng pǎo xié, zǒu, zán liǎ xiàn zài qù guàng guàng?",
+         "vi": "Nghe cậu nói xong mới thấy mua sắm cũng lắm bí quyết! Vừa khéo tớ cũng định mua đôi giày chạy, đi, hai đứa mình lượn luôn bây giờ không?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "v1": {
+         "zh": "没问题，走起！",
+         "pinyin": "méi wèn tí, zǒu qǐ!",
+         "pinyinHtml": "méi wèn tí, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǒu</span> qǐ!",
+         "vi": "Ok luôn, đi thôi!"
+        },
+        "v2": {
+         "zh": "好嘞，走起，顺便帮你把把关！",
+         "pinyin": "hǎo lē, zǒu qǐ, shùn biàn bāng nǐ bǎ bǎ guān!",
+         "pinyinHtml": "hǎo lē, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǒu</span> qǐ, shùn biàn bāng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎ</span> bǎ guān!",
+         "vi": "Ok luôn, đi thôi, tiện thể tớ thẩm định giúp cậu luôn!"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       }
+      ],
+      "audio": "audio/b5-q14.m4a",
+      "audioDuration": 90.9,
+      "audioTimings": [
+       {
+        "n": 1,
+        "role": "A",
+        "start": 0.25,
+        "end": 4.45
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "start": 4.45,
+        "end": 12.73
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "start": 12.73,
+        "end": 16.41
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "start": 16.41,
+        "end": 26.75
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "start": 26.75,
+        "end": 33.67
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "start": 33.67,
+        "end": 44.49
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "start": 44.49,
+        "end": 52.86
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "start": 52.86,
+        "end": 63.94
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "start": 63.94,
+        "end": 71.15
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "start": 71.15,
+        "end": 79.96
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "start": 79.96,
+        "end": 87.74
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "start": 87.74,
+        "end": 90.9
+       }
+      ]
+     },
+     {
+      "id": "b5-q15",
+      "no": 15,
+      "examNo": 15,
+      "priority": "green",
+      "isExamScope": true,
+      "titleVi": "Giới thiệu thói quen mua sắm của bạn",
+      "question": "请介绍一下你买东西的习惯。",
+      "questionPinyin": "qǐng jiè shào yí xià nǐ mǎi dōng xi de xí guàn.",
+      "questionPinyinHtml": "qǐng jiè shào yí xià <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> mǎi dōng xi de xí guàn.",
+      "slideQuestions": [],
+      "outline": "Dẫn chuyện nhận bưu kiện giao hàng → Kể thói quen mua sắm cá nhân (lên danh sách, so giá/săn sale, chọn lọc kỹ, phân biệt đồ sinh hoạt mua online vs quần áo thử trực tiếp) → Chốt triết lý tiêu dùng lý trí (chỉ mua thứ thật sự cần).",
+      "takeaways": {
+       "points": [
+        "Lên kế hoạch trước khi mua: Mở tủ xem thiếu gì rồi viết danh sách, tránh thấy giảm giá là mua bừa (先列购物清单，不冲动消费)",
+        "Thói quen so sánh giá & săn ưu đãi: Đợi dịp sale lớn hoặc so giá nhiều chỗ rồi mới chốt đơn (对比价格、等促销活动)",
+        "Kết hợp Online & Offline: Đồ tiêu dùng hàng ngày đặt online cho tiện; quần áo giày dép ưu tiên ra tiệm thử chất lượng (日用品网购、衣物逛实体店)",
+        "Mẫu câu Bài 5: 没什么可买的 (chẳng có gì đáng mua), 逛遍 (lượn hết), 除非……才…… (trừ phi... mới...), 说得过去 (tạm ổn)"
+       ],
+       "goldenQuotes": "我现在买东西特别理性：先列清单再出门，除非真的需要且性价比说得过去，否则就算打折也不随便花钱。"
+      },
+      "lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "好家伙，你门口堆这么多快递，最近这是大采购了一波啊？",
+        "pinyin": "hǎo jiā huǒ, nǐ mén kǒu duī zhè me duō kuài dì, zuì jìn zhè shì dà cǎi gòu le yì bō a?",
+        "pinyinHtml": "hǎo jiā huǒ, nǐ mén kǒu duī zhè me duō kuài dì, zuì jìn zhè shì dà cǎi gòu le yì bō a?",
+        "vi": "Chà chà, trước cửa nhà cậu chất đống hàng giao thế kia, dạo này vừa làm quả đại mua sắm à?",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "哈哈，别误会，这些全是家里常用的洗衣液、纸巾，趁平台大促屯一波而已。别看箱子多，我花钱可克制着呢！",
+        "pinyin": "hā hā, bié wù huì, zhè xiē quán shì jiā lǐ cháng yòng de xǐ yī yè, zhǐ jīn, chèn píng tái dà cù tún yì bō ér yǐ. bié kàn xiāng zǐ duō, wǒ huā qián kě kè zhì zhe ne!",
+        "pinyinHtml": "hā hā, bié wù huì, zhè xiē quán shì jiā lǐ cháng yòng de xǐ yī yè, zhǐ jīn, chèn píng tái dà cù tún yì bō ér yǐ. bié kàn xiāng zǐ duō, wǒ huā qián kě kè zhì zhe ne!",
+        "vi": "Haha, đừng hiểu lầm, toàn nước giặt, giấy ăn dùng thường ngày, nhân sàn sale lớn mua tích trữ một đợt thôi. Đừng thấy nhiều thùng mà tưởng, tớ tiêu tiền có chừng mực lắm đấy!",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "听起来你买东西挺有章法的，快介绍一下你平时购物的习惯呗！",
+        "pinyin": "tīng qǐ lái nǐ mǎi dōng xi tǐng yǒu zhāng fǎ de, kuài jiè shào yí xià nǐ píng shí gòu wù de xí guàn bài!",
+        "pinyinHtml": "tīng qǐ lái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> mǎi dōng xi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> yǒu zhāng fǎ de, kuài jiè shào yí xià nǐ píng shí gòu wù de xí guàn bài!",
+        "vi": "Nghe có vẻ cậu mua sắm bài bản phết, mau kể tớ nghe thói quen đi mua đồ của cậu đi!",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "我有个铁习惯——“先盘点，后列清单”。平时缺啥就记在手机备忘录里，出门或者打开购物软件直奔目标，没在清单上的基本没什么可买的。",
+        "pinyin": "wǒ yǒu gè tiě xí guàn-- \"xiān pán diǎn, hòu liè qīng dān\". píng shí quē shá jiù jì zài shǒu jī bèi wàng lù lǐ, chū mén huò zhě dǎ kāi gòu wù ruǎn jiàn zhí bèn mù biāo, méi zài qīng dān shàng de jī běn méi shén me kě mǎi de.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǒu gè tiě xí guàn-- \"xiān pán diǎn, hòu liè qīng dān\". píng shí quē shá jiù jì zài shǒu jī bèi wàng lù lǐ, chū mén huò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhě</span> dǎ kāi gòu wù ruǎn jiàn zhí bèn mù biāo, méi zài qīng dān shàng de jī běn méi shén me <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> mǎi de.",
+        "vi": "Tớ có một thói quen cứng — 'kiểm kê trước, lên danh sách sau'. Bình thường thiếu gì ghi ngay vào ghi chú điện thoại, ra ngoài hay mở app mua sắm là nhắm thẳng mục tiêu, ngoài danh sách cơ bản chẳng có gì đáng mua.",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "这习惯太厉害了！我每次一逛商城就忍不住把整条街逛遍，最后提一大堆没用的回来。那你平时偏爱网购还是实体店？",
+        "pinyin": "zhè xí guàn tài lì hài le! wǒ měi cì yí guàng shāng chéng jiù rěn bú zhù bǎ zhěng tiáo jiē guàng biàn, zuì hòu tí yí dà duī méi yòng de huí lái. nà nǐ píng shí piān ài wǎng gòu hái shì shí tǐ diàn?",
+        "pinyinHtml": "zhè xí guàn tài lì hài le! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> měi cì yí guàng shāng chéng jiù rěn bú zhù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎ</span> zhěng tiáo jiē guàng biàn, zuì hòu tí yí dà duī méi yòng de huí lái. nà nǐ píng shí piān ài wǎng gòu hái shì shí tǐ diàn?",
+        "vi": "Thói quen này đỉnh quá! Tớ cứ hễ đi trung tâm thương mại là không kìm được phải lượn hết cả dãy phố, cuối cùng xách về một đống đồ thừa. Thế cậu chuộng mua online hay ra tiệm?",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "我都是线上线下结合！标准化的日用品、零食直接网购比价下单，划算又省力；至于贴身穿的衣服、鞋子，哪怕网店图片再美，我也宁愿跑实体店摸摸料子、上身试穿。",
+        "pinyin": "wǒ dōu shì xiàn shàng xiàn xià jié hé! biāo zhǔn huà de rì yòng pǐn, líng shí zhí jiē wǎng gòu bǐ jià xià dān, huá suàn yòu shěng lì; zhì yú tiē shēn chuān de yī fu, xié zǐ, nǎ pà wǎng diàn tú piàn zài měi, wǒ yě nìng yuàn pǎo shí tǐ diàn mō mō liào zǐ, shàng shēn shì chuān.",
+        "pinyinHtml": "wǒ dōu shì xiàn shàng xiàn xià jié hé! biāo zhǔn huà de rì yòng pǐn, líng shí zhí jiē wǎng gòu bǐ jià xià dān, huá suàn yòu shěng lì; zhì yú tiē shēn chuān de yī fu, xié zǐ, nǎ pà wǎng diàn tú piàn zài měi, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě nìng yuàn pǎo shí tǐ diàn mō mō liào zǐ, shàng shēn shì chuān.",
+        "vi": "Tớ kết hợp cả online lẫn trực tiếp! Đồ gia dụng tiêu chuẩn, đồ ăn vặt đặt online so giá cho hời và nhàn; còn quần áo giày dép mặc lên người, ảnh mạng đẹp mấy tớ vẫn thà chạy ra tiệm sờ vải thử form.",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "怪不得你很少买到踩雷的东西！那买的时候是不是还会专挑打折季？",
+        "pinyin": "guài bù de nǐ hěn shǎo mǎi dào cǎi léi de dōng xi! nà mǎi de shí hòu shì bu shì hái huì zhuān tiāo dǎ zhé jì?",
+        "pinyinHtml": "guài bù de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǎo</span> mǎi dào cǎi léi de dōng xi! nà mǎi de shí hòu shì bu shì hái huì zhuān tiāo dǎ zhé jì?",
+        "vi": "Thảo nào ít thấy cậu mua hớ! Thế lúc mua có hay canh mùa giảm giá không?",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "那必须的！不急用的东西我先收藏着，等换季清仓或者双十一这类促销时再对比着入手，有时候能省下好几成呢。",
+        "pinyin": "nà bì xū de! bù jí yòng de dōng xi wǒ xiān shōu cáng zhe, děng huàn jì qīng cāng huò zhě shuāng shí yí zhè lèi cù xiāo shí zài duì bǐ zhe rù shǒu, yǒu shí hòu néng shěng xià hǎo jǐ chéng ne.",
+        "pinyinHtml": "nà bì xū de! bù jí yòng de dōng xi wǒ xiān shōu cáng zhe, děng huàn jì qīng cāng huò zhě shuāng shí yí zhè lèi cù xiāo shí zài duì bǐ zhe rù shǒu, yǒu shí hòu néng shěng xià <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> jǐ chéng ne.",
+        "vi": "Chắc chắn rồi! Đồ chưa vội dùng tớ lưu lại đó, đợi lúc giao mùa xả kho hay sale 11/11 rồi so giá hốt, nhiều khi tiết kiệm được mấy chục phần trăm đấy.",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "可促销时候满减套路那么多，你真能忍住不冲动剁手吗？",
+        "pinyin": "kě cù xiāo shí hòu mǎn jiǎn tào lù nà me duō, nǐ zhēn néng rěn zhù bù chōng dòng duò shǒu ma?",
+        "pinyinHtml": "kě cù xiāo shí hòu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎn</span> jiǎn tào lù nà me duō, nǐ zhēn néng rěn zhù bù chōng dòng duò shǒu ma?",
+        "vi": "Nhưng lúc khuyến mãi chiêu trò giảm giá nhiều thế, cậu kìm lòng nổi để không 'chặt tay' chốt đơn bừa à?",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "我现在特理性：除非质量过硬、价格也说得过去，而且三个月内肯定用得上，我才会付钱；否则打折打到骨折我也不心动！",
+        "pinyin": "wǒ xiàn zài tè lǐ xìng: chú fēi zhì liàng guò yìng, jià gé yě shuō de guò qù, ér qiě sān gè yuè nèi kěn dìng yòng de shàng, wǒ cái huì fù qián; fǒu zé dǎ zhé dǎ dào gǔ zhé wǒ yě bù xīn dòng!",
+        "pinyinHtml": "wǒ xiàn zài tè lǐ xìng: chú fēi zhì liàng guò yìng, jià gé yě shuō de guò qù, ér qiě sān gè yuè nèi kěn dìng yòng de shàng, wǒ cái huì fù qián; fǒu zé dǎ zhé dǎ dào gǔ zhé <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě bù xīn dòng!",
+        "vi": "Giờ tớ tỉnh táo lắm: trừ phi chất lượng cứng, giá cả hợp lý mà trong vòng 3 tháng chắc chắn dùng tới thì tớ mới trả tiền; nếu không có giảm sập sàn tớ cũng chẳng rung động!",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "佩服佩服！跟你比起来我真是太冲动了，以后买东西前得先拿清单对照一下才行。",
+        "pinyin": "pèi fú pèi fú! gēn nǐ bǐ qǐ lái wǒ zhēn shì tài chōng dòng le, yǐ hòu mǎi dōng xi qián de xiān ná qīng dān duì zhào yí xià cái xíng.",
+        "pinyinHtml": "pèi fú pèi fú! gēn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǐ</span> qǐ lái wǒ zhēn shì tài chōng dòng le, yǐ hòu mǎi dōng xi qián de xiān ná qīng dān duì zhào yí xià cái xíng.",
+        "vi": "Bái phục bái phục! So với cậu tớ đúng là bốc đồng quá, sau này trước khi mua chắc phải soi lại danh sách mới được.",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "哈哈，养成理性购物的习惯后，不仅省下一大笔钱，家里也不至于堆满闲置物品，别提多舒心了！",
+        "pinyin": "hā hā, yǎng chéng lǐ xìng gòu wù de xí guàn hòu, bù jǐn shěng xià yí dà bǐ qián, jiā lǐ yě bú zhì yú duī mǎn xián zhì wù pǐn, bié tí duō shū xīn le!",
+        "pinyinHtml": "hā hā, yǎng chéng lǐ xìng gòu wù de xí guàn hòu, bù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐn</span> shěng xià yí dà bǐ qián, jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> yě bú zhì yú duī mǎn xián zhì wù pǐn, bié tí duō shū xīn le!",
+        "vi": "Haha, tập được thói quen mua sắm lý trí xong, không chỉ tiết kiệm khoản lớn mà nhà cũng đỡ chất đống đồ bỏ xó, thoải mái khỏi phải nói luôn!",
+        "modified": true
+       }
+      ],
+      "v1_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "哇，你桌子上怎么这么多快递盒子，最近买了不少东西吧？",
+        "pinyin": "wā, nǐ zhuō zi shàng zěn me zhè me duō kuài dì hé zi, zuì jìn mǎi le bù shǎo dōng xi ba?",
+        "pinyinHtml": "wā, nǐ zhuō zi shàng zěn me zhè me duō kuài dì hé zi, zuì jìn mǎi le bù shǎo dōng xi ba?",
+        "vi": "Oa, sao trên bàn cậu lắm hộp hàng ship thế, dạo này mua nhiều đồ lắm hả?",
+        "modified": false
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "哈哈，这都是平时攒下来趁打折一起买的日用品。其实我买东西很有规律的！",
+        "pinyin": "hā hā, zhè dōu shì píng shí zǎn xià lái chèn dǎ zhé yì qǐ mǎi de rì yòng pǐn. qí shí wǒ mǎi dōng xi hěn yǒu guī lǜ de!",
+        "pinyinHtml": "hā hā, zhè dōu shì píng shí zǎn xià lái chèn dǎ zhé yì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qǐ</span> mǎi de rì yòng pǐn. qí shí <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> mǎi dōng xi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> yǒu guī lǜ de!",
+        "vi": "Haha, toàn đồ sinh hoạt hằng ngày gom lại đợi giảm giá mua một thể đấy. Thực ra tớ mua đồ có nguyên tắc lắm!",
+        "modified": false
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "是吗？快给我介绍一下你买东西的习惯吧！",
+        "pinyin": "shì ma? kuài gěi wǒ jiè shào yí xià nǐ mǎi dōng xi de xí guàn ba!",
+        "pinyinHtml": "shì ma? kuài <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gěi</span> wǒ jiè shào yí xià <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> mǎi dōng xi de xí guàn ba!",
+        "vi": "Thế à? Mau kể cho tớ nghe thói quen mua sắm của cậu đi!",
+        "modified": false
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "我每次买东西前，都会先整理一下家里还缺什么，写好购物清单再下单，不然很容易乱花钱。",
+        "pinyin": "wǒ měi cì mǎi dōng xi qián, dōu huì xiān zhěng lǐ yí xià jiā lǐ hái quē shén me, xiě hǎo gòu wù qīng dān zài xià dān, bù rán hěn róng yì luàn huā qián.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> měi cì mǎi dōng xi qián, dōu huì xiān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhěng</span> lǐ yí xià jiā lǐ hái quē shén me, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiě</span> hǎo gòu wù qīng dān zài xià dān, bù rán hěn róng yì luàn huā qián.",
+        "vi": "Mỗi lần trước khi mua, tớ đều dọn xem nhà còn thiếu gì, viết sẵn danh sách cần mua rồi mới đặt, không là dễ tiêu hoang lắm.",
+        "modified": false
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "那你更喜欢网购还是逛实体店呢？",
+        "pinyin": "nà nǐ gèng xǐ huan wǎng gòu hái shì guàng shí tǐ diàn ne?",
+        "pinyinHtml": "nà nǐ gèng xǐ huan wǎng gòu hái shì guàng shí tǐ diàn ne?",
+        "vi": "Thế cậu thích mua online hay đi cửa hàng trực tiếp hơn?",
+        "modified": false
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "我分东西买！像纸巾、洗衣液这种日常用品，网购既便宜又直接送到家，省时间；但买衣服和鞋子我还是喜欢去商场试穿。",
+        "pinyin": "wǒ fēn dōng xi mǎi! xiàng zhǐ jīn, xǐ yī yè zhè zhǒng rì cháng yòng pǐn, wǎng gòu jì pián yi yòu zhí jiē sòng dào jiā, shěng shí jiān; dàn mǎi yī fu hé xié zǐ wǒ hái shì xǐ huan qù shāng chǎng shì chuān.",
+        "pinyinHtml": "wǒ fēn dōng xi mǎi! xiàng zhǐ jīn, xǐ yī yè zhè zhǒng rì cháng yòng pǐn, wǎng gòu jì pián yi yòu zhí jiē sòng dào jiā, shěng shí jiān; dàn mǎi yī fu hé xié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǐ</span> wǒ hái shì xǐ huan qù shāng chǎng shì chuān.",
+        "vi": "Tớ chia theo loại đồ! Như giấy ăn, nước giặt hàng ngày thì đặt online vừa rẻ lại giao tận cửa, tiết kiệm thời gian; còn mua quần áo giày dép tớ vẫn thích ra trung tâm thương mại thử.",
+        "modified": false
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "你还会挑什么时候买比较便宜吗？",
+        "pinyin": "nǐ hái huì tiāo shén me shí hòu mǎi bǐ jiào pián yi ma?",
+        "pinyinHtml": "nǐ hái huì tiāo shén me shí hòu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> bǐ jiào pián yi ma?",
+        "vi": "Cậu có hay canh thời điểm nào mua cho rẻ hơn không?",
+        "modified": false
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "会的，如果不是急用的东西，我会先放进购物车，等到换季或者节日打折活动的时候再一起买。",
+        "pinyin": "huì de, rú guǒ bú shì jí yòng de dōng xi, wǒ huì xiān fàng jìn gòu wù chē, děng dào huàn jì huò zhě jié rì dǎ zhé huó dòng de shí hòu zài yì qǐ mǎi.",
+        "pinyinHtml": "huì de, rú guǒ bú shì jí yòng de dōng xi, wǒ huì xiān fàng jìn gòu wù chē, děng dào huàn jì huò zhě jié rì dǎ zhé huó dòng de shí hòu zài yì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qǐ</span> mǎi.",
+        "vi": "Có chứ, nếu không phải đồ cần gấp, tớ cứ bỏ sẵn vào giỏ hàng, đợi đến lúc giao mùa hoặc lễ giảm giá mới chốt một thể.",
+        "modified": false
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "那遇到商店搞促销，你会不会忍不住多买几件用不着的东西？",
+        "pinyin": "nà yù dào shāng diàn gǎo cù xiāo, nǐ huì bu huì rěn bú zhù duō mǎi jǐ jiàn yòng bù zhe de dōng xi?",
+        "pinyinHtml": "nà yù dào shāng diàn gǎo cù xiāo, nǐ huì bu huì rěn bú zhù duō <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> jǐ jiàn yòng bù zhe de dōng xi?",
+        "vi": "Thế gặp lúc cửa hàng khuyến mãi, cậu có hay bị kiềm lòng không nổi mà mua thêm mấy thứ chẳng dùng tới không?",
+        "modified": false
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "以前会，现在克制多了！除非东西质量确实好、又用得上，我才会买；没用的就算再便宜也不买。",
+        "pinyin": "yǐ qián huì, xiàn zài kè zhì duō le! chú fēi dōng xi zhì liàng què shí hǎo, yòu yòng de shàng, wǒ cái huì mǎi; méi yòng de jiù suàn zài pián yi yě bù mǎi.",
+        "pinyinHtml": "yǐ qián huì, xiàn zài kè zhì duō le! chú fēi dōng xi zhì liàng què shí hǎo, yòu yòng de shàng, wǒ cái huì mǎi; méi yòng de jiù suàn zài pián yi yě bù mǎi.",
+        "vi": "Trước thì có, giờ kiềm chế hơn nhiều rồi! Trừ phi món đó chất lượng tốt thật và dùng tới tớ mới mua; đồ không cần dùng có rẻ mấy cũng bỏ.",
+        "modified": false
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "你这个习惯真好，既能买到好东西，又不会浪费钱。",
+        "pinyin": "nǐ zhè ge xí guàn zhēn hǎo, jì néng mǎi dào hǎo dōng xi, yòu bú huì làng fèi qián.",
+        "pinyinHtml": "nǐ zhè ge xí guàn zhēn hǎo, jì néng mǎi dào hǎo dōng xi, yòu bú huì làng fèi qián.",
+        "vi": "Thói quen này của cậu hay quá, vừa mua được đồ tốt lại không phí tiền.",
+        "modified": false
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "对啊，理智消费才能让生活更轻松嘛！",
+        "pinyin": "duì a, lǐ zhì xiāo fèi cái néng ràng shēng huó gèng qīng sōng ma!",
+        "pinyinHtml": "duì a, lǐ zhì xiāo fèi cái néng ràng shēng huó gèng qīng sōng ma!",
+        "vi": "Đúng thế, tiêu dùng lý trí mới giúp cuộc sống nhẹ nhàng hơn chứ!",
+        "modified": false
+       }
+      ],
+      "v2_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "好家伙，你门口堆这么多快递，最近这是大采购了一波啊？",
+        "pinyin": "hǎo jiā huǒ, nǐ mén kǒu duī zhè me duō kuài dì, zuì jìn zhè shì dà cǎi gòu le yì bō a?",
+        "pinyinHtml": "hǎo jiā huǒ, nǐ mén kǒu duī zhè me duō kuài dì, zuì jìn zhè shì dà cǎi gòu le yì bō a?",
+        "vi": "Chà chà, trước cửa nhà cậu chất đống hàng giao thế kia, dạo này vừa làm quả đại mua sắm à?",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "哈哈，别误会，这些全是家里常用的洗衣液、纸巾，趁平台大促屯一波而已。别看箱子多，我花钱可克制着呢！",
+        "pinyin": "hā hā, bié wù huì, zhè xiē quán shì jiā lǐ cháng yòng de xǐ yī yè, zhǐ jīn, chèn píng tái dà cù tún yì bō ér yǐ. bié kàn xiāng zǐ duō, wǒ huā qián kě kè zhì zhe ne!",
+        "pinyinHtml": "hā hā, bié wù huì, zhè xiē quán shì jiā lǐ cháng yòng de xǐ yī yè, zhǐ jīn, chèn píng tái dà cù tún yì bō ér yǐ. bié kàn xiāng zǐ duō, wǒ huā qián kě kè zhì zhe ne!",
+        "vi": "Haha, đừng hiểu lầm, toàn nước giặt, giấy ăn dùng thường ngày, nhân sàn sale lớn mua tích trữ một đợt thôi. Đừng thấy nhiều thùng mà tưởng, tớ tiêu tiền có chừng mực lắm đấy!",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "听起来你买东西挺有章法的，快介绍一下你平时购物的习惯呗！",
+        "pinyin": "tīng qǐ lái nǐ mǎi dōng xi tǐng yǒu zhāng fǎ de, kuài jiè shào yí xià nǐ píng shí gòu wù de xí guàn bài!",
+        "pinyinHtml": "tīng qǐ lái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> mǎi dōng xi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> yǒu zhāng fǎ de, kuài jiè shào yí xià nǐ píng shí gòu wù de xí guàn bài!",
+        "vi": "Nghe có vẻ cậu mua sắm bài bản phết, mau kể tớ nghe thói quen đi mua đồ của cậu đi!",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "我有个铁习惯——“先盘点，后列清单”。平时缺啥就记在手机备忘录里，出门或者打开购物软件直奔目标，没在清单上的基本没什么可买的。",
+        "pinyin": "wǒ yǒu gè tiě xí guàn-- \"xiān pán diǎn, hòu liè qīng dān\". píng shí quē shá jiù jì zài shǒu jī bèi wàng lù lǐ, chū mén huò zhě dǎ kāi gòu wù ruǎn jiàn zhí bèn mù biāo, méi zài qīng dān shàng de jī běn méi shén me kě mǎi de.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǒu gè tiě xí guàn-- \"xiān pán diǎn, hòu liè qīng dān\". píng shí quē shá jiù jì zài shǒu jī bèi wàng lù lǐ, chū mén huò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhě</span> dǎ kāi gòu wù ruǎn jiàn zhí bèn mù biāo, méi zài qīng dān shàng de jī běn méi shén me <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> mǎi de.",
+        "vi": "Tớ có một thói quen cứng — 'kiểm kê trước, lên danh sách sau'. Bình thường thiếu gì ghi ngay vào ghi chú điện thoại, ra ngoài hay mở app mua sắm là nhắm thẳng mục tiêu, ngoài danh sách cơ bản chẳng có gì đáng mua.",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "这习惯太厉害了！我每次一逛商城就忍不住把整条街逛遍，最后提一大堆没用的回来。那你平时偏爱网购还是实体店？",
+        "pinyin": "zhè xí guàn tài lì hài le! wǒ měi cì yí guàng shāng chéng jiù rěn bú zhù bǎ zhěng tiáo jiē guàng biàn, zuì hòu tí yí dà duī méi yòng de huí lái. nà nǐ píng shí piān ài wǎng gòu hái shì shí tǐ diàn?",
+        "pinyinHtml": "zhè xí guàn tài lì hài le! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> měi cì yí guàng shāng chéng jiù rěn bú zhù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎ</span> zhěng tiáo jiē guàng biàn, zuì hòu tí yí dà duī méi yòng de huí lái. nà nǐ píng shí piān ài wǎng gòu hái shì shí tǐ diàn?",
+        "vi": "Thói quen này đỉnh quá! Tớ cứ hễ đi trung tâm thương mại là không kìm được phải lượn hết cả dãy phố, cuối cùng xách về một đống đồ thừa. Thế cậu chuộng mua online hay ra tiệm?",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "我都是线上线下结合！标准化的日用品、零食直接网购比价下单，划算又省力；至于贴身穿的衣服、鞋子，哪怕网店图片再美，我也宁愿跑实体店摸摸料子、上身试穿。",
+        "pinyin": "wǒ dōu shì xiàn shàng xiàn xià jié hé! biāo zhǔn huà de rì yòng pǐn, líng shí zhí jiē wǎng gòu bǐ jià xià dān, huá suàn yòu shěng lì; zhì yú tiē shēn chuān de yī fu, xié zǐ, nǎ pà wǎng diàn tú piàn zài měi, wǒ yě nìng yuàn pǎo shí tǐ diàn mō mō liào zǐ, shàng shēn shì chuān.",
+        "pinyinHtml": "wǒ dōu shì xiàn shàng xiàn xià jié hé! biāo zhǔn huà de rì yòng pǐn, líng shí zhí jiē wǎng gòu bǐ jià xià dān, huá suàn yòu shěng lì; zhì yú tiē shēn chuān de yī fu, xié zǐ, nǎ pà wǎng diàn tú piàn zài měi, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě nìng yuàn pǎo shí tǐ diàn mō mō liào zǐ, shàng shēn shì chuān.",
+        "vi": "Tớ kết hợp cả online lẫn trực tiếp! Đồ gia dụng tiêu chuẩn, đồ ăn vặt đặt online so giá cho hời và nhàn; còn quần áo giày dép mặc lên người, ảnh mạng đẹp mấy tớ vẫn thà chạy ra tiệm sờ vải thử form.",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "怪不得你很少买到踩雷的东西！那买的时候是不是还会专挑打折季？",
+        "pinyin": "guài bù de nǐ hěn shǎo mǎi dào cǎi léi de dōng xi! nà mǎi de shí hòu shì bu shì hái huì zhuān tiāo dǎ zhé jì?",
+        "pinyinHtml": "guài bù de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǎo</span> mǎi dào cǎi léi de dōng xi! nà mǎi de shí hòu shì bu shì hái huì zhuān tiāo dǎ zhé jì?",
+        "vi": "Thảo nào ít thấy cậu mua hớ! Thế lúc mua có hay canh mùa giảm giá không?",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "那必须的！不急用的东西我先收藏着，等换季清仓或者双十一这类促销时再对比着入手，有时候能省下好几成呢。",
+        "pinyin": "nà bì xū de! bù jí yòng de dōng xi wǒ xiān shōu cáng zhe, děng huàn jì qīng cāng huò zhě shuāng shí yí zhè lèi cù xiāo shí zài duì bǐ zhe rù shǒu, yǒu shí hòu néng shěng xià hǎo jǐ chéng ne.",
+        "pinyinHtml": "nà bì xū de! bù jí yòng de dōng xi wǒ xiān shōu cáng zhe, děng huàn jì qīng cāng huò zhě shuāng shí yí zhè lèi cù xiāo shí zài duì bǐ zhe rù shǒu, yǒu shí hòu néng shěng xià <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> jǐ chéng ne.",
+        "vi": "Chắc chắn rồi! Đồ chưa vội dùng tớ lưu lại đó, đợi lúc giao mùa xả kho hay sale 11/11 rồi so giá hốt, nhiều khi tiết kiệm được mấy chục phần trăm đấy.",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "可促销时候满减套路那么多，你真能忍住不冲动剁手吗？",
+        "pinyin": "kě cù xiāo shí hòu mǎn jiǎn tào lù nà me duō, nǐ zhēn néng rěn zhù bù chōng dòng duò shǒu ma?",
+        "pinyinHtml": "kě cù xiāo shí hòu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎn</span> jiǎn tào lù nà me duō, nǐ zhēn néng rěn zhù bù chōng dòng duò shǒu ma?",
+        "vi": "Nhưng lúc khuyến mãi chiêu trò giảm giá nhiều thế, cậu kìm lòng nổi để không 'chặt tay' chốt đơn bừa à?",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "我现在特理性：除非质量过硬、价格也说得过去，而且三个月内肯定用得上，我才会付钱；否则打折打到骨折我也不心动！",
+        "pinyin": "wǒ xiàn zài tè lǐ xìng: chú fēi zhì liàng guò yìng, jià gé yě shuō de guò qù, ér qiě sān gè yuè nèi kěn dìng yòng de shàng, wǒ cái huì fù qián; fǒu zé dǎ zhé dǎ dào gǔ zhé wǒ yě bù xīn dòng!",
+        "pinyinHtml": "wǒ xiàn zài tè lǐ xìng: chú fēi zhì liàng guò yìng, jià gé yě shuō de guò qù, ér qiě sān gè yuè nèi kěn dìng yòng de shàng, wǒ cái huì fù qián; fǒu zé dǎ zhé dǎ dào gǔ zhé <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě bù xīn dòng!",
+        "vi": "Giờ tớ tỉnh táo lắm: trừ phi chất lượng cứng, giá cả hợp lý mà trong vòng 3 tháng chắc chắn dùng tới thì tớ mới trả tiền; nếu không có giảm sập sàn tớ cũng chẳng rung động!",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "佩服佩服！跟你比起来我真是太冲动了，以后买东西前得先拿清单对照一下才行。",
+        "pinyin": "pèi fú pèi fú! gēn nǐ bǐ qǐ lái wǒ zhēn shì tài chōng dòng le, yǐ hòu mǎi dōng xi qián de xiān ná qīng dān duì zhào yí xià cái xíng.",
+        "pinyinHtml": "pèi fú pèi fú! gēn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǐ</span> qǐ lái wǒ zhēn shì tài chōng dòng le, yǐ hòu mǎi dōng xi qián de xiān ná qīng dān duì zhào yí xià cái xíng.",
+        "vi": "Bái phục bái phục! So với cậu tớ đúng là bốc đồng quá, sau này trước khi mua chắc phải soi lại danh sách mới được.",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "哈哈，养成理性购物的习惯后，不仅省下一大笔钱，家里也不至于堆满闲置物品，别提多舒心了！",
+        "pinyin": "hā hā, yǎng chéng lǐ xìng gòu wù de xí guàn hòu, bù jǐn shěng xià yí dà bǐ qián, jiā lǐ yě bú zhì yú duī mǎn xián zhì wù pǐn, bié tí duō shū xīn le!",
+        "pinyinHtml": "hā hā, yǎng chéng lǐ xìng gòu wù de xí guàn hòu, bù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐn</span> shěng xià yí dà bǐ qián, jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> yě bú zhì yú duī mǎn xián zhì wù pǐn, bié tí duō shū xīn le!",
+        "vi": "Haha, tập được thói quen mua sắm lý trí xong, không chỉ tiết kiệm khoản lớn mà nhà cũng đỡ chất đống đồ bỏ xó, thoải mái khỏi phải nói luôn!",
+        "modified": true
+       }
+      ],
+      "diffs": [
+       {
+        "n": 1,
+        "role": "A",
+        "v1": {
+         "zh": "哇，你桌子上怎么这么多快递盒子，最近买了不少东西吧？",
+         "pinyin": "wā, nǐ zhuō zi shàng zěn me zhè me duō kuài dì hé zi, zuì jìn mǎi le bù shǎo dōng xi ba?",
+         "pinyinHtml": "wā, nǐ zhuō zi shàng zěn me zhè me duō kuài dì hé zi, zuì jìn mǎi le bù shǎo dōng xi ba?",
+         "vi": "Oa, sao trên bàn cậu lắm hộp hàng ship thế, dạo này mua nhiều đồ lắm hả?"
+        },
+        "v2": {
+         "zh": "好家伙，你门口堆这么多快递，最近这是大采购了一波啊？",
+         "pinyin": "hǎo jiā huǒ, nǐ mén kǒu duī zhè me duō kuài dì, zuì jìn zhè shì dà cǎi gòu le yì bō a?",
+         "pinyinHtml": "hǎo jiā huǒ, nǐ mén kǒu duī zhè me duō kuài dì, zuì jìn zhè shì dà cǎi gòu le yì bō a?",
+         "vi": "Chà chà, trước cửa nhà cậu chất đống hàng giao thế kia, dạo này vừa làm quả đại mua sắm à?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "v1": {
+         "zh": "哈哈，这都是平时攒下来趁打折一起买的日用品。其实我买东西很有规律的！",
+         "pinyin": "hā hā, zhè dōu shì píng shí zǎn xià lái chèn dǎ zhé yì qǐ mǎi de rì yòng pǐn. qí shí wǒ mǎi dōng xi hěn yǒu guī lǜ de!",
+         "pinyinHtml": "hā hā, zhè dōu shì píng shí zǎn xià lái chèn dǎ zhé yì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qǐ</span> mǎi de rì yòng pǐn. qí shí <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> mǎi dōng xi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> yǒu guī lǜ de!",
+         "vi": "Haha, toàn đồ sinh hoạt hằng ngày gom lại đợi giảm giá mua một thể đấy. Thực ra tớ mua đồ có nguyên tắc lắm!"
+        },
+        "v2": {
+         "zh": "哈哈，别误会，这些全是家里常用的洗衣液、纸巾，趁平台大促屯一波而已。别看箱子多，我花钱可克制着呢！",
+         "pinyin": "hā hā, bié wù huì, zhè xiē quán shì jiā lǐ cháng yòng de xǐ yī yè, zhǐ jīn, chèn píng tái dà cù tún yì bō ér yǐ. bié kàn xiāng zǐ duō, wǒ huā qián kě kè zhì zhe ne!",
+         "pinyinHtml": "hā hā, bié wù huì, zhè xiē quán shì jiā lǐ cháng yòng de xǐ yī yè, zhǐ jīn, chèn píng tái dà cù tún yì bō ér yǐ. bié kàn xiāng zǐ duō, wǒ huā qián kě kè zhì zhe ne!",
+         "vi": "Haha, đừng hiểu lầm, toàn nước giặt, giấy ăn dùng thường ngày, nhân sàn sale lớn mua tích trữ một đợt thôi. Đừng thấy nhiều thùng mà tưởng, tớ tiêu tiền có chừng mực lắm đấy!"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "v1": {
+         "zh": "是吗？快给我介绍一下你买东西的习惯吧！",
+         "pinyin": "shì ma? kuài gěi wǒ jiè shào yí xià nǐ mǎi dōng xi de xí guàn ba!",
+         "pinyinHtml": "shì ma? kuài <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gěi</span> wǒ jiè shào yí xià <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> mǎi dōng xi de xí guàn ba!",
+         "vi": "Thế à? Mau kể cho tớ nghe thói quen mua sắm của cậu đi!"
+        },
+        "v2": {
+         "zh": "听起来你买东西挺有章法的，快介绍一下你平时购物的习惯呗！",
+         "pinyin": "tīng qǐ lái nǐ mǎi dōng xi tǐng yǒu zhāng fǎ de, kuài jiè shào yí xià nǐ píng shí gòu wù de xí guàn bài!",
+         "pinyinHtml": "tīng qǐ lái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> mǎi dōng xi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> yǒu zhāng fǎ de, kuài jiè shào yí xià nǐ píng shí gòu wù de xí guàn bài!",
+         "vi": "Nghe có vẻ cậu mua sắm bài bản phết, mau kể tớ nghe thói quen đi mua đồ của cậu đi!"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "v1": {
+         "zh": "我每次买东西前，都会先整理一下家里还缺什么，写好购物清单再下单，不然很容易乱花钱。",
+         "pinyin": "wǒ měi cì mǎi dōng xi qián, dōu huì xiān zhěng lǐ yí xià jiā lǐ hái quē shén me, xiě hǎo gòu wù qīng dān zài xià dān, bù rán hěn róng yì luàn huā qián.",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> měi cì mǎi dōng xi qián, dōu huì xiān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhěng</span> lǐ yí xià jiā lǐ hái quē shén me, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiě</span> hǎo gòu wù qīng dān zài xià dān, bù rán hěn róng yì luàn huā qián.",
+         "vi": "Mỗi lần trước khi mua, tớ đều dọn xem nhà còn thiếu gì, viết sẵn danh sách cần mua rồi mới đặt, không là dễ tiêu hoang lắm."
+        },
+        "v2": {
+         "zh": "我有个铁习惯——“先盘点，后列清单”。平时缺啥就记在手机备忘录里，出门或者打开购物软件直奔目标，没在清单上的基本没什么可买的。",
+         "pinyin": "wǒ yǒu gè tiě xí guàn-- \"xiān pán diǎn, hòu liè qīng dān\". píng shí quē shá jiù jì zài shǒu jī bèi wàng lù lǐ, chū mén huò zhě dǎ kāi gòu wù ruǎn jiàn zhí bèn mù biāo, méi zài qīng dān shàng de jī běn méi shén me kě mǎi de.",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǒu gè tiě xí guàn-- \"xiān pán diǎn, hòu liè qīng dān\". píng shí quē shá jiù jì zài shǒu jī bèi wàng lù lǐ, chū mén huò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhě</span> dǎ kāi gòu wù ruǎn jiàn zhí bèn mù biāo, méi zài qīng dān shàng de jī běn méi shén me <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> mǎi de.",
+         "vi": "Tớ có một thói quen cứng — 'kiểm kê trước, lên danh sách sau'. Bình thường thiếu gì ghi ngay vào ghi chú điện thoại, ra ngoài hay mở app mua sắm là nhắm thẳng mục tiêu, ngoài danh sách cơ bản chẳng có gì đáng mua."
+        },
+        "reason": "Lồng ghép mẫu câu Bài 5 “没什么可买的” + thói quen thực tế ghi chú điện thoại."
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "v1": {
+         "zh": "那你更喜欢网购还是逛实体店呢？",
+         "pinyin": "nà nǐ gèng xǐ huan wǎng gòu hái shì guàng shí tǐ diàn ne?",
+         "pinyinHtml": "nà nǐ gèng xǐ huan wǎng gòu hái shì guàng shí tǐ diàn ne?",
+         "vi": "Thế cậu thích mua online hay đi cửa hàng trực tiếp hơn?"
+        },
+        "v2": {
+         "zh": "这习惯太厉害了！我每次一逛商城就忍不住把整条街逛遍，最后提一大堆没用的回来。那你平时偏爱网购还是实体店？",
+         "pinyin": "zhè xí guàn tài lì hài le! wǒ měi cì yí guàng shāng chéng jiù rěn bú zhù bǎ zhěng tiáo jiē guàng biàn, zuì hòu tí yí dà duī méi yòng de huí lái. nà nǐ píng shí piān ài wǎng gòu hái shì shí tǐ diàn?",
+         "pinyinHtml": "zhè xí guàn tài lì hài le! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> měi cì yí guàng shāng chéng jiù rěn bú zhù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎ</span> zhěng tiáo jiē guàng biàn, zuì hòu tí yí dà duī méi yòng de huí lái. nà nǐ píng shí piān ài wǎng gòu hái shì shí tǐ diàn?",
+         "vi": "Thói quen này đỉnh quá! Tớ cứ hễ đi trung tâm thương mại là không kìm được phải lượn hết cả dãy phố, cuối cùng xách về một đống đồ thừa. Thế cậu chuộng mua online hay ra tiệm?"
+        },
+        "reason": "Lồng ghép mẫu câu Bài 5 “逛遍” (đi hết một lượt)."
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "v1": {
+         "zh": "我分东西买！像纸巾、洗衣液这种日常用品，网购既便宜又直接送到家，省时间；但买衣服和鞋子我还是喜欢去商场试穿。",
+         "pinyin": "wǒ fēn dōng xi mǎi! xiàng zhǐ jīn, xǐ yī yè zhè zhǒng rì cháng yòng pǐn, wǎng gòu jì pián yi yòu zhí jiē sòng dào jiā, shěng shí jiān; dàn mǎi yī fu hé xié zǐ wǒ hái shì xǐ huan qù shāng chǎng shì chuān.",
+         "pinyinHtml": "wǒ fēn dōng xi mǎi! xiàng zhǐ jīn, xǐ yī yè zhè zhǒng rì cháng yòng pǐn, wǎng gòu jì pián yi yòu zhí jiē sòng dào jiā, shěng shí jiān; dàn mǎi yī fu hé xié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǐ</span> wǒ hái shì xǐ huan qù shāng chǎng shì chuān.",
+         "vi": "Tớ chia theo loại đồ! Như giấy ăn, nước giặt hàng ngày thì đặt online vừa rẻ lại giao tận cửa, tiết kiệm thời gian; còn mua quần áo giày dép tớ vẫn thích ra trung tâm thương mại thử."
+        },
+        "v2": {
+         "zh": "我都是线上线下结合！标准化的日用品、零食直接网购比价下单，划算又省力；至于贴身穿的衣服、鞋子，哪怕网店图片再美，我也宁愿跑实体店摸摸料子、上身试穿。",
+         "pinyin": "wǒ dōu shì xiàn shàng xiàn xià jié hé! biāo zhǔn huà de rì yòng pǐn, líng shí zhí jiē wǎng gòu bǐ jià xià dān, huá suàn yòu shěng lì; zhì yú tiē shēn chuān de yī fu, xié zǐ, nǎ pà wǎng diàn tú piàn zài měi, wǒ yě nìng yuàn pǎo shí tǐ diàn mō mō liào zǐ, shàng shēn shì chuān.",
+         "pinyinHtml": "wǒ dōu shì xiàn shàng xiàn xià jié hé! biāo zhǔn huà de rì yòng pǐn, líng shí zhí jiē wǎng gòu bǐ jià xià dān, huá suàn yòu shěng lì; zhì yú tiē shēn chuān de yī fu, xié zǐ, nǎ pà wǎng diàn tú piàn zài měi, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě nìng yuàn pǎo shí tǐ diàn mō mō liào zǐ, shàng shēn shì chuān.",
+         "vi": "Tớ kết hợp cả online lẫn trực tiếp! Đồ gia dụng tiêu chuẩn, đồ ăn vặt đặt online so giá cho hời và nhàn; còn quần áo giày dép mặc lên người, ảnh mạng đẹp mấy tớ vẫn thà chạy ra tiệm sờ vải thử form."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "v1": {
+         "zh": "你还会挑什么时候买比较便宜吗？",
+         "pinyin": "nǐ hái huì tiāo shén me shí hòu mǎi bǐ jiào pián yi ma?",
+         "pinyinHtml": "nǐ hái huì tiāo shén me shí hòu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> bǐ jiào pián yi ma?",
+         "vi": "Cậu có hay canh thời điểm nào mua cho rẻ hơn không?"
+        },
+        "v2": {
+         "zh": "怪不得你很少买到踩雷的东西！那买的时候是不是还会专挑打折季？",
+         "pinyin": "guài bù de nǐ hěn shǎo mǎi dào cǎi léi de dōng xi! nà mǎi de shí hòu shì bu shì hái huì zhuān tiāo dǎ zhé jì?",
+         "pinyinHtml": "guài bù de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǎo</span> mǎi dào cǎi léi de dōng xi! nà mǎi de shí hòu shì bu shì hái huì zhuān tiāo dǎ zhé jì?",
+         "vi": "Thảo nào ít thấy cậu mua hớ! Thế lúc mua có hay canh mùa giảm giá không?"
+        },
+        "reason": "Dùng “怪不得！” tự nhiên & từ vựng hiện đại “踩雷”."
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "v1": {
+         "zh": "会的，如果不是急用的东西，我会先放进购物车，等到换季或者节日打折活动的时候再一起买。",
+         "pinyin": "huì de, rú guǒ bú shì jí yòng de dōng xi, wǒ huì xiān fàng jìn gòu wù chē, děng dào huàn jì huò zhě jié rì dǎ zhé huó dòng de shí hòu zài yì qǐ mǎi.",
+         "pinyinHtml": "huì de, rú guǒ bú shì jí yòng de dōng xi, wǒ huì xiān fàng jìn gòu wù chē, děng dào huàn jì huò zhě jié rì dǎ zhé huó dòng de shí hòu zài yì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qǐ</span> mǎi.",
+         "vi": "Có chứ, nếu không phải đồ cần gấp, tớ cứ bỏ sẵn vào giỏ hàng, đợi đến lúc giao mùa hoặc lễ giảm giá mới chốt một thể."
+        },
+        "v2": {
+         "zh": "那必须的！不急用的东西我先收藏着，等换季清仓或者双十一这类促销时再对比着入手，有时候能省下好几成呢。",
+         "pinyin": "nà bì xū de! bù jí yòng de dōng xi wǒ xiān shōu cáng zhe, děng huàn jì qīng cāng huò zhě shuāng shí yí zhè lèi cù xiāo shí zài duì bǐ zhe rù shǒu, yǒu shí hòu néng shěng xià hǎo jǐ chéng ne.",
+         "pinyinHtml": "nà bì xū de! bù jí yòng de dōng xi wǒ xiān shōu cáng zhe, děng huàn jì qīng cāng huò zhě shuāng shí yí zhè lèi cù xiāo shí zài duì bǐ zhe rù shǒu, yǒu shí hòu néng shěng xià <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> jǐ chéng ne.",
+         "vi": "Chắc chắn rồi! Đồ chưa vội dùng tớ lưu lại đó, đợi lúc giao mùa xả kho hay sale 11/11 rồi so giá hốt, nhiều khi tiết kiệm được mấy chục phần trăm đấy."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "v1": {
+         "zh": "那遇到商店搞促销，你会不会忍不住多买几件用不着的东西？",
+         "pinyin": "nà yù dào shāng diàn gǎo cù xiāo, nǐ huì bu huì rěn bú zhù duō mǎi jǐ jiàn yòng bù zhe de dōng xi?",
+         "pinyinHtml": "nà yù dào shāng diàn gǎo cù xiāo, nǐ huì bu huì rěn bú zhù duō <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> jǐ jiàn yòng bù zhe de dōng xi?",
+         "vi": "Thế gặp lúc cửa hàng khuyến mãi, cậu có hay bị kiềm lòng không nổi mà mua thêm mấy thứ chẳng dùng tới không?"
+        },
+        "v2": {
+         "zh": "可促销时候满减套路那么多，你真能忍住不冲动剁手吗？",
+         "pinyin": "kě cù xiāo shí hòu mǎn jiǎn tào lù nà me duō, nǐ zhēn néng rěn zhù bù chōng dòng duò shǒu ma?",
+         "pinyinHtml": "kě cù xiāo shí hòu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎn</span> jiǎn tào lù nà me duō, nǐ zhēn néng rěn zhù bù chōng dòng duò shǒu ma?",
+         "vi": "Nhưng lúc khuyến mãi chiêu trò giảm giá nhiều thế, cậu kìm lòng nổi để không 'chặt tay' chốt đơn bừa à?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "v1": {
+         "zh": "以前会，现在克制多了！除非东西质量确实好、又用得上，我才会买；没用的就算再便宜也不买。",
+         "pinyin": "yǐ qián huì, xiàn zài kè zhì duō le! chú fēi dōng xi zhì liàng què shí hǎo, yòu yòng de shàng, wǒ cái huì mǎi; méi yòng de jiù suàn zài pián yi yě bù mǎi.",
+         "pinyinHtml": "yǐ qián huì, xiàn zài kè zhì duō le! chú fēi dōng xi zhì liàng què shí hǎo, yòu yòng de shàng, wǒ cái huì mǎi; méi yòng de jiù suàn zài pián yi yě bù mǎi.",
+         "vi": "Trước thì có, giờ kiềm chế hơn nhiều rồi! Trừ phi món đó chất lượng tốt thật và dùng tới tớ mới mua; đồ không cần dùng có rẻ mấy cũng bỏ."
+        },
+        "v2": {
+         "zh": "我现在特理性：除非质量过硬、价格也说得过去，而且三个月内肯定用得上，我才会付钱；否则打折打到骨折我也不心动！",
+         "pinyin": "wǒ xiàn zài tè lǐ xìng: chú fēi zhì liàng guò yìng, jià gé yě shuō de guò qù, ér qiě sān gè yuè nèi kěn dìng yòng de shàng, wǒ cái huì fù qián; fǒu zé dǎ zhé dǎ dào gǔ zhé wǒ yě bù xīn dòng!",
+         "pinyinHtml": "wǒ xiàn zài tè lǐ xìng: chú fēi zhì liàng guò yìng, jià gé yě shuō de guò qù, ér qiě sān gè yuè nèi kěn dìng yòng de shàng, wǒ cái huì fù qián; fǒu zé dǎ zhé dǎ dào gǔ zhé <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě bù xīn dòng!",
+         "vi": "Giờ tớ tỉnh táo lắm: trừ phi chất lượng cứng, giá cả hợp lý mà trong vòng 3 tháng chắc chắn dùng tới thì tớ mới trả tiền; nếu không có giảm sập sàn tớ cũng chẳng rung động!"
+        },
+        "reason": "Lồng ghép chuẩn 2 mẫu câu Bài 5 “除非……才……” và “说得过去”."
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "v1": {
+         "zh": "你这个习惯真好，既能买到好东西，又不会浪费钱。",
+         "pinyin": "nǐ zhè ge xí guàn zhēn hǎo, jì néng mǎi dào hǎo dōng xi, yòu bú huì làng fèi qián.",
+         "pinyinHtml": "nǐ zhè ge xí guàn zhēn hǎo, jì néng mǎi dào hǎo dōng xi, yòu bú huì làng fèi qián.",
+         "vi": "Thói quen này của cậu hay quá, vừa mua được đồ tốt lại không phí tiền."
+        },
+        "v2": {
+         "zh": "佩服佩服！跟你比起来我真是太冲动了，以后买东西前得先拿清单对照一下才行。",
+         "pinyin": "pèi fú pèi fú! gēn nǐ bǐ qǐ lái wǒ zhēn shì tài chōng dòng le, yǐ hòu mǎi dōng xi qián de xiān ná qīng dān duì zhào yí xià cái xíng.",
+         "pinyinHtml": "pèi fú pèi fú! gēn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǐ</span> qǐ lái wǒ zhēn shì tài chōng dòng le, yǐ hòu mǎi dōng xi qián de xiān ná qīng dān duì zhào yí xià cái xíng.",
+         "vi": "Bái phục bái phục! So với cậu tớ đúng là bốc đồng quá, sau này trước khi mua chắc phải soi lại danh sách mới được."
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "v1": {
+         "zh": "对啊，理智消费才能让生活更轻松嘛！",
+         "pinyin": "duì a, lǐ zhì xiāo fèi cái néng ràng shēng huó gèng qīng sōng ma!",
+         "pinyinHtml": "duì a, lǐ zhì xiāo fèi cái néng ràng shēng huó gèng qīng sōng ma!",
+         "vi": "Đúng thế, tiêu dùng lý trí mới giúp cuộc sống nhẹ nhàng hơn chứ!"
+        },
+        "v2": {
+         "zh": "哈哈，养成理性购物的习惯后，不仅省下一大笔钱，家里也不至于堆满闲置物品，别提多舒心了！",
+         "pinyin": "hā hā, yǎng chéng lǐ xìng gòu wù de xí guàn hòu, bù jǐn shěng xià yí dà bǐ qián, jiā lǐ yě bú zhì yú duī mǎn xián zhì wù pǐn, bié tí duō shū xīn le!",
+         "pinyinHtml": "hā hā, yǎng chéng lǐ xìng gòu wù de xí guàn hòu, bù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐn</span> shěng xià yí dà bǐ qián, jiā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> yě bú zhì yú duī mǎn xián zhì wù pǐn, bié tí duō shū xīn le!",
+         "vi": "Haha, tập được thói quen mua sắm lý trí xong, không chỉ tiết kiệm khoản lớn mà nhà cũng đỡ chất đống đồ bỏ xó, thoải mái khỏi phải nói luôn!"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       }
+      ],
+      "audio": "audio/b5-q15.m4a",
+      "audioDuration": 108.73,
+      "audioTimings": [
+       {
+        "n": 1,
+        "role": "A",
+        "start": 0.25,
+        "end": 5.11
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "start": 5.11,
+        "end": 15.84
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "start": 15.84,
+        "end": 20.59
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "start": 20.59,
+        "end": 33.68
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "start": 33.68,
+        "end": 44.35
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "start": 44.35,
+        "end": 60.54
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "start": 60.54,
+        "end": 66.14
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "start": 66.14,
+        "end": 77.54
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "start": 77.54,
+        "end": 82.54
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "start": 82.54,
+        "end": 93.29
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "start": 93.29,
+        "end": 99.94
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "start": 99.94,
+        "end": 108.73
+       }
+      ]
+     },
+     {
+      "id": "b5-q16",
+      "no": 16,
+      "examNo": 16,
+      "priority": null,
+      "isExamScope": true,
+      "titleVi": "Khi cần ý kiến của người khác, bạn sẽ tìm ai?",
+      "question": "需要别人的意见时，你会找谁？",
+      "questionPinyin": "xū yào bié rén de yì jiàn shí, nǐ huì zhǎo shuí?",
+      "questionPinyinHtml": "xū yào bié rén de yì jiàn shí, nǐ huì zhǎo shuí?",
+      "slideQuestions": [],
+      "outline": "Mở đầu bằng tình huống khó quyết định → Phân chia đối tượng hỏi ý kiến theo từng loại việc (Việc lớn/gia đình: hỏi Bố Mẹ; Sở thích/học tập/mua sắm: hỏi Bạn thân/Người trong ngành; Thông tin khách quan: tra mạng) → Chốt thông điệp: Ý kiến người khác chỉ là tham khảo, tự mình quyết định và chịu trách nhiệm.",
+      "takeaways": {
+       "points": [
+        "Việc lớn, định hướng cuộc sống: Hỏi Bố Mẹ/Người thân vì họ hiểu mình nhất và có kinh nghiệm sống (大事找爸妈，他们经验丰富、真心为自己好)",
+        "Việc học tập, công việc, mua sắm: Hỏi Bạn thân hoặc người trong nghề để có góc nhìn thực tế của người trẻ (学习工作找同行或闺蜜哥们儿)",
+        "Tra cứu thông tin khách quan: Xem review trên mạng, nhưng phải biết chọn lọc tránh nhiễu thông tin (上网查评价作参考，但保持独立判断)",
+        "Chốt ý: Ý kiến của người khác chỉ là tham khảo, tự mình chốt đơn quyết định để không hối hận (别人的意见只是参考，最终决定自己做)"
+       ],
+       "goldenQuotes": "听别人的意见是为了打开思路、少走弯路；但自己的路还得自己走，综合思考后勇敢做出最适合自己的决定。"
+      },
+      "lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "哎，你平时有没有那种左右为难、拿不定主意的时候？",
+        "pinyin": "āi, nǐ píng shí yǒu méi yǒu nà zhǒng zuǒ yòu wéi nán, ná bú dìng zhǔ yì de shí hòu?",
+        "pinyinHtml": "āi, nǐ píng shí yǒu méi yǒu nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǒng</span> zuǒ yòu wéi nán, ná bú dìng zhǔ yì de shí hòu?",
+        "vi": "Này, bình thường cậu có bao giờ rơi vào cảnh tiến thoái lưỡng nan, chẳng biết quyết sao không?",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "那太常见了！谁还没个犯迷糊的时候呀？怎么了，看你愁眉苦脸的，是不是最近遇上啥难选的事了？",
+        "pinyin": "nà tài cháng jiàn le! shuí hái méi gè fàn mí hu de shí hòu ya? zěn me le, kàn nǐ chóu méi kǔ liǎn de, shì bu shì zuì jìn yù shàng shá nán xuǎn de shì le?",
+        "pinyinHtml": "nà tài cháng jiàn le! shuí hái méi gè fàn mí hu de shí hòu ya? zěn me le, kàn nǐ chóu méi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kǔ</span> liǎn de, shì bu shì zuì jìn yù shàng shá nán xuǎn de shì le?",
+        "vi": "Gặp suốt ấy chứ! Ai chẳng có lúc rối trí? Sao thế, trông mặt cậu ủ rũ thế kia, mới đụng chuyện gì khó chọn à?",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "别提了，最近真被一件大事卡住了。我就想问问你，每次需要别人出主意的时候，你第一反应会找谁？",
+        "pinyin": "bié tí le, zuì jìn zhēn bèi yí jiàn dà shì kǎ zhù le. wǒ jiù xiǎng wèn wèn nǐ, měi cì xū yào bié rén chū zhǔ yì de shí hòu, nǐ dì yī fǎn yìng huì zhǎo shuí?",
+        "pinyinHtml": "bié tí le, zuì jìn zhēn bèi yí jiàn dà shì kǎ zhù le. wǒ jiù xiǎng wèn wèn nǐ, měi cì xū yào bié rén chū zhǔ yì de shí hòu, nǐ dì yī fǎn yìng huì zhǎo shuí?",
+        "vi": "Đừng nhắc nữa, dạo này đang kẹt cứng ở một quyết định lớn đây. Tớ muốn hỏi cậu, mỗi lần cần người khác góp ý, phản xạ đầu tiên của cậu là tìm ai?",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "这得看是哪方面的事，不能一刀切！我的习惯是“大事问长辈，小事找朋友，杂事查攻略”。",
+        "pinyin": "zhè de kàn shì nǎ fāng miàn de shì, bù néng yì dāo qiè! wǒ de xí guàn shì \"dà shì wèn zhǎng bèi, xiǎo shì zhǎo péng yǒu, zá shì chá gōng lüè\".",
+        "pinyinHtml": "zhè de kàn shì nǎ fāng miàn de shì, bù néng yì dāo qiè! wǒ de xí guàn shì \"dà shì wèn zhǎng bèi, xiǎo shì zhǎo péng yǒu, zá shì chá gōng lüè\".",
+        "vi": "Cái này phải tùy xem là chuyện mảng nào, không gom chung một chỗ được! Thói quen của tớ là 'việc lớn hỏi người lớn, việc nhỏ tìm bạn bè, việc lặt vặt tra mạng'.",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "哎哟，总结得挺精辟！具体说说看？",
+        "pinyin": "āi yō, zǒng jié de tǐng jīng pì! jù tǐ shuō shuō kàn?",
+        "pinyinHtml": "āi yō, zǒng jié de tǐng jīng pì! jù tǐ shuō shuō kàn?",
+        "vi": "Ồ, tóm tắt sắc bén phết! Nói cụ thể hơn xem nào?",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "像换工作、学业选择这种重要决定，我第一反应是找我妈。她社会阅历比我深，又真心为我着想，总能一针见血点出我看漏的风险。",
+        "pinyin": "xiàng huàn gōng zuò, xué yè xuǎn zé zhè zhǒng zhòng yào jué dìng, wǒ dì yī fǎn yìng shì zhǎo wǒ mā. tā shè huì yuè lì bǐ wǒ shēn, yòu zhēn xīn wèi wǒ zhuó xiǎng, zǒng néng yì zhēn jiàn xuè diǎn chū wǒ kàn lòu de fēng xiǎn.",
+        "pinyinHtml": "xiàng huàn gōng zuò, xué yè xuǎn zé zhè zhǒng zhòng yào jué dìng, wǒ dì yī fǎn yìng shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǎo</span> wǒ mā. tā shè huì yuè lì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǐ</span> wǒ shēn, yòu zhēn xīn wèi wǒ zhuó xiǎng, zǒng néng yì zhēn jiàn xuè diǎn chū wǒ kàn lòu de fēng xiǎn.",
+        "vi": "Như chuyện đổi việc, chọn ngành học quan trọng thế này, phản xạ đầu tiên của tớ là tìm mẹ. Mẹ từng trải hơn tớ nhiều, lại thật lòng nghĩ cho mình, lúc nào cũng chỉ trúng ngay rủi ro tớ bỏ sót.",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "但咱和父母代沟有时候也挺明显的，要是妈妈的建议跟你心里想的完全拧着，你会怎么选？",
+        "pinyin": "dàn zán hé fù mǔ dài gōu yǒu shí hòu yě tǐng míng xiǎn de, yào shi mā ma de jiàn yì gēn nǐ xīn lǐ xiǎng de wán quán nǐng zhe, nǐ huì zěn me xuǎn?",
+        "pinyinHtml": "dàn zán hé fù mǔ dài gōu yǒu shí hòu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> tǐng míng xiǎn de, yào shi mā ma de jiàn yì gēn nǐ xīn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> xiǎng de wán quán nǐng zhe, nǐ huì zěn me xuǎn?",
+        "vi": "Nhưng mình với bố mẹ đôi khi cũng lệch thế hệ rõ rệt, lỡ lời khuyên của mẹ trái ngược hoàn toàn với điều cậu muốn thì cậu chọn sao?",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "我会认真听她为什么这么说，但绝不盲从！长辈的意见是宝贵的“安全网”，可毕竟路是自己走的，最终还是得结合自己的想法自己拍板，这样哪怕走弯路也不怨别人。",
+        "pinyin": "wǒ huì rèn zhēn tīng tā wèi shén me zhè me shuō, dàn jué bù máng cóng! zhǎng bèi de yì jiàn shì bǎo guì de \"ān quán wǎng\", kě bì jìng lù shì zì jǐ zǒu de, zuì zhōng hái shì děi jié hé zì jǐ de xiǎng fǎ zì jǐ pāi bǎn, zhè yàng nǎ pà zǒu wān lù yě bú yuàn bié rén.",
+        "pinyinHtml": "wǒ huì rèn zhēn tīng tā wèi shén me zhè me shuō, dàn jué bù máng cóng! zhǎng bèi de yì jiàn shì bǎo guì de \"ān quán wǎng\", kě bì jìng lù shì zì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> zǒu de, zuì zhōng hái shì děi jié hé zì jǐ de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> fǎ zì jǐ pāi bǎn, zhè yàng nǎ pà zǒu wān lù yě bú yuàn bié rén.",
+        "vi": "Tớ sẽ nghe thật kỹ vì sao mẹ nói vậy, nhưng không nghe mù quáng! Ý kiến người lớn là 'lưới an toàn' quý giá, nhưng rốt cuộc đường là mình tự đi, cuối cùng vẫn phải kết hợp suy nghĩ bản thân mà tự chốt, thế lỡ có vấp cũng chẳng trách ai.",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "这话挺成熟的！那要是挑礼物、学新技能或者感情上的困惑，你肯定更爱找闺蜜哥们儿聊吧？",
+        "pinyin": "zhè huà tǐng chéng shú de! nà yào shi tiāo lǐ wù, xué xīn jì néng huò zhě gǎn qíng shàng de kùn huò, nǐ kěn dìng gèng ài zhǎo guī mì gē menr liáo ba?",
+        "pinyinHtml": "zhè huà tǐng chéng shú de! nà yào shi tiāo lǐ wù, xué xīn jì néng huò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhě</span> gǎn qíng shàng de kùn huò, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> kěn dìng gèng ài zhǎo guī mì gē menr liáo ba?",
+        "vi": "Câu này chững chạc đấy! Thế mấy chuyện chọn quà, học kỹ năng mới hay lăn tăn tình cảm, chắc cậu thích hỏi hội bạn thân hơn nhỉ?",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "那是必须的！年轻人彼此视角接近，而且除非跟几个不同性格的朋友都聊一遍，否则很容易局限在自己的死胡同里。",
+        "pinyin": "nà shì bì xū de! nián qīng rén bǐ cǐ shì jiǎo jiē jìn, ér qiě chú fēi gēn jǐ gè bù tóng xìng gé de péng yǒu dōu liáo yí biàn, fǒu zé hěn róng yì jú xiàn zài zì jǐ de sǐ hú tòng lǐ.",
+        "pinyinHtml": "nà shì bì xū de! nián qīng rén <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǐ</span> cǐ shì jiǎo jiē jìn, ér qiě chú fēi gēn jǐ gè bù tóng xìng gé de péng yǒu dōu liáo yí biàn, fǒu zé hěn róng yì jú xiàn zài zì jǐ de sǐ hú tòng lǐ.",
+        "vi": "Chắc chắn rồi! Người trẻ góc nhìn gần nhau hơn, hơn nữa trừ phi nói chuyện qua một lượt với vài đứa bạn tính cách khác nhau, nếu không rất dễ tự nhốt mình trong ngõ cụt.",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "那现在大家动不动就发朋友圈或者问网友、问AI，你平时参考网络意见吗？",
+        "pinyin": "nà xiàn zài dà jiā dòng bu dòng jiù fā péng yǒu quān huò zhě wèn wǎng yǒu, wèn A I, nǐ píng shí cān kǎo wǎng luò yì jiàn ma?",
+        "pinyinHtml": "nà xiàn zài dà jiā dòng bu dòng jiù fā péng yǒu quān huò zhě wèn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎng</span> yǒu, wèn A I, nǐ píng shí cān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kǎo</span> wǎng luò yì jiàn ma?",
+        "vi": "Thế giờ mọi người hở tí là đăng bài hỏi cư dân mạng hay hỏi AI, cậu có hay tham khảo ý kiến trên mạng không?",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "买东西看真实测评、找旅游攻略我常查，特别好使；但人生方向可千万别交给陌生网友投票！多听、多想，最后自己心明眼亮地做决定才靠谱。",
+        "pinyin": "mǎi dōng xi kàn zhēn shí cè píng, zhǎo lǚ yóu gōng lüè wǒ cháng chá, tè bié hǎo shǐ; dàn rén shēng fāng xiàng kě qiān wàn bié jiāo gěi mò shēng wǎng yǒu tóu piào! duō tīng, duō xiǎng, zuì hòu zì jǐ xīn míng yǎn liàng de zuò jué dìng cái kào pǔ.",
+        "pinyinHtml": "mǎi dōng xi kàn zhēn shí cè píng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǎo</span> lǚ yóu gōng lüè wǒ cháng chá, tè bié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> shǐ; dàn rén shēng fāng xiàng kě qiān wàn bié jiāo gěi mò shēng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎng</span> yǒu tóu piào! duō tīng, duō xiǎng, zuì hòu zì jǐ xīn míng yǎn liàng de zuò jué dìng cái kào pǔ.",
+        "vi": "Mua đồ xem review thật hay tìm kinh nghiệm du lịch thì tớ hay tra, tiện cực; nhưng hướng đi cuộc đời thì tuyệt đối đừng giao cho người lạ trên mạng bỏ phiếu! Nghe nhiều, nghĩ kỹ, cuối cùng tự mình sáng suốt quyết định mới đáng tin.",
+        "modified": true
+       }
+      ],
+      "v1_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "你有没有遇到过很难决定的问题，一时拿不出主意的时候？",
+        "pinyin": "nǐ yǒu méi yǒu yù dào guò hěn nán jué dìng de wèn tí, yì shí ná bù chū zhǔ yì de shí hòu?",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> yǒu méi yǒu yù dào guò hěn nán jué dìng de wèn tí, yì shí ná bù chū zhǔ yì de shí hòu?",
+        "vi": "Cậu đã bao giờ gặp chuyện khó quyết định, nhất thời chẳng nghĩ ra phương án nào chưa?",
+        "modified": false
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "当然有啊，可以说是经常遇到。每个人生活中都会遇到这种两难的选择。",
+        "pinyin": "dāng rán yǒu a, kě yǐ shuō shì jīng cháng yù dào. měi gè rén shēng huó zhōng dū huì yù dào zhè zhǒng liǎng nán de xuǎn zé.",
+        "pinyinHtml": "dāng rán yǒu a, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ shuō shì jīng cháng yù dào. měi gè rén shēng huó zhōng dū huì yù dào zhè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǒng</span> liǎng nán de xuǎn zé.",
+        "vi": "Đương nhiên có chứ, có thể nói gặp suốt luôn. Ai trong đời chẳng gặp những lựa chọn tiến thoái lưỡng nan thế.",
+        "modified": false
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "不瞒你说，最近我就遇到一个很难的选择。你平时需要别人意见的时候一般会找谁呢？",
+        "pinyin": "bù mán nǐ shuō, zuì jìn wǒ jiù yù dào yí gè hěn nán de xuǎn zé. nǐ píng shí xū yào bié rén yì jiàn de shí hòu yì bān huì zhǎo shuí ne?",
+        "pinyinHtml": "bù mán nǐ shuō, zuì jìn wǒ jiù yù dào yí gè hěn nán de xuǎn zé. nǐ píng shí xū yào bié rén yì jiàn de shí hòu yì bān huì zhǎo shuí ne?",
+        "vi": "Chẳng giấu gì cậu, dạo này tớ đang gặp một lựa chọn khó khăn đây. Bình thường lúc cần ý kiến người khác cậu hay tìm ai?",
+        "modified": false
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "家人呀、朋友呀，或者上网查一下资料，很多渠道可以考虑。不过我看还是视情况而定。",
+        "pinyin": "jiā rén ya, péng yǒu ya, huò zhě shàng wǎng chá yí xià zī liào, hěn duō qú dào kě yǐ kǎo lǜ. bú guò wǒ kàn hái shì shì qíng kuàng ér dìng.",
+        "pinyinHtml": "jiā rén ya, péng yǒu ya, huò zhě shàng wǎng chá yí xià zī liào, hěn duō qú dào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐ</span> kǎo lǜ. bú guò wǒ kàn hái shì shì qíng kuàng ér dìng.",
+        "vi": "Người nhà này, bạn bè này, hoặc lên mạng tra thêm tài liệu, nhiều kênh lắm. Nhưng tớ thấy vẫn phải tùy vào chuyện gì.",
+        "modified": false
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "怎么说？遇到大事的时候你会先找谁？",
+        "pinyin": "zěn me shuō? yù dào dà shì de shí hòu nǐ huì xiān zhǎo shuí?",
+        "pinyinHtml": "zěn me shuō? yù dào dà shì de shí hòu nǐ huì xiān zhǎo shuí?",
+        "vi": "Nói thế nào? Gặp việc lớn thì cậu tìm ai trước?",
+        "modified": false
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "如果是人生方向或者特别重要的大事，我通常会先找妈妈。她不仅经验丰富，而且总是很耐心地听我倾诉。",
+        "pinyin": "rú guǒ shì rén shēng fāng xiàng huò zhě tè bié zhòng yào de dà shì, wǒ tōng cháng huì xiān zhǎo mā ma. tā bù jǐn jīng yàn fēng fù, ér qiě zǒng shì hěn nài xīn dì tīng wǒ qīng sù.",
+        "pinyinHtml": "rú guǒ shì rén shēng fāng xiàng huò zhě tè bié zhòng yào de dà shì, wǒ tōng cháng huì xiān zhǎo mā ma. tā bù jǐn jīng yàn fēng fù, ér <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qiě</span> zǒng shì hěn nài xīn dì tīng wǒ qīng sù.",
+        "vi": "Nếu là định hướng cuộc đời hay chuyện hệ trọng, tớ thường tìm mẹ trước. Mẹ không chỉ giàu kinh nghiệm mà lúc nào cũng kiên nhẫn nghe tớ giãi bày.",
+        "modified": false
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "那如果妈妈的意见和你的想法不一样，你会怎么办？",
+        "pinyin": "nà rú guǒ mā ma de yì jiàn hé nǐ de xiǎng fǎ bù yí yàng, nǐ huì zěn me bàn?",
+        "pinyinHtml": "nà rú guǒ mā ma de yì jiàn hé nǐ de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> fǎ bù yí yàng, nǐ huì zěn me bàn?",
+        "vi": "Thế lỡ ý kiến của mẹ khác với suy nghĩ của cậu thì sao?",
+        "modified": false
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "其实我主要想听她的理由，再结合自己的实际情况去考虑。我觉得别人的意见只是参考，最终决定还是得自己做。",
+        "pinyin": "qí shí wǒ zhǔ yào xiǎng tīng tā de lǐ yóu, zài jié hé zì jǐ de shí jì qíng kuàng qù kǎo lǜ. wǒ jué de bié rén de yì jiàn zhǐ shì cān kǎo, zuì zhōng jué dìng hái shì děi zì jǐ zuò.",
+        "pinyinHtml": "qí shí <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zhǔ yào xiǎng tīng tā de lǐ yóu, zài jié hé zì jǐ de shí jì qíng kuàng qù kǎo lǜ. wǒ jué de bié rén de yì jiàn zhǐ shì cān kǎo, zuì zhōng jué dìng hái shì děi zì jǐ zuò.",
+        "vi": "Thực ra tớ chủ yếu muốn nghe lý do của mẹ, rồi kết hợp tình hình thực tế bản thân để cân nhắc. Tớ thấy ý kiến người khác chỉ để tham khảo, quyết định cuối cùng vẫn phải tự mình đưa ra.",
+        "modified": false
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "说得对。那平时学习和生活上的小纠结，你是不是更爱找朋友聊？",
+        "pinyin": "shuō de duì. nà píng shí xué xí hé shēng huó shàng de xiǎo jiū jié, nǐ shì bu shì gèng ài zhǎo péng yǒu liáo?",
+        "pinyinHtml": "shuō de duì. nà píng shí xué xí hé shēng huó shàng de xiǎo jiū jié, nǐ shì bu shì gèng ài zhǎo péng yǒu liáo?",
+        "vi": "Nói đúng lắm. Thế mấy chuyện lăn tăn bình thường trong học tập hay cuộc sống, cậu thích tìm bạn bè tâm sự hơn à?",
+        "modified": false
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "是的，跟朋友年纪相仿，想法更贴近。而且问两三个不同的朋友，还能看到更多不同的角度和可能性。",
+        "pinyin": "shì de, gēn péng yǒu nián jì xiāng fǎng, xiǎng fǎ gèng tiē jìn. ér qiě wèn liǎng sān gè bù tóng de péng yǒu, hái néng kàn dào gèng duō bù tóng de jiǎo dù hé kě néng xìng.",
+        "pinyinHtml": "shì de, gēn péng yǒu nián jì xiāng fǎng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> fǎ gèng tiē jìn. ér qiě wèn liǎng sān gè bù tóng de péng yǒu, hái néng kàn dào gèng duō bù tóng de jiǎo dù hé kě néng xìng.",
+        "vi": "Đúng thế, bạn bè cùng trang lứa nên suy nghĩ gần gũi hơn. Với lại hỏi 2-3 đứa bạn khác nhau còn giúp mình nhìn ra nhiều góc độ và khả năng mới.",
+        "modified": false
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "还有很多人喜欢直接上网发帖问网友，你觉得靠谱吗？",
+        "pinyin": "hái yǒu hěn duō rén xǐ huan zhí jiē shàng wǎng fā tiē wèn wǎng yǒu, nǐ jué de kào pǔ ma?",
+        "pinyinHtml": "hái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> hěn duō rén xǐ huan zhí jiē shàng wǎng fā tiē wèn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎng</span> yǒu, nǐ jué de kào pǔ ma?",
+        "vi": "Còn nhiều người thích đăng bài lên mạng hỏi cư dân mạng nữa, cậu thấy có đáng tin không?",
+        "modified": false
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "如果是查购物评价或攻略还不错，但如果是重大决定，还是自己要有判断力，选最适合自己的才不会后悔。",
+        "pinyin": "rú guǒ shì chá gòu wù píng jià huò gōng lüè hái bú cuò, dàn rú guǒ shì zhòng dà jué dìng, hái shì zì jǐ yào yǒu pàn duàn lì, xuǎn zuì shì hé zì jǐ de cái bú huì hòu huǐ.",
+        "pinyinHtml": "rú guǒ shì chá gòu wù píng jià huò gōng lüè hái bú cuò, dàn rú guǒ shì zhòng dà jué dìng, hái shì zì jǐ yào yǒu pàn duàn lì, xuǎn zuì shì hé zì jǐ de cái bú huì hòu huǐ.",
+        "vi": "Nếu chỉ tra review mua sắm hay kinh nghiệm du lịch thì ổn, chứ quyết định lớn thì vẫn phải giữ sự tỉnh táo tự đánh giá, chọn điều hợp nhất với mình mới không hối hận.",
+        "modified": false
+       }
+      ],
+      "v2_lines": [
+       {
+        "n": 1,
+        "role": "A",
+        "zh": "哎，你平时有没有那种左右为难、拿不定主意的时候？",
+        "pinyin": "āi, nǐ píng shí yǒu méi yǒu nà zhǒng zuǒ yòu wéi nán, ná bú dìng zhǔ yì de shí hòu?",
+        "pinyinHtml": "āi, nǐ píng shí yǒu méi yǒu nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǒng</span> zuǒ yòu wéi nán, ná bú dìng zhǔ yì de shí hòu?",
+        "vi": "Này, bình thường cậu có bao giờ rơi vào cảnh tiến thoái lưỡng nan, chẳng biết quyết sao không?",
+        "modified": true
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "zh": "那太常见了！谁还没个犯迷糊的时候呀？怎么了，看你愁眉苦脸的，是不是最近遇上啥难选的事了？",
+        "pinyin": "nà tài cháng jiàn le! shuí hái méi gè fàn mí hu de shí hòu ya? zěn me le, kàn nǐ chóu méi kǔ liǎn de, shì bu shì zuì jìn yù shàng shá nán xuǎn de shì le?",
+        "pinyinHtml": "nà tài cháng jiàn le! shuí hái méi gè fàn mí hu de shí hòu ya? zěn me le, kàn nǐ chóu méi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kǔ</span> liǎn de, shì bu shì zuì jìn yù shàng shá nán xuǎn de shì le?",
+        "vi": "Gặp suốt ấy chứ! Ai chẳng có lúc rối trí? Sao thế, trông mặt cậu ủ rũ thế kia, mới đụng chuyện gì khó chọn à?",
+        "modified": true
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "zh": "别提了，最近真被一件大事卡住了。我就想问问你，每次需要别人出主意的时候，你第一反应会找谁？",
+        "pinyin": "bié tí le, zuì jìn zhēn bèi yí jiàn dà shì kǎ zhù le. wǒ jiù xiǎng wèn wèn nǐ, měi cì xū yào bié rén chū zhǔ yì de shí hòu, nǐ dì yī fǎn yìng huì zhǎo shuí?",
+        "pinyinHtml": "bié tí le, zuì jìn zhēn bèi yí jiàn dà shì kǎ zhù le. wǒ jiù xiǎng wèn wèn nǐ, měi cì xū yào bié rén chū zhǔ yì de shí hòu, nǐ dì yī fǎn yìng huì zhǎo shuí?",
+        "vi": "Đừng nhắc nữa, dạo này đang kẹt cứng ở một quyết định lớn đây. Tớ muốn hỏi cậu, mỗi lần cần người khác góp ý, phản xạ đầu tiên của cậu là tìm ai?",
+        "modified": true
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "zh": "这得看是哪方面的事，不能一刀切！我的习惯是“大事问长辈，小事找朋友，杂事查攻略”。",
+        "pinyin": "zhè de kàn shì nǎ fāng miàn de shì, bù néng yì dāo qiè! wǒ de xí guàn shì \"dà shì wèn zhǎng bèi, xiǎo shì zhǎo péng yǒu, zá shì chá gōng lüè\".",
+        "pinyinHtml": "zhè de kàn shì nǎ fāng miàn de shì, bù néng yì dāo qiè! wǒ de xí guàn shì \"dà shì wèn zhǎng bèi, xiǎo shì zhǎo péng yǒu, zá shì chá gōng lüè\".",
+        "vi": "Cái này phải tùy xem là chuyện mảng nào, không gom chung một chỗ được! Thói quen của tớ là 'việc lớn hỏi người lớn, việc nhỏ tìm bạn bè, việc lặt vặt tra mạng'.",
+        "modified": true
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "zh": "哎哟，总结得挺精辟！具体说说看？",
+        "pinyin": "āi yō, zǒng jié de tǐng jīng pì! jù tǐ shuō shuō kàn?",
+        "pinyinHtml": "āi yō, zǒng jié de tǐng jīng pì! jù tǐ shuō shuō kàn?",
+        "vi": "Ồ, tóm tắt sắc bén phết! Nói cụ thể hơn xem nào?",
+        "modified": true
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "zh": "像换工作、学业选择这种重要决定，我第一反应是找我妈。她社会阅历比我深，又真心为我着想，总能一针见血点出我看漏的风险。",
+        "pinyin": "xiàng huàn gōng zuò, xué yè xuǎn zé zhè zhǒng zhòng yào jué dìng, wǒ dì yī fǎn yìng shì zhǎo wǒ mā. tā shè huì yuè lì bǐ wǒ shēn, yòu zhēn xīn wèi wǒ zhuó xiǎng, zǒng néng yì zhēn jiàn xuè diǎn chū wǒ kàn lòu de fēng xiǎn.",
+        "pinyinHtml": "xiàng huàn gōng zuò, xué yè xuǎn zé zhè zhǒng zhòng yào jué dìng, wǒ dì yī fǎn yìng shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǎo</span> wǒ mā. tā shè huì yuè lì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǐ</span> wǒ shēn, yòu zhēn xīn wèi wǒ zhuó xiǎng, zǒng néng yì zhēn jiàn xuè diǎn chū wǒ kàn lòu de fēng xiǎn.",
+        "vi": "Như chuyện đổi việc, chọn ngành học quan trọng thế này, phản xạ đầu tiên của tớ là tìm mẹ. Mẹ từng trải hơn tớ nhiều, lại thật lòng nghĩ cho mình, lúc nào cũng chỉ trúng ngay rủi ro tớ bỏ sót.",
+        "modified": true
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "zh": "但咱和父母代沟有时候也挺明显的，要是妈妈的建议跟你心里想的完全拧着，你会怎么选？",
+        "pinyin": "dàn zán hé fù mǔ dài gōu yǒu shí hòu yě tǐng míng xiǎn de, yào shi mā ma de jiàn yì gēn nǐ xīn lǐ xiǎng de wán quán nǐng zhe, nǐ huì zěn me xuǎn?",
+        "pinyinHtml": "dàn zán hé fù mǔ dài gōu yǒu shí hòu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> tǐng míng xiǎn de, yào shi mā ma de jiàn yì gēn nǐ xīn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> xiǎng de wán quán nǐng zhe, nǐ huì zěn me xuǎn?",
+        "vi": "Nhưng mình với bố mẹ đôi khi cũng lệch thế hệ rõ rệt, lỡ lời khuyên của mẹ trái ngược hoàn toàn với điều cậu muốn thì cậu chọn sao?",
+        "modified": true
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "zh": "我会认真听她为什么这么说，但绝不盲从！长辈的意见是宝贵的“安全网”，可毕竟路是自己走的，最终还是得结合自己的想法自己拍板，这样哪怕走弯路也不怨别人。",
+        "pinyin": "wǒ huì rèn zhēn tīng tā wèi shén me zhè me shuō, dàn jué bù máng cóng! zhǎng bèi de yì jiàn shì bǎo guì de \"ān quán wǎng\", kě bì jìng lù shì zì jǐ zǒu de, zuì zhōng hái shì děi jié hé zì jǐ de xiǎng fǎ zì jǐ pāi bǎn, zhè yàng nǎ pà zǒu wān lù yě bú yuàn bié rén.",
+        "pinyinHtml": "wǒ huì rèn zhēn tīng tā wèi shén me zhè me shuō, dàn jué bù máng cóng! zhǎng bèi de yì jiàn shì bǎo guì de \"ān quán wǎng\", kě bì jìng lù shì zì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> zǒu de, zuì zhōng hái shì děi jié hé zì jǐ de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> fǎ zì jǐ pāi bǎn, zhè yàng nǎ pà zǒu wān lù yě bú yuàn bié rén.",
+        "vi": "Tớ sẽ nghe thật kỹ vì sao mẹ nói vậy, nhưng không nghe mù quáng! Ý kiến người lớn là 'lưới an toàn' quý giá, nhưng rốt cuộc đường là mình tự đi, cuối cùng vẫn phải kết hợp suy nghĩ bản thân mà tự chốt, thế lỡ có vấp cũng chẳng trách ai.",
+        "modified": true
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "zh": "这话挺成熟的！那要是挑礼物、学新技能或者感情上的困惑，你肯定更爱找闺蜜哥们儿聊吧？",
+        "pinyin": "zhè huà tǐng chéng shú de! nà yào shi tiāo lǐ wù, xué xīn jì néng huò zhě gǎn qíng shàng de kùn huò, nǐ kěn dìng gèng ài zhǎo guī mì gē menr liáo ba?",
+        "pinyinHtml": "zhè huà tǐng chéng shú de! nà yào shi tiāo lǐ wù, xué xīn jì néng huò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhě</span> gǎn qíng shàng de kùn huò, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> kěn dìng gèng ài zhǎo guī mì gē menr liáo ba?",
+        "vi": "Câu này chững chạc đấy! Thế mấy chuyện chọn quà, học kỹ năng mới hay lăn tăn tình cảm, chắc cậu thích hỏi hội bạn thân hơn nhỉ?",
+        "modified": true
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "zh": "那是必须的！年轻人彼此视角接近，而且除非跟几个不同性格的朋友都聊一遍，否则很容易局限在自己的死胡同里。",
+        "pinyin": "nà shì bì xū de! nián qīng rén bǐ cǐ shì jiǎo jiē jìn, ér qiě chú fēi gēn jǐ gè bù tóng xìng gé de péng yǒu dōu liáo yí biàn, fǒu zé hěn róng yì jú xiàn zài zì jǐ de sǐ hú tòng lǐ.",
+        "pinyinHtml": "nà shì bì xū de! nián qīng rén <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǐ</span> cǐ shì jiǎo jiē jìn, ér qiě chú fēi gēn jǐ gè bù tóng xìng gé de péng yǒu dōu liáo yí biàn, fǒu zé hěn róng yì jú xiàn zài zì jǐ de sǐ hú tòng lǐ.",
+        "vi": "Chắc chắn rồi! Người trẻ góc nhìn gần nhau hơn, hơn nữa trừ phi nói chuyện qua một lượt với vài đứa bạn tính cách khác nhau, nếu không rất dễ tự nhốt mình trong ngõ cụt.",
+        "modified": true
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "zh": "那现在大家动不动就发朋友圈或者问网友、问AI，你平时参考网络意见吗？",
+        "pinyin": "nà xiàn zài dà jiā dòng bu dòng jiù fā péng yǒu quān huò zhě wèn wǎng yǒu, wèn A I, nǐ píng shí cān kǎo wǎng luò yì jiàn ma?",
+        "pinyinHtml": "nà xiàn zài dà jiā dòng bu dòng jiù fā péng yǒu quān huò zhě wèn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎng</span> yǒu, wèn A I, nǐ píng shí cān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kǎo</span> wǎng luò yì jiàn ma?",
+        "vi": "Thế giờ mọi người hở tí là đăng bài hỏi cư dân mạng hay hỏi AI, cậu có hay tham khảo ý kiến trên mạng không?",
+        "modified": true
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "zh": "买东西看真实测评、找旅游攻略我常查，特别好使；但人生方向可千万别交给陌生网友投票！多听、多想，最后自己心明眼亮地做决定才靠谱。",
+        "pinyin": "mǎi dōng xi kàn zhēn shí cè píng, zhǎo lǚ yóu gōng lüè wǒ cháng chá, tè bié hǎo shǐ; dàn rén shēng fāng xiàng kě qiān wàn bié jiāo gěi mò shēng wǎng yǒu tóu piào! duō tīng, duō xiǎng, zuì hòu zì jǐ xīn míng yǎn liàng de zuò jué dìng cái kào pǔ.",
+        "pinyinHtml": "mǎi dōng xi kàn zhēn shí cè píng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǎo</span> lǚ yóu gōng lüè wǒ cháng chá, tè bié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> shǐ; dàn rén shēng fāng xiàng kě qiān wàn bié jiāo gěi mò shēng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎng</span> yǒu tóu piào! duō tīng, duō xiǎng, zuì hòu zì jǐ xīn míng yǎn liàng de zuò jué dìng cái kào pǔ.",
+        "vi": "Mua đồ xem review thật hay tìm kinh nghiệm du lịch thì tớ hay tra, tiện cực; nhưng hướng đi cuộc đời thì tuyệt đối đừng giao cho người lạ trên mạng bỏ phiếu! Nghe nhiều, nghĩ kỹ, cuối cùng tự mình sáng suốt quyết định mới đáng tin.",
+        "modified": true
+       }
+      ],
+      "diffs": [
+       {
+        "n": 1,
+        "role": "A",
+        "v1": {
+         "zh": "你有没有遇到过很难决定的问题，一时拿不出主意的时候？",
+         "pinyin": "nǐ yǒu méi yǒu yù dào guò hěn nán jué dìng de wèn tí, yì shí ná bù chū zhǔ yì de shí hòu?",
+         "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> yǒu méi yǒu yù dào guò hěn nán jué dìng de wèn tí, yì shí ná bù chū zhǔ yì de shí hòu?",
+         "vi": "Cậu đã bao giờ gặp chuyện khó quyết định, nhất thời chẳng nghĩ ra phương án nào chưa?"
+        },
+        "v2": {
+         "zh": "哎，你平时有没有那种左右为难、拿不定主意的时候？",
+         "pinyin": "āi, nǐ píng shí yǒu méi yǒu nà zhǒng zuǒ yòu wéi nán, ná bú dìng zhǔ yì de shí hòu?",
+         "pinyinHtml": "āi, nǐ píng shí yǒu méi yǒu nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǒng</span> zuǒ yòu wéi nán, ná bú dìng zhǔ yì de shí hòu?",
+         "vi": "Này, bình thường cậu có bao giờ rơi vào cảnh tiến thoái lưỡng nan, chẳng biết quyết sao không?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "v1": {
+         "zh": "当然有啊，可以说是经常遇到。每个人生活中都会遇到这种两难的选择。",
+         "pinyin": "dāng rán yǒu a, kě yǐ shuō shì jīng cháng yù dào. měi gè rén shēng huó zhōng dū huì yù dào zhè zhǒng liǎng nán de xuǎn zé.",
+         "pinyinHtml": "dāng rán yǒu a, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ shuō shì jīng cháng yù dào. měi gè rén shēng huó zhōng dū huì yù dào zhè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǒng</span> liǎng nán de xuǎn zé.",
+         "vi": "Đương nhiên có chứ, có thể nói gặp suốt luôn. Ai trong đời chẳng gặp những lựa chọn tiến thoái lưỡng nan thế."
+        },
+        "v2": {
+         "zh": "那太常见了！谁还没个犯迷糊的时候呀？怎么了，看你愁眉苦脸的，是不是最近遇上啥难选的事了？",
+         "pinyin": "nà tài cháng jiàn le! shuí hái méi gè fàn mí hu de shí hòu ya? zěn me le, kàn nǐ chóu méi kǔ liǎn de, shì bu shì zuì jìn yù shàng shá nán xuǎn de shì le?",
+         "pinyinHtml": "nà tài cháng jiàn le! shuí hái méi gè fàn mí hu de shí hòu ya? zěn me le, kàn nǐ chóu méi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kǔ</span> liǎn de, shì bu shì zuì jìn yù shàng shá nán xuǎn de shì le?",
+         "vi": "Gặp suốt ấy chứ! Ai chẳng có lúc rối trí? Sao thế, trông mặt cậu ủ rũ thế kia, mới đụng chuyện gì khó chọn à?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "v1": {
+         "zh": "不瞒你说，最近我就遇到一个很难的选择。你平时需要别人意见的时候一般会找谁呢？",
+         "pinyin": "bù mán nǐ shuō, zuì jìn wǒ jiù yù dào yí gè hěn nán de xuǎn zé. nǐ píng shí xū yào bié rén yì jiàn de shí hòu yì bān huì zhǎo shuí ne?",
+         "pinyinHtml": "bù mán nǐ shuō, zuì jìn wǒ jiù yù dào yí gè hěn nán de xuǎn zé. nǐ píng shí xū yào bié rén yì jiàn de shí hòu yì bān huì zhǎo shuí ne?",
+         "vi": "Chẳng giấu gì cậu, dạo này tớ đang gặp một lựa chọn khó khăn đây. Bình thường lúc cần ý kiến người khác cậu hay tìm ai?"
+        },
+        "v2": {
+         "zh": "别提了，最近真被一件大事卡住了。我就想问问你，每次需要别人出主意的时候，你第一反应会找谁？",
+         "pinyin": "bié tí le, zuì jìn zhēn bèi yí jiàn dà shì kǎ zhù le. wǒ jiù xiǎng wèn wèn nǐ, měi cì xū yào bié rén chū zhǔ yì de shí hòu, nǐ dì yī fǎn yìng huì zhǎo shuí?",
+         "pinyinHtml": "bié tí le, zuì jìn zhēn bèi yí jiàn dà shì kǎ zhù le. wǒ jiù xiǎng wèn wèn nǐ, měi cì xū yào bié rén chū zhǔ yì de shí hòu, nǐ dì yī fǎn yìng huì zhǎo shuí?",
+         "vi": "Đừng nhắc nữa, dạo này đang kẹt cứng ở một quyết định lớn đây. Tớ muốn hỏi cậu, mỗi lần cần người khác góp ý, phản xạ đầu tiên của cậu là tìm ai?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "v1": {
+         "zh": "家人呀、朋友呀，或者上网查一下资料，很多渠道可以考虑。不过我看还是视情况而定。",
+         "pinyin": "jiā rén ya, péng yǒu ya, huò zhě shàng wǎng chá yí xià zī liào, hěn duō qú dào kě yǐ kǎo lǜ. bú guò wǒ kàn hái shì shì qíng kuàng ér dìng.",
+         "pinyinHtml": "jiā rén ya, péng yǒu ya, huò zhě shàng wǎng chá yí xià zī liào, hěn duō qú dào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐ</span> kǎo lǜ. bú guò wǒ kàn hái shì shì qíng kuàng ér dìng.",
+         "vi": "Người nhà này, bạn bè này, hoặc lên mạng tra thêm tài liệu, nhiều kênh lắm. Nhưng tớ thấy vẫn phải tùy vào chuyện gì."
+        },
+        "v2": {
+         "zh": "这得看是哪方面的事，不能一刀切！我的习惯是“大事问长辈，小事找朋友，杂事查攻略”。",
+         "pinyin": "zhè de kàn shì nǎ fāng miàn de shì, bù néng yì dāo qiè! wǒ de xí guàn shì \"dà shì wèn zhǎng bèi, xiǎo shì zhǎo péng yǒu, zá shì chá gōng lüè\".",
+         "pinyinHtml": "zhè de kàn shì nǎ fāng miàn de shì, bù néng yì dāo qiè! wǒ de xí guàn shì \"dà shì wèn zhǎng bèi, xiǎo shì zhǎo péng yǒu, zá shì chá gōng lüè\".",
+         "vi": "Cái này phải tùy xem là chuyện mảng nào, không gom chung một chỗ được! Thói quen của tớ là 'việc lớn hỏi người lớn, việc nhỏ tìm bạn bè, việc lặt vặt tra mạng'."
+        },
+        "reason": "Đưa câu chốt cực hay dễ nhớ khi thi nói: “大事问长辈，小事找朋友，杂事查攻略”."
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "v1": {
+         "zh": "怎么说？遇到大事的时候你会先找谁？",
+         "pinyin": "zěn me shuō? yù dào dà shì de shí hòu nǐ huì xiān zhǎo shuí?",
+         "pinyinHtml": "zěn me shuō? yù dào dà shì de shí hòu nǐ huì xiān zhǎo shuí?",
+         "vi": "Nói thế nào? Gặp việc lớn thì cậu tìm ai trước?"
+        },
+        "v2": {
+         "zh": "哎哟，总结得挺精辟！具体说说看？",
+         "pinyin": "āi yō, zǒng jié de tǐng jīng pì! jù tǐ shuō shuō kàn?",
+         "pinyinHtml": "āi yō, zǒng jié de tǐng jīng pì! jù tǐ shuō shuō kàn?",
+         "vi": "Ồ, tóm tắt sắc bén phết! Nói cụ thể hơn xem nào?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "v1": {
+         "zh": "如果是人生方向或者特别重要的大事，我通常会先找妈妈。她不仅经验丰富，而且总是很耐心地听我倾诉。",
+         "pinyin": "rú guǒ shì rén shēng fāng xiàng huò zhě tè bié zhòng yào de dà shì, wǒ tōng cháng huì xiān zhǎo mā ma. tā bù jǐn jīng yàn fēng fù, ér qiě zǒng shì hěn nài xīn dì tīng wǒ qīng sù.",
+         "pinyinHtml": "rú guǒ shì rén shēng fāng xiàng huò zhě tè bié zhòng yào de dà shì, wǒ tōng cháng huì xiān zhǎo mā ma. tā bù jǐn jīng yàn fēng fù, ér <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qiě</span> zǒng shì hěn nài xīn dì tīng wǒ qīng sù.",
+         "vi": "Nếu là định hướng cuộc đời hay chuyện hệ trọng, tớ thường tìm mẹ trước. Mẹ không chỉ giàu kinh nghiệm mà lúc nào cũng kiên nhẫn nghe tớ giãi bày."
+        },
+        "v2": {
+         "zh": "像换工作、学业选择这种重要决定，我第一反应是找我妈。她社会阅历比我深，又真心为我着想，总能一针见血点出我看漏的风险。",
+         "pinyin": "xiàng huàn gōng zuò, xué yè xuǎn zé zhè zhǒng zhòng yào jué dìng, wǒ dì yī fǎn yìng shì zhǎo wǒ mā. tā shè huì yuè lì bǐ wǒ shēn, yòu zhēn xīn wèi wǒ zhuó xiǎng, zǒng néng yì zhēn jiàn xuè diǎn chū wǒ kàn lòu de fēng xiǎn.",
+         "pinyinHtml": "xiàng huàn gōng zuò, xué yè xuǎn zé zhè zhǒng zhòng yào jué dìng, wǒ dì yī fǎn yìng shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǎo</span> wǒ mā. tā shè huì yuè lì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǐ</span> wǒ shēn, yòu zhēn xīn wèi wǒ zhuó xiǎng, zǒng néng yì zhēn jiàn xuè diǎn chū wǒ kàn lòu de fēng xiǎn.",
+         "vi": "Như chuyện đổi việc, chọn ngành học quan trọng thế này, phản xạ đầu tiên của tớ là tìm mẹ. Mẹ từng trải hơn tớ nhiều, lại thật lòng nghĩ cho mình, lúc nào cũng chỉ trúng ngay rủi ro tớ bỏ sót."
+        },
+        "reason": "Sửa lỗi văn nói và thêm thành ngữ “一针见血” (nói trúng tim đen)."
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "v1": {
+         "zh": "那如果妈妈的意见和你的想法不一样，你会怎么办？",
+         "pinyin": "nà rú guǒ mā ma de yì jiàn hé nǐ de xiǎng fǎ bù yí yàng, nǐ huì zěn me bàn?",
+         "pinyinHtml": "nà rú guǒ mā ma de yì jiàn hé nǐ de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> fǎ bù yí yàng, nǐ huì zěn me bàn?",
+         "vi": "Thế lỡ ý kiến của mẹ khác với suy nghĩ của cậu thì sao?"
+        },
+        "v2": {
+         "zh": "但咱和父母代沟有时候也挺明显的，要是妈妈的建议跟你心里想的完全拧着，你会怎么选？",
+         "pinyin": "dàn zán hé fù mǔ dài gōu yǒu shí hòu yě tǐng míng xiǎn de, yào shi mā ma de jiàn yì gēn nǐ xīn lǐ xiǎng de wán quán nǐng zhe, nǐ huì zěn me xuǎn?",
+         "pinyinHtml": "dàn zán hé fù mǔ dài gōu yǒu shí hòu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> tǐng míng xiǎn de, yào shi mā ma de jiàn yì gēn nǐ xīn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> xiǎng de wán quán nǐng zhe, nǐ huì zěn me xuǎn?",
+         "vi": "Nhưng mình với bố mẹ đôi khi cũng lệch thế hệ rõ rệt, lỡ lời khuyên của mẹ trái ngược hoàn toàn với điều cậu muốn thì cậu chọn sao?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "v1": {
+         "zh": "其实我主要想听她的理由，再结合自己的实际情况去考虑。我觉得别人的意见只是参考，最终决定还是得自己做。",
+         "pinyin": "qí shí wǒ zhǔ yào xiǎng tīng tā de lǐ yóu, zài jié hé zì jǐ de shí jì qíng kuàng qù kǎo lǜ. wǒ jué de bié rén de yì jiàn zhǐ shì cān kǎo, zuì zhōng jué dìng hái shì děi zì jǐ zuò.",
+         "pinyinHtml": "qí shí <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zhǔ yào xiǎng tīng tā de lǐ yóu, zài jié hé zì jǐ de shí jì qíng kuàng qù kǎo lǜ. wǒ jué de bié rén de yì jiàn zhǐ shì cān kǎo, zuì zhōng jué dìng hái shì děi zì jǐ zuò.",
+         "vi": "Thực ra tớ chủ yếu muốn nghe lý do của mẹ, rồi kết hợp tình hình thực tế bản thân để cân nhắc. Tớ thấy ý kiến người khác chỉ để tham khảo, quyết định cuối cùng vẫn phải tự mình đưa ra."
+        },
+        "v2": {
+         "zh": "我会认真听她为什么这么说，但绝不盲从！长辈的意见是宝贵的“安全网”，可毕竟路是自己走的，最终还是得结合自己的想法自己拍板，这样哪怕走弯路也不怨别人。",
+         "pinyin": "wǒ huì rèn zhēn tīng tā wèi shén me zhè me shuō, dàn jué bù máng cóng! zhǎng bèi de yì jiàn shì bǎo guì de \"ān quán wǎng\", kě bì jìng lù shì zì jǐ zǒu de, zuì zhōng hái shì děi jié hé zì jǐ de xiǎng fǎ zì jǐ pāi bǎn, zhè yàng nǎ pà zǒu wān lù yě bú yuàn bié rén.",
+         "pinyinHtml": "wǒ huì rèn zhēn tīng tā wèi shén me zhè me shuō, dàn jué bù máng cóng! zhǎng bèi de yì jiàn shì bǎo guì de \"ān quán wǎng\", kě bì jìng lù shì zì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jǐ</span> zǒu de, zuì zhōng hái shì děi jié hé zì jǐ de <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> fǎ zì jǐ pāi bǎn, zhè yàng nǎ pà zǒu wān lù yě bú yuàn bié rén.",
+         "vi": "Tớ sẽ nghe thật kỹ vì sao mẹ nói vậy, nhưng không nghe mù quáng! Ý kiến người lớn là 'lưới an toàn' quý giá, nhưng rốt cuộc đường là mình tự đi, cuối cùng vẫn phải kết hợp suy nghĩ bản thân mà tự chốt, thế lỡ có vấp cũng chẳng trách ai."
+        },
+        "reason": "Diễn đạt sâu sắc về việc tham khảo ý kiến bố mẹ nhưng tự chịu trách nhiệm (“自己拍板”)."
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "v1": {
+         "zh": "说得对。那平时学习和生活上的小纠结，你是不是更爱找朋友聊？",
+         "pinyin": "shuō de duì. nà píng shí xué xí hé shēng huó shàng de xiǎo jiū jié, nǐ shì bu shì gèng ài zhǎo péng yǒu liáo?",
+         "pinyinHtml": "shuō de duì. nà píng shí xué xí hé shēng huó shàng de xiǎo jiū jié, nǐ shì bu shì gèng ài zhǎo péng yǒu liáo?",
+         "vi": "Nói đúng lắm. Thế mấy chuyện lăn tăn bình thường trong học tập hay cuộc sống, cậu thích tìm bạn bè tâm sự hơn à?"
+        },
+        "v2": {
+         "zh": "这话挺成熟的！那要是挑礼物、学新技能或者感情上的困惑，你肯定更爱找闺蜜哥们儿聊吧？",
+         "pinyin": "zhè huà tǐng chéng shú de! nà yào shi tiāo lǐ wù, xué xīn jì néng huò zhě gǎn qíng shàng de kùn huò, nǐ kěn dìng gèng ài zhǎo guī mì gē menr liáo ba?",
+         "pinyinHtml": "zhè huà tǐng chéng shú de! nà yào shi tiāo lǐ wù, xué xīn jì néng huò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhě</span> gǎn qíng shàng de kùn huò, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> kěn dìng gèng ài zhǎo guī mì gē menr liáo ba?",
+         "vi": "Câu này chững chạc đấy! Thế mấy chuyện chọn quà, học kỹ năng mới hay lăn tăn tình cảm, chắc cậu thích hỏi hội bạn thân hơn nhỉ?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "v1": {
+         "zh": "是的，跟朋友年纪相仿，想法更贴近。而且问两三个不同的朋友，还能看到更多不同的角度和可能性。",
+         "pinyin": "shì de, gēn péng yǒu nián jì xiāng fǎng, xiǎng fǎ gèng tiē jìn. ér qiě wèn liǎng sān gè bù tóng de péng yǒu, hái néng kàn dào gèng duō bù tóng de jiǎo dù hé kě néng xìng.",
+         "pinyinHtml": "shì de, gēn péng yǒu nián jì xiāng fǎng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xiǎng</span> fǎ gèng tiē jìn. ér qiě wèn liǎng sān gè bù tóng de péng yǒu, hái néng kàn dào gèng duō bù tóng de jiǎo dù hé kě néng xìng.",
+         "vi": "Đúng thế, bạn bè cùng trang lứa nên suy nghĩ gần gũi hơn. Với lại hỏi 2-3 đứa bạn khác nhau còn giúp mình nhìn ra nhiều góc độ và khả năng mới."
+        },
+        "v2": {
+         "zh": "那是必须的！年轻人彼此视角接近，而且除非跟几个不同性格的朋友都聊一遍，否则很容易局限在自己的死胡同里。",
+         "pinyin": "nà shì bì xū de! nián qīng rén bǐ cǐ shì jiǎo jiē jìn, ér qiě chú fēi gēn jǐ gè bù tóng xìng gé de péng yǒu dōu liáo yí biàn, fǒu zé hěn róng yì jú xiàn zài zì jǐ de sǐ hú tòng lǐ.",
+         "pinyinHtml": "nà shì bì xū de! nián qīng rén <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǐ</span> cǐ shì jiǎo jiē jìn, ér qiě chú fēi gēn jǐ gè bù tóng xìng gé de péng yǒu dōu liáo yí biàn, fǒu zé hěn róng yì jú xiàn zài zì jǐ de sǐ hú tòng lǐ.",
+         "vi": "Chắc chắn rồi! Người trẻ góc nhìn gần nhau hơn, hơn nữa trừ phi nói chuyện qua một lượt với vài đứa bạn tính cách khác nhau, nếu không rất dễ tự nhốt mình trong ngõ cụt."
+        },
+        "reason": "Lồng ghép mẫu câu Bài 5 “除非……都聊一遍，否则……”."
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "v1": {
+         "zh": "还有很多人喜欢直接上网发帖问网友，你觉得靠谱吗？",
+         "pinyin": "hái yǒu hěn duō rén xǐ huan zhí jiē shàng wǎng fā tiē wèn wǎng yǒu, nǐ jué de kào pǔ ma?",
+         "pinyinHtml": "hái <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> hěn duō rén xǐ huan zhí jiē shàng wǎng fā tiē wèn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎng</span> yǒu, nǐ jué de kào pǔ ma?",
+         "vi": "Còn nhiều người thích đăng bài lên mạng hỏi cư dân mạng nữa, cậu thấy có đáng tin không?"
+        },
+        "v2": {
+         "zh": "那现在大家动不动就发朋友圈或者问网友、问AI，你平时参考网络意见吗？",
+         "pinyin": "nà xiàn zài dà jiā dòng bu dòng jiù fā péng yǒu quān huò zhě wèn wǎng yǒu, wèn A I, nǐ píng shí cān kǎo wǎng luò yì jiàn ma?",
+         "pinyinHtml": "nà xiàn zài dà jiā dòng bu dòng jiù fā péng yǒu quān huò zhě wèn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎng</span> yǒu, wèn A I, nǐ píng shí cān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kǎo</span> wǎng luò yì jiàn ma?",
+         "vi": "Thế giờ mọi người hở tí là đăng bài hỏi cư dân mạng hay hỏi AI, cậu có hay tham khảo ý kiến trên mạng không?"
+        },
+        "reason": "Chuẩn hóa chính tả, chỉnh khẩu ngữ tự nhiên và mượt mà hơn."
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "v1": {
+         "zh": "如果是查购物评价或攻略还不错，但如果是重大决定，还是自己要有判断力，选最适合自己的才不会后悔。",
+         "pinyin": "rú guǒ shì chá gòu wù píng jià huò gōng lüè hái bú cuò, dàn rú guǒ shì zhòng dà jué dìng, hái shì zì jǐ yào yǒu pàn duàn lì, xuǎn zuì shì hé zì jǐ de cái bú huì hòu huǐ.",
+         "pinyinHtml": "rú guǒ shì chá gòu wù píng jià huò gōng lüè hái bú cuò, dàn rú guǒ shì zhòng dà jué dìng, hái shì zì jǐ yào yǒu pàn duàn lì, xuǎn zuì shì hé zì jǐ de cái bú huì hòu huǐ.",
+         "vi": "Nếu chỉ tra review mua sắm hay kinh nghiệm du lịch thì ổn, chứ quyết định lớn thì vẫn phải giữ sự tỉnh táo tự đánh giá, chọn điều hợp nhất với mình mới không hối hận."
+        },
+        "v2": {
+         "zh": "买东西看真实测评、找旅游攻略我常查，特别好使；但人生方向可千万别交给陌生网友投票！多听、多想，最后自己心明眼亮地做决定才靠谱。",
+         "pinyin": "mǎi dōng xi kàn zhēn shí cè píng, zhǎo lǚ yóu gōng lüè wǒ cháng chá, tè bié hǎo shǐ; dàn rén shēng fāng xiàng kě qiān wàn bié jiāo gěi mò shēng wǎng yǒu tóu piào! duō tīng, duō xiǎng, zuì hòu zì jǐ xīn míng yǎn liàng de zuò jué dìng cái kào pǔ.",
+         "pinyinHtml": "mǎi dōng xi kàn zhēn shí cè píng, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǎo</span> lǚ yóu gōng lüè wǒ cháng chá, tè bié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hǎo</span> shǐ; dàn rén shēng fāng xiàng kě qiān wàn bié jiāo gěi mò shēng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎng</span> yǒu tóu piào! duō tīng, duō xiǎng, zuì hòu zì jǐ xīn míng yǎn liàng de zuò jué dìng cái kào pǔ.",
+         "vi": "Mua đồ xem review thật hay tìm kinh nghiệm du lịch thì tớ hay tra, tiện cực; nhưng hướng đi cuộc đời thì tuyệt đối đừng giao cho người lạ trên mạng bỏ phiếu! Nghe nhiều, nghĩ kỹ, cuối cùng tự mình sáng suốt quyết định mới đáng tin."
+        },
+        "reason": "Tự nhiên, cập nhật thời đại AI & mạng xã hội, nhấn mạnh “千万别……”."
+       }
+      ],
+      "audio": "audio/b5-q16.m4a",
+      "audioDuration": 108.94,
+      "audioTimings": [
+       {
+        "n": 1,
+        "role": "A",
+        "start": 0.25,
+        "end": 5.32
+       },
+       {
+        "n": 2,
+        "role": "B",
+        "start": 5.32,
+        "end": 14.46
+       },
+       {
+        "n": 3,
+        "role": "A",
+        "start": 14.46,
+        "end": 22.67
+       },
+       {
+        "n": 4,
+        "role": "B",
+        "start": 22.67,
+        "end": 31.01
+       },
+       {
+        "n": 5,
+        "role": "A",
+        "start": 31.01,
+        "end": 34.94
+       },
+       {
+        "n": 6,
+        "role": "B",
+        "start": 34.94,
+        "end": 47.22
+       },
+       {
+        "n": 7,
+        "role": "A",
+        "start": 47.22,
+        "end": 54.48
+       },
+       {
+        "n": 8,
+        "role": "B",
+        "start": 54.48,
+        "end": 69.32
+       },
+       {
+        "n": 9,
+        "role": "A",
+        "start": 69.32,
+        "end": 77.6
+       },
+       {
+        "n": 10,
+        "role": "B",
+        "start": 77.6,
+        "end": 88.22
+       },
+       {
+        "n": 11,
+        "role": "A",
+        "start": 88.22,
+        "end": 95.28
+       },
+       {
+        "n": 12,
+        "role": "B",
+        "start": 95.28,
+        "end": 108.94
+       }
+      ]
+     },
      {
       "id": "b5-c1",
       "no": 1,
@@ -13920,7 +22166,8 @@ window.APP_BOOKS = {
         "start": 90.27,
         "end": 96.29
        }
-      ]
+      ],
+      "isExamScope": false
      },
      {
       "id": "b5-c2",
@@ -14640,729 +22887,11 @@ window.APP_BOOKS = {
         "start": 96.48,
         "end": 101.81
        }
-      ]
-     },
-     {
-      "id": "b5-c3",
-      "no": 3,
-      "titleVi": "Hàng hiệu hay hàng tầm trung",
-      "question": "你喜欢买名牌儿货还是质量也不错的中档货？介绍一下你买东西的习惯。",
-      "outline": "Quan điểm về hàng hiệu → chất lượng và giá → ví dụ chọn quần áo → thói quen lập danh sách, thử và so sánh → chốt tiêu chí mua sắm.",
-      "takeaways": {
-       "points": [
-        "Thái độ với hàng hiệu: Không bài trừ nhưng không chi tiền chỉ vì cái logo (不反对名牌，不因为商标多花钱)",
-        "Cách kiểm tra quần áo tốt: Sờ chất vải, xem đường may mũi chỉ, mặc thử form dáng (摸摸面料、看看做工、试穿尺寸)",
-        "Lựa chọn thực tế: Giữa đồ hiệu và đồ trung cấp chất lượng tương đương, chọn đồ giá hợp lý để dành tiền việc khác (选价格实惠、把省下的钱留给更需要的东西)",
-        "Thói quen mua sắm thông minh: Xem tủ đồ thiếu gì rồi lên danh sách, thích thử trực tiếp (列清单、试穿合适才买)"
-       ],
-       "goldenQuotes": "买东西最看重的不是牌子，而是实用和合适。只要质量不错、价格说得过去，我就愿意买。"
-      },
-      "lines": [
-       {
-        "n": "01",
-        "role": "A",
-        "zh": "嗨，你的新外套挺好看的，是名牌儿货吗？",
-        "pinyin": "hāi, nǐ de xīn wài tào tǐng hǎo kàn de, shì míng páir huò ma?",
-        "pinyinHtml": "hāi, nǐ de xīn wài tào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> hǎo kàn de, shì míng páir huò ma?",
-        "vi": "Này, chiếc áo khoác mới của cậu đẹp ghê, có phải hàng hiệu không vậy?",
-        "modified": false
-       },
-       {
-        "n": "02",
-        "role": "B",
-        "zh": "不是，是一家普通商店买的中档货。你平时喜欢买名牌儿货吗？",
-        "pinyin": "bú shì, shì yì jiā pǔ tōng shāng diàn mǎi de zhōng dàng huò. nǐ píng shí xǐ huan mǎi míng páir huò ma?",
-        "pinyinHtml": "bú shì, shì yì jiā pǔ tōng shāng diàn mǎi de zhōng dàng huò. nǐ píng shí xǐ huan mǎi míng páir huò ma?",
-        "vi": "Không phải đâu, đồ bình dân tầm trung tớ mua ở một cửa tiệm bình thường thôi. Bình thường cậu có thích mua đồ hiệu không?",
-        "modified": false
-       },
-       {
-        "n": "03",
-        "role": "A",
-        "zh": "我不太追求名牌，比较在意质量、价格和穿起来舒不舒服。",
-        "pinyin": "wǒ bú tài zhuī qiú míng pái, bǐ jiào zài yì zhì liàng, jià gé hé chuān qǐ lái shū bu shū fú.",
-        "pinyinHtml": "wǒ bú tài zhuī qiú míng pái, bǐ jiào zài yì zhì liàng, jià gé hé chuān qǐ lái shū bu shū fú.",
-        "vi": "Tớ không ham đồ hiệu cho lắm, tớ quan tâm hơn đến chất lượng, giá cả và mặc vào có thoải mái hay không.",
-        "modified": false
-       },
-       {
-        "n": "04",
-        "role": "B",
-        "zh": "其实日常衣服没有什么可攀比的，名牌儿固然体面，但溢价实在太高了。",
-        "pinyin": "qí shí rì cháng yī fu méi yǒu shén me kě pān bǐ de, míng páir gù rán tǐ miàn, dàn yì jià shí zài tài gāo le.",
-        "pinyinHtml": "qí shí rì cháng yī fu méi yǒu shén me kě pān bǐ de, míng páir gù rán tǐ miàn, dàn yì jià shí zài tài gāo le.",
-        "vi": "Thực ra quần áo thường ngày chẳng có gì đáng để so bì hơn thua cả, đồ hiệu thì sang thật, nhưng giá bị đội lên quá cao rồi.",
-        "modified": true,
-        "reason": "Lồng ghép mẫu Bài 5 【没有什么可 + V + 的】 (没有什么可攀比的: không có gì để đua đòi)."
-       },
-       {
-        "n": "05",
-        "role": "A",
-        "zh": "就是说啊！我倒不是全盘否定名牌，只是觉得没必要单为一个商标掏大笔冤枉钱。",
-        "pinyin": "jiù shì shuō a! wǒ dǎo bú shì quán pán fǒu dìng míng pái, zhǐ shì jué de méi bì yào dān wèi yí gè shāng biāo tāo dà bǐ yuān wǎng qián.",
-        "pinyinHtml": "jiù shì shuō a! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎo bú shì quán pán fǒu dìng míng pái, zhǐ shì jué de méi bì yào dān wèi yí gè shāng biāo tāo dà bǐ yuān wǎng qián.",
-        "vi": "Đấy, ý mình chính là thế! Mình không hề bài xích hoàn toàn đồ hiệu, chỉ là thấy chẳng cần thiết chỉ vì một cái logo nhãn mác mà phải móc hầu bao trả khoản tiền oan uổng.",
-        "modified": true,
-        "reason": "Thay '是啊' bằng quán dụng ngữ đồng tình sâu sắc 【就是说啊！】 và cụm khẩu ngữ 【掏冤枉钱】."
-       },
-       {
-        "n": "06",
-        "role": "B",
-        "zh": "那你怎么判断一件衣服的质量好不好？",
-        "pinyin": "nà nǐ zěn me pàn duàn yí jiàn yī fu de zhì liàng hǎo bu hǎo?",
-        "pinyinHtml": "nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> zěn me pàn duàn yí jiàn yī fu de zhì liàng hǎo bu hǎo?",
-        "vi": "Thế cậu dựa vào đâu để đánh giá chất lượng một bộ quần áo có tốt hay không?",
-        "modified": false
-       },
-       {
-        "n": "07",
-        "role": "A",
-        "zh": "我会摸摸面料，看看做工，还要试穿一下，尺寸合适才行。",
-        "pinyin": "wǒ huì mō mō miàn liào, kàn kàn zuò gōng, hái yào shì chuān yí xià, chǐ cùn hé shì cái xíng.",
-        "pinyinHtml": "wǒ huì mō mō miàn liào, kàn kàn zuò gōng, hái yào shì chuān yí xià, chǐ cùn hé shì cái xíng.",
-        "vi": "Tớ sẽ sờ thử chất vải, ngắm nghía đường kim mũi chỉ, rồi còn phải mặc thử xem form dáng kích cỡ có vừa vặn mới được.",
-        "modified": false
-       },
-       {
-        "n": "08",
-        "role": "B",
-        "zh": "只要款式大方、面料舒服，价格也说得过去，中档货完全够用了。你觉得呢？",
-        "pinyin": "zhǐ yào kuǎn shì dà fāng, miàn liào shū fú, jià gé yě shuō de guò qù, zhōng dàng huò wán quán gòu yòng le. nǐ jué de ne?",
-        "pinyinHtml": "zhǐ yào kuǎn shì dà fāng, miàn liào shū fú, jià gé yě shuō de guò qù, zhōng dàng huò wán quán gòu yòng le. nǐ jué de ne?",
-        "vi": "Chỉ cần kiểu dáng trang nhã, chất vải thoải mái, giá cả cũng phải chăng hợp lý, thì hàng tầm trung hoàn toàn đủ dùng rồi. Bạn thấy sao?",
-        "modified": true,
-        "reason": "Lồng ghép cụm Bài 5 【说得过去】 (giá cả hợp lý, chấp nhận được)."
-       },
-       {
-        "n": "09",
-        "role": "A",
-        "zh": "我多半选价格实惠的那件，把省下的钱留给更需要的东西。",
-        "pinyin": "wǒ duō bàn xuǎn jià gé shí huì de nà jiàn, bǎ shěng xià de qián liú gěi gèng xū yào de dōng xi.",
-        "pinyinHtml": "wǒ duō bàn xuǎn jià gé shí huì de nà jiàn, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎ</span> shěng xià de qián liú gěi gèng xū yào de dōng xi.",
-        "vi": "Phần lớn là tớ sẽ chọn chiếc có giá cả thiết thực hơn, để dành khoản tiền tiết kiệm được cho những thứ cần thiết hơn.",
-        "modified": false
-       },
-       {
-        "n": "10",
-        "role": "B",
-        "zh": "我有时候喜欢名牌的设计，不过要等打折才舍得买。",
-        "pinyin": "wǒ yǒu shí hòu xǐ huan míng pái de shè jì, bú guò yào děng dǎ zhé cái shě de mǎi.",
-        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǒu shí hòu xǐ huan míng pái de shè jì, bú guò yào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">děng</span> dǎ zhé cái shě de mǎi.",
-        "vi": "Thỉnh thoảng tớ cũng mê thiết kế của đồ hiệu lắm, nhưng phải đợi đến lúc giảm giá mới nỡ xuống tiền mua.",
-        "modified": false
-       },
-       {
-        "n": "11",
-        "role": "A",
-        "zh": "除非出席很正式的商务场合需要撑场面，否则日常穿戴我坚决不买昂贵的名牌儿。",
-        "pinyin": "chú fēi chū xí hěn zhèng shì de shāng wù chǎng hé xū yào chēng chǎng miàn, fǒu zé rì cháng chuān dài wǒ jiān jué bù mǎi áng guì de míng páir.",
-        "pinyinHtml": "chú fēi chū xí hěn zhèng shì de shāng wù chǎng hé xū yào chēng chǎng miàn, fǒu zé rì cháng chuān dài wǒ jiān jué bù mǎi áng guì de míng páir.",
-        "vi": "Trừ phi tham dự dịp thương mại rất trang trọng cần giữ thể diện, còn ngày thường mặc đồ mình kiên quyết không mua đồ hiệu đắt đỏ.",
-        "modified": true,
-        "reason": "Áp dụng mẫu điều kiện Bài 5 【除非……否则……】 tạo lập luận sắc sảo, thuyết phục."
-       },
-       {
-        "n": "12",
-        "role": "B",
-        "zh": "会。我先看看衣柜里缺什么，再决定要买哪些衣服。",
-        "pinyin": "huì. wǒ xiān kàn kàn yī guì lǐ quē shén me, zài jué dìng yào mǎi nǎ xiē yī fu.",
-        "pinyinHtml": "huì. wǒ xiān kàn kàn yī guì lǐ quē shén me, zài jué dìng yào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> nǎ xiē yī fu.",
-        "vi": "Có chứ. Tớ xem trước trong tủ quần áo đang thiếu món gì rồi mới quyết định mua thêm những loại nào.",
-        "modified": false
-       },
-       {
-        "n": "13",
-        "role": "A",
-        "zh": "我也会列清单，不然逛商店时容易被漂亮的东西吸引。",
-        "pinyin": "wǒ yě huì liè qīng dān, bù rán guàng shāng diàn shí róng yì bèi piào liang de dōng xi xī yǐn.",
-        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě huì liè qīng dān, bù rán guàng shāng diàn shí róng yì bèi piào liang de dōng xi xī yǐn.",
-        "vi": "Tớ cũng hay lên danh sách, chứ không lúc đi lượn phố mua sắm dễ bị mấy món bắt mắt cuốn hút lắm.",
-        "modified": false
-       },
-       {
-        "n": "14",
-        "role": "B",
-        "zh": "网上买是不是更方便？可我总担心尺寸不合适。",
-        "pinyin": "wǎng shàng mǎi shì bu shì gèng fāng biàn? kě wǒ zǒng dān xīn chǐ cùn bù hé shì.",
-        "pinyinHtml": "wǎng shàng mǎi shì bu shì gèng fāng biàn? <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zǒng dān xīn chǐ cùn bù hé shì.",
-        "vi": "Mua qua mạng chẳng phải tiện hơn sao? Cơ mà tớ cứ hay lo kích cỡ mặc không vừa.",
-        "modified": false
-       },
-       {
-        "n": "15",
-        "role": "A",
-        "zh": "那倒是！网购虽然省事，但衣服版型合不合适，还是得亲自上身试穿才踏实。",
-        "pinyin": "nà dǎo shì! wǎng gòu suī rán shěng shì, dàn yī fu bǎn xíng hé bu hé shì, hái shì děi qīn zì shàng shēn shì chuān cái tà shí.",
-        "pinyinHtml": "nà dǎo shì! wǎng gòu suī rán shěng shì, dàn yī fu bǎn xíng hé bu hé shì, hái shì děi qīn zì shàng shēn shì chuān cái tà shí.",
-        "vi": "Đúng là vậy! Mua online tuy tiện thật, nhưng form dáng quần áo có vừa vặn không, vẫn phải đích thân mặc thử lên người mới an tâm.",
-        "modified": true,
-        "reason": "Thay '对' bằng liên từ khẩu ngữ chuẩn xác 【那倒是！】."
-       },
-       {
-        "n": "16",
-        "role": "B",
-        "zh": "所以你买东西最看重的不是牌子，而是实用和合适，对吗？",
-        "pinyin": "suǒ yǐ nǐ mǎi dōng xi zuì kàn zhòng de bú shì pái zi, ér shì shí yòng hé hé shì, duì ma?",
-        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> mǎi dōng xi zuì kàn zhòng de bú shì pái zi, ér shì shí yòng hé hé shì, duì ma?",
-        "vi": "Cho nên khi mua đồ, điều cậu coi trọng nhất không phải thương hiệu mà là tính thực dụng và sự phù hợp, đúng không?",
-        "modified": false
-       },
-       {
-        "n": "17",
-        "role": "A",
-        "zh": "可不是嘛！只要做工扎实、版型板正，价格又说得过去，中档品牌绝对是首选。",
-        "pinyin": "kě bú shì ma! zhǐ yào zuò gōng zhā shí, bǎn xíng bǎn zhèng, jià gé yòu shuō de guò qù, zhōng dàng pǐn pái jué duì shì shǒu xuǎn.",
-        "pinyinHtml": "kě bú shì ma! zhǐ yào zuò gōng zhā shí, bǎn xíng bǎn zhèng, jià gé yòu shuō de guò qù, zhōng dàng pǐn pái jué duì shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> xuǎn.",
-        "vi": "Chứ còn gì nữa! Miễn là đường may chắc chắn, form dáng ngay ngắn chuẩn chỉnh, giá lại phải chăng hợp túi tiền, thì hàng tầm trung chắc chắn là lựa chọn số một.",
-        "modified": true,
-        "reason": "Thay chữ '没错' bằng 【可不是嘛！】 và tính từ miêu tả quần áo đắt giá 【版型板正】."
-       },
-       {
-        "n": "18",
-        "role": "B",
-        "zh": "跟你聊完，我觉得以后也该少看商标，多看看实际质量。",
-        "pinyin": "gēn nǐ liáo wán, wǒ jué de yǐ hòu yě gāi shǎo kàn shāng biāo, duō kàn kàn shí jì zhì liàng.",
-        "pinyinHtml": "gēn nǐ liáo wán, wǒ jué de yǐ hòu yě gāi shǎo kàn shāng biāo, duō kàn kàn shí jì zhì liàng.",
-        "vi": "Trò chuyện với cậu xong, tớ thấy sau này mình cũng nên bớt soi nhãn hiệu lại, mà chú ý nhiều hơn đến chất lượng thực tế.",
-        "modified": false
-       }
       ],
-      "questionPinyin": "nǐ xǐ huan mǎi míng páir huò hái shì zhì liàng yě bú cuò de zhōng dàng huò? jiè shào yí xià nǐ mǎi dōng xi de xí guàn.",
-      "questionPinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> xǐ huan mǎi míng páir huò hái shì zhì liàng yě bú cuò de zhōng dàng huò? jiè shào yí xià <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> mǎi dōng xi de xí guàn.",
-      "v1_lines": [
-       {
-        "n": "01",
-        "role": "A",
-        "zh": "嗨，你的新外套挺好看的，是名牌儿货吗？",
-        "pinyin": "hāi, nǐ de xīn wài tào tǐng hǎo kàn de, shì míng páir huò ma?",
-        "pinyinHtml": "hāi, nǐ de xīn wài tào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> hǎo kàn de, shì míng páir huò ma?",
-        "vi": "Này, chiếc áo khoác mới của cậu đẹp ghê, có phải hàng hiệu không vậy?"
-       },
-       {
-        "n": "02",
-        "role": "B",
-        "zh": "不是，是一家普通商店买的中档货。你平时喜欢买名牌儿货吗？",
-        "pinyin": "bú shì, shì yì jiā pǔ tōng shāng diàn mǎi de zhōng dàng huò. nǐ píng shí xǐ huan mǎi míng páir huò ma?",
-        "pinyinHtml": "bú shì, shì yì jiā pǔ tōng shāng diàn mǎi de zhōng dàng huò. nǐ píng shí xǐ huan mǎi míng páir huò ma?",
-        "vi": "Không phải đâu, đồ bình dân tầm trung tớ mua ở một cửa tiệm bình thường thôi. Bình thường cậu có thích mua đồ hiệu không?"
-       },
-       {
-        "n": "03",
-        "role": "A",
-        "zh": "我不太追求名牌，比较在意质量、价格和穿起来舒不舒服。",
-        "pinyin": "wǒ bú tài zhuī qiú míng pái, bǐ jiào zài yì zhì liàng, jià gé hé chuān qǐ lái shū bu shū fú.",
-        "pinyinHtml": "wǒ bú tài zhuī qiú míng pái, bǐ jiào zài yì zhì liàng, jià gé hé chuān qǐ lái shū bu shū fú.",
-        "vi": "Tớ không ham đồ hiệu cho lắm, tớ quan tâm hơn đến chất lượng, giá cả và mặc vào có thoải mái hay không."
-       },
-       {
-        "n": "04",
-        "role": "B",
-        "zh": "可是有些名牌做工很好，买一件可以穿很多年。",
-        "pinyin": "kě shì yǒu xiē míng pái zuò gōng hěn hǎo, mǎi yí jiàn kě yǐ chuān hěn duō nián.",
-        "pinyinHtml": "kě shì yǒu xiē míng pái zuò gōng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> hǎo, mǎi yí jiàn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ chuān hěn duō nián.",
-        "vi": "Nhưng mà có vài thương hiệu lớn làm đường may mũi chỉ rất khéo, sắm một cái có thể mặc được suốt nhiều năm trời."
-       },
-       {
-        "n": "05",
-        "role": "A",
-        "zh": "是啊，我不反对买名牌，只是不会因为商标就多花很多钱。",
-        "pinyin": "shì a, wǒ bù fǎn duì mǎi míng pái, zhǐ shì bú huì yīn wèi shāng biāo jiù duō huā hěn duō qián.",
-        "pinyinHtml": "shì a, wǒ bù fǎn duì mǎi míng pái, zhǐ shì bú huì yīn wèi shāng biāo jiù duō huā hěn duō qián.",
-        "vi": "Ừ đúng rồi, tớ không phản đối việc mua đồ hiệu, chỉ là không muốn vì mỗi cái logo nhãn mác mà phải bỏ thêm một đống tiền."
-       },
-       {
-        "n": "06",
-        "role": "B",
-        "zh": "那你怎么判断一件衣服的质量好不好？",
-        "pinyin": "nà nǐ zěn me pàn duàn yí jiàn yī fu de zhì liàng hǎo bu hǎo?",
-        "pinyinHtml": "nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> zěn me pàn duàn yí jiàn yī fu de zhì liàng hǎo bu hǎo?",
-        "vi": "Thế cậu dựa vào đâu để đánh giá chất lượng một bộ quần áo có tốt hay không?"
-       },
-       {
-        "n": "07",
-        "role": "A",
-        "zh": "我会摸摸面料，看看做工，还要试穿一下，尺寸合适才行。",
-        "pinyin": "wǒ huì mō mō miàn liào, kàn kàn zuò gōng, hái yào shì chuān yí xià, chǐ cùn hé shì cái xíng.",
-        "pinyinHtml": "wǒ huì mō mō miàn liào, kàn kàn zuò gōng, hái yào shì chuān yí xià, chǐ cùn hé shì cái xíng.",
-        "vi": "Tớ sẽ sờ thử chất vải, ngắm nghía đường kim mũi chỉ, rồi còn phải mặc thử xem form dáng kích cỡ có vừa vặn mới được."
-       },
-       {
-        "n": "08",
-        "role": "B",
-        "zh": "如果两件衣服质量差不多，一件是名牌，一件是中档货，你选哪个？",
-        "pinyin": "rú guǒ liǎng jiàn yī fú zhì liàng chà bù duō, yí jiàn shì míng pái, yí jiàn shì zhōng dàng huò, nǐ xuǎn nǎ gè?",
-        "pinyinHtml": "rú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> liǎng jiàn yī fú zhì liàng chà bù duō, yí jiàn shì míng pái, yí jiàn shì zhōng dàng huò, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xuǎn</span> nǎ gè?",
-        "vi": "Nếu hai chiếc áo chất lượng tương đương nhau, một cái là hàng hiệu, một cái là hàng tầm trung, cậu sẽ chọn cái nào?"
-       },
-       {
-        "n": "09",
-        "role": "A",
-        "zh": "我多半选价格实惠的那件，把省下的钱留给更需要的东西。",
-        "pinyin": "wǒ duō bàn xuǎn jià gé shí huì de nà jiàn, bǎ shěng xià de qián liú gěi gèng xū yào de dōng xi.",
-        "pinyinHtml": "wǒ duō bàn xuǎn jià gé shí huì de nà jiàn, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎ</span> shěng xià de qián liú gěi gèng xū yào de dōng xi.",
-        "vi": "Phần lớn là tớ sẽ chọn chiếc có giá cả thiết thực hơn, để dành khoản tiền tiết kiệm được cho những thứ cần thiết hơn."
-       },
-       {
-        "n": "10",
-        "role": "B",
-        "zh": "我有时候喜欢名牌的设计，不过要等打折才舍得买。",
-        "pinyin": "wǒ yǒu shí hòu xǐ huan míng pái de shè jì, bú guò yào děng dǎ zhé cái shě de mǎi.",
-        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǒu shí hòu xǐ huan míng pái de shè jì, bú guò yào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">děng</span> dǎ zhé cái shě de mǎi.",
-        "vi": "Thỉnh thoảng tớ cũng mê thiết kế của đồ hiệu lắm, nhưng phải đợi đến lúc giảm giá mới nỡ xuống tiền mua."
-       },
-       {
-        "n": "11",
-        "role": "A",
-        "zh": "那也挺合理。你买东西之前会不会做计划？",
-        "pinyin": "nà yě tǐng hé lǐ. nǐ mǎi dōng xi zhī qián huì bu huì zuò jì huà?",
-        "pinyinHtml": "nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> tǐng hé lǐ. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> mǎi dōng xi zhī qián huì bu huì zuò jì huà?",
-        "vi": "Như thế cũng rất hợp lý mà. Trước khi mua sắm cậu có lên kế hoạch trước không?"
-       },
-       {
-        "n": "12",
-        "role": "B",
-        "zh": "会。我先看看衣柜里缺什么，再决定要买哪些衣服。",
-        "pinyin": "huì. wǒ xiān kàn kàn yī guì lǐ quē shén me, zài jué dìng yào mǎi nǎ xiē yī fu.",
-        "pinyinHtml": "huì. wǒ xiān kàn kàn yī guì lǐ quē shén me, zài jué dìng yào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> nǎ xiē yī fu.",
-        "vi": "Có chứ. Tớ xem trước trong tủ quần áo đang thiếu món gì rồi mới quyết định mua thêm những loại nào."
-       },
-       {
-        "n": "13",
-        "role": "A",
-        "zh": "我也会列清单，不然逛商店时容易被漂亮的东西吸引。",
-        "pinyin": "wǒ yě huì liè qīng dān, bù rán guàng shāng diàn shí róng yì bèi piào liang de dōng xi xī yǐn.",
-        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě huì liè qīng dān, bù rán guàng shāng diàn shí róng yì bèi piào liang de dōng xi xī yǐn.",
-        "vi": "Tớ cũng hay lên danh sách, chứ không lúc đi lượn phố mua sắm dễ bị mấy món bắt mắt cuốn hút lắm."
-       },
-       {
-        "n": "14",
-        "role": "B",
-        "zh": "网上买是不是更方便？可我总担心尺寸不合适。",
-        "pinyin": "wǎng shàng mǎi shì bu shì gèng fāng biàn? kě wǒ zǒng dān xīn chǐ cùn bù hé shì.",
-        "pinyinHtml": "wǎng shàng mǎi shì bu shì gèng fāng biàn? <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zǒng dān xīn chǐ cùn bù hé shì.",
-        "vi": "Mua qua mạng chẳng phải tiện hơn sao? Cơ mà tớ cứ hay lo kích cỡ mặc không vừa."
-       },
-       {
-        "n": "15",
-        "role": "A",
-        "zh": "对，方便是方便，不过买衣服我还是喜欢先试穿。",
-        "pinyin": "duì, fāng biàn shì fāng biàn, bú guò mǎi yī fu wǒ hái shì xǐ huan xiān shì chuān.",
-        "pinyinHtml": "duì, fāng biàn shì fāng biàn, bú guò mǎi yī fu wǒ hái shì xǐ huan xiān shì chuān.",
-        "vi": "Đúng vậy, tiện thì tiện thật, nhưng mua quần áo tớ vẫn khoái được mặc thử trước đã."
-       },
-       {
-        "n": "16",
-        "role": "B",
-        "zh": "所以你买东西最看重的不是牌子，而是实用和合适，对吗？",
-        "pinyin": "suǒ yǐ nǐ mǎi dōng xi zuì kàn zhòng de bú shì pái zi, ér shì shí yòng hé hé shì, duì ma?",
-        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> mǎi dōng xi zuì kàn zhòng de bú shì pái zi, ér shì shí yòng hé hé shì, duì ma?",
-        "vi": "Cho nên khi mua đồ, điều cậu coi trọng nhất không phải thương hiệu mà là tính thực dụng và sự phù hợp, đúng không?"
-       },
-       {
-        "n": "17",
-        "role": "A",
-        "zh": "没错。只要质量不错、价格说得过去，我就愿意买。",
-        "pinyin": "méi cuò. zhǐ yào zhì liàng bú cuò, jià gé shuō de guò qù, wǒ jiù yuàn yì mǎi.",
-        "pinyinHtml": "méi cuò. zhǐ yào zhì liàng bú cuò, jià gé shuō de guò qù, wǒ jiù yuàn yì mǎi.",
-        "vi": "Chuẩn luôn. Chỉ cần chất lượng ổn áp, mức giá chấp nhận được là tớ sẵn sàng mua liền."
-       },
-       {
-        "n": "18",
-        "role": "B",
-        "zh": "跟你聊完，我觉得以后也该少看商标，多看看实际质量。",
-        "pinyin": "gēn nǐ liáo wán, wǒ jué de yǐ hòu yě gāi shǎo kàn shāng biāo, duō kàn kàn shí jì zhì liàng.",
-        "pinyinHtml": "gēn nǐ liáo wán, wǒ jué de yǐ hòu yě gāi shǎo kàn shāng biāo, duō kàn kàn shí jì zhì liàng.",
-        "vi": "Trò chuyện với cậu xong, tớ thấy sau này mình cũng nên bớt soi nhãn hiệu lại, mà chú ý nhiều hơn đến chất lượng thực tế."
-       }
-      ],
-      "v2_lines": [
-       {
-        "n": "01",
-        "role": "A",
-        "zh": "嗨，你的新外套挺好看的，是名牌儿货吗？",
-        "pinyin": "hāi, nǐ de xīn wài tào tǐng hǎo kàn de, shì míng páir huò ma?",
-        "pinyinHtml": "hāi, nǐ de xīn wài tào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> hǎo kàn de, shì míng páir huò ma?",
-        "vi": "Này, chiếc áo khoác mới của cậu đẹp ghê, có phải hàng hiệu không vậy?",
-        "modified": false
-       },
-       {
-        "n": "02",
-        "role": "B",
-        "zh": "不是，是一家普通商店买的中档货。你平时喜欢买名牌儿货吗？",
-        "pinyin": "bú shì, shì yì jiā pǔ tōng shāng diàn mǎi de zhōng dàng huò. nǐ píng shí xǐ huan mǎi míng páir huò ma?",
-        "pinyinHtml": "bú shì, shì yì jiā pǔ tōng shāng diàn mǎi de zhōng dàng huò. nǐ píng shí xǐ huan mǎi míng páir huò ma?",
-        "vi": "Không phải đâu, đồ bình dân tầm trung tớ mua ở một cửa tiệm bình thường thôi. Bình thường cậu có thích mua đồ hiệu không?",
-        "modified": false
-       },
-       {
-        "n": "03",
-        "role": "A",
-        "zh": "我不太追求名牌，比较在意质量、价格和穿起来舒不舒服。",
-        "pinyin": "wǒ bú tài zhuī qiú míng pái, bǐ jiào zài yì zhì liàng, jià gé hé chuān qǐ lái shū bu shū fú.",
-        "pinyinHtml": "wǒ bú tài zhuī qiú míng pái, bǐ jiào zài yì zhì liàng, jià gé hé chuān qǐ lái shū bu shū fú.",
-        "vi": "Tớ không ham đồ hiệu cho lắm, tớ quan tâm hơn đến chất lượng, giá cả và mặc vào có thoải mái hay không.",
-        "modified": false
-       },
-       {
-        "n": "04",
-        "role": "B",
-        "zh": "其实日常衣服没有什么可攀比的，名牌儿固然体面，但溢价实在太高了。",
-        "pinyin": "qí shí rì cháng yī fu méi yǒu shén me kě pān bǐ de, míng páir gù rán tǐ miàn, dàn yì jià shí zài tài gāo le.",
-        "pinyinHtml": "qí shí rì cháng yī fu méi yǒu shén me kě pān bǐ de, míng páir gù rán tǐ miàn, dàn yì jià shí zài tài gāo le.",
-        "vi": "Thực ra quần áo thường ngày chẳng có gì đáng để so bì hơn thua cả, đồ hiệu thì sang thật, nhưng giá bị đội lên quá cao rồi.",
-        "modified": true,
-        "reason": "Lồng ghép mẫu Bài 5 【没有什么可 + V + 的】 (没有什么可攀比的: không có gì để đua đòi)."
-       },
-       {
-        "n": "05",
-        "role": "A",
-        "zh": "就是说啊！我倒不是全盘否定名牌，只是觉得没必要单为一个商标掏大笔冤枉钱。",
-        "pinyin": "jiù shì shuō a! wǒ dǎo bú shì quán pán fǒu dìng míng pái, zhǐ shì jué de méi bì yào dān wèi yí gè shāng biāo tāo dà bǐ yuān wǎng qián.",
-        "pinyinHtml": "jiù shì shuō a! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎo bú shì quán pán fǒu dìng míng pái, zhǐ shì jué de méi bì yào dān wèi yí gè shāng biāo tāo dà bǐ yuān wǎng qián.",
-        "vi": "Đấy, ý mình chính là thế! Mình không hề bài xích hoàn toàn đồ hiệu, chỉ là thấy chẳng cần thiết chỉ vì một cái logo nhãn mác mà phải móc hầu bao trả khoản tiền oan uổng.",
-        "modified": true,
-        "reason": "Thay '是啊' bằng quán dụng ngữ đồng tình sâu sắc 【就是说啊！】 và cụm khẩu ngữ 【掏冤枉钱】."
-       },
-       {
-        "n": "06",
-        "role": "B",
-        "zh": "那你怎么判断一件衣服的质量好不好？",
-        "pinyin": "nà nǐ zěn me pàn duàn yí jiàn yī fu de zhì liàng hǎo bu hǎo?",
-        "pinyinHtml": "nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> zěn me pàn duàn yí jiàn yī fu de zhì liàng hǎo bu hǎo?",
-        "vi": "Thế cậu dựa vào đâu để đánh giá chất lượng một bộ quần áo có tốt hay không?",
-        "modified": false
-       },
-       {
-        "n": "07",
-        "role": "A",
-        "zh": "我会摸摸面料，看看做工，还要试穿一下，尺寸合适才行。",
-        "pinyin": "wǒ huì mō mō miàn liào, kàn kàn zuò gōng, hái yào shì chuān yí xià, chǐ cùn hé shì cái xíng.",
-        "pinyinHtml": "wǒ huì mō mō miàn liào, kàn kàn zuò gōng, hái yào shì chuān yí xià, chǐ cùn hé shì cái xíng.",
-        "vi": "Tớ sẽ sờ thử chất vải, ngắm nghía đường kim mũi chỉ, rồi còn phải mặc thử xem form dáng kích cỡ có vừa vặn mới được.",
-        "modified": false
-       },
-       {
-        "n": "08",
-        "role": "B",
-        "zh": "只要款式大方、面料舒服，价格也说得过去，中档货完全够用了。你觉得呢？",
-        "pinyin": "zhǐ yào kuǎn shì dà fāng, miàn liào shū fú, jià gé yě shuō de guò qù, zhōng dàng huò wán quán gòu yòng le. nǐ jué de ne?",
-        "pinyinHtml": "zhǐ yào kuǎn shì dà fāng, miàn liào shū fú, jià gé yě shuō de guò qù, zhōng dàng huò wán quán gòu yòng le. nǐ jué de ne?",
-        "vi": "Chỉ cần kiểu dáng trang nhã, chất vải thoải mái, giá cả cũng phải chăng hợp lý, thì hàng tầm trung hoàn toàn đủ dùng rồi. Bạn thấy sao?",
-        "modified": true,
-        "reason": "Lồng ghép cụm Bài 5 【说得过去】 (giá cả hợp lý, chấp nhận được)."
-       },
-       {
-        "n": "09",
-        "role": "A",
-        "zh": "我多半选价格实惠的那件，把省下的钱留给更需要的东西。",
-        "pinyin": "wǒ duō bàn xuǎn jià gé shí huì de nà jiàn, bǎ shěng xià de qián liú gěi gèng xū yào de dōng xi.",
-        "pinyinHtml": "wǒ duō bàn xuǎn jià gé shí huì de nà jiàn, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">bǎ</span> shěng xià de qián liú gěi gèng xū yào de dōng xi.",
-        "vi": "Phần lớn là tớ sẽ chọn chiếc có giá cả thiết thực hơn, để dành khoản tiền tiết kiệm được cho những thứ cần thiết hơn.",
-        "modified": false
-       },
-       {
-        "n": "10",
-        "role": "B",
-        "zh": "我有时候喜欢名牌的设计，不过要等打折才舍得买。",
-        "pinyin": "wǒ yǒu shí hòu xǐ huan míng pái de shè jì, bú guò yào děng dǎ zhé cái shě de mǎi.",
-        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǒu shí hòu xǐ huan míng pái de shè jì, bú guò yào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">děng</span> dǎ zhé cái shě de mǎi.",
-        "vi": "Thỉnh thoảng tớ cũng mê thiết kế của đồ hiệu lắm, nhưng phải đợi đến lúc giảm giá mới nỡ xuống tiền mua.",
-        "modified": false
-       },
-       {
-        "n": "11",
-        "role": "A",
-        "zh": "除非出席很正式的商务场合需要撑场面，否则日常穿戴我坚决不买昂贵的名牌儿。",
-        "pinyin": "chú fēi chū xí hěn zhèng shì de shāng wù chǎng hé xū yào chēng chǎng miàn, fǒu zé rì cháng chuān dài wǒ jiān jué bù mǎi áng guì de míng páir.",
-        "pinyinHtml": "chú fēi chū xí hěn zhèng shì de shāng wù chǎng hé xū yào chēng chǎng miàn, fǒu zé rì cháng chuān dài wǒ jiān jué bù mǎi áng guì de míng páir.",
-        "vi": "Trừ phi tham dự dịp thương mại rất trang trọng cần giữ thể diện, còn ngày thường mặc đồ mình kiên quyết không mua đồ hiệu đắt đỏ.",
-        "modified": true,
-        "reason": "Áp dụng mẫu điều kiện Bài 5 【除非……否则……】 tạo lập luận sắc sảo, thuyết phục."
-       },
-       {
-        "n": "12",
-        "role": "B",
-        "zh": "会。我先看看衣柜里缺什么，再决定要买哪些衣服。",
-        "pinyin": "huì. wǒ xiān kàn kàn yī guì lǐ quē shén me, zài jué dìng yào mǎi nǎ xiē yī fu.",
-        "pinyinHtml": "huì. wǒ xiān kàn kàn yī guì lǐ quē shén me, zài jué dìng yào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> nǎ xiē yī fu.",
-        "vi": "Có chứ. Tớ xem trước trong tủ quần áo đang thiếu món gì rồi mới quyết định mua thêm những loại nào.",
-        "modified": false
-       },
-       {
-        "n": "13",
-        "role": "A",
-        "zh": "我也会列清单，不然逛商店时容易被漂亮的东西吸引。",
-        "pinyin": "wǒ yě huì liè qīng dān, bù rán guàng shāng diàn shí róng yì bèi piào liang de dōng xi xī yǐn.",
-        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yě huì liè qīng dān, bù rán guàng shāng diàn shí róng yì bèi piào liang de dōng xi xī yǐn.",
-        "vi": "Tớ cũng hay lên danh sách, chứ không lúc đi lượn phố mua sắm dễ bị mấy món bắt mắt cuốn hút lắm.",
-        "modified": false
-       },
-       {
-        "n": "14",
-        "role": "B",
-        "zh": "网上买是不是更方便？可我总担心尺寸不合适。",
-        "pinyin": "wǎng shàng mǎi shì bu shì gèng fāng biàn? kě wǒ zǒng dān xīn chǐ cùn bù hé shì.",
-        "pinyinHtml": "wǎng shàng mǎi shì bu shì gèng fāng biàn? <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zǒng dān xīn chǐ cùn bù hé shì.",
-        "vi": "Mua qua mạng chẳng phải tiện hơn sao? Cơ mà tớ cứ hay lo kích cỡ mặc không vừa.",
-        "modified": false
-       },
-       {
-        "n": "15",
-        "role": "A",
-        "zh": "那倒是！网购虽然省事，但衣服版型合不合适，还是得亲自上身试穿才踏实。",
-        "pinyin": "nà dǎo shì! wǎng gòu suī rán shěng shì, dàn yī fu bǎn xíng hé bu hé shì, hái shì děi qīn zì shàng shēn shì chuān cái tà shí.",
-        "pinyinHtml": "nà dǎo shì! wǎng gòu suī rán shěng shì, dàn yī fu bǎn xíng hé bu hé shì, hái shì děi qīn zì shàng shēn shì chuān cái tà shí.",
-        "vi": "Đúng là vậy! Mua online tuy tiện thật, nhưng form dáng quần áo có vừa vặn không, vẫn phải đích thân mặc thử lên người mới an tâm.",
-        "modified": true,
-        "reason": "Thay '对' bằng liên từ khẩu ngữ chuẩn xác 【那倒是！】."
-       },
-       {
-        "n": "16",
-        "role": "B",
-        "zh": "所以你买东西最看重的不是牌子，而是实用和合适，对吗？",
-        "pinyin": "suǒ yǐ nǐ mǎi dōng xi zuì kàn zhòng de bú shì pái zi, ér shì shí yòng hé hé shì, duì ma?",
-        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> mǎi dōng xi zuì kàn zhòng de bú shì pái zi, ér shì shí yòng hé hé shì, duì ma?",
-        "vi": "Cho nên khi mua đồ, điều cậu coi trọng nhất không phải thương hiệu mà là tính thực dụng và sự phù hợp, đúng không?",
-        "modified": false
-       },
-       {
-        "n": "17",
-        "role": "A",
-        "zh": "可不是嘛！只要做工扎实、版型板正，价格又说得过去，中档品牌绝对是首选。",
-        "pinyin": "kě bú shì ma! zhǐ yào zuò gōng zhā shí, bǎn xíng bǎn zhèng, jià gé yòu shuō de guò qù, zhōng dàng pǐn pái jué duì shì shǒu xuǎn.",
-        "pinyinHtml": "kě bú shì ma! zhǐ yào zuò gōng zhā shí, bǎn xíng bǎn zhèng, jià gé yòu shuō de guò qù, zhōng dàng pǐn pái jué duì shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> xuǎn.",
-        "vi": "Chứ còn gì nữa! Miễn là đường may chắc chắn, form dáng ngay ngắn chuẩn chỉnh, giá lại phải chăng hợp túi tiền, thì hàng tầm trung chắc chắn là lựa chọn số một.",
-        "modified": true,
-        "reason": "Thay chữ '没错' bằng 【可不是嘛！】 và tính từ miêu tả quần áo đắt giá 【版型板正】."
-       },
-       {
-        "n": "18",
-        "role": "B",
-        "zh": "跟你聊完，我觉得以后也该少看商标，多看看实际质量。",
-        "pinyin": "gēn nǐ liáo wán, wǒ jué de yǐ hòu yě gāi shǎo kàn shāng biāo, duō kàn kàn shí jì zhì liàng.",
-        "pinyinHtml": "gēn nǐ liáo wán, wǒ jué de yǐ hòu yě gāi shǎo kàn shāng biāo, duō kàn kàn shí jì zhì liàng.",
-        "vi": "Trò chuyện với cậu xong, tớ thấy sau này mình cũng nên bớt soi nhãn hiệu lại, mà chú ý nhiều hơn đến chất lượng thực tế.",
-        "modified": false
-       }
-      ],
-      "diffs": [
-       {
-        "n": "04",
-        "role": "B",
-        "reason": "Lồng ghép mẫu Bài 5 【没有什么可 + V + 的】 (没有什么可攀比的: không có gì để đua đòi).",
-        "v1": {
-         "zh": "可是有些名牌做工很好，买一件可以穿很多年。",
-         "pinyin": "kě shì yǒu xiē míng pái zuò gōng hěn hǎo, mǎi yí jiàn kě yǐ chuān hěn duō nián.",
-         "pinyinHtml": "kě shì yǒu xiē míng pái zuò gōng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">hěn</span> hǎo, mǎi yí jiàn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ chuān hěn duō nián.",
-         "vi": "Nhưng mà có vài thương hiệu lớn làm đường may mũi chỉ rất khéo, sắm một cái có thể mặc được suốt nhiều năm trời."
-        },
-        "v2": {
-         "zh": "其实日常衣服没有什么可攀比的，名牌儿固然体面，但溢价实在太高了。",
-         "pinyin": "qí shí rì cháng yī fu méi yǒu shén me kě pān bǐ de, míng páir gù rán tǐ miàn, dàn yì jià shí zài tài gāo le.",
-         "pinyinHtml": "qí shí rì cháng yī fu méi yǒu shén me kě pān bǐ de, míng páir gù rán tǐ miàn, dàn yì jià shí zài tài gāo le.",
-         "vi": "Thực ra quần áo thường ngày chẳng có gì đáng để so bì hơn thua cả, đồ hiệu thì sang thật, nhưng giá bị đội lên quá cao rồi."
-        }
-       },
-       {
-        "n": "05",
-        "role": "A",
-        "reason": "Thay '是啊' bằng quán dụng ngữ đồng tình sâu sắc 【就是说啊！】 và cụm khẩu ngữ 【掏冤枉钱】.",
-        "v1": {
-         "zh": "是啊，我不反对买名牌，只是不会因为商标就多花很多钱。",
-         "pinyin": "shì a, wǒ bù fǎn duì mǎi míng pái, zhǐ shì bú huì yīn wèi shāng biāo jiù duō huā hěn duō qián.",
-         "pinyinHtml": "shì a, wǒ bù fǎn duì mǎi míng pái, zhǐ shì bú huì yīn wèi shāng biāo jiù duō huā hěn duō qián.",
-         "vi": "Ừ đúng rồi, tớ không phản đối việc mua đồ hiệu, chỉ là không muốn vì mỗi cái logo nhãn mác mà phải bỏ thêm một đống tiền."
-        },
-        "v2": {
-         "zh": "就是说啊！我倒不是全盘否定名牌，只是觉得没必要单为一个商标掏大笔冤枉钱。",
-         "pinyin": "jiù shì shuō a! wǒ dǎo bú shì quán pán fǒu dìng míng pái, zhǐ shì jué de méi bì yào dān wèi yí gè shāng biāo tāo dà bǐ yuān wǎng qián.",
-         "pinyinHtml": "jiù shì shuō a! <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎo bú shì quán pán fǒu dìng míng pái, zhǐ shì jué de méi bì yào dān wèi yí gè shāng biāo tāo dà bǐ yuān wǎng qián.",
-         "vi": "Đấy, ý mình chính là thế! Mình không hề bài xích hoàn toàn đồ hiệu, chỉ là thấy chẳng cần thiết chỉ vì một cái logo nhãn mác mà phải móc hầu bao trả khoản tiền oan uổng."
-        }
-       },
-       {
-        "n": "08",
-        "role": "B",
-        "reason": "Lồng ghép cụm Bài 5 【说得过去】 (giá cả hợp lý, chấp nhận được).",
-        "v1": {
-         "zh": "如果两件衣服质量差不多，一件是名牌，一件是中档货，你选哪个？",
-         "pinyin": "rú guǒ liǎng jiàn yī fú zhì liàng chà bù duō, yí jiàn shì míng pái, yí jiàn shì zhōng dàng huò, nǐ xuǎn nǎ gè?",
-         "pinyinHtml": "rú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> liǎng jiàn yī fú zhì liàng chà bù duō, yí jiàn shì míng pái, yí jiàn shì zhōng dàng huò, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">xuǎn</span> nǎ gè?",
-         "vi": "Nếu hai chiếc áo chất lượng tương đương nhau, một cái là hàng hiệu, một cái là hàng tầm trung, cậu sẽ chọn cái nào?"
-        },
-        "v2": {
-         "zh": "只要款式大方、面料舒服，价格也说得过去，中档货完全够用了。你觉得呢？",
-         "pinyin": "zhǐ yào kuǎn shì dà fāng, miàn liào shū fú, jià gé yě shuō de guò qù, zhōng dàng huò wán quán gòu yòng le. nǐ jué de ne?",
-         "pinyinHtml": "zhǐ yào kuǎn shì dà fāng, miàn liào shū fú, jià gé yě shuō de guò qù, zhōng dàng huò wán quán gòu yòng le. nǐ jué de ne?",
-         "vi": "Chỉ cần kiểu dáng trang nhã, chất vải thoải mái, giá cả cũng phải chăng hợp lý, thì hàng tầm trung hoàn toàn đủ dùng rồi. Bạn thấy sao?"
-        }
-       },
-       {
-        "n": "11",
-        "role": "A",
-        "reason": "Áp dụng mẫu điều kiện Bài 5 【除非……否则……】 tạo lập luận sắc sảo, thuyết phục.",
-        "v1": {
-         "zh": "那也挺合理。你买东西之前会不会做计划？",
-         "pinyin": "nà yě tǐng hé lǐ. nǐ mǎi dōng xi zhī qián huì bu huì zuò jì huà?",
-         "pinyinHtml": "nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yě</span> tǐng hé lǐ. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> mǎi dōng xi zhī qián huì bu huì zuò jì huà?",
-         "vi": "Như thế cũng rất hợp lý mà. Trước khi mua sắm cậu có lên kế hoạch trước không?"
-        },
-        "v2": {
-         "zh": "除非出席很正式的商务场合需要撑场面，否则日常穿戴我坚决不买昂贵的名牌儿。",
-         "pinyin": "chú fēi chū xí hěn zhèng shì de shāng wù chǎng hé xū yào chēng chǎng miàn, fǒu zé rì cháng chuān dài wǒ jiān jué bù mǎi áng guì de míng páir.",
-         "pinyinHtml": "chú fēi chū xí hěn zhèng shì de shāng wù chǎng hé xū yào chēng chǎng miàn, fǒu zé rì cháng chuān dài wǒ jiān jué bù mǎi áng guì de míng páir.",
-         "vi": "Trừ phi tham dự dịp thương mại rất trang trọng cần giữ thể diện, còn ngày thường mặc đồ mình kiên quyết không mua đồ hiệu đắt đỏ."
-        }
-       },
-       {
-        "n": "15",
-        "role": "A",
-        "reason": "Thay '对' bằng liên từ khẩu ngữ chuẩn xác 【那倒是！】.",
-        "v1": {
-         "zh": "对，方便是方便，不过买衣服我还是喜欢先试穿。",
-         "pinyin": "duì, fāng biàn shì fāng biàn, bú guò mǎi yī fu wǒ hái shì xǐ huan xiān shì chuān.",
-         "pinyinHtml": "duì, fāng biàn shì fāng biàn, bú guò mǎi yī fu wǒ hái shì xǐ huan xiān shì chuān.",
-         "vi": "Đúng vậy, tiện thì tiện thật, nhưng mua quần áo tớ vẫn khoái được mặc thử trước đã."
-        },
-        "v2": {
-         "zh": "那倒是！网购虽然省事，但衣服版型合不合适，还是得亲自上身试穿才踏实。",
-         "pinyin": "nà dǎo shì! wǎng gòu suī rán shěng shì, dàn yī fu bǎn xíng hé bu hé shì, hái shì děi qīn zì shàng shēn shì chuān cái tà shí.",
-         "pinyinHtml": "nà dǎo shì! wǎng gòu suī rán shěng shì, dàn yī fu bǎn xíng hé bu hé shì, hái shì děi qīn zì shàng shēn shì chuān cái tà shí.",
-         "vi": "Đúng là vậy! Mua online tuy tiện thật, nhưng form dáng quần áo có vừa vặn không, vẫn phải đích thân mặc thử lên người mới an tâm."
-        }
-       },
-       {
-        "n": "17",
-        "role": "A",
-        "reason": "Thay chữ '没错' bằng 【可不是嘛！】 và tính từ miêu tả quần áo đắt giá 【版型板正】.",
-        "v1": {
-         "zh": "没错。只要质量不错、价格说得过去，我就愿意买。",
-         "pinyin": "méi cuò. zhǐ yào zhì liàng bú cuò, jià gé shuō de guò qù, wǒ jiù yuàn yì mǎi.",
-         "pinyinHtml": "méi cuò. zhǐ yào zhì liàng bú cuò, jià gé shuō de guò qù, wǒ jiù yuàn yì mǎi.",
-         "vi": "Chuẩn luôn. Chỉ cần chất lượng ổn áp, mức giá chấp nhận được là tớ sẵn sàng mua liền."
-        },
-        "v2": {
-         "zh": "可不是嘛！只要做工扎实、版型板正，价格又说得过去，中档品牌绝对是首选。",
-         "pinyin": "kě bú shì ma! zhǐ yào zuò gōng zhā shí, bǎn xíng bǎn zhèng, jià gé yòu shuō de guò qù, zhōng dàng pǐn pái jué duì shì shǒu xuǎn.",
-         "pinyinHtml": "kě bú shì ma! zhǐ yào zuò gōng zhā shí, bǎn xíng bǎn zhèng, jià gé yòu shuō de guò qù, zhōng dàng pǐn pái jué duì shì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> xuǎn.",
-         "vi": "Chứ còn gì nữa! Miễn là đường may chắc chắn, form dáng ngay ngắn chuẩn chỉnh, giá lại phải chăng hợp túi tiền, thì hàng tầm trung chắc chắn là lựa chọn số một."
-        }
-       }
-      ],
-      "audio": "audio/b5-c3.m4a",
-      "audioDuration": 102.5,
-      "audioTimings": [
-       {
-        "n": "01",
-        "role": "A",
-        "start": 0.25,
-        "end": 4.31
-       },
-       {
-        "n": "02",
-        "role": "B",
-        "start": 4.31,
-        "end": 10.42
-       },
-       {
-        "n": "03",
-        "role": "A",
-        "start": 10.42,
-        "end": 15.69
-       },
-       {
-        "n": "04",
-        "role": "B",
-        "start": 15.69,
-        "end": 22.07
-       },
-       {
-        "n": "05",
-        "role": "A",
-        "start": 22.07,
-        "end": 29.71
-       },
-       {
-        "n": "06",
-        "role": "B",
-        "start": 29.71,
-        "end": 32.96
-       },
-       {
-        "n": "07",
-        "role": "A",
-        "start": 32.96,
-        "end": 38.5
-       },
-       {
-        "n": "08",
-        "role": "B",
-        "start": 38.5,
-        "end": 45.93
-       },
-       {
-        "n": "09",
-        "role": "A",
-        "start": 45.93,
-        "end": 50.65
-       },
-       {
-        "n": "10",
-        "role": "B",
-        "start": 50.65,
-        "end": 55.27
-       },
-       {
-        "n": "11",
-        "role": "A",
-        "start": 55.27,
-        "end": 61.54
-       },
-       {
-        "n": "12",
-        "role": "B",
-        "start": 61.54,
-        "end": 66.81
-       },
-       {
-        "n": "13",
-        "role": "A",
-        "start": 66.81,
-        "end": 71.41
-       },
-       {
-        "n": "14",
-        "role": "B",
-        "start": 71.41,
-        "end": 76.45
-       },
-       {
-        "n": "15",
-        "role": "A",
-        "start": 76.45,
-        "end": 83.62
-       },
-       {
-        "n": "16",
-        "role": "B",
-        "start": 83.62,
-        "end": 89.41
-       },
-       {
-        "n": "17",
-        "role": "A",
-        "start": 89.41,
-        "end": 97.18
-       },
-       {
-        "n": "18",
-        "role": "B",
-        "start": 97.18,
-        "end": 102.5
-       }
-      ]
+      "isExamScope": false
      }
-    ]
+    ],
+    "isExamScope": true
    },
    {
     "id": "b7",
@@ -16253,7 +23782,8 @@ window.APP_BOOKS = {
         "start": 83.36,
         "end": 87.35
        }
-      ]
+      ],
+      "isExamScope": false
      },
      {
       "id": "b7-c2",
@@ -16935,9 +24465,11 @@ window.APP_BOOKS = {
         "start": 87.52,
         "end": 94.79
        }
-      ]
+      ],
+      "isExamScope": false
      }
-    ]
+    ],
+    "isExamScope": false
    },
    {
     "id": "b8",
@@ -17843,7 +25375,8 @@ window.APP_BOOKS = {
         "start": 98.17,
         "end": 104.28
        }
-      ]
+      ],
+      "isExamScope": false
      },
      {
       "id": "b8-c2",
@@ -18525,9 +26058,11 @@ window.APP_BOOKS = {
         "start": 96.92,
         "end": 102.57
        }
-      ]
+      ],
+      "isExamScope": false
      }
-    ]
+    ],
+    "isExamScope": false
    },
    {
     "id": "b9",
@@ -19444,7 +26979,8 @@ window.APP_BOOKS = {
         "start": 95.74,
         "end": 102.44
        }
-      ]
+      ],
+      "isExamScope": false
      },
      {
       "id": "b9-c2",
@@ -20164,9 +27700,11 @@ window.APP_BOOKS = {
         "start": 93.63,
         "end": 99.97
        }
-      ]
+      ],
+      "isExamScope": false
      }
-    ]
+    ],
+    "isExamScope": false
    }
   ],
   "totals": {
@@ -20177,7 +27715,8 @@ window.APP_BOOKS = {
    "modifiedLines": 68
   },
   "id": "trung-cap",
-  "name": "汉语口语速成"
+  "name": "汉语口语速成",
+  "shortTitle": "汉语口语速成 (Ôn thi)"
  }
 };
 // Mặc định nạp giáo trình mới:
