@@ -258,8 +258,8 @@ window.APP_BOOKS = {
         "n": "04",
         "role": "B",
         "zh": "能吃一点儿，不过太辣我就受不了了。",
-        "pinyin": "néng chī yì diǎnr, bú guò tài là wǒ jiù shòu bu liǎo liǎo.",
-        "pinyinHtml": "néng chī yì diǎnr, bú guò tài là wǒ jiù shòu bu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">liǎo</span> liǎo.",
+        "pinyin": "néng chī yì diǎnr, bú guò tài là wǒ jiù shòu bu liǎo le.",
+        "pinyinHtml": "néng chī yì diǎnr, bú guò tài là wǒ jiù shòu bu liǎo le.",
         "vi": "Ăn được chút xíu thôi, chứ cay quá thì tớ chịu không nổi đâu."
        },
        {
@@ -420,8 +420,8 @@ window.APP_BOOKS = {
         "n": "04",
         "role": "B",
         "zh": "能吃一点儿，不过太辣我就受不了了。",
-        "pinyin": "néng chī yì diǎnr, bú guò tài là wǒ jiù shòu bu liǎo liǎo.",
-        "pinyinHtml": "néng chī yì diǎnr, bú guò tài là wǒ jiù shòu bu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">liǎo</span> liǎo.",
+        "pinyin": "néng chī yì diǎnr, bú guò tài là wǒ jiù shòu bu liǎo le.",
+        "pinyinHtml": "néng chī yì diǎnr, bú guò tài là wǒ jiù shòu bu liǎo le.",
         "vi": "Ăn được chút xíu thôi, chứ cay quá thì tớ chịu không nổi đâu."
        },
        {
@@ -590,8 +590,8 @@ window.APP_BOOKS = {
         "n": "04",
         "role": "B",
         "zh": "能吃一点儿，不过太辣我就受不了了。",
-        "pinyin": "néng chī yì diǎnr, bú guò tài là wǒ jiù shòu bu liǎo liǎo.",
-        "pinyinHtml": "néng chī yì diǎnr, bú guò tài là wǒ jiù shòu bu <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">liǎo</span> liǎo.",
+        "pinyin": "néng chī yì diǎnr, bú guò tài là wǒ jiù shòu bu liǎo le.",
+        "pinyinHtml": "néng chī yì diǎnr, bú guò tài là wǒ jiù shòu bu liǎo le.",
         "vi": "Ăn được chút xíu thôi, chứ cay quá thì tớ chịu không nổi đâu."
        },
        {
@@ -794,127 +794,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b3-c1.m4a",
-      "audioDuration": 103.97,
+      "audioDuration": 90.78,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.72
+        "end": 4.41
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.72,
-        "end": 9.96
+        "start": 4.41,
+        "end": 9.14
        },
        {
         "n": "03",
         "role": "A",
-        "start": 9.96,
-        "end": 14.23
+        "start": 9.14,
+        "end": 13.54
        },
        {
         "n": "04",
         "role": "B",
-        "start": 14.23,
-        "end": 18.09
+        "start": 13.54,
+        "end": 17.28
        },
        {
         "n": "05",
         "role": "A",
-        "start": 18.09,
-        "end": 24.16
+        "start": 17.28,
+        "end": 23.12
        },
        {
         "n": "06",
         "role": "B",
-        "start": 24.16,
-        "end": 28.12
+        "start": 23.12,
+        "end": 26.92
        },
        {
         "n": "07",
         "role": "A",
-        "start": 28.12,
-        "end": 33.82
+        "start": 26.92,
+        "end": 32.54
        },
        {
         "n": "08",
         "role": "B",
-        "start": 33.82,
-        "end": 39.65
+        "start": 32.54,
+        "end": 36.76
        },
        {
         "n": "09",
         "role": "A",
-        "start": 39.65,
-        "end": 45.96
+        "start": 36.76,
+        "end": 42.22
        },
        {
         "n": "10",
         "role": "B",
-        "start": 45.96,
-        "end": 50.54
+        "start": 42.22,
+        "end": 46.2
        },
        {
         "n": "11",
         "role": "A",
-        "start": 50.54,
-        "end": 61.45
+        "start": 46.2,
+        "end": 51.84
        },
        {
         "n": "12",
         "role": "B",
-        "start": 61.45,
-        "end": 66
+        "start": 51.84,
+        "end": 56.16
        },
        {
         "n": "13",
         "role": "A",
-        "start": 66,
-        "end": 71.92
+        "start": 56.16,
+        "end": 61.63
        },
        {
         "n": "14",
         "role": "B",
-        "start": 71.92,
-        "end": 76.36
+        "start": 61.63,
+        "end": 65.87
        },
        {
         "n": "15",
         "role": "A",
-        "start": 76.36,
-        "end": 82.62
+        "start": 65.87,
+        "end": 71.26
        },
        {
         "n": "16",
         "role": "B",
-        "start": 82.62,
-        "end": 87.68
+        "start": 71.26,
+        "end": 76.5
        },
        {
         "n": "17",
         "role": "A",
-        "start": 87.68,
-        "end": 91.64
+        "start": 76.5,
+        "end": 79.68
        },
        {
         "n": "18",
         "role": "B",
-        "start": 91.64,
-        "end": 96.57
+        "start": 79.68,
+        "end": 84.18
        },
        {
         "n": "19",
         "role": "A",
-        "start": 96.57,
-        "end": 100.38
+        "start": 84.18,
+        "end": 87.18
        },
        {
         "n": "20",
         "role": "B",
-        "start": 100.38,
-        "end": 103.97
+        "start": 87.18,
+        "end": 90.78
        }
       ]
      },
@@ -1472,127 +1472,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b3-c2.m4a",
-      "audioDuration": 95.02,
+      "audioDuration": 85.58,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 5.02
+        "end": 4.82
        },
        {
         "n": "02",
         "role": "B",
-        "start": 5.02,
-        "end": 9.18
+        "start": 4.82,
+        "end": 8.92
        },
        {
         "n": "03",
         "role": "A",
-        "start": 9.18,
-        "end": 13.44
+        "start": 8.92,
+        "end": 13.76
        },
        {
         "n": "04",
         "role": "B",
-        "start": 13.44,
-        "end": 17.77
+        "start": 13.76,
+        "end": 17.98
        },
        {
         "n": "05",
         "role": "A",
-        "start": 17.77,
-        "end": 23.11
+        "start": 17.98,
+        "end": 23.06
        },
        {
         "n": "06",
         "role": "B",
-        "start": 23.11,
-        "end": 31.96
+        "start": 23.06,
+        "end": 27.64
        },
        {
         "n": "07",
         "role": "A",
-        "start": 31.96,
-        "end": 36.98
+        "start": 27.64,
+        "end": 32.84
        },
        {
         "n": "08",
         "role": "B",
-        "start": 36.98,
-        "end": 42.76
+        "start": 32.84,
+        "end": 38.48
        },
        {
         "n": "09",
         "role": "A",
-        "start": 42.76,
-        "end": 45.82
+        "start": 38.48,
+        "end": 41.93
        },
        {
         "n": "10",
         "role": "B",
-        "start": 45.82,
-        "end": 51.19
+        "start": 41.93,
+        "end": 46.66
        },
        {
         "n": "11",
         "role": "A",
-        "start": 51.19,
-        "end": 57.81
+        "start": 46.66,
+        "end": 51.65
        },
        {
         "n": "12",
         "role": "B",
-        "start": 57.81,
-        "end": 60.84
+        "start": 51.65,
+        "end": 54.6
        },
        {
         "n": "13",
         "role": "A",
-        "start": 60.84,
-        "end": 66.2
+        "start": 54.6,
+        "end": 59.63
        },
        {
         "n": "14",
         "role": "B",
-        "start": 66.2,
-        "end": 69.81
+        "start": 59.63,
+        "end": 62.83
        },
        {
         "n": "15",
         "role": "A",
-        "start": 69.81,
-        "end": 73.01
+        "start": 62.83,
+        "end": 66.63
        },
        {
         "n": "16",
         "role": "B",
-        "start": 73.01,
-        "end": 77.84
+        "start": 66.63,
+        "end": 71.58
        },
        {
         "n": "17",
         "role": "A",
-        "start": 77.84,
-        "end": 81.96
+        "start": 71.58,
+        "end": 75.16
        },
        {
         "n": "18",
         "role": "B",
-        "start": 81.96,
-        "end": 87.37
+        "start": 75.16,
+        "end": 80.04
        },
        {
         "n": "19",
         "role": "A",
-        "start": 87.37,
-        "end": 90.17
+        "start": 80.04,
+        "end": 83.04
        },
        {
         "n": "20",
         "role": "B",
-        "start": 90.17,
-        "end": 95.02
+        "start": 83.04,
+        "end": 85.58
        }
       ]
      },
@@ -2169,127 +2169,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b3-c3.m4a",
-      "audioDuration": 97.78,
+      "audioDuration": 84.69,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.35
+        "end": 4.38
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.35,
-        "end": 9.62
+        "start": 4.38,
+        "end": 8.66
        },
        {
         "n": "03",
         "role": "A",
-        "start": 9.62,
-        "end": 15.44
+        "start": 8.66,
+        "end": 12.76
        },
        {
         "n": "04",
         "role": "B",
-        "start": 15.44,
-        "end": 19.15
+        "start": 12.76,
+        "end": 16.09
        },
        {
         "n": "05",
         "role": "A",
-        "start": 19.15,
-        "end": 25.05
+        "start": 16.09,
+        "end": 21.97
        },
        {
         "n": "06",
         "role": "B",
-        "start": 25.05,
-        "end": 29.22
+        "start": 21.97,
+        "end": 26.17
        },
        {
         "n": "07",
         "role": "A",
-        "start": 29.22,
-        "end": 35.26
+        "start": 26.17,
+        "end": 32.2
        },
        {
         "n": "08",
         "role": "B",
-        "start": 35.26,
-        "end": 41.16
+        "start": 32.2,
+        "end": 36.53
        },
        {
         "n": "09",
         "role": "A",
-        "start": 41.16,
-        "end": 45.38
+        "start": 36.53,
+        "end": 40.51
        },
        {
         "n": "10",
         "role": "B",
-        "start": 45.38,
-        "end": 49.47
+        "start": 40.51,
+        "end": 44.26
        },
        {
         "n": "11",
         "role": "A",
-        "start": 49.47,
-        "end": 54.75
+        "start": 44.26,
+        "end": 49.46
        },
        {
         "n": "12",
         "role": "B",
-        "start": 54.75,
-        "end": 58.76
+        "start": 49.46,
+        "end": 53.3
        },
        {
         "n": "13",
         "role": "A",
-        "start": 58.76,
-        "end": 63.27
+        "start": 53.3,
+        "end": 58.2
        },
        {
         "n": "14",
         "role": "B",
-        "start": 63.27,
-        "end": 66.86
+        "start": 58.2,
+        "end": 61.47
        },
        {
         "n": "15",
         "role": "A",
-        "start": 66.86,
-        "end": 74.79
+        "start": 61.47,
+        "end": 66.04
        },
        {
         "n": "16",
         "role": "B",
-        "start": 74.79,
-        "end": 80.09
+        "start": 66.04,
+        "end": 70.99
        },
        {
         "n": "17",
         "role": "A",
-        "start": 80.09,
-        "end": 83.62
+        "start": 70.99,
+        "end": 74.89
        },
        {
         "n": "18",
         "role": "B",
-        "start": 83.62,
-        "end": 87.04
+        "start": 74.89,
+        "end": 78.59
        },
        {
         "n": "19",
         "role": "A",
-        "start": 87.04,
-        "end": 90.85
+        "start": 78.59,
+        "end": 82
        },
        {
         "n": "20",
         "role": "B",
-        "start": 90.85,
-        "end": 97.78
+        "start": 82,
+        "end": 84.69
        }
       ]
      },
@@ -2847,127 +2847,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b3-c4.m4a",
-      "audioDuration": 99.94,
+      "audioDuration": 90.23,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 7.68
+        "end": 4.96
        },
        {
         "n": "02",
         "role": "B",
-        "start": 7.68,
-        "end": 12.47
+        "start": 4.96,
+        "end": 9.69
        },
        {
         "n": "03",
         "role": "A",
-        "start": 12.47,
-        "end": 18.52
+        "start": 9.69,
+        "end": 15.37
        },
        {
         "n": "04",
         "role": "B",
-        "start": 18.52,
-        "end": 23.05
+        "start": 15.37,
+        "end": 19.75
        },
        {
         "n": "05",
         "role": "A",
-        "start": 23.05,
-        "end": 28.74
+        "start": 19.75,
+        "end": 25
        },
        {
         "n": "06",
         "role": "B",
-        "start": 28.74,
-        "end": 32.66
+        "start": 25,
+        "end": 28.77
        },
        {
         "n": "07",
         "role": "A",
-        "start": 32.66,
-        "end": 38.26
+        "start": 28.77,
+        "end": 34.34
        },
        {
         "n": "08",
         "role": "B",
-        "start": 38.26,
-        "end": 42.01
+        "start": 34.34,
+        "end": 38.28
        },
        {
         "n": "09",
         "role": "A",
-        "start": 42.01,
-        "end": 45.52
+        "start": 38.28,
+        "end": 41.72
        },
        {
         "n": "10",
         "role": "B",
-        "start": 45.52,
-        "end": 51.02
+        "start": 41.72,
+        "end": 46.53
        },
        {
         "n": "11",
         "role": "A",
-        "start": 51.02,
-        "end": 54.9
+        "start": 46.53,
+        "end": 50.76
        },
        {
         "n": "12",
         "role": "B",
-        "start": 54.9,
-        "end": 59.25
+        "start": 50.76,
+        "end": 55.21
        },
        {
         "n": "13",
         "role": "A",
-        "start": 59.25,
-        "end": 64
+        "start": 55.21,
+        "end": 60.08
        },
        {
         "n": "14",
         "role": "B",
-        "start": 64,
-        "end": 72.96
+        "start": 60.08,
+        "end": 64.74
        },
        {
         "n": "15",
         "role": "A",
-        "start": 72.96,
-        "end": 77.21
+        "start": 64.74,
+        "end": 69.68
        },
        {
         "n": "16",
         "role": "B",
-        "start": 77.21,
-        "end": 82.45
+        "start": 69.68,
+        "end": 74.53
        },
        {
         "n": "17",
         "role": "A",
-        "start": 82.45,
-        "end": 87.07
+        "start": 74.53,
+        "end": 79.5
        },
        {
         "n": "18",
         "role": "B",
-        "start": 87.07,
-        "end": 91.77
+        "start": 79.5,
+        "end": 83.55
        },
        {
         "n": "19",
         "role": "A",
-        "start": 91.77,
-        "end": 95.52
+        "start": 83.55,
+        "end": 87.8
        },
        {
         "n": "20",
         "role": "B",
-        "start": 95.52,
-        "end": 99.94
+        "start": 87.8,
+        "end": 90.23
        }
       ]
      }
@@ -3666,127 +3666,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b4-c1.m4a",
-      "audioDuration": 102.36,
+      "audioDuration": 90.49,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.83
+        "end": 4.65
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.83,
-        "end": 9.33
+        "start": 4.65,
+        "end": 8.71
        },
        {
         "n": "03",
         "role": "A",
-        "start": 9.33,
-        "end": 13.84
+        "start": 8.71,
+        "end": 13.81
        },
        {
         "n": "04",
         "role": "B",
-        "start": 13.84,
-        "end": 19.65
+        "start": 13.81,
+        "end": 18.93
        },
        {
         "n": "05",
         "role": "A",
-        "start": 19.65,
-        "end": 24.16
+        "start": 18.93,
+        "end": 23.42
        },
        {
         "n": "06",
         "role": "B",
-        "start": 24.16,
-        "end": 28.39
+        "start": 23.42,
+        "end": 27.57
        },
        {
         "n": "07",
         "role": "A",
-        "start": 28.39,
-        "end": 36.51
+        "start": 27.57,
+        "end": 32.05
        },
        {
         "n": "08",
         "role": "B",
-        "start": 36.51,
-        "end": 41.73
+        "start": 32.05,
+        "end": 37.41
        },
        {
         "n": "09",
         "role": "A",
-        "start": 41.73,
-        "end": 47.01
+        "start": 37.41,
+        "end": 42.16
        },
        {
         "n": "10",
         "role": "B",
-        "start": 47.01,
-        "end": 52.75
+        "start": 42.16,
+        "end": 47.56
        },
        {
         "n": "11",
         "role": "A",
-        "start": 52.75,
-        "end": 56.3
+        "start": 47.56,
+        "end": 51.42
        },
        {
         "n": "12",
         "role": "B",
-        "start": 56.3,
-        "end": 62.4
+        "start": 51.42,
+        "end": 57.43
        },
        {
         "n": "13",
         "role": "A",
-        "start": 62.4,
-        "end": 67.56
+        "start": 57.43,
+        "end": 62.65
        },
        {
         "n": "14",
         "role": "B",
-        "start": 67.56,
-        "end": 72.39
+        "start": 62.65,
+        "end": 67.4
        },
        {
         "n": "15",
         "role": "A",
-        "start": 72.39,
-        "end": 76.05
+        "start": 67.4,
+        "end": 71.67
        },
        {
         "n": "16",
         "role": "B",
-        "start": 76.05,
-        "end": 84.7
+        "start": 71.67,
+        "end": 76.16
        },
        {
         "n": "17",
         "role": "A",
-        "start": 84.7,
-        "end": 89.42
+        "start": 76.16,
+        "end": 80.54
        },
        {
         "n": "18",
         "role": "B",
-        "start": 89.42,
-        "end": 92.91
+        "start": 80.54,
+        "end": 84.28
        },
        {
         "n": "19",
         "role": "A",
-        "start": 92.91,
-        "end": 99.5
+        "start": 84.28,
+        "end": 87.7
        },
        {
         "n": "20",
         "role": "B",
-        "start": 99.5,
-        "end": 102.36
+        "start": 87.7,
+        "end": 90.49
        }
       ]
      },
@@ -4344,127 +4344,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b4-c2.m4a",
-      "audioDuration": 103.67,
+      "audioDuration": 90.58,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.67
+        "end": 4.57
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.67,
-        "end": 9.23
+        "start": 4.57,
+        "end": 8.66
        },
        {
         "n": "03",
         "role": "A",
-        "start": 9.23,
-        "end": 14.24
+        "start": 8.66,
+        "end": 13.25
        },
        {
         "n": "04",
         "role": "B",
-        "start": 14.24,
-        "end": 19.58
+        "start": 13.25,
+        "end": 18.34
        },
        {
         "n": "05",
         "role": "A",
-        "start": 19.58,
-        "end": 28.39
+        "start": 18.34,
+        "end": 22.57
        },
        {
         "n": "06",
         "role": "B",
-        "start": 28.39,
-        "end": 33.53
+        "start": 22.57,
+        "end": 27.59
        },
        {
         "n": "07",
         "role": "A",
-        "start": 33.53,
-        "end": 37.4
+        "start": 27.59,
+        "end": 31.86
        },
        {
         "n": "08",
         "role": "B",
-        "start": 37.4,
-        "end": 43.09
+        "start": 31.86,
+        "end": 37.08
        },
        {
         "n": "09",
         "role": "A",
-        "start": 43.09,
-        "end": 46.94
+        "start": 37.08,
+        "end": 41.3
        },
        {
         "n": "10",
         "role": "B",
-        "start": 46.94,
-        "end": 51.64
+        "start": 41.3,
+        "end": 45.84
        },
        {
         "n": "11",
         "role": "A",
-        "start": 51.64,
-        "end": 55.5
+        "start": 45.84,
+        "end": 49.18
        },
        {
         "n": "12",
         "role": "B",
-        "start": 55.5,
-        "end": 62.61
+        "start": 49.18,
+        "end": 54.95
        },
        {
         "n": "13",
         "role": "A",
-        "start": 62.61,
-        "end": 67.76
+        "start": 54.95,
+        "end": 59.86
        },
        {
         "n": "14",
         "role": "B",
-        "start": 67.76,
-        "end": 73.24
+        "start": 59.86,
+        "end": 65.31
        },
        {
         "n": "15",
         "role": "A",
-        "start": 73.24,
-        "end": 78.71
+        "start": 65.31,
+        "end": 69.98
        },
        {
         "n": "16",
         "role": "B",
-        "start": 78.71,
-        "end": 82.93
+        "start": 69.98,
+        "end": 74.38
        },
        {
         "n": "17",
         "role": "A",
-        "start": 82.93,
-        "end": 88
+        "start": 74.38,
+        "end": 79.57
        },
        {
         "n": "18",
         "role": "B",
-        "start": 88,
-        "end": 92.11
+        "start": 79.57,
+        "end": 83.56
        },
        {
         "n": "19",
         "role": "A",
-        "start": 92.11,
-        "end": 97.82
+        "start": 83.56,
+        "end": 86.94
        },
        {
         "n": "20",
         "role": "B",
-        "start": 97.82,
-        "end": 103.67
+        "start": 86.94,
+        "end": 90.58
        }
       ]
      },
@@ -5022,127 +5022,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b4-c3.m4a",
-      "audioDuration": 107.52,
+      "audioDuration": 98.39,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 6.2
+        "end": 6.1
        },
        {
         "n": "02",
         "role": "B",
-        "start": 6.2,
-        "end": 13.1
+        "start": 6.1,
+        "end": 11.94
        },
        {
         "n": "03",
         "role": "A",
-        "start": 13.1,
-        "end": 16.6
+        "start": 11.94,
+        "end": 15.75
        },
        {
         "n": "04",
         "role": "B",
-        "start": 16.6,
-        "end": 25.95
+        "start": 15.75,
+        "end": 20.55
        },
        {
         "n": "05",
         "role": "A",
-        "start": 25.95,
-        "end": 30.37
+        "start": 20.55,
+        "end": 24.99
        },
        {
         "n": "06",
         "role": "B",
-        "start": 30.37,
-        "end": 35.76
+        "start": 24.99,
+        "end": 30.48
        },
        {
         "n": "07",
         "role": "A",
-        "start": 35.76,
-        "end": 41.58
+        "start": 30.48,
+        "end": 36.24
        },
        {
         "n": "08",
         "role": "B",
-        "start": 41.58,
-        "end": 45.47
+        "start": 36.24,
+        "end": 40.46
        },
        {
         "n": "09",
         "role": "A",
-        "start": 45.47,
-        "end": 50.64
+        "start": 40.46,
+        "end": 45.98
        },
        {
         "n": "10",
         "role": "B",
-        "start": 50.64,
-        "end": 56.16
+        "start": 45.98,
+        "end": 50.83
        },
        {
         "n": "11",
         "role": "A",
-        "start": 56.16,
-        "end": 60.61
+        "start": 50.83,
+        "end": 55.8
        },
        {
         "n": "12",
         "role": "B",
-        "start": 60.61,
-        "end": 67.85
+        "start": 55.8,
+        "end": 62.06
        },
        {
         "n": "13",
         "role": "A",
-        "start": 67.85,
-        "end": 71.67
+        "start": 62.06,
+        "end": 65.93
        },
        {
         "n": "14",
         "role": "B",
-        "start": 71.67,
-        "end": 80.6
+        "start": 65.93,
+        "end": 72.07
        },
        {
         "n": "15",
         "role": "A",
-        "start": 80.6,
-        "end": 83.48
+        "start": 72.07,
+        "end": 75.22
        },
        {
         "n": "16",
         "role": "B",
-        "start": 83.48,
-        "end": 88.86
+        "start": 75.22,
+        "end": 80.61
        },
        {
         "n": "17",
         "role": "A",
-        "start": 88.86,
-        "end": 93.67
+        "start": 80.61,
+        "end": 85.25
        },
        {
         "n": "18",
         "role": "B",
-        "start": 93.67,
-        "end": 97.45
+        "start": 85.25,
+        "end": 88.98
        },
        {
         "n": "19",
         "role": "A",
-        "start": 97.45,
-        "end": 103.41
+        "start": 88.98,
+        "end": 94.18
        },
        {
         "n": "20",
         "role": "B",
-        "start": 103.41,
-        "end": 107.52
+        "start": 94.18,
+        "end": 98.39
        }
       ]
      }
@@ -5886,127 +5886,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b10-c1.m4a",
-      "audioDuration": 93.09,
+      "audioDuration": 82.94,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.01
+        "end": 3.48
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.01,
-        "end": 9.29
+        "start": 3.48,
+        "end": 8
        },
        {
         "n": "03",
         "role": "A",
-        "start": 9.29,
-        "end": 13.01
+        "start": 8,
+        "end": 12.28
        },
        {
         "n": "04",
         "role": "B",
-        "start": 13.01,
-        "end": 17.11
+        "start": 12.28,
+        "end": 16.27
        },
        {
         "n": "05",
         "role": "A",
-        "start": 17.11,
-        "end": 21.98
+        "start": 16.27,
+        "end": 20.79
        },
        {
         "n": "06",
         "role": "B",
-        "start": 21.98,
-        "end": 25.09
+        "start": 20.79,
+        "end": 24.03
        },
        {
         "n": "07",
         "role": "A",
-        "start": 25.09,
-        "end": 29.89
+        "start": 24.03,
+        "end": 28.52
        },
        {
         "n": "08",
         "role": "B",
-        "start": 29.89,
-        "end": 34.05
+        "start": 28.52,
+        "end": 32.91
        },
        {
         "n": "09",
         "role": "A",
-        "start": 34.05,
-        "end": 38.82
+        "start": 32.91,
+        "end": 38.3
        },
        {
         "n": "10",
         "role": "B",
-        "start": 38.82,
-        "end": 43.4
+        "start": 38.3,
+        "end": 42.67
        },
        {
         "n": "11",
         "role": "A",
-        "start": 43.4,
-        "end": 47.99
+        "start": 42.67,
+        "end": 47.87
        },
        {
         "n": "12",
         "role": "B",
-        "start": 47.99,
-        "end": 53.71
+        "start": 47.87,
+        "end": 52.5
        },
        {
         "n": "13",
         "role": "A",
-        "start": 53.71,
-        "end": 57.17
+        "start": 52.5,
+        "end": 56.23
        },
        {
         "n": "14",
         "role": "B",
-        "start": 57.17,
-        "end": 62.21
+        "start": 56.23,
+        "end": 60.68
        },
        {
         "n": "15",
         "role": "A",
-        "start": 62.21,
-        "end": 66.85
+        "start": 60.68,
+        "end": 65.23
        },
        {
         "n": "16",
         "role": "B",
-        "start": 66.85,
-        "end": 74.19
+        "start": 65.23,
+        "end": 69.33
        },
        {
         "n": "17",
         "role": "A",
-        "start": 74.19,
-        "end": 78.44
+        "start": 69.33,
+        "end": 73.13
        },
        {
         "n": "18",
         "role": "B",
-        "start": 78.44,
-        "end": 82.3
+        "start": 73.13,
+        "end": 76.56
        },
        {
         "n": "19",
         "role": "A",
-        "start": 82.3,
-        "end": 87.29
+        "start": 76.56,
+        "end": 79.97
        },
        {
         "n": "20",
         "role": "B",
-        "start": 87.29,
-        "end": 93.09
+        "start": 79.97,
+        "end": 82.94
        }
       ]
      },
@@ -6583,127 +6583,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b10-c2.m4a",
-      "audioDuration": 98.07,
+      "audioDuration": 83.9,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.12
+        "end": 4.28
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.12,
-        "end": 9.26
+        "start": 4.28,
+        "end": 8.32
        },
        {
         "n": "03",
         "role": "A",
-        "start": 9.26,
-        "end": 17.03
+        "start": 8.32,
+        "end": 12.73
        },
        {
         "n": "04",
         "role": "B",
-        "start": 17.03,
-        "end": 21.73
+        "start": 12.73,
+        "end": 17.12
        },
        {
         "n": "05",
         "role": "A",
-        "start": 21.73,
-        "end": 26.32
+        "start": 17.12,
+        "end": 21.32
        },
        {
         "n": "06",
         "role": "B",
-        "start": 26.32,
-        "end": 29.82
+        "start": 21.32,
+        "end": 24.98
        },
        {
         "n": "07",
         "role": "A",
-        "start": 29.82,
-        "end": 35.65
+        "start": 24.98,
+        "end": 30.18
        },
        {
         "n": "08",
         "role": "B",
-        "start": 35.65,
-        "end": 39.09
+        "start": 30.18,
+        "end": 33.8
        },
        {
         "n": "09",
         "role": "A",
-        "start": 39.09,
-        "end": 42.92
+        "start": 33.8,
+        "end": 37.41
        },
        {
         "n": "10",
         "role": "B",
-        "start": 42.92,
-        "end": 47.83
+        "start": 37.41,
+        "end": 41.94
        },
        {
         "n": "11",
         "role": "A",
-        "start": 47.83,
-        "end": 54.88
+        "start": 41.94,
+        "end": 46.62
        },
        {
         "n": "12",
         "role": "B",
-        "start": 54.88,
-        "end": 58.25
+        "start": 46.62,
+        "end": 50.32
        },
        {
         "n": "13",
         "role": "A",
-        "start": 58.25,
-        "end": 62.91
+        "start": 50.32,
+        "end": 55.12
        },
        {
         "n": "14",
         "role": "B",
-        "start": 62.91,
-        "end": 67.56
+        "start": 55.12,
+        "end": 59.55
        },
        {
         "n": "15",
         "role": "A",
-        "start": 67.56,
-        "end": 71.94
+        "start": 59.55,
+        "end": 63.03
        },
        {
         "n": "16",
         "role": "B",
-        "start": 71.94,
-        "end": 76.02
+        "start": 63.03,
+        "end": 66.99
        },
        {
         "n": "17",
         "role": "A",
-        "start": 76.02,
-        "end": 82.65
+        "start": 66.99,
+        "end": 71.73
        },
        {
         "n": "18",
         "role": "B",
-        "start": 82.65,
-        "end": 90
+        "start": 71.73,
+        "end": 76.34
        },
        {
         "n": "19",
         "role": "A",
-        "start": 90,
-        "end": 94.31
+        "start": 76.34,
+        "end": 80.11
        },
        {
         "n": "20",
         "role": "B",
-        "start": 94.31,
-        "end": 98.07
+        "start": 80.11,
+        "end": 83.9
        }
       ]
      }
@@ -7407,127 +7407,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b12-c1.m4a",
-      "audioDuration": 103.46,
+      "audioDuration": 92.42,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.91
+        "end": 4.63
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.91,
-        "end": 13.43
+        "start": 4.63,
+        "end": 9.06
        },
        {
         "n": "03",
         "role": "A",
-        "start": 13.43,
-        "end": 17.34
+        "start": 9.06,
+        "end": 12.45
        },
        {
         "n": "04",
         "role": "B",
-        "start": 17.34,
-        "end": 22.96
+        "start": 12.45,
+        "end": 17.51
        },
        {
         "n": "05",
         "role": "A",
-        "start": 22.96,
-        "end": 27.46
+        "start": 17.51,
+        "end": 22.4
        },
        {
         "n": "06",
         "role": "B",
-        "start": 27.46,
-        "end": 32.41
+        "start": 22.4,
+        "end": 26.79
        },
        {
         "n": "07",
         "role": "A",
-        "start": 32.41,
-        "end": 37.97
+        "start": 26.79,
+        "end": 32.58
        },
        {
         "n": "08",
         "role": "B",
-        "start": 37.97,
-        "end": 46.46
+        "start": 32.58,
+        "end": 37.22
        },
        {
         "n": "09",
         "role": "A",
-        "start": 46.46,
-        "end": 51.19
+        "start": 37.22,
+        "end": 42.33
        },
        {
         "n": "10",
         "role": "B",
-        "start": 51.19,
-        "end": 55.51
+        "start": 42.33,
+        "end": 46.89
        },
        {
         "n": "11",
         "role": "A",
-        "start": 55.51,
-        "end": 60.03
+        "start": 46.89,
+        "end": 51.46
        },
        {
         "n": "12",
         "role": "B",
-        "start": 60.03,
-        "end": 64.84
+        "start": 51.46,
+        "end": 56.11
        },
        {
         "n": "13",
         "role": "A",
-        "start": 64.84,
-        "end": 70.44
+        "start": 56.11,
+        "end": 61.53
        },
        {
         "n": "14",
         "role": "B",
-        "start": 70.44,
-        "end": 73.67
+        "start": 61.53,
+        "end": 64.79
        },
        {
         "n": "15",
         "role": "A",
-        "start": 73.67,
-        "end": 78.62
+        "start": 64.79,
+        "end": 70.18
        },
        {
         "n": "16",
         "role": "B",
-        "start": 78.62,
-        "end": 83.06
+        "start": 70.18,
+        "end": 74.85
        },
        {
         "n": "17",
         "role": "A",
-        "start": 83.06,
-        "end": 88.99
+        "start": 74.85,
+        "end": 80.3
        },
        {
         "n": "18",
         "role": "B",
-        "start": 88.99,
-        "end": 93.8
+        "start": 80.3,
+        "end": 84.75
        },
        {
         "n": "19",
         "role": "A",
-        "start": 93.8,
-        "end": 96.76
+        "start": 84.75,
+        "end": 88.69
        },
        {
         "n": "20",
         "role": "B",
-        "start": 96.76,
-        "end": 103.46
+        "start": 88.69,
+        "end": 92.42
        }
       ]
      },
@@ -8085,127 +8085,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b12-c2.m4a",
-      "audioDuration": 101.88,
+      "audioDuration": 94.59,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 5.87
+        "end": 5.88
        },
        {
         "n": "02",
         "role": "B",
-        "start": 5.87,
-        "end": 11.92
+        "start": 5.88,
+        "end": 11.08
        },
        {
         "n": "03",
         "role": "A",
-        "start": 11.92,
-        "end": 17.2
+        "start": 11.08,
+        "end": 16.85
        },
        {
         "n": "04",
         "role": "B",
-        "start": 17.2,
-        "end": 21.05
+        "start": 16.85,
+        "end": 20.59
        },
        {
         "n": "05",
         "role": "A",
-        "start": 21.05,
-        "end": 27.4
+        "start": 20.59,
+        "end": 26.73
        },
        {
         "n": "06",
         "role": "B",
-        "start": 27.4,
-        "end": 31.55
+        "start": 26.73,
+        "end": 31.27
        },
        {
         "n": "07",
         "role": "A",
-        "start": 31.55,
-        "end": 37.18
+        "start": 31.27,
+        "end": 36.13
        },
        {
         "n": "08",
         "role": "B",
-        "start": 37.18,
-        "end": 40.88
+        "start": 36.13,
+        "end": 40.33
        },
        {
         "n": "09",
         "role": "A",
-        "start": 40.88,
-        "end": 46.18
+        "start": 40.33,
+        "end": 44.86
        },
        {
         "n": "10",
         "role": "B",
-        "start": 46.18,
-        "end": 53.44
+        "start": 44.86,
+        "end": 50.96
        },
        {
         "n": "11",
         "role": "A",
-        "start": 53.44,
-        "end": 56.99
+        "start": 50.96,
+        "end": 54.64
        },
        {
         "n": "12",
         "role": "B",
-        "start": 56.99,
-        "end": 61.94
+        "start": 54.64,
+        "end": 59.73
        },
        {
         "n": "13",
         "role": "A",
-        "start": 61.94,
-        "end": 64.59
+        "start": 59.73,
+        "end": 62.42
        },
        {
         "n": "14",
         "role": "B",
-        "start": 64.59,
-        "end": 73.01
+        "start": 62.42,
+        "end": 67.95
        },
        {
         "n": "15",
         "role": "A",
-        "start": 73.01,
-        "end": 78.26
+        "start": 67.95,
+        "end": 73.29
        },
        {
         "n": "16",
         "role": "B",
-        "start": 78.26,
-        "end": 81.55
+        "start": 73.29,
+        "end": 76.93
        },
        {
         "n": "17",
         "role": "A",
-        "start": 81.55,
-        "end": 86.7
+        "start": 76.93,
+        "end": 81.73
        },
        {
         "n": "18",
         "role": "B",
-        "start": 86.7,
-        "end": 91.84
+        "start": 81.73,
+        "end": 86.66
        },
        {
         "n": "19",
         "role": "A",
-        "start": 91.84,
-        "end": 98.66
+        "start": 86.66,
+        "end": 91.41
        },
        {
         "n": "20",
         "role": "B",
-        "start": 98.66,
-        "end": 101.88
+        "start": 91.41,
+        "end": 94.59
        }
       ]
      }
@@ -8940,127 +8940,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b17-c1.m4a",
-      "audioDuration": 122.07,
+      "audioDuration": 108.41,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 8.08
+        "end": 5.54
        },
        {
         "n": "02",
         "role": "B",
-        "start": 8.08,
-        "end": 13.57
+        "start": 5.54,
+        "end": 10.25
        },
        {
         "n": "03",
         "role": "A",
-        "start": 13.57,
-        "end": 18.52
+        "start": 10.25,
+        "end": 15.62
        },
        {
         "n": "04",
         "role": "B",
-        "start": 18.52,
-        "end": 24.8
+        "start": 15.62,
+        "end": 21.53
        },
        {
         "n": "05",
         "role": "A",
-        "start": 24.8,
-        "end": 34.9
+        "start": 21.53,
+        "end": 27.22
        },
        {
         "n": "06",
         "role": "B",
-        "start": 34.9,
-        "end": 39.29
+        "start": 27.22,
+        "end": 31.84
        },
        {
         "n": "07",
         "role": "A",
-        "start": 39.29,
-        "end": 43.82
+        "start": 31.84,
+        "end": 36.56
        },
        {
         "n": "08",
         "role": "B",
-        "start": 43.82,
-        "end": 49.4
+        "start": 36.56,
+        "end": 42.16
        },
        {
         "n": "09",
         "role": "A",
-        "start": 49.4,
-        "end": 56.15
+        "start": 42.16,
+        "end": 48.63
        },
        {
         "n": "10",
         "role": "B",
-        "start": 56.15,
-        "end": 63.08
+        "start": 48.63,
+        "end": 54.83
        },
        {
         "n": "11",
         "role": "A",
-        "start": 63.08,
-        "end": 69.11
+        "start": 54.83,
+        "end": 60.09
        },
        {
         "n": "12",
         "role": "B",
-        "start": 69.11,
-        "end": 73.14
+        "start": 60.09,
+        "end": 64.14
        },
        {
         "n": "13",
         "role": "A",
-        "start": 73.14,
-        "end": 78.07
+        "start": 64.14,
+        "end": 69.01
        },
        {
         "n": "14",
         "role": "B",
-        "start": 78.07,
-        "end": 88.34
+        "start": 69.01,
+        "end": 75.45
        },
        {
         "n": "15",
         "role": "A",
-        "start": 88.34,
-        "end": 91.67
+        "start": 75.45,
+        "end": 79.76
        },
        {
         "n": "16",
         "role": "B",
-        "start": 91.67,
-        "end": 96.82
+        "start": 79.76,
+        "end": 84.68
        },
        {
         "n": "17",
         "role": "A",
-        "start": 96.82,
-        "end": 104.78
+        "start": 84.68,
+        "end": 92.17
        },
        {
         "n": "18",
         "role": "B",
-        "start": 104.78,
-        "end": 111.31
+        "start": 92.17,
+        "end": 98.17
        },
        {
         "n": "19",
         "role": "A",
-        "start": 111.31,
-        "end": 117.39
+        "start": 98.17,
+        "end": 104.21
        },
        {
         "n": "20",
         "role": "B",
-        "start": 117.39,
-        "end": 122.07
+        "start": 104.21,
+        "end": 108.41
        }
       ]
      },
@@ -9637,127 +9637,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b17-c2.m4a",
-      "audioDuration": 123.7,
+      "audioDuration": 108.82,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 7.51
+        "end": 5.54
        },
        {
         "n": "02",
         "role": "B",
-        "start": 7.51,
-        "end": 12.63
+        "start": 5.54,
+        "end": 10.28
        },
        {
         "n": "03",
         "role": "A",
-        "start": 12.63,
-        "end": 18.94
+        "start": 10.28,
+        "end": 16.3
        },
        {
         "n": "04",
         "role": "B",
-        "start": 18.94,
-        "end": 24.94
+        "start": 16.3,
+        "end": 22.1
        },
        {
         "n": "05",
         "role": "A",
-        "start": 24.94,
-        "end": 31.32
+        "start": 22.1,
+        "end": 28.19
        },
        {
         "n": "06",
         "role": "B",
-        "start": 31.32,
-        "end": 40.65
+        "start": 28.19,
+        "end": 34.47
        },
        {
         "n": "07",
         "role": "A",
-        "start": 40.65,
-        "end": 45.63
+        "start": 34.47,
+        "end": 39.54
        },
        {
         "n": "08",
         "role": "B",
-        "start": 45.63,
-        "end": 51.87
+        "start": 39.54,
+        "end": 45.45
        },
        {
         "n": "09",
         "role": "A",
-        "start": 51.87,
-        "end": 58.54
+        "start": 45.45,
+        "end": 51.24
        },
        {
         "n": "10",
         "role": "B",
-        "start": 58.54,
-        "end": 62.79
+        "start": 51.24,
+        "end": 55.94
        },
        {
         "n": "11",
         "role": "A",
-        "start": 62.79,
-        "end": 68.47
+        "start": 55.94,
+        "end": 61.71
        },
        {
         "n": "12",
         "role": "B",
-        "start": 68.47,
-        "end": 73.42
+        "start": 61.71,
+        "end": 66.72
        },
        {
         "n": "13",
         "role": "A",
-        "start": 73.42,
-        "end": 79.31
+        "start": 66.72,
+        "end": 72.4
        },
        {
         "n": "14",
         "role": "B",
-        "start": 79.31,
-        "end": 84.75
+        "start": 72.4,
+        "end": 77.4
        },
        {
         "n": "15",
         "role": "A",
-        "start": 84.75,
-        "end": 91.16
+        "start": 77.4,
+        "end": 84.04
        },
        {
         "n": "16",
         "role": "B",
-        "start": 91.16,
-        "end": 97.76
+        "start": 84.04,
+        "end": 89.92
        },
        {
         "n": "17",
         "role": "A",
-        "start": 97.76,
-        "end": 105.3
+        "start": 89.92,
+        "end": 94.85
        },
        {
         "n": "18",
         "role": "B",
-        "start": 105.3,
-        "end": 110.31
+        "start": 94.85,
+        "end": 99.6
        },
        {
         "n": "19",
         "role": "A",
-        "start": 110.31,
-        "end": 115.36
+        "start": 99.6,
+        "end": 104.28
        },
        {
         "n": "20",
         "role": "B",
-        "start": 115.36,
-        "end": 123.7
+        "start": 104.28,
+        "end": 108.82
        }
       ]
      }
@@ -10707,115 +10707,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b2-c1.m4a",
-      "audioDuration": 98.66,
+      "audioDuration": 93.78,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 5.04
+        "end": 5.05
        },
        {
         "n": "02",
         "role": "B",
-        "start": 5.04,
-        "end": 11.99
+        "start": 5.05,
+        "end": 10.99
        },
        {
         "n": "03",
         "role": "A",
-        "start": 11.99,
-        "end": 16.53
+        "start": 10.99,
+        "end": 15.39
        },
        {
         "n": "04",
         "role": "B",
-        "start": 16.53,
-        "end": 21.85
+        "start": 15.39,
+        "end": 20.34
        },
        {
         "n": "05",
         "role": "A",
-        "start": 21.85,
-        "end": 27.27
+        "start": 20.34,
+        "end": 26.01
        },
        {
         "n": "06",
         "role": "B",
-        "start": 27.27,
-        "end": 33.39
+        "start": 26.01,
+        "end": 32.04
        },
        {
         "n": "07",
         "role": "A",
-        "start": 33.39,
-        "end": 36.77
+        "start": 32.04,
+        "end": 35.5
        },
        {
         "n": "08",
         "role": "B",
-        "start": 36.77,
-        "end": 43.15
+        "start": 35.5,
+        "end": 41.13
        },
        {
         "n": "09",
         "role": "A",
-        "start": 43.15,
-        "end": 47.99
+        "start": 41.13,
+        "end": 45.62
        },
        {
         "n": "10",
         "role": "B",
-        "start": 47.99,
-        "end": 54.67
+        "start": 45.62,
+        "end": 51.96
        },
        {
         "n": "11",
         "role": "A",
-        "start": 54.67,
-        "end": 58.71
+        "start": 51.96,
+        "end": 55.7
        },
        {
         "n": "12",
         "role": "B",
-        "start": 58.71,
-        "end": 65.43
+        "start": 55.7,
+        "end": 61.35
        },
        {
         "n": "13",
         "role": "A",
-        "start": 65.43,
-        "end": 69.67
+        "start": 61.35,
+        "end": 66.38
        },
        {
         "n": "14",
         "role": "B",
-        "start": 69.67,
-        "end": 75.99
+        "start": 66.38,
+        "end": 72.18
        },
        {
         "n": "15",
         "role": "A",
-        "start": 75.99,
-        "end": 81.55
+        "start": 72.18,
+        "end": 77.84
        },
        {
         "n": "16",
         "role": "B",
-        "start": 81.55,
-        "end": 88.5
+        "start": 77.84,
+        "end": 83.74
        },
        {
         "n": "17",
         "role": "A",
-        "start": 88.5,
-        "end": 92.24
+        "start": 83.74,
+        "end": 88.17
        },
        {
         "n": "18",
         "role": "B",
-        "start": 92.24,
-        "end": 98.66
+        "start": 88.17,
+        "end": 93.78
        }
       ],
       "examNo": 1,
@@ -11433,115 +11433,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b2-c2.m4a",
-      "audioDuration": 106.82,
+      "audioDuration": 101.07,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 6.09
+        "end": 5.92
        },
        {
         "n": "02",
         "role": "B",
-        "start": 6.09,
-        "end": 10.25
+        "start": 5.92,
+        "end": 9.74
        },
        {
         "n": "03",
         "role": "A",
-        "start": 10.25,
-        "end": 16.09
+        "start": 9.74,
+        "end": 15.56
        },
        {
         "n": "04",
         "role": "B",
-        "start": 16.09,
-        "end": 20.85
+        "start": 15.56,
+        "end": 19.85
        },
        {
         "n": "05",
         "role": "A",
-        "start": 20.85,
-        "end": 26.33
+        "start": 19.85,
+        "end": 26.05
        },
        {
         "n": "06",
         "role": "B",
-        "start": 26.33,
-        "end": 31.04
+        "start": 26.05,
+        "end": 31.1
        },
        {
         "n": "07",
         "role": "A",
-        "start": 31.04,
-        "end": 39.19
+        "start": 31.1,
+        "end": 38.65
        },
        {
         "n": "08",
         "role": "B",
-        "start": 39.19,
-        "end": 47.26
+        "start": 38.65,
+        "end": 45.43
        },
        {
         "n": "09",
         "role": "A",
-        "start": 47.26,
-        "end": 53.86
+        "start": 45.43,
+        "end": 51.48
        },
        {
         "n": "10",
         "role": "B",
-        "start": 53.86,
-        "end": 56.69
+        "start": 51.48,
+        "end": 54.44
        },
        {
         "n": "11",
         "role": "A",
-        "start": 56.69,
-        "end": 62.68
+        "start": 54.44,
+        "end": 60.51
        },
        {
         "n": "12",
         "role": "B",
-        "start": 62.68,
-        "end": 66.59
+        "start": 60.51,
+        "end": 64.45
        },
        {
         "n": "13",
         "role": "A",
-        "start": 66.59,
-        "end": 72.74
+        "start": 64.45,
+        "end": 70.32
        },
        {
         "n": "14",
         "role": "B",
-        "start": 72.74,
-        "end": 77.79
+        "start": 70.32,
+        "end": 75.36
        },
        {
         "n": "15",
         "role": "A",
-        "start": 77.79,
-        "end": 85.69
+        "start": 75.36,
+        "end": 81.96
        },
        {
         "n": "16",
         "role": "B",
-        "start": 85.69,
-        "end": 91.74
+        "start": 81.96,
+        "end": 87.85
        },
        {
         "n": "17",
         "role": "A",
-        "start": 91.74,
-        "end": 99.6
+        "start": 87.85,
+        "end": 94.84
        },
        {
         "n": "18",
         "role": "B",
-        "start": 99.6,
-        "end": 106.82
+        "start": 94.84,
+        "end": 101.07
        }
       ],
       "examNo": 2,
@@ -12288,103 +12288,103 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b2-q3.m4a",
-      "audioDuration": 121.23,
+      "audioDuration": 109.96,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 4.26
+        "end": 3.65
        },
        {
         "n": 2,
         "role": "B",
-        "start": 4.26,
-        "end": 12.41
+        "start": 3.65,
+        "end": 10.59
        },
        {
         "n": 3,
         "role": "A",
-        "start": 12.41,
-        "end": 20.08
+        "start": 10.59,
+        "end": 17.87
        },
        {
         "n": 4,
         "role": "B",
-        "start": 20.08,
-        "end": 22.79
+        "start": 17.87,
+        "end": 20.76
        },
        {
         "n": 5,
         "role": "A",
-        "start": 22.79,
-        "end": 28.37
+        "start": 20.76,
+        "end": 26.07
        },
        {
         "n": 6,
         "role": "B",
-        "start": 28.37,
-        "end": 36.22
+        "start": 26.07,
+        "end": 32.96
        },
        {
         "n": 7,
         "role": "A",
-        "start": 36.22,
-        "end": 42.95
+        "start": 32.96,
+        "end": 39.1
        },
        {
         "n": 8,
         "role": "B",
-        "start": 42.95,
-        "end": 53.65
+        "start": 39.1,
+        "end": 49.02
        },
        {
         "n": 9,
         "role": "A",
-        "start": 53.65,
-        "end": 60.5
+        "start": 49.02,
+        "end": 55.74
        },
        {
         "n": 10,
         "role": "B",
-        "start": 60.5,
-        "end": 69
+        "start": 55.74,
+        "end": 62.77
        },
        {
         "n": 11,
         "role": "A",
-        "start": 69,
-        "end": 74.32
+        "start": 62.77,
+        "end": 67.94
        },
        {
         "n": 12,
         "role": "B",
-        "start": 74.32,
-        "end": 88.45
+        "start": 67.94,
+        "end": 80.38
        },
        {
         "n": 13,
         "role": "A",
-        "start": 88.45,
-        "end": 93.61
+        "start": 80.38,
+        "end": 85.26
        },
        {
         "n": 14,
         "role": "B",
-        "start": 93.61,
-        "end": 104.26
+        "start": 85.26,
+        "end": 94.4
        },
        {
         "n": 15,
         "role": "A",
-        "start": 104.26,
-        "end": 114.01
+        "start": 94.4,
+        "end": 103.47
        },
        {
         "n": 16,
         "role": "B",
-        "start": 114.01,
-        "end": 121.23
+        "start": 103.47,
+        "end": 109.96
        }
       ]
      },
@@ -13034,91 +13034,91 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b2-q4.m4a",
-      "audioDuration": 128.55,
+      "audioDuration": 121.88,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 6.53
+        "end": 6.17
        },
        {
         "n": 2,
         "role": "B",
-        "start": 6.53,
-        "end": 14.58
+        "start": 6.17,
+        "end": 13.35
        },
        {
         "n": 3,
         "role": "A",
-        "start": 14.58,
-        "end": 24.31
+        "start": 13.35,
+        "end": 22.56
        },
        {
         "n": 4,
         "role": "B",
-        "start": 24.31,
-        "end": 34.21
+        "start": 22.56,
+        "end": 31.4
        },
        {
         "n": 5,
         "role": "A",
-        "start": 34.21,
-        "end": 44.94
+        "start": 31.4,
+        "end": 41.84
        },
        {
         "n": 6,
         "role": "B",
-        "start": 44.94,
-        "end": 54.44
+        "start": 41.84,
+        "end": 50.24
        },
        {
         "n": 7,
         "role": "A",
-        "start": 54.44,
-        "end": 64.48
+        "start": 50.24,
+        "end": 61.31
        },
        {
         "n": 8,
         "role": "B",
-        "start": 64.48,
-        "end": 78.14
+        "start": 61.31,
+        "end": 73.3
        },
        {
         "n": 9,
         "role": "A",
-        "start": 78.14,
-        "end": 88.08
+        "start": 73.3,
+        "end": 83.53
        },
        {
         "n": 10,
         "role": "B",
-        "start": 88.08,
-        "end": 97.73
+        "start": 83.53,
+        "end": 92.27
        },
        {
         "n": 11,
         "role": "A",
-        "start": 97.73,
-        "end": 107.49
+        "start": 92.27,
+        "end": 101.56
        },
        {
         "n": 12,
         "role": "B",
-        "start": 107.49,
-        "end": 117.93
+        "start": 101.56,
+        "end": 111.87
        },
        {
         "n": 13,
         "role": "A",
-        "start": 117.93,
-        "end": 124.21
+        "start": 111.87,
+        "end": 117.62
        },
        {
         "n": 14,
         "role": "B",
-        "start": 124.21,
-        "end": 128.55
+        "start": 117.62,
+        "end": 121.88
        }
       ]
      },
@@ -13594,67 +13594,67 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b2-q5.m4a",
-      "audioDuration": 118.17,
+      "audioDuration": 111.44,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 9.44
+        "end": 10.1
        },
        {
         "n": 2,
         "role": "B",
-        "start": 9.44,
-        "end": 21.22
+        "start": 10.1,
+        "end": 20.53
        },
        {
         "n": 3,
         "role": "A",
-        "start": 21.22,
-        "end": 31.29
+        "start": 20.53,
+        "end": 30.72
        },
        {
         "n": 4,
         "role": "B",
-        "start": 31.29,
-        "end": 45.3
+        "start": 30.72,
+        "end": 43.25
        },
        {
         "n": 5,
         "role": "A",
-        "start": 45.3,
-        "end": 55.36
+        "start": 43.25,
+        "end": 53.84
        },
        {
         "n": 6,
         "role": "B",
-        "start": 55.36,
-        "end": 68.11
+        "start": 53.84,
+        "end": 64.79
        },
        {
         "n": 7,
         "role": "A",
-        "start": 68.11,
-        "end": 83.47
+        "start": 64.79,
+        "end": 79
        },
        {
         "n": 8,
         "role": "B",
-        "start": 83.47,
-        "end": 95.72
+        "start": 79,
+        "end": 90.41
        },
        {
         "n": 9,
         "role": "A",
-        "start": 95.72,
-        "end": 107.78
+        "start": 90.41,
+        "end": 102.06
        },
        {
         "n": 10,
         "role": "B",
-        "start": 107.78,
-        "end": 118.17
+        "start": 102.06,
+        "end": 111.44
        }
       ]
      },
@@ -14218,79 +14218,79 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b2-q6.m4a",
-      "audioDuration": 102.57,
+      "audioDuration": 97.04,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 6.34
+        "end": 5.54
        },
        {
         "n": 2,
         "role": "B",
-        "start": 6.34,
-        "end": 11.02
+        "start": 5.54,
+        "end": 10.51
        },
        {
         "n": 3,
         "role": "A",
-        "start": 11.02,
-        "end": 19.23
+        "start": 10.51,
+        "end": 18.55
        },
        {
         "n": 4,
         "role": "B",
-        "start": 19.23,
-        "end": 26.71
+        "start": 18.55,
+        "end": 25.6
        },
        {
         "n": 5,
         "role": "A",
-        "start": 26.71,
-        "end": 36.76
+        "start": 25.6,
+        "end": 34.91
        },
        {
         "n": 6,
         "role": "B",
-        "start": 36.76,
-        "end": 46.94
+        "start": 34.91,
+        "end": 44.04
        },
        {
         "n": 7,
         "role": "A",
-        "start": 46.94,
-        "end": 56.76
+        "start": 44.04,
+        "end": 54.03
        },
        {
         "n": 8,
         "role": "B",
-        "start": 56.76,
-        "end": 66.8
+        "start": 54.03,
+        "end": 63.41
        },
        {
         "n": 9,
         "role": "A",
-        "start": 66.8,
-        "end": 77.49
+        "start": 63.41,
+        "end": 74.17
        },
        {
         "n": 10,
         "role": "B",
-        "start": 77.49,
-        "end": 86.41
+        "start": 74.17,
+        "end": 82.41
        },
        {
         "n": 11,
         "role": "A",
-        "start": 86.41,
-        "end": 95.36
+        "start": 82.41,
+        "end": 90.82
        },
        {
         "n": 12,
         "role": "B",
-        "start": 95.36,
-        "end": 102.57
+        "start": 90.82,
+        "end": 97.04
        }
       ]
      }
@@ -15196,115 +15196,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b3-c1.m4a",
-      "audioDuration": 112.38,
+      "audioDuration": 105.41,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.83
+        "end": 4.72
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.83,
-        "end": 10.3
+        "start": 4.72,
+        "end": 9.78
        },
        {
         "n": "03",
         "role": "A",
-        "start": 10.3,
-        "end": 16.77
+        "start": 9.78,
+        "end": 16.08
        },
        {
         "n": "04",
         "role": "B",
-        "start": 16.77,
-        "end": 23.27
+        "start": 16.08,
+        "end": 21.85
        },
        {
         "n": "05",
         "role": "A",
-        "start": 23.27,
-        "end": 30.5
+        "start": 21.85,
+        "end": 28.19
        },
        {
         "n": "06",
         "role": "B",
-        "start": 30.5,
-        "end": 38.69
+        "start": 28.19,
+        "end": 36.08
        },
        {
         "n": "07",
         "role": "A",
-        "start": 38.69,
-        "end": 46.69
+        "start": 36.08,
+        "end": 43.26
        },
        {
         "n": "08",
         "role": "B",
-        "start": 46.69,
-        "end": 53.98
+        "start": 43.26,
+        "end": 49.74
        },
        {
         "n": "09",
         "role": "A",
-        "start": 53.98,
-        "end": 59.5
+        "start": 49.74,
+        "end": 55.74
        },
        {
         "n": "10",
         "role": "B",
-        "start": 59.5,
-        "end": 63.84
+        "start": 55.74,
+        "end": 60.27
        },
        {
         "n": "11",
         "role": "A",
-        "start": 63.84,
-        "end": 69.68
+        "start": 60.27,
+        "end": 66.69
        },
        {
         "n": "12",
         "role": "B",
-        "start": 69.68,
-        "end": 73.84
+        "start": 66.69,
+        "end": 70.42
        },
        {
         "n": "13",
         "role": "A",
-        "start": 73.84,
-        "end": 80.39
+        "start": 70.42,
+        "end": 77.22
        },
        {
         "n": "14",
         "role": "B",
-        "start": 80.39,
-        "end": 86.75
+        "start": 77.22,
+        "end": 82.9
        },
        {
         "n": "15",
         "role": "A",
-        "start": 86.75,
-        "end": 94.21
+        "start": 82.9,
+        "end": 89.24
        },
        {
         "n": "16",
         "role": "B",
-        "start": 94.21,
-        "end": 101.45
+        "start": 89.24,
+        "end": 95.53
        },
        {
         "n": "17",
         "role": "A",
-        "start": 101.45,
-        "end": 107.3
+        "start": 95.53,
+        "end": 100.68
        },
        {
         "n": "18",
         "role": "B",
-        "start": 107.3,
-        "end": 112.38
+        "start": 100.68,
+        "end": 105.41
        }
       ],
       "examNo": 7,
@@ -15903,115 +15903,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b3-c2.m4a",
-      "audioDuration": 115.04,
+      "audioDuration": 108.55,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 5.45
+        "end": 5.59
        },
        {
         "n": "02",
         "role": "B",
-        "start": 5.45,
-        "end": 8.79
+        "start": 5.59,
+        "end": 8.51
        },
        {
         "n": "03",
         "role": "A",
-        "start": 8.79,
-        "end": 14.88
+        "start": 8.51,
+        "end": 14.05
        },
        {
         "n": "04",
         "role": "B",
-        "start": 14.88,
-        "end": 23.12
+        "start": 14.05,
+        "end": 20.62
        },
        {
         "n": "05",
         "role": "A",
-        "start": 23.12,
-        "end": 25.83
+        "start": 20.62,
+        "end": 24.34
        },
        {
         "n": "06",
         "role": "B",
-        "start": 25.83,
-        "end": 34.93
+        "start": 24.34,
+        "end": 32.01
        },
        {
         "n": "07",
         "role": "A",
-        "start": 34.93,
-        "end": 42.34
+        "start": 32.01,
+        "end": 39.48
        },
        {
         "n": "08",
         "role": "B",
-        "start": 42.34,
-        "end": 51.05
+        "start": 39.48,
+        "end": 47.27
        },
        {
         "n": "09",
         "role": "A",
-        "start": 51.05,
-        "end": 57.29
+        "start": 47.27,
+        "end": 53.76
        },
        {
         "n": "10",
         "role": "B",
-        "start": 57.29,
-        "end": 65.05
+        "start": 53.76,
+        "end": 60.55
        },
        {
         "n": "11",
         "role": "A",
-        "start": 65.05,
-        "end": 71.24
+        "start": 60.55,
+        "end": 66.28
        },
        {
         "n": "12",
         "role": "B",
-        "start": 71.24,
-        "end": 78.47
+        "start": 66.28,
+        "end": 72.81
        },
        {
         "n": "13",
         "role": "A",
-        "start": 78.47,
-        "end": 83.14
+        "start": 72.81,
+        "end": 78.2
        },
        {
         "n": "14",
         "role": "B",
-        "start": 83.14,
-        "end": 92.55
+        "start": 78.2,
+        "end": 86.91
        },
        {
         "n": "15",
         "role": "A",
-        "start": 92.55,
-        "end": 96.72
+        "start": 86.91,
+        "end": 92
        },
        {
         "n": "16",
         "role": "B",
-        "start": 96.72,
-        "end": 104.24
+        "start": 92,
+        "end": 98.3
        },
        {
         "n": "17",
         "role": "A",
-        "start": 104.24,
-        "end": 109.6
+        "start": 98.3,
+        "end": 103.02
        },
        {
         "n": "18",
         "role": "B",
-        "start": 109.6,
-        "end": 115.04
+        "start": 103.02,
+        "end": 108.55
        }
       ],
       "examNo": 8,
@@ -16581,79 +16581,79 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b3-q9.m4a",
-      "audioDuration": 101.95,
+      "audioDuration": 92.72,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 5.03
+        "end": 4.4
        },
        {
         "n": 2,
         "role": "B",
-        "start": 5.03,
-        "end": 13.58
+        "start": 4.4,
+        "end": 11.54
        },
        {
         "n": 3,
         "role": "A",
-        "start": 13.58,
-        "end": 21.19
+        "start": 11.54,
+        "end": 18.31
        },
        {
         "n": 4,
         "role": "B",
-        "start": 21.19,
-        "end": 30.56
+        "start": 18.31,
+        "end": 27.47
        },
        {
         "n": 5,
         "role": "A",
-        "start": 30.56,
-        "end": 36.55
+        "start": 27.47,
+        "end": 33.07
        },
        {
         "n": 6,
         "role": "B",
-        "start": 36.55,
-        "end": 46.85
+        "start": 33.07,
+        "end": 41.74
        },
        {
         "n": 7,
         "role": "A",
-        "start": 46.85,
-        "end": 56.1
+        "start": 41.74,
+        "end": 51.86
        },
        {
         "n": 8,
         "role": "B",
-        "start": 56.1,
-        "end": 65.07
+        "start": 51.86,
+        "end": 59.95
        },
        {
         "n": 9,
         "role": "A",
-        "start": 65.07,
-        "end": 74.02
+        "start": 59.95,
+        "end": 67.15
        },
        {
         "n": 10,
         "role": "B",
-        "start": 74.02,
-        "end": 87.2
+        "start": 67.15,
+        "end": 79.04
        },
        {
         "n": 11,
         "role": "A",
-        "start": 87.2,
-        "end": 93.26
+        "start": 79.04,
+        "end": 85.38
        },
        {
         "n": 12,
         "role": "B",
-        "start": 93.26,
-        "end": 101.95
+        "start": 85.38,
+        "end": 92.72
        }
       ]
      },
@@ -17217,79 +17217,79 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b3-q10.m4a",
-      "audioDuration": 122.21,
+      "audioDuration": 111.11,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 11.46
+        "end": 11.21
        },
        {
         "n": 2,
         "role": "B",
-        "start": 11.46,
-        "end": 20.82
+        "start": 11.21,
+        "end": 19.46
        },
        {
         "n": 3,
         "role": "A",
-        "start": 20.82,
-        "end": 27.01
+        "start": 19.46,
+        "end": 25.34
        },
        {
         "n": 4,
         "role": "B",
-        "start": 27.01,
-        "end": 39.28
+        "start": 25.34,
+        "end": 37.14
        },
        {
         "n": 5,
         "role": "A",
-        "start": 39.28,
-        "end": 48.55
+        "start": 37.14,
+        "end": 45.86
        },
        {
         "n": 6,
         "role": "B",
-        "start": 48.55,
-        "end": 59.83
+        "start": 45.86,
+        "end": 56.04
        },
        {
         "n": 7,
         "role": "A",
-        "start": 59.83,
-        "end": 67.31
+        "start": 56.04,
+        "end": 62.43
        },
        {
         "n": 8,
         "role": "B",
-        "start": 67.31,
-        "end": 86.6
+        "start": 62.43,
+        "end": 79.07
        },
        {
         "n": 9,
         "role": "A",
-        "start": 86.6,
-        "end": 96.79
+        "start": 79.07,
+        "end": 88.39
        },
        {
         "n": 10,
         "role": "B",
-        "start": 96.79,
-        "end": 105.91
+        "start": 88.39,
+        "end": 96.45
        },
        {
         "n": 11,
         "role": "A",
-        "start": 105.91,
-        "end": 116.65
+        "start": 96.45,
+        "end": 105.41
        },
        {
         "n": 12,
         "role": "B",
-        "start": 116.65,
-        "end": 122.21
+        "start": 105.41,
+        "end": 111.11
        }
       ]
      },
@@ -17853,79 +17853,79 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b3-q11.m4a",
-      "audioDuration": 107.48,
+      "audioDuration": 99.38,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 4.43
+        "end": 4.29
        },
        {
         "n": 2,
         "role": "B",
-        "start": 4.43,
-        "end": 9.43
+        "start": 4.29,
+        "end": 8.93
        },
        {
         "n": 3,
         "role": "A",
-        "start": 9.43,
-        "end": 17.27
+        "start": 8.93,
+        "end": 15.72
        },
        {
         "n": 4,
         "role": "B",
-        "start": 17.27,
-        "end": 27.63
+        "start": 15.72,
+        "end": 25.47
        },
        {
         "n": 5,
         "role": "A",
-        "start": 27.63,
-        "end": 35.85
+        "start": 25.47,
+        "end": 33.53
        },
        {
         "n": 6,
         "role": "B",
-        "start": 35.85,
-        "end": 48.39
+        "start": 33.53,
+        "end": 44.6
        },
        {
         "n": 7,
         "role": "A",
-        "start": 48.39,
-        "end": 60.26
+        "start": 44.6,
+        "end": 56.52
        },
        {
         "n": 8,
         "role": "B",
-        "start": 60.26,
-        "end": 71.82
+        "start": 56.52,
+        "end": 66.77
        },
        {
         "n": 9,
         "role": "A",
-        "start": 71.82,
-        "end": 76.93
+        "start": 66.77,
+        "end": 72.24
        },
        {
         "n": 10,
         "role": "B",
-        "start": 76.93,
-        "end": 91.22
+        "start": 72.24,
+        "end": 84.55
        },
        {
         "n": 11,
         "role": "A",
-        "start": 91.22,
-        "end": 98.68
+        "start": 84.55,
+        "end": 91.36
        },
        {
         "n": 12,
         "role": "B",
-        "start": 98.68,
-        "end": 107.48
+        "start": 91.36,
+        "end": 99.38
        }
       ]
      }
@@ -18784,79 +18784,79 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b5-q12.m4a",
-      "audioDuration": 121.82,
+      "audioDuration": 110.79,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 5.41
+        "end": 5.42
        },
        {
         "n": 2,
         "role": "B",
-        "start": 5.41,
-        "end": 15.41
+        "start": 5.42,
+        "end": 14.36
        },
        {
         "n": 3,
         "role": "A",
-        "start": 15.41,
-        "end": 29.58
+        "start": 14.36,
+        "end": 26.59
        },
        {
         "n": 4,
         "role": "B",
-        "start": 29.58,
-        "end": 37.92
+        "start": 26.59,
+        "end": 34.87
        },
        {
         "n": 5,
         "role": "A",
-        "start": 37.92,
-        "end": 51.61
+        "start": 34.87,
+        "end": 46.89
        },
        {
         "n": 6,
         "role": "B",
-        "start": 51.61,
-        "end": 61.37
+        "start": 46.89,
+        "end": 55.62
        },
        {
         "n": 7,
         "role": "A",
-        "start": 61.37,
-        "end": 78.65
+        "start": 55.62,
+        "end": 71.18
        },
        {
         "n": 8,
         "role": "B",
-        "start": 78.65,
-        "end": 88.62
+        "start": 71.18,
+        "end": 80.22
        },
        {
         "n": 9,
         "role": "A",
-        "start": 88.62,
-        "end": 100.61
+        "start": 80.22,
+        "end": 91.26
        },
        {
         "n": 10,
         "role": "B",
-        "start": 100.61,
-        "end": 109.68
+        "start": 91.26,
+        "end": 99.51
        },
        {
         "n": 11,
         "role": "A",
-        "start": 109.68,
-        "end": 119.12
+        "start": 99.51,
+        "end": 108.13
        },
        {
         "n": 12,
         "role": "B",
-        "start": 119.12,
-        "end": 121.82
+        "start": 108.13,
+        "end": 110.79
        }
       ]
      },
@@ -19468,115 +19468,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b5-c3.m4a",
-      "audioDuration": 113.27,
+      "audioDuration": 105.74,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.92
+        "end": 4.62
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.92,
-        "end": 11.59
+        "start": 4.62,
+        "end": 10.48
        },
        {
         "n": "03",
         "role": "A",
-        "start": 11.59,
-        "end": 17.47
+        "start": 10.48,
+        "end": 16.37
        },
        {
         "n": "04",
         "role": "B",
-        "start": 17.47,
-        "end": 24.4
+        "start": 16.37,
+        "end": 22.9
        },
        {
         "n": "05",
         "role": "A",
-        "start": 24.4,
-        "end": 32.76
+        "start": 22.9,
+        "end": 30.11
        },
        {
         "n": "06",
         "role": "B",
-        "start": 32.76,
-        "end": 36.43
+        "start": 30.11,
+        "end": 34.09
        },
        {
         "n": "07",
         "role": "A",
-        "start": 36.43,
-        "end": 42.56
+        "start": 34.09,
+        "end": 39.68
        },
        {
         "n": "08",
         "role": "B",
-        "start": 42.56,
-        "end": 50.63
+        "start": 39.68,
+        "end": 46.23
        },
        {
         "n": "09",
         "role": "A",
-        "start": 50.63,
-        "end": 55.96
+        "start": 46.23,
+        "end": 52.02
        },
        {
         "n": "10",
         "role": "B",
-        "start": 55.96,
-        "end": 61.09
+        "start": 52.02,
+        "end": 57.16
        },
        {
         "n": "11",
         "role": "A",
-        "start": 61.09,
-        "end": 68.06
+        "start": 57.16,
+        "end": 64.65
        },
        {
         "n": "12",
         "role": "B",
-        "start": 68.06,
-        "end": 73.84
+        "start": 64.65,
+        "end": 69.68
        },
        {
         "n": "13",
         "role": "A",
-        "start": 73.84,
-        "end": 79.04
+        "start": 69.68,
+        "end": 75.09
        },
        {
         "n": "14",
         "role": "B",
-        "start": 79.04,
-        "end": 84.59
+        "start": 75.09,
+        "end": 80.02
        },
        {
         "n": "15",
         "role": "A",
-        "start": 84.59,
-        "end": 92.48
+        "start": 80.02,
+        "end": 87.1
        },
        {
         "n": "16",
         "role": "B",
-        "start": 92.48,
-        "end": 98.85
+        "start": 87.1,
+        "end": 92.92
        },
        {
         "n": "17",
         "role": "A",
-        "start": 98.85,
-        "end": 107.37
+        "start": 92.92,
+        "end": 100.17
        },
        {
         "n": "18",
         "role": "B",
-        "start": 107.37,
-        "end": 113.27
+        "start": 100.17,
+        "end": 105.74
        }
       ],
       "examNo": 13,
@@ -20142,79 +20142,79 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b5-q14.m4a",
-      "audioDuration": 99.3,
+      "audioDuration": 93.77,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 5.04
+        "end": 4.65
        },
        {
         "n": 2,
         "role": "B",
-        "start": 5.04,
-        "end": 14.03
+        "start": 4.65,
+        "end": 13.32
        },
        {
         "n": 3,
         "role": "A",
-        "start": 14.03,
-        "end": 18.38
+        "start": 13.32,
+        "end": 18.21
        },
        {
         "n": 4,
         "role": "B",
-        "start": 18.38,
-        "end": 29.52
+        "start": 18.21,
+        "end": 28.74
        },
        {
         "n": 5,
         "role": "A",
-        "start": 29.52,
-        "end": 37.09
+        "start": 28.74,
+        "end": 35.99
        },
        {
         "n": 6,
         "role": "B",
-        "start": 37.09,
-        "end": 48.71
+        "start": 35.99,
+        "end": 45.88
        },
        {
         "n": 7,
         "role": "A",
-        "start": 48.71,
-        "end": 57.84
+        "start": 45.88,
+        "end": 54.45
        },
        {
         "n": 8,
         "role": "B",
-        "start": 57.84,
-        "end": 69.75
+        "start": 54.45,
+        "end": 65.32
        },
        {
         "n": 9,
         "role": "A",
-        "start": 69.75,
-        "end": 77.63
+        "start": 65.32,
+        "end": 72.75
        },
        {
         "n": 10,
         "role": "B",
-        "start": 77.63,
-        "end": 87.17
+        "start": 72.75,
+        "end": 81.85
        },
        {
         "n": 11,
         "role": "A",
-        "start": 87.17,
-        "end": 95.7
+        "start": 81.85,
+        "end": 90.29
        },
        {
         "n": 12,
         "role": "B",
-        "start": 95.7,
-        "end": 99.3
+        "start": 90.29,
+        "end": 93.77
        }
       ]
      },
@@ -20776,79 +20776,79 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b5-q15.m4a",
-      "audioDuration": 118.09,
+      "audioDuration": 110.57,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 5.74
+        "end": 5.84
        },
        {
         "n": 2,
         "role": "B",
-        "start": 5.74,
-        "end": 17.26
+        "start": 5.84,
+        "end": 15.92
        },
        {
         "n": 3,
         "role": "A",
-        "start": 17.26,
-        "end": 22.54
+        "start": 15.92,
+        "end": 21.92
        },
        {
         "n": 4,
         "role": "B",
-        "start": 22.54,
-        "end": 36.59
+        "start": 21.92,
+        "end": 34.32
        },
        {
         "n": 5,
         "role": "A",
-        "start": 36.59,
-        "end": 48.23
+        "start": 34.32,
+        "end": 44.99
        },
        {
         "n": 6,
         "role": "B",
-        "start": 48.23,
-        "end": 65.48
+        "start": 44.99,
+        "end": 59.95
        },
        {
         "n": 7,
         "role": "A",
-        "start": 65.48,
-        "end": 71.76
+        "start": 59.95,
+        "end": 66.33
        },
        {
         "n": 8,
         "role": "B",
-        "start": 71.76,
-        "end": 84.01
+        "start": 66.33,
+        "end": 76.93
        },
        {
         "n": 9,
         "role": "A",
-        "start": 84.01,
-        "end": 89.66
+        "start": 76.93,
+        "end": 82.78
        },
        {
         "n": 10,
         "role": "B",
-        "start": 89.66,
-        "end": 101.24
+        "start": 82.78,
+        "end": 94.02
        },
        {
         "n": 11,
         "role": "A",
-        "start": 101.24,
-        "end": 108.57
+        "start": 94.02,
+        "end": 101.55
        },
        {
         "n": 12,
         "role": "B",
-        "start": 108.57,
-        "end": 118.09
+        "start": 101.55,
+        "end": 110.57
        }
       ]
      },
@@ -21410,79 +21410,79 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b5-q16.m4a",
-      "audioDuration": 118.03,
+      "audioDuration": 109.91,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 5.91
+        "end": 5.42
        },
        {
         "n": 2,
         "role": "B",
-        "start": 5.91,
-        "end": 15.74
+        "start": 5.42,
+        "end": 14.26
        },
        {
         "n": 3,
         "role": "A",
-        "start": 15.74,
-        "end": 24.7
+        "start": 14.26,
+        "end": 23.36
        },
        {
         "n": 4,
         "role": "B",
-        "start": 24.7,
-        "end": 33.72
+        "start": 23.36,
+        "end": 31.28
        },
        {
         "n": 5,
         "role": "A",
-        "start": 33.72,
-        "end": 38.23
+        "start": 31.28,
+        "end": 35.17
        },
        {
         "n": 6,
         "role": "B",
-        "start": 38.23,
-        "end": 51.38
+        "start": 35.17,
+        "end": 46.89
        },
        {
         "n": 7,
         "role": "A",
-        "start": 51.38,
-        "end": 59.34
+        "start": 46.89,
+        "end": 55.34
        },
        {
         "n": 8,
         "role": "B",
-        "start": 59.34,
-        "end": 75.19
+        "start": 55.34,
+        "end": 69.63
        },
        {
         "n": 9,
         "role": "A",
-        "start": 75.19,
-        "end": 84.28
+        "start": 69.63,
+        "end": 78.39
        },
        {
         "n": 10,
         "role": "B",
-        "start": 84.28,
-        "end": 95.69
+        "start": 78.39,
+        "end": 89.12
        },
        {
         "n": 11,
         "role": "A",
-        "start": 95.69,
-        "end": 103.41
+        "start": 89.12,
+        "end": 96.5
        },
        {
         "n": 12,
         "role": "B",
-        "start": 103.41,
-        "end": 118.03
+        "start": 96.5,
+        "end": 109.91
        }
       ]
      },
@@ -22056,115 +22056,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b5-c1.m4a",
-      "audioDuration": 106.38,
+      "audioDuration": 102.71,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 5.63
+        "end": 5.77
        },
        {
         "n": "02",
         "role": "B",
-        "start": 5.63,
-        "end": 9.9
+        "start": 5.77,
+        "end": 10.27
        },
        {
         "n": "03",
         "role": "A",
-        "start": 9.9,
-        "end": 16.47
+        "start": 10.27,
+        "end": 16.36
        },
        {
         "n": "04",
         "role": "B",
-        "start": 16.47,
-        "end": 20.06
+        "start": 16.36,
+        "end": 20.14
        },
        {
         "n": "05",
         "role": "A",
-        "start": 20.06,
-        "end": 25.8
+        "start": 20.14,
+        "end": 25.53
        },
        {
         "n": "06",
         "role": "B",
-        "start": 25.8,
-        "end": 33
+        "start": 25.53,
+        "end": 32.13
        },
        {
         "n": "07",
         "role": "A",
-        "start": 33,
-        "end": 37.77
+        "start": 32.13,
+        "end": 37.31
        },
        {
         "n": "08",
         "role": "B",
-        "start": 37.77,
-        "end": 43.65
+        "start": 37.31,
+        "end": 42.99
        },
        {
         "n": "09",
         "role": "A",
-        "start": 43.65,
-        "end": 49.47
+        "start": 42.99,
+        "end": 49.16
        },
        {
         "n": "10",
         "role": "B",
-        "start": 49.47,
-        "end": 57.04
+        "start": 49.16,
+        "end": 56.2
        },
        {
         "n": "11",
         "role": "A",
-        "start": 57.04,
-        "end": 62.95
+        "start": 56.2,
+        "end": 62.11
        },
        {
         "n": "12",
         "role": "B",
-        "start": 62.95,
-        "end": 67.83
+        "start": 62.11,
+        "end": 66.49
        },
        {
         "n": "13",
         "role": "A",
-        "start": 67.83,
-        "end": 73.01
+        "start": 66.49,
+        "end": 71.81
        },
        {
         "n": "14",
         "role": "B",
-        "start": 73.01,
-        "end": 78.08
+        "start": 71.81,
+        "end": 76.94
        },
        {
         "n": "15",
         "role": "A",
-        "start": 78.08,
-        "end": 84.24
+        "start": 76.94,
+        "end": 82.75
        },
        {
         "n": "16",
         "role": "B",
-        "start": 84.24,
-        "end": 90.14
+        "start": 82.75,
+        "end": 88.44
        },
        {
         "n": "17",
         "role": "A",
-        "start": 90.14,
-        "end": 99.77
+        "start": 88.44,
+        "end": 96.89
        },
        {
         "n": "18",
         "role": "B",
-        "start": 99.77,
-        "end": 106.38
+        "start": 96.89,
+        "end": 102.71
        }
       ],
       "isExamScope": false
@@ -22777,115 +22777,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b5-c2.m4a",
-      "audioDuration": 112.63,
+      "audioDuration": 104.89,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.67
+        "end": 4.88
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.67,
-        "end": 11.02
+        "start": 4.88,
+        "end": 10.98
        },
        {
         "n": "03",
         "role": "A",
-        "start": 11.02,
-        "end": 17.09
+        "start": 10.98,
+        "end": 16.67
        },
        {
         "n": "04",
         "role": "B",
-        "start": 17.09,
-        "end": 25.09
+        "start": 16.67,
+        "end": 23.65
        },
        {
         "n": "05",
         "role": "A",
-        "start": 25.09,
-        "end": 32.08
+        "start": 23.65,
+        "end": 29.88
        },
        {
         "n": "06",
         "role": "B",
-        "start": 32.08,
-        "end": 38.94
+        "start": 29.88,
+        "end": 36.56
        },
        {
         "n": "07",
         "role": "A",
-        "start": 38.94,
-        "end": 44.98
+        "start": 36.56,
+        "end": 42.5
        },
        {
         "n": "08",
         "role": "B",
-        "start": 44.98,
-        "end": 52.45
+        "start": 42.5,
+        "end": 49.1
        },
        {
         "n": "09",
         "role": "A",
-        "start": 52.45,
-        "end": 58.65
+        "start": 49.1,
+        "end": 54.81
        },
        {
         "n": "10",
         "role": "B",
-        "start": 58.65,
-        "end": 62.25
+        "start": 54.81,
+        "end": 58.29
        },
        {
         "n": "11",
         "role": "A",
-        "start": 62.25,
-        "end": 68.15
+        "start": 58.29,
+        "end": 64.15
        },
        {
         "n": "12",
         "role": "B",
-        "start": 68.15,
-        "end": 74.93
+        "start": 64.15,
+        "end": 70
        },
        {
         "n": "13",
         "role": "A",
-        "start": 74.93,
-        "end": 81.18
+        "start": 70,
+        "end": 76.03
        },
        {
         "n": "14",
         "role": "B",
-        "start": 81.18,
-        "end": 88.63
+        "start": 76.03,
+        "end": 82.54
        },
        {
         "n": "15",
         "role": "A",
-        "start": 88.63,
-        "end": 93.85
+        "start": 82.54,
+        "end": 88.05
        },
        {
         "n": "16",
         "role": "B",
-        "start": 93.85,
-        "end": 99.23
+        "start": 88.05,
+        "end": 93.25
        },
        {
         "n": "17",
         "role": "A",
-        "start": 99.23,
-        "end": 106.75
+        "start": 93.25,
+        "end": 99.53
        },
        {
         "n": "18",
         "role": "B",
-        "start": 106.75,
-        "end": 112.63
+        "start": 99.53,
+        "end": 104.89
        }
       ],
       "isExamScope": false
@@ -23672,115 +23672,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b7-c1.m4a",
-      "audioDuration": 98.02,
+      "audioDuration": 94.41,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.79
+        "end": 4.4
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.79,
-        "end": 11.01
+        "start": 4.4,
+        "end": 10.02
        },
        {
         "n": "03",
         "role": "A",
-        "start": 11.01,
-        "end": 16.42
+        "start": 10.02,
+        "end": 15.14
        },
        {
         "n": "04",
         "role": "B",
-        "start": 16.42,
-        "end": 24.07
+        "start": 15.14,
+        "end": 21.51
        },
        {
         "n": "05",
         "role": "A",
-        "start": 24.07,
-        "end": 26.58
+        "start": 21.51,
+        "end": 24.31
        },
        {
         "n": "06",
         "role": "B",
-        "start": 26.58,
-        "end": 32.01
+        "start": 24.31,
+        "end": 29.73
        },
        {
         "n": "07",
         "role": "A",
-        "start": 32.01,
-        "end": 34.89
+        "start": 29.73,
+        "end": 33.22
        },
        {
         "n": "08",
         "role": "B",
-        "start": 34.89,
-        "end": 42.47
+        "start": 33.22,
+        "end": 40.2
        },
        {
         "n": "09",
         "role": "A",
-        "start": 42.47,
-        "end": 48.11
+        "start": 40.2,
+        "end": 45.72
        },
        {
         "n": "10",
         "role": "B",
-        "start": 48.11,
-        "end": 55.36
+        "start": 45.72,
+        "end": 52.51
        },
        {
         "n": "11",
         "role": "A",
-        "start": 55.36,
-        "end": 59.2
+        "start": 52.51,
+        "end": 56.59
        },
        {
         "n": "12",
         "role": "B",
-        "start": 59.2,
-        "end": 64.39
+        "start": 56.59,
+        "end": 61.92
        },
        {
         "n": "13",
         "role": "A",
-        "start": 64.39,
-        "end": 70.11
+        "start": 61.92,
+        "end": 67.86
        },
        {
         "n": "14",
         "role": "B",
-        "start": 70.11,
-        "end": 77.18
+        "start": 67.86,
+        "end": 74.08
        },
        {
         "n": "15",
         "role": "A",
-        "start": 77.18,
-        "end": 81.77
+        "start": 74.08,
+        "end": 78.91
        },
        {
         "n": "16",
         "role": "B",
-        "start": 81.77,
-        "end": 90.13
+        "start": 78.91,
+        "end": 86.1
        },
        {
         "n": "17",
         "role": "A",
-        "start": 90.13,
-        "end": 93.53
+        "start": 86.1,
+        "end": 89.87
        },
        {
         "n": "18",
         "role": "B",
-        "start": 93.53,
-        "end": 98.02
+        "start": 89.87,
+        "end": 94.41
        }
       ],
       "isExamScope": false
@@ -24355,115 +24355,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b7-c2.m4a",
-      "audioDuration": 105.8,
+      "audioDuration": 99.41,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 5.97
+        "end": 5.62
        },
        {
         "n": "02",
         "role": "B",
-        "start": 5.97,
-        "end": 13.16
+        "start": 5.62,
+        "end": 11.86
        },
        {
         "n": "03",
         "role": "A",
-        "start": 13.16,
-        "end": 17.96
+        "start": 11.86,
+        "end": 17.19
        },
        {
         "n": "04",
         "role": "B",
-        "start": 17.96,
-        "end": 25.41
+        "start": 17.19,
+        "end": 23.06
        },
        {
         "n": "05",
         "role": "A",
-        "start": 25.41,
-        "end": 29.23
+        "start": 23.06,
+        "end": 26.91
        },
        {
         "n": "06",
         "role": "B",
-        "start": 29.23,
-        "end": 36.69
+        "start": 26.91,
+        "end": 33.73
        },
        {
         "n": "07",
         "role": "A",
-        "start": 36.69,
-        "end": 41.36
+        "start": 33.73,
+        "end": 39.25
        },
        {
         "n": "08",
         "role": "B",
-        "start": 41.36,
-        "end": 47.21
+        "start": 39.25,
+        "end": 45.12
        },
        {
         "n": "09",
         "role": "A",
-        "start": 47.21,
-        "end": 51.05
+        "start": 45.12,
+        "end": 49.09
        },
        {
         "n": "10",
         "role": "B",
-        "start": 51.05,
-        "end": 58.98
+        "start": 49.09,
+        "end": 56.1
        },
        {
         "n": "11",
         "role": "A",
-        "start": 58.98,
-        "end": 62.73
+        "start": 56.1,
+        "end": 59.19
        },
        {
         "n": "12",
         "role": "B",
-        "start": 62.73,
-        "end": 69.06
+        "start": 59.19,
+        "end": 64.68
        },
        {
         "n": "13",
         "role": "A",
-        "start": 69.06,
-        "end": 74.06
+        "start": 64.68,
+        "end": 69.62
        },
        {
         "n": "14",
         "role": "B",
-        "start": 74.06,
-        "end": 81.18
+        "start": 69.62,
+        "end": 76.53
        },
        {
         "n": "15",
         "role": "A",
-        "start": 81.18,
-        "end": 84.31
+        "start": 76.53,
+        "end": 80.36
        },
        {
         "n": "16",
         "role": "B",
-        "start": 84.31,
-        "end": 91.04
+        "start": 80.36,
+        "end": 86.62
        },
        {
         "n": "17",
         "role": "A",
-        "start": 91.04,
-        "end": 97.9
+        "start": 86.62,
+        "end": 92.68
        },
        {
         "n": "18",
         "role": "B",
-        "start": 97.9,
-        "end": 105.8
+        "start": 92.68,
+        "end": 99.41
        }
       ],
       "isExamScope": false
@@ -25265,115 +25265,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b8-c1.m4a",
-      "audioDuration": 115.25,
+      "audioDuration": 109.86,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.08
+        "end": 3.98
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.08,
-        "end": 11.46
+        "start": 3.98,
+        "end": 10.22
        },
        {
         "n": "03",
         "role": "A",
-        "start": 11.46,
-        "end": 16.36
+        "start": 10.22,
+        "end": 15.32
        },
        {
         "n": "04",
         "role": "B",
-        "start": 16.36,
-        "end": 23.73
+        "start": 15.32,
+        "end": 21.86
        },
        {
         "n": "05",
         "role": "A",
-        "start": 23.73,
-        "end": 28.58
+        "start": 21.86,
+        "end": 27.13
        },
        {
         "n": "06",
         "role": "B",
-        "start": 28.58,
-        "end": 35.75
+        "start": 27.13,
+        "end": 33.63
        },
        {
         "n": "07",
         "role": "A",
-        "start": 35.75,
-        "end": 41.51
+        "start": 33.63,
+        "end": 39.15
        },
        {
         "n": "08",
         "role": "B",
-        "start": 41.51,
-        "end": 48.69
+        "start": 39.15,
+        "end": 45.9
        },
        {
         "n": "09",
         "role": "A",
-        "start": 48.69,
-        "end": 57.99
+        "start": 45.9,
+        "end": 54.78
        },
        {
         "n": "10",
         "role": "B",
-        "start": 57.99,
-        "end": 65.91
+        "start": 54.78,
+        "end": 61.68
        },
        {
         "n": "11",
         "role": "A",
-        "start": 65.91,
-        "end": 71.96
+        "start": 61.68,
+        "end": 68.59
        },
        {
         "n": "12",
         "role": "B",
-        "start": 71.96,
-        "end": 78.48
+        "start": 68.59,
+        "end": 74.52
        },
        {
         "n": "13",
         "role": "A",
-        "start": 78.48,
-        "end": 84.2
+        "start": 74.52,
+        "end": 80.66
        },
        {
         "n": "14",
         "role": "B",
-        "start": 84.2,
-        "end": 91.21
+        "start": 80.66,
+        "end": 87.35
        },
        {
         "n": "15",
         "role": "A",
-        "start": 91.21,
-        "end": 97.38
+        "start": 87.35,
+        "end": 93.24
        },
        {
         "n": "16",
         "role": "B",
-        "start": 97.38,
-        "end": 103.78
+        "start": 93.24,
+        "end": 98.98
        },
        {
         "n": "17",
         "role": "A",
-        "start": 103.78,
-        "end": 108.53
+        "start": 98.98,
+        "end": 104.42
        },
        {
         "n": "18",
         "role": "B",
-        "start": 108.53,
-        "end": 115.25
+        "start": 104.42,
+        "end": 109.86
        }
       ],
       "isExamScope": false
@@ -25948,115 +25948,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b8-c2.m4a",
-      "audioDuration": 113.82,
+      "audioDuration": 106.98,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.72
+        "end": 4.87
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.72,
-        "end": 10.02
+        "start": 4.87,
+        "end": 9.53
        },
        {
         "n": "03",
         "role": "A",
-        "start": 10.02,
-        "end": 16.09
+        "start": 9.53,
+        "end": 14.9
        },
        {
         "n": "04",
         "role": "B",
-        "start": 16.09,
-        "end": 23.46
+        "start": 14.9,
+        "end": 21.46
        },
        {
         "n": "05",
         "role": "A",
-        "start": 23.46,
-        "end": 28.86
+        "start": 21.46,
+        "end": 26.78
        },
        {
         "n": "06",
         "role": "B",
-        "start": 28.86,
-        "end": 36.68
+        "start": 26.78,
+        "end": 33.97
        },
        {
         "n": "07",
         "role": "A",
-        "start": 36.68,
-        "end": 41.7
+        "start": 33.97,
+        "end": 38.99
        },
        {
         "n": "08",
         "role": "B",
-        "start": 41.7,
-        "end": 49.22
+        "start": 38.99,
+        "end": 45.72
        },
        {
         "n": "09",
         "role": "A",
-        "start": 49.22,
-        "end": 55.24
+        "start": 45.72,
+        "end": 51.81
        },
        {
         "n": "10",
         "role": "B",
-        "start": 55.24,
-        "end": 63.07
+        "start": 51.81,
+        "end": 58.76
        },
        {
         "n": "11",
         "role": "A",
-        "start": 63.07,
-        "end": 67.34
+        "start": 58.76,
+        "end": 62.75
        },
        {
         "n": "12",
         "role": "B",
-        "start": 67.34,
-        "end": 74.11
+        "start": 62.75,
+        "end": 69.05
        },
        {
         "n": "13",
         "role": "A",
-        "start": 74.11,
-        "end": 79.25
+        "start": 69.05,
+        "end": 74.67
        },
        {
         "n": "14",
         "role": "B",
-        "start": 79.25,
-        "end": 88.68
+        "start": 74.67,
+        "end": 82.77
        },
        {
         "n": "15",
         "role": "A",
-        "start": 88.68,
-        "end": 93.55
+        "start": 82.77,
+        "end": 88.33
        },
        {
         "n": "16",
         "role": "B",
-        "start": 93.55,
-        "end": 101.03
+        "start": 88.33,
+        "end": 95.27
        },
        {
         "n": "17",
         "role": "A",
-        "start": 101.03,
-        "end": 107.62
+        "start": 95.27,
+        "end": 101.46
        },
        {
         "n": "18",
         "role": "B",
-        "start": 107.62,
-        "end": 113.82
+        "start": 101.46,
+        "end": 106.98
        }
       ],
       "isExamScope": false
@@ -26869,115 +26869,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b9-c1.m4a",
-      "audioDuration": 113.31,
+      "audioDuration": 107.7,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 5.81
+        "end": 5.52
        },
        {
         "n": "02",
         "role": "B",
-        "start": 5.81,
-        "end": 13.14
+        "start": 5.52,
+        "end": 12.17
        },
        {
         "n": "03",
         "role": "A",
-        "start": 13.14,
-        "end": 18.16
+        "start": 12.17,
+        "end": 17.33
        },
        {
         "n": "04",
         "role": "B",
-        "start": 18.16,
-        "end": 23.34
+        "start": 17.33,
+        "end": 22.11
        },
        {
         "n": "05",
         "role": "A",
-        "start": 23.34,
-        "end": 30.58
+        "start": 22.11,
+        "end": 29.42
        },
        {
         "n": "06",
         "role": "B",
-        "start": 30.58,
-        "end": 37.58
+        "start": 29.42,
+        "end": 36.08
        },
        {
         "n": "07",
         "role": "A",
-        "start": 37.58,
-        "end": 40.61
+        "start": 36.08,
+        "end": 39.6
        },
        {
         "n": "08",
         "role": "B",
-        "start": 40.61,
-        "end": 46.86
+        "start": 39.6,
+        "end": 45.3
        },
        {
         "n": "09",
         "role": "A",
-        "start": 46.86,
-        "end": 52.04
+        "start": 45.3,
+        "end": 51.12
        },
        {
         "n": "10",
         "role": "B",
-        "start": 52.04,
-        "end": 60.47
+        "start": 51.12,
+        "end": 58.5
        },
        {
         "n": "11",
         "role": "A",
-        "start": 60.47,
-        "end": 67.14
+        "start": 58.5,
+        "end": 64.91
        },
        {
         "n": "12",
         "role": "B",
-        "start": 67.14,
-        "end": 73.9
+        "start": 64.91,
+        "end": 70.65
        },
        {
         "n": "13",
         "role": "A",
-        "start": 73.9,
-        "end": 80.08
+        "start": 70.65,
+        "end": 76.97
        },
        {
         "n": "14",
         "role": "B",
-        "start": 80.08,
-        "end": 86.81
+        "start": 76.97,
+        "end": 83.01
        },
        {
         "n": "15",
         "role": "A",
-        "start": 86.81,
-        "end": 91.47
+        "start": 83.01,
+        "end": 88.2
        },
        {
         "n": "16",
         "role": "B",
-        "start": 91.47,
-        "end": 99.84
+        "start": 88.2,
+        "end": 95.3
        },
        {
         "n": "17",
         "role": "A",
-        "start": 99.84,
-        "end": 105.99
+        "start": 95.3,
+        "end": 101.49
        },
        {
         "n": "18",
         "role": "B",
-        "start": 105.99,
-        "end": 113.31
+        "start": 101.49,
+        "end": 107.7
        }
       ],
       "isExamScope": false
@@ -27590,115 +27590,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b9-c2.m4a",
-      "audioDuration": 111.05,
+      "audioDuration": 105.8,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 6.44
+        "end": 5.87
        },
        {
         "n": "02",
         "role": "B",
-        "start": 6.44,
-        "end": 12.36
+        "start": 5.87,
+        "end": 11.64
        },
        {
         "n": "03",
         "role": "A",
-        "start": 12.36,
-        "end": 17.65
+        "start": 11.64,
+        "end": 16.86
        },
        {
         "n": "04",
         "role": "B",
-        "start": 17.65,
-        "end": 24.88
+        "start": 16.86,
+        "end": 23.25
        },
        {
         "n": "05",
         "role": "A",
-        "start": 24.88,
-        "end": 28.82
+        "start": 23.25,
+        "end": 27.73
        },
        {
         "n": "06",
         "role": "B",
-        "start": 28.82,
-        "end": 39.04
+        "start": 27.73,
+        "end": 36.71
        },
        {
         "n": "07",
         "role": "A",
-        "start": 39.04,
-        "end": 42.24
+        "start": 36.71,
+        "end": 40.05
        },
        {
         "n": "08",
         "role": "B",
-        "start": 42.24,
-        "end": 49.04
+        "start": 40.05,
+        "end": 46.13
        },
        {
         "n": "09",
         "role": "A",
-        "start": 49.04,
-        "end": 55.12
+        "start": 46.13,
+        "end": 51.78
        },
        {
         "n": "10",
         "role": "B",
-        "start": 55.12,
-        "end": 62.15
+        "start": 51.78,
+        "end": 58.23
        },
        {
         "n": "11",
         "role": "A",
-        "start": 62.15,
-        "end": 67.76
+        "start": 58.23,
+        "end": 64.07
        },
        {
         "n": "12",
         "role": "B",
-        "start": 67.76,
-        "end": 74.72
+        "start": 64.07,
+        "end": 70.45
        },
        {
         "n": "13",
         "role": "A",
-        "start": 74.72,
-        "end": 78.48
+        "start": 70.45,
+        "end": 74.85
        },
        {
         "n": "14",
         "role": "B",
-        "start": 78.48,
-        "end": 85.46
+        "start": 74.85,
+        "end": 81.28
        },
        {
         "n": "15",
         "role": "A",
-        "start": 85.46,
-        "end": 88.63
+        "start": 81.28,
+        "end": 85.04
        },
        {
         "n": "16",
         "role": "B",
-        "start": 88.63,
-        "end": 98.17
+        "start": 85.04,
+        "end": 93.59
        },
        {
         "n": "17",
         "role": "A",
-        "start": 98.17,
-        "end": 104.16
+        "start": 93.59,
+        "end": 99.67
        },
        {
         "n": "18",
         "role": "B",
-        "start": 104.16,
-        "end": 111.05
+        "start": 99.67,
+        "end": 105.8
        }
       ],
       "isExamScope": false

@@ -193,7 +193,8 @@
     // Dừng audio cũ nếu đang phát topic khác
     stopAudio();
 
-    const audio = new Audio(topic.audio);
+    const audioSrc = topic.audio.includes("?") ? topic.audio : `${topic.audio}?v=21`;
+    const audio = new Audio(audioSrc);
     audio.preload = "auto";
     audio.preservesPitch = true; // giữ cao độ giọng khi đổi tốc độ 0.8x / 1.2x
     audio.webkitPreservesPitch = true;

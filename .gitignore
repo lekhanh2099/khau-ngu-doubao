@@ -1,3 +1,5 @@
 node_modules/
 .DS_Store
 tools/.tts-cache/
+tools/.tts-venv/
+tools/__pycache__/
