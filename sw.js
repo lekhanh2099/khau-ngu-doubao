@@ -1,10 +1,10 @@
-const CACHE_NAME = "khau-ngu-v19";
+const CACHE_NAME = "khau-ngu-v20";
 const ASSETS = [
   "./",
   "./index.html",
-  "./styles.css?v=19",
-  "./app.js?v=19",
-  "./data.js?v=19",
+  "./styles.css?v=20",
+  "./app.js?v=20",
+  "./data.js?v=20",
   "./manifest.json"
 ];
 
