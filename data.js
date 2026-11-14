@@ -289,10 +289,12 @@ window.APP_BOOKS = {
        {
         "n": "08",
         "role": "B",
-        "zh": "原来如此。那你觉得我应该先尝哪道菜？",
-        "pinyin": "yuán lái rú cǐ. nà nǐ jué de wǒ yīng gāi xiān cháng nǎ dào cài?",
-        "pinyinHtml": "yuán lái rú cǐ. nà nǐ jué de wǒ yīng gāi xiān cháng nǎ dào cài?",
-        "vi": "Hóa ra là vậy. Thế cậu thấy tớ nên nếm thử món nào trước?"
+        "zh": "怪不得！那你觉得我头一次吃，先尝哪道菜最稳妥？",
+        "pinyin": "guài bù dé! nà nǐ jué de wǒ tóu yí cì chī, xiān cháng nǎ dào cài zuì wěn tuǒ?",
+        "pinyinHtml": "guài bù dé! nà nǐ jué de wǒ tóu yí cì chī, xiān cháng nǎ dào cài zuì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wěn</span> tuǒ?",
+        "vi": "Thảo nào! Thế cậu thấy người lần đầu ăn như tớ thì nên nếm món nào trước cho an toàn nhất?",
+        "modified": true,
+        "reason": "Bỏ từ ngữ sách vở '原来如此' (nghe như dịch phim), dùng khẩu ngữ tự nhiên '怪不得！' và cụm từ '先尝哪道菜最稳妥'."
        },
        {
         "n": "09",
@@ -313,10 +315,12 @@ window.APP_BOOKS = {
        {
         "n": "11",
         "role": "A",
-        "zh": "对，不过它通常比较麻辣。我们可以请服务员少放点儿辣椒。",
-        "pinyin": "duì, bú guò tā tōng cháng bǐ jiào má là. wǒ men kě yǐ qǐng fú wù yuán shǎo fàng diǎnr là jiāo.",
-        "pinyinHtml": "duì, bú guò tā tōng cháng bǐ jiào má là. wǒ men <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐ</span> qǐng fú wù yuán shǎo fàng diǎnr là jiāo.",
-        "vi": "Đúng rồi, cơ mà món đó thường khá tê cay. Tụi mình có thể nhờ nhân viên cho bớt ớt lại."
+        "zh": "可不是嘛！麻辣正是川菜的灵魂。不过你要是怕太辣，咱们扫码点菜时可以备注微辣，交代少放点儿花椒。",
+        "pinyin": "kě bú shì ma! má là zhèng shì chuān cài de líng hún. bú guò nǐ yào shi pà tài là, zán men sǎo mǎ diǎn cài shí kě yǐ bèi zhù wēi là, jiāo dài shǎo fàng diǎnr huā jiāo.",
+        "pinyinHtml": "kě bú shì ma! má là zhèng shì chuān cài de líng hún. bú guò nǐ yào shi pà tài là, zán men <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">sǎo</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎ</span> diǎn cài shí <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ bèi zhù wēi là, jiāo dài shǎo fàng diǎnr huā jiāo.",
+        "vi": "Đúng thế còn gì nữa! Tê cay chính là linh hồn của món Tứ Xuyên mà. Cơ mà nếu cậu sợ cay quá, lúc quét mã gọi món tụi mình có thể ghi chú 'cay ít', dặn họ bớt hạt tiêu lại.",
+        "modified": true,
+        "reason": "Bỏ câu mở đầu cụt '对，...', thay bằng quán dụng ngữ '可不是嘛！', bổ sung chi tiết đời sống thực tế '扫码点菜' và '备注微辣'."
        },
        {
         "n": "12",
@@ -345,10 +349,12 @@ window.APP_BOOKS = {
        {
         "n": "15",
         "role": "A",
-        "zh": "我以前跟朋友吃过几次，慢慢就喜欢上这种口味了。",
-        "pinyin": "wǒ yǐ qián gēn péng yǒu chī guò jǐ cì, màn màn jiù xǐ huan shàng zhè zhǒng kǒu wèi le.",
-        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǐ qián gēn péng yǒu chī guò jǐ cì, màn màn jiù xǐ huan shàng zhè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǒng</span> kǒu wèi le.",
-        "vi": "Hồi trước tớ đi ăn với bạn bè mấy lần, dần dần thành ra nghiện hương vị này luôn."
+        "zh": "我以前在成都跟朋友吃过几次，一开始辣得直冒汗，慢慢就彻底爱上这口儿了！",
+        "pinyin": "wǒ yǐ qián zài chéng dū gēn péng yǒu chī guò jǐ cì, yì kāi shǐ là dé zhí mào hàn, màn màn jiù chè dǐ ài shàng zhè kǒur le!",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> yǐ qián zài chéng dū gēn péng yǒu chī guò jǐ cì, yì kāi shǐ là dé zhí mào hàn, màn màn jiù chè dǐ ài shàng zhè kǒur le!",
+        "vi": "Hồi trước tớ đi Thành Đô ăn với bạn mấy lần, lúc đầu cay toát mồ hôi hột, mà dần dà lại đâm ra nghiện luôn cái vị này đấy!",
+        "modified": true,
+        "reason": "Bổ sung hình ảnh sinh động '辣得直冒汗' và quán dụng ngữ khẩu ngữ '爱上这口儿' (nghiện cái vị này)."
        },
        {
         "n": "16",
@@ -377,10 +383,12 @@ window.APP_BOOKS = {
        {
         "n": "19",
         "role": "A",
-        "zh": "好，那我们今天先点菜吧。",
-        "pinyin": "hǎo, nà wǒ men jīn tiān xiān diǎn cài ba.",
-        "pinyinHtml": "hǎo, nà wǒ men jīn tiān xiān diǎn cài ba.",
-        "vi": "Được rồi, thế hôm nay tụi mình cứ gọi món trước đã nhé."
+        "zh": "行，那咱们先扫码下单，边吃边聊！",
+        "pinyin": "xíng, nà zán men xiān sǎo mǎ xià dān, biān chī biān liáo!",
+        "pinyinHtml": "xíng, nà zán men xiān <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">sǎo</span> mǎ xià dān, biān chī biān liáo!",
+        "vi": "Ok, thế tụi mình quét mã lên món trước đã, rồi vừa ăn vừa thong thả chuyện trò!",
+        "modified": true,
+        "reason": "Thay '好，那我们今天先点菜吧' bằng khẩu ngữ tự nhiên '行，那咱们先扫码下单，边吃边聊！'."
        },
        {
         "n": "20",
@@ -794,127 +802,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b3-c1.m4a",
-      "audioDuration": 90.78,
+      "audioDuration": 102.14,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.41
+        "end": 4.89
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.41,
-        "end": 9.14
+        "start": 4.89,
+        "end": 10.11
        },
        {
         "n": "03",
         "role": "A",
-        "start": 9.14,
-        "end": 13.54
+        "start": 10.11,
+        "end": 14.6
        },
        {
         "n": "04",
         "role": "B",
-        "start": 13.54,
-        "end": 17.28
+        "start": 14.6,
+        "end": 18.07
        },
        {
         "n": "05",
         "role": "A",
-        "start": 17.28,
-        "end": 23.12
+        "start": 18.07,
+        "end": 24.42
        },
        {
         "n": "06",
         "role": "B",
-        "start": 23.12,
-        "end": 26.92
+        "start": 24.42,
+        "end": 28.38
        },
        {
         "n": "07",
         "role": "A",
-        "start": 26.92,
-        "end": 32.54
+        "start": 28.38,
+        "end": 34.4
        },
        {
         "n": "08",
         "role": "B",
-        "start": 32.54,
-        "end": 36.76
+        "start": 34.4,
+        "end": 39.82
        },
        {
         "n": "09",
         "role": "A",
-        "start": 36.76,
-        "end": 42.22
+        "start": 39.82,
+        "end": 45.49
        },
        {
         "n": "10",
         "role": "B",
-        "start": 42.22,
-        "end": 46.2
+        "start": 45.49,
+        "end": 49.66
        },
        {
         "n": "11",
         "role": "A",
-        "start": 46.2,
-        "end": 51.84
+        "start": 49.66,
+        "end": 59.93
        },
        {
         "n": "12",
         "role": "B",
-        "start": 51.84,
-        "end": 56.16
+        "start": 59.93,
+        "end": 64.82
        },
        {
         "n": "13",
         "role": "A",
-        "start": 56.16,
-        "end": 61.63
+        "start": 64.82,
+        "end": 70.2
        },
        {
         "n": "14",
         "role": "B",
-        "start": 61.63,
-        "end": 65.87
+        "start": 70.2,
+        "end": 74.65
        },
        {
         "n": "15",
         "role": "A",
-        "start": 65.87,
-        "end": 71.26
+        "start": 74.65,
+        "end": 81.58
        },
        {
         "n": "16",
         "role": "B",
-        "start": 71.26,
-        "end": 76.5
+        "start": 81.58,
+        "end": 86.47
        },
        {
         "n": "17",
         "role": "A",
-        "start": 76.5,
-        "end": 79.68
+        "start": 86.47,
+        "end": 90.13
        },
        {
         "n": "18",
         "role": "B",
-        "start": 79.68,
-        "end": 84.18
+        "start": 90.13,
+        "end": 94.81
        },
        {
         "n": "19",
         "role": "A",
-        "start": 84.18,
-        "end": 87.18
+        "start": 94.81,
+        "end": 98.71
        },
        {
         "n": "20",
         "role": "B",
-        "start": 87.18,
-        "end": 90.78
+        "start": 98.71,
+        "end": 102.14
        }
       ]
      },
@@ -970,10 +978,12 @@ window.APP_BOOKS = {
        {
         "n": "06",
         "role": "B",
-        "zh": "明白了。听说中国人每天都喝茶，是真的吗？",
-        "pinyin": "míng bái le. tīng shuō zhōng guó rén měi tiān dōu hē chá, shì zhēn de ma?",
-        "pinyinHtml": "míng bái le. tīng shuō zhōng guó rén měi tiān dōu hē chá, shì zhēn de ma?",
-        "vi": "Tớ hiểu rồi. Nghe nói người Trung Quốc ngày nào cũng uống trà, có thật không vậy?"
+        "zh": "这我才明白。听说在中国是“宁可三日无粮，不可一日无茶”，日常大家真这么爱喝茶吗？",
+        "pinyin": "zhè wǒ cái míng bái. tīng shuō zài zhōng guó shì \"nìng kě sān rì wú liáng, bù kě yí rì wú chá\", rì cháng dà jiā zhēn zhè me ài hē chá ma?",
+        "pinyinHtml": "zhè wǒ cái míng bái. tīng shuō zài zhōng guó shì \"nìng kě sān rì wú liáng, bù kě yí rì wú chá\", rì cháng dà jiā zhēn zhè me ài hē chá ma?",
+        "vi": "Giờ tớ mới vỡ lẽ. Nghe bảo ở Trung Quốc có câu 'thà ba ngày không cơm, chứ một ngày không thể thiếu trà', ngoài đời mọi người chuộng trà đến vậy thật à cậu?",
+        "modified": true,
+        "reason": "Lồng ghép câu tục ngữ văn hóa trà nổi tiếng '宁可三日无粮，不可一日无茶', tăng tính tri thức và phản xạ khẩu ngữ."
        },
        {
         "n": "07",
@@ -1010,10 +1020,12 @@ window.APP_BOOKS = {
        {
         "n": "11",
         "role": "A",
-        "zh": "我倒是喜欢喝热茶，慢慢喝，能尝出茶的味道。",
-        "pinyin": "wǒ dǎo shì xǐ huan hē rè chá, màn màn hē, néng cháng chū chá de wèi dào.",
-        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎo shì xǐ huan hē rè chá, màn màn hē, néng cháng chū chá de wèi dào.",
-        "vi": "Tớ thì lại chuộng uống trà nóng, nhâm nhi từng ngụm mới cảm nhận hết được vị trà."
+        "zh": "我倒是更享受喝热茶，心静下来慢慢品，才能品出这茶的回甘和韵味。",
+        "pinyin": "wǒ dǎo shì gèng xiǎng shòu hē rè chá, xīn jìng xià lái màn màn pǐn, cái néng pǐn chū zhè chá de huí gān hé yùn wèi.",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> dǎo shì gèng xiǎng shòu hē rè chá, xīn jìng xià lái màn màn pǐn, cái néng pǐn chū zhè chá de huí gān hé yùn wèi.",
+        "vi": "Tớ thì lại thích nhâm nhi trà nóng hơn, lòng tĩnh lại thong thả thưởng thức thì mới cảm nhận hết được vị ngọt hậu và phong vị của trà.",
+        "modified": true,
+        "reason": "Dùng từ ngữ thưởng trà chuẩn xác '品出这茶的回甘和韵味' thay cho câu chung chung '尝出茶的味道'."
        },
        {
         "n": "12",
@@ -1082,10 +1094,12 @@ window.APP_BOOKS = {
        {
         "n": "20",
         "role": "B",
-        "zh": "好，干杯——用茶干杯！",
-        "pinyin": "hǎo, gān bēi-- yòng chá gān bēi!",
-        "pinyinHtml": "hǎo, gān bēi-- yòng chá gān bēi!",
-        "vi": "Được, nâng ly nào——dùng trà thay rượu cạn chén!"
+        "zh": "太棒了！那咱们今天就以茶代酒，干一杯！",
+        "pinyin": "tài bàng le! nà zán men jīn tiān jiù yǐ chá dài jiǔ, gān yì bēi!",
+        "pinyinHtml": "tài bàng le! nà zán men jīn tiān jiù yǐ chá dài jiǔ, gān yì bēi!",
+        "vi": "Tuyệt vời quá! Thế hôm nay tụi mình lấy trà thay rượu, cùng cạn chén nào!",
+        "modified": true,
+        "reason": "Sửa lỗi dịch nguyên ngữ '用茶干杯' thành thành ngữ văn hóa trà chuẩn xác kinh điển: 【以茶代酒，干一杯！】."
        }
       ],
       "v2_lines": [
@@ -1472,127 +1486,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b3-c2.m4a",
-      "audioDuration": 85.58,
+      "audioDuration": 91.96,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.82
+        "end": 5.02
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.82,
-        "end": 8.92
+        "start": 5.02,
+        "end": 8.9
        },
        {
         "n": "03",
         "role": "A",
-        "start": 8.92,
-        "end": 13.76
+        "start": 8.9,
+        "end": 13.52
        },
        {
         "n": "04",
         "role": "B",
-        "start": 13.76,
-        "end": 17.98
+        "start": 13.52,
+        "end": 17.85
        },
        {
         "n": "05",
         "role": "A",
-        "start": 17.98,
-        "end": 23.06
+        "start": 17.85,
+        "end": 22.78
        },
        {
         "n": "06",
         "role": "B",
-        "start": 23.06,
-        "end": 27.64
+        "start": 22.78,
+        "end": 30.85
        },
        {
         "n": "07",
         "role": "A",
-        "start": 27.64,
-        "end": 32.84
+        "start": 30.85,
+        "end": 35.88
        },
        {
         "n": "08",
         "role": "B",
-        "start": 32.84,
-        "end": 38.48
+        "start": 35.88,
+        "end": 41.14
        },
        {
         "n": "09",
         "role": "A",
-        "start": 38.48,
-        "end": 41.93
+        "start": 41.14,
+        "end": 44.17
        },
        {
         "n": "10",
         "role": "B",
-        "start": 41.93,
-        "end": 46.66
+        "start": 44.17,
+        "end": 49.52
        },
        {
         "n": "11",
         "role": "A",
-        "start": 46.66,
-        "end": 51.65
+        "start": 49.52,
+        "end": 56.04
        },
        {
         "n": "12",
         "role": "B",
-        "start": 51.65,
-        "end": 54.6
+        "start": 56.04,
+        "end": 58.8
        },
        {
         "n": "13",
         "role": "A",
-        "start": 54.6,
-        "end": 59.63
+        "start": 58.8,
+        "end": 64.22
        },
        {
         "n": "14",
         "role": "B",
-        "start": 59.63,
-        "end": 62.83
+        "start": 64.22,
+        "end": 67.37
        },
        {
         "n": "15",
         "role": "A",
-        "start": 62.83,
-        "end": 66.63
+        "start": 67.37,
+        "end": 70.93
        },
        {
         "n": "16",
         "role": "B",
-        "start": 66.63,
-        "end": 71.58
+        "start": 70.93,
+        "end": 75.66
        },
        {
         "n": "17",
         "role": "A",
-        "start": 71.58,
-        "end": 75.16
+        "start": 75.66,
+        "end": 78.92
        },
        {
         "n": "18",
         "role": "B",
-        "start": 75.16,
-        "end": 80.04
+        "start": 78.92,
+        "end": 84.26
        },
        {
         "n": "19",
         "role": "A",
-        "start": 80.04,
-        "end": 83.04
+        "start": 84.26,
+        "end": 87.07
        },
        {
         "n": "20",
         "role": "B",
-        "start": 83.04,
-        "end": 85.58
+        "start": 87.07,
+        "end": 91.96
        }
       ]
      },
@@ -1624,10 +1638,12 @@ window.APP_BOOKS = {
        {
         "n": "03",
         "role": "A",
-        "zh": "对，今天我做了三个菜，还煮了一锅汤。",
-        "pinyin": "duì, jīn tiān wǒ zuò le sān gè cài, hái zhǔ le yì guō tāng.",
-        "pinyinHtml": "duì, jīn tiān wǒ zuò le sān gè cài, hái zhǔ le yì guō tāng.",
-        "vi": "Đúng rồi, hôm nay tớ làm ba món mặn với nấu thêm một nồi canh."
+        "zh": "嗨，今天特地为你露了一手，做了三菜一汤，你快坐下尝尝！",
+        "pinyin": "hāi, jīn tiān tè de wèi nǐ lù le yì shǒu, zuò le sān cài yì tāng, nǐ kuài zuò xià cháng cháng!",
+        "pinyinHtml": "hāi, jīn tiān tè de wèi nǐ lù le yì shǒu, zuò le sān cài yì tāng, nǐ kuài zuò xià cháng cháng!",
+        "vi": "Hây, hôm nay tớ trổ tài làm hẳn ba món một canh đãi cậu đấy, mau ngồi xuống nếm thử đi!",
+        "modified": true,
+        "reason": "Bỏ câu cụt '对，...', dùng cụm khẩu ngữ hiếu khách '特地为你露了一手' và thành ngữ ẩm thực gia đình '三菜一汤'."
        },
        {
         "n": "04",
@@ -1664,10 +1680,12 @@ window.APP_BOOKS = {
        {
         "n": "08",
         "role": "B",
-        "zh": "听起来不复杂，不过火候应该很重要吧？",
-        "pinyin": "tīng qǐ lái bú fù zá, bú guò huǒ hòu yīng gāi hěn zhòng yào ba?",
-        "pinyinHtml": "tīng qǐ lái bú fù zá, bú guò huǒ hòu yīng gāi hěn zhòng yào ba?",
-        "vi": "Nghe có vẻ không cầu kỳ lắm, nhưng chắc căn chỉnh độ lửa quan trọng lắm nhỉ?"
+        "zh": "听着步骤挺利落的，不过做清蒸鱼，火候的拿捏才是关键吧？",
+        "pinyin": "tīng zhe bù zhòu tǐng lì luò de, bú guò zuò qīng zhēng yú, huǒ hòu de ná niē cái shì guān jiàn ba?",
+        "pinyinHtml": "tīng zhe bù zhòu tǐng lì luò de, bú guò zuò qīng zhēng yú, huǒ hòu de ná niē cái shì guān jiàn ba?",
+        "vi": "Nghe các bước thì nhanh gọn đấy, cơ mà làm món cá hấp này thì căn chuẩn độ lửa mới là mấu chốt đúng không?",
+        "modified": true,
+        "reason": "Dùng khẩu ngữ nấu nướng tự nhiên '听着步骤挺利落的', '火候的拿捏才是关键'."
        },
        {
         "n": "09",
@@ -1720,10 +1738,12 @@ window.APP_BOOKS = {
        {
         "n": "15",
         "role": "A",
-        "zh": "太好了。我第一次给你做饭，还真有点儿紧张。",
-        "pinyin": "tài hǎo le. wǒ dì yī cì gěi nǐ zuò fàn, hái zhēn yǒu diǎnr jǐn zhāng.",
-        "pinyinHtml": "tài hǎo le. wǒ dì yī cì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gěi</span> nǐ zuò fàn, hái zhēn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">diǎnr</span> jǐn zhāng.",
-        "vi": "Thế thì tốt quá. Lần đầu vào bếp nấu cho cậu ăn, tớ thật sự cũng hơi run đấy."
+        "zh": "合胃口就好！我头一回张罗着给你做饭，生怕做砸了，心里一直七上八下的。",
+        "pinyin": "hé wèi kǒu jiù hǎo! wǒ tóu yì huí zhāng luó zhe gěi nǐ zuò fàn, shēng pà zuò zá le, xīn lǐ yì zhí qī shàng bā xià de.",
+        "pinyinHtml": "hé wèi kǒu jiù hǎo! wǒ tóu yì huí zhāng luó zhe <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gěi</span> nǐ zuò fàn, shēng pà zuò zá le, xīn lǐ yì zhí qī shàng bā xià de.",
+        "vi": "Hợp khẩu vị là tớ mừng rồi! Lần đầu đích thân chuẩn bị cơm cho cậu, tớ cứ sợ làm hỏng bét, trong lòng cứ thấp thỏm không yên.",
+        "modified": true,
+        "reason": "Dùng thành ngữ khẩu ngữ sinh động '心里一直七上八下的' (bồn chồn lo lắng) và cụm '张罗', '做砸了'."
        },
        {
         "n": "16",
@@ -1760,10 +1780,12 @@ window.APP_BOOKS = {
        {
         "n": "20",
         "role": "B",
-        "zh": "好，谢谢你请我吃饭！",
-        "pinyin": "hǎo, xiè xiè nǐ qǐng wǒ chī fàn!",
-        "pinyinHtml": "hǎo, xiè xiè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">nǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qǐng</span> wǒ chī fàn!",
-        "vi": "Ok, cảm ơn cậu đã chiêu đãi tớ bữa cơm ngon thế này nhé!"
+        "zh": "成！那我今天就甩开腮帮子大快朵颐啦，太感谢你的盛情款待了！",
+        "pinyin": "chéng! nà wǒ jīn tiān jiù shuǎi kāi sāi bāng zǐ dà kuài duǒ yí lā, tài gǎn xiè nǐ de shèng qíng kuǎn dài le!",
+        "pinyinHtml": "chéng! nà wǒ jīn tiān jiù shuǎi kāi sāi bāng zǐ dà kuài duǒ yí lā, tài gǎn xiè nǐ de shèng qíng kuǎn dài le!",
+        "vi": "Nhất trí! Thế thì hôm nay tớ sẽ đánh chén no nê thả phanh luôn, cảm ơn lòng hiếu khách nồng nhiệt của cậu nhé!",
+        "modified": true,
+        "reason": "Bỏ '好，谢谢你请我吃饭！' máy móc, dùng thành ngữ khẩu ngữ cực kỳ đời thường '大快朵颐' và '盛情款待'."
        }
       ],
       "v2_lines": [
@@ -2169,127 +2191,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b3-c3.m4a",
-      "audioDuration": 84.69,
+      "audioDuration": 95.52,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.38
+        "end": 4.64
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.38,
-        "end": 8.66
+        "start": 4.64,
+        "end": 9.34
        },
        {
         "n": "03",
         "role": "A",
-        "start": 8.66,
-        "end": 12.76
+        "start": 9.34,
+        "end": 15.11
        },
        {
         "n": "04",
         "role": "B",
-        "start": 12.76,
-        "end": 16.09
+        "start": 15.11,
+        "end": 18.95
        },
        {
         "n": "05",
         "role": "A",
-        "start": 16.09,
-        "end": 21.97
+        "start": 18.95,
+        "end": 24.44
        },
        {
         "n": "06",
         "role": "B",
-        "start": 21.97,
-        "end": 26.17
+        "start": 24.44,
+        "end": 28.71
        },
        {
         "n": "07",
         "role": "A",
-        "start": 26.17,
-        "end": 32.2
+        "start": 28.71,
+        "end": 34.64
        },
        {
         "n": "08",
         "role": "B",
-        "start": 32.2,
-        "end": 36.53
+        "start": 34.64,
+        "end": 40.33
        },
        {
         "n": "09",
         "role": "A",
-        "start": 36.53,
-        "end": 40.51
+        "start": 40.33,
+        "end": 44.09
        },
        {
         "n": "10",
         "role": "B",
-        "start": 40.51,
-        "end": 44.26
+        "start": 44.09,
+        "end": 47.95
        },
        {
         "n": "11",
         "role": "A",
-        "start": 44.26,
-        "end": 49.46
+        "start": 47.95,
+        "end": 53.69
        },
        {
         "n": "12",
         "role": "B",
-        "start": 49.46,
-        "end": 53.3
+        "start": 53.69,
+        "end": 57.83
        },
        {
         "n": "13",
         "role": "A",
-        "start": 53.3,
-        "end": 58.2
+        "start": 57.83,
+        "end": 62.42
        },
        {
         "n": "14",
         "role": "B",
-        "start": 58.2,
-        "end": 61.47
+        "start": 62.42,
+        "end": 65.67
        },
        {
         "n": "15",
         "role": "A",
-        "start": 61.47,
-        "end": 66.04
+        "start": 65.67,
+        "end": 73.21
        },
        {
         "n": "16",
         "role": "B",
-        "start": 66.04,
-        "end": 70.99
+        "start": 73.21,
+        "end": 78.26
        },
        {
         "n": "17",
         "role": "A",
-        "start": 70.99,
-        "end": 74.89
+        "start": 78.26,
+        "end": 81.87
        },
        {
         "n": "18",
         "role": "B",
-        "start": 74.89,
-        "end": 78.59
+        "start": 81.87,
+        "end": 85.22
        },
        {
         "n": "19",
         "role": "A",
-        "start": 78.59,
-        "end": 82
+        "start": 85.22,
+        "end": 89.06
        },
        {
         "n": "20",
         "role": "B",
-        "start": 82,
-        "end": 84.69
+        "start": 89.06,
+        "end": 95.52
        }
       ]
      },
@@ -2305,10 +2327,12 @@ window.APP_BOOKS = {
        {
         "n": "01",
         "role": "A",
-        "zh": "今天中午我又吃快餐了，实在没时间做饭。",
-        "pinyin": "jīn tiān zhōng wǔ wǒ yòu chī kuài cān le, shí zài méi shí jiān zuò fàn.",
-        "pinyinHtml": "jīn tiān zhōng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǔ</span> wǒ yòu chī kuài cān le, shí zài méi shí jiān zuò fàn.",
-        "vi": "Trưa nay tớ lại phải ăn đồ ăn nhanh rồi, thật sự chẳng có thời gian nấu nướng gì cả."
+        "zh": "哎，今天中午我又点外卖快餐凑合了，手头活儿连轴转，实在抽不出空儿做饭。",
+        "pinyin": "āi, jīn tiān zhōng wǔ wǒ yòu diǎn wài mài kuài cān còu hé le, shǒu tóu huór lián zhóu zhuǎn, shí zài chōu bù chū kòngr zuò fàn.",
+        "pinyinHtml": "āi, jīn tiān zhōng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǔ</span> wǒ yòu diǎn wài mài kuài cān còu hé le, shǒu tóu huór lián zhóu zhuǎn, shí zài chōu bù chū kòngr zuò fàn.",
+        "vi": "Haizz, trưa nay tớ lại phải gọi đồ ăn nhanh giao tới ăn tạm rồi, công việc cứ xoay như chong chóng, chẳng tài nào dứt ra nấu nướng được.",
+        "modified": true,
+        "reason": "Dùng cụm từ dân văn phòng hiện đại '点外卖凑合', '手头活儿连轴转', '抽不出空儿做饭'."
        },
        {
         "n": "02",
@@ -2409,10 +2433,12 @@ window.APP_BOOKS = {
        {
         "n": "14",
         "role": "B",
-        "zh": "对，忙的时候拿出来热一下，就不用临时买了。",
-        "pinyin": "duì, máng de shí hòu ná chū lái rè yí xià, jiù bú yòng lín shí mǎi le.",
-        "pinyinHtml": "duì, máng de shí hòu ná chū lái rè yí xià, jiù bú yòng lín shí mǎi le.",
-        "vi": "Đúng vậy, hôm nào bận chỉ cần lấy ra hâm nóng lại là xong, khỏi mất công mua vội mua vàng."
+        "zh": "可不就是嘛！平时把半成品囤在冰箱里，忙起来微波炉一热就能吃，既省事儿又卫生。",
+        "pinyin": "kě bú jiù shì ma! píng shí bǎ bàn chéng pǐn tún zài bīng xiāng lǐ, máng qǐ lái wēi bō lú yí rè jiù néng chī, jì shěng shìr yòu wèi shēng.",
+        "pinyinHtml": "kě bú jiù shì ma! píng shí bǎ bàn chéng pǐn tún zài bīng xiāng lǐ, máng qǐ lái wēi bō lú yí rè jiù néng chī, jì shěng shìr yòu wèi shēng.",
+        "vi": "Chuẩn cơm nấu luôn rồi! Bình thường cứ trữ sẵn đồ sơ chế trong tủ lạnh, lúc bận đem bỏ lò vi sóng quay nóng là ăn được ngay, vừa tiện lại vừa sạch sẽ.",
+        "modified": true,
+        "reason": "Bỏ '对，...', dùng quán dụng ngữ '可不就是嘛！', chi tiết sinh hoạt đời thường '囤在冰箱里', '微波炉一热'."
        },
        {
         "n": "15",
@@ -2457,10 +2483,12 @@ window.APP_BOOKS = {
        {
         "n": "20",
         "role": "B",
-        "zh": "好，就这么说定了！",
-        "pinyin": "hǎo, jiù zhè me shuō dìng le!",
-        "pinyinHtml": "hǎo, jiù zhè me shuō dìng le!",
-        "vi": "Được luôn, cứ chốt như thế đi!"
+        "zh": "妥了，那就这么说定了，明天中午不见不散！",
+        "pinyin": "tuǒ le, nà jiù zhè me shuō dìng le, míng tiān zhōng wǔ bú jiàn bú sàn!",
+        "pinyinHtml": "tuǒ le, nà jiù zhè me shuō dìng le, míng tiān zhōng wǔ bú jiàn bú sàn!",
+        "vi": "Chốt kèo! Thế cứ thống nhất vậy nhé, trưa mai không gặp không về!",
+        "modified": true,
+        "reason": "Thay '好，就这么说定了！' bằng tiếng lóng chốt hẹn khẩu ngữ dứt khoát: '妥了，那就这么说定了！'."
        }
       ],
       "v2_lines": [
@@ -2847,127 +2875,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b3-c4.m4a",
-      "audioDuration": 90.23,
+      "audioDuration": 96.75,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.96
+        "end": 6.99
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.96,
-        "end": 9.69
+        "start": 6.99,
+        "end": 11.81
        },
        {
         "n": "03",
         "role": "A",
-        "start": 9.69,
-        "end": 15.37
+        "start": 11.81,
+        "end": 17.89
        },
        {
         "n": "04",
         "role": "B",
-        "start": 15.37,
-        "end": 19.75
+        "start": 17.89,
+        "end": 22.22
        },
        {
         "n": "05",
         "role": "A",
-        "start": 19.75,
-        "end": 25
+        "start": 22.22,
+        "end": 27.76
        },
        {
         "n": "06",
         "role": "B",
-        "start": 25,
-        "end": 28.77
+        "start": 27.76,
+        "end": 31.61
        },
        {
         "n": "07",
         "role": "A",
-        "start": 28.77,
-        "end": 34.34
+        "start": 31.61,
+        "end": 36.87
        },
        {
         "n": "08",
         "role": "B",
-        "start": 34.34,
-        "end": 38.28
+        "start": 36.87,
+        "end": 40.39
        },
        {
         "n": "09",
         "role": "A",
-        "start": 38.28,
-        "end": 41.72
+        "start": 40.39,
+        "end": 44.33
        },
        {
         "n": "10",
         "role": "B",
-        "start": 41.72,
-        "end": 46.53
+        "start": 44.33,
+        "end": 49.61
        },
        {
         "n": "11",
         "role": "A",
-        "start": 46.53,
-        "end": 50.76
+        "start": 49.61,
+        "end": 53.36
        },
        {
         "n": "12",
         "role": "B",
-        "start": 50.76,
-        "end": 55.21
+        "start": 53.36,
+        "end": 57.47
        },
        {
         "n": "13",
         "role": "A",
-        "start": 55.21,
-        "end": 60.08
+        "start": 57.47,
+        "end": 62.52
        },
        {
         "n": "14",
         "role": "B",
-        "start": 60.08,
-        "end": 64.74
+        "start": 62.52,
+        "end": 70.48
        },
        {
         "n": "15",
         "role": "A",
-        "start": 64.74,
-        "end": 69.68
+        "start": 70.48,
+        "end": 74.96
        },
        {
         "n": "16",
         "role": "B",
-        "start": 69.68,
-        "end": 74.53
+        "start": 74.96,
+        "end": 79.58
        },
        {
         "n": "17",
         "role": "A",
-        "start": 74.53,
-        "end": 79.5
+        "start": 79.58,
+        "end": 84.21
        },
        {
         "n": "18",
         "role": "B",
-        "start": 79.5,
-        "end": 83.55
+        "start": 84.21,
+        "end": 88.62
        },
        {
         "n": "19",
         "role": "A",
-        "start": 83.55,
-        "end": 87.8
+        "start": 88.62,
+        "end": 92.42
        },
        {
         "n": "20",
         "role": "B",
-        "start": 87.8,
-        "end": 90.23
+        "start": 92.42,
+        "end": 96.75
        }
       ]
      }
@@ -3172,10 +3200,12 @@ window.APP_BOOKS = {
        {
         "n": "07",
         "role": "A",
-        "zh": "这条线应该往哪边坐？我怕坐错方向。",
-        "pinyin": "zhè tiáo xiàn yīng gāi wǎng nǎ biān zuò? wǒ pà zuò cuò fāng xiàng.",
-        "pinyinHtml": "zhè tiáo xiàn yīng gāi <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎng</span> nǎ biān zuò? wǒ pà zuò cuò fāng xiàng.",
-        "vi": "Tuyến này phải đi về hướng nào thế? Tớ chỉ sợ ngồi nhầm chiều thôi."
+        "zh": "我强烈建议你坐地铁，赶上早晚高峰地上堵得水泄不通，还是地铁准时靠谱。",
+        "pinyin": "wǒ qiáng liè jiàn yì nǐ zuò dì tiě, gǎn shàng zǎo wǎn gāo fēng de shàng dǔ dé shuǐ xiè bù tōng, hái shì dì tiě zhǔn shí kào pǔ.",
+        "pinyinHtml": "wǒ qiáng liè jiàn yì nǐ zuò dì tiě, gǎn shàng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zǎo</span> wǎn gāo fēng de shàng dǔ dé shuǐ xiè bù tōng, hái shì dì <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tiě</span> zhǔn shí kào pǔ.",
+        "vi": "Tớ khuyên thật lòng là cậu nên đi tàu điện ngầm, trúng giờ cao điểm sáng tối thì đường bộ tắc nghẽn cứng ngắc, chỉ có tàu điện ngầm là đúng giờ và tin cậy nhất thôi.",
+        "modified": true,
+        "reason": "Lồng ghép trải nghiệm thực tế tắc đường giờ cao điểm '早晚高峰堵得水泄不通', khen tàu điện ngầm '准时靠谱'."
        },
        {
         "n": "08",
@@ -3244,10 +3274,12 @@ window.APP_BOOKS = {
        {
         "n": "16",
         "role": "B",
-        "zh": "没错。还要留意末班车时间，别逛得太晚。",
-        "pinyin": "méi cuò. hái yào liú yì mò bān chē shí jiān, bié guàng dé tài wǎn.",
-        "pinyinHtml": "méi cuò. hái yào liú yì mò bān chē shí jiān, bié guàng dé tài wǎn.",
-        "vi": "Chuẩn đấy. Cậu cũng nhớ để ý giờ chuyến tàu cuối nhé, đừng mải dạo phố muộn quá."
+        "zh": "确实！尤其要看好地铁的末班车时间，免得逛嗨了赶不上末班车，打车可老贵了。",
+        "pinyin": "què shí! yóu qí yào kàn hǎo dì tiě de mò bān chē shí jiān, miǎn de guàng hāi le gǎn bú shàng mò bān chē, dǎ chē kě lǎo guì le.",
+        "pinyinHtml": "què shí! yóu qí yào kàn hǎo dì tiě de mò bān chē shí jiān, miǎn de guàng hāi le gǎn bú shàng mò bān chē, dǎ chē <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> lǎo guì le.",
+        "vi": "Chuẩn đấy! Nhất là phải canh giờ chuyến tàu cuối, kẻo đi chơi hăng quá lỡ mất chuyến thì tiền bắt taxi về đắt đỏ lắm.",
+        "modified": true,
+        "reason": "Bỏ từ cứng nhắc '没错。', thêm cách nói khẩu ngữ tự nhiên '看好末班车', '逛嗨了', '打车可老贵了'."
        },
        {
         "n": "17",
@@ -3268,10 +3300,12 @@ window.APP_BOOKS = {
        {
         "n": "19",
         "role": "A",
-        "zh": "好，今天多亏你帮我看地图。",
-        "pinyin": "hǎo, jīn tiān duō kuī nǐ bāng wǒ kàn dì tú.",
-        "pinyinHtml": "hǎo, jīn tiān duō kuī nǐ bāng wǒ kàn dì tú.",
-        "vi": "Được rồi, hôm nay may mà có cậu chỉ đường trên bản đồ giùm tớ."
+        "zh": "太感谢了！今天多亏你帮我指路，要不然我光拿着手机导航也得绕晕了。",
+        "pinyin": "tài gǎn xiè le! jīn tiān duō kuī nǐ bāng wǒ zhǐ lù, yào bù rán wǒ guāng ná zhuó shǒu jī dǎo háng yě dé rào yūn le.",
+        "pinyinHtml": "tài gǎn xiè le! jīn tiān duō kuī nǐ bāng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> zhǐ lù, yào bù rán wǒ guāng ná zhuó shǒu jī dǎo háng yě dé rào yūn le.",
+        "vi": "Cảm ơn cậu nhiều nha! Hôm nay may mà có cậu chỉ đường cặn kẽ, chứ không thì tớ có cầm điện thoại dò map cũng dễ đi lòng vòng lạc lối mất.",
+        "modified": true,
+        "reason": "Thay câu cảm ơn đơn điệu '好，今天多亏你帮我看地图' bằng lời thoại sinh động kèm hình ảnh '拿着手机导航也得绕晕了'."
        },
        {
         "n": "20",
@@ -3666,127 +3700,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b4-c1.m4a",
-      "audioDuration": 90.49,
+      "audioDuration": 100.47,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.65
+        "end": 4.9
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.65,
-        "end": 8.71
+        "start": 4.9,
+        "end": 9.44
        },
        {
         "n": "03",
         "role": "A",
-        "start": 8.71,
-        "end": 13.81
+        "start": 9.44,
+        "end": 14.2
        },
        {
         "n": "04",
         "role": "B",
-        "start": 13.81,
-        "end": 18.93
+        "start": 14.2,
+        "end": 19.89
        },
        {
         "n": "05",
         "role": "A",
-        "start": 18.93,
-        "end": 23.42
+        "start": 19.89,
+        "end": 24.71
        },
        {
         "n": "06",
         "role": "B",
-        "start": 23.42,
-        "end": 27.57
+        "start": 24.71,
+        "end": 28.49
        },
        {
         "n": "07",
         "role": "A",
-        "start": 27.57,
-        "end": 32.05
+        "start": 28.49,
+        "end": 35.57
        },
        {
         "n": "08",
         "role": "B",
-        "start": 32.05,
-        "end": 37.41
+        "start": 35.57,
+        "end": 40.63
        },
        {
         "n": "09",
         "role": "A",
-        "start": 37.41,
-        "end": 42.16
+        "start": 40.63,
+        "end": 45.79
        },
        {
         "n": "10",
         "role": "B",
-        "start": 42.16,
-        "end": 47.56
+        "start": 45.79,
+        "end": 50.95
        },
        {
         "n": "11",
         "role": "A",
-        "start": 47.56,
-        "end": 51.42
+        "start": 50.95,
+        "end": 54.34
        },
        {
         "n": "12",
         "role": "B",
-        "start": 51.42,
-        "end": 57.43
+        "start": 54.34,
+        "end": 60.27
        },
        {
         "n": "13",
         "role": "A",
-        "start": 57.43,
-        "end": 62.65
+        "start": 60.27,
+        "end": 65.99
        },
        {
         "n": "14",
         "role": "B",
-        "start": 62.65,
-        "end": 67.4
+        "start": 65.99,
+        "end": 71.03
        },
        {
         "n": "15",
         "role": "A",
-        "start": 67.4,
-        "end": 71.67
+        "start": 71.03,
+        "end": 74.91
        },
        {
         "n": "16",
         "role": "B",
-        "start": 71.67,
-        "end": 76.16
+        "start": 74.91,
+        "end": 82.68
        },
        {
         "n": "17",
         "role": "A",
-        "start": 76.16,
-        "end": 80.54
+        "start": 82.68,
+        "end": 87.29
        },
        {
         "n": "18",
         "role": "B",
-        "start": 80.54,
-        "end": 84.28
+        "start": 87.29,
+        "end": 90.83
        },
        {
         "n": "19",
         "role": "A",
-        "start": 84.28,
-        "end": 87.7
+        "start": 90.83,
+        "end": 97.76
        },
        {
         "n": "20",
         "role": "B",
-        "start": 87.7,
-        "end": 90.49
+        "start": 97.76,
+        "end": 100.47
        }
       ]
      },
@@ -3834,10 +3868,12 @@ window.APP_BOOKS = {
        {
         "n": "05",
         "role": "A",
-        "zh": "两个都重要。这款和那款有什么不同？",
-        "pinyin": "liǎng gè dōu zhòng yào. zhè kuǎn hé nà kuǎn yǒu shén me bù tóng?",
-        "pinyinHtml": "liǎng gè dōu zhòng yào. zhè kuǎn hé nà <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kuǎn</span> yǒu shén me bù tóng?",
-        "vi": "Cả hai đều quan trọng cả. Hai mẫu này có điểm gì khác nhau vậy anh?"
+        "zh": "那您可以重点看这款五十五寸的4K超高清电视，客厅视距正合适，色彩还原度特别高。",
+        "pinyin": "nà nín kě yǐ zhòng diǎn kàn zhè kuǎn wǔ shí wǔ cùn de 4 K chāo gāo qīng diàn shì, kè tīng shì jù zhèng hé shì, sè cǎi hái yuán dù tè bié gāo.",
+        "pinyinHtml": "nà nín <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ zhòng diǎn kàn zhè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kuǎn</span> wǔ shí wǔ cùn de 4 K chāo gāo qīng diàn shì, kè tīng shì jù zhèng hé shì, sè cǎi hái yuán dù tè bié gāo.",
+        "vi": "Thế thì bác nên xem kỹ mẫu TV 4K siêu sắc nét 55 inch này, khoảng cách xem trong phòng khách cực kỳ vừa tầm mà độ chân thực của màu sắc lại rất cao.",
+        "modified": true,
+        "reason": "Dùng thuật ngữ mua hàng điện máy thực tế: '4K超高清', '客厅视距', '色彩还原度'."
        },
        {
         "n": "06",
@@ -3946,18 +3982,22 @@ window.APP_BOOKS = {
        {
         "n": "19",
         "role": "A",
-        "zh": "好，我看完再决定买哪一台。",
-        "pinyin": "hǎo, wǒ kàn wán zài jué dìng mǎi nǎ yì tái.",
-        "pinyinHtml": "hǎo, wǒ kàn wán zài jué dìng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> nǎ yì tái.",
-        "vi": "Được rồi, tôi xem kỹ xong sẽ quyết định lấy chiếc nào."
+        "zh": "行，我先对比一下各平台的参数和评价，再定买哪一款。",
+        "pinyin": "xíng, wǒ xiān duì bǐ yí xià gè píng tái de cān shù hé píng jià, zài dìng mǎi nǎ yì kuǎn.",
+        "pinyinHtml": "xíng, wǒ xiān duì bǐ yí xià gè píng tái de cān shù hé píng jià, zài dìng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> nǎ yì kuǎn.",
+        "vi": "Được rồi, để tôi lên mạng so sánh đối chiếu thêm thông số với đánh giá của người dùng xem sao, rồi hẵng chốt mua chiếc nào.",
+        "modified": true,
+        "reason": "Thay câu cụt '好，我看完再决定买哪一台' bằng thói quen mua sắm thông thái hiện đại: '对比一下各平台的参数和评价'."
        },
        {
         "n": "20",
         "role": "B",
-        "zh": "好的，希望您能挑到合适的电视。",
-        "pinyin": "hǎo de, xī wàng nín néng tiāo dào hé shì de diàn shì.",
-        "pinyinHtml": "hǎo de, xī wàng nín néng tiāo dào hé shì de diàn shì.",
-        "vi": "Dạ vâng, chúc anh chọn được chiếc TV ưng ý nhất ạ!"
+        "zh": "没问题，您随时招呼我，祝您挑到最称心如意的好电视！",
+        "pinyin": "méi wèn tí, nín suí shí zhāo hū wǒ, zhù nín tiāo dào zuì chèn xīn rú yì de hǎo diàn shì!",
+        "pinyinHtml": "méi wèn tí, nín suí shí zhāo hū wǒ, zhù nín tiāo dào zuì chèn xīn rú yì de hǎo diàn shì!",
+        "vi": "Vâng không sao ạ, bác cần gì cứ gọi em nhé, chúc bác chọn được chiếc TV ưng ý vừa lòng nhất!",
+        "modified": true,
+        "reason": "Khẩu ngữ nhân viên bán hàng chu đáo: '您随时招呼我', '称心如意'."
        }
       ],
       "v2_lines": [
@@ -4344,127 +4384,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b4-c2.m4a",
-      "audioDuration": 90.58,
+      "audioDuration": 98.49,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.57
+        "end": 4.46
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.57,
-        "end": 8.66
+        "start": 4.46,
+        "end": 8.9
        },
        {
         "n": "03",
         "role": "A",
-        "start": 8.66,
-        "end": 13.25
+        "start": 8.9,
+        "end": 13.7
        },
        {
         "n": "04",
         "role": "B",
-        "start": 13.25,
-        "end": 18.34
+        "start": 13.7,
+        "end": 18.95
        },
        {
         "n": "05",
         "role": "A",
-        "start": 18.34,
-        "end": 22.57
+        "start": 18.95,
+        "end": 27.03
        },
        {
         "n": "06",
         "role": "B",
-        "start": 22.57,
-        "end": 27.59
+        "start": 27.03,
+        "end": 32.52
        },
        {
         "n": "07",
         "role": "A",
-        "start": 27.59,
-        "end": 31.86
+        "start": 32.52,
+        "end": 36.38
        },
        {
         "n": "08",
         "role": "B",
-        "start": 31.86,
-        "end": 37.08
+        "start": 36.38,
+        "end": 41.84
        },
        {
         "n": "09",
         "role": "A",
-        "start": 37.08,
-        "end": 41.3
+        "start": 41.84,
+        "end": 45.85
        },
        {
         "n": "10",
         "role": "B",
-        "start": 41.3,
-        "end": 45.84
+        "start": 45.85,
+        "end": 50.41
        },
        {
         "n": "11",
         "role": "A",
-        "start": 45.84,
-        "end": 49.18
+        "start": 50.41,
+        "end": 53.93
        },
        {
         "n": "12",
         "role": "B",
-        "start": 49.18,
-        "end": 54.95
+        "start": 53.93,
+        "end": 60.1
        },
        {
         "n": "13",
         "role": "A",
-        "start": 54.95,
-        "end": 59.86
+        "start": 60.1,
+        "end": 64.93
        },
        {
         "n": "14",
         "role": "B",
-        "start": 59.86,
-        "end": 65.31
+        "start": 64.93,
+        "end": 70.04
        },
        {
         "n": "15",
         "role": "A",
-        "start": 65.31,
-        "end": 69.98
+        "start": 70.04,
+        "end": 75
        },
        {
         "n": "16",
         "role": "B",
-        "start": 69.98,
-        "end": 74.38
+        "start": 75,
+        "end": 79.2
        },
        {
         "n": "17",
         "role": "A",
-        "start": 74.38,
-        "end": 79.57
+        "start": 79.2,
+        "end": 84.18
        },
        {
         "n": "18",
         "role": "B",
-        "start": 79.57,
-        "end": 83.56
+        "start": 84.18,
+        "end": 87.93
        },
        {
         "n": "19",
         "role": "A",
-        "start": 83.56,
-        "end": 86.94
+        "start": 87.93,
+        "end": 93.33
        },
        {
         "n": "20",
         "role": "B",
-        "start": 86.94,
-        "end": 90.58
+        "start": 93.33,
+        "end": 98.49
        }
       ]
      },
@@ -4504,10 +4544,12 @@ window.APP_BOOKS = {
        {
         "n": "04",
         "role": "B",
-        "zh": "我学的是计算机，毕业以后想进一家技术公司。",
-        "pinyin": "wǒ xué de shì jì suàn jī, bì yè yǐ hòu xiǎng jìn yì jiā jì shù gōng sī.",
-        "pinyinHtml": "wǒ xué de shì jì suàn jī, bì yè yǐ hòu xiǎng jìn yì jiā jì shù gōng sī.",
-        "vi": "Mình học chuyên ngành khoa học máy tính, tốt nghiệp xong mình muốn đầu quân vào một công ty công nghệ."
+        "zh": "在我们看来，福利待遇和稳定性往往排第一位，所以很多人挤破头想进大厂或者考公务员。",
+        "pinyin": "zài wǒ men kàn lái, fú lì dài yù hé wěn dìng xìng wǎng wǎng pái dì yī wèi, suǒ yǐ hěn duō rén jǐ pò tóu xiǎng jìn dà chǎng huò zhě kǎo gōng wù yuán.",
+        "pinyinHtml": "zài wǒ men kàn lái, fú lì dài yù hé wěn dìng xìng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎng</span> wǎng pái dì yī wèi, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">suǒ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǐ</span> hěn duō rén jǐ pò tóu xiǎng jìn dà chǎng huò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhě</span> kǎo gōng wù yuán.",
+        "vi": "Theo góc nhìn của tụi mình, chế độ đãi ngộ và tính ổn định luôn đứng hàng đầu, nên nhiều bạn trẻ đua nhau tranh một suất vào các tập đoàn lớn hoặc thi công chức.",
+        "modified": true,
+        "reason": "Dùng cụm từ nóng về việc làm ở TQ: '进大厂' (vào các tập đoàn công nghệ lớn), '挤破头想考公' (tranh nhau thi công chức)."
        },
        {
         "n": "05",
@@ -4584,10 +4626,12 @@ window.APP_BOOKS = {
        {
         "n": "14",
         "role": "B",
-        "zh": "有，去年暑假实习了两个月，才发现实际工作跟想象的不太一样。",
-        "pinyin": "yǒu, qù nián shǔ jiǎ shí xí le liǎng gè yuè, cái fā xiàn shí jì gōng zuò gēn xiǎng xiàng de bú tài yí yàng.",
-        "pinyinHtml": "yǒu, qù nián <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǔ</span> jiǎ shí xí le liǎng gè yuè, cái fā xiàn shí jì gōng zuò gēn xiǎng xiàng de bú tài yí yàng.",
-        "vi": "Rồi chứ, kỳ nghỉ hè năm ngoái mình thực tập hai tháng, mới vỡ lẽ ra thực tế công việc khác xa so với lúc tưởng tượng."
+        "zh": "太有同感了！求职最怕的就是自己没主见，盲目跟风瞎内卷，到头来身心俱疲。",
+        "pinyin": "tài yǒu tóng gǎn le! qiú zhí zuì pà de jiù shì zì jǐ méi zhǔ jiàn, máng mù gēn fēng xiā nèi juàn, dào tóu lái shēn xīn jù pí.",
+        "pinyinHtml": "tài yǒu tóng gǎn le! qiú zhí zuì pà de jiù shì zì jǐ méi zhǔ jiàn, máng mù gēn fēng xiā nèi juàn, dào tóu lái shēn xīn jù pí.",
+        "vi": "Tớ đồng cảm sâu sắc luôn! Đi xin việc sợ nhất là không có lập trường riêng, cứ mù quáng cuốn theo trào lưu cạnh tranh khốc liệt, để rồi cuối cùng kiệt sức cả thể xác lẫn tinh thần.",
+        "modified": true,
+        "reason": "Bổ sung từ khóa thời sự việc làm '盲目跟风瞎内卷' (cuốn vào vòng xoáy cạnh tranh mù quáng), '身心俱疲'."
        },
        {
         "n": "15",
@@ -4624,10 +4668,12 @@ window.APP_BOOKS = {
        {
         "n": "19",
         "role": "A",
-        "zh": "好啊。今天交流之后，我对不同的求职观更了解了。",
-        "pinyin": "hǎo a. jīn tiān jiāo liú zhī hòu, wǒ duì bù tóng de qiú zhí guān gèng liǎo jiě le.",
-        "pinyinHtml": "hǎo a. jīn tiān jiāo liú zhī hòu, wǒ duì bù tóng de qiú zhí guān gèng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">liǎo</span> jiě le.",
-        "vi": "Hay quá. Sau buổi trò chuyện hôm nay, mình đã hiểu sâu hơn về những quan điểm tìm việc khác nhau rồi."
+        "zh": "确实是这样！今天这一场交流碰撞，真是让我开阔了眼界。",
+        "pinyin": "què shí shì zhè yàng! jīn tiān zhè yì chǎng jiāo liú pèng zhuàng, zhēn shì ràng wǒ kāi kuò le yǎn jiè.",
+        "pinyinHtml": "què shí shì zhè yàng! jīn tiān zhè yì chǎng jiāo liú pèng zhuàng, zhēn shì ràng wǒ kāi kuò le yǎn jiè.",
+        "vi": "Quả đúng là như thế! Buổi trao đổi cởi mở hôm nay thực sự đã giúp tớ mở mang thêm rất nhiều góc nhìn mới mẻ.",
+        "modified": true,
+        "reason": "Thay '好啊。' bằng cụm khẩu ngữ đắt giá '交流碰撞，开阔了眼界'."
        },
        {
         "n": "20",
@@ -5022,127 +5068,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b4-c3.m4a",
-      "audioDuration": 98.39,
+      "audioDuration": 103.41,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 6.1
+        "end": 6.65
        },
        {
         "n": "02",
         "role": "B",
-        "start": 6.1,
-        "end": 11.94
+        "start": 6.65,
+        "end": 13.43
        },
        {
         "n": "03",
         "role": "A",
-        "start": 11.94,
-        "end": 15.75
+        "start": 13.43,
+        "end": 17.02
        },
        {
         "n": "04",
         "role": "B",
-        "start": 15.75,
-        "end": 20.55
+        "start": 17.02,
+        "end": 24.76
        },
        {
         "n": "05",
         "role": "A",
-        "start": 20.55,
-        "end": 24.99
+        "start": 24.76,
+        "end": 29.38
        },
        {
         "n": "06",
         "role": "B",
-        "start": 24.99,
-        "end": 30.48
+        "start": 29.38,
+        "end": 34.35
        },
        {
         "n": "07",
         "role": "A",
-        "start": 30.48,
-        "end": 36.24
+        "start": 34.35,
+        "end": 40.43
        },
        {
         "n": "08",
         "role": "B",
-        "start": 36.24,
-        "end": 40.46
+        "start": 40.43,
+        "end": 44.16
        },
        {
         "n": "09",
         "role": "A",
-        "start": 40.46,
-        "end": 45.98
+        "start": 44.16,
+        "end": 49.44
        },
        {
         "n": "10",
         "role": "B",
-        "start": 45.98,
-        "end": 50.83
+        "start": 49.44,
+        "end": 54.49
        },
        {
         "n": "11",
         "role": "A",
-        "start": 50.83,
-        "end": 55.8
+        "start": 54.49,
+        "end": 59.12
        },
        {
         "n": "12",
         "role": "B",
-        "start": 55.8,
-        "end": 62.06
+        "start": 59.12,
+        "end": 65.71
        },
        {
         "n": "13",
         "role": "A",
-        "start": 62.06,
-        "end": 65.93
+        "start": 65.71,
+        "end": 69.66
        },
        {
         "n": "14",
         "role": "B",
-        "start": 65.93,
-        "end": 72.07
+        "start": 69.66,
+        "end": 77.64
        },
        {
         "n": "15",
         "role": "A",
-        "start": 72.07,
-        "end": 75.22
+        "start": 77.64,
+        "end": 80.48
        },
        {
         "n": "16",
         "role": "B",
-        "start": 75.22,
-        "end": 80.61
+        "start": 80.48,
+        "end": 85.47
        },
        {
         "n": "17",
         "role": "A",
-        "start": 80.61,
-        "end": 85.25
+        "start": 85.47,
+        "end": 90.14
        },
        {
         "n": "18",
         "role": "B",
-        "start": 85.25,
-        "end": 88.98
+        "start": 90.14,
+        "end": 93.55
        },
        {
         "n": "19",
         "role": "A",
-        "start": 88.98,
-        "end": 94.18
+        "start": 93.55,
+        "end": 99.57
        },
        {
         "n": "20",
         "role": "B",
-        "start": 94.18,
-        "end": 98.39
+        "start": 99.57,
+        "end": 103.41
        }
       ]
      }
@@ -5389,10 +5435,12 @@ window.APP_BOOKS = {
        {
         "n": "09",
         "role": "A",
-        "zh": "这我知道，可我还是学生，预算不多。七十块一件行吗？",
-        "pinyin": "zhè wǒ zhī dào, kě wǒ hái shì xué shēng, yù suàn bù duō. qī shí kuài yí jiàn xíng ma?",
-        "pinyinHtml": "zhè wǒ zhī dào, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> wǒ hái shì xué shēng, yù suàn bù duō. qī shí kuài yí jiàn xíng ma?",
-        "vi": "Cái đó tôi biết, nhưng tôi vẫn còn là sinh viên, ngân túi có hạn. Bảy mươi tệ một chiếc được không ạ?"
+        "zh": "哎哟老板，您这开价也太狠了，对半砍八十块卖不卖？",
+        "pinyin": "āi yō lǎo bǎn, nín zhè kāi jià yě tài hěn le, duì bàn kǎn bā shí kuài mài bu mài?",
+        "pinyinHtml": "āi yō <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǎo</span> bǎn, nín zhè kāi jià yě tài hěn le, duì bàn kǎn bā shí kuài mài bu mài?",
+        "vi": "Ôi bác chủ ơi, bác thét giá rát quá đấy, em chém nửa giá tám mươi tệ bác có bán không nào?",
+        "modified": true,
+        "reason": "Dùng khẩu ngữ mặc cả kinh điển của người bản xứ: '开价也太狠了', '对半砍八十块卖不卖？'."
        },
        {
         "n": "10",
@@ -5445,10 +5493,12 @@ window.APP_BOOKS = {
        {
         "n": "16",
         "role": "B",
-        "zh": "好吧，看在您买两件的份儿上，就这个价。",
-        "pinyin": "hǎo ba, kàn zài nín mǎi liǎng jiàn de fènr shàng, jiù zhè ge jià.",
-        "pinyinHtml": "hǎo ba, kàn zài nín <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> liǎng jiàn de fènr shàng, jiù zhè ge jià.",
-        "vi": "Thôi được rồi, nể tình bạn mua liền hai cái, tôi để giá đó cho bạn luôn."
+        "zh": "得嘞！看您这么有诚意，又一人拿两件，我就当交个朋友，亏本给您拿了！",
+        "pinyin": "dé lē! kàn nín zhè me yǒu chéng yì, yòu yì rén ná liǎng jiàn, wǒ jiù dāng jiāo gè péng yǒu, kuī běn gěi nín ná le!",
+        "pinyinHtml": "dé lē! kàn nín zhè me yǒu chéng yì, yòu yì rén ná liǎng jiàn, wǒ jiù dāng jiāo gè péng yǒu, kuī <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">běn</span> gěi nín ná le!",
+        "vi": "Thôi được rồi! Thấy em thiện chí mà lại lấy một lúc hai cái, bác coi như bán kết bạn, chịu lỗ để lại cho em đấy nhé!",
+        "modified": true,
+        "reason": "Lời đáp tiểu thương chợ đêm sống động: '得嘞！', '看您有诚意', '就当交个朋友，亏本给您拿了！'."
        },
        {
         "n": "17",
@@ -5469,18 +5519,22 @@ window.APP_BOOKS = {
        {
         "n": "19",
         "role": "A",
-        "zh": "没问题，一共一百四十，我付钱。",
-        "pinyin": "méi wèn tí, yí gòng yì bǎi sì shí, wǒ fù qián.",
-        "pinyinHtml": "méi wèn tí, yí gòng yì bǎi sì shí, wǒ fù qián.",
-        "vi": "Chuẩn rồi ạ, tổng cộng một trăm bốn mươi tệ, tôi gửi tiền nhé."
+        "zh": "成！一共一百四十，我扫微信转给您。",
+        "pinyin": "chéng! yí gòng yì bǎi sì shí, wǒ sǎo wēi xìn zhuǎn gěi nín.",
+        "pinyinHtml": "chéng! yí gòng yì bǎi sì shí, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> sǎo wēi xìn <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhuǎn</span> gěi nín.",
+        "vi": "Xong! Tổng cộng một trăm bốn mươi, em quét mã WeChat chuyển khoản cho bác luôn đây.",
+        "modified": true,
+        "reason": "Thay '我付钱' bằng thao tác đời thực 100% tại Trung Quốc: '成！一共一百四十，我扫微信转给您。'."
        },
        {
         "n": "20",
         "role": "B",
-        "zh": "收到了。欢迎下次再来！",
-        "pinyin": "shōu dào le. huān yíng xià cì zài lái!",
-        "pinyinHtml": "shōu dào le. huān yíng xià cì zài lái!",
-        "vi": "Tôi nhận đủ tiền rồi. Lần sau lại ghé ủng hộ quán nhé!"
+        "zh": "款到账了！您慢走啊，穿得舒服多帮我带几个回头客！",
+        "pinyin": "kuǎn dào zhàng le! nín màn zǒu a, chuān dé shū fú duō bāng wǒ dài jǐ gè huí tóu kè!",
+        "pinyinHtml": "kuǎn dào zhàng le! nín màn zǒu a, chuān dé shū fú duō bāng wǒ dài jǐ gè huí tóu kè!",
+        "vi": "Tiền vào tài khoản rồi nhé! Em đi thong thả, mặc thấy êm đẹp thì nhớ giới thiệu thêm khách quen quay lại ủng hộ bác nha!",
+        "modified": true,
+        "reason": "Lời tiễn khách buôn bán chân thực: '款到账了！您慢走啊，穿得舒服多帮我带几个回头客！'."
        }
       ],
       "v2_lines": [
@@ -5886,127 +5940,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b10-c1.m4a",
-      "audioDuration": 82.94,
+      "audioDuration": 91.71,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 3.48
+        "end": 4.1
        },
        {
         "n": "02",
         "role": "B",
-        "start": 3.48,
-        "end": 8
+        "start": 4.1,
+        "end": 9.11
        },
        {
         "n": "03",
         "role": "A",
-        "start": 8,
-        "end": 12.28
+        "start": 9.11,
+        "end": 13.02
        },
        {
         "n": "04",
         "role": "B",
-        "start": 12.28,
-        "end": 16.27
+        "start": 13.02,
+        "end": 16.84
        },
        {
         "n": "05",
         "role": "A",
-        "start": 16.27,
-        "end": 20.79
+        "start": 16.84,
+        "end": 21.66
        },
        {
         "n": "06",
         "role": "B",
-        "start": 20.79,
-        "end": 24.03
+        "start": 21.66,
+        "end": 24.81
        },
        {
         "n": "07",
         "role": "A",
-        "start": 24.03,
-        "end": 28.52
+        "start": 24.81,
+        "end": 29.83
        },
        {
         "n": "08",
         "role": "B",
-        "start": 28.52,
-        "end": 32.91
+        "start": 29.83,
+        "end": 33.94
        },
        {
         "n": "09",
         "role": "A",
-        "start": 32.91,
-        "end": 38.3
+        "start": 33.94,
+        "end": 39.16
        },
        {
         "n": "10",
         "role": "B",
-        "start": 38.3,
-        "end": 42.67
+        "start": 39.16,
+        "end": 43.79
        },
        {
         "n": "11",
         "role": "A",
-        "start": 42.67,
-        "end": 47.87
+        "start": 43.79,
+        "end": 49.02
        },
        {
         "n": "12",
         "role": "B",
-        "start": 47.87,
-        "end": 52.5
+        "start": 49.02,
+        "end": 54.09
        },
        {
         "n": "13",
         "role": "A",
-        "start": 52.5,
-        "end": 56.23
+        "start": 54.09,
+        "end": 57.51
        },
        {
         "n": "14",
         "role": "B",
-        "start": 56.23,
-        "end": 60.68
+        "start": 57.51,
+        "end": 62.45
        },
        {
         "n": "15",
         "role": "A",
-        "start": 60.68,
-        "end": 65.23
+        "start": 62.45,
+        "end": 66.69
        },
        {
         "n": "16",
         "role": "B",
-        "start": 65.23,
-        "end": 69.33
+        "start": 66.69,
+        "end": 73.51
        },
        {
         "n": "17",
         "role": "A",
-        "start": 69.33,
-        "end": 73.13
+        "start": 73.51,
+        "end": 77.65
        },
        {
         "n": "18",
         "role": "B",
-        "start": 73.13,
-        "end": 76.56
+        "start": 77.65,
+        "end": 81.43
        },
        {
         "n": "19",
         "role": "A",
-        "start": 76.56,
-        "end": 79.97
+        "start": 81.43,
+        "end": 86
        },
        {
         "n": "20",
         "role": "B",
-        "start": 79.97,
-        "end": 82.94
+        "start": 86,
+        "end": 91.71
        }
       ]
      },
@@ -6038,10 +6092,12 @@ window.APP_BOOKS = {
        {
         "n": "03",
         "role": "A",
-        "zh": "先买一斤鸡肉、一斤土豆，再来一斤西兰花。",
-        "pinyin": "xiān mǎi yì jīn jī ròu, yì jīn tǔ dòu, zài lái yì jīn xī lán huā.",
-        "pinyinHtml": "xiān mǎi yì jīn jī ròu, yì jīn tǔ dòu, zài lái yì jīn xī lán huā.",
-        "vi": "Bác cho cháu một cân thịt gà, một cân khoai tây với một cân súp lơ xanh trước ạ."
+        "zh": "老板，这西红柿怎么个卖法？红彤彤沙瓤的，掐指一捏就知道新鲜！",
+        "pinyin": "lǎo bǎn, zhè xī hóng shì zěn me gè mài fǎ? hóng tōng tōng shā ráng de, qiā zhǐ yì niē jiù zhī dào xīn xiān!",
+        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǎo</span> bǎn, zhè xī hóng shì zěn me gè mài fǎ? hóng tōng tōng shā ráng de, qiā zhǐ yì niē jiù zhī dào xīn xiān!",
+        "vi": "Bác chủ ơi, cà chua này bán làm sao thế? Quả đỏ au mọng bột thế này, bấm nhẹ tay là biết tươi rói rồi!",
+        "modified": true,
+        "reason": "Dùng thuật ngữ chọn cà chua ngon của người bản xứ: '沙瓤' (cà chua bột ngọt lịm), '掐指一捏就知道新鲜'."
        },
        {
         "n": "04",
@@ -6102,10 +6158,12 @@ window.APP_BOOKS = {
        {
         "n": "11",
         "role": "A",
-        "zh": "好吧，二十七就二十七。鸡肉是今天送来的吗？",
-        "pinyin": "hǎo ba, èr shí qī jiù èr shí qī. jī ròu shì jīn tiān sòng lái de ma?",
-        "pinyinHtml": "hǎo ba, èr shí qī jiù èr shí qī. jī ròu shì jīn tiān sòng lái de ma?",
-        "vi": "Dạ thôi được, hai mươi bảy thì hai mươi bảy. Thịt gà này là hàng mới giao sáng nay phải không bác?"
+        "zh": "行吧，二十七就二十七。不过您这鸡肉是今儿一早刚宰送来的不？",
+        "pinyin": "xíng ba, èr shí qī jiù èr shí qī. bú guò nín zhè jī ròu shì jīnr yì zǎo gāng zǎi sòng lái de bù?",
+        "pinyinHtml": "xíng ba, èr shí qī jiù èr shí qī. bú guò nín zhè jī ròu shì jīnr yì zǎo gāng zǎi sòng lái de bù?",
+        "vi": "Thôi được, hai mươi bảy thì hai mươi bảy. Cơ mà thịt gà này có chắc là sáng sớm nay vừa mổ chuyển đến không bác?",
+        "modified": true,
+        "reason": "Thay câu đáp cụt '好吧，...', dùng cách hỏi thực phẩm tươi: '今儿一早刚宰送来的不？'."
        },
        {
         "n": "12",
@@ -6150,18 +6208,22 @@ window.APP_BOOKS = {
        {
         "n": "17",
         "role": "A",
-        "zh": "好，先把刚才三样装好。我还得去买点儿水果。",
-        "pinyin": "hǎo, xiān bǎ gāng cái sān yàng zhuāng hǎo. wǒ hái dé qù mǎi diǎnr shuǐ guǒ.",
-        "pinyinHtml": "hǎo, xiān bǎ gāng cái sān yàng zhuāng hǎo. wǒ hái dé qù <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">mǎi</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">diǎnr</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shuǐ</span> guǒ.",
-        "vi": "Dạ vâng, bác cho ba món ban nãy vào túi trước giúp cháu nhé. Lát cháu còn phải ghé mua thêm ít hoa quả nữa."
+        "zh": "妥了，先把这几样给我称好装袋。老板，顺带搭两根小葱呗？",
+        "pinyin": "tuǒ le, xiān bǎ zhè jǐ yàng gěi wǒ chēng hǎo zhuāng dài. lǎo bǎn, shùn dài dā liǎng gēn xiǎo cōng bài?",
+        "pinyinHtml": "tuǒ le, xiān bǎ zhè jǐ yàng <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gěi</span> wǒ chēng hǎo zhuāng dài. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǎo</span> bǎn, shùn dài dā liǎng gēn xiǎo cōng bài?",
+        "vi": "Xong xuôi, bác cứ cân rồi bỏ bao mấy món này giùm em. Bác ơi, tiện tay cho em xin thêm hai nhánh hành lá nghen?",
+        "modified": true,
+        "reason": "Văn hóa đi chợ bình dân: '称好装袋', '顺带搭两根小葱呗？' (xin thêm vài cọng hành ngò)."
        },
        {
         "n": "18",
         "role": "B",
-        "zh": "行。三样二十七块，葱姜另外算，您看清楚。",
-        "pinyin": "xíng. sān yàng èr shí qī kuài, cōng jiāng lìng wài suàn, nín kàn qīng chǔ.",
-        "pinyinHtml": "xíng. sān yàng èr shí qī kuài, cōng jiāng lìng wài suàn, nín kàn qīng chǔ.",
-        "vi": "Được rồi. Ba món kia hai mươi bảy tệ, hành gừng tính riêng, cháu xem lại cho rõ ràng nhé."
+        "zh": "行嘞，葱随手给您塞袋里了！一共六十七，给您抹个零，给六十五就成！",
+        "pinyin": "xíng lē, cōng suí shǒu gěi nín sāi dài lǐ le! yí gòng liù shí qī, gěi nín mǒ gè líng, gěi liù shí wǔ jiù chéng!",
+        "pinyinHtml": "xíng lē, cōng suí <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">shǒu</span> gěi nín sāi dài lǐ le! yí gòng liù shí qī, gěi nín mǒ gè líng, gěi liù shí wǔ jiù chéng!",
+        "vi": "Được liền, hành bác nhét sẵn vào túi cho em rồi nhé! Hết thảy sáu mươi bảy tệ, bác bớt số lẻ đi, đưa bác sáu mươi lăm là được rồi!",
+        "modified": true,
+        "reason": "Người bán hàng xởi lởi chiều khách: '葱随手给您塞袋里了！', '抹个零，给六十五就成！'."
        },
        {
         "n": "19",
@@ -6583,127 +6645,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b10-c2.m4a",
-      "audioDuration": 83.9,
+      "audioDuration": 94.59,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.28
+        "end": 4.27
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.28,
-        "end": 8.32
+        "start": 4.27,
+        "end": 9.18
        },
        {
         "n": "03",
         "role": "A",
-        "start": 8.32,
-        "end": 12.73
+        "start": 9.18,
+        "end": 16.15
        },
        {
         "n": "04",
         "role": "B",
-        "start": 12.73,
-        "end": 17.12
+        "start": 16.15,
+        "end": 20.48
        },
        {
         "n": "05",
         "role": "A",
-        "start": 17.12,
-        "end": 21.32
+        "start": 20.48,
+        "end": 24.92
        },
        {
         "n": "06",
         "role": "B",
-        "start": 21.32,
-        "end": 24.98
+        "start": 24.92,
+        "end": 28.43
        },
        {
         "n": "07",
         "role": "A",
-        "start": 24.98,
-        "end": 30.18
+        "start": 28.43,
+        "end": 33.8
        },
        {
         "n": "08",
         "role": "B",
-        "start": 30.18,
-        "end": 33.8
+        "start": 33.8,
+        "end": 37.23
        },
        {
         "n": "09",
         "role": "A",
-        "start": 33.8,
-        "end": 37.41
+        "start": 37.23,
+        "end": 41.17
        },
        {
         "n": "10",
         "role": "B",
-        "start": 37.41,
-        "end": 41.94
+        "start": 41.17,
+        "end": 46.12
        },
        {
         "n": "11",
         "role": "A",
-        "start": 41.94,
-        "end": 46.62
+        "start": 46.12,
+        "end": 52.53
        },
        {
         "n": "12",
         "role": "B",
-        "start": 46.62,
-        "end": 50.32
+        "start": 52.53,
+        "end": 56.03
        },
        {
         "n": "13",
         "role": "A",
-        "start": 50.32,
-        "end": 55.12
+        "start": 56.03,
+        "end": 61
        },
        {
         "n": "14",
         "role": "B",
-        "start": 55.12,
-        "end": 59.55
+        "start": 61,
+        "end": 65.57
        },
        {
         "n": "15",
         "role": "A",
-        "start": 59.55,
-        "end": 63.03
+        "start": 65.57,
+        "end": 69.55
        },
        {
         "n": "16",
         "role": "B",
-        "start": 63.03,
-        "end": 66.99
+        "start": 69.55,
+        "end": 73.45
        },
        {
         "n": "17",
         "role": "A",
-        "start": 66.99,
-        "end": 71.73
+        "start": 73.45,
+        "end": 79.74
        },
        {
         "n": "18",
         "role": "B",
-        "start": 71.73,
-        "end": 76.34
+        "start": 79.74,
+        "end": 86.86
        },
        {
         "n": "19",
         "role": "A",
-        "start": 76.34,
-        "end": 80.11
+        "start": 86.86,
+        "end": 91.06
        },
        {
         "n": "20",
         "role": "B",
-        "start": 80.11,
-        "end": 83.9
+        "start": 91.06,
+        "end": 94.59
        }
       ]
      }
@@ -6873,10 +6935,12 @@ window.APP_BOOKS = {
        {
         "n": "02",
         "role": "B",
-        "zh": "真可爱。不过我不太喜欢养宠物，觉得麻烦。",
-        "pinyin": "zhēn kě ài. bú guò wǒ bú tài xǐ huan yǎng chǒng wù, jué de má fán.",
-        "pinyinHtml": "zhēn kě ài. bú guò wǒ bú tài xǐ huan <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǎng</span> chǒng wù, jué de má fán.",
-        "vi": "Đáng yêu ghê. Cơ mà tớ thì không thích nuôi thú cưng lắm, thấy phiền phức sao á."
+        "zh": "看着确实招人稀罕。不过换作我可吃不消，天天伺候宠物吃喝拉撒，太费精力了。",
+        "pinyin": "kàn zhe què shí zhāo rén xī hǎn. bú guò huàn zuò wǒ kě chī bù xiāo, tiān tiān cì hou chǒng wù chī hē lā sā, tài fèi jīng lì le.",
+        "pinyinHtml": "kàn zhe què shí zhāo rén xī hǎn. bú guò huàn zuò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǒ</span> kě chī bù xiāo, tiān tiān cì hou chǒng wù chī hē lā sā, tài fèi jīng lì le.",
+        "vi": "Trông cưng ghê gớm thật đấy. Nhưng đổi lại là tớ thì chịu thua thôi, ngày nào cũng phải cung phụng chuyện ăn uống vệ sinh cho thú cưng, hao tâm tổn sức lắm.",
+        "modified": true,
+        "reason": "Khẩu ngữ diễn đạt phong phú: '招人稀罕' (đáng yêu hết nấc), '吃不消', '天天伺候吃喝拉撒'."
        },
        {
         "n": "03",
@@ -6921,10 +6985,12 @@ window.APP_BOOKS = {
        {
         "n": "08",
         "role": "B",
-        "zh": "这样做当然好，可如果主人工作很忙怎么办？",
-        "pinyin": "zhè yàng zuò dāng rán hǎo, kě rú guǒ zhǔ rén gōng zuò hěn máng zěn me bàn?",
-        "pinyinHtml": "zhè yàng zuò dāng rán hǎo, kě rú <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">guǒ</span> zhǔ rén gōng zuò hěn máng zěn me bàn?",
-        "vi": "Làm được thế thì quá tốt rồi, nhưng ngộ nhỡ chủ bận tối mắt tối mũi thì tính sao?"
+        "zh": "特别理解你的顾虑。养小动物是一辈子的承诺，绝不能三分钟热度，只图一时好玩儿。",
+        "pinyin": "tè bié lǐ jiě nǐ de gù lǜ. yǎng xiǎo dòng wù shì yí bèi zi de chéng nuò, jué bù néng sān fēn zhōng rè dù, zhǐ tú yì shí hǎo wánr.",
+        "pinyinHtml": "tè bié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">lǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">jiě</span> nǐ de gù lǜ. <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǎng</span> xiǎo dòng wù shì yí bèi zi de chéng nuò, jué bù néng sān fēn zhōng rè dù, zhǐ tú yì shí hǎo wánr.",
+        "vi": "Tớ cực kỳ thấu hiểu nỗi băn khoăn của cậu. Nhận nuôi một con vật là lời cam kết cả đời, tuyệt đối không thể hứng lên ba phút rồi chán, chỉ ham vui lúc ban đầu.",
+        "modified": true,
+        "reason": "Lồng ghép quán dụng ngữ đắt giá '三分钟热度' (hứng thú nhất thời, mau chán) trong việc nuôi thú cưng."
        },
        {
         "n": "09",
@@ -7017,10 +7083,12 @@ window.APP_BOOKS = {
        {
         "n": "20",
         "role": "B",
-        "zh": "可以，只要它不突然扑过来就行！",
-        "pinyin": "kě yǐ, zhǐ yào tā bù tū rán pū guò lái jiù xíng!",
-        "pinyinHtml": "<span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ, zhǐ yào tā bù tū rán pū guò lái jiù xíng!",
-        "vi": "Được chứ, miễn là nó đừng bất thình lình nhảy chồm vào người tớ là được!"
+        "zh": "行啊！只要它不冷不丁朝我扑过来，我就敢去跟你家宝贝交个朋友！",
+        "pinyin": "xíng a! zhǐ yào tā bù lěng bù dīng cháo wǒ pū guò lái, wǒ jiù gǎn qù gēn nǐ jiā bǎo bèi jiāo gè péng yǒu!",
+        "pinyinHtml": "xíng a! zhǐ yào tā bù lěng bù dīng cháo wǒ pū guò lái, wǒ jiù gǎn qù gēn nǐ jiā bǎo bèi jiāo gè péng yǒu!",
+        "vi": "Được chứ! Miễn là ẻm không thình lình lao bổ về phía tớ, thì tớ sẵn sàng sang kết thân làm bạn với bé cưng nhà cậu ngay!",
+        "modified": true,
+        "reason": "Dùng từ ngữ sinh động '冷不丁' (bất thình lình), gọi thú cưng thân mật là '你家宝贝'."
        }
       ],
       "v2_lines": [
@@ -7407,127 +7475,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b12-c1.m4a",
-      "audioDuration": 92.42,
+      "audioDuration": 99.75,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.63
+        "end": 4.74
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.63,
-        "end": 9.06
+        "start": 4.74,
+        "end": 12.46
        },
        {
         "n": "03",
         "role": "A",
-        "start": 9.06,
-        "end": 12.45
+        "start": 12.46,
+        "end": 16.27
        },
        {
         "n": "04",
         "role": "B",
-        "start": 12.45,
-        "end": 17.51
+        "start": 16.27,
+        "end": 21.1
        },
        {
         "n": "05",
         "role": "A",
-        "start": 17.51,
-        "end": 22.4
+        "start": 21.1,
+        "end": 25.56
        },
        {
         "n": "06",
         "role": "B",
-        "start": 22.4,
-        "end": 26.79
+        "start": 25.56,
+        "end": 29.88
        },
        {
         "n": "07",
         "role": "A",
-        "start": 26.79,
-        "end": 32.58
+        "start": 29.88,
+        "end": 35.63
        },
        {
         "n": "08",
         "role": "B",
-        "start": 32.58,
-        "end": 37.22
+        "start": 35.63,
+        "end": 43.34
        },
        {
         "n": "09",
         "role": "A",
-        "start": 37.22,
-        "end": 42.33
+        "start": 43.34,
+        "end": 48.17
        },
        {
         "n": "10",
         "role": "B",
-        "start": 42.33,
-        "end": 46.89
+        "start": 48.17,
+        "end": 52.09
        },
        {
         "n": "11",
         "role": "A",
-        "start": 46.89,
-        "end": 51.46
+        "start": 52.09,
+        "end": 56.64
        },
        {
         "n": "12",
         "role": "B",
-        "start": 51.46,
-        "end": 56.11
+        "start": 56.64,
+        "end": 61.1
        },
        {
         "n": "13",
         "role": "A",
-        "start": 56.11,
-        "end": 61.53
+        "start": 61.1,
+        "end": 66.92
        },
        {
         "n": "14",
         "role": "B",
-        "start": 61.53,
-        "end": 64.79
+        "start": 66.92,
+        "end": 69.95
        },
        {
         "n": "15",
         "role": "A",
-        "start": 64.79,
-        "end": 70.18
+        "start": 69.95,
+        "end": 75.23
        },
        {
         "n": "16",
         "role": "B",
-        "start": 70.18,
-        "end": 74.85
+        "start": 75.23,
+        "end": 79.52
        },
        {
         "n": "17",
         "role": "A",
-        "start": 74.85,
-        "end": 80.3
+        "start": 79.52,
+        "end": 85.27
        },
        {
         "n": "18",
         "role": "B",
-        "start": 80.3,
-        "end": 84.75
+        "start": 85.27,
+        "end": 89.71
        },
        {
         "n": "19",
         "role": "A",
-        "start": 84.75,
-        "end": 88.69
+        "start": 89.71,
+        "end": 93.13
        },
        {
         "n": "20",
         "role": "B",
-        "start": 88.69,
-        "end": 92.42
+        "start": 93.13,
+        "end": 99.75
        }
       ]
      },
@@ -7607,10 +7675,12 @@ window.APP_BOOKS = {
        {
         "n": "09",
         "role": "A",
-        "zh": "那你看的悬疑片讲什么？别把结局告诉我啊。",
-        "pinyin": "nà nǐ kàn de xuán yí piàn jiǎng shén me? bié bǎ jié jú gào sù wǒ a.",
-        "pinyinHtml": "nà nǐ kàn de xuán yí piàn jiǎng shén me? bié bǎ jié jú gào sù wǒ a.",
-        "vi": "Thế phim trinh thám cậu xem kể về chuyện gì? Cấm tiết lộ cái kết đấy nhé!"
+        "zh": "那你挑的那部悬疑片怎么样？千万打住，可别给我剧透啊！",
+        "pinyin": "nà nǐ tiāo de nà bù xuán yí piàn zěn me yàng? qiān wàn dǎ zhù, kě bié gěi wǒ jù tòu a!",
+        "pinyinHtml": "nà nǐ tiāo de nà bù xuán yí piàn zěn me yàng? qiān wàn dǎ zhù, kě bié <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">gěi</span> wǒ jù tòu a!",
+        "vi": "Thế bộ phim trinh thám hồi hộp cậu chọn xem thế nào? Nhớ phanh lại kịp thời nha, cấm chỉ không được spoil kết cục cho tớ đấy!",
+        "modified": true,
+        "reason": "Dùng thuật ngữ hiện đại của mọt phim: '千万打住，可别给我剧透啊！' (đừng spoil phim)."
        },
        {
         "n": "10",
@@ -7647,10 +7717,12 @@ window.APP_BOOKS = {
        {
         "n": "14",
         "role": "B",
-        "zh": "对。喜欢这个题材是一回事儿，觉得这部拍得好是另一回事儿。",
-        "pinyin": "duì. xǐ huan zhè ge tí cái shì yì huí shìr, jué de zhè bù pāi dé hǎo shì lìng yì huí shìr.",
-        "pinyinHtml": "duì. xǐ huan zhè ge tí cái shì yì huí shìr, jué de zhè bù pāi dé hǎo shì lìng yì huí shìr.",
-        "vi": "Đúng thế. Thích thể loại này là một chuyện, còn thấy bộ phim này quay tốt hay không lại là chuyện khác."
+        "zh": "可不嘛！喜欢这个悬疑题材是一码事，但这导演后半段拍得太拉胯又是另一码事。",
+        "pinyin": "kě bù ma! xǐ huan zhè ge xuán yí tí cái shì yì mǎ shì, dàn zhè dǎo yǎn hòu bàn duàn pāi dé tài lā kuà yòu shì lìng yì mǎ shì.",
+        "pinyinHtml": "kě bù ma! xǐ huan zhè ge xuán yí tí cái shì yì mǎ shì, dàn zhè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">dǎo</span> yǎn hòu bàn duàn pāi dé tài lā kuà yòu shì lìng yì mǎ shì.",
+        "vi": "Chuẩn luôn chứ còn gì! Mê cái thể loại giật gân này là một chuyện, nhưng việc ông đạo diễn làm nửa sau phim đuối như cọng bún thiu lại là chuyện hoàn toàn khác.",
+        "modified": true,
+        "reason": "Thay '对。' bằng '可不嘛！', dùng cụm khẩu ngữ hiện đại '一码事是一码事', '拍得太拉胯' (nửa sau đuối sức, dở tệ)."
        },
        {
         "n": "15",
@@ -7687,10 +7759,12 @@ window.APP_BOOKS = {
        {
         "n": "19",
         "role": "A",
-        "zh": "好啊，等我们找到好看的电影，一起去电影院吧。",
-        "pinyin": "hǎo a, děng wǒ men zhǎo dào hǎo kàn de diàn yǐng, yì qǐ qù diàn yǐng yuàn ba.",
-        "pinyinHtml": "hǎo a, <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">děng</span> wǒ men zhǎo dào hǎo kàn de diàn yǐng, yì qǐ qù diàn yǐng yuàn ba.",
-        "vi": "Được đó, khi nào tìm được phim gì hay ho thì hai đứa mình cùng rủ nhau ra rạp nhé."
+        "zh": "赞成！等下周院线上了新口碑大片，咱们抢首映场一起去影院二刷！",
+        "pinyin": "zàn chéng! děng xià zhōu yuàn xiàn shàng le xīn kǒu bēi dà piàn, zán men qiǎng shǒu yìng chǎng yì qǐ qù yǐng yuàn èr shuā!",
+        "pinyinHtml": "zàn chéng! děng xià zhōu yuàn xiàn shàng le xīn kǒu bēi dà piàn, zán men <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">qiǎng</span> shǒu yìng chǎng yì qǐ qù yǐng yuàn èr shuā!",
+        "vi": "Nhất trí hai tay! Đợi tuần tới rạp chiếu phim có bom tấn nào được khen nức nở, tụi mình săn vé suất chiếu đầu tiên đi xem cùng nhau nhé!",
+        "modified": true,
+        "reason": "Từ ngữ xem phim chuẩn gu giới trẻ: '口碑大片', '抢首映场', '二刷'."
        },
        {
         "n": "20",
@@ -8085,127 +8159,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b12-c2.m4a",
-      "audioDuration": 94.59,
+      "audioDuration": 99.47,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 5.88
+        "end": 5.96
        },
        {
         "n": "02",
         "role": "B",
-        "start": 5.88,
-        "end": 11.08
+        "start": 5.96,
+        "end": 11.73
        },
        {
         "n": "03",
         "role": "A",
-        "start": 11.08,
-        "end": 16.85
+        "start": 11.73,
+        "end": 16.99
        },
        {
         "n": "04",
         "role": "B",
-        "start": 16.85,
-        "end": 20.59
+        "start": 16.99,
+        "end": 20.92
        },
        {
         "n": "05",
         "role": "A",
-        "start": 20.59,
-        "end": 26.73
+        "start": 20.92,
+        "end": 26.63
        },
        {
         "n": "06",
         "role": "B",
-        "start": 26.73,
-        "end": 31.27
+        "start": 26.63,
+        "end": 30.61
        },
        {
         "n": "07",
         "role": "A",
-        "start": 31.27,
-        "end": 36.13
+        "start": 30.61,
+        "end": 36.09
        },
        {
         "n": "08",
         "role": "B",
-        "start": 36.13,
-        "end": 40.33
+        "start": 36.09,
+        "end": 39.88
        },
        {
         "n": "09",
         "role": "A",
-        "start": 40.33,
-        "end": 44.86
+        "start": 39.88,
+        "end": 45.88
        },
        {
         "n": "10",
         "role": "B",
-        "start": 44.86,
-        "end": 50.96
+        "start": 45.88,
+        "end": 52.48
        },
        {
         "n": "11",
         "role": "A",
-        "start": 50.96,
-        "end": 54.64
+        "start": 52.48,
+        "end": 56.38
        },
        {
         "n": "12",
         "role": "B",
-        "start": 54.64,
-        "end": 59.73
+        "start": 56.38,
+        "end": 61.23
        },
        {
         "n": "13",
         "role": "A",
-        "start": 59.73,
-        "end": 62.42
+        "start": 61.23,
+        "end": 63.62
        },
        {
         "n": "14",
         "role": "B",
-        "start": 62.42,
-        "end": 67.95
+        "start": 63.62,
+        "end": 71
        },
        {
         "n": "15",
         "role": "A",
-        "start": 67.95,
-        "end": 73.29
+        "start": 71,
+        "end": 76.62
        },
        {
         "n": "16",
         "role": "B",
-        "start": 73.29,
-        "end": 76.93
+        "start": 76.62,
+        "end": 80
        },
        {
         "n": "17",
         "role": "A",
-        "start": 76.93,
-        "end": 81.73
+        "start": 80,
+        "end": 85.02
        },
        {
         "n": "18",
         "role": "B",
-        "start": 81.73,
-        "end": 86.66
+        "start": 85.02,
+        "end": 90
        },
        {
         "n": "19",
         "role": "A",
-        "start": 86.66,
-        "end": 91.41
+        "start": 90,
+        "end": 96.56
        },
        {
         "n": "20",
         "role": "B",
-        "start": 91.41,
-        "end": 94.59
+        "start": 96.56,
+        "end": 99.47
        }
       ]
      }
@@ -8398,10 +8472,12 @@ window.APP_BOOKS = {
        {
         "n": "01",
         "role": "A",
-        "zh": "今天我们来讨论一个问题：家庭妇女是不是一种职业？",
-        "pinyin": "jīn tiān wǒ men lái tǎo lùn yí gè wèn tí: jiā tíng fù nǚ shì bu shì yì zhǒng zhí yè?",
-        "pinyinHtml": "jīn tiān wǒ men lái tǎo lùn yí gè wèn tí: jiā tíng fù nǚ shì bu shì yì zhǒng zhí yè?",
-        "vi": "Hôm nay tụi mình thảo luận một chủ đề nhé: Nội trợ toàn thời gian có phải là một nghề nghiệp không?"
+        "zh": "今天咱们来聊个挺有争议性的话题：全职家庭主妇或者主夫，到底算不算一种正儿八经的职业？",
+        "pinyin": "jīn tiān zán men lái liáo gè tǐng yǒu zhēng yì xìng de huà tí: quán zhí jiā tíng zhǔ fù huò zhě zhǔ fū, dào dǐ suàn bu suàn yì zhǒng zhèngr bā jīng de zhí yè?",
+        "pinyinHtml": "jīn tiān zán men lái liáo gè <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">tǐng</span> yǒu zhēng yì xìng de huà tí: quán zhí jiā tíng zhǔ fù huò <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhě</span> zhǔ fū, dào dǐ suàn bu suàn yì zhǒng zhèngr bā jīng de zhí yè?",
+        "vi": "Hôm nay tụi mình cùng bàn về một chủ đề khá nhiều luồng ý kiến trái chiều nhé: làm nội trợ toàn thời gian (dù là phụ nữ hay đàn ông), thì rốt cuộc có được coi là một nghề nghiệp đàng hoàng chính quy hay không?",
+        "modified": true,
+        "reason": "Nâng cấp từ ngữ hiện đại, bình đẳng giới: '全职家庭主妇或者主夫', '正儿八经的职业'."
        },
        {
         "n": "02",
@@ -8430,10 +8506,12 @@ window.APP_BOOKS = {
        {
         "n": "05",
         "role": "A",
-        "zh": "问题就在这儿。做饭、照顾孩子、照顾老人，哪一样不花时间？",
-        "pinyin": "wèn tí jiù zài zhèr. zuò fàn, zhào gù hái zi, zhào gù lǎo rén, nǎ yí yàng bù huā shí jiān?",
-        "pinyinHtml": "wèn tí jiù zài zhèr. zuò fàn, zhào gù hái zi, zhào gù lǎo rén, nǎ yí yàng bù huā shí jiān?",
-        "vi": "Vấn đề chính là ở chỗ đó. Nấu ăn, nuôi dạy con cái, phụng dưỡng người già, có việc nào là không tốn thời gian công sức đâu?"
+        "zh": "问题症结就在这儿！一日三餐、带娃辅导功课、伺候老人，从早忙到晚脚不沾地，哪一样不耗费心血？",
+        "pinyin": "wèn tí zhēng jié jiù zài zhèr! yí rì sān cān, dài wá fǔ dǎo gōng kè, cì hou lǎo rén, cóng zǎo máng dào wǎn jiǎo bù zhān de, nǎ yí yàng bú hào fèi xīn xuè?",
+        "pinyinHtml": "wèn tí zhēng jié jiù zài zhèr! yí rì sān cān, dài wá <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">fǔ</span> dǎo gōng kè, cì hou lǎo rén, cóng zǎo máng dào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">wǎn</span> jiǎo bù zhān de, nǎ yí yàng bú hào fèi xīn xuè?",
+        "vi": "Mấu chốt vấn đề nằm ở chính chỗ đó đấy! Cơm nước ngày ba bữa, chăm con dạy học, phụng dưỡng người già, bận từ sáng bảnh mắt tới khuya chân không chạm đất, có việc nào mà không hao tâm tổn sức đâu?",
+        "modified": true,
+        "reason": "Miêu tả sinh động thực tế gánh nặng gia đình: '一日三餐、带娃辅导功课', '从早忙到晚脚不沾地', '耗费心血'."
        },
        {
         "n": "06",
@@ -8502,10 +8580,12 @@ window.APP_BOOKS = {
        {
         "n": "14",
         "role": "B",
-        "zh": "对，我觉得“家庭妇女”这个说法本身就容易让人想到只有女性应该做。",
-        "pinyin": "duì, wǒ jué dé \"jiā tíng fù nǚ\" zhè ge shuō fǎ běn shēn jiù róng yì ràng rén xiǎng dào zhǐ yǒu nǚ xìng yīng gāi zuò.",
-        "pinyinHtml": "duì, wǒ jué dé \"jiā tíng fù nǚ\" zhè ge shuō <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">fǎ</span> běn shēn jiù róng yì ràng rén xiǎng dào <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǐ</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">yǒu</span> nǚ xìng yīng gāi zuò.",
-        "vi": "Đúng vậy, tớ thấy cụm từ 'phụ nữ nội trợ' tự thân nó đã dễ khiến người ta mặc định chỉ có phụ nữ mới phải làm việc đó."
+        "zh": "你说到点子上了！“家庭妇女”这称呼本身就带有刻板印象，搞得好像家务劳动天生就该女人包揽似的。",
+        "pinyin": "nǐ shuō dào diǎn zi shàng le! \"jiā tíng fù nǚ\" zhè chēng hu běn shēn jiù dài yǒu kè bǎn yìn xiàng, gǎo dé hǎo xiàng jiā wù láo dòng tiān shēng jiù gāi nǚ rén bāo lǎn shì de.",
+        "pinyinHtml": "nǐ shuō dào diǎn zi shàng le! \"jiā tíng fù nǚ\" zhè chēng hu běn shēn jiù dài yǒu kè bǎn yìn xiàng, gǎo dé hǎo xiàng jiā wù láo dòng tiān shēng jiù gāi nǚ rén bāo lǎn shì de.",
+        "vi": "Cậu nói trúng phóc tim đen rồi! Cái danh xưng 'phụ nữ nội trợ' tự thân nó đã mang nặng định kiến, làm như thể việc nhà cửa con cái sinh ra là mặc định phụ nữ phải ôm hết vậy.",
+        "modified": true,
+        "reason": "Bỏ '对，...', dùng cụm khen '你说到点子上了！', dùng từ vựng tư duy cao '刻板印象' (định kiến), '包揽'."
        },
        {
         "n": "15",
@@ -8940,127 +9020,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b17-c1.m4a",
-      "audioDuration": 108.41,
+      "audioDuration": 117.53,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 5.54
+        "end": 8.63
        },
        {
         "n": "02",
         "role": "B",
-        "start": 5.54,
-        "end": 10.25
+        "start": 8.63,
+        "end": 13.75
        },
        {
         "n": "03",
         "role": "A",
-        "start": 10.25,
-        "end": 15.62
+        "start": 13.75,
+        "end": 18.9
        },
        {
         "n": "04",
         "role": "B",
-        "start": 15.62,
-        "end": 21.53
+        "start": 18.9,
+        "end": 24.79
        },
        {
         "n": "05",
         "role": "A",
-        "start": 21.53,
-        "end": 27.22
+        "start": 24.79,
+        "end": 34.28
        },
        {
         "n": "06",
         "role": "B",
-        "start": 27.22,
-        "end": 31.84
+        "start": 34.28,
+        "end": 38.57
        },
        {
         "n": "07",
         "role": "A",
-        "start": 31.84,
-        "end": 36.56
+        "start": 38.57,
+        "end": 43.02
        },
        {
         "n": "08",
         "role": "B",
-        "start": 36.56,
-        "end": 42.16
+        "start": 43.02,
+        "end": 48.36
        },
        {
         "n": "09",
         "role": "A",
-        "start": 42.16,
-        "end": 48.63
+        "start": 48.36,
+        "end": 55.36
        },
        {
         "n": "10",
         "role": "B",
-        "start": 48.63,
-        "end": 54.83
+        "start": 55.36,
+        "end": 61.94
        },
        {
         "n": "11",
         "role": "A",
-        "start": 54.83,
-        "end": 60.09
+        "start": 61.94,
+        "end": 66.89
        },
        {
         "n": "12",
         "role": "B",
-        "start": 60.09,
-        "end": 64.14
+        "start": 66.89,
+        "end": 70.52
        },
        {
         "n": "13",
         "role": "A",
-        "start": 64.14,
-        "end": 69.01
+        "start": 70.52,
+        "end": 75.69
        },
        {
         "n": "14",
         "role": "B",
-        "start": 69.01,
-        "end": 75.45
+        "start": 75.69,
+        "end": 84.86
        },
        {
         "n": "15",
         "role": "A",
-        "start": 75.45,
-        "end": 79.76
+        "start": 84.86,
+        "end": 88.28
        },
        {
         "n": "16",
         "role": "B",
-        "start": 79.76,
-        "end": 84.68
+        "start": 88.28,
+        "end": 93.2
        },
        {
         "n": "17",
         "role": "A",
-        "start": 84.68,
-        "end": 92.17
+        "start": 93.2,
+        "end": 101.05
        },
        {
         "n": "18",
         "role": "B",
-        "start": 92.17,
-        "end": 98.17
+        "start": 101.05,
+        "end": 107.29
        },
        {
         "n": "19",
         "role": "A",
-        "start": 98.17,
-        "end": 104.21
+        "start": 107.29,
+        "end": 113.08
        },
        {
         "n": "20",
         "role": "B",
-        "start": 104.21,
-        "end": 108.41
+        "start": 113.08,
+        "end": 117.53
        }
       ]
      },
@@ -9076,10 +9156,12 @@ window.APP_BOOKS = {
        {
         "n": "01",
         "role": "A",
-        "zh": "我认为发展汽车工业一定会带来一些环境污染问题。",
-        "pinyin": "wǒ rèn wéi fā zhǎn qì chē gōng yè yí dìng huì dài lái yì xiē huán jìng wū rǎn wèn tí.",
-        "pinyinHtml": "wǒ rèn wéi fā zhǎn qì chē gōng yè yí dìng huì dài lái yì xiē huán jìng wū rǎn wèn tí.",
-        "vi": "Tớ cho rằng việc phát triển ngành công nghiệp ô tô chắc chắn sẽ kéo theo một số vấn đề ô nhiễm môi trường."
+        "zh": "依我看，盲目扩张汽车工业，势必会给生态环境带来不可逆转的污染负担。",
+        "pinyin": "yī wǒ kàn, máng mù kuò zhāng qì chē gōng yè, shì bì huì gěi shēng tài huán jìng dài lái bù kě nì zhuǎn de wū rǎn fù dān.",
+        "pinyinHtml": "yī wǒ kàn, máng mù kuò zhāng qì chē gōng yè, shì bì huì gěi shēng tài huán jìng dài lái bù kě nì zhuǎn de wū rǎn fù dān.",
+        "vi": "Theo góc nhìn của tớ, việc phát triển ồ ạt ngành công nghiệp ô tô chắc chắn sẽ tạo ra gánh nặng ô nhiễm không thể cứu vãn cho môi trường sinh thái.",
+        "modified": true,
+        "reason": "Văn phong lập luận khẩu ngữ sắc sảo: '依我看', '不可逆转的污染负担'."
        },
        {
         "n": "02",
@@ -9116,10 +9198,12 @@ window.APP_BOOKS = {
        {
         "n": "06",
         "role": "B",
-        "zh": "不过现在越来越多的人开电动车，使用的时候没有直接的尾气排放。",
-        "pinyin": "bú guò xiàn zài yuè lái yuè duō de rén kāi diàn dòng chē, shǐ yòng de shí hòu méi yǒu zhí jiē de wěi qì pái fàng.",
-        "pinyinHtml": "bú guò xiàn zài yuè lái yuè duō de rén kāi diàn dòng chē, shǐ yòng de shí hòu méi yǒu zhí jiē de wěi qì pái fàng.",
-        "vi": "Nhưng hiện tại ngày càng nhiều người chuyển sang đi xe điện, trong quá trình lăn bánh không hề có khí thải trực tiếp."
+        "zh": "不过你看现在绿牌新能源车遍地开花，行驶过程中零尾气排放，环保效益还是很明显的。",
+        "pinyin": "bú guò nǐ kàn xiàn zài lǜ pái xīn néng yuán chē biàn de kāi huā, xíng shǐ guò chéng zhōng líng wěi qì pái fàng, huán bǎo xiào yì hái shì hěn míng xiǎn de.",
+        "pinyinHtml": "bú guò nǐ kàn xiàn zài lǜ pái xīn néng yuán chē biàn de kāi huā, xíng shǐ guò chéng zhōng líng wěi qì pái fàng, huán bǎo xiào yì hái shì hěn míng xiǎn de.",
+        "vi": "Nhưng cậu nhìn xem, bây giờ xe điện năng lượng mới biển số xanh chạy đầy đường rồi, trong quá trình lăn bánh không hề xả khói bụi độc hại, lợi ích bảo vệ môi trường là thấy rõ mồn một mà.",
+        "modified": true,
+        "reason": "Bổ sung chi tiết thực tế đời sống Trung Quốc: '绿牌新能源车遍地开花' (xe biển xanh năng lượng mới khắp nơi), '零尾气排放'."
        },
        {
         "n": "07",
@@ -9204,10 +9288,12 @@ window.APP_BOOKS = {
        {
         "n": "17",
         "role": "A",
-        "zh": "没错。经济发展和环境保护不应该完全对立。",
-        "pinyin": "méi cuò. jīng jì fā zhǎn hé huán jìng bǎo hù bú yīng gāi wán quán duì lì.",
-        "pinyinHtml": "méi cuò. jīng jì fā zhǎn hé huán jìng bǎo hù bú yīng gāi wán quán duì lì.",
-        "vi": "Chuẩn xác. Tăng trưởng kinh tế và bảo vệ môi trường sinh thái không nên bị đặt vào thế đối đầu hoàn toàn."
+        "zh": "这话在理！发展经济跟保护生态绝不是非黑即白，不能搞成零和博弈。",
+        "pinyin": "zhè huà zài lǐ! fā zhǎn jīng jì gēn bǎo hù shēng tài jué bú shì fēi hēi jí bái, bù néng gǎo chéng líng hé bó yì.",
+        "pinyinHtml": "zhè huà zài lǐ! fā zhǎn jīng jì gēn bǎo hù shēng tài jué bú shì fēi hēi jí bái, bù néng gǎo chéng líng hé bó yì.",
+        "vi": "Câu này cậu nói rất có lý! Phát triển kinh tế với gìn giữ môi trường tuyệt đối không phải câu chuyện trắng hay đen, càng không thể biến nó thành một cuộc chiến mất còn một mất một còn.",
+        "modified": true,
+        "reason": "Bỏ '没错。', dùng cụm từ tư duy phản biện cao: '这话在理！', '绝不是非黑即白，不能搞成零和博弈'."
        },
        {
         "n": "18",
@@ -9228,10 +9314,12 @@ window.APP_BOOKS = {
        {
         "n": "20",
         "role": "B",
-        "zh": "对。发展可以继续，但不能忽视环境成本。",
-        "pinyin": "duì. fā zhǎn kě yǐ jì xù, dàn bù néng hū shì huán jìng chéng běn.",
-        "pinyinHtml": "duì. fā <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">zhǎn</span> <span class=\"t3\" title=\"Biến điệu thanh 3: tự đọc thành thanh 2\">kě</span> yǐ jì xù, dàn bù néng hū shì huán jìng chéng běn.",
-        "vi": "Đúng vậy. Phát triển vẫn cứ tiếp diễn, nhưng tuyệt đối không được phép xem nhẹ cái giá phải trả về mặt môi trường."
+        "zh": "说得太透彻了！日子要向前过，但这绿水青山的环境代价，任谁也忽视不得。",
+        "pinyin": "shuō dé tài tòu chè le! rì zi yào xiàng qián guò, dàn zhè lǜ shuǐ qīng shān de huán jìng dài jià, rèn shuí yě hū shì bù dé.",
+        "pinyinHtml": "shuō dé tài tòu chè le! rì zi yào xiàng qián guò, dàn zhè lǜ shuǐ qīng shān de huán jìng dài jià, rèn shuí yě hū shì bù dé.",
+        "vi": "Phân tích quá đỗi sâu sắc! Đời sống thì vẫn phải tiến lên, nhưng cái giá phải trả của non xanh nước biếc môi trường sống, chẳng một ai được phép ngó lơ.",
+        "modified": true,
+        "reason": "Bỏ '对。', dùng cụm chốt tranh luận đắt giá: '说得太透彻了！', lồng ghép thành ngữ kinh điển '绿水青山的环境代价'."
        }
       ],
       "v2_lines": [
@@ -9637,127 +9725,127 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/gt-b17-c2.m4a",
-      "audioDuration": 108.82,
+      "audioDuration": 115.59,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 5.54
+        "end": 6.84
        },
        {
         "n": "02",
         "role": "B",
-        "start": 5.54,
-        "end": 10.28
+        "start": 6.84,
+        "end": 11.66
        },
        {
         "n": "03",
         "role": "A",
-        "start": 10.28,
-        "end": 16.3
+        "start": 11.66,
+        "end": 17.11
        },
        {
         "n": "04",
         "role": "B",
-        "start": 16.3,
-        "end": 22.1
+        "start": 17.11,
+        "end": 23.15
        },
        {
         "n": "05",
         "role": "A",
-        "start": 22.1,
-        "end": 28.19
+        "start": 23.15,
+        "end": 29.83
        },
        {
         "n": "06",
         "role": "B",
-        "start": 28.19,
-        "end": 34.47
+        "start": 29.83,
+        "end": 37.79
        },
        {
         "n": "07",
         "role": "A",
-        "start": 34.47,
-        "end": 39.54
+        "start": 37.79,
+        "end": 42.69
        },
        {
         "n": "08",
         "role": "B",
-        "start": 39.54,
-        "end": 45.45
+        "start": 42.69,
+        "end": 48.21
        },
        {
         "n": "09",
         "role": "A",
-        "start": 45.45,
-        "end": 51.24
+        "start": 48.21,
+        "end": 54.34
        },
        {
         "n": "10",
         "role": "B",
-        "start": 51.24,
-        "end": 55.94
+        "start": 54.34,
+        "end": 58.53
        },
        {
         "n": "11",
         "role": "A",
-        "start": 55.94,
-        "end": 61.71
+        "start": 58.53,
+        "end": 63.83
        },
        {
         "n": "12",
         "role": "B",
-        "start": 61.71,
-        "end": 66.72
+        "start": 63.83,
+        "end": 68.47
        },
        {
         "n": "13",
         "role": "A",
-        "start": 66.72,
-        "end": 72.4
+        "start": 68.47,
+        "end": 74.56
        },
        {
         "n": "14",
         "role": "B",
-        "start": 72.4,
-        "end": 77.4
+        "start": 74.56,
+        "end": 79.28
        },
        {
         "n": "15",
         "role": "A",
-        "start": 77.4,
-        "end": 84.04
+        "start": 79.28,
+        "end": 85.53
        },
        {
         "n": "16",
         "role": "B",
-        "start": 84.04,
-        "end": 89.92
+        "start": 85.53,
+        "end": 91.61
        },
        {
         "n": "17",
         "role": "A",
-        "start": 89.92,
-        "end": 94.85
+        "start": 91.61,
+        "end": 98.72
        },
        {
         "n": "18",
         "role": "B",
-        "start": 94.85,
-        "end": 99.6
+        "start": 98.72,
+        "end": 103.31
        },
        {
         "n": "19",
         "role": "A",
-        "start": 99.6,
-        "end": 104.28
+        "start": 103.31,
+        "end": 107.73
        },
        {
         "n": "20",
         "role": "B",
-        "start": 104.28,
-        "end": 108.82
+        "start": 107.73,
+        "end": 115.59
        }
       ]
      }
@@ -10707,115 +10795,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b2-c1.m4a",
-      "audioDuration": 93.78,
+      "audioDuration": 94.48,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 5.05
+        "end": 4.83
        },
        {
         "n": "02",
         "role": "B",
-        "start": 5.05,
-        "end": 10.99
+        "start": 4.83,
+        "end": 11.3
        },
        {
         "n": "03",
         "role": "A",
-        "start": 10.99,
-        "end": 15.39
+        "start": 11.3,
+        "end": 15.74
        },
        {
         "n": "04",
         "role": "B",
-        "start": 15.39,
-        "end": 20.34
+        "start": 15.74,
+        "end": 20.53
        },
        {
         "n": "05",
         "role": "A",
-        "start": 20.34,
-        "end": 26.01
+        "start": 20.53,
+        "end": 26.4
        },
        {
         "n": "06",
         "role": "B",
-        "start": 26.01,
-        "end": 32.04
+        "start": 26.4,
+        "end": 32.02
        },
        {
         "n": "07",
         "role": "A",
-        "start": 32.04,
-        "end": 35.5
+        "start": 32.02,
+        "end": 35.13
        },
        {
         "n": "08",
         "role": "B",
-        "start": 35.5,
-        "end": 41.13
+        "start": 35.13,
+        "end": 41.35
        },
        {
         "n": "09",
         "role": "A",
-        "start": 41.13,
-        "end": 45.62
+        "start": 41.35,
+        "end": 46.23
        },
        {
         "n": "10",
         "role": "B",
-        "start": 45.62,
-        "end": 51.96
+        "start": 46.23,
+        "end": 52.45
        },
        {
         "n": "11",
         "role": "A",
-        "start": 51.96,
-        "end": 55.7
+        "start": 52.45,
+        "end": 56.05
        },
        {
         "n": "12",
         "role": "B",
-        "start": 55.7,
-        "end": 61.35
+        "start": 56.05,
+        "end": 62.23
        },
        {
         "n": "13",
         "role": "A",
-        "start": 61.35,
-        "end": 66.38
+        "start": 62.23,
+        "end": 66.78
        },
        {
         "n": "14",
         "role": "B",
-        "start": 66.38,
-        "end": 72.18
+        "start": 66.78,
+        "end": 72.94
        },
        {
         "n": "15",
         "role": "A",
-        "start": 72.18,
-        "end": 77.84
+        "start": 72.94,
+        "end": 78.08
        },
        {
         "n": "16",
         "role": "B",
-        "start": 77.84,
-        "end": 83.74
+        "start": 78.08,
+        "end": 84.44
        },
        {
         "n": "17",
         "role": "A",
-        "start": 83.74,
-        "end": 88.17
+        "start": 84.44,
+        "end": 88.52
        },
        {
         "n": "18",
         "role": "B",
-        "start": 88.17,
-        "end": 93.78
+        "start": 88.52,
+        "end": 94.48
        }
       ],
       "examNo": 1,
@@ -11433,115 +11521,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b2-c2.m4a",
-      "audioDuration": 101.07,
+      "audioDuration": 100.77,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 5.92
+        "end": 5.43
        },
        {
         "n": "02",
         "role": "B",
-        "start": 5.92,
-        "end": 9.74
+        "start": 5.43,
+        "end": 9.48
        },
        {
         "n": "03",
         "role": "A",
-        "start": 9.74,
-        "end": 15.56
+        "start": 9.48,
+        "end": 14.88
        },
        {
         "n": "04",
         "role": "B",
-        "start": 15.56,
-        "end": 19.85
+        "start": 14.88,
+        "end": 19.58
        },
        {
         "n": "05",
         "role": "A",
-        "start": 19.85,
-        "end": 26.05
+        "start": 19.58,
+        "end": 25.69
        },
        {
         "n": "06",
         "role": "B",
-        "start": 26.05,
-        "end": 31.1
+        "start": 25.69,
+        "end": 30.42
        },
        {
         "n": "07",
         "role": "A",
-        "start": 31.1,
-        "end": 38.65
+        "start": 30.42,
+        "end": 38.1
        },
        {
         "n": "08",
         "role": "B",
-        "start": 38.65,
-        "end": 45.43
+        "start": 38.1,
+        "end": 45.55
        },
        {
         "n": "09",
         "role": "A",
-        "start": 45.43,
-        "end": 51.48
+        "start": 45.55,
+        "end": 51.75
        },
        {
         "n": "10",
         "role": "B",
-        "start": 51.48,
-        "end": 54.44
+        "start": 51.75,
+        "end": 54.51
        },
        {
         "n": "11",
         "role": "A",
-        "start": 54.44,
-        "end": 60.51
+        "start": 54.51,
+        "end": 60.26
        },
        {
         "n": "12",
         "role": "B",
-        "start": 60.51,
-        "end": 64.45
+        "start": 60.26,
+        "end": 63.76
        },
        {
         "n": "13",
         "role": "A",
-        "start": 64.45,
-        "end": 70.32
+        "start": 63.76,
+        "end": 69.29
        },
        {
         "n": "14",
         "role": "B",
-        "start": 70.32,
-        "end": 75.36
+        "start": 69.29,
+        "end": 73.87
        },
        {
         "n": "15",
         "role": "A",
-        "start": 75.36,
-        "end": 81.96
+        "start": 73.87,
+        "end": 80.95
        },
        {
         "n": "16",
         "role": "B",
-        "start": 81.96,
-        "end": 87.85
+        "start": 80.95,
+        "end": 86.63
        },
        {
         "n": "17",
         "role": "A",
-        "start": 87.85,
-        "end": 94.84
+        "start": 86.63,
+        "end": 94.08
        },
        {
         "n": "18",
         "role": "B",
-        "start": 94.84,
-        "end": 101.07
+        "start": 94.08,
+        "end": 100.77
        }
       ],
       "examNo": 2,
@@ -12288,103 +12376,103 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b2-q3.m4a",
-      "audioDuration": 109.96,
+      "audioDuration": 113.99,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 3.65
+        "end": 4.15
        },
        {
         "n": 2,
         "role": "B",
-        "start": 3.65,
-        "end": 10.59
+        "start": 4.15,
+        "end": 12.17
        },
        {
         "n": 3,
         "role": "A",
-        "start": 10.59,
-        "end": 17.87
+        "start": 12.17,
+        "end": 19.49
        },
        {
         "n": 4,
         "role": "B",
-        "start": 17.87,
-        "end": 20.76
+        "start": 19.49,
+        "end": 21.99
        },
        {
         "n": 5,
         "role": "A",
-        "start": 20.76,
-        "end": 26.07
+        "start": 21.99,
+        "end": 26.95
        },
        {
         "n": 6,
         "role": "B",
-        "start": 26.07,
-        "end": 32.96
+        "start": 26.95,
+        "end": 33.66
        },
        {
         "n": 7,
         "role": "A",
-        "start": 32.96,
-        "end": 39.1
+        "start": 33.66,
+        "end": 39.5
        },
        {
         "n": 8,
         "role": "B",
-        "start": 39.1,
-        "end": 49.02
+        "start": 39.5,
+        "end": 49.29
        },
        {
         "n": 9,
         "role": "A",
-        "start": 49.02,
-        "end": 55.74
+        "start": 49.29,
+        "end": 56.53
        },
        {
         "n": 10,
         "role": "B",
-        "start": 55.74,
-        "end": 62.77
+        "start": 56.53,
+        "end": 64.29
        },
        {
         "n": 11,
         "role": "A",
-        "start": 62.77,
-        "end": 67.94
+        "start": 64.29,
+        "end": 69.27
        },
        {
         "n": 12,
         "role": "B",
-        "start": 67.94,
-        "end": 80.38
+        "start": 69.27,
+        "end": 82.24
        },
        {
         "n": 13,
         "role": "A",
-        "start": 80.38,
-        "end": 85.26
+        "start": 82.24,
+        "end": 87.85
        },
        {
         "n": 14,
         "role": "B",
-        "start": 85.26,
-        "end": 94.4
+        "start": 87.85,
+        "end": 97.81
        },
        {
         "n": 15,
         "role": "A",
-        "start": 94.4,
-        "end": 103.47
+        "start": 97.81,
+        "end": 107.2
        },
        {
         "n": 16,
         "role": "B",
-        "start": 103.47,
-        "end": 109.96
+        "start": 107.2,
+        "end": 113.99
        }
       ]
      },
@@ -13034,91 +13122,91 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b2-q4.m4a",
-      "audioDuration": 121.88,
+      "audioDuration": 121.62,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 6.17
+        "end": 6.67
        },
        {
         "n": 2,
         "role": "B",
-        "start": 6.17,
-        "end": 13.35
+        "start": 6.67,
+        "end": 14.27
        },
        {
         "n": 3,
         "role": "A",
-        "start": 13.35,
-        "end": 22.56
+        "start": 14.27,
+        "end": 24.07
        },
        {
         "n": 4,
         "role": "B",
-        "start": 22.56,
-        "end": 31.4
+        "start": 24.07,
+        "end": 33.25
        },
        {
         "n": 5,
         "role": "A",
-        "start": 31.4,
-        "end": 41.84
+        "start": 33.25,
+        "end": 43.18
        },
        {
         "n": 6,
         "role": "B",
-        "start": 41.84,
-        "end": 50.24
+        "start": 43.18,
+        "end": 51.18
        },
        {
         "n": 7,
         "role": "A",
-        "start": 50.24,
-        "end": 61.31
+        "start": 51.18,
+        "end": 61.99
        },
        {
         "n": 8,
         "role": "B",
-        "start": 61.31,
-        "end": 73.3
+        "start": 61.99,
+        "end": 73.9
        },
        {
         "n": 9,
         "role": "A",
-        "start": 73.3,
-        "end": 83.53
+        "start": 73.9,
+        "end": 84.05
        },
        {
         "n": 10,
         "role": "B",
-        "start": 83.53,
-        "end": 92.27
+        "start": 84.05,
+        "end": 91.95
        },
        {
         "n": 11,
         "role": "A",
-        "start": 92.27,
-        "end": 101.56
+        "start": 91.95,
+        "end": 101.07
        },
        {
         "n": 12,
         "role": "B",
-        "start": 101.56,
-        "end": 111.87
+        "start": 101.07,
+        "end": 111.33
        },
        {
         "n": 13,
         "role": "A",
-        "start": 111.87,
-        "end": 117.62
+        "start": 111.33,
+        "end": 117.43
        },
        {
         "n": 14,
         "role": "B",
-        "start": 117.62,
-        "end": 121.88
+        "start": 117.43,
+        "end": 121.62
        }
       ]
      },
@@ -13594,67 +13682,67 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b2-q5.m4a",
-      "audioDuration": 111.44,
+      "audioDuration": 109.76,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 10.1
+        "end": 9.53
        },
        {
         "n": 2,
         "role": "B",
-        "start": 10.1,
-        "end": 20.53
+        "start": 9.53,
+        "end": 20.03
        },
        {
         "n": 3,
         "role": "A",
-        "start": 20.53,
-        "end": 30.72
+        "start": 20.03,
+        "end": 30.35
        },
        {
         "n": 4,
         "role": "B",
-        "start": 30.72,
-        "end": 43.25
+        "start": 30.35,
+        "end": 43.08
        },
        {
         "n": 5,
         "role": "A",
-        "start": 43.25,
-        "end": 53.84
+        "start": 43.08,
+        "end": 52.78
        },
        {
         "n": 6,
         "role": "B",
-        "start": 53.84,
-        "end": 64.79
+        "start": 52.78,
+        "end": 63.76
        },
        {
         "n": 7,
         "role": "A",
-        "start": 64.79,
-        "end": 79
+        "start": 63.76,
+        "end": 77.69
        },
        {
         "n": 8,
         "role": "B",
-        "start": 79,
-        "end": 90.41
+        "start": 77.69,
+        "end": 89.14
        },
        {
         "n": 9,
         "role": "A",
-        "start": 90.41,
-        "end": 102.06
+        "start": 89.14,
+        "end": 100.75
        },
        {
         "n": 10,
         "role": "B",
-        "start": 102.06,
-        "end": 111.44
+        "start": 100.75,
+        "end": 109.76
        }
       ]
      },
@@ -14218,79 +14306,79 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b2-q6.m4a",
-      "audioDuration": 97.04,
+      "audioDuration": 97.11,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 5.54
+        "end": 5.78
        },
        {
         "n": 2,
         "role": "B",
-        "start": 5.54,
-        "end": 10.51
+        "start": 5.78,
+        "end": 10.36
        },
        {
         "n": 3,
         "role": "A",
-        "start": 10.51,
-        "end": 18.55
+        "start": 10.36,
+        "end": 18.73
        },
        {
         "n": 4,
         "role": "B",
-        "start": 18.55,
-        "end": 25.6
+        "start": 18.73,
+        "end": 26.13
        },
        {
         "n": 5,
         "role": "A",
-        "start": 25.6,
-        "end": 34.91
+        "start": 26.13,
+        "end": 35.48
        },
        {
         "n": 6,
         "role": "B",
-        "start": 34.91,
-        "end": 44.04
+        "start": 35.48,
+        "end": 44.72
        },
        {
         "n": 7,
         "role": "A",
-        "start": 44.04,
-        "end": 54.03
+        "start": 44.72,
+        "end": 54.23
        },
        {
         "n": 8,
         "role": "B",
-        "start": 54.03,
-        "end": 63.41
+        "start": 54.23,
+        "end": 63.45
        },
        {
         "n": 9,
         "role": "A",
-        "start": 63.41,
-        "end": 74.17
+        "start": 63.45,
+        "end": 74
        },
        {
         "n": 10,
         "role": "B",
-        "start": 74.17,
-        "end": 82.41
+        "start": 74,
+        "end": 81.72
        },
        {
         "n": 11,
         "role": "A",
-        "start": 82.41,
-        "end": 90.82
+        "start": 81.72,
+        "end": 90.34
        },
        {
         "n": 12,
         "role": "B",
-        "start": 90.82,
-        "end": 97.04
+        "start": 90.34,
+        "end": 97.11
        }
       ]
      }
@@ -15196,115 +15284,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b3-c1.m4a",
-      "audioDuration": 105.41,
+      "audioDuration": 111.13,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.72
+        "end": 4.77
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.72,
-        "end": 9.78
+        "start": 4.77,
+        "end": 10.11
        },
        {
         "n": "03",
         "role": "A",
-        "start": 9.78,
-        "end": 16.08
+        "start": 10.11,
+        "end": 16.42
        },
        {
         "n": "04",
         "role": "B",
-        "start": 16.08,
-        "end": 21.85
+        "start": 16.42,
+        "end": 22.83
        },
        {
         "n": "05",
         "role": "A",
-        "start": 21.85,
-        "end": 28.19
+        "start": 22.83,
+        "end": 29.58
        },
        {
         "n": "06",
         "role": "B",
-        "start": 28.19,
-        "end": 36.08
+        "start": 29.58,
+        "end": 37.83
        },
        {
         "n": "07",
         "role": "A",
-        "start": 36.08,
-        "end": 43.26
+        "start": 37.83,
+        "end": 45.69
        },
        {
         "n": "08",
         "role": "B",
-        "start": 43.26,
-        "end": 49.74
+        "start": 45.69,
+        "end": 52.99
        },
        {
         "n": "09",
         "role": "A",
-        "start": 49.74,
-        "end": 55.74
+        "start": 52.99,
+        "end": 58.7
        },
        {
         "n": "10",
         "role": "B",
-        "start": 55.74,
-        "end": 60.27
+        "start": 58.7,
+        "end": 63.06
        },
        {
         "n": "11",
         "role": "A",
-        "start": 60.27,
-        "end": 66.69
+        "start": 63.06,
+        "end": 70.01
        },
        {
         "n": "12",
         "role": "B",
-        "start": 66.69,
-        "end": 70.42
+        "start": 70.01,
+        "end": 74.05
        },
        {
         "n": "13",
         "role": "A",
-        "start": 70.42,
-        "end": 77.22
+        "start": 74.05,
+        "end": 80.38
        },
        {
         "n": "14",
         "role": "B",
-        "start": 77.22,
-        "end": 82.9
+        "start": 80.38,
+        "end": 86.51
        },
        {
         "n": "15",
         "role": "A",
-        "start": 82.9,
-        "end": 89.24
+        "start": 86.51,
+        "end": 93.31
        },
        {
         "n": "16",
         "role": "B",
-        "start": 89.24,
-        "end": 95.53
+        "start": 93.31,
+        "end": 100.24
        },
        {
         "n": "17",
         "role": "A",
-        "start": 95.53,
-        "end": 100.68
+        "start": 100.24,
+        "end": 105.93
        },
        {
         "n": "18",
         "role": "B",
-        "start": 100.68,
-        "end": 105.41
+        "start": 105.93,
+        "end": 111.13
        }
       ],
       "examNo": 7,
@@ -15903,115 +15991,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b3-c2.m4a",
-      "audioDuration": 108.55,
+      "audioDuration": 110.41,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 5.59
+        "end": 5.18
        },
        {
         "n": "02",
         "role": "B",
-        "start": 5.59,
-        "end": 8.51
+        "start": 5.18,
+        "end": 8.64
        },
        {
         "n": "03",
         "role": "A",
-        "start": 8.51,
-        "end": 14.05
+        "start": 8.64,
+        "end": 14.42
        },
        {
         "n": "04",
         "role": "B",
-        "start": 14.05,
-        "end": 20.62
+        "start": 14.42,
+        "end": 21.07
        },
        {
         "n": "05",
         "role": "A",
-        "start": 20.62,
-        "end": 24.34
+        "start": 21.07,
+        "end": 24.51
        },
        {
         "n": "06",
         "role": "B",
-        "start": 24.34,
-        "end": 32.01
+        "start": 24.51,
+        "end": 32.62
        },
        {
         "n": "07",
         "role": "A",
-        "start": 32.01,
-        "end": 39.48
+        "start": 32.62,
+        "end": 40.4
        },
        {
         "n": "08",
         "role": "B",
-        "start": 39.48,
-        "end": 47.27
+        "start": 40.4,
+        "end": 47.88
        },
        {
         "n": "09",
         "role": "A",
-        "start": 47.27,
-        "end": 53.76
+        "start": 47.88,
+        "end": 54.83
        },
        {
         "n": "10",
         "role": "B",
-        "start": 53.76,
-        "end": 60.55
+        "start": 54.83,
+        "end": 62.15
        },
        {
         "n": "11",
         "role": "A",
-        "start": 60.55,
-        "end": 66.28
+        "start": 62.15,
+        "end": 68.53
        },
        {
         "n": "12",
         "role": "B",
-        "start": 66.28,
-        "end": 72.81
+        "start": 68.53,
+        "end": 74.98
        },
        {
         "n": "13",
         "role": "A",
-        "start": 72.81,
-        "end": 78.2
+        "start": 74.98,
+        "end": 80.05
        },
        {
         "n": "14",
         "role": "B",
-        "start": 78.2,
-        "end": 86.91
+        "start": 80.05,
+        "end": 88.75
        },
        {
         "n": "15",
         "role": "A",
-        "start": 86.91,
-        "end": 92
+        "start": 88.75,
+        "end": 93.41
        },
        {
         "n": "16",
         "role": "B",
-        "start": 92,
-        "end": 98.3
+        "start": 93.41,
+        "end": 100.19
        },
        {
         "n": "17",
         "role": "A",
-        "start": 98.3,
-        "end": 103.02
+        "start": 100.19,
+        "end": 105.25
        },
        {
         "n": "18",
         "role": "B",
-        "start": 103.02,
-        "end": 108.55
+        "start": 105.25,
+        "end": 110.41
        }
       ],
       "examNo": 8,
@@ -16581,79 +16669,79 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b3-q9.m4a",
-      "audioDuration": 92.72,
+      "audioDuration": 94.43,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 4.4
+        "end": 4.52
        },
        {
         "n": 2,
         "role": "B",
-        "start": 4.4,
-        "end": 11.54
+        "start": 4.52,
+        "end": 12.37
        },
        {
         "n": 3,
         "role": "A",
-        "start": 11.54,
-        "end": 18.31
+        "start": 12.37,
+        "end": 19.83
        },
        {
         "n": 4,
         "role": "B",
-        "start": 18.31,
-        "end": 27.47
+        "start": 19.83,
+        "end": 28.77
        },
        {
         "n": 5,
         "role": "A",
-        "start": 27.47,
-        "end": 33.07
+        "start": 28.77,
+        "end": 34.11
        },
        {
         "n": 6,
         "role": "B",
-        "start": 33.07,
-        "end": 41.74
+        "start": 34.11,
+        "end": 43.1
        },
        {
         "n": 7,
         "role": "A",
-        "start": 41.74,
-        "end": 51.86
+        "start": 43.1,
+        "end": 52.3
        },
        {
         "n": 8,
         "role": "B",
-        "start": 51.86,
-        "end": 59.95
+        "start": 52.3,
+        "end": 59.96
        },
        {
         "n": 9,
         "role": "A",
-        "start": 59.95,
-        "end": 67.15
+        "start": 59.96,
+        "end": 68.21
        },
        {
         "n": 10,
         "role": "B",
-        "start": 67.15,
-        "end": 79.04
+        "start": 68.21,
+        "end": 79.83
        },
        {
         "n": 11,
         "role": "A",
-        "start": 79.04,
-        "end": 85.38
+        "start": 79.83,
+        "end": 86.44
        },
        {
         "n": 12,
         "role": "B",
-        "start": 85.38,
-        "end": 92.72
+        "start": 86.44,
+        "end": 94.43
        }
       ]
      },
@@ -17217,79 +17305,79 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b3-q10.m4a",
-      "audioDuration": 111.11,
+      "audioDuration": 113.7,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 11.21
+        "end": 11.42
        },
        {
         "n": 2,
         "role": "B",
-        "start": 11.21,
-        "end": 19.46
+        "start": 11.42,
+        "end": 19.81
        },
        {
         "n": 3,
         "role": "A",
-        "start": 19.46,
-        "end": 25.34
+        "start": 19.81,
+        "end": 26.13
        },
        {
         "n": 4,
         "role": "B",
-        "start": 25.34,
-        "end": 37.14
+        "start": 26.13,
+        "end": 37.2
        },
        {
         "n": 5,
         "role": "A",
-        "start": 37.14,
-        "end": 45.86
+        "start": 37.2,
+        "end": 45.84
        },
        {
         "n": 6,
         "role": "B",
-        "start": 45.86,
-        "end": 56.04
+        "start": 45.84,
+        "end": 56.52
        },
        {
         "n": 7,
         "role": "A",
-        "start": 56.04,
-        "end": 62.43
+        "start": 56.52,
+        "end": 63.15
        },
        {
         "n": 8,
         "role": "B",
-        "start": 62.43,
-        "end": 79.07
+        "start": 63.15,
+        "end": 80.43
        },
        {
         "n": 9,
         "role": "A",
-        "start": 79.07,
-        "end": 88.39
+        "start": 80.43,
+        "end": 90.18
        },
        {
         "n": 10,
         "role": "B",
-        "start": 88.39,
-        "end": 96.45
+        "start": 90.18,
+        "end": 98.42
        },
        {
         "n": 11,
         "role": "A",
-        "start": 96.45,
-        "end": 105.41
+        "start": 98.42,
+        "end": 108.4
        },
        {
         "n": 12,
         "role": "B",
-        "start": 105.41,
-        "end": 111.11
+        "start": 108.4,
+        "end": 113.7
        }
       ]
      },
@@ -17853,79 +17941,79 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b3-q11.m4a",
-      "audioDuration": 99.38,
+      "audioDuration": 102.12,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 4.29
+        "end": 3.98
        },
        {
         "n": 2,
         "role": "B",
-        "start": 4.29,
-        "end": 8.93
+        "start": 3.98,
+        "end": 8.45
        },
        {
         "n": 3,
         "role": "A",
-        "start": 8.93,
-        "end": 15.72
+        "start": 8.45,
+        "end": 15.76
        },
        {
         "n": 4,
         "role": "B",
-        "start": 15.72,
-        "end": 25.47
+        "start": 15.76,
+        "end": 25.32
        },
        {
         "n": 5,
         "role": "A",
-        "start": 25.47,
-        "end": 33.53
+        "start": 25.32,
+        "end": 33.56
        },
        {
         "n": 6,
         "role": "B",
-        "start": 33.53,
-        "end": 44.6
+        "start": 33.56,
+        "end": 44.82
        },
        {
         "n": 7,
         "role": "A",
-        "start": 44.6,
-        "end": 56.52
+        "start": 44.82,
+        "end": 57.49
        },
        {
         "n": 8,
         "role": "B",
-        "start": 56.52,
-        "end": 66.77
+        "start": 57.49,
+        "end": 67.99
        },
        {
         "n": 9,
         "role": "A",
-        "start": 66.77,
-        "end": 72.24
+        "start": 67.99,
+        "end": 73.27
        },
        {
         "n": 10,
         "role": "B",
-        "start": 72.24,
-        "end": 84.55
+        "start": 73.27,
+        "end": 86.22
        },
        {
         "n": 11,
         "role": "A",
-        "start": 84.55,
-        "end": 91.36
+        "start": 86.22,
+        "end": 93.69
        },
        {
         "n": 12,
         "role": "B",
-        "start": 91.36,
-        "end": 99.38
+        "start": 93.69,
+        "end": 102.12
        }
       ]
      }
@@ -18784,79 +18872,79 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b5-q12.m4a",
-      "audioDuration": 110.79,
+      "audioDuration": 113.84,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 5.42
+        "end": 5.23
        },
        {
         "n": 2,
         "role": "B",
-        "start": 5.42,
-        "end": 14.36
+        "start": 5.23,
+        "end": 14.67
        },
        {
         "n": 3,
         "role": "A",
-        "start": 14.36,
-        "end": 26.59
+        "start": 14.67,
+        "end": 27.75
        },
        {
         "n": 4,
         "role": "B",
-        "start": 26.59,
-        "end": 34.87
+        "start": 27.75,
+        "end": 35.73
        },
        {
         "n": 5,
         "role": "A",
-        "start": 34.87,
-        "end": 46.89
+        "start": 35.73,
+        "end": 48.83
        },
        {
         "n": 6,
         "role": "B",
-        "start": 46.89,
-        "end": 55.62
+        "start": 48.83,
+        "end": 58.41
        },
        {
         "n": 7,
         "role": "A",
-        "start": 55.62,
-        "end": 71.18
+        "start": 58.41,
+        "end": 74.28
        },
        {
         "n": 8,
         "role": "B",
-        "start": 71.18,
-        "end": 80.22
+        "start": 74.28,
+        "end": 83.42
        },
        {
         "n": 9,
         "role": "A",
-        "start": 80.22,
-        "end": 91.26
+        "start": 83.42,
+        "end": 94.23
        },
        {
         "n": 10,
         "role": "B",
-        "start": 91.26,
-        "end": 99.51
+        "start": 94.23,
+        "end": 102.34
        },
        {
         "n": 11,
         "role": "A",
-        "start": 99.51,
-        "end": 108.13
+        "start": 102.34,
+        "end": 111.3
        },
        {
         "n": 12,
         "role": "B",
-        "start": 108.13,
-        "end": 110.79
+        "start": 111.3,
+        "end": 113.84
        }
       ]
      },
@@ -19468,115 +19556,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b5-c3.m4a",
-      "audioDuration": 105.74,
+      "audioDuration": 105.85,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.62
+        "end": 4.43
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.62,
-        "end": 10.48
+        "start": 4.43,
+        "end": 10.89
        },
        {
         "n": "03",
         "role": "A",
-        "start": 10.48,
-        "end": 16.37
+        "start": 10.89,
+        "end": 16.62
        },
        {
         "n": "04",
         "role": "B",
-        "start": 16.37,
-        "end": 22.9
+        "start": 16.62,
+        "end": 22.87
        },
        {
         "n": "05",
         "role": "A",
-        "start": 22.9,
-        "end": 30.11
+        "start": 22.87,
+        "end": 30.3
        },
        {
         "n": "06",
         "role": "B",
-        "start": 30.11,
-        "end": 34.09
+        "start": 30.3,
+        "end": 33.91
        },
        {
         "n": "07",
         "role": "A",
-        "start": 34.09,
-        "end": 39.68
+        "start": 33.91,
+        "end": 39.54
        },
        {
         "n": "08",
         "role": "B",
-        "start": 39.68,
-        "end": 46.23
+        "start": 39.54,
+        "end": 46.73
        },
        {
         "n": "09",
         "role": "A",
-        "start": 46.23,
-        "end": 52.02
+        "start": 46.73,
+        "end": 52.23
        },
        {
         "n": "10",
         "role": "B",
-        "start": 52.02,
-        "end": 57.16
+        "start": 52.23,
+        "end": 57.03
        },
        {
         "n": "11",
         "role": "A",
-        "start": 57.16,
-        "end": 64.65
+        "start": 57.03,
+        "end": 64.04
        },
        {
         "n": "12",
         "role": "B",
-        "start": 64.65,
-        "end": 69.68
+        "start": 64.04,
+        "end": 69.51
        },
        {
         "n": "13",
         "role": "A",
-        "start": 69.68,
-        "end": 75.09
+        "start": 69.51,
+        "end": 74.47
        },
        {
         "n": "14",
         "role": "B",
-        "start": 75.09,
-        "end": 80.02
+        "start": 74.47,
+        "end": 79.52
        },
        {
         "n": "15",
         "role": "A",
-        "start": 80.02,
-        "end": 87.1
+        "start": 79.52,
+        "end": 87.12
        },
        {
         "n": "16",
         "role": "B",
-        "start": 87.1,
-        "end": 92.92
+        "start": 87.12,
+        "end": 92.62
        },
        {
         "n": "17",
         "role": "A",
-        "start": 92.92,
-        "end": 100.17
+        "start": 92.62,
+        "end": 100.39
        },
        {
         "n": "18",
         "role": "B",
-        "start": 100.17,
-        "end": 105.74
+        "start": 100.39,
+        "end": 105.85
        }
       ],
       "examNo": 13,
@@ -20142,79 +20230,79 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b5-q14.m4a",
-      "audioDuration": 93.77,
+      "audioDuration": 93.38,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 4.65
+        "end": 4.8
        },
        {
         "n": 2,
         "role": "B",
-        "start": 4.65,
-        "end": 13.32
+        "start": 4.8,
+        "end": 12.91
        },
        {
         "n": 3,
         "role": "A",
-        "start": 13.32,
-        "end": 18.21
+        "start": 12.91,
+        "end": 17.47
        },
        {
         "n": 4,
         "role": "B",
-        "start": 18.21,
-        "end": 28.74
+        "start": 17.47,
+        "end": 27.94
        },
        {
         "n": 5,
         "role": "A",
-        "start": 28.74,
-        "end": 35.99
+        "start": 27.94,
+        "end": 35.48
        },
        {
         "n": 6,
         "role": "B",
-        "start": 35.99,
-        "end": 45.88
+        "start": 35.48,
+        "end": 45.81
        },
        {
         "n": 7,
         "role": "A",
-        "start": 45.88,
-        "end": 54.45
+        "start": 45.81,
+        "end": 54.32
        },
        {
         "n": 8,
         "role": "B",
-        "start": 54.45,
-        "end": 65.32
+        "start": 54.32,
+        "end": 65.39
        },
        {
         "n": 9,
         "role": "A",
-        "start": 65.32,
-        "end": 72.75
+        "start": 65.39,
+        "end": 73.2
        },
        {
         "n": 10,
         "role": "B",
-        "start": 72.75,
-        "end": 81.85
+        "start": 73.2,
+        "end": 81.29
        },
        {
         "n": 11,
         "role": "A",
-        "start": 81.85,
-        "end": 90.29
+        "start": 81.29,
+        "end": 89.94
        },
        {
         "n": 12,
         "role": "B",
-        "start": 90.29,
-        "end": 93.77
+        "start": 89.94,
+        "end": 93.38
        }
       ]
      },
@@ -20776,79 +20864,79 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b5-q15.m4a",
-      "audioDuration": 110.57,
+      "audioDuration": 111.34,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 5.84
+        "end": 5.61
        },
        {
         "n": 2,
         "role": "B",
-        "start": 5.84,
-        "end": 15.92
+        "start": 5.61,
+        "end": 15.86
        },
        {
         "n": 3,
         "role": "A",
-        "start": 15.92,
-        "end": 21.92
+        "start": 15.86,
+        "end": 21.59
        },
        {
         "n": 4,
         "role": "B",
-        "start": 21.92,
-        "end": 34.32
+        "start": 21.59,
+        "end": 33.79
        },
        {
         "n": 5,
         "role": "A",
-        "start": 34.32,
-        "end": 44.99
+        "start": 33.79,
+        "end": 45.16
        },
        {
         "n": 6,
         "role": "B",
-        "start": 44.99,
-        "end": 59.95
+        "start": 45.16,
+        "end": 60.42
        },
        {
         "n": 7,
         "role": "A",
-        "start": 59.95,
-        "end": 66.33
+        "start": 60.42,
+        "end": 67.41
        },
        {
         "n": 8,
         "role": "B",
-        "start": 66.33,
-        "end": 76.93
+        "start": 67.41,
+        "end": 78.12
        },
        {
         "n": 9,
         "role": "A",
-        "start": 76.93,
-        "end": 82.78
+        "start": 78.12,
+        "end": 83.72
        },
        {
         "n": 10,
         "role": "B",
-        "start": 82.78,
-        "end": 94.02
+        "start": 83.72,
+        "end": 94.73
        },
        {
         "n": 11,
         "role": "A",
-        "start": 94.02,
-        "end": 101.55
+        "start": 94.73,
+        "end": 102.36
        },
        {
         "n": 12,
         "role": "B",
-        "start": 101.55,
-        "end": 110.57
+        "start": 102.36,
+        "end": 111.34
        }
       ]
      },
@@ -21410,79 +21498,79 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b5-q16.m4a",
-      "audioDuration": 109.91,
+      "audioDuration": 109.7,
       "audioTimings": [
        {
         "n": 1,
         "role": "A",
         "start": 0.25,
-        "end": 5.42
+        "end": 5.15
        },
        {
         "n": 2,
         "role": "B",
-        "start": 5.42,
-        "end": 14.26
+        "start": 5.15,
+        "end": 14.68
        },
        {
         "n": 3,
         "role": "A",
-        "start": 14.26,
-        "end": 23.36
+        "start": 14.68,
+        "end": 23.85
        },
        {
         "n": 4,
         "role": "B",
-        "start": 23.36,
-        "end": 31.28
+        "start": 23.85,
+        "end": 32.2
        },
        {
         "n": 5,
         "role": "A",
-        "start": 31.28,
-        "end": 35.17
+        "start": 32.2,
+        "end": 36.32
        },
        {
         "n": 6,
         "role": "B",
-        "start": 35.17,
-        "end": 46.89
+        "start": 36.32,
+        "end": 47.98
        },
        {
         "n": 7,
         "role": "A",
-        "start": 46.89,
-        "end": 55.34
+        "start": 47.98,
+        "end": 55.68
        },
        {
         "n": 8,
         "role": "B",
-        "start": 55.34,
-        "end": 69.63
+        "start": 55.68,
+        "end": 69.82
        },
        {
         "n": 9,
         "role": "A",
-        "start": 69.63,
-        "end": 78.39
+        "start": 69.82,
+        "end": 78.37
        },
        {
         "n": 10,
         "role": "B",
-        "start": 78.39,
+        "start": 78.37,
         "end": 89.12
        },
        {
         "n": 11,
         "role": "A",
         "start": 89.12,
-        "end": 96.5
+        "end": 95.88
        },
        {
         "n": 12,
         "role": "B",
-        "start": 96.5,
-        "end": 109.91
+        "start": 95.88,
+        "end": 109.7
        }
       ]
      },
@@ -22056,115 +22144,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b5-c1.m4a",
-      "audioDuration": 102.71,
+      "audioDuration": 102.03,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 5.77
+        "end": 5.48
        },
        {
         "n": "02",
         "role": "B",
-        "start": 5.77,
-        "end": 10.27
+        "start": 5.48,
+        "end": 9.73
        },
        {
         "n": "03",
         "role": "A",
-        "start": 10.27,
-        "end": 16.36
+        "start": 9.73,
+        "end": 15.59
        },
        {
         "n": "04",
         "role": "B",
-        "start": 16.36,
-        "end": 20.14
+        "start": 15.59,
+        "end": 19.06
        },
        {
         "n": "05",
         "role": "A",
-        "start": 20.14,
-        "end": 25.53
+        "start": 19.06,
+        "end": 24.6
        },
        {
         "n": "06",
         "role": "B",
-        "start": 25.53,
-        "end": 32.13
+        "start": 24.6,
+        "end": 31.92
        },
        {
         "n": "07",
         "role": "A",
-        "start": 32.13,
-        "end": 37.31
+        "start": 31.92,
+        "end": 36.76
        },
        {
         "n": "08",
         "role": "B",
-        "start": 37.31,
-        "end": 42.99
+        "start": 36.76,
+        "end": 42.54
        },
        {
         "n": "09",
         "role": "A",
-        "start": 42.99,
-        "end": 49.16
+        "start": 42.54,
+        "end": 48.32
        },
        {
         "n": "10",
         "role": "B",
-        "start": 49.16,
-        "end": 56.2
+        "start": 48.32,
+        "end": 55.06
        },
        {
         "n": "11",
         "role": "A",
-        "start": 56.2,
-        "end": 62.11
+        "start": 55.06,
+        "end": 60.44
        },
        {
         "n": "12",
         "role": "B",
-        "start": 62.11,
-        "end": 66.49
+        "start": 60.44,
+        "end": 65.39
        },
        {
         "n": "13",
         "role": "A",
-        "start": 66.49,
-        "end": 71.81
+        "start": 65.39,
+        "end": 70.52
        },
        {
         "n": "14",
         "role": "B",
-        "start": 71.81,
-        "end": 76.94
+        "start": 70.52,
+        "end": 75.44
        },
        {
         "n": "15",
         "role": "A",
-        "start": 76.94,
-        "end": 82.75
+        "start": 75.44,
+        "end": 81.44
        },
        {
         "n": "16",
         "role": "B",
-        "start": 82.75,
-        "end": 88.44
+        "start": 81.44,
+        "end": 86.92
        },
        {
         "n": "17",
         "role": "A",
-        "start": 88.44,
-        "end": 96.89
+        "start": 86.92,
+        "end": 95.77
        },
        {
         "n": "18",
         "role": "B",
-        "start": 96.89,
-        "end": 102.71
+        "start": 95.77,
+        "end": 102.03
        }
       ],
       "isExamScope": false
@@ -22777,115 +22865,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b5-c2.m4a",
-      "audioDuration": 104.89,
+      "audioDuration": 109.09,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.88
+        "end": 4.7
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.88,
-        "end": 10.98
+        "start": 4.7,
+        "end": 11.17
        },
        {
         "n": "03",
         "role": "A",
-        "start": 10.98,
-        "end": 16.67
+        "start": 11.17,
+        "end": 16.64
        },
        {
         "n": "04",
         "role": "B",
-        "start": 16.67,
-        "end": 23.65
+        "start": 16.64,
+        "end": 23.93
        },
        {
         "n": "05",
         "role": "A",
-        "start": 23.65,
-        "end": 29.88
+        "start": 23.93,
+        "end": 30.66
        },
        {
         "n": "06",
         "role": "B",
-        "start": 29.88,
-        "end": 36.56
+        "start": 30.66,
+        "end": 37.05
        },
        {
         "n": "07",
         "role": "A",
-        "start": 36.56,
-        "end": 42.5
+        "start": 37.05,
+        "end": 43.31
        },
        {
         "n": "08",
         "role": "B",
-        "start": 42.5,
-        "end": 49.1
+        "start": 43.31,
+        "end": 50.22
        },
        {
         "n": "09",
         "role": "A",
-        "start": 49.1,
-        "end": 54.81
+        "start": 50.22,
+        "end": 56.48
        },
        {
         "n": "10",
         "role": "B",
-        "start": 54.81,
-        "end": 58.29
+        "start": 56.48,
+        "end": 60.22
        },
        {
         "n": "11",
         "role": "A",
-        "start": 58.29,
-        "end": 64.15
+        "start": 60.22,
+        "end": 65.86
        },
        {
         "n": "12",
         "role": "B",
-        "start": 64.15,
-        "end": 70
+        "start": 65.86,
+        "end": 72.33
        },
        {
         "n": "13",
         "role": "A",
-        "start": 70,
-        "end": 76.03
+        "start": 72.33,
+        "end": 78.64
        },
        {
         "n": "14",
         "role": "B",
-        "start": 76.03,
-        "end": 82.54
+        "start": 78.64,
+        "end": 85.67
        },
        {
         "n": "15",
         "role": "A",
-        "start": 82.54,
-        "end": 88.05
+        "start": 85.67,
+        "end": 91.42
        },
        {
         "n": "16",
         "role": "B",
-        "start": 88.05,
-        "end": 93.25
+        "start": 91.42,
+        "end": 96.36
        },
        {
         "n": "17",
         "role": "A",
-        "start": 93.25,
-        "end": 99.53
+        "start": 96.36,
+        "end": 103.2
        },
        {
         "n": "18",
         "role": "B",
-        "start": 99.53,
-        "end": 104.89
+        "start": 103.2,
+        "end": 109.09
        }
       ],
       "isExamScope": false
@@ -23672,115 +23760,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b7-c1.m4a",
-      "audioDuration": 94.41,
+      "audioDuration": 96.4,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.4
+        "end": 4.93
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.4,
-        "end": 10.02
+        "start": 4.93,
+        "end": 11.1
        },
        {
         "n": "03",
         "role": "A",
-        "start": 10.02,
-        "end": 15.14
+        "start": 11.1,
+        "end": 16.59
        },
        {
         "n": "04",
         "role": "B",
-        "start": 15.14,
-        "end": 21.51
+        "start": 16.59,
+        "end": 24.54
        },
        {
         "n": "05",
         "role": "A",
-        "start": 21.51,
-        "end": 24.31
+        "start": 24.54,
+        "end": 27.23
        },
        {
         "n": "06",
         "role": "B",
-        "start": 24.31,
-        "end": 29.73
+        "start": 27.23,
+        "end": 32.45
        },
        {
         "n": "07",
         "role": "A",
-        "start": 29.73,
-        "end": 33.22
+        "start": 32.45,
+        "end": 35.65
        },
        {
         "n": "08",
         "role": "B",
-        "start": 33.22,
-        "end": 40.2
+        "start": 35.65,
+        "end": 42.29
        },
        {
         "n": "09",
         "role": "A",
-        "start": 40.2,
-        "end": 45.72
+        "start": 42.29,
+        "end": 48.1
        },
        {
         "n": "10",
         "role": "B",
-        "start": 45.72,
-        "end": 52.51
+        "start": 48.1,
+        "end": 54.57
        },
        {
         "n": "11",
         "role": "A",
-        "start": 52.51,
-        "end": 56.59
+        "start": 54.57,
+        "end": 58.8
        },
        {
         "n": "12",
         "role": "B",
-        "start": 56.59,
-        "end": 61.92
+        "start": 58.8,
+        "end": 63.67
        },
        {
         "n": "13",
         "role": "A",
-        "start": 61.92,
-        "end": 67.86
+        "start": 63.67,
+        "end": 69.93
        },
        {
         "n": "14",
         "role": "B",
-        "start": 67.86,
-        "end": 74.08
+        "start": 69.93,
+        "end": 76.58
        },
        {
         "n": "15",
         "role": "A",
-        "start": 74.08,
-        "end": 78.91
+        "start": 76.58,
+        "end": 81.07
        },
        {
         "n": "16",
         "role": "B",
-        "start": 78.91,
-        "end": 86.1
+        "start": 81.07,
+        "end": 88.66
        },
        {
         "n": "17",
         "role": "A",
-        "start": 86.1,
-        "end": 89.87
+        "start": 88.66,
+        "end": 92.06
        },
        {
         "n": "18",
         "role": "B",
-        "start": 89.87,
-        "end": 94.41
+        "start": 92.06,
+        "end": 96.4
        }
       ],
       "isExamScope": false
@@ -24355,115 +24443,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b7-c2.m4a",
-      "audioDuration": 99.41,
+      "audioDuration": 100.92,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 5.62
+        "end": 5.35
        },
        {
         "n": "02",
         "role": "B",
-        "start": 5.62,
-        "end": 11.86
+        "start": 5.35,
+        "end": 12.07
        },
        {
         "n": "03",
         "role": "A",
-        "start": 11.86,
-        "end": 17.19
+        "start": 12.07,
+        "end": 17.63
        },
        {
         "n": "04",
         "role": "B",
-        "start": 17.19,
-        "end": 23.06
+        "start": 17.63,
+        "end": 24.12
        },
        {
         "n": "05",
         "role": "A",
-        "start": 23.06,
-        "end": 26.91
+        "start": 24.12,
+        "end": 27.48
        },
        {
         "n": "06",
         "role": "B",
-        "start": 26.91,
-        "end": 33.73
+        "start": 27.48,
+        "end": 35.14
        },
        {
         "n": "07",
         "role": "A",
-        "start": 33.73,
-        "end": 39.25
+        "start": 35.14,
+        "end": 40.42
        },
        {
         "n": "08",
         "role": "B",
-        "start": 39.25,
-        "end": 45.12
+        "start": 40.42,
+        "end": 45.99
        },
        {
         "n": "09",
         "role": "A",
-        "start": 45.12,
-        "end": 49.09
+        "start": 45.99,
+        "end": 49.76
        },
        {
         "n": "10",
         "role": "B",
-        "start": 49.09,
-        "end": 56.1
+        "start": 49.76,
+        "end": 56.49
        },
        {
         "n": "11",
         "role": "A",
-        "start": 56.1,
-        "end": 59.19
+        "start": 56.49,
+        "end": 60.06
        },
        {
         "n": "12",
         "role": "B",
-        "start": 59.19,
-        "end": 64.68
+        "start": 60.06,
+        "end": 65.37
        },
        {
         "n": "13",
         "role": "A",
-        "start": 64.68,
-        "end": 69.62
+        "start": 65.37,
+        "end": 70.47
        },
        {
         "n": "14",
         "role": "B",
-        "start": 69.62,
-        "end": 76.53
+        "start": 70.47,
+        "end": 77.17
        },
        {
         "n": "15",
         "role": "A",
-        "start": 76.53,
-        "end": 80.36
+        "start": 77.17,
+        "end": 80.68
        },
        {
         "n": "16",
         "role": "B",
-        "start": 80.36,
-        "end": 86.62
+        "start": 80.68,
+        "end": 87.15
        },
        {
         "n": "17",
         "role": "A",
-        "start": 86.62,
-        "end": 92.68
+        "start": 87.15,
+        "end": 93.7
        },
        {
         "n": "18",
         "role": "B",
-        "start": 92.68,
-        "end": 99.41
+        "start": 93.7,
+        "end": 100.92
        }
       ],
       "isExamScope": false
@@ -25265,7 +25353,7 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b8-c1.m4a",
-      "audioDuration": 109.86,
+      "audioDuration": 111.7,
       "audioTimings": [
        {
         "n": "01",
@@ -25277,103 +25365,103 @@ window.APP_BOOKS = {
         "n": "02",
         "role": "B",
         "start": 3.98,
-        "end": 10.22
+        "end": 10.91
        },
        {
         "n": "03",
         "role": "A",
-        "start": 10.22,
-        "end": 15.32
+        "start": 10.91,
+        "end": 16.24
        },
        {
         "n": "04",
         "role": "B",
-        "start": 15.32,
-        "end": 21.86
+        "start": 16.24,
+        "end": 22.61
        },
        {
         "n": "05",
         "role": "A",
-        "start": 21.86,
-        "end": 27.13
+        "start": 22.61,
+        "end": 27.51
        },
        {
         "n": "06",
         "role": "B",
-        "start": 27.13,
-        "end": 33.63
+        "start": 27.51,
+        "end": 34.23
        },
        {
         "n": "07",
         "role": "A",
-        "start": 33.63,
-        "end": 39.15
+        "start": 34.23,
+        "end": 40.14
        },
        {
         "n": "08",
         "role": "B",
-        "start": 39.15,
-        "end": 45.9
+        "start": 40.14,
+        "end": 46.62
        },
        {
         "n": "09",
         "role": "A",
-        "start": 45.9,
-        "end": 54.78
+        "start": 46.62,
+        "end": 55.99
        },
        {
         "n": "10",
         "role": "B",
-        "start": 54.78,
-        "end": 61.68
+        "start": 55.99,
+        "end": 63.31
        },
        {
         "n": "11",
         "role": "A",
-        "start": 61.68,
-        "end": 68.59
+        "start": 63.31,
+        "end": 69.94
        },
        {
         "n": "12",
         "role": "B",
-        "start": 68.59,
-        "end": 74.52
+        "start": 69.94,
+        "end": 76.16
        },
        {
         "n": "13",
         "role": "A",
-        "start": 74.52,
-        "end": 80.66
+        "start": 76.16,
+        "end": 82.14
        },
        {
         "n": "14",
         "role": "B",
-        "start": 80.66,
-        "end": 87.35
+        "start": 82.14,
+        "end": 88.64
        },
        {
         "n": "15",
         "role": "A",
-        "start": 87.35,
-        "end": 93.24
+        "start": 88.64,
+        "end": 94.83
        },
        {
         "n": "16",
         "role": "B",
-        "start": 93.24,
-        "end": 98.98
+        "start": 94.83,
+        "end": 100.47
        },
        {
         "n": "17",
         "role": "A",
-        "start": 98.98,
-        "end": 104.42
+        "start": 100.47,
+        "end": 105.55
        },
        {
         "n": "18",
         "role": "B",
-        "start": 104.42,
-        "end": 109.86
+        "start": 105.55,
+        "end": 111.7
        }
       ],
       "isExamScope": false
@@ -25948,115 +26036,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b8-c2.m4a",
-      "audioDuration": 106.98,
+      "audioDuration": 108.88,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 4.87
+        "end": 4.72
        },
        {
         "n": "02",
         "role": "B",
-        "start": 4.87,
-        "end": 9.53
+        "start": 4.72,
+        "end": 9.79
        },
        {
         "n": "03",
         "role": "A",
-        "start": 9.53,
-        "end": 14.9
+        "start": 9.79,
+        "end": 15.84
        },
        {
         "n": "04",
         "role": "B",
-        "start": 14.9,
-        "end": 21.46
+        "start": 15.84,
+        "end": 23.08
        },
        {
         "n": "05",
         "role": "A",
-        "start": 21.46,
-        "end": 26.78
+        "start": 23.08,
+        "end": 28.5
        },
        {
         "n": "06",
         "role": "B",
-        "start": 26.78,
-        "end": 33.97
+        "start": 28.5,
+        "end": 35.28
        },
        {
         "n": "07",
         "role": "A",
-        "start": 33.97,
-        "end": 38.99
+        "start": 35.28,
+        "end": 40.63
        },
        {
         "n": "08",
         "role": "B",
-        "start": 38.99,
-        "end": 45.72
+        "start": 40.63,
+        "end": 47.01
        },
        {
         "n": "09",
         "role": "A",
-        "start": 45.72,
-        "end": 51.81
+        "start": 47.01,
+        "end": 53.27
        },
        {
         "n": "10",
         "role": "B",
-        "start": 51.81,
-        "end": 58.76
+        "start": 53.27,
+        "end": 60.42
        },
        {
         "n": "11",
         "role": "A",
-        "start": 58.76,
-        "end": 62.75
+        "start": 60.42,
+        "end": 64.55
        },
        {
         "n": "12",
         "role": "B",
-        "start": 62.75,
-        "end": 69.05
+        "start": 64.55,
+        "end": 70.46
        },
        {
         "n": "13",
         "role": "A",
-        "start": 69.05,
-        "end": 74.67
+        "start": 70.46,
+        "end": 75.52
        },
        {
         "n": "14",
         "role": "B",
-        "start": 74.67,
-        "end": 82.77
+        "start": 75.52,
+        "end": 84.46
        },
        {
         "n": "15",
         "role": "A",
-        "start": 82.77,
-        "end": 88.33
+        "start": 84.46,
+        "end": 89.76
        },
        {
         "n": "16",
         "role": "B",
-        "start": 88.33,
-        "end": 95.27
+        "start": 89.76,
+        "end": 96.43
        },
        {
         "n": "17",
         "role": "A",
-        "start": 95.27,
-        "end": 101.46
+        "start": 96.43,
+        "end": 103.08
        },
        {
         "n": "18",
         "role": "B",
-        "start": 101.46,
-        "end": 106.98
+        "start": 103.08,
+        "end": 108.88
        }
       ],
       "isExamScope": false
@@ -26869,115 +26957,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b9-c1.m4a",
-      "audioDuration": 107.7,
+      "audioDuration": 110.3,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 5.52
+        "end": 5.82
        },
        {
         "n": "02",
         "role": "B",
-        "start": 5.52,
-        "end": 12.17
+        "start": 5.82,
+        "end": 12.77
        },
        {
         "n": "03",
         "role": "A",
-        "start": 12.17,
-        "end": 17.33
+        "start": 12.77,
+        "end": 17.6
        },
        {
         "n": "04",
         "role": "B",
-        "start": 17.33,
-        "end": 22.11
+        "start": 17.6,
+        "end": 22.7
        },
        {
         "n": "05",
         "role": "A",
-        "start": 22.11,
-        "end": 29.42
+        "start": 22.7,
+        "end": 30.36
        },
        {
         "n": "06",
         "role": "B",
-        "start": 29.42,
-        "end": 36.08
+        "start": 30.36,
+        "end": 37.33
        },
        {
         "n": "07",
         "role": "A",
-        "start": 36.08,
-        "end": 39.6
+        "start": 37.33,
+        "end": 40.48
        },
        {
         "n": "08",
         "role": "B",
-        "start": 39.6,
-        "end": 45.3
+        "start": 40.48,
+        "end": 46.5
        },
        {
         "n": "09",
         "role": "A",
-        "start": 45.3,
-        "end": 51.12
+        "start": 46.5,
+        "end": 52.05
        },
        {
         "n": "10",
         "role": "B",
-        "start": 51.12,
-        "end": 58.5
+        "start": 52.05,
+        "end": 59.81
        },
        {
         "n": "11",
         "role": "A",
-        "start": 58.5,
-        "end": 64.91
+        "start": 59.81,
+        "end": 66.71
        },
        {
         "n": "12",
         "role": "B",
-        "start": 64.91,
-        "end": 70.65
+        "start": 66.71,
+        "end": 72.91
        },
        {
         "n": "13",
         "role": "A",
-        "start": 70.65,
-        "end": 76.97
+        "start": 72.91,
+        "end": 78.99
        },
        {
         "n": "14",
         "role": "B",
-        "start": 76.97,
-        "end": 83.01
+        "start": 78.99,
+        "end": 84.64
        },
        {
         "n": "15",
         "role": "A",
-        "start": 83.01,
-        "end": 88.2
+        "start": 84.64,
+        "end": 89.32
        },
        {
         "n": "16",
         "role": "B",
-        "start": 88.2,
-        "end": 95.3
+        "start": 89.32,
+        "end": 97.35
        },
        {
         "n": "17",
         "role": "A",
-        "start": 95.3,
-        "end": 101.49
+        "start": 97.35,
+        "end": 103.7
        },
        {
         "n": "18",
         "role": "B",
-        "start": 101.49,
-        "end": 107.7
+        "start": 103.7,
+        "end": 110.3
        }
       ],
       "isExamScope": false
@@ -27590,115 +27678,115 @@ window.APP_BOOKS = {
        }
       ],
       "audio": "audio/b9-c2.m4a",
-      "audioDuration": 105.8,
+      "audioDuration": 106.67,
       "audioTimings": [
        {
         "n": "01",
         "role": "A",
         "start": 0.25,
-        "end": 5.87
+        "end": 5.91
        },
        {
         "n": "02",
         "role": "B",
-        "start": 5.87,
-        "end": 11.64
+        "start": 5.91,
+        "end": 11.28
        },
        {
         "n": "03",
         "role": "A",
-        "start": 11.64,
-        "end": 16.86
+        "start": 11.28,
+        "end": 16.59
        },
        {
         "n": "04",
         "role": "B",
-        "start": 16.86,
+        "start": 16.59,
         "end": 23.25
        },
        {
         "n": "05",
         "role": "A",
         "start": 23.25,
-        "end": 27.73
+        "end": 27.61
        },
        {
         "n": "06",
         "role": "B",
-        "start": 27.73,
-        "end": 36.71
+        "start": 27.61,
+        "end": 36.69
        },
        {
         "n": "07",
         "role": "A",
-        "start": 36.71,
-        "end": 40.05
+        "start": 36.69,
+        "end": 39.75
        },
        {
         "n": "08",
         "role": "B",
-        "start": 40.05,
-        "end": 46.13
+        "start": 39.75,
+        "end": 45.61
        },
        {
         "n": "09",
         "role": "A",
-        "start": 46.13,
-        "end": 51.78
+        "start": 45.61,
+        "end": 51.85
        },
        {
         "n": "10",
         "role": "B",
-        "start": 51.78,
-        "end": 58.23
+        "start": 51.85,
+        "end": 58.07
        },
        {
         "n": "11",
         "role": "A",
-        "start": 58.23,
-        "end": 64.07
+        "start": 58.07,
+        "end": 64.25
        },
        {
         "n": "12",
         "role": "B",
-        "start": 64.07,
-        "end": 70.45
+        "start": 64.25,
+        "end": 71.13
        },
        {
         "n": "13",
         "role": "A",
-        "start": 70.45,
-        "end": 74.85
+        "start": 71.13,
+        "end": 75.27
        },
        {
         "n": "14",
         "role": "B",
-        "start": 74.85,
-        "end": 81.28
+        "start": 75.27,
+        "end": 81.64
        },
        {
         "n": "15",
         "role": "A",
-        "start": 81.28,
-        "end": 85.04
+        "start": 81.64,
+        "end": 85.07
        },
        {
         "n": "16",
         "role": "B",
-        "start": 85.04,
-        "end": 93.59
+        "start": 85.07,
+        "end": 93.68
        },
        {
         "n": "17",
         "role": "A",
-        "start": 93.59,
-        "end": 99.67
+        "start": 93.68,
+        "end": 100.07
        },
        {
         "n": "18",
         "role": "B",
-        "start": 99.67,
-        "end": 105.8
+        "start": 100.07,
+        "end": 106.67
        }
       ],
       "isExamScope": false

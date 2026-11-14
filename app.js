@@ -193,7 +193,7 @@
     // Dừng audio cũ nếu đang phát topic khác
     stopAudio();
 
-    const audioSrc = topic.audio.includes("?") ? topic.audio : `${topic.audio}?v=21`;
+    const audioSrc = topic.audio.includes("?") ? topic.audio : `${topic.audio}?v=22`;
     const audio = new Audio(audioSrc);
     audio.preload = "auto";
     audio.preservesPitch = true; // giữ cao độ giọng khi đổi tốc độ 0.8x / 1.2x
@@ -823,7 +823,7 @@ ${topic.titleVi ? `（情境说明：${topic.titleVi}）` : ""}${slideFollowups}
                           <span class="loop-txt">🔁 Lặp</span>
                         </label>
 
-                        <a href="${t.audio}" download="${t.id}-audio.m4a" class="btn-download-audio" title="Tải file âm thanh về máy để nghe offline">
+                        <a href="${t.audio}?v=22" download="${t.id}-audio.m4a" class="btn-download-audio" title="Tải file âm thanh về máy để nghe offline">
                           <span>⬇️ Tải</span>
                         </a>
                       </div>
